@@ -35,12 +35,7 @@ export default function Home() {
   document.body.appendChild(leafletScript);
 }, []);
   return (
-    <div style={{
-      fontFamily:"Arial",
-      padding:"40px",
-      background:"#f4f7fb",
-      minHeight:"100vh"
-    }}>
+    <div className="page">
 
 <nav style={{
   position:"sticky",
@@ -132,14 +127,7 @@ export default function Home() {
   </div>
 </nav>
       
-      <div style={{
-        maxWidth:"1000px",
-        margin:"auto",
-        background:"white",
-        padding:"50px",
-        borderRadius:"20px",
-        boxShadow:"0 10px 30px rgba(0,0,0,0.1)"
-      }}>
+      <div className="main-card">
         
     <section style={{
   background:"linear-gradient(135deg, #08285c, #0b3f88)",
@@ -976,6 +964,78 @@ border:"1px solid rgba(11,44,95,0.05)"
 
 </footer>
                           <style jsx global>{`
+
+                           .page{
+                           font-family: Arial;
+                           padding:40px;
+                           background:#f4f7fb;
+                           min-height:100vh;
+                         }
+                         
+                         .main-card{
+                           max-width:1000px;
+                           margin:auto;
+                           background:white;
+                           padding:50px;
+                           border-radius:20px;
+                           box-shadow:0 10px 30px rgba(0,0,0,0.1);
+                         }
+                         
+                         @media (max-width:768px){
+                           .page{
+                             padding:10px;
+                           }
+                         
+                           .main-card{
+                             padding:18px;
+                             border-radius:16px;
+                           }
+                         
+                           nav{
+                             top:0 !important;
+                             margin-bottom:15px !important;
+                             border-radius:18px !important;
+                           }
+                         
+                           nav > div:first-child{
+                             justify-content:center;
+                             width:100%;
+                           }
+                         
+                           nav > div:last-child{
+                             justify-content:center;
+                             width:100%;
+                             gap:10px !important;
+                           }
+                         
+                           nav a{
+                             font-size:13px;
+                           }
+                         
+                           section{
+                             padding:24px 18px !important;
+                           }
+                         
+                           h1{
+                             font-size:28px !important;
+                           }
+                         
+                           h2{
+                             font-size:26px !important;
+                           }
+                         
+                           p{
+                             font-size:16px !important;
+                           }
+                         
+                           img{
+                             max-width:100%;
+                           }
+                         
+                           #mapa-teccasa{
+                             height:300px !important;
+                           }
+                         }
                            .cartao-servico {
                              transition: transform 0.3s ease, box-shadow 0.3s ease;
                            }
