@@ -511,9 +511,10 @@ export default function Home() {
                                           gap:"20px",
                                           marginTop:"20px"
                                         }}>
-                                      
-                                       <div
-  style={{
+
+    <div className="contact-card"
+    <div
+    style={{
     background:"#e6edf7",
     padding:"20px",
     borderRadius:"18px",
@@ -543,7 +544,7 @@ export default function Home() {
   <p style={{color:"#25D366", fontWeight:"bold"}}>Ligar ou enviar mensagem</p>
 </div>
 
-
+<div className="contact-card"
 <div
   style={{
     background:"#e6edf7",
@@ -570,7 +571,7 @@ export default function Home() {
   <p>Enviar email</p>
 </div>
 
-
+<div className="contact-card"
 <div
   style={{
     background:"#e6edf7",
@@ -993,6 +994,7 @@ border:"1px solid rgba(11,44,95,0.05)"
                                text-align:center;
                              }
 
+                            
                              section img[src="/Logo.png"]{
                              width:85% !important;
                              max-width:260px !important;
@@ -1025,7 +1027,18 @@ border:"1px solid rgba(11,44,95,0.05)"
                              div[style*="grid-template-columns"] {
                                justify-items:center;
                              }
-                           
+                           .contact-card{
+                             text-align:center;
+                           }
+                         
+                           .contact-card h3{
+                             justify-content:center;
+                           }
+                         
+                           .contact-card > div{
+                             justify-content:center;
+                           }
+                         }
                              /* Cartões de contactos ocupam a largura certa */
                              div[style*="minmax(260px,1fr)"] > div {
                                width:100%;
