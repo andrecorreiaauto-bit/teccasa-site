@@ -1034,6 +1034,54 @@ border:"1px solid rgba(11,44,95,0.05)"
                            transform:scale(1);
                            }
                            }
+                           @media (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  nav {
+    position: static !important;
+    border-radius: 22px !important;
+  }
+
+  nav > div {
+    width: 100%;
+    justify-content: center !important;
+    text-align: center;
+  }
+
+  nav a {
+    font-size: 14px;
+  }
+
+  div[style*="padding: 40px"] {
+    padding: 15px !important;
+  }
+
+  div[style*="padding: 50px"] {
+    padding: 24px !important;
+  }
+
+  section {
+    padding: 28px 22px !important;
+  }
+
+  h1 {
+    font-size: 30px !important;
+  }
+
+  h2 {
+    font-size: 28px !important;
+  }
+
+  #mapa-teccasa {
+    height: 320px !important;
+  }
+
+  footer {
+    padding: 35px 18px !important;
+  }
+}
                          `}</style>
 
  <a
