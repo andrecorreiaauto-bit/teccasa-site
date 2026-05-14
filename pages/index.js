@@ -56,6 +56,8 @@ export default function Home() {
   display:"flex",
   justifyContent:"space-between",
   alignItems:"center",
+  flexWrap:"wrap",
+  gap:"12px",
   boxShadow:"0 10px 30px rgba(11,44,95,0.10)"
 }}>
   <div style={{
@@ -151,7 +153,7 @@ export default function Home() {
                     <img
                       src="/Logo.png"
                       style={{
-                        width:"300px",
+                        width:"min(300px,100%)",
                         background:"white",
                         padding:"15px",
                         borderRadius:"18px",
@@ -160,7 +162,7 @@ export default function Home() {
                     />
                   
                     <h1 style={{
-                      fontSize:"42px",
+                      fontSize:"clamp(30px,6vw,42px)",
                       margin:"0 0 15px 0",
                       lineHeight:"1.15"
                     }}>
@@ -168,7 +170,7 @@ export default function Home() {
                     </h1>
                   
                     <p style={{
-                      fontSize:"20px",
+                      fontSize:"clamp(16px,3vw,20px)",
                       color:"#dbeafe",
                       maxWidth:"750px",
                       lineHeight:"1.5"
