@@ -363,11 +363,26 @@ export default function Home() {
                                           marginTop:"20px"
                                         }}>
                                       
-                                          <div style={{
-                                            background:"#f5f7fb",
-                                            padding:"20px",
-                                            borderRadius:"15px"
-                                          }}>
+                                       <div
+style={{
+background:"#f5f7fb",
+padding:"20px",
+borderRadius:"18px",
+transition:"0.3s",
+cursor:"pointer",
+boxShadow:"0 8px 25px rgba(0,0,0,0.05)"
+}}
+
+onMouseEnter={(e)=>{
+e.currentTarget.style.transform="translateY(-8px)"
+e.currentTarget.style.boxShadow="0 20px 40px rgba(11,44,95,0.15)"
+}}
+
+onMouseLeave={(e)=>{
+e.currentTarget.style.transform="translateY(0px)"
+e.currentTarget.style.boxShadow="0 8px 25px rgba(0,0,0,0.05)"
+}}
+>
                                             <h3>📞 Telefone / WhatsApp</h3>
                                       
                                             <a
@@ -397,11 +412,26 @@ export default function Home() {
                                           </div>
                                       
                                       
-                                          <div style={{
-                                            background:"#f5f7fb",
-                                            padding:"20px",
-                                            borderRadius:"15px"
-                                          }}>
+                                        <div
+style={{
+background:"#f5f7fb",
+padding:"20px",
+borderRadius:"18px",
+transition:"0.3s",
+cursor:"pointer",
+boxShadow:"0 8px 25px rgba(0,0,0,0.05)"
+}}
+
+onMouseEnter={(e)=>{
+e.currentTarget.style.transform="translateY(-8px)"
+e.currentTarget.style.boxShadow="0 20px 40px rgba(11,44,95,0.15)"
+}}
+
+onMouseLeave={(e)=>{
+e.currentTarget.style.transform="translateY(0px)"
+e.currentTarget.style.boxShadow="0 8px 25px rgba(0,0,0,0.05)"
+}}
+>
                                             <h3>✉️ Email</h3>
                                       
                                             <a
@@ -416,11 +446,26 @@ export default function Home() {
                                           </div>
                                       
                                       
-                                          <div style={{
-                                            background:"#f5f7fb",
-                                            padding:"20px",
-                                            borderRadius:"15px"
-                                          }}>
+                                       <div
+style={{
+background:"#f5f7fb",
+padding:"20px",
+borderRadius:"18px",
+transition:"0.3s",
+cursor:"pointer",
+boxShadow:"0 8px 25px rgba(0,0,0,0.05)"
+}}
+
+onMouseEnter={(e)=>{
+e.currentTarget.style.transform="translateY(-8px)"
+e.currentTarget.style.boxShadow="0 20px 40px rgba(11,44,95,0.15)"
+}}
+
+onMouseLeave={(e)=>{
+e.currentTarget.style.transform="translateY(0px)"
+e.currentTarget.style.boxShadow="0 8px 25px rgba(0,0,0,0.05)"
+}}
+>
                                             <h3>🌐 Redes sociais</h3>
                                       
                                             <a
