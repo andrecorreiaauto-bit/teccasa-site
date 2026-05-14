@@ -506,12 +506,16 @@ export default function Home() {
                    </p>
                  </div>
                                       
-                                        <div style={{
-                                          display:"grid",
-                                          gridTemplateColumns:"repeat(auto-fit,minmax(260px,1fr))",
-                                          gap:"20px",
-                                          marginTop:"20px"
-                                        }}>
+<div
+className="contact-grid"
+style={{
+display:"grid",
+gridTemplateColumns:"repeat(auto-fit,minmax(260px,320px))",
+justifyContent:"center",
+gap:"20px",
+marginTop:"20px"
+}}
+>
 
     <div
     className="contact-card"
