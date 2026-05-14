@@ -368,6 +368,7 @@ export default function Home() {
                                                                          <h2 style={{
                                                                       fontSize:"34px",
                                                                       color:"#08285c",
+                                                                      textAlign:"center",
                                                                       marginBottom:"10px"
                                                                       }}>
                                                                       Marcas e sistemas compatíveis
