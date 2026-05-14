@@ -653,98 +653,103 @@ Soluções técnicas com foco em diagnóstico, transparência e apoio próximo.
                                  
                                  </section>
  
-  <footer
-  style={{
-    marginTop:"70px",
-    padding:"35px",
-    borderTop:"1px solid #ddd",
-    textAlign:"center",
-    color:"#666"
-  }}
->
+  <footer style={{
+  marginTop:"80px",
+  padding:"45px 30px",
+  borderTop:"1px solid #e5e7eb",
+  textAlign:"center",
+  color:"#555",
+  background:"linear-gradient(180deg,#ffffff,#f5f7fb)",
+  borderRadius:"25px"
+}}>
 
-<img
-  src="/favicon.png"
-  style={{
-    width:"120px",
-    marginBottom:"15px"
-  }}
-/>
+  <img
+    src="/favicon.png"
+    style={{
+      width:"70px",
+      marginBottom:"18px"
+    }}
+  />
 
-<h3
-style={{
-marginBottom:"10px",
-color:"#0a3a7a"
-}}
->
-TecCasa Soluções
-</h3>
+  <h3 style={{
+    margin:"0 0 10px 0",
+    color:"#08285c",
+    fontSize:"24px"
+  }}>
+    TecCasa Soluções
+  </h3>
 
-<p>
-Automatismos • Reparações • Soluções Inteligentes
-</p>
+  <p style={{
+    margin:"0 0 25px 0",
+    fontSize:"17px"
+  }}>
+    Automatismos • Reparações • Soluções Inteligentes
+  </p>
 
-<p>
-📞 922 021 980
-</p>
+  <div style={{
+    display:"flex",
+    justifyContent:"center",
+    gap:"25px",
+    flexWrap:"wrap",
+    marginBottom:"25px"
+  }}>
+    <span>📞 922 021 980</span>
+    <span>✉️ geral@tec-casa.pt</span>
+    <span>📍 Lisboa e arredores</span>
+  </div>
 
-<p>
-✉️ geral@tec-casa.pt
-</p>
+  <div style={{
+    display:"flex",
+    justifyContent:"center",
+    gap:"15px",
+    flexWrap:"wrap",
+    marginBottom:"25px"
+  }}>
 
-<p>
-📍 Lisboa e arredores
-</p>
+    <a href="https://wa.me/351922021980" target="_blank" style={{
+      padding:"10px 18px",
+      borderRadius:"999px",
+      background:"#25D366",
+      color:"white",
+      textDecoration:"none",
+      fontWeight:"bold"
+    }}>
+      WhatsApp
+    </a>
 
-<div
-style={{
-marginTop:"20px"
-}}
->
+    <a href="https://www.facebook.com/share/1CzrBzuXSY/" target="_blank" style={{
+      padding:"10px 18px",
+      borderRadius:"999px",
+      background:"#1877F2",
+      color:"white",
+      textDecoration:"none",
+      fontWeight:"bold"
+    }}>
+      Facebook
+    </a>
 
-<a
-href="https://wa.me/351922021980"
-target="_blank"
-style={{
-margin:"10px"
-}}
->
-WhatsApp
-</a>
+    <a href="https://www.instagram.com/teccasasolucoes?igsh=MXM4dGl1czEyMmx2NA==" target="_blank" style={{
+      padding:"10px 18px",
+      borderRadius:"999px",
+      background:"linear-gradient(135deg,#feda75,#fa7e1e,#d62976,#962fbf,#4f5bd5)",
+      color:"white",
+      textDecoration:"none",
+      fontWeight:"bold"
+    }}>
+      Instagram
+    </a>
 
-<a
-href="https://www.facebook.com/share/1CzrBzuXSY/"
-target="_blank"
-style={{
-margin:"10px"
-}}
->
-Facebook
-</a>
+  </div>
 
-<a
-href="https://www.instagram.com/teccasasolucoes?igsh=MXM4dGl1czEyMmx2NA=="
-target="_blank"
-style={{
-margin:"10px"
-}}
->
-Instagram
-</a>
-
-</div>
-
-<p
-style={{
-marginTop:"25px",
-fontSize:"14px"
-}}
->
-© 2026 TecCasa Soluções
-</p>
+  <p style={{
+    marginTop:"20px",
+    fontSize:"14px",
+    color:"#777"
+  }}>
+    © 2026 TecCasa Soluções. Todos os direitos reservados.
+  </p>
 
 </footer>
-
                           <style jsx global>{`
                            .cartao-servico {
                              transition: transform 0.3s ease, box-shadow 0.3s ease;
