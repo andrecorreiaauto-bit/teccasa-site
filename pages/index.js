@@ -273,7 +273,29 @@ export default function Home() {
 
 </div>
  
-                                      <h2>Zona de atuação</h2>
+                                                        <div style={{
+                    textAlign:"center",
+                    marginTop:"60px",
+                    marginBottom:"25px"
+                  }}>
+                    <h2 style={{
+                      fontSize:"34px",
+                      color:"#08285c",
+                      marginBottom:"10px"
+                    }}>
+                      Zona de atuação
+                    </h2>
+                  
+                    <p style={{
+                      fontSize:"18px",
+                      color:"#666",
+                      maxWidth:"700px",
+                      margin:"0 auto",
+                      lineHeight:"1.5"
+                    }}>
+                      Assistência local com cobertura aproximada num raio de 45 km para garantir resposta próxima e apoio rápido.
+                    </p>
+                  </div>
 
                                       <div
                                         id="mapa-teccasa"
