@@ -654,13 +654,23 @@ Soluções técnicas com foco em diagnóstico, transparência e apoio próximo.
                                  </section>
  
   <footer style={{
-  marginTop:"80px",
-  padding:"45px 30px",
-  borderTop:"1px solid #e5e7eb",
-  textAlign:"center",
-  color:"#555",
-  background:"linear-gradient(180deg,#ffffff,#f5f7fb)",
-  borderRadius:"25px"
+marginTop:"80px",
+padding:"45px 30px",
+textAlign:"center",
+color:"#555",
+borderRadius:"25px",
+
+background:"linear-gradient(
+180deg,
+#ffffff 0%,
+#ffffff 18%,
+#f6f9ff 40%,
+#e6edf7 72%,
+#d8e5f5 100%
+)",
+
+boxShadow:"0 -10px 35px rgba(11,44,95,0.06)",
+border:"1px solid rgba(11,44,95,0.05)"
 }}>
 
   <img
