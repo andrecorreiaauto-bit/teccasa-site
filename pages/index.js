@@ -487,6 +487,8 @@ export default function Home() {
     </a>
   </div>
 </div>
+       </div>
+</section>
 
 <div style={{
 background:"#f5f7fb",
