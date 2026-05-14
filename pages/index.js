@@ -140,14 +140,16 @@ export default function Home() {
 }}>
 
                     <img
-                      src="/Logo.png"
-                      style={{
-                        width:"min(300px,100%)",
-                        background:"white",
-                        padding:"15px",
-                        borderRadius:"18px",
-                        marginBottom:"30px"
-                      }}
+                    src="/Logo.png"
+                    style={{
+                    width:"min(280px,85%)",
+                    display:"block",
+                    margin:"0 auto 30px auto",
+                    background:"white",
+                    padding:"12px",
+                    borderRadius:"18px",
+                    boxSizing:"border-box"
+                    }}
                     />
                   
                     <h1 style={{
@@ -992,6 +994,13 @@ border:"1px solid rgba(11,44,95,0.05)"
                              #contactos {
                                text-align:center;
                              }
+
+                             section img[src="/Logo.png"]{
+                             width:85% !important;
+                             max-width:260px !important;
+                             display:block !important;
+                             margin:0 auto 25px auto !important;
+                           }
 
                              /* Navbar fixa no mobile */
                              nav {
