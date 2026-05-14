@@ -554,7 +554,29 @@ Pedir ajuda
 
                                  <section style={{marginTop:"50px"}}>
                                  
-                                 <h2>Porque escolher a TecCasa?</h2>
+                                 <div style={{
+textAlign:"center",
+marginTop:"70px",
+marginBottom:"30px"
+}}>
+<h2 style={{
+fontSize:"34px",
+color:"#08285c",
+marginBottom:"10px"
+}}>
+Porque escolher a TecCasa?
+</h2>
+
+<p style={{
+fontSize:"18px",
+color:"#666",
+maxWidth:"700px",
+margin:"0 auto",
+lineHeight:"1.6"
+}}>
+Soluções técnicas com foco em diagnóstico, transparência e apoio próximo.
+</p>
+</div>
                                  
                                  <div style={{
                                  display:"grid",
