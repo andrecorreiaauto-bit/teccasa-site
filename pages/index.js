@@ -333,7 +333,28 @@ export default function Home() {
               </div>
 
                                        <section style={{marginTop:"50px"}}>
-                                        <h2>Contactos</h2>
+                                        <div style={{
+                   textAlign:"center",
+                   marginBottom:"30px"
+                 }}>
+                   <h2 style={{
+                     fontSize:"34px",
+                     color:"#08285c",
+                     marginBottom:"10px"
+                   }}>
+                     Contactos
+                   </h2>
+                 
+                   <p style={{
+                     fontSize:"18px",
+                     color:"#666",
+                     maxWidth:"700px",
+                     margin:"0 auto",
+                     lineHeight:"1.6"
+                   }}>
+                     Fale connosco por telefone, WhatsApp, email ou redes sociais.
+                   </p>
+                 </div>
                                       
                                         <div style={{
                                           display:"grid",
