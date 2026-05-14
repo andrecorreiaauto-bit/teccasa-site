@@ -36,13 +36,50 @@ Automatismos • Reparações • Soluções Inteligentes
 
         <h2>Serviços</h2>
 
-        <ul style={{lineHeight:"2"}}>
-          <li>Instalação de automatismos para portões</li>
-          <li>Diagnóstico e reparação</li>
-          <li>Comandos e recetores</li>
-          <li>Fotocélulas e centrais</li>
-          <li>Pequenas soluções elétricas</li>
-        </ul>
+        <div style={{
+display:"grid",
+gridTemplateColumns:"repeat(auto-fit,minmax(250px,1fr))",
+gap:"15px",
+marginTop:"20px"
+}}>
+
+<div style={{
+padding:"20px",
+background:"#f5f7fb",
+borderRadius:"15px"
+}}>
+<h3>⚙️ Automatismos</h3>
+<p>Instalação e substituição de motores para portões.</p>
+</div>
+
+<div style={{
+padding:"20px",
+background:"#f5f7fb",
+borderRadius:"15px"
+}}>
+<h3>🔧 Diagnóstico</h3>
+<p>Deteção de avarias e reparações técnicas.</p>
+</div>
+
+<div style={{
+padding:"20px",
+background:"#f5f7fb",
+borderRadius:"15px"
+}}>
+<h3>📡 Comandos</h3>
+<p>Comandos, recetores e programação.</p>
+</div>
+
+<div style={{
+padding:"20px",
+background:"#f5f7fb",
+borderRadius:"15px"
+}}>
+<h3>💡 Soluções</h3>
+<p>Fotocélulas, eletricidade e melhorias.</p>
+</div>
+
+</div>
 
         <h2>Precisa de ajuda?</h2>
 
