@@ -160,7 +160,7 @@ export default function Home() {
   <div
   className="cartao-servico"
   style={{
-    background:"#eef4fb",
+    background:"#e6edf7",
     borderRadius:"18px",
     overflow:"hidden",
     boxShadow:"0 8px 20px rgba(0,0,0,0.06)"
@@ -179,7 +179,7 @@ export default function Home() {
   <div
   className="cartao-servico"
   style={{
-    background:"#eef4fb",
+    background:"#e6edf7",
     borderRadius:"18px",
     overflow:"hidden",
     boxShadow:"0 8px 20px rgba(0,0,0,0.06)"
@@ -198,7 +198,7 @@ export default function Home() {
   <div
   className="cartao-servico"
   style={{
-    background:"#eef4fb",
+    background:"#e6edf7",
     borderRadius:"18px",
     overflow:"hidden",
     boxShadow:"0 8px 20px rgba(0,0,0,0.06)"
@@ -217,7 +217,7 @@ export default function Home() {
   <div
   className="cartao-servico"
   style={{
-    background:"#f5f7fb",
+    background:"#e6edf7",
     borderRadius:"18px",
     overflow:"hidden",
     boxShadow:"0 8px 20px rgba(0,0,0,0.06)"
@@ -236,7 +236,7 @@ export default function Home() {
   <div
   className="cartao-servico"
   style={{
-    background:"#f5f7fb",
+    background:"#e6edf7",
     borderRadius:"18px",
     overflow:"hidden",
     boxShadow:"0 8px 20px rgba(0,0,0,0.06)"
@@ -255,7 +255,7 @@ export default function Home() {
   <div
   className="cartao-servico"
   style={{
-    background:"#f5f7fb",
+    background:"#e6edf7",
     borderRadius:"18px",
     overflow:"hidden",
     boxShadow:"0 8px 20px rgba(0,0,0,0.06)"
@@ -365,7 +365,7 @@ export default function Home() {
                                       
                                        <div
   style={{
-    background:"#f5f7fb",
+    background:"#e6edf7",
     padding:"20px",
     borderRadius:"18px",
     transition:"0.3s",
@@ -397,7 +397,7 @@ export default function Home() {
 
 <div
   style={{
-    background:"#f5f7fb",
+    background:"#e6edf7",
     padding:"20px",
     borderRadius:"18px",
     transition:"0.3s",
@@ -424,7 +424,7 @@ export default function Home() {
 
 <div
   style={{
-    background:"#f5f7fb",
+    background:"#e6edf7",
     padding:"20px",
     borderRadius:"18px",
     transition:"0.3s",
@@ -495,7 +495,7 @@ export default function Home() {
 </section>
 
 <div style={{
-background:"#f5f7fb",
+background:"#e6edf7",
 padding:"35px",
 borderRadius:"25px",
 boxShadow:"0 20px 45px rgba(11,63,136,0.22)",
@@ -588,7 +588,7 @@ Soluções técnicas com foco em diagnóstico, transparência e apoio próximo.
                                  <div
                                  className="cartao-vantagem"
                                  style={{
-                                 background:"#f5f7fb",
+                                 background:"#e6edf7",
                                  padding:"20px",
                                  borderRadius:"18px",
                                  transition:"0.3s",
@@ -604,7 +604,7 @@ Soluções técnicas com foco em diagnóstico, transparência e apoio próximo.
                                  <div
                                  className="cartao-vantagem"
                                  style={{
-                                 background:"#f5f7fb",
+                                 background:"#e6edf7",
                                  padding:"20px",
                                  borderRadius:"18px",
                                  transition:"0.3s",
@@ -620,7 +620,7 @@ Soluções técnicas com foco em diagnóstico, transparência e apoio próximo.
                                  <div
                                  className="cartao-vantagem"
                                  style={{
-                                 background:"#f5f7fb",
+                                 background:"#e6edf7",
                                  padding:"20px",
                                  borderRadius:"18px",
                                  transition:"0.3s",
@@ -636,7 +636,7 @@ Soluções técnicas com foco em diagnóstico, transparência e apoio próximo.
                                  <div
                                  className="cartao-vantagem"
                                  style={{
-                                 background:"#f5f7fb",
+                                 background:"#e6edf7",
                                  padding:"20px",
                                  borderRadius:"18px",
                                  transition:"0.3s",
