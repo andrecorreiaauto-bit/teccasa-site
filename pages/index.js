@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import Head from "next/head";
 export default function Home() {
  useEffect(() => {
   if (typeof window === "undefined") return;
