@@ -360,7 +360,7 @@ export default function Home() {
                                                                       textAlign:"center",
                                                                       marginBottom:"10px"
                                                                       }}>
-                                                                      Marcas e sistemas compatíveis
+                                                                      Assistência Multimarca
                                                                       </h2>
                                                                       
                                                                       <p style={{
