@@ -788,7 +788,7 @@ fontSize:"34px",
 color:"#08285c",
 marginBottom:"10px"
 }}>
-Porque escolher a TecCasa?
+Porquê escolher a TecCasa?
 </h2>
 
 <p style={{
