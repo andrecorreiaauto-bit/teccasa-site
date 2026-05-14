@@ -527,13 +527,8 @@ marginTop:"20px"
     boxShadow:"0 8px 25px rgba(0,0,0,0.05)"
   }}
   onClick={()=>{
-    const ligar = window.confirm("Pretende ligar agora?\n\nOK = Ligar\nCancelar = Abrir WhatsApp");
-    if (ligar) {
-      window.location.href = "tel:922021980";
-    } else {
-      window.open("https://wa.me/351922021980", "_blank");
-    }
-  }}
+  document.getElementById("popup-contacto").style.display="flex"
+}}
   onMouseEnter={(e)=>{
     e.currentTarget.style.transform="translateY(-8px)"
     e.currentTarget.style.boxShadow="0 20px 40px rgba(11,44,95,0.15)"
@@ -868,7 +863,108 @@ Soluções técnicas com foco em diagnóstico, transparência e apoio próximo.
                                  Explicação clara antes de qualquer intervenção.
                                  </p>
                                  </div>
-                                 
+
+                                                                 <div
+                                                                 id="popup-contacto"
+                                                                 style={{
+                                                                 position:"fixed",
+                                                                 top:"0",
+                                                                 left:"0",
+                                                                 width:"100%",
+                                                                 height:"100%",
+                                                                 background:"rgba(0,0,0,0.45)",
+                                                                 display:"none",
+                                                                 alignItems:"center",
+                                                                 justifyContent:"center",
+                                                                 zIndex:"9999"
+                                                                 }}
+                                                                 onClick={(e)=>{
+                                                                 if(e.target.id==="popup-contacto"){
+                                                                 e.currentTarget.style.display="none"
+                                                                 }
+                                                                 }}
+                                                                 >
+                                                                 
+                                                                 <div
+                                                                 style={{
+                                                                 background:"white",
+                                                                 padding:"30px",
+                                                                 borderRadius:"22px",
+                                                                 width:"90%",
+                                                                 maxWidth:"360px",
+                                                                 textAlign:"center",
+                                                                 boxShadow:"0 20px 50px rgba(0,0,0,0.25)"
+                                                                 }}
+                                                                 >
+                                                                 
+                                                                 <h2 style={{
+                                                                 marginTop:"0",
+                                                                 color:"#08285c"
+                                                                 }}>
+                                                                 Escolha uma opção
+                                                                 </h2>
+                                                                 
+                                                                 <p style={{
+                                                                 color:"#555",
+                                                                 marginBottom:"25px"
+                                                                 }}>
+                                                                 Como pretende entrar em contacto?
+                                                                 </p>
+                                                                 
+                                                                 <div style={{
+                                                                 display:"flex",
+                                                                 flexDirection:"column",
+                                                                 gap:"15px"
+                                                                 }}>
+                                                                 
+                                                                 <a
+                                                                 href="tel:922021980"
+                                                                 style={{
+                                                                 background:"#08285c",
+                                                                 color:"white",
+                                                                 padding:"14px",
+                                                                 borderRadius:"12px",
+                                                                 textDecoration:"none",
+                                                                 fontWeight:"bold"
+                                                                 }}
+                                                                 >
+                                                                 📞 Ligar
+                                                                 </a>
+                                                                 
+                                                                 <a
+                                                                 href="https://wa.me/351922021980"
+                                                                 target="_blank"
+                                                                 style={{
+                                                                 background:"#25D366",
+                                                                 color:"white",
+                                                                 padding:"14px",
+                                                                 borderRadius:"12px",
+                                                                 textDecoration:"none",
+                                                                 fontWeight:"bold"
+                                                                 }}
+                                                                 >
+                                                                 💬 Mensagem WhatsApp
+                                                                 </a>
+                                                                 
+                                                                 <button
+                                                                 onClick={()=>{
+                                                                 document.getElementById("popup-contacto").style.display="none"
+                                                                 }}
+                                                                 style={{
+                                                                 background:"#f1f5f9",
+                                                                 border:"none",
+                                                                 padding:"12px",
+                                                                 borderRadius:"12px",
+                                                                 cursor:"pointer",
+                                                                 fontWeight:"bold"
+                                                                 }}
+                                                                 >
+                                                                 Fechar
+                                                                 </button>
+                                                                 
+                                                                 </div>
+                                                                 </div>
+                                                                 </div>
                                  </div>
                                  
                                  </section>
