@@ -24,19 +24,13 @@ export default function Home() {
   }}
 />
 
-<h1 style={{
-  color:"#0b2c5f",
-  fontSize:"48px"
+<p style={{
+  fontSize:"22px",
+  color:"#555",
+  fontWeight:"bold"
 }}>
-TecCasa Soluções
-</h1>
-
-        <p style={{
-          fontSize:"22px",
-          color:"#555"
-        }}>
-          Automatismos • Reparações • Soluções Técnicas
-        </p>
+Automatismos • Reparações • Soluções Inteligentes
+</p>
 
         <hr/>
 
