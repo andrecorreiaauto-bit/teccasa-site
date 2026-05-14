@@ -1056,6 +1056,18 @@ border:"1px solid rgba(11,44,95,0.05)"
                              .cartao-marca {
                                min-height:auto !important;
                              }
+
+                             .contact-card{
+                             width:100% !important;
+                             max-width:320px !important;
+                             margin-left:auto !important;
+                             margin-right:auto !important;
+                             box-sizing:border-box !important;
+                           }
+                           
+                           #contactos + section div[style*="grid"]{
+                             justify-items:center !important;
+                           }
                            
                              /* Logo do hero centrado */
                              section img[src="/Logo.png"] {
