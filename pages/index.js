@@ -1060,7 +1060,7 @@ border:"1px solid rgba(11,44,95,0.05)"
 
                              .contact-card{
                              width:100% !important;
-                             max-width:320px !important;
+                             max-width:300px !important;
                              margin-left:auto !important;
                              margin-right:auto !important;
                              box-sizing:border-box !important;
