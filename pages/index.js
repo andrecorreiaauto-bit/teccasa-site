@@ -17,7 +17,8 @@ export default function Home() {
       window.teccasaMap.remove();
     }
 
-    const map = window.L.map("mapa-teccasa").setView(center, 9);
+    const zoom = window.innerWidth < 768 ? 8 : 9;
+    const map = window.L.map("mapa-teccasa").setView(center, zoom);
     window.teccasaMap = map;
 
     window.L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
@@ -984,6 +985,41 @@ border:"1px solid rgba(11,44,95,0.05)"
                          @media (max-width:768px){
                            .page{
                              padding:10px;
+                             /* Corrigir cartões dos contactos no telemóvel */
+                             #contactos + section,
+                             #contactos {
+                               text-align:center;
+                             }
+                           
+                             /* Forçar grelhas a ficarem centradas */
+                             div[style*="grid-template-columns"] {
+                               justify-items:center;
+                             }
+                           
+                             /* Cartões de contactos ocupam a largura certa */
+                             div[style*="minmax(260px,1fr)"] > div {
+                               width:100%;
+                               box-sizing:border-box;
+                             }
+                           
+                             /* Marcas em 2 colunas no mobile */
+                             .cartao-marca {
+                               padding:14px 8px !important;
+                               font-size:15px !important;
+                               border-radius:14px !important;
+                             }
+                           
+                             /* Grelha das marcas mais compacta */
+                             .cartao-marca {
+                               min-height:auto !important;
+                             }
+                           
+                             /* Logo do hero centrado */
+                             section img[src="/Logo.png"] {
+                               display:block;
+                               margin-left:auto !important;
+                               margin-right:auto !important;
+                             }
                            }
                          
                            .main-card{
