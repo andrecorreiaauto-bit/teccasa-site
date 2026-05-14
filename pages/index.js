@@ -51,23 +51,83 @@ export default function Home() {
         boxShadow:"0 10px 30px rgba(0,0,0,0.1)"
       }}>
         
-    <img
-  src="/Logo.png"
-  style={{
-    width:"300px",
-    marginBottom:"20px"
-  }}
-/>
-
-<p style={{
-  fontSize:"22px",
-  color:"#555",
-  fontWeight:"bold"
+    <section style={{
+  background:"linear-gradient(135deg, #08285c, #0b3f88)",
+  color:"white",
+  padding:"50px",
+  borderRadius:"25px",
+  marginBottom:"45px",
+  boxShadow:"0 18px 40px rgba(0,0,0,0.18)"
 }}>
-Automatismos • Reparações • Soluções Inteligentes
-</p>
 
-        <hr/>
+                    <img
+                      src="/Logo.png"
+                      style={{
+                        width:"300px",
+                        background:"white",
+                        padding:"15px",
+                        borderRadius:"18px",
+                        marginBottom:"30px"
+                      }}
+                    />
+                  
+                    <h1 style={{
+                      fontSize:"42px",
+                      margin:"0 0 15px 0",
+                      lineHeight:"1.15"
+                    }}>
+                      Soluções técnicas para a sua casa, garagem ou condomínio.
+                    </h1>
+                  
+                    <p style={{
+                      fontSize:"20px",
+                      color:"#dbeafe",
+                      maxWidth:"750px",
+                      lineHeight:"1.5"
+                    }}>
+                      Automatismos, reparações, domótica e vigilância com apoio próximo, diagnóstico claro e soluções inteligentes.
+                    </p>
+                  
+                    <div style={{
+                      display:"flex",
+                      gap:"15px",
+                      flexWrap:"wrap",
+                      marginTop:"30px"
+                    }}>
+                  
+                      <a
+                        href="https://wa.me/351922021980"
+                        target="_blank"
+                        style={{
+                          background:"white",
+                          color:"#08285c",
+                          padding:"15px 24px",
+                          borderRadius:"12px",
+                          textDecoration:"none",
+                          fontWeight:"bold"
+                        }}
+                      >
+                        Pedir ajuda
+                      </a>
+                  
+                      <a
+                        href="tel:922021980"
+                        style={{
+                          background:"transparent",
+                          color:"white",
+                          padding:"15px 24px",
+                          borderRadius:"12px",
+                          textDecoration:"none",
+                          fontWeight:"bold",
+                          border:"2px solid white"
+                        }}
+                      >
+                        Ligar agora
+                      </a>
+                  
+                    </div>
+                  
+                  </section>
 
         <h2>Serviços</h2>
 
