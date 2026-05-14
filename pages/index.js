@@ -77,9 +77,9 @@ marginTop:"20px"
 
         <h2>Precisa de ajuda?</h2>
 
-        <p>
-          Envie fotografia do motor ou explique a avaria.
-        </p>
+          <p>
+          Descreva a necessidade ou envie fotografias para o ajudarmos da forma mais simples e rápida.
+          </p>
 
         <a
  href="https://wa.me/351922021980"
