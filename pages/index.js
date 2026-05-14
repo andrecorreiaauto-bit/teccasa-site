@@ -364,7 +364,6 @@ export default function Home() {
                                         }}>
                                       
                                        <div
-<div
   style={{
     background:"#f5f7fb",
     padding:"20px",
