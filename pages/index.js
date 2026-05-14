@@ -16,12 +16,20 @@ export default function Home() {
         boxShadow:"0 10px 30px rgba(0,0,0,0.1)"
       }}>
         
-        <h1 style={{
-          color:"#0b2c5f",
-          fontSize:"48px"
-        }}>
-          TecCasa Soluções
-        </h1>
+    <img
+  src="/Logo.png"
+  style={{
+    width:"300px",
+    marginBottom:"20px"
+  }}
+/>
+
+<h1 style={{
+  color:"#0b2c5f",
+  fontSize:"48px"
+}}>
+TecCasa Soluções
+</h1>
 
         <p style={{
           fontSize:"22px",
