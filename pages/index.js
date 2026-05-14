@@ -510,8 +510,7 @@ export default function Home() {
 className="contact-grid"
 style={{
 display:"grid",
-gridTemplateColumns:"repeat(auto-fit,minmax(260px,320px))",
-justifyContent:"center",
+gridTemplateColumns:"repeat(auto-fit,minmax(260px,1fr))",
 gap:"20px",
 marginTop:"20px"
 }}
@@ -1068,6 +1067,11 @@ border:"1px solid rgba(11,44,95,0.05)"
                              margin-left:auto !important;
                              margin-right:auto !important;
                              box-sizing:border-box !important;
+                           }
+
+                             .contact-grid{
+                             grid-template-columns: minmax(260px,320px) !important;
+                             justify-content: center !important;
                            }
                            
                            #contactos + section div[style*="grid"]{
