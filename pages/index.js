@@ -236,6 +236,65 @@ marginTop:"20px"
 Pedir ajuda
 </a>
 
+                                 <section style={{marginTop:"50px"}}>
+                                 
+                                 <h2>Porque escolher a TecCasa?</h2>
+                                 
+                                 <div style={{
+                                 display:"grid",
+                                 gridTemplateColumns:"repeat(auto-fit,minmax(220px,1fr))",
+                                 gap:"15px",
+                                 marginTop:"20px"
+                                 }}>
+                                 
+                                 <div style={{
+                                 background:"#f5f7fb",
+                                 padding:"20px",
+                                 borderRadius:"15px"
+                                 }}>
+                                 <h3>🛠️ Diagnóstico</h3>
+                                 <p>
+                                 Analisamos a causa antes de sugerir substituições.
+                                 </p>
+                                 </div>
+                                 
+                                 <div style={{
+                                 background:"#f5f7fb",
+                                 padding:"20px",
+                                 borderRadius:"15px"
+                                 }}>
+                                 <h3>📱 Resposta rápida</h3>
+                                 <p>
+                                 Apoio simples através de WhatsApp e contacto direto.
+                                 </p>
+                                 </div>
+                                 
+                                 <div style={{
+                                 background:"#f5f7fb",
+                                 padding:"20px",
+                                 borderRadius:"15px"
+                                 }}>
+                                 <h3>🏠 Habitação e condomínios</h3>
+                                 <p>
+                                 Soluções adaptadas a casas, garagens e edifícios.
+                                 </p>
+                                 </div>
+                                 
+                                 <div style={{
+                                 background:"#f5f7fb",
+                                 padding:"20px",
+                                 borderRadius:"15px"
+                                 }}>
+                                 <h3>🤝 Transparência</h3>
+                                 <p>
+                                 Explicação clara antes de qualquer intervenção.
+                                 </p>
+                                 </div>
+                                 
+                                 </div>
+                                 
+                                 </section>
+ 
   <footer
   style={{
     marginTop:"70px",
