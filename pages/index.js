@@ -41,6 +41,55 @@ export default function Home() {
       background:"#f4f7fb",
       minHeight:"100vh"
     }}>
+
+ <nav style={{
+  position:"sticky",
+  top:"20px",
+  zIndex:"1000",
+  maxWidth:"1000px",
+  margin:"0 auto 25px auto",
+  background:"rgba(255,255,255,0.92)",
+  backdropFilter:"blur(10px)",
+  border:"1px solid rgba(11,44,95,0.08)",
+  borderRadius:"999px",
+  padding:"12px 20px",
+  display:"flex",
+  justifyContent:"space-between",
+  alignItems:"center",
+  boxShadow:"0 10px 30px rgba(11,44,95,0.10)"
+}}>
+  <div style={{
+    display:"flex",
+    alignItems:"center",
+    gap:"10px",
+    fontWeight:"bold",
+    color:"#08285c"
+  }}>
+    <img src="/favicon.png" style={{width:"28px"}} />
+    TecCasa Soluções
+  </div>
+
+  <div style={{
+    display:"flex",
+    gap:"18px",
+    alignItems:"center",
+    flexWrap:"wrap"
+  }}>
+    <a href="#servicos" style={{color:"#08285c", textDecoration:"none", fontWeight:"bold"}}>Serviços</a>
+    <a href="#zona" style={{color:"#08285c", textDecoration:"none", fontWeight:"bold"}}>Zona</a>
+    <a href="#contactos" style={{color:"#08285c", textDecoration:"none", fontWeight:"bold"}}>Contactos</a>
+    <a href="https://wa.me/351922021980" target="_blank" style={{
+      background:"#25D366",
+      color:"white",
+      padding:"8px 14px",
+      borderRadius:"999px",
+      textDecoration:"none",
+      fontWeight:"bold"
+    }}>
+      WhatsApp
+    </a>
+  </div>
+</nav>
       
       <div style={{
         maxWidth:"1000px",
@@ -129,7 +178,9 @@ export default function Home() {
                   
                   </section>
 
-                                                       <div style={{
+                                                 <div id="servicos"></div>
+                         
+                                                 <div style={{
                                                  textAlign:"center",
                                                  marginBottom:"30px"
                                                }}>
@@ -272,8 +323,9 @@ export default function Home() {
   </div>
 
 </div>
- 
-                                                        <div style={{
+
+                    <div id="zona"></div>
+                    <div style={{
                     textAlign:"center",
                     marginTop:"60px",
                     marginBottom:"25px"
@@ -332,7 +384,8 @@ export default function Home() {
                 </p>
               </div>
 
-                                       <section style={{marginTop:"50px"}}>
+                                        <div id="contactos"></div>
+                                        <section style={{marginTop:"50px"}}>
                                         <div style={{
                    textAlign:"center",
                    marginBottom:"30px"
@@ -762,6 +815,10 @@ border:"1px solid rgba(11,44,95,0.05)"
                            }
                            .cartao-vantagem{
                            transition:transform .3s ease, box-shadow .3s ease;
+                           }
+
+                           html {
+                           scroll-behavior: smooth;
                            }
                            
                            .cartao-vantagem:hover{
