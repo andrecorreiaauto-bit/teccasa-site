@@ -708,7 +708,7 @@ Pedir ajuda
                                                      </div>
                                                      
                                                      ))}
-                                                     </div>
+                                                    </div>
  
                                  <section style={{marginTop:"50px"}}>
                                  
