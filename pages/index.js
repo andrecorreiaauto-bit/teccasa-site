@@ -373,7 +373,9 @@ export default function Home() {
                                                                       Prestamos assistência, programação e diagnóstico em automatismos de várias marcas comuns no mercado.
                                                                       </p>
 
-                                                                       <div style={{
+                                                                       <div
+                                                                       className="marcas-grid"
+                                                                       style={{
                                                                        display:"grid",
                                                                        gridTemplateColumns:"repeat(auto-fit,minmax(140px,1fr))",
                                                                        gap:"16px",
@@ -989,6 +991,27 @@ border:"1px solid rgba(11,44,95,0.05)"
                              #contactos + section,
                              #contactos {
                                text-align:center;
+                             }
+
+                             /* Navbar fixa no mobile */
+                             nav {
+                               position: sticky !important;
+                               top: 10px !important;
+                             }
+                           
+                             /* Marcas em 2 colunas no mobile */
+                             .marcas-grid {
+                               display: grid !important;
+                               grid-template-columns: repeat(2, 1fr) !important;
+                               gap: 12px !important;
+                             }
+                           
+                             .cartao-marca {
+                               width: 100% !important;
+                               min-height: 48px !important;
+                               padding: 12px 8px !important;
+                               font-size: 15px !important;
+                               box-sizing: border-box !important;
                              }
                            
                              /* Forçar grelhas a ficarem centradas */
