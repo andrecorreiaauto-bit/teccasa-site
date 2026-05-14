@@ -236,6 +236,118 @@ marginTop:"20px"
 Pedir ajuda
 </a>
 
+  <footer
+  style={{
+    marginTop:"70px",
+    padding:"35px",
+    borderTop:"1px solid #ddd",
+    textAlign:"center",
+    color:"#666"
+  }}
+>
+
+<img
+  src="/logo.png"
+  style={{
+    width:"120px",
+    marginBottom:"15px"
+  }}
+/>
+
+<h3
+style={{
+marginBottom:"10px",
+color:"#0a3a7a"
+}}
+>
+TecCasa Soluções
+</h3>
+
+<p>
+Automatismos • Reparações • Soluções Inteligentes
+</p>
+
+<p>
+📞 922 021 980
+</p>
+
+<p>
+✉️ geral@tec-casa.pt
+</p>
+
+<p>
+📍 Lisboa e arredores
+</p>
+
+<div
+style={{
+marginTop:"20px"
+}}
+>
+
+<a
+href="https://wa.me/351922021980"
+target="_blank"
+style={{
+margin:"10px"
+}}
+>
+WhatsApp
+</a>
+
+<a
+href="https://www.facebook.com/share/1CzrBzuXSY/"
+target="_blank"
+style={{
+margin:"10px"
+}}
+>
+Facebook
+</a>
+
+<a
+href="https://www.instagram.com/teccasasolucoes?igsh=MXM4dGl1czEyMmx2NA=="
+target="_blank"
+style={{
+margin:"10px"
+}}
+>
+Instagram
+</a>
+
+</div>
+
+<p
+style={{
+marginTop:"25px",
+fontSize:"14px"
+}}
+>
+© 2026 TecCasa Soluções
+</p>
+
+</footer>
+
+ <a
+href="https://wa.me/351922021980"
+target="_blank"
+style={{
+position:"fixed",
+bottom:"25px",
+right:"25px",
+background:"#25D366",
+color:"white",
+padding:"15px 18px",
+borderRadius:"999px",
+textDecoration:"none",
+fontWeight:"bold",
+boxShadow:"0 4px 15px rgba(0,0,0,0.2)",
+zIndex:"999"
+}}
+>
+WhatsApp
+</a>
+ 
       </div>
 
     </div>
