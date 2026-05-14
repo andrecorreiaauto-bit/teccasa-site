@@ -475,7 +475,7 @@ export default function Home() {
     width:"50px",
     height:"50px",
     borderRadius:"50%",
-    background:"linear-gradient(135deg,#feda75,#d62976,#962fbf,#4f5bd)",
+    background:"linear-gradient(135deg,#feda75,#fa7e1e,#d62976,#962fbf,#4f5bd5)",
     color:"white",
     display:"flex",
     alignItems:"center",
