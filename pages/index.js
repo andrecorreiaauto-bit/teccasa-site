@@ -78,7 +78,9 @@ Automatismos • Reparações • Soluções Inteligentes
   marginTop:"25px"
 }}>
 
-  <div style={{
+  <div
+  className="cartao-servico"
+  style={{
     background:"#f5f7fb",
     borderRadius:"18px",
     overflow:"hidden",
@@ -95,7 +97,9 @@ Automatismos • Reparações • Soluções Inteligentes
     </div>
   </div>
 
-  <div style={{
+  <div
+  className="cartao-servico"
+  style={{
     background:"#f5f7fb",
     borderRadius:"18px",
     overflow:"hidden",
@@ -112,7 +116,9 @@ Automatismos • Reparações • Soluções Inteligentes
     </div>
   </div>
 
-  <div style={{
+  <div
+  className="cartao-servico"
+  style={{
     background:"#f5f7fb",
     borderRadius:"18px",
     overflow:"hidden",
@@ -129,7 +135,9 @@ Automatismos • Reparações • Soluções Inteligentes
     </div>
   </div>
 
-  <div style={{
+  <div
+  className="cartao-servico"
+  style={{
     background:"#f5f7fb",
     borderRadius:"18px",
     overflow:"hidden",
@@ -146,7 +154,9 @@ Automatismos • Reparações • Soluções Inteligentes
     </div>
   </div>
 
-  <div style={{
+  <div
+  className="cartao-servico"
+  style={{
     background:"#f5f7fb",
     borderRadius:"18px",
     overflow:"hidden",
@@ -163,7 +173,9 @@ Automatismos • Reparações • Soluções Inteligentes
     </div>
   </div>
 
-  <div style={{
+  <div
+  className="cartao-servico"
+  style={{
     background:"#f5f7fb",
     borderRadius:"18px",
     overflow:"hidden",
@@ -458,6 +470,17 @@ fontSize:"14px"
 </p>
 
 </footer>
+
+                          <style jsx global>{`
+                           .cartao-servico {
+                             transition: transform 0.3s ease, box-shadow 0.3s ease;
+                           }
+                         
+                           .cartao-servico:hover {
+                             transform: translateY(-8px);
+                             box-shadow: 0 18px 35px rgba(0,0,0,0.14) !important;
+                           }
+                         `}</style>
 
  <a
 href="https://wa.me/351922021980"
