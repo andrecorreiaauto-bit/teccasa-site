@@ -308,7 +308,29 @@ export default function Home() {
                                           marginBottom:"40px"
                                         }}
                                       ></div>
-        <h2>Precisa de ajuda?</h2>
+                      <div style={{
+                textAlign:"center",
+                marginTop:"70px",
+                marginBottom:"30px"
+              }}>
+                <h2 style={{
+                  fontSize:"34px",
+                  color:"#08285c",
+                  marginBottom:"10px"
+                }}>
+                  Precisa de ajuda?
+                </h2>
+              
+                <p style={{
+                  fontSize:"18px",
+                  color:"#666",
+                  maxWidth:"700px",
+                  margin:"0 auto",
+                  lineHeight:"1.6"
+                }}>
+                  Explique a situação ou envie fotografias. Procuramos perceber o problema antes de recomendar qualquer solução.
+                </p>
+              </div>
 
                                        <section style={{marginTop:"50px"}}>
                                         <h2>Contactos</h2>
