@@ -469,28 +469,26 @@ export default function Home() {
     </a>
 
     <a
-      href="https://www.instagram.com/teccasasolucoes?igsh=MXM4dGl1czEyMmx2NA=="
-      target="_blank"
-      style={{
-        width:"50px",
-        height:"50px",
-        borderRadius:"50%",
-        background:"linear-gradient(135deg,#feda75,#d62976,#962fbf,#4f5bd)",
-        color:"white",
-        display:"flex",
-        alignItems:"center",
-        justifyContent:"center",
-        textDecoration:"none",
-        fontWeight:"bold",
-        fontSize:"22px"
-      }}
-    >
-      <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-  <rect x="3" y="3" width="18" height="18" rx="5" stroke="white" strokeWidth="2"/>
-  <circle cx="12" cy="12" r="4" stroke="white" strokeWidth="2"/>
-  <circle cx="17.5" cy="6.5" r="1.2" fill="white"/>
-</svg>
-    </a>
+  href="https://www.instagram.com/teccasasolucoes?igsh=MXM4dGl1czEyMmx2NA=="
+  target="_blank"
+  style={{
+    width:"50px",
+    height:"50px",
+    borderRadius:"50%",
+    background:"linear-gradient(135deg,#feda75,#d62976,#962fbf,#4f5bd)",
+    color:"white",
+    display:"flex",
+    alignItems:"center",
+    justifyContent:"center",
+    textDecoration:"none"
+  }}
+>
+  <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+    <rect x="3" y="3" width="18" height="18" rx="5" stroke="white" strokeWidth="2"/>
+    <circle cx="12" cy="12" r="4" stroke="white" strokeWidth="2"/>
+    <circle cx="17.5" cy="6.5" r="1.2" fill="white"/>
+  </svg>
+</a>
   </div>
 </div>
        </div>
