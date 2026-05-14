@@ -423,6 +423,14 @@ export default function Home() {
                                         </div>
                                       </section>
 
+<div style={{
+background:"#f5f7fb",
+padding:"35px",
+borderRadius:"25px",
+boxShadow:"0 20px 45px rgba(11,63,136,0.22)",
+marginTop:"40px"
+}}>
+                                               
           <p>
           Descreva a necessidade ou envie fotografias para o ajudarmos da forma mais simples e rápida.
           </p>
@@ -437,11 +445,14 @@ export default function Home() {
    borderRadius:"12px",
    fontSize:"18px",
    textDecoration:"none",
+     boxShadow:"0 8px 20px rgba(11,44,95,0.25)",
+     transition:"0.3s",
    display:"inline-block"
  }}
 >
 Pedir ajuda
 </a>
+ </div>
 
                                  <section style={{marginTop:"50px"}}>
                                  
