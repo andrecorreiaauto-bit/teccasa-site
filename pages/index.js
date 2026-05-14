@@ -36,6 +36,45 @@ export default function Home() {
   document.body.appendChild(leafletScript);
 }, []);
   return (
+                                                  <>
+                                                  <Head>
+                                                  
+                                                  <title>TecCasa Soluções | Automatismos, Reparações e Domótica</title>
+                                                  
+                                                  <meta
+                                                  name="description"
+                                                  content="Automatismos, portões automáticos, comandos, domótica, vigilância e assistência técnica em Lisboa e arredores."
+                                                  />
+                                                  
+                                                  <meta
+                                                  name="keywords"
+                                                  content="automatismos, portões automáticos, comandos garagem, domótica, vigilância, reparações, TecCasa"
+                                                  />
+                                                  
+                                                  <meta name="viewport" content="width=device-width, initial-scale=1" />
+                                                  
+                                                  <meta property="og:title" content="TecCasa Soluções" />
+                                                  
+                                                  <meta
+                                                  property="og:description"
+                                                  content="Automatismos, reparações, domótica e soluções inteligentes."
+                                                  />
+                                                  
+                                                  <meta
+                                                  property="og:image"
+                                                  content="https://www.tec-casa.pt/preview.jpg"
+                                                  />
+                                                  
+                                                  <meta
+                                                  property="og:url"
+                                                  content="https://www.tec-casa.pt"
+                                                  />
+                                                  
+                                                  <meta property="og:type" content="website" />
+                                                  
+                                                  <link rel="icon" href="/favicon.png" />
+                                                  
+                                                  </Head>
     <div className="page">
 
 <nav style={{
@@ -1376,5 +1415,6 @@ WhatsApp
       </div>
 
     </div>
+</>
   )
 }
