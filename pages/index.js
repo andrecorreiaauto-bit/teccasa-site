@@ -132,16 +132,27 @@ e.currentTarget.style.color="#08285c"
 }}
 >
  
-    <a href="https://wa.me/351922021980" target="_blank" style={{
-      background:"#25D366",
-      color:"white",
-      padding:"8px 14px",
-      borderRadius:"999px",
-      textDecoration:"none",
-      fontWeight:"bold"
-    }}>
-      WhatsApp
-    </a>
+    <a
+  href="https://wa.me/351922021980"
+  target="_blank"
+  style={{
+    background:"#25D366",
+    color:"white",
+    padding:"8px 14px",
+    borderRadius:"999px",
+    textDecoration:"none",
+    fontWeight:"bold",
+    transition:"0.3s"
+  }}
+  onMouseEnter={(e)=>{
+    e.currentTarget.style.transform="scale(1.06)"
+  }}
+  onMouseLeave={(e)=>{
+    e.currentTarget.style.transform="scale(1)"
+  }}
+>
+  WhatsApp
+</a>
   </div>
 </nav>
       
