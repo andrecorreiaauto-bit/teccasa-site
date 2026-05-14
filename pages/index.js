@@ -50,17 +50,21 @@ Automatismos • Reparações • Soluções Inteligentes
           Envie fotografia do motor ou explique a avaria.
         </p>
 
-        <button style={{
-          background:"#0b2c5f",
-          color:"white",
-          border:"none",
-          padding:"15px 25px",
-          borderRadius:"12px",
-          fontSize:"18px",
-          cursor:"pointer"
-        }}>
-          Pedir orçamento
-        </button>
+        <a
+ href="https://wa.me/351922021980"
+ target="_blank"
+ style={{
+   background:"#0b2c5f",
+   color:"white",
+   padding:"15px 25px",
+   borderRadius:"12px",
+   fontSize:"18px",
+   textDecoration:"none",
+   display:"inline-block"
+ }}
+>
+Pedir ajuda
+</a>
 
       </div>
 
