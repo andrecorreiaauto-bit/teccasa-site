@@ -644,6 +644,72 @@ Pedir ajuda
 </div>
  </div>
 
+                                                      <div style={{
+                                                     textAlign:"center",
+                                                     marginTop:"70px",
+                                                     marginBottom:"30px"
+                                                     }}>
+                                                     <h2 style={{
+                                                     fontSize:"34px",
+                                                     color:"#08285c",
+                                                     marginBottom:"10px"
+                                                     }}>
+                                                     Compromisso TecCasa
+                                                     </h2>
+                                                     
+                                                     <p style={{
+                                                     fontSize:"18px",
+                                                     color:"#666"
+                                                     }}>
+                                                     A forma como trabalhamos é tão importante como a solução.
+                                                     </p>
+                                                     </div>
+                                                     
+                                                     <div style={{
+                                                     display:"grid",
+                                                     gridTemplateColumns:"repeat(auto-fit,minmax(240px,1fr))",
+                                                     gap:"18px",
+                                                     marginBottom:"50px"
+                                                     }}>
+                                                     
+                                                     {[
+                                                     ["🛠️","Diagnóstico antes da troca"],
+                                                     ["💬","Orçamentos claros"],
+                                                     ["📸","Apoio por fotografia"],
+                                                     ["🏠","Casas e condomínios"],
+                                                     ["📍","Lisboa e arredores"],
+                                                     ["⚡","Resposta próxima"]
+                                                     ].map(([icon,text])=>(
+                                                     
+                                                     <div
+                                                     key={text}
+                                                     style={{
+                                                     background:"#f5f7fb",
+                                                     padding:"22px",
+                                                     borderRadius:"18px",
+                                                     textAlign:"center",
+                                                     boxShadow:"0 8px 20px rgba(0,0,0,0.05)"
+                                                     }}
+                                                     >
+                                                     
+                                                     <div style={{
+                                                     fontSize:"30px",
+                                                     marginBottom:"10px"
+                                                     }}>
+                                                     {icon}
+                                                     </div>
+                                                     
+                                                     <div style={{
+                                                     fontWeight:"bold"
+                                                     }}>
+                                                     {text}
+                                                     </div>
+                                                     
+                                                     </div>
+                                                     
+                                                     ))}
+                                                     </div>
+ 
                                  <section style={{marginTop:"50px"}}>
                                  
                                  <div style={{
