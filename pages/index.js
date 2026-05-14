@@ -871,7 +871,7 @@ borderRadius:"999px",
 textDecoration:"none",
 fontWeight:"bold",
 boxShadow:"0 4px 15px rgba(0,0,0,0.2)",
-zIndex:"999"
+zIndex:"999",
 animation:"pulse 2.5s infinite"
 }}
 >
