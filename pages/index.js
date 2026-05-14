@@ -42,7 +42,7 @@ export default function Home() {
       minHeight:"100vh"
     }}>
 
- <nav style={{
+<nav style={{
   position:"sticky",
   top:"20px",
   zIndex:"1000",
@@ -75,84 +75,58 @@ export default function Home() {
     alignItems:"center",
     flexWrap:"wrap"
   }}>
-    <a
-href="#servicos"
 
-style={{
-color:"#08285c",
-textDecoration:"none",
-fontWeight:"bold",
-transition:"0.3s"
-}}
+    <a href="#servicos" style={{
+      color:"#08285c",
+      textDecoration:"none",
+      fontWeight:"bold",
+      transition:"0.3s"
+    }}
+    onMouseEnter={(e)=>{e.currentTarget.style.color="#0b63d1"}}
+    onMouseLeave={(e)=>{e.currentTarget.style.color="#08285c"}}
+    >
+      Serviços
+    </a>
 
-onMouseEnter={(e)=>{
-e.currentTarget.style.color="#0b63d1"
-}}
+    <a href="#zona" style={{
+      color:"#08285c",
+      textDecoration:"none",
+      fontWeight:"bold",
+      transition:"0.3s"
+    }}
+    onMouseEnter={(e)=>{e.currentTarget.style.color="#0b63d1"}}
+    onMouseLeave={(e)=>{e.currentTarget.style.color="#08285c"}}
+    >
+      Zona
+    </a>
 
-onMouseLeave={(e)=>{
-e.currentTarget.style.color="#08285c"
-}}
->
- 
-<a
-href="#zona"
+    <a href="#contactos" style={{
+      color:"#08285c",
+      textDecoration:"none",
+      fontWeight:"bold",
+      transition:"0.3s"
+    }}
+    onMouseEnter={(e)=>{e.currentTarget.style.color="#0b63d1"}}
+    onMouseLeave={(e)=>{e.currentTarget.style.color="#08285c"}}
+    >
+      Contactos
+    </a>
 
-style={{
-color:"#08285c",
-textDecoration:"none",
-fontWeight:"bold",
-transition:"0.3s"
-}}
+    <a href="https://wa.me/351922021980" target="_blank" style={{
+      background:"#25D366",
+      color:"white",
+      padding:"8px 14px",
+      borderRadius:"999px",
+      textDecoration:"none",
+      fontWeight:"bold",
+      transition:"0.3s"
+    }}
+    onMouseEnter={(e)=>{e.currentTarget.style.transform="scale(1.06)"}}
+    onMouseLeave={(e)=>{e.currentTarget.style.transform="scale(1)"}}
+    >
+      WhatsApp
+    </a>
 
-onMouseEnter={(e)=>{
-e.currentTarget.style.color="#0b63d1"
-}}
-
-onMouseLeave={(e)=>{
-e.currentTarget.style.color="#08285c"
-}}
-> 
-
- <a
-href="#contactos"
-
-style={{
-color:"#08285c",
-textDecoration:"none",
-fontWeight:"bold",
-transition:"0.3s"
-}}
-
-onMouseEnter={(e)=>{
-e.currentTarget.style.color="#0b63d1"
-}}
-
-onMouseLeave={(e)=>{
-e.currentTarget.style.color="#08285c"
-}}
->
- 
-    <a
-  href="https://wa.me/351922021980"
-  target="_blank"
-  style={{
-    background:"#25D366",
-    color:"white",
-    padding:"8px 14px",
-    borderRadius:"999px",
-    textDecoration:"none",
-    fontWeight:"bold",
-    transition:"0.3s"
-  }}
-  onMouseEnter={(e)=>{
-    e.currentTarget.style.transform="scale(1.06)"
-  }}
-  onMouseLeave={(e)=>{
-    e.currentTarget.style.transform="scale(1)"
-  }}
->
-  WhatsApp
-</a>
   </div>
 </nav>
       
