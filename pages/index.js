@@ -142,13 +142,11 @@ export default function Home() {
                     <img
                     src="/Logo.png"
                     style={{
-                    width:"min(280px,85%)",
-                    display:"block",
-                    margin:"0 auto 30px auto",
+                    width:"300px",
                     background:"white",
-                    padding:"12px",
+                    padding:"15px",
                     borderRadius:"18px",
-                    boxSizing:"border-box"
+                    marginBottom:"30px"
                     }}
                     />
                   
