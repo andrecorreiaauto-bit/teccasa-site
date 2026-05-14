@@ -363,6 +363,69 @@ export default function Home() {
 
 </div>
 
+                                                                         <h2 style={{
+                                                                      fontSize:"34px",
+                                                                      color:"#08285c",
+                                                                      marginBottom:"10px"
+                                                                      }}>
+                                                                      Marcas e sistemas compatíveis
+                                                                      </h2>
+                                                                      
+                                                                      <p style={{
+                                                                      fontSize:"18px",
+                                                                      color:"#666",
+                                                                      maxWidth:"750px",
+                                                                      margin:"0 auto",
+                                                                      lineHeight:"1.6"
+                                                                      }}>
+                                                                      Prestamos assistência, programação e diagnóstico em automatismos de várias marcas comuns no mercado.
+                                                                      </p>
+
+                                                                       <div style={{
+                                                                       display:"grid",
+                                                                       gridTemplateColumns:"repeat(auto-fit,minmax(140px,1fr))",
+                                                                       gap:"16px",
+                                                                       marginTop:"30px",
+                                                                       marginBottom:"60px"
+                                                                       }}>
+                                                                       
+                                                                       {[
+                                                                       "Nice",
+                                                                       "BFT",
+                                                                       "Motorline",
+                                                                       "FAAC",
+                                                                       "CAME",
+                                                                       "Hörmann",
+                                                                       "Roger",
+                                                                       "DEA",
+                                                                       "Somfy",
+                                                                       "Benincà",
+                                                                       "V2",
+                                                                       "DITEC"
+                                                                       ].map((marca)=>(
+                                                                       
+                                                                       <div
+                                                                       key={marca}
+                                                                       className="cartao-marca"
+                                                                       style={{
+                                                                       background:"linear-gradient(180deg,#ffffff,#e6edf7)",
+                                                                       border:"1px solid rgba(11,44,95,0.08)",
+                                                                       borderRadius:"18px",
+                                                                       padding:"22px 10px",
+                                                                       textAlign:"center",
+                                                                       fontWeight:"bold",
+                                                                       fontSize:"18px",
+                                                                       color:"#08285c",
+                                                                       boxShadow:"0 8px 20px rgba(0,0,0,0.05)"
+                                                                       }}
+                                                                       >
+                                                                       {marca}
+                                                                       </div>
+                                                                       
+                                                                       ))}
+                                                                       
+                                                                       </div>
+
                     <div id="zona"></div>
                     <div style={{
                     textAlign:"center",
@@ -946,6 +1009,15 @@ border:"1px solid rgba(11,44,95,0.05)"
                            transform:translateY(-8px);
                            box-shadow:0 18px 35px rgba(0,0,0,.12);
                            }
+
+                            .cartao-marca{
+                            transition:transform .3s ease, box-shadow .3s ease;
+                            }
+                            
+                            .cartao-marca:hover{
+                            transform:translateY(-7px);
+                            box-shadow:0 18px 35px rgba(11,44,95,.14);
+                            }
 
                            @keyframes pulse{
                            0%{
