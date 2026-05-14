@@ -43,40 +43,34 @@ gap:"15px",
 marginTop:"20px"
 }}>
 
-<div style={{
-padding:"20px",
-background:"#f5f7fb",
-borderRadius:"15px"
-}}>
+<div style={{padding:"20px",background:"#f5f7fb",borderRadius:"15px"}}>
 <h3>⚙️ Automatismos</h3>
 <p>Instalação e substituição de motores para portões.</p>
 </div>
 
-<div style={{
-padding:"20px",
-background:"#f5f7fb",
-borderRadius:"15px"
-}}>
+<div style={{padding:"20px",background:"#f5f7fb",borderRadius:"15px"}}>
 <h3>🔧 Diagnóstico</h3>
 <p>Deteção de avarias e reparações técnicas.</p>
 </div>
 
-<div style={{
-padding:"20px",
-background:"#f5f7fb",
-borderRadius:"15px"
-}}>
+<div style={{padding:"20px",background:"#f5f7fb",borderRadius:"15px"}}>
 <h3>📡 Comandos</h3>
-<p>Comandos, recetores e programação.</p>
+<p>Comandos, recetores, programação e clonagem.</p>
 </div>
 
-<div style={{
-padding:"20px",
-background:"#f5f7fb",
-borderRadius:"15px"
-}}>
-<h3>💡 Soluções</h3>
-<p>Fotocélulas, eletricidade e melhorias.</p>
+<div style={{padding:"20px",background:"#f5f7fb",borderRadius:"15px"}}>
+<h3>🏠 Domótica</h3>
+<p>Soluções smart home para tornar a casa mais prática e eficiente.</p>
+</div>
+
+<div style={{padding:"20px",background:"#f5f7fb",borderRadius:"15px"}}>
+<h3>🎥 Vigilância</h3>
+<p>Câmaras, segurança doméstica e controlo remoto simples.</p>
+</div>
+
+<div style={{padding:"20px",background:"#f5f7fb",borderRadius:"15px"}}>
+<h3>💡 Soluções técnicas</h3>
+<p>Fotocélulas, pequenas intervenções elétricas e melhorias.</p>
 </div>
 
 </div>
