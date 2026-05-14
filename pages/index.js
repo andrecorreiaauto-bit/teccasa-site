@@ -512,8 +512,8 @@ export default function Home() {
                                           marginTop:"20px"
                                         }}>
 
-    <div className="contact-card"
     <div
+    className="contact-card"
     style={{
     background:"#e6edf7",
     padding:"20px",
@@ -544,8 +544,8 @@ export default function Home() {
   <p style={{color:"#25D366", fontWeight:"bold"}}>Ligar ou enviar mensagem</p>
 </div>
 
-<div className="contact-card"
 <div
+  className="contact-card"
   style={{
     background:"#e6edf7",
     padding:"20px",
@@ -571,8 +571,8 @@ export default function Home() {
   <p>Enviar email</p>
 </div>
 
-<div className="contact-card"
 <div
+  className="contact-card"
   style={{
     background:"#e6edf7",
     padding:"20px",
