@@ -364,130 +364,130 @@ export default function Home() {
                                         }}>
                                       
                                        <div
-style={{
-background:"#f5f7fb",
-padding:"20px",
-borderRadius:"18px",
-transition:"0.3s",
-cursor:"pointer",
-boxShadow:"0 8px 25px rgba(0,0,0,0.05)"
-}}
-
-onMouseEnter={(e)=>{
-e.currentTarget.style.transform="translateY(-8px)"
-e.currentTarget.style.boxShadow="0 20px 40px rgba(11,44,95,0.15)"
-}}
-
-onMouseLeave={(e)=>{
-e.currentTarget.style.transform="translateY(0px)"
-e.currentTarget.style.boxShadow="0 8px 25px rgba(0,0,0,0.05)"
-}}
+<div
+  style={{
+    background:"#f5f7fb",
+    padding:"20px",
+    borderRadius:"18px",
+    transition:"0.3s",
+    cursor:"pointer",
+    boxShadow:"0 8px 25px rgba(0,0,0,0.05)"
+  }}
+  onClick={()=>{
+    const ligar = window.confirm("Pretende ligar agora?\n\nOK = Ligar\nCancelar = Abrir WhatsApp");
+    if (ligar) {
+      window.location.href = "tel:922021980";
+    } else {
+      window.open("https://wa.me/351922021980", "_blank");
+    }
+  }}
+  onMouseEnter={(e)=>{
+    e.currentTarget.style.transform="translateY(-8px)"
+    e.currentTarget.style.boxShadow="0 20px 40px rgba(11,44,95,0.15)"
+  }}
+  onMouseLeave={(e)=>{
+    e.currentTarget.style.transform="translateY(0px)"
+    e.currentTarget.style.boxShadow="0 8px 25px rgba(0,0,0,0.05)"
+  }}
 >
-                                            <h3>📞 Telefone / WhatsApp</h3>
-                                      
-                                            <a
-                                              href="tel:922021980"
-                                              style={{
-                                                color:"#0a3a7a",
-                                                textDecoration:"none",
-                                                fontWeight:"bold"
-                                              }}
-                                            >
-                                              922 021 980
-                                            </a>
-                                      
-                                            <br/><br/>
-                                      
-                                            <a
-                                              href="https://wa.me/351922021980"
-                                              target="_blank"
-                                              style={{
-                                                color:"#25D366",
-                                                textDecoration:"none",
-                                                fontWeight:"bold"
-                                              }}
-                                            >
-                                              Abrir WhatsApp
-                                            </a>
-                                          </div>
-                                      
-                                      
-                                        <div
-style={{
-background:"#f5f7fb",
-padding:"20px",
-borderRadius:"18px",
-transition:"0.3s",
-cursor:"pointer",
-boxShadow:"0 8px 25px rgba(0,0,0,0.05)"
-}}
+  <h3>📞 Telefone / WhatsApp</h3>
+  <p style={{color:"#0a3a7a", fontWeight:"bold"}}>922 021 980</p>
+  <p style={{color:"#25D366", fontWeight:"bold"}}>Ligar ou enviar mensagem</p>
+</div>
 
-onMouseEnter={(e)=>{
-e.currentTarget.style.transform="translateY(-8px)"
-e.currentTarget.style.boxShadow="0 20px 40px rgba(11,44,95,0.15)"
-}}
 
-onMouseLeave={(e)=>{
-e.currentTarget.style.transform="translateY(0px)"
-e.currentTarget.style.boxShadow="0 8px 25px rgba(0,0,0,0.05)"
-}}
+<div
+  style={{
+    background:"#f5f7fb",
+    padding:"20px",
+    borderRadius:"18px",
+    transition:"0.3s",
+    cursor:"pointer",
+    boxShadow:"0 8px 25px rgba(0,0,0,0.05)"
+  }}
+  onClick={()=>{
+    window.location.href = "mailto:geral@tec-casa.pt";
+  }}
+  onMouseEnter={(e)=>{
+    e.currentTarget.style.transform="translateY(-8px)"
+    e.currentTarget.style.boxShadow="0 20px 40px rgba(11,44,95,0.15)"
+  }}
+  onMouseLeave={(e)=>{
+    e.currentTarget.style.transform="translateY(0px)"
+    e.currentTarget.style.boxShadow="0 8px 25px rgba(0,0,0,0.05)"
+  }}
 >
-                                            <h3>✉️ Email</h3>
-                                      
-                                            <a
-                                              href="mailto:geral@tec-casa.pt"
-                                              style={{
-                                                color:"#0a3a7a",
-                                                textDecoration:"none"
-                                              }}
-                                            >
-                                              geral@tec-casa.pt
-                                            </a>
-                                          </div>
-                                      
-                                      
-                                       <div
-style={{
-background:"#f5f7fb",
-padding:"20px",
-borderRadius:"18px",
-transition:"0.3s",
-cursor:"pointer",
-boxShadow:"0 8px 25px rgba(0,0,0,0.05)"
-}}
+  <h3>✉️ Email</h3>
+  <p style={{color:"#0a3a7a", fontWeight:"bold"}}>geral@tec-casa.pt</p>
+  <p>Enviar email</p>
+</div>
 
-onMouseEnter={(e)=>{
-e.currentTarget.style.transform="translateY(-8px)"
-e.currentTarget.style.boxShadow="0 20px 40px rgba(11,44,95,0.15)"
-}}
 
-onMouseLeave={(e)=>{
-e.currentTarget.style.transform="translateY(0px)"
-e.currentTarget.style.boxShadow="0 8px 25px rgba(0,0,0,0.05)"
-}}
+<div
+  style={{
+    background:"#f5f7fb",
+    padding:"20px",
+    borderRadius:"18px",
+    transition:"0.3s",
+    boxShadow:"0 8px 25px rgba(0,0,0,0.05)"
+  }}
+  onMouseEnter={(e)=>{
+    e.currentTarget.style.transform="translateY(-8px)"
+    e.currentTarget.style.boxShadow="0 20px 40px rgba(11,44,95,0.15)"
+  }}
+  onMouseLeave={(e)=>{
+    e.currentTarget.style.transform="translateY(0px)"
+    e.currentTarget.style.boxShadow="0 8px 25px rgba(0,0,0,0.05)"
+  }}
 >
-                                            <h3>🌐 Redes sociais</h3>
-                                      
-                                            <a
-                                              href="https://www.facebook.com/share/1CzrBzuXSY/"
-                                              target="_blank"
-                                            >
-                                              Facebook
-                                            </a>
-                                      
-                                            <br/><br/>
-                                      
-                                            <a
-                                              href="https://www.instagram.com/teccasasolucoes?igsh=MXM4dGl1czEyMmx2NA=="
-                                              target="_blank"
-                                            >
-                                              Instagram
-                                            </a>
-                                      
-                                          </div>
-                                      
-                                        </div>
-                                      </section>
+  <h3>🌐 Redes sociais</h3>
+
+  <div style={{
+    display:"flex",
+    gap:"15px",
+    marginTop:"20px"
+  }}>
+    <a
+      href="https://www.facebook.com/share/1CzrBzuXSY/"
+      target="_blank"
+      style={{
+        width:"50px",
+        height:"50px",
+        borderRadius:"50%",
+        background:"#1877F2",
+        color:"white",
+        display:"flex",
+        alignItems:"center",
+        justifyContent:"center",
+        textDecoration:"none",
+        fontWeight:"bold",
+        fontSize:"24px"
+      }}
+    >
+      f
+    </a>
+
+    <a
+      href="https://www.instagram.com/teccasasolucoes?igsh=MXM4dGl1czEyMmx2NA=="
+      target="_blank"
+      style={{
+        width:"50px",
+        height:"50px",
+        borderRadius:"50%",
+        background:"linear-gradient(135deg,#feda75,#d62976,#962fbf,#4f5bd)",
+        color:"white",
+        display:"flex",
+        alignItems:"center",
+        justifyContent:"center",
+        textDecoration:"none",
+        fontWeight:"bold",
+        fontSize:"22px"
+      }}
+    >
+      ◎
+    </a>
+  </div>
+</div>
 
 <div style={{
 background:"#f5f7fb",
