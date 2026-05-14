@@ -75,9 +75,63 @@ export default function Home() {
     alignItems:"center",
     flexWrap:"wrap"
   }}>
-    <a href="#servicos" style={{color:"#08285c", textDecoration:"none", fontWeight:"bold"}}>Serviços</a>
-    <a href="#zona" style={{color:"#08285c", textDecoration:"none", fontWeight:"bold"}}>Zona</a>
-    <a href="#contactos" style={{color:"#08285c", textDecoration:"none", fontWeight:"bold"}}>Contactos</a>
+    <a
+href="#servicos"
+
+style={{
+color:"#08285c",
+textDecoration:"none",
+fontWeight:"bold",
+transition:"0.3s"
+}}
+
+onMouseEnter={(e)=>{
+e.currentTarget.style.color="#0b63d1"
+}}
+
+onMouseLeave={(e)=>{
+e.currentTarget.style.color="#08285c"
+}}
+>
+ 
+<a
+href="#zona"
+
+style={{
+color:"#08285c",
+textDecoration:"none",
+fontWeight:"bold",
+transition:"0.3s"
+}}
+
+onMouseEnter={(e)=>{
+e.currentTarget.style.color="#0b63d1"
+}}
+
+onMouseLeave={(e)=>{
+e.currentTarget.style.color="#08285c"
+}}
+> 
+
+ <a
+href="#contactos"
+
+style={{
+color:"#08285c",
+textDecoration:"none",
+fontWeight:"bold",
+transition:"0.3s"
+}}
+
+onMouseEnter={(e)=>{
+e.currentTarget.style.color="#0b63d1"
+}}
+
+onMouseLeave={(e)=>{
+e.currentTarget.style.color="#08285c"
+}}
+>
+ 
     <a href="https://wa.me/351922021980" target="_blank" style={{
       background:"#25D366",
       color:"white",
@@ -589,12 +643,12 @@ display:"inline-block"
 }}
 
 onMouseEnter={(e)=>{
-e.currentTarget.style.transform="translateY(-4px)"
+e.currentTarget.style.transform="translateY(-3px) scale(1.03)"
 e.currentTarget.style.boxShadow="0 14px 30px rgba(11,44,95,0.35)"
 }}
 
 onMouseLeave={(e)=>{
-e.currentTarget.style.transform="translateY(0px)"
+e.currentTarget.style.transform="translateY(0px) scale(1)"
 e.currentTarget.style.boxShadow="0 8px 20px rgba(11,44,95,0.25)"
 }}
 
@@ -873,6 +927,13 @@ fontWeight:"bold",
 boxShadow:"0 4px 15px rgba(0,0,0,0.2)",
 zIndex:"999",
 animation:"pulse 2.5s infinite"
+}}
+onMouseEnter={(e)=>{
+e.currentTarget.style.transform="scale(1.08)"
+}}
+
+onMouseLeave={(e)=>{
+e.currentTarget.style.transform="scale(1)"
 }}
 >
 WhatsApp
