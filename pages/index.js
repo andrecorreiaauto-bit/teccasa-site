@@ -431,27 +431,43 @@ boxShadow:"0 20px 45px rgba(11,63,136,0.22)",
 marginTop:"40px"
 }}>
                                                
-          <p>
-          Descreva a necessidade ou envie fotografias para o ajudarmos da forma mais simples e rápida.
-          </p>
+          <div style={{
+display:"flex",
+justifyContent:"space-between",
+alignItems:"center",
+gap:"30px",
+flexWrap:"wrap"
+}}>
 
-        <a
- href="https://wa.me/351922021980"
- target="_blank"
- style={{
-   background:"#0b2c5f",
-   color:"white",
-   padding:"15px 25px",
-   borderRadius:"12px",
-   fontSize:"18px",
-   textDecoration:"none",
-     boxShadow:"0 8px 20px rgba(11,44,95,0.25)",
-     transition:"0.3s",
-   display:"inline-block"
- }}
+<div style={{flex:"1"}}>
+<p style={{
+fontSize:"18px",
+lineHeight:"1.7",
+margin:"0"
+}}>
+Descreva a necessidade ou envie fotografias para o ajudarmos da forma mais simples e rápida.
+</p>
+</div>
+
+<a
+href="https://wa.me/351922021980"
+target="_blank"
+style={{
+background:"#0b2c5f",
+color:"white",
+padding:"15px 25px",
+borderRadius:"12px",
+fontSize:"18px",
+textDecoration:"none",
+boxShadow:"0 8px 20px rgba(11,44,95,0.25)",
+transition:"0.3s",
+display:"inline-block"
+}}
 >
 Pedir ajuda
 </a>
+
+</div>
  </div>
 
                                  <section style={{marginTop:"50px"}}>
