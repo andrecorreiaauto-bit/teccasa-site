@@ -659,7 +659,7 @@ padding:"45px 30px",
 textAlign:"center",
 color:"#555",
 borderRadius:"25px",
-background:"linear-gradient(180deg,#ffffff 0%,#ffffff 18%,#f6f9ff 40%,#e6edf7 72%,#d8e5f5 100%)",
+background:"linear-gradient(180deg,#ffffff 0%,#ffffff 15%,#f5f7fb 35%,#dfe8f5 65%,#cfdcf0 100%)",
 boxShadow:"0 -10px 35px rgba(11,44,95,0.06)",
 border:"1px solid rgba(11,44,95,0.05)"
 }}>
