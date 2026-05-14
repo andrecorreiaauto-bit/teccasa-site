@@ -160,7 +160,7 @@ export default function Home() {
   <div
   className="cartao-servico"
   style={{
-    background:"#f5f7fb",
+    background:"#eef4fb",
     borderRadius:"18px",
     overflow:"hidden",
     boxShadow:"0 8px 20px rgba(0,0,0,0.06)"
@@ -179,7 +179,7 @@ export default function Home() {
   <div
   className="cartao-servico"
   style={{
-    background:"#f5f7fb",
+    background:"#eef4fb",
     borderRadius:"18px",
     overflow:"hidden",
     boxShadow:"0 8px 20px rgba(0,0,0,0.06)"
@@ -198,7 +198,7 @@ export default function Home() {
   <div
   className="cartao-servico"
   style={{
-    background:"#f5f7fb",
+    background:"#eef4fb",
     borderRadius:"18px",
     overflow:"hidden",
     boxShadow:"0 8px 20px rgba(0,0,0,0.06)"
