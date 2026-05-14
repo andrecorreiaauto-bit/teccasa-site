@@ -24,12 +24,8 @@ export default function Home() {
       attribution: "© OpenStreetMap"
     }).addTo(map);
 
-    window.L.marker(center).addTo(map)
-      .bindPopup("TecCasa Soluções<br/>Portela da Azóia")
-      .openPopup();
-
     window.L.circle(center, {
-      radius: 50000,
+      radius: 45000,
       color: "#0b2c5f",
       fillColor: "#0b2c5f",
       fillOpacity: 0.15
@@ -116,10 +112,6 @@ marginTop:"20px"
 
                                       <h2>Zona de atuação</h2>
 
-                                      <p>
-                                      Atuação num raio aproximado de 50 km a partir da Portela da Azóia.
-                                      </p>
-                                      
                                       <div
                                         id="mapa-teccasa"
                                         style={{
