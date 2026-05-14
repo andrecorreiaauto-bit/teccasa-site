@@ -72,44 +72,116 @@ Automatismos • Reparações • Soluções Inteligentes
         <h2>Serviços</h2>
 
         <div style={{
-display:"grid",
-gridTemplateColumns:"repeat(auto-fit,minmax(250px,1fr))",
-gap:"15px",
-marginTop:"20px"
+  display:"grid",
+  gridTemplateColumns:"repeat(auto-fit,minmax(280px,1fr))",
+  gap:"22px",
+  marginTop:"25px"
 }}>
 
-<div style={{padding:"20px",background:"#f5f7fb",borderRadius:"15px"}}>
-<h3>⚙️ Automatismos</h3>
-<p>Instalação e substituição de motores para portões.</p>
-</div>
+  <div style={{
+    background:"#f5f7fb",
+    borderRadius:"18px",
+    overflow:"hidden",
+    boxShadow:"0 8px 20px rgba(0,0,0,0.06)"
+  }}>
+    <img src="/portao.png" style={{
+      width:"100%",
+      height:"190px",
+      objectFit:"cover"
+    }}/>
+    <div style={{padding:"20px"}}>
+      <h3>⚙️ Automatismos</h3>
+      <p>Instalação e substituição de motores para portões.</p>
+    </div>
+  </div>
 
-<div style={{padding:"20px",background:"#f5f7fb",borderRadius:"15px"}}>
-<h3>🔧 Diagnóstico</h3>
-<p>Deteção de avarias e reparações técnicas.</p>
-</div>
+  <div style={{
+    background:"#f5f7fb",
+    borderRadius:"18px",
+    overflow:"hidden",
+    boxShadow:"0 8px 20px rgba(0,0,0,0.06)"
+  }}>
+    <img src="/diagnostico.png" style={{
+      width:"100%",
+      height:"190px",
+      objectFit:"cover"
+    }}/>
+    <div style={{padding:"20px"}}>
+      <h3>🔧 Diagnóstico</h3>
+      <p>Deteção de avarias e reparações técnicas.</p>
+    </div>
+  </div>
 
-<div style={{padding:"20px",background:"#f5f7fb",borderRadius:"15px"}}>
-<h3>📡 Comandos</h3>
-<p>Comandos, recetores, programação e clonagem.</p>
-</div>
+  <div style={{
+    background:"#f5f7fb",
+    borderRadius:"18px",
+    overflow:"hidden",
+    boxShadow:"0 8px 20px rgba(0,0,0,0.06)"
+  }}>
+    <img src="/comandos.png" style={{
+      width:"100%",
+      height:"190px",
+      objectFit:"cover"
+    }}/>
+    <div style={{padding:"20px"}}>
+      <h3>📡 Comandos</h3>
+      <p>Comandos, recetores, programação e clonagem.</p>
+    </div>
+  </div>
 
-<div style={{padding:"20px",background:"#f5f7fb",borderRadius:"15px"}}>
-<h3>🏠 Domótica</h3>
-<p>Soluções smart home para tornar a casa mais prática e eficiente.</p>
-</div>
+  <div style={{
+    background:"#f5f7fb",
+    borderRadius:"18px",
+    overflow:"hidden",
+    boxShadow:"0 8px 20px rgba(0,0,0,0.06)"
+  }}>
+    <img src="/domotica.png" style={{
+      width:"100%",
+      height:"190px",
+      objectFit:"cover"
+    }}/>
+    <div style={{padding:"20px"}}>
+      <h3>🏠 Domótica</h3>
+      <p>Soluções smart home para tornar a casa mais prática e eficiente.</p>
+    </div>
+  </div>
 
-<div style={{padding:"20px",background:"#f5f7fb",borderRadius:"15px"}}>
-<h3>🎥 Vigilância</h3>
-<p>Câmaras, segurança doméstica e controlo remoto simples.</p>
-</div>
+  <div style={{
+    background:"#f5f7fb",
+    borderRadius:"18px",
+    overflow:"hidden",
+    boxShadow:"0 8px 20px rgba(0,0,0,0.06)"
+  }}>
+    <img src="/vigilancia.png" style={{
+      width:"100%",
+      height:"190px",
+      objectFit:"cover"
+    }}/>
+    <div style={{padding:"20px"}}>
+      <h3>🎥 Vigilância</h3>
+      <p>Câmaras, segurança doméstica e controlo remoto simples.</p>
+    </div>
+  </div>
 
-<div style={{padding:"20px",background:"#f5f7fb",borderRadius:"15px"}}>
-<h3>💡 Soluções técnicas</h3>
-<p>Fotocélulas, pequenas intervenções elétricas e melhorias.</p>
-</div>
+  <div style={{
+    background:"#f5f7fb",
+    borderRadius:"18px",
+    overflow:"hidden",
+    boxShadow:"0 8px 20px rgba(0,0,0,0.06)"
+  }}>
+    <img src="/solucoes.png" style={{
+      width:"100%",
+      height:"190px",
+      objectFit:"cover"
+    }}/>
+    <div style={{padding:"20px"}}>
+      <h3>💡 Soluções técnicas</h3>
+      <p>Fotocélulas, pequenas intervenções elétricas e melhorias.</p>
+    </div>
+  </div>
 
 </div>
-
+ 
                                       <h2>Zona de atuação</h2>
 
                                       <div
