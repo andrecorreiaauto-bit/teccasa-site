@@ -1075,7 +1075,11 @@ border:"1px solid rgba(11,44,95,0.05)"
                            background:#f4f7fb;
                            min-height:100vh;
                          }
-                         
+
+                           html{
+                           scroll-behavior:smooth;
+                           }
+
                          .main-card{
                            max-width:1000px;
                            margin:auto;
