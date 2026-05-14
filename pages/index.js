@@ -129,8 +129,27 @@ export default function Home() {
                   
                   </section>
 
-        <h2>Serviços</h2>
-
+                                                       <div style={{
+                                                 textAlign:"center",
+                                                 marginBottom:"30px"
+                                               }}>
+                                                 <h2 style={{
+                                                   fontSize:"34px",
+                                                   color:"#08285c",
+                                                   marginBottom:"10px"
+                                                 }}>
+                                                   Serviços TecCasa
+                                                 </h2>
+                                               
+                                                 <p style={{
+                                                   fontSize:"18px",
+                                                   color:"#666",
+                                                   maxWidth:"700px",
+                                                   margin:"0 auto"
+                                                 }}>
+                                                   Soluções técnicas para automatizar, reparar e tornar a sua casa mais segura e inteligente.
+                                                 </p>
+                                               </div>
         <div style={{
   display:"grid",
   gridTemplateColumns:"repeat(auto-fit,minmax(280px,1fr))",
