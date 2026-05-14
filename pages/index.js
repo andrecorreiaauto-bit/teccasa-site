@@ -813,6 +813,22 @@ border:"1px solid rgba(11,44,95,0.05)"
                              transform: translateY(-8px);
                              box-shadow: 0 18px 35px rgba(0,0,0,0.14) !important;
                            }
+
+                           @keyframes fadeUp {
+                           from{
+                           opacity:0;
+                           transform:translateY(25px);
+                           }
+                           to{
+                           opacity:1;
+                           transform:translateY(0);
+                           }
+                           }
+                           
+                           h1,h2,.cartao-servico,footer,section{
+                           animation:fadeUp .8s ease;
+                           }
+
                            .cartao-vantagem{
                            transition:transform .3s ease, box-shadow .3s ease;
                            }
@@ -824,6 +840,20 @@ border:"1px solid rgba(11,44,95,0.05)"
                            .cartao-vantagem:hover{
                            transform:translateY(-8px);
                            box-shadow:0 18px 35px rgba(0,0,0,.12);
+                           }
+
+                           @keyframes pulse{
+                           0%{
+                           transform:scale(1);
+                           }
+                           
+                           50%{
+                           transform:scale(1.06);
+                           }
+                           
+                           100%{
+                           transform:scale(1);
+                           }
                            }
                          `}</style>
 
@@ -842,6 +872,7 @@ textDecoration:"none",
 fontWeight:"bold",
 boxShadow:"0 4px 15px rgba(0,0,0,0.2)",
 zIndex:"999"
+animation:"pulse 2.5s infinite"
 }}
 >
 WhatsApp
