@@ -1,4 +1,43 @@
+import { useEffect } from "react";
 export default function Home() {
+ useEffect(() => {
+  if (typeof window === "undefined") return;
+
+  const leafletCss = document.createElement("link");
+  leafletCss.rel = "stylesheet";
+  leafletCss.href = "https://unpkg.com/leaflet@1.9.4/dist/leaflet.css";
+  document.head.appendChild(leafletCss);
+
+  const leafletScript = document.createElement("script");
+  leafletScript.src = "https://unpkg.com/leaflet@1.9.4/dist/leaflet.js";
+  leafletScript.onload = () => {
+    const center = [38.84002, -9.10069];
+
+    if (window.teccasaMap) {
+      window.teccasaMap.remove();
+    }
+
+    const map = window.L.map("mapa-teccasa").setView(center, 9);
+    window.teccasaMap = map;
+
+    window.L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+      attribution: "© OpenStreetMap"
+    }).addTo(map);
+
+    window.L.marker(center).addTo(map)
+      .bindPopup("TecCasa Soluções<br/>Portela da Azóia")
+      .openPopup();
+
+    window.L.circle(center, {
+      radius: 50000,
+      color: "#0b2c5f",
+      fillColor: "#0b2c5f",
+      fillOpacity: 0.15
+    }).addTo(map);
+  };
+
+  document.body.appendChild(leafletScript);
+}, []);
   return (
     <div style={{
       fontFamily:"Arial",
@@ -75,6 +114,23 @@ marginTop:"20px"
 
 </div>
 
+                                      <h2>Zona de atuação</h2>
+
+                                      <p>
+                                      Atuação num raio aproximado de 50 km a partir da Portela da Azóia.
+                                      </p>
+                                      
+                                      <div
+                                        id="mapa-teccasa"
+                                        style={{
+                                          height:"400px",
+                                          width:"100%",
+                                          borderRadius:"18px",
+                                          overflow:"hidden",
+                                          marginTop:"20px",
+                                          marginBottom:"40px"
+                                        }}
+                                      ></div>
         <h2>Precisa de ajuda?</h2>
 
           <p>
