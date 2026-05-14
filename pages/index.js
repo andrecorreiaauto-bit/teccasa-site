@@ -367,6 +367,7 @@ export default function Home() {
                                                                       fontSize:"18px",
                                                                       color:"#666",
                                                                       maxWidth:"750px",
+                                                                      textAlign:"center",
                                                                       margin:"0 auto",
                                                                       lineHeight:"1.6"
                                                                       }}>
