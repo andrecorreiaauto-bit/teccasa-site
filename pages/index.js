@@ -585,44 +585,64 @@ Soluções técnicas com foco em diagnóstico, transparência e apoio próximo.
                                  marginTop:"20px"
                                  }}>
                                  
-                                 <div style={{
+                                 <div
+                                 className="cartao-vantagem"
+                                 style={{
                                  background:"#f5f7fb",
                                  padding:"20px",
-                                 borderRadius:"15px"
-                                 }}>
+                                 borderRadius:"18px",
+                                 transition:"0.3s",
+                                 boxShadow:"0 8px 20px rgba(0,0,0,0.05)"
+                                 }}
+                                 >
                                  <h3>🛠️ Diagnóstico</h3>
                                  <p>
                                  Analisamos a causa antes de sugerir substituições.
                                  </p>
                                  </div>
                                  
-                                 <div style={{
+                                 <div
+                                 className="cartao-vantagem"
+                                 style={{
                                  background:"#f5f7fb",
                                  padding:"20px",
-                                 borderRadius:"15px"
-                                 }}>
+                                 borderRadius:"18px",
+                                 transition:"0.3s",
+                                 boxShadow:"0 8px 20px rgba(0,0,0,0.05)"
+                                 }}
+                                 >
                                  <h3>📱 Resposta rápida</h3>
                                  <p>
                                  Apoio simples através de WhatsApp e contacto direto.
                                  </p>
                                  </div>
                                  
-                                 <div style={{
+                                 <div
+                                 className="cartao-vantagem"
+                                 style={{
                                  background:"#f5f7fb",
                                  padding:"20px",
-                                 borderRadius:"15px"
-                                 }}>
+                                 borderRadius:"18px",
+                                 transition:"0.3s",
+                                 boxShadow:"0 8px 20px rgba(0,0,0,0.05)"
+                                 }}
+                                 >
                                  <h3>🏠 Habitação e condomínios</h3>
                                  <p>
                                  Soluções adaptadas a casas, garagens e edifícios.
                                  </p>
                                  </div>
                                  
-                                 <div style={{
+                                 <div
+                                 className="cartao-vantagem"
+                                 style={{
                                  background:"#f5f7fb",
                                  padding:"20px",
-                                 borderRadius:"15px"
-                                 }}>
+                                 borderRadius:"18px",
+                                 transition:"0.3s",
+                                 boxShadow:"0 8px 20px rgba(0,0,0,0.05)"
+                                 }}
+                                 >
                                  <h3>🤝 Transparência</h3>
                                  <p>
                                  Explicação clara antes de qualquer intervenção.
@@ -733,6 +753,14 @@ fontSize:"14px"
                            .cartao-servico:hover {
                              transform: translateY(-8px);
                              box-shadow: 0 18px 35px rgba(0,0,0,0.14) !important;
+                           }
+                           .cartao-vantagem{
+                           transition:transform .3s ease, box-shadow .3s ease;
+                           }
+                           
+                           .cartao-vantagem:hover{
+                           transform:translateY(-8px);
+                           box-shadow:0 18px 35px rgba(0,0,0,.12);
                            }
                          `}</style>
 
