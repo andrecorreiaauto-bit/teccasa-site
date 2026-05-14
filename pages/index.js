@@ -664,7 +664,7 @@ Soluções técnicas com foco em diagnóstico, transparência e apoio próximo.
 >
 
 <img
-  src="/logo.png"
+  src="/favicon.png"
   style={{
     width:"120px",
     marginBottom:"15px"
