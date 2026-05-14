@@ -125,6 +125,97 @@ marginTop:"20px"
                                       ></div>
         <h2>Precisa de ajuda?</h2>
 
+                                       <section style={{marginTop:"50px"}}>
+                                        <h2>Contactos</h2>
+                                      
+                                        <div style={{
+                                          display:"grid",
+                                          gridTemplateColumns:"repeat(auto-fit,minmax(260px,1fr))",
+                                          gap:"20px",
+                                          marginTop:"20px"
+                                        }}>
+                                      
+                                          <div style={{
+                                            background:"#f5f7fb",
+                                            padding:"20px",
+                                            borderRadius:"15px"
+                                          }}>
+                                            <h3>📞 Telefone / WhatsApp</h3>
+                                      
+                                            <a
+                                              href="tel:922021980"
+                                              style={{
+                                                color:"#0a3a7a",
+                                                textDecoration:"none",
+                                                fontWeight:"bold"
+                                              }}
+                                            >
+                                              922 021 980
+                                            </a>
+                                      
+                                            <br/><br/>
+                                      
+                                            <a
+                                              href="https://wa.me/351922021980"
+                                              target="_blank"
+                                              style={{
+                                                color:"#25D366",
+                                                textDecoration:"none",
+                                                fontWeight:"bold"
+                                              }}
+                                            >
+                                              Abrir WhatsApp
+                                            </a>
+                                          </div>
+                                      
+                                      
+                                          <div style={{
+                                            background:"#f5f7fb",
+                                            padding:"20px",
+                                            borderRadius:"15px"
+                                          }}>
+                                            <h3>✉️ Email</h3>
+                                      
+                                            <a
+                                              href="mailto:geral@tec-casa.pt"
+                                              style={{
+                                                color:"#0a3a7a",
+                                                textDecoration:"none"
+                                              }}
+                                            >
+                                              geral@tec-casa.pt
+                                            </a>
+                                          </div>
+                                      
+                                      
+                                          <div style={{
+                                            background:"#f5f7fb",
+                                            padding:"20px",
+                                            borderRadius:"15px"
+                                          }}>
+                                            <h3>🌐 Redes sociais</h3>
+                                      
+                                            <a
+                                              href="https://www.facebook.com/share/1CzrBzuXSY/"
+                                              target="_blank"
+                                            >
+                                              Facebook
+                                            </a>
+                                      
+                                            <br/><br/>
+                                      
+                                            <a
+                                              href="https://www.instagram.com/teccasasolucoes?igsh=MXM4dGl1czEyMmx2NA=="
+                                              target="_blank"
+                                            >
+                                              Instagram
+                                            </a>
+                                      
+                                          </div>
+                                      
+                                        </div>
+                                      </section>
+
           <p>
           Descreva a necessidade ou envie fotografias para o ajudarmos da forma mais simples e rápida.
           </p>
