@@ -84,12 +84,14 @@ export default function Home() {
                                                   
                                                   <meta
                                                   property="og:url"
-                                                  content="https://www.tec-casa.pt"
+                                                  content="https://tec-casa.pt"
                                                   />
                                                   
                                                   <meta property="og:type" content="website" />
                                                   
                                                   <link rel="icon" href="/favicon.png" />
+
+                                                  <link rel="canonical" href="https://tec-casa.pt" />
                                                   
                                                   </Head>
     <div className="page">
