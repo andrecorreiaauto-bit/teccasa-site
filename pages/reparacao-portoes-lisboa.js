@@ -303,6 +303,53 @@ export default function ReparacaoPortoes() {
                                               </p>
                                               
                                               </section>
+
+      <section style={{
+      maxWidth:"1100px",
+      margin:"60px auto",
+      padding:"0 20px"
+      }}>
+      
+      <h2 style={{
+      fontSize:"36px",
+      color:"#0b2c6b",
+      marginBottom:"30px"
+      }}>
+      Problemas comuns
+      </h2>
+      
+      <div style={{
+      display:"grid",
+      gridTemplateColumns:"repeat(auto-fit,minmax(240px,1fr))",
+      gap:"20px"
+      }}>
+      
+      {[
+      "Portão abre até meio",
+      "Comando deixou de funcionar",
+      "Fotocélulas em erro",
+      "Motor sem força",
+      "Central bloqueada",
+      "Portão não fecha"
+      ].map((item,index)=>(
+      
+      <div key={index} style={{
+      background:"#f4f7fb",
+      padding:"25px",
+      borderRadius:"18px",
+      boxShadow:"0 4px 12px rgba(0,0,0,0.05)"
+      }}>
+      
+      <h3>{item}</h3>
+      
+      </div>
+      
+      ))}
+      
+      </div>
+      
+      </section>
+
  
   <footer style={{
 marginTop:"80px",
