@@ -1204,200 +1204,228 @@ border:"1px solid rgba(11,44,95,0.05)"
   </p>
 
 </footer>
-                       <style jsx global>{`
-  html {
-    scroll-behavior: smooth;
-    overflow-x: hidden;
-  }
-
-  body {
-    overflow-x: hidden;
-  }
-
-  .page {
-    font-family: Arial, sans-serif;
-    padding: 40px;
-    background: #f4f7fb;
-    min-height: 100vh;
-  }
-
-  .main-card {
-    width: min(1200px, calc(100% - 40px));
-    margin: auto;
-    background: white;
-    padding: 50px;
-    border-radius: 20px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-    box-sizing: border-box;
-  }
-
-  .menu-button {
-    display: none;
-  }
-
-  .mobile-menu {
-    display: none;
-  }
-
-  .cartao-servico,
-  .cartao-vantagem,
-  .cartao-marca {
-    transition: transform .3s ease, box-shadow .3s ease;
-  }
-
-  .cartao-servico:hover {
-    transform: translateY(-8px);
-    box-shadow: 0 18px 35px rgba(0,0,0,.14) !important;
-  }
-
-  .cartao-vantagem:hover {
-    transform: translateY(-8px);
-    box-shadow: 0 18px 35px rgba(0,0,0,.12);
-  }
-
-  .cartao-marca:hover {
-    transform: translateY(-7px);
-    box-shadow: 0 18px 35px rgba(11,44,95,.14);
-  }
-
-  @keyframes fadeUp {
-    from {
-      opacity: 0;
-      transform: translateY(25px);
-    }
-    to {
-      opacity: 1;
-      transform: translateY(0);
-    }
-  }
-
-  h1, h2, .cartao-servico, footer, section {
-    animation: fadeUp .8s ease;
-  }
-
-  @keyframes pulse {
-    0% { transform: scale(1); }
-    50% { transform: scale(1.06); }
-    100% { transform: scale(1); }
-  }
-
-  @media (max-width: 768px) {
-    .page {
-      padding: 10px !important;
-    }
-
-    .main-card {
-      width: 100% !important;
-      max-width: 100% !important;
-      padding: 18px !important;
-      border-radius: 16px !important;
-      overflow: hidden !important;
-    }
-
-    nav {
-      width: 100% !important;
-      max-width: 100% !important;
-      box-sizing: border-box !important;
-      position: sticky !important;
-      top: 10px !important;
-      margin-bottom: 15px !important;
-      border-radius: 18px !important;
-    }
-
-    .desktop-menu {
-      display: none !important;
-    }
-
-    .menu-button {
-      display: block !important;
-    }
-
-    .mobile-menu {
-      display: flex !important;
-    }
-
-    .servicos-grid {
-      grid-template-columns: 1fr !important;
-    }
-
-    .marcas-grid {
-      display: grid !important;
-      grid-template-columns: repeat(2, 1fr) !important;
-      gap: 12px !important;
-    }
-
-    .compromisso-grid {
-      grid-template-columns: 1fr !important;
-    }
-
-    .problemas-grid {
-      grid-template-columns: 1fr !important;
-    }
-
-    .contact-grid {
-      grid-template-columns: minmax(260px, 320px) !important;
-      justify-content: center !important;
-    }
-
-    .contact-card {
-      width: 100% !important;
-      max-width: 300px !important;
-      margin-left: auto !important;
-      margin-right: auto !important;
-      box-sizing: border-box !important;
-      text-align: center !important;
-    }
-
-    .contact-card > div {
-      justify-content: center !important;
-    }
-
-    .cartao-marca {
-      width: 100% !important;
-      min-height: 48px !important;
-      padding: 12px 8px !important;
-      font-size: 15px !important;
-      border-radius: 14px !important;
-      box-sizing: border-box !important;
-    }
-
-    section {
-      padding: 24px 18px !important;
-      box-sizing: border-box !important;
-    }
-
-    section img[src="/Logo.png"] {
-      width: 85% !important;
-      max-width: 260px !important;
-      display: block !important;
-      margin: 0 auto 25px auto !important;
-    }
-
-    h1 {
-      font-size: 28px !important;
-    }
-
-    h2 {
-      font-size: 26px !important;
-    }
-
-    p {
-      font-size: 16px !important;
-    }
-
-    img {
-      max-width: 100%;
-    }
-
-    #mapa-teccasa {
-      height: 300px !important;
-    }
-
-    footer {
-      padding: 35px 18px !important;
-    }
-  }
-`}</style>
+                                                                               <style jsx global>{`
+                                                          html {
+                                                            scroll-behavior: smooth;
+                                                            overflow-x: hidden;
+                                                          }
+                                                        
+                                                          body {
+                                                            overflow-x: hidden;
+                                                          }
+                                                        
+                                                          .page {
+                                                            font-family: Arial, sans-serif;
+                                                            padding: 40px;
+                                                            background: #f4f7fb;
+                                                            min-height: 100vh;
+                                                          }
+                                                        
+                                                          .main-card {
+                                                            width: min(1200px, calc(100% - 40px));
+                                                            margin: auto;
+                                                            background: white;
+                                                            padding: 50px;
+                                                            border-radius: 20px;
+                                                            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+                                                            box-sizing: border-box;
+                                                          }
+                                                        
+                                                          .menu-button {
+                                                            display: none;
+                                                          }
+                                                        
+                                                          .mobile-menu {
+                                                            display: none;
+                                                          }
+                                                        
+                                                          .cartao-servico,
+                                                          .cartao-vantagem,
+                                                          .cartao-marca {
+                                                            transition: transform .3s ease, box-shadow .3s ease;
+                                                          }
+                                                        
+                                                          .cartao-servico:hover {
+                                                            transform: translateY(-8px);
+                                                            box-shadow: 0 18px 35px rgba(0,0,0,.14) !important;
+                                                          }
+                                                        
+                                                          .cartao-vantagem:hover {
+                                                            transform: translateY(-8px);
+                                                            box-shadow: 0 18px 35px rgba(0,0,0,.12);
+                                                          }
+                                                        
+                                                          .cartao-marca:hover {
+                                                            transform: translateY(-7px);
+                                                            box-shadow: 0 18px 35px rgba(11,44,95,.14);
+                                                          }
+                                                        
+                                                          @keyframes fadeUp {
+                                                            from {
+                                                              opacity: 0;
+                                                              transform: translateY(25px);
+                                                            }
+                                                            to {
+                                                              opacity: 1;
+                                                              transform: translateY(0);
+                                                            }
+                                                          }
+                                                        
+                                                          h1, h2, .cartao-servico, footer, section {
+                                                            animation: fadeUp .8s ease;
+                                                          }
+                                                        
+                                                          @keyframes pulse {
+                                                            0% { transform: scale(1); }
+                                                            50% { transform: scale(1.06); }
+                                                            100% { transform: scale(1); }
+                                                          }
+                                                        
+                                                          @media (max-width: 768px) {
+                                                            .page {
+                                                              padding: 10px !important;
+                                                            }
+                                                        
+                                                            .main-card {
+                                                              width: 100% !important;
+                                                              max-width: 100% !important;
+                                                              padding: 18px !important;
+                                                              border-radius: 16px !important;
+                                                              overflow: hidden !important;
+                                                            }
+                                                        
+                                                            nav {
+                                                              width: 100% !important;
+                                                              max-width: 100% !important;
+                                                              box-sizing: border-box !important;
+                                                              position: sticky !important;
+                                                              top: 10px !important;
+                                                              margin-bottom: 15px !important;
+                                                              border-radius: 18px !important;
+                                                            }
+                                                        
+                                                            .desktop-menu {
+                                                              display: none !important;
+                                                            }
+                                                        
+                                                            .menu-button {
+                                                              display: block !important;
+                                                            }
+                                                        
+                                                            .mobile-menu {
+                                                              display: flex !important;
+                                                            }
+                                                        
+                                                            .servicos-grid {
+                                                              grid-template-columns: 1fr !important;
+                                                            }
+                                                        
+                                                            .marcas-grid {
+                                                              display: grid !important;
+                                                              grid-template-columns: repeat(2, 1fr) !important;
+                                                              gap: 12px !important;
+                                                            }
+                                                        
+                                                            .compromisso-grid {
+                                                              grid-template-columns: 1fr !important;
+                                                            }
+                                                        
+                                                            .problemas-grid {
+                                                              grid-template-columns: 1fr !important;
+                                                            }
+                                                        
+                                                            .contact-grid {
+                                                              grid-template-columns: minmax(260px, 320px) !important;
+                                                              justify-content: center !important;
+                                                            }
+                                                        
+                                                            .contact-card {
+                                                              width: 100% !important;
+                                                              max-width: 300px !important;
+                                                              margin-left: auto !important;
+                                                              margin-right: auto !important;
+                                                              box-sizing: border-box !important;
+                                                              text-align: center !important;
+                                                            }
+                                                        
+                                                            .contact-card > div {
+                                                              justify-content: center !important;
+                                                            }
+                                                        
+                                                            .cartao-marca {
+                                                              width: 100% !important;
+                                                              min-height: 48px !important;
+                                                              padding: 12px 8px !important;
+                                                              font-size: 15px !important;
+                                                              border-radius: 14px !important;
+                                                              box-sizing: border-box !important;
+                                                            }
+                                                        
+                                                            section {
+                                                              padding: 24px 18px !important;
+                                                              box-sizing: border-box !important;
+                                                            }
+                                                        
+                                                            section img[src="/Logo.png"] {
+                                                              width: 85% !important;
+                                                              max-width: 260px !important;
+                                                              display: block !important;
+                                                              margin: 0 auto 25px auto !important;
+                                                            }
+                                                        
+                                                            h1 {
+                                                              font-size: 28px !important;
+                                                            }
+                                                        
+                                                            h2 {
+                                                              font-size: 26px !important;
+                                                            }
+                                                        
+                                                            p {
+                                                              font-size: 16px !important;
+                                                            }
+                                                        
+                                                            img {
+                                                              max-width: 100%;
+                                                            }
+                                                        
+                                                            #mapa-teccasa {
+                                                              height: 300px !important;
+                                                            }
+                                                        
+                                                            footer {
+                                                              padding: 35px 18px !important;
+                                                            }
+                                                            section:first-of-type {
+                                                            padding: 28px 18px !important;
+                                                            margin-bottom: 32px !important;
+                                                            border-radius: 22px !important;
+                                                            text-align: center !important;
+                                                          }
+                                                          
+                                                          section:first-of-type h1 {
+                                                            font-size: 27px !important;
+                                                            line-height: 1.18 !important;
+                                                            margin-bottom: 14px !important;
+                                                          }
+                                                          
+                                                          section:first-of-type p {
+                                                            font-size: 16px !important;
+                                                            line-height: 1.55 !important;
+                                                          }
+                                                          
+                                                          section:first-of-type div {
+                                                            justify-content: center !important;
+                                                          }
+                                                          
+                                                          section:first-of-type a {
+                                                            width: 100% !important;
+                                                            max-width: 260px !important;
+                                                            text-align: center !important;
+                                                            box-sizing: border-box !important;
+                                                          }
+                                                          }
+                                                        `}</style>
                          
 
  <a
