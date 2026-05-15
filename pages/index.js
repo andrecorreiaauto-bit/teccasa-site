@@ -272,9 +272,11 @@ export default function Home() {
                                                    Soluções técnicas para automatizar, reparar e tornar a sua casa mais segura e inteligente.
                                                  </p>
                                                </div>
-        <div style={{
+  <div
+  className="servicos-grid"
+  style={{
   display:"grid",
-  gridTemplateColumns:"repeat(auto-fit,minmax(280px,1fr))",
+  gridTemplateColumns:"repeat(3,1fr)",
   gap:"22px",
   marginTop:"25px"
 }}>
@@ -419,7 +421,7 @@ export default function Home() {
                                                                        className="marcas-grid"
                                                                        style={{
                                                                        display:"grid",
-                                                                       gridTemplateColumns:"repeat(auto-fit,minmax(140px,1fr))",
+                                                                       gridTemplateColumns:"repeat(6,1fr)",
                                                                        gap:"16px",
                                                                        marginTop:"30px",
                                                                        marginBottom:"60px"
@@ -1139,6 +1141,13 @@ border:"1px solid rgba(11,44,95,0.05)"
                                text-align:center;
                              }
 
+                             .servicos-grid{
+                               grid-template-columns:1fr !important;
+                             }
+                             
+                             .marcas-grid{
+                               grid-template-columns:repeat(2,1fr) !important;
+                             }
                             
                              section img[src="/Logo.png"]{
                              width:85% !important;
