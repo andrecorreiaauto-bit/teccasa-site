@@ -2,6 +2,16 @@ import { useEffect, useState } from "react";
 import Head from "next/head";
 export default function Home() {
  const [menuOpen, setMenuOpen] = useState(false);
+ const menuItems = [
+  { label:"Início", href:"/", active:true },
+  { label:"Reparação de Portões", href:"/reparacao-portoes-lisboa", active:true },
+
+  { label:"Comandos Garagem", href:"/comandos-garagem", active:true },
+
+  { label:"Domótica", href:"/domotica", active:false },
+
+  { label:"Vigilância", href:"/vigilancia", active:false },
+  ]
  useEffect(() => {
   if (typeof window === "undefined") return;
 
@@ -166,29 +176,24 @@ export default function Home() {
       alignItems:"center"
     }}>
 
-      <a href="#servicos" style={{
-        color:"#08285c",
-        textDecoration:"none",
-        fontWeight:"bold"
-      }}>
-        Serviços
-      </a>
-
-      <a href="#zona" style={{
-        color:"#08285c",
-        textDecoration:"none",
-        fontWeight:"bold"
-      }}>
-        Zona
-      </a>
-
-      <a href="#contactos" style={{
-        color:"#08285c",
-        textDecoration:"none",
-        fontWeight:"bold"
-      }}>
-        Contactos
-      </a>
+     {menuItems
+     .filter(item => item.active)
+     .map((item,index)=>(
+     
+     <a
+     key={index}
+     href={item.href}
+     style={{
+       color:"#08285c",
+       textDecoration:"none",
+       fontWeight:"bold",
+       fontSize:"16px"
+     }}
+     >
+       {item.label}
+     </a>
+     
+     ))}
 
       <a
       href="https://wa.me/351922021980"
@@ -223,8 +228,13 @@ style={{
 }}
 >
 
+  {menuItems
+  .filter(item => item.active)
+  .map((item,index)=>(
+  
   <a
-  href="/"
+  key={index}
+  href={item.href}
   style={{
     color:"#08285c",
     textDecoration:"none",
@@ -233,60 +243,10 @@ style={{
     padding:"10px 0"
   }}
   >
-    Início
+    {item.label}
   </a>
-
-  <a
-  href="/reparacao-portoes-lisboa"
-  style={{
-    color:"#08285c",
-    textDecoration:"none",
-    fontWeight:"bold",
-    fontSize:"17px",
-    padding:"10px 0"
-  }}
-  >
-    Reparação de Portões
-  </a>
-
-  <a
-  href="#servicos"
-  style={{
-    color:"#08285c",
-    textDecoration:"none",
-    fontWeight:"bold",
-    fontSize:"17px",
-    padding:"10px 0"
-  }}
-  >
-    Serviços
-  </a>
-
-  <a
-  href="#zona"
-  style={{
-    color:"#08285c",
-    textDecoration:"none",
-    fontWeight:"bold",
-    fontSize:"17px",
-    padding:"10px 0"
-  }}
-  >
-    Zona de atuação
-  </a>
-
-  <a
-  href="#contactos"
-  style={{
-    color:"#08285c",
-    textDecoration:"none",
-    fontWeight:"bold",
-    fontSize:"17px",
-    padding:"10px 0"
-  }}
-  >
-    Contactos
-  </a>
+  
+  ))}
 
   <a
   href="https://wa.me/351922021980"
