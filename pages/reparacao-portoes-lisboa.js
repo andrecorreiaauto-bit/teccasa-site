@@ -2,6 +2,16 @@ import { useEffect, useState } from "react";
 import Head from "next/head";
 export default function ReparacaoPortoes() {
  const [menuOpen, setMenuOpen] = useState(false);
+ const menuItems = [
+  { label:"Início", href:"/", active:true },
+  { label:"Reparação de Portões", href:"/reparacao-portoes-lisboa", active:false },
+
+  { label:"Comandos Garagem", href:"/comandos-garagem", active:false },
+
+  { label:"Domótica", href:"/domotica", active:false },
+
+  { label:"Vigilância", href:"/vigilancia", active:false },
+  ]
  useEffect(() => {
   if (typeof window === "undefined") return;
 
@@ -111,8 +121,10 @@ export default function ReparacaoPortoes() {
     <div className="page">
 
 <nav style={{
-  position:"sticky",
+  position:"fixed",
   top:"20px",
+  left:"50%",
+  transform:"translateX(-50%)",
   zIndex:"1000",
   maxWidth:"1200px",
   width:"min(1200px, calc(100% - 40px))",
@@ -120,85 +132,144 @@ export default function ReparacaoPortoes() {
   background:"rgba(255,255,255,0.92)",
   backdropFilter:"blur(10px)",
   border:"1px solid rgba(11,44,95,0.08)",
-  borderRadius:"999px",
-  padding:"12px 20px",
-  display:"flex",
-  justifyContent:"space-between",
-  alignItems:"center",
-  flexWrap:"wrap",
-  gap:"12px",
+  borderRadius:"28px",
+  padding:"14px 20px",
   boxShadow:"0 10px 30px rgba(11,44,95,0.10)"
 }}>
+
   <div style={{
     display:"flex",
-    alignItems:"center",
-    gap:"10px",
+    justifyContent:"space-between",
+    alignItems:"center"
+  }}>
+
+    <div style={{
+      display:"flex",
+      alignItems:"center",
+      gap:"10px",
+      fontWeight:"bold",
+      color:"#08285c",
+      fontSize:"20px"
+    }}>
+      <img src="/favicon.png" style={{width:"30px"}} />
+      TecCasa Soluções
+    </div>
+
+    <button
+      onClick={()=>setMenuOpen(!menuOpen)}
+      style={{
+        background:"none",
+        border:"none",
+        fontSize:"30px",
+        cursor:"pointer",
+        color:"#08285c"
+       
+      }}
+      className="menu-button"
+    >
+      ☰
+    </button>
+
+    <div className="desktop-menu" style={{
+      display:"none",
+      gap:"18px",
+      alignItems:"center"
+    }}>
+
+     {menuItems
+     .filter(item => item.active)
+     .map((item,index)=>(
+     
+     <a
+     key={index}
+     href={item.href}
+     style={{
+       color:"#08285c",
+       textDecoration:"none",
+       fontWeight:"bold",
+       fontSize:"16px"
+     }}
+     >
+       {item.label}
+     </a>
+     
+     ))}
+
+      <a
+      href="https://wa.me/351922021980"
+      target="_blank"
+      style={{
+        background:"#25D366",
+        color:"white",
+        padding:"10px 16px",
+        borderRadius:"999px",
+        textDecoration:"none",
+        fontWeight:"bold"
+      }}
+      >
+        WhatsApp
+      </a>
+
+    </div>
+
+  </div>
+
+  {menuOpen && (
+
+    <div
+className="mobile-menu"
+style={{
+  display:"flex",
+  flexDirection:"column",
+  gap:"14px",
+  marginTop:"22px",
+  paddingTop:"18px",
+  borderTop:"1px solid rgba(11,44,95,0.08)"
+}}
+>
+
+  {menuItems
+  .filter(item => item.active)
+  .map((item,index)=>(
+  
+  <a
+  key={index}
+  href={item.href}
+  style={{
+    color:"#08285c",
+    textDecoration:"none",
     fontWeight:"bold",
-    color:"#08285c"
-  }}>
-    <img src="/favicon.png" style={{width:"28px"}} />
-    TecCasa Soluções
-  </div>
+    fontSize:"17px",
+    padding:"10px 0"
+  }}
+  >
+    {item.label}
+  </a>
+  
+  ))}
 
-  <div style={{
-    display:"flex",
-    gap:"18px",
-    alignItems:"center",
-    flexWrap:"wrap"
-  }}>
+  <a
+  href="https://wa.me/351922021980"
+  target="_blank"
+  style={{
+    background:"#25D366",
+    color:"white",
+    padding:"14px",
+    borderRadius:"14px",
+    textDecoration:"none",
+    fontWeight:"bold",
+    textAlign:"center",
+    marginTop:"10px",
+    boxShadow:"0 10px 25px rgba(37,211,102,.22)"
+  }}
+  >
+    WhatsApp
+  </a>
 
-    <a href="#servicos" style={{
-      color:"#08285c",
-      textDecoration:"none",
-      fontWeight:"bold",
-      transition:"0.3s"
-    }}
-    onMouseEnter={(e)=>{e.currentTarget.style.color="#0b63d1"}}
-    onMouseLeave={(e)=>{e.currentTarget.style.color="#08285c"}}
-    >
-      Serviços
-    </a>
+</div>
 
-    <a href="#zona" style={{
-      color:"#08285c",
-      textDecoration:"none",
-      fontWeight:"bold",
-      transition:"0.3s"
-    }}
-    onMouseEnter={(e)=>{e.currentTarget.style.color="#0b63d1"}}
-    onMouseLeave={(e)=>{e.currentTarget.style.color="#08285c"}}
-    >
-      Zona
-    </a>
+  )}
 
-    <a href="#contactos" style={{
-      color:"#08285c",
-      textDecoration:"none",
-      fontWeight:"bold",
-      transition:"0.3s"
-    }}
-    onMouseEnter={(e)=>{e.currentTarget.style.color="#0b63d1"}}
-    onMouseLeave={(e)=>{e.currentTarget.style.color="#08285c"}}
-    >
-      Contactos
-    </a>
-
-    <a href="https://wa.me/351922021980" target="_blank" style={{
-      background:"#25D366",
-      color:"white",
-      padding:"8px 14px",
-      borderRadius:"999px",
-      textDecoration:"none",
-      fontWeight:"bold",
-      transition:"0.3s"
-    }}
-    onMouseEnter={(e)=>{e.currentTarget.style.transform="scale(1.06)"}}
-    onMouseLeave={(e)=>{e.currentTarget.style.transform="scale(1)"}}
-    >
-      WhatsApp
-    </a>
-
-  </div>
 </nav>
       
       <div className="main-card">
@@ -281,80 +352,11 @@ export default function ReparacaoPortoes() {
                   
                   </section>
 
-                                             <section style={{
-                                              padding:"80px 20px",
-                                              maxWidth:"1100px",
-                                              margin:"0 auto"
-                                              }}>
-                                              
-                                              <h1 style={{
-                                              fontSize:"42px",
-                                              color:"#0b2c6b"
-                                              }}>
-                                              Reparação de Portões Automáticos em Lisboa
-                                              </h1>
-                                              
-                                              <p style={{
-                                              fontSize:"20px",
-                                              marginTop:"20px",
-                                              lineHeight:"1.7"
-                                              }}>
-                                              Assistência técnica multimarca para portões automáticos,
-                                              comandos, fotocélulas e centrais eletrónicas.
-                                              </p>
-                                              
-                                              </section>
 
-      <section style={{
-      maxWidth:"1100px",
-      margin:"60px auto",
-      padding:"0 20px"
-      }}>
-      
-      <h2 style={{
-      fontSize:"36px",
-      color:"#0b2c6b",
-      marginBottom:"30px"
-      }}>
-      Problemas comuns
-      </h2>
-      
-      <div
-      className="problemas-grid"
-      style={{
-      display:"grid",
-      gridTemplateColumns:"repeat(3,1fr)",
-      gap:"20px"
-      }}
-      >
-      
-      {[
-      "Portão abre até meio",
-      "Comando deixou de funcionar",
-      "Fotocélulas em erro",
-      "Motor sem força",
-      "Central bloqueada",
-      "Portão não fecha"
-      ].map((item,index)=>(
-      
-      <div key={index} style={{
-      background:"#f4f7fb",
-      padding:"25px",
-      borderRadius:"18px",
-      boxShadow:"0 4px 12px rgba(0,0,0,0.05)"
-      }}>
-      
-      <h3>{item}</h3>
-      
-      </div>
-      
-      ))}
-      
-      </div>
-      
-      </section>
-
- 
+                                                {/* =========================
+                                                       SECÇÃO REPARAÇÃO PORTÕES
+                                                            ========================= */}
+                                                     
   <footer style={{
 marginTop:"80px",
 padding:"45px 30px",
@@ -453,294 +455,232 @@ border:"1px solid rgba(11,44,95,0.05)"
   </p>
 
 </footer>
-                          <style jsx global>{`
-
-                           .page{
-                           font-family: Arial;
-                           padding:40px;
-                           background:#f4f7fb;
-                           min-height:100vh;
-                         }
-
-                           html{
-                           scroll-behavior:smooth;
-                           }
-
-                         .main-card{
-                         width:min(1200px, calc(100% - 40px));
-                         margin:auto;
-                         background:white;
-                         padding:50px;
-                         border-radius:20px;
-                         box-shadow:0 10px 30px rgba(0,0,0,0.1);
-                       }
+                                                                               <style jsx global>{`
+                                                          html {
+                                                            scroll-behavior: smooth;
+                                                            overflow-x: hidden;
+                                                          }
+                                                        
+                                                          body {
+                                                            overflow-x: hidden;
+                                                          }
+                                                        
+                                                          .page {
+                                                          font-family: Arial, sans-serif;
+                                                          padding: 110px 40px 40px 40px;
+                                                          background: #f4f7fb;
+                                                          min-height: 100vh;
+                                                          }
+                                                        
+                                                          .main-card {
+                                                            width: min(1200px, calc(100% - 40px));
+                                                            margin: auto;
+                                                            background: white;
+                                                            padding: 50px;
+                                                            border-radius: 20px;
+                                                            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+                                                            box-sizing: border-box;
+                                                          }
+                                                        
+                                                          .menu-button {
+                                                            display: block;
+                                                          }
+                                                        
+                                                          .mobile-menu {
+                                                            display: none;
+                                                          }
+                                                        
+                                                          .cartao-servico,
+                                                          .cartao-vantagem,
+                                                          .cartao-marca {
+                                                            transition: transform .3s ease, box-shadow .3s ease;
+                                                          }
+                                                        
+                                                          .cartao-servico:hover {
+                                                            transform: translateY(-8px);
+                                                            box-shadow: 0 18px 35px rgba(0,0,0,.14) !important;
+                                                          }
+                                                        
+                                                          .cartao-vantagem:hover {
+                                                            transform: translateY(-8px);
+                                                            box-shadow: 0 18px 35px rgba(0,0,0,.12);
+                                                          }
+                                                        
+                                                          .cartao-marca:hover {
+                                                            transform: translateY(-7px);
+                                                            box-shadow: 0 18px 35px rgba(11,44,95,.14);
+                                                          }
+                                                        
+                                                          @keyframes fadeUp {
+                                                            from {
+                                                              opacity: 0;
+                                                              transform: translateY(25px);
+                                                            }
+                                                            to {
+                                                              opacity: 1;
+                                                              transform: translateY(0);
+                                                            }
+                                                          }
+                                                        
+                                                          h1, h2, .cartao-servico, footer, section {
+                                                            animation: fadeUp .8s ease;
+                                                          }
+                                                        
+                                                          @keyframes pulse {
+                                                            0% { transform: scale(1); }
+                                                            50% { transform: scale(1.06); }
+                                                            100% { transform: scale(1); }
+                                                          }
+                                                        
+                                                          @media (max-width: 768px) {
+                                                            .page {
+                                                              padding: 95px 10px 10px 10px !important;
+                                                            }
+                                                        
+                                                            .main-card {
+                                                              width: 100% !important;
+                                                              max-width: 100% !important;
+                                                              padding: 18px !important;
+                                                              border-radius: 16px !important;
+                                                              overflow: hidden !important;
+                                                            }
+                                                        
+                                                            nav {
+                                                            position: fixed !important;
+                                                            top: 10px !important;
+                                                            left: 10px !important;
+                                                            right: 10px !important;
+                                                            transform: none !important;
+                                                            width: auto !important;
+                                                            max-width: none !important;
+                                                            box-sizing: border-box !important;
+                                                            margin: 0 !important;
+                                                            border-radius: 18px !important;
+                                                            }
+                                                        
+                                                            .desktop-menu {
+                                                              display: none !important;
+                                                            }
+                                                        
+                                                            .menu-button {
+                                                              display: block !important;
+                                                            }
+                                                        
+                                                            .mobile-menu {
+                                                              display: flex !important;
+                                                            }
+                                                        
+                                                            .servicos-grid {
+                                                              grid-template-columns: 1fr !important;
+                                                            }
+                                                        
+                                                            .marcas-grid {
+                                                              display: grid !important;
+                                                              grid-template-columns: repeat(2, 1fr) !important;
+                                                              gap: 12px !important;
+                                                            }
+                                                        
+                                                            .compromisso-grid {
+                                                              grid-template-columns: 1fr !important;
+                                                            }
+                                                        
+                                                            .problemas-grid {
+                                                              grid-template-columns: 1fr !important;
+                                                            }
+                                                        
+                                                            .contact-grid {
+                                                              grid-template-columns: minmax(260px, 320px) !important;
+                                                              justify-content: center !important;
+                                                            }
+                                                        
+                                                            .contact-card {
+                                                              width: 100% !important;
+                                                              max-width: 300px !important;
+                                                              margin-left: auto !important;
+                                                              margin-right: auto !important;
+                                                              box-sizing: border-box !important;
+                                                              text-align: center !important;
+                                                            }
+                                                        
+                                                            .contact-card > div {
+                                                              justify-content: center !important;
+                                                            }
+                                                        
+                                                            .cartao-marca {
+                                                              width: 100% !important;
+                                                              min-height: 48px !important;
+                                                              padding: 12px 8px !important;
+                                                              font-size: 15px !important;
+                                                              border-radius: 14px !important;
+                                                              box-sizing: border-box !important;
+                                                            }
+                                                        
+                                                            section {
+                                                              padding: 24px 18px !important;
+                                                              box-sizing: border-box !important;
+                                                            }
+                                                        
+                                                            section img[src="/Logo.png"] {
+                                                              width: 85% !important;
+                                                              max-width: 260px !important;
+                                                              display: block !important;
+                                                              margin: 0 auto 25px auto !important;
+                                                            }
+                                                        
+                                                            h1 {
+                                                              font-size: 28px !important;
+                                                            }
+                                                        
+                                                            h2 {
+                                                              font-size: 26px !important;
+                                                            }
+                                                        
+                                                            p {
+                                                              font-size: 16px !important;
+                                                            }
+                                                        
+                                                            img {
+                                                              max-width: 100%;
+                                                            }
+                                                        
+                                                            #mapa-teccasa {
+                                                              height: 300px !important;
+                                                            }
+                                                        
+                                                            footer {
+                                                              padding: 35px 18px !important;
+                                                            }
+                                                            section:first-of-type {
+                                                            padding: 28px 18px !important;
+                                                            margin-bottom: 32px !important;
+                                                            border-radius: 22px !important;
+                                                            text-align: center !important;
+                                                          }
+                                                          
+                                                          section:first-of-type h1 {
+                                                            font-size: 27px !important;
+                                                            line-height: 1.18 !important;
+                                                            margin-bottom: 14px !important;
+                                                          }
+                                                          
+                                                          section:first-of-type p {
+                                                            font-size: 16px !important;
+                                                            line-height: 1.55 !important;
+                                                          }
+                                                          
+                                                          section:first-of-type div {
+                                                            justify-content: center !important;
+                                                          }
+                                                          
+                                                          section:first-of-type a {
+                                                            width: 100% !important;
+                                                            max-width: 260px !important;
+                                                            text-align: center !important;
+                                                            box-sizing: border-box !important;
+                                                          }
+                                                          }
+                                                        `}</style>
                          
-                         @media (max-width:768px){
-                           .page{
-                             padding:10px;
-                             /* Corrigir cartões dos contactos no telemóvel */
-                             #contactos + section,
-                             #contactos {
-                               text-align:center;
-                             }
-
-                            .problemas-grid{
-                            grid-template-columns:1fr !important;
-                            }
-                             
-                             .marcas-grid{
-                               grid-template-columns:repeat(2,1fr) !important;
-                             }
-
-                            .compromisso-grid{
-                             grid-template-columns:1fr !important;
-                           }
-
-                             section img[src="/Logo.png"]{
-                             width:85% !important;
-                             max-width:260px !important;
-                             display:block !important;
-                             margin:0 auto 25px auto !important;
-                           }
-
-                             /* Navbar fixa no mobile */
-                             nav {
-                               position: sticky !important;
-                               top: 10px !important;
-                             }
-                           
-                             /* Marcas em 2 colunas no mobile */
-                             .marcas-grid {
-                               display: grid !important;
-                               grid-template-columns: repeat(2, 1fr) !important;
-                               gap: 12px !important;
-                             }
-                           
-                             .cartao-marca {
-                               width: 100% !important;
-                               min-height: 48px !important;
-                               padding: 12px 8px !important;
-                               font-size: 15px !important;
-                               box-sizing: border-box !important;
-                             }
-                           
-                             /* Forçar grelhas a ficarem centradas */
-                             div[style*="grid-template-columns"] {
-                               justify-items:center;
-                             }
-                           .contact-card{
-                             text-align:center;
-                           }
-                         
-                           .contact-card h3{
-                             justify-content:center;
-                           }
-                         
-                           .contact-card > div{
-                             justify-content:center;
-                           }
-                         }
-                             /* Cartões de contactos ocupam a largura certa */
-                             div[style*="minmax(260px,1fr)"] > div {
-                               width:100%;
-                               box-sizing:border-box;
-                             }
-                           
-                             /* Marcas em 2 colunas no mobile */
-                             .cartao-marca {
-                               padding:14px 8px !important;
-                               font-size:15px !important;
-                               border-radius:14px !important;
-                             }
-                           
-                             /* Grelha das marcas mais compacta */
-                             .cartao-marca {
-                               min-height:auto !important;
-                             }
-
-                             .contact-card{
-                             width:100% !important;
-                             max-width:300px !important;
-                             margin-left:auto !important;
-                             margin-right:auto !important;
-                             box-sizing:border-box !important;
-                           }
-
-                             .contact-grid{
-                             grid-template-columns: minmax(260px,320px) !important;
-                             justify-content: center !important;
-                           }
-                           
-                           #contactos + section div[style*="grid"]{
-                             justify-items:center !important;
-                           }
-                           
-                             /* Logo do hero centrado */
-                             section img[src="/Logo.png"] {
-                               display:block;
-                               margin-left:auto !important;
-                               margin-right:auto !important;
-                             }
-                           }
-                         
-                           .main-card{
-                             padding:18px;
-                             border-radius:16px;
-                           }
-                         
-                           nav{
-                             top:0 !important;
-                             margin-bottom:15px !important;
-                             border-radius:18px !important;
-                           }
-                         
-                           nav > div:first-child{
-                             justify-content:center;
-                             width:100%;
-                           }
-                         
-                           nav > div:last-child{
-                             justify-content:center;
-                             width:100%;
-                             gap:10px !important;
-                           }
-                         
-                           nav a{
-                             font-size:13px;
-                           }
-                         
-                           section{
-                             padding:24px 18px !important;
-                           }
-                         
-                           h1{
-                             font-size:28px !important;
-                           }
-                         
-                           h2{
-                             font-size:26px !important;
-                           }
-                         
-                           p{
-                             font-size:16px !important;
-                           }
-                         
-                           img{
-                             max-width:100%;
-                           }
-                         
-                           #mapa-teccasa{
-                             height:300px !important;
-                           }
-                         }
-                           .cartao-servico {
-                             transition: transform 0.3s ease, box-shadow 0.3s ease;
-                           }
-                         
-                           .cartao-servico:hover {
-                             transform: translateY(-8px);
-                             box-shadow: 0 18px 35px rgba(0,0,0,0.14) !important;
-                           }
-
-                           @keyframes fadeUp {
-                           from{
-                           opacity:0;
-                           transform:translateY(25px);
-                           }
-                           to{
-                           opacity:1;
-                           transform:translateY(0);
-                           }
-                           }
-                           
-                           h1,h2,.cartao-servico,footer,section{
-                           animation:fadeUp .8s ease;
-                           }
-
-                           .cartao-vantagem{
-                           transition:transform .3s ease, box-shadow .3s ease;
-                           }
-
-                           html {
-                           scroll-behavior: smooth;
-                           }
-                           
-                           .cartao-vantagem:hover{
-                           transform:translateY(-8px);
-                           box-shadow:0 18px 35px rgba(0,0,0,.12);
-                           }
-
-                            .cartao-marca{
-                            transition:transform .3s ease, box-shadow .3s ease;
-                            }
-                            
-                            .cartao-marca:hover{
-                            transform:translateY(-7px);
-                            box-shadow:0 18px 35px rgba(11,44,95,.14);
-                            }
-
-                           @keyframes pulse{
-                           0%{
-                           transform:scale(1);
-                           }
-                           
-                           50%{
-                           transform:scale(1.06);
-                           }
-                           
-                           100%{
-                           transform:scale(1);
-                           }
-                           }
-                           @media (max-width: 768px) {
-  body {
-    overflow-x: hidden;
-  }
-
-  nav {
-    position: static !important;
-    border-radius: 22px !important;
-  }
-
-  nav > div {
-    width: 100%;
-    justify-content: center !important;
-    text-align: center;
-  }
-
-  nav a {
-    font-size: 14px;
-  }
-
-  div[style*="padding: 40px"] {
-    padding: 15px !important;
-  }
-
-  div[style*="padding: 50px"] {
-    padding: 24px !important;
-  }
-
-  section {
-    padding: 28px 22px !important;
-  }
-
-  h1 {
-    font-size: 30px !important;
-  }
-
-  h2 {
-    font-size: 28px !important;
-  }
-
-  #mapa-teccasa {
-    height: 320px !important;
-  }
-
-  footer {
-    padding: 35px 18px !important;
-  }
-}
-                         `}</style>
 
  <a
 href="https://wa.me/351922021980"
