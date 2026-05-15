@@ -1345,13 +1345,16 @@ border:"1px solid rgba(11,44,95,0.05)"
                                                             }
                                                         
                                                             nav {
-                                                              width: 100% !important;
-                                                              max-width: 100% !important;
-                                                              box-sizing: border-box !important;
-                                                              position: sticky !important;
-                                                              top: 10px !important;
-                                                              margin-bottom: 15px !important;
-                                                              border-radius: 18px !important;
+                                                            position: fixed !important;
+                                                            top: 10px !important;
+                                                            left: 10px !important;
+                                                            right: 10px !important;
+                                                            transform: none !important;
+                                                            width: auto !important;
+                                                            max-width: none !important;
+                                                            box-sizing: border-box !important;
+                                                            margin: 0 !important;
+                                                            border-radius: 18px !important;
                                                             }
                                                         
                                                             .desktop-menu {
