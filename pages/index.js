@@ -1,6 +1,7 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import Head from "next/head";
 export default function Home() {
+ const [menuOpen, setMenuOpen] = useState(false);
  useEffect(() => {
   if (typeof window === "undefined") return;
 
