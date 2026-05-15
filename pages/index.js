@@ -82,7 +82,8 @@ export default function Home() {
   position:"sticky",
   top:"20px",
   zIndex:"1000",
-  maxWidth:"1000px",
+  maxWidth:"1200px",
+  width:"min(1200px, calc(100% - 40px))",
   margin:"0 auto 25px auto",
   background:"rgba(255,255,255,0.92)",
   backdropFilter:"blur(10px)",
@@ -1121,13 +1122,13 @@ border:"1px solid rgba(11,44,95,0.05)"
                            }
 
                          .main-card{
-                           max-width:1000px;
-                           margin:auto;
-                           background:white;
-                           padding:50px;
-                           border-radius:20px;
-                           box-shadow:0 10px 30px rgba(0,0,0,0.1);
-                         }
+                         width:min(1200px, calc(100% - 40px));
+                         margin:auto;
+                         background:white;
+                         padding:50px;
+                         border-radius:20px;
+                         box-shadow:0 10px 30px rgba(0,0,0,0.1);
+                       }
                          
                          @media (max-width:768px){
                            .page{
