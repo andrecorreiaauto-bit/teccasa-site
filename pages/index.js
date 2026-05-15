@@ -111,8 +111,10 @@ export default function Home() {
     <div className="page">
 
 <nav style={{
-  position:"sticky",
+  position:"fixed",
   top:"20px",
+  left:"50%",
+  transform:"translateX(-50%)",
   zIndex:"1000",
   maxWidth:"1200px",
   width:"min(1200px, calc(100% - 40px))",
@@ -1263,10 +1265,10 @@ border:"1px solid rgba(11,44,95,0.05)"
                                                           }
                                                         
                                                           .page {
-                                                            font-family: Arial, sans-serif;
-                                                            padding: 40px;
-                                                            background: #f4f7fb;
-                                                            min-height: 100vh;
+                                                          font-family: Arial, sans-serif;
+                                                          padding: 110px 40px 40px 40px;
+                                                          background: #f4f7fb;
+                                                          min-height: 100vh;
                                                           }
                                                         
                                                           .main-card {
@@ -1331,7 +1333,7 @@ border:"1px solid rgba(11,44,95,0.05)"
                                                         
                                                           @media (max-width: 768px) {
                                                             .page {
-                                                              padding: 10px !important;
+                                                              padding: 95px 10px 10px 10px !important;
                                                             }
                                                         
                                                             .main-card {
