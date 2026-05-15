@@ -318,11 +318,14 @@ export default function ReparacaoPortoes() {
       Problemas comuns
       </h2>
       
-      <div style={{
+      <div
+      className="problemas-grid"
+      style={{
       display:"grid",
-      gridTemplateColumns:"repeat(auto-fit,minmax(240px,1fr))",
+      gridTemplateColumns:"repeat(3,1fr)",
       gap:"20px"
-      }}>
+      }}
+      >
       
       {[
       "Portão abre até meio",
@@ -480,9 +483,9 @@ border:"1px solid rgba(11,44,95,0.05)"
                                text-align:center;
                              }
 
-                             .servicos-grid{
-                               grid-template-columns:1fr !important;
-                             }
+                            .problemas-grid{
+                            grid-template-columns:1fr !important;
+                            }
                              
                              .marcas-grid{
                                grid-template-columns:repeat(2,1fr) !important;
