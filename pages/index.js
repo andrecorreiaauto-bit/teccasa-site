@@ -120,85 +120,146 @@ export default function Home() {
   background:"rgba(255,255,255,0.92)",
   backdropFilter:"blur(10px)",
   border:"1px solid rgba(11,44,95,0.08)",
-  borderRadius:"999px",
-  padding:"12px 20px",
-  display:"flex",
-  justifyContent:"space-between",
-  alignItems:"center",
-  flexWrap:"wrap",
-  gap:"12px",
+  borderRadius:"28px",
+  padding:"14px 20px",
   boxShadow:"0 10px 30px rgba(11,44,95,0.10)"
 }}>
-  <div style={{
-    display:"flex",
-    alignItems:"center",
-    gap:"10px",
-    fontWeight:"bold",
-    color:"#08285c"
-  }}>
-    <img src="/favicon.png" style={{width:"28px"}} />
-    TecCasa Soluções
-  </div>
 
   <div style={{
     display:"flex",
-    gap:"18px",
-    alignItems:"center",
-    flexWrap:"wrap"
+    justifyContent:"space-between",
+    alignItems:"center"
   }}>
 
-    <a href="#servicos" style={{
+    <div style={{
+      display:"flex",
+      alignItems:"center",
+      gap:"10px",
+      fontWeight:"bold",
       color:"#08285c",
-      textDecoration:"none",
-      fontWeight:"bold",
-      transition:"0.3s"
-    }}
-    onMouseEnter={(e)=>{e.currentTarget.style.color="#0b63d1"}}
-    onMouseLeave={(e)=>{e.currentTarget.style.color="#08285c"}}
-    >
-      Serviços
-    </a>
+      fontSize:"20px"
+    }}>
+      <img src="/favicon.png" style={{width:"30px"}} />
+      TecCasa Soluções
+    </div>
 
-    <a href="#zona" style={{
-      color:"#08285c",
-      textDecoration:"none",
-      fontWeight:"bold",
-      transition:"0.3s"
-    }}
-    onMouseEnter={(e)=>{e.currentTarget.style.color="#0b63d1"}}
-    onMouseLeave={(e)=>{e.currentTarget.style.color="#08285c"}}
+    <button
+      onClick={()=>setMenuOpen(!menuOpen)}
+      style={{
+        background:"none",
+        border:"none",
+        fontSize:"30px",
+        cursor:"pointer",
+        color:"#08285c",
+        display:"none"
+      }}
+      className="menu-button"
     >
-      Zona
-    </a>
+      ☰
+    </button>
 
-    <a href="#contactos" style={{
-      color:"#08285c",
-      textDecoration:"none",
-      fontWeight:"bold",
-      transition:"0.3s"
-    }}
-    onMouseEnter={(e)=>{e.currentTarget.style.color="#0b63d1"}}
-    onMouseLeave={(e)=>{e.currentTarget.style.color="#08285c"}}
-    >
-      Contactos
-    </a>
+    <div className="desktop-menu" style={{
+      display:"flex",
+      gap:"18px",
+      alignItems:"center"
+    }}>
 
-    <a href="https://wa.me/351922021980" target="_blank" style={{
-      background:"#25D366",
-      color:"white",
-      padding:"8px 14px",
-      borderRadius:"999px",
-      textDecoration:"none",
-      fontWeight:"bold",
-      transition:"0.3s"
-    }}
-    onMouseEnter={(e)=>{e.currentTarget.style.transform="scale(1.06)"}}
-    onMouseLeave={(e)=>{e.currentTarget.style.transform="scale(1)"}}
-    >
-      WhatsApp
-    </a>
+      <a href="#servicos" style={{
+        color:"#08285c",
+        textDecoration:"none",
+        fontWeight:"bold"
+      }}>
+        Serviços
+      </a>
+
+      <a href="#zona" style={{
+        color:"#08285c",
+        textDecoration:"none",
+        fontWeight:"bold"
+      }}>
+        Zona
+      </a>
+
+      <a href="#contactos" style={{
+        color:"#08285c",
+        textDecoration:"none",
+        fontWeight:"bold"
+      }}>
+        Contactos
+      </a>
+
+      <a
+      href="https://wa.me/351922021980"
+      target="_blank"
+      style={{
+        background:"#25D366",
+        color:"white",
+        padding:"10px 16px",
+        borderRadius:"999px",
+        textDecoration:"none",
+        fontWeight:"bold"
+      }}
+      >
+        WhatsApp
+      </a>
+
+    </div>
 
   </div>
+
+  {menuOpen && (
+
+    <div className="mobile-menu" style={{
+      display:"flex",
+      flexDirection:"column",
+      gap:"16px",
+      marginTop:"20px"
+    }}>
+
+      <a href="#servicos" style={{
+        color:"#08285c",
+        textDecoration:"none",
+        fontWeight:"bold"
+      }}>
+        Serviços
+      </a>
+
+      <a href="#zona" style={{
+        color:"#08285c",
+        textDecoration:"none",
+        fontWeight:"bold"
+      }}>
+        Zona
+      </a>
+
+      <a href="#contactos" style={{
+        color:"#08285c",
+        textDecoration:"none",
+        fontWeight:"bold"
+      }}>
+        Contactos
+      </a>
+
+      <a
+      href="https://wa.me/351922021980"
+      target="_blank"
+      style={{
+        background:"#25D366",
+        color:"white",
+        padding:"12px",
+        borderRadius:"14px",
+        textDecoration:"none",
+        fontWeight:"bold",
+        textAlign:"center"
+      }}
+      >
+        WhatsApp
+      </a>
+
+    </div>
+
+  )}
+
 </nav>
       
       <div className="main-card">
@@ -1152,6 +1213,14 @@ border:"1px solid rgba(11,44,95,0.05)"
                            min-height:100vh;
                          }
 
+                         .menu-button{
+                             display:none;
+                           }
+                           
+                           .mobile-menu{
+                             display:none;
+                           }
+
                            html{
                            scroll-behavior:smooth;
                            }
@@ -1173,6 +1242,20 @@ border:"1px solid rgba(11,44,95,0.05)"
                              #contactos {
                                text-align:center;
                              }
+
+                             .desktop-menu{
+                                display:none !important;
+                              }
+                            
+                              .menu-button{
+                                display:block !important;
+                              }
+                            
+                              .mobile-menu{
+                                display:flex !important;
+                              }
+                            
+                            }
 
                              .servicos-grid{
                                grid-template-columns:1fr !important;
