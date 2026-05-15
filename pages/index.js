@@ -159,7 +159,7 @@ export default function Home() {
     </button>
 
     <div className="desktop-menu" style={{
-      display:"flex",
+      display:"none",
       gap:"18px",
       alignItems:"center"
     }}>
@@ -1232,7 +1232,7 @@ border:"1px solid rgba(11,44,95,0.05)"
                                                           }
                                                         
                                                           .menu-button {
-                                                            display: none;
+                                                            display: block;
                                                           }
                                                         
                                                           .mobile-menu {
