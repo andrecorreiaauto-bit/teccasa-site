@@ -764,11 +764,13 @@ Pedir ajuda
                                                      </p>
                                                      </div>
                                                      
-                                                     <div style={{
-                                                     display:"grid",
-                                                     gridTemplateColumns:"repeat(auto-fit,minmax(240px,1fr))",
-                                                     gap:"18px",
-                                                     marginBottom:"50px"
+                                                     <div
+                                                     className="compromisso-grid"
+                                                     style={{
+                                                       display:"grid",
+                                                       gridTemplateColumns:"repeat(3,1fr)",
+                                                       gap:"20px",
+                                                     marginTop:"20px"
                                                      }}>
                                                      
                                                      {[
@@ -835,14 +837,12 @@ Soluções técnicas com foco em diagnóstico, transparência e apoio próximo.
 </p>
 </div>
                                  
-                                 <div
-                                 className="compromisso-grid"
-                                 style={{
-                                   display:"grid",
-                                   gridTemplateColumns:"repeat(3,1fr)",
-                                   gap:"20px",
+                                 <div style={{
+                                 display:"grid",
+                                 gridTemplateColumns:"repeat(auto-fit,minmax(250px,1fr))",
+                                 gap:"20px",
                                  marginTop:"20px"
-                                 }}>
+                               }}>
                                  
                                  <div
                                  className="cartao-vantagem"
