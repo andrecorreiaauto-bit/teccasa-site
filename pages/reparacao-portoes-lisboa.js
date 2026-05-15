@@ -353,9 +353,66 @@ style={{
                   </section>
 
 
-                                                {/* =========================
-                                                       SECÇÃO REPARAÇÃO PORTÕES
-                                                            ========================= */}
+                                                <section style={{
+                                                padding:"70px 20px",
+                                                maxWidth:"1100px",
+                                                margin:"0 auto"
+                                              }}>
+                                                <h1 style={{
+                                                  fontSize:"42px",
+                                                  color:"#08285c",
+                                                  marginBottom:"18px"
+                                                }}>
+                                                  Reparação de Portões Automáticos em Lisboa
+                                                </h1>
+                                              
+                                                <p style={{
+                                                  fontSize:"20px",
+                                                  lineHeight:"1.7",
+                                                  color:"#444",
+                                                  maxWidth:"850px"
+                                                }}>
+                                                  Assistência técnica multimarca para portões automáticos, motores, comandos,
+                                                  fotocélulas, recetores e centrais eletrónicas. Diagnóstico claro antes de
+                                                  recomendar substituições.
+                                                </p>
+                                              
+                                                <div style={{
+                                                  display:"flex",
+                                                  gap:"15px",
+                                                  flexWrap:"wrap",
+                                                  marginTop:"30px"
+                                                }}>
+                                                  <a
+                                                    href="https://wa.me/351922021980"
+                                                    target="_blank"
+                                                    style={{
+                                                      background:"#25D366",
+                                                      color:"white",
+                                                      padding:"15px 24px",
+                                                      borderRadius:"14px",
+                                                      textDecoration:"none",
+                                                      fontWeight:"bold"
+                                                    }}
+                                                  >
+                                                    Pedir diagnóstico por WhatsApp
+                                                  </a>
+                                              
+                                                  <a
+                                                    href="tel:922021980"
+                                                    style={{
+                                                      background:"#08285c",
+                                                      color:"white",
+                                                      padding:"15px 24px",
+                                                      borderRadius:"14px",
+                                                      textDecoration:"none",
+                                                      fontWeight:"bold"
+                                                    }}
+                                                  >
+                                                    Ligar agora
+                                                  </a>
+                                                </div>
+                                              </section>
                                                      
   <footer style={{
 marginTop:"80px",
