@@ -40,7 +40,9 @@ export default function Home() {
                                                   <>
                                                   <Head>
                                                   
-                                                  <title>TecCasa Soluções | Automatismos, Reparações e Domótica</title>
+                                                  <title>
+                                                  TecCasa Soluções | Portões Automáticos, Automatismos e Domótica em Lisboa
+                                                  </title>
                                                   
                                                   <meta
                                                   name="description"
@@ -49,7 +51,21 @@ export default function Home() {
                                                   
                                                   <meta
                                                   name="keywords"
-                                                  content="automatismos, portões automáticos, comandos garagem, domótica, vigilância, reparações, TecCasa"
+                                                  content="automatismos lisboa,
+                                                   reparação portões,
+                                                   comandos garagem,
+                                                   motorline,
+                                                   bft,
+                                                   came,
+                                                   nice,
+                                                   domótica lisboa,
+                                                   assistência técnica portões
+                                                   automatismos, 
+                                                   portões automáticos, 
+                                                   domótica, 
+                                                   vigilância, 
+                                                   reparações, 
+                                                   TecCasa"
                                                   />
                                                   
                                                   <meta name="viewport" content="width=device-width, initial-scale=1" />
