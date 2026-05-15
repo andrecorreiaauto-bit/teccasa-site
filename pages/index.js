@@ -836,10 +836,12 @@ Soluções técnicas com foco em diagnóstico, transparência e apoio próximo.
 </p>
 </div>
                                  
-                                 <div style={{
-                                 display:"grid",
-                                 gridTemplateColumns:"repeat(auto-fit,minmax(220px,1fr))",
-                                 gap:"15px",
+                                 <div
+                                 className="compromisso-grid"
+                                 style={{
+                                   display:"grid",
+                                   gridTemplateColumns:"repeat(3,1fr)",
+                                   gap:"20px",
                                  marginTop:"20px"
                                  }}>
                                  
@@ -1148,7 +1150,11 @@ border:"1px solid rgba(11,44,95,0.05)"
                              .marcas-grid{
                                grid-template-columns:repeat(2,1fr) !important;
                              }
-                            
+
+                            .compromisso-grid{
+                             grid-template-columns:1fr !important;
+                           }
+
                              section img[src="/Logo.png"]{
                              width:85% !important;
                              max-width:260px !important;
