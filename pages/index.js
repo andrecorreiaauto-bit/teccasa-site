@@ -76,7 +76,12 @@ export default function Home() {
                                                   property="og:description"
                                                   content="Automatismos, reparações, domótica e soluções inteligentes."
                                                   />
-                                                  
+
+                                                  <meta 
+                                                  name="google-site-verification" 
+                                                  content="_Dnes5RL-b6NjpXQVjaV6Nz7AlQFSU4PvvcSTWUKe44" 
+                                                  />
+
                                                   <meta
                                                   property="og:image"
                                                   content="https://www.tec-casa.pt/preview.jpg"
