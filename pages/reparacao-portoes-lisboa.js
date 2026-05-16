@@ -352,6 +352,109 @@ style={{
                   
                   </section>
 
+ <section style={{
+  padding:"40px 20px 70px",
+  maxWidth:"1100px",
+  margin:"0 auto"
+}}>
+  <h2 style={{
+    fontSize:"34px",
+    color:"#08285c",
+    marginBottom:"12px",
+    textAlign:"center"
+  }}>
+    Problemas comuns em portões automáticos
+  </h2>
+
+  <p style={{
+    fontSize:"18px",
+    color:"#555",
+    maxWidth:"760px",
+    margin:"0 auto 35px",
+    textAlign:"center",
+    lineHeight:"1.6"
+  }}>
+    Estes são alguns dos sintomas mais frequentes. Antes de substituir peças,
+    procuramos perceber a origem da avaria.
+  </p>
+
+  <div
+    className="problemas-grid"
+    style={{
+      display:"grid",
+      gridTemplateColumns:"repeat(3,1fr)",
+      gap:"20px"
+    }}
+  >
+
+    {[
+      {
+        icon:"🚧",
+        title:"Portão abre até meio",
+        text:"Pode estar relacionado com esforço, programação, fim de curso ou obstáculos no percurso."
+      },
+      {
+        icon:"📡",
+        title:"Comando não funciona",
+        text:"Pode ser pilha, comando desprogramado, recetor RF ou problema na central."
+      },
+      {
+        icon:"👁️",
+        title:"Fotocélulas em erro",
+        text:"Fotocélulas desalinhadas, sujas, sem alimentação ou com cabos danificados."
+      },
+      {
+        icon:"⚙️",
+        title:"Motor sem força",
+        text:"Pode indicar desgaste mecânico, condensador fraco, esforço excessivo ou parametrização incorreta."
+      },
+      {
+        icon:"🧠",
+        title:"Central bloqueada",
+        text:"Erros de programação, entradas de segurança ativas ou configuração alterada."
+      },
+      {
+        icon:"🔁",
+        title:"Fecha e volta a abrir",
+        text:"Normalmente associado a segurança, obstáculos, fotocélulas ou esforço mal calibrado."
+      }
+    ].map((item,index)=>(
+
+      <div key={index} style={{
+        background:"#e6edf7",
+        padding:"28px",
+        borderRadius:"22px",
+        boxShadow:"0 12px 30px rgba(11,44,95,0.08)",
+        minHeight:"210px"
+      }}>
+        <div style={{
+          fontSize:"34px",
+          marginBottom:"18px"
+        }}>
+          {item.icon}
+        </div>
+
+        <h3 style={{
+          color:"#08285c",
+          fontSize:"21px",
+          marginBottom:"12px"
+        }}>
+          {item.title}
+        </h3>
+
+        <p style={{
+          color:"#333",
+          lineHeight:"1.6",
+          margin:"0"
+        }}>
+          {item.text}
+        </p>
+      </div>
+
+    ))}
+
+  </div>
+</section>
 
                                                 <section style={{
                                                 padding:"70px 20px",
