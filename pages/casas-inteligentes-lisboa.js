@@ -518,6 +518,121 @@ style={{
                                                 </div>
                                               
                                               </section>
+
+                                                                           <section style={{
+                                                                            marginTop:"90px"
+                                                                            }}>
+                                                                            
+                                                                            <h2 style={{
+                                                                            color:"#08285c",
+                                                                            fontSize:"42px",
+                                                                            marginBottom:"18px",
+                                                                            textAlign:"center"
+                                                                            }}>
+                                                                            Integrações inteligentes
+                                                                            </h2>
+                                                                            
+                                                                            <p style={{
+                                                                            textAlign:"center",
+                                                                            maxWidth:"850px",
+                                                                            margin:"0 auto 50px auto",
+                                                                            color:"#555",
+                                                                            fontSize:"20px",
+                                                                            lineHeight:"1.7"
+                                                                            }}>
+                                                                            As soluções podem integrar diferentes plataformas e ecossistemas, permitindo controlo centralizado, automações e acesso remoto.
+                                                                            </p>
+                                                                            
+                                                                            <div style={{
+                                                                            display:"grid",
+                                                                            gridTemplateColumns:"repeat(auto-fit,minmax(140px,1fr))",
+                                                                            gap:"22px",
+                                                                            alignItems:"stretch"
+                                                                            }}>
+                                                                            
+                                                                            {[
+                                                                            {
+                                                                            image:"/google-home.png",
+                                                                            name:"Google Home"
+                                                                            },
+                                                                            
+                                                                            {
+                                                                            image:"/alexa.png",
+                                                                            name:"Amazon Alexa"
+                                                                            },
+                                                                            
+                                                                            {
+                                                                            image:"/smartlife.png",
+                                                                            name:"Smart Life"
+                                                                            },
+                                                                            
+                                                                            {
+                                                                            image:"/tuya.png",
+                                                                            name:"Tuya"
+                                                                            },
+                                                                            
+                                                                            {
+                                                                            image:"/wifi.png",
+                                                                            name:"Wi-Fi"
+                                                                            },
+                                                                            
+                                                                            {
+                                                                            image:"/zigbee.png",
+                                                                            name:"Zigbee"
+                                                                            }
+                                                                            
+                                                                            ].map((item,index)=>(
+                                                                            
+                                                                            <div
+                                                                            key={index}
+                                                                            style={{
+                                                                            background:"linear-gradient(180deg,#ffffff 0%,#f4f8fd 100%)",
+                                                                            borderRadius:"24px",
+                                                                            padding:"30px 20px",
+                                                                            display:"flex",
+                                                                            flexDirection:"column",
+                                                                            justifyContent:"center",
+                                                                            alignItems:"center",
+                                                                            gap:"18px",
+                                                                            boxShadow:"0 12px 30px rgba(11,44,95,0.08)",
+                                                                            border:"1px solid rgba(11,44,95,0.05)",
+                                                                            transition:"0.3s"
+                                                                            }}
+                                                                            onMouseEnter={(e)=>{
+                                                                            e.currentTarget.style.transform="translateY(-6px)"
+                                                                            }}
+                                                                            onMouseLeave={(e)=>{
+                                                                            e.currentTarget.style.transform="translateY(0)"
+                                                                            }}
+                                                                            >
+                                                                            
+                                                                            <img
+                                                                            src={item.image}
+                                                                            alt={item.name}
+                                                                            style={{
+                                                                            height:"52px",
+                                                                            width:"auto",
+                                                                            objectFit:"contain"
+                                                                            }}
+                                                                            />
+                                                                            
+                                                                            <div style={{
+                                                                            fontWeight:"bold",
+                                                                            color:"#08285c",
+                                                                            fontSize:"16px",
+                                                                            textAlign:"center"
+                                                                            }}>
+                                                                            {item.name}
+                                                                            </div>
+                                                                            
+                                                                            </div>
+                                                                            
+                                                                            ))}
+                                                                            
+                                                                            </div>
+                                                                            
+                                                                            </section>
+
                                                     {/* =========================
                                                              SECÇÃO COMANDOS
                                                                       ========================= */}
