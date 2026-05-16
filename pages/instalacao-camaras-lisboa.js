@@ -547,6 +547,105 @@ style={{
                                                                  
                                                                  </section>
 
+                                                                                          <section
+                                                                                           style={{
+                                                                                           padding:"20px 20px 90px",
+                                                                                           maxWidth:"1200px",
+                                                                                           margin:"0 auto"
+                                                                                           }}
+                                                                                           >
+                                                                                           
+                                                                                           <h2 style={{
+                                                                                           fontSize:"42px",
+                                                                                           color:"#08285c",
+                                                                                           marginBottom:"18px",
+                                                                                           textAlign:"center"
+                                                                                           }}>
+                                                                                           Apps e marcas compatíveis
+                                                                                           </h2>
+                                                                                           
+                                                                                           <p style={{
+                                                                                           fontSize:"20px",
+                                                                                           color:"#555",
+                                                                                           maxWidth:"850px",
+                                                                                           margin:"0 auto 50px auto",
+                                                                                           textAlign:"center",
+                                                                                           lineHeight:"1.7"
+                                                                                           }}>
+                                                                                           Soluções simples e intuitivas com acesso remoto através de aplicações conhecidas e fáceis de utilizar no dia a dia.
+                                                                                           </p>
+                                                                                           
+                                                                                           <div
+                                                                                           className="logos-vigilancia"
+                                                                                           style={{
+                                                                                           display:"grid",
+                                                                                           gridTemplateColumns:"repeat(auto-fit,minmax(180px,1fr))",
+                                                                                           gap:"24px"
+                                                                                           }}
+                                                                                           >
+                                                                                           
+                                                                                           {[
+                                                                                           {
+                                                                                           logo:"/tapo.png",
+                                                                                           name:"TP-Link Tapo"
+                                                                                           },
+                                                                                           {
+                                                                                           logo:"/ezviz.png",
+                                                                                           name:"EZVIZ"
+                                                                                           },
+                                                                                           {
+                                                                                           logo:"/imou.png",
+                                                                                           name:"Imou"
+                                                                                           },
+                                                                                           {
+                                                                                           logo:"/reolink.png",
+                                                                                           name:"Reolink"
+                                                                                           }
+                                                                                           ].map((item,index)=>(
+                                                                                           
+                                                                                           <div
+                                                                                           key={index}
+                                                                                           style={{
+                                                                                           background:"#fff",
+                                                                                           borderRadius:"26px",
+                                                                                           padding:"35px 20px",
+                                                                                           display:"flex",
+                                                                                           flexDirection:"column",
+                                                                                           alignItems:"center",
+                                                                                           justifyContent:"center",
+                                                                                           boxShadow:"0 12px 30px rgba(11,44,95,0.08)",
+                                                                                           border:"1px solid rgba(11,44,95,0.06)"
+                                                                                           }}
+                                                                                           >
+                                                                                           
+                                                                                           <img
+                                                                                           src={item.logo}
+                                                                                           alt={item.name}
+                                                                                           style={{
+                                                                                           height:"68px",
+                                                                                           width:"auto",
+                                                                                           objectFit:"contain",
+                                                                                           marginBottom:"26px"
+                                                                                           }}
+                                                                                           />
+                                                                                           
+                                                                                           <h3 style={{
+                                                                                           color:"#08285c",
+                                                                                           fontSize:"24px",
+                                                                                           margin:"0",
+                                                                                           textAlign:"center"
+                                                                                           }}>
+                                                                                           {item.name}
+                                                                                           </h3>
+                                                                                           
+                                                                                           </div>
+                                                                                           
+                                                                                           ))}
+                                                                                           
+                                                                                           </div>
+                                                                                           
+                                                                                           </section>
+
    
                                                     {/* =========================
                                                              SECÇÃO COMANDOS
@@ -1014,6 +1113,16 @@ border:"1px solid rgba(11,44,95,0.05)"
                                                             display: block !important;
                                                             margin: 0 auto !important;
                                                             border-radius: 20px !important;
+                                                          }
+
+                                                          .logos-vigilancia {
+                                                            grid-template-columns: 1fr !important;
+                                                            justify-items: center !important;
+                                                          }
+                                                          
+                                                          .logos-vigilancia > div {
+                                                            width: 100% !important;
+                                                            max-width: 300px !important;
                                                           }
 
                                                           }
