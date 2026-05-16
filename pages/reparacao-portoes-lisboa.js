@@ -452,7 +452,7 @@ style={{
                                                         </div>
                                                         
                                                         </section>
- <section style={{
+ <section id="problemas" style={{
   padding:"40px 20px 70px",
   maxWidth:"1100px",
   margin:"0 auto"
