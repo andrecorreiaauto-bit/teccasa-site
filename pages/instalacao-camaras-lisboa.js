@@ -418,6 +418,11 @@ style={{
                                            title:"Segunda habitação",
                                            text:"Acompanhe remotamente uma casa de férias, garagem ou espaço residencial secundário."
                                            }
+                                           {
+                                           image:"/app-vigilancia.png",
+                                           title:"Acesso remoto",
+                                           text:"Veja várias câmaras no telemóvel, receba notificações e acompanhe a casa mesmo quando está fora."
+                                           }
                                            ].map((item,index)=>(
                                            
                                            <div
