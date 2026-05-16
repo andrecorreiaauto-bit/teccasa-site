@@ -479,6 +479,7 @@ style={{
                                            </section>
 
                                                                 <section
+                                                                 className="vigilancia-wow-section"
                                                                  style={{
                                                                  padding:"40px 20px 90px",
                                                                  maxWidth:"1200px",
@@ -972,20 +973,47 @@ border:"1px solid rgba(11,44,95,0.05)"
                                                             text-align: center !important;
                                                           }
 
+                                                          .vigilancia-wow-section {
+                                                            padding: 30px 0 60px !important;
+                                                            margin: 0 auto !important;
+                                                          }
+                                                          
                                                           .vigilancia-wow {
-                                                            padding: 38px 24px !important;
-                                                            border-radius: 30px !important;
+                                                            width: 100% !important;
+                                                            max-width: 330px !important;
+                                                            margin: 0 auto !important;
+                                                            padding: 34px 20px !important;
+                                                            border-radius: 28px !important;
+                                                            display: flex !important;
+                                                            flex-direction: column !important;
+                                                            gap: 28px !important;
                                                             text-align: center !important;
+                                                            box-sizing: border-box !important;
+                                                            overflow: hidden !important;
                                                           }
                                                           
                                                           .vigilancia-wow h2 {
-                                                            font-size: 42px !important;
-                                                            line-height: 1.05 !important;
+                                                            font-size: 31px !important;
+                                                            line-height: 1.15 !important;
+                                                            max-width: 280px !important;
+                                                            margin: 0 auto 18px auto !important;
                                                           }
                                                           
                                                           .vigilancia-wow p {
-                                                            font-size: 18px !important;
-                                                            line-height: 1.7 !important;
+                                                            font-size: 16px !important;
+                                                            line-height: 1.6 !important;
+                                                            max-width: 285px !important;
+                                                            margin: 0 auto !important;
+                                                          }
+                                                          
+                                                          .vigilancia-wow img {
+                                                            width: 100% !important;
+                                                            max-width: 285px !important;
+                                                            height: auto !important;
+                                                            object-fit: contain !important;
+                                                            display: block !important;
+                                                            margin: 0 auto !important;
+                                                            border-radius: 20px !important;
                                                           }
 
                                                           }
