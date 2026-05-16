@@ -352,6 +352,106 @@ style={{
                   
                   </section>
 
+                                                         <section style={{
+                                                          marginTop:"70px"
+                                                        }}>
+                                                        
+                                                        <h2 style={{
+                                                          color:"#08285c",
+                                                          fontSize:"42px",
+                                                          marginBottom:"18px",
+                                                          textAlign:"center"
+                                                        }}>
+                                                          Como funciona a assistência técnica
+                                                        </h2>
+                                                        
+                                                        <p style={{
+                                                          textAlign:"center",
+                                                          maxWidth:"850px",
+                                                          margin:"0 auto 50px auto",
+                                                          color:"#555",
+                                                          fontSize:"20px",
+                                                          lineHeight:"1.7"
+                                                        }}>
+                                                          Cada avaria é analisada de forma técnica e estruturada, evitando substituições desnecessárias e procurando identificar a verdadeira origem do problema.
+                                                        </p>
+                                                        
+                                                        <div className="compromisso-grid" style={{
+                                                          display:"grid",
+                                                          gridTemplateColumns:"repeat(auto-fit,minmax(240px,1fr))",
+                                                          gap:"24px"
+                                                        }}>
+                                                        
+                                                          {[
+                                                            {
+                                                              icon:"🔎",
+                                                              title:"Análise do sintoma",
+                                                              text:"Verificação do comportamento do portão, ruídos, falhas intermitentes e histórico da avaria."
+                                                            },
+                                                        
+                                                            {
+                                                              icon:"⚡",
+                                                              title:"Verificação elétrica",
+                                                              text:"Teste de alimentação, fotocélulas, recetores, comandos e centrais eletrónicas."
+                                                            },
+                                                        
+                                                            {
+                                                              icon:"⚙️",
+                                                              title:"Diagnóstico técnico",
+                                                              text:"Avaliação do motor, esforço, programação, fins de curso e sistemas de segurança."
+                                                            },
+                                                        
+                                                            {
+                                                              icon:"💬",
+                                                              title:"Explicação clara",
+                                                              text:"A origem da avaria é explicada antes de recomendar reparações ou substituições."
+                                                            }
+                                                        
+                                                          ].map((item,index)=>(
+                                                        
+                                                            <div
+                                                              key={index}
+                                                              className="cartao-vantagem"
+                                                              style={{
+                                                                background:"linear-gradient(180deg,#ffffff 0%,#f5f8fc 100%)",
+                                                                borderRadius:"24px",
+                                                                padding:"34px 28px",
+                                                                boxShadow:"0 12px 30px rgba(11,44,95,0.08)",
+                                                                border:"1px solid rgba(11,44,95,0.05)"
+                                                              }}
+                                                            >
+                                                        
+                                                              <div style={{
+                                                                fontSize:"44px",
+                                                                marginBottom:"20px"
+                                                              }}>
+                                                                {item.icon}
+                                                              </div>
+                                                        
+                                                              <h3 style={{
+                                                                color:"#08285c",
+                                                                fontSize:"24px",
+                                                                marginBottom:"14px"
+                                                              }}>
+                                                                {item.title}
+                                                              </h3>
+                                                        
+                                                              <p style={{
+                                                                color:"#555",
+                                                                lineHeight:"1.7",
+                                                                margin:"0",
+                                                                fontSize:"17px"
+                                                              }}>
+                                                                {item.text}
+                                                              </p>
+                                                        
+                                                            </div>
+                                                        
+                                                          ))}
+                                                        
+                                                        </div>
+                                                        
+                                                        </section>
  <section style={{
   padding:"40px 20px 70px",
   maxWidth:"1100px",
