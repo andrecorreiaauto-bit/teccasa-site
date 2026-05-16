@@ -354,6 +354,118 @@ style={{
                         
                         </section>
 
+                                       <section id="problemas" style={{
+                                         padding:"40px 20px 70px",
+                                         maxWidth:"1100px",
+                                         margin:"0 auto"
+                                       }}>
+                                       
+                                         <h2 style={{
+                                           fontSize:"34px",
+                                           color:"#08285c",
+                                           marginBottom:"12px",
+                                           textAlign:"center"
+                                         }}>
+                                           Problemas comuns com comandos
+                                         </h2>
+                                       
+                                         <p style={{
+                                           fontSize:"18px",
+                                           color:"#555",
+                                           maxWidth:"760px",
+                                           margin:"0 auto 35px",
+                                           textAlign:"center",
+                                           lineHeight:"1.6"
+                                         }}>
+                                           Nem sempre o problema está no comando. A origem pode estar na pilha, programação, recetor, central ou alcance do sistema.
+                                         </p>
+                                       
+                                         <div
+                                           className="problemas-grid"
+                                           style={{
+                                             display:"grid",
+                                             gridTemplateColumns:"repeat(3,1fr)",
+                                             gap:"20px"
+                                           }}
+                                         >
+                                       
+                                           {[
+                                             {
+                                               image:"/comando-sem-resposta.png",
+                                               title:"Comando sem resposta",
+                                               text:"Quando o LED não acende ou o portão não reage, pode existir falha na pilha, no comando ou no recetor."
+                                             },
+                                             {
+                                               image:"/alcance-fraco-comando.png",
+                                               title:"Alcance muito fraco",
+                                               text:"Se só funciona muito perto do portão, pode haver interferência, antena mal posicionada ou recetor com baixa sensibilidade."
+                                             },
+                                             {
+                                               image:"/comando-desprogramado.png",
+                                               title:"Comando desprogramado",
+                                               text:"Alguns sistemas podem perder programação após falhas elétricas, alterações na central ou erros de configuração."
+                                             },
+                                             {
+                                               image:"/comando-danificado.png",
+                                               title:"Comando danificado",
+                                               text:"Botões gastos, quedas, humidade ou contactos internos danificados podem impedir o funcionamento correto."
+                                             },
+                                             {
+                                               image:"/portao-nao-responde.png",
+                                               title:"Portão não responde",
+                                               text:"A falha pode estar no comando, mas também na central, alimentação, fotocélulas ou entradas de segurança."
+                                             },
+                                             {
+                                               image:"/sistema-antigo-comandos.png",
+                                               title:"Sistema antigo",
+                                               text:"Quando já não existem comandos originais, pode ser possível aplicar recetores ou comandos universais."
+                                             }
+                                           ].map((item,index)=>(
+                                       
+                                             <div key={index} style={{
+                                               background:"#e6edf7",
+                                               borderRadius:"22px",
+                                               overflow:"hidden",
+                                               boxShadow:"0 12px 30px rgba(11,44,95,0.08)"
+                                             }}>
+                                       
+                                               <img
+                                                 src={item.image}
+                                                 alt={item.title}
+                                                 style={{
+                                                   width:"100%",
+                                                   height:"180px",
+                                                   objectFit:"cover",
+                                                   display:"block"
+                                                 }}
+                                               />
+                                       
+                                               <div style={{
+                                                 padding:"24px"
+                                               }}>
+                                                 <h3 style={{
+                                                   color:"#08285c",
+                                                   fontSize:"21px",
+                                                   marginBottom:"12px"
+                                                 }}>
+                                                   {item.title}
+                                                 </h3>
+                                       
+                                                 <p style={{
+                                                   color:"#333",
+                                                   lineHeight:"1.6",
+                                                   margin:"0"
+                                                 }}>
+                                                   {item.text}
+                                                 </p>
+                                               </div>
+                                       
+                                             </div>
+                                       
+                                           ))}
+                                       
+                                         </div>
+                                       </section>                              
    
                                                     {/* =========================
                                                              SECÇÃO COMANDOS
