@@ -471,7 +471,7 @@ style={{
                                     
                                     </section>
 
-                                               <section style={{
+                                               <section className="domotica-wow" style={{
                                                 marginTop:"80px",
                                                 padding:"70px 30px",
                                                 borderRadius:"32px",
@@ -633,7 +633,7 @@ style={{
                                                                             
                                                                             </section>
 
-                                                                                               <section style={{
+                                                                                               <section className="cenarios-domotica" style={{
                                                                                                marginTop:"90px"
                                                                                                }}>
                                                                                                
@@ -1164,6 +1164,130 @@ border:"1px solid rgba(11,44,95,0.05)"
                                                             text-align: center !important;
                                                             box-sizing: border-box !important;
                                                           }
+
+                                                          /* Correções mobile página Domótica */
+
+                                                          .main-card {
+                                                            overflow: hidden !important;
+                                                          }
+                                                          
+                                                          .hero-reparacao {
+                                                            overflow: hidden !important;
+                                                          }
+                                                          
+                                                          .hero-reparacao h1,
+                                                          .hero-reparacao p {
+                                                            max-width: 320px !important;
+                                                            margin-left: auto !important;
+                                                            margin-right: auto !important;
+                                                          }
+                                                          
+                                                          .hero-reparacao img {
+                                                            max-width: 320px !important;
+                                                            height: auto !important;
+                                                            object-fit: contain !important;
+                                                          }
+                                                          
+                                                          /* Secção: O que pode controlar */
+                                                          #solucoes {
+                                                            padding: 30px 0 50px !important;
+                                                          }
+                                                          
+                                                          #solucoes h2 {
+                                                            font-size: 30px !important;
+                                                          }
+                                                          
+                                                          #solucoes p {
+                                                            max-width: 320px !important;
+                                                            margin-left: auto !important;
+                                                            margin-right: auto !important;
+                                                          }
+                                                          
+                                                          #solucoes > div {
+                                                            grid-template-columns: 1fr !important;
+                                                            gap: 22px !important;
+                                                          }
+                                                          
+                                                          #solucoes img {
+                                                            width: 100% !important;
+                                                            height: auto !important;
+                                                            object-fit: contain !important;
+                                                          }
+                                                          
+                                                          /* Cartões com imagens da domótica */
+                                                          #solucoes div[style*="overflow"] {
+                                                            width: 100% !important;
+                                                            max-width: 330px !important;
+                                                            margin-left: auto !important;
+                                                            margin-right: auto !important;
+                                                          }
+                                                          
+                                                          /* Secção azul da casa interligada */
+                                                          .domotica-wow {
+                                                            padding: 36px 18px !important;
+                                                            margin-top: 50px !important;
+                                                            border-radius: 26px !important;
+                                                            overflow: hidden !important;
+                                                          }
+                                                          
+                                                          .domotica-wow h2 {
+                                                            font-size: 30px !important;
+                                                            line-height: 1.15 !important;
+                                                            text-align: center !important;
+                                                            max-width: 300px !important;
+                                                            margin-left: auto !important;
+                                                            margin-right: auto !important;
+                                                          }
+                                                          
+                                                          .domotica-wow p {
+                                                            font-size: 16px !important;
+                                                            line-height: 1.6 !important;
+                                                            text-align: center !important;
+                                                            max-width: 310px !important;
+                                                            margin-left: auto !important;
+                                                            margin-right: auto !important;
+                                                          }
+                                                          
+                                                          .domotica-wow img {
+                                                            width: 100% !important;
+                                                            max-width: 320px !important;
+                                                            height: auto !important;
+                                                            object-fit: contain !important;
+                                                            margin: 0 auto !important;
+                                                            display: block !important;
+                                                          }
+                                                          
+                                                          /* Cenários inteligentes */
+                                                          .cenarios-domotica {
+                                                            margin-top: 55px !important;
+                                                          }
+                                                          
+                                                          .cenarios-domotica h2 {
+                                                            font-size: 30px !important;
+                                                            line-height: 1.15 !important;
+                                                          }
+                                                          
+                                                          .cenarios-domotica p {
+                                                            font-size: 16px !important;
+                                                            line-height: 1.6 !important;
+                                                            max-width: 320px !important;
+                                                            margin-left: auto !important;
+                                                            margin-right: auto !important;
+                                                          }
+                                                          
+                                                          .cenarios-domotica img {
+                                                            width: 100% !important;
+                                                            height: auto !important;
+                                                            object-fit: contain !important;
+                                                          }
+                                                          
+                                                          .cenarios-domotica div[style*="overflow"] {
+                                                            width: 100% !important;
+                                                            max-width: 330px !important;
+                                                            margin-left: auto !important;
+                                                            margin-right: auto !important;
+                                                          }
+
                                                           }
                                                         `}</style>
                          
