@@ -610,7 +610,7 @@ style={{
                                                                             src={item.image}
                                                                             alt={item.name}
                                                                             style={{
-                                                                            height:"52px",
+                                                                            height:item.name === "Zigbee" ? "72px" : "52px",
                                                                             width:"auto",
                                                                             objectFit:"contain"
                                                                             }}
