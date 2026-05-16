@@ -6,7 +6,7 @@ export default function ReparacaoPortoes() {
   { label:"Início", href:"/", active:true },
   { label:"Reparação de Portões", href:"/reparacao-portoes-lisboa", active:false },
 
-  { label:"Comandos Garagem", href:"/comandos-garagem", active:false },
+  { label:"Comandos", href:"/comandos-garagem", active:false },
 
   { label:"Domótica", href:"/domotica", active:false },
 
