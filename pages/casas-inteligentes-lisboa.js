@@ -1014,6 +1014,36 @@ border:"1px solid rgba(11,44,95,0.05)"
                                                         display:block !important;
                                                       }
 
+                                                      .hero-reparacao img {
+                                                       width: 100% !important;
+                                                       max-width: 330px !important;
+                                                       height: auto !important;
+                                                       object-fit: contain !important;
+                                                       border-radius: 22px !important;
+                                                       margin: 0 auto !important;
+                                                       display: block !important;
+                                                     }
+                                                     
+                                                     #solucoes img {
+                                                       height: auto !important;
+                                                       max-height: none !important;
+                                                       object-fit: contain !important;
+                                                       background: #eef4fb !important;
+                                                     }
+                                                     
+                                                     #solucoes > div {
+                                                       grid-template-columns: 1fr !important;
+                                                     }
+                                                     
+                                                     #solucoes div[style*="border-radius"] {
+                                                       width: 100% !important;
+                                                       box-sizing: border-box !important;
+                                                     }
+                                                     
+                                                     section img {
+                                                       max-width: 100% !important;
+                                                     }
+
                                                             .desktop-menu {
                                                               display: none !important;
                                                             }
