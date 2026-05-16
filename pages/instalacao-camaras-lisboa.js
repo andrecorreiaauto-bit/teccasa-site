@@ -356,6 +356,7 @@ style={{
 
                                            <section
                                            id="aplicacoes"
+                                           className="vigilancia-aplicacoes"
                                            style={{
                                            padding:"40px 20px 70px",
                                            maxWidth:"1200px",
@@ -853,6 +854,56 @@ border:"1px solid rgba(11,44,95,0.05)"
                                                             text-align: center !important;
                                                             box-sizing: border-box !important;
                                                           }
+
+                                                          .vigilancia-aplicacoes {
+                                                            padding: 30px 0 50px !important;
+                                                            text-align: center !important;
+                                                          }
+                                                          
+                                                          .vigilancia-aplicacoes h2 {
+                                                            font-size: 30px !important;
+                                                            line-height: 1.15 !important;
+                                                          }
+                                                          
+                                                          .vigilancia-aplicacoes > p {
+                                                            font-size: 16px !important;
+                                                            line-height: 1.55 !important;
+                                                            max-width: 315px !important;
+                                                            margin-left: auto !important;
+                                                            margin-right: auto !important;
+                                                          }
+                                                          
+                                                          .vigilancia-aplicacoes > div {
+                                                            grid-template-columns: 1fr !important;
+                                                            gap: 22px !important;
+                                                            justify-items: center !important;
+                                                          }
+                                                          
+                                                          .vigilancia-aplicacoes > div > div {
+                                                            width: 100% !important;
+                                                            max-width: 320px !important;
+                                                            box-sizing: border-box !important;
+                                                          }
+                                                          
+                                                          .vigilancia-aplicacoes img {
+                                                            width: 100% !important;
+                                                            height: auto !important;
+                                                            object-fit: contain !important;
+                                                            display: block !important;
+                                                          }
+                                                          
+                                                          .vigilancia-aplicacoes h3 {
+                                                            font-size: 26px !important;
+                                                            line-height: 1.15 !important;
+                                                            text-align: center !important;
+                                                          }
+                                                          
+                                                          .vigilancia-aplicacoes div p {
+                                                            font-size: 16px !important;
+                                                            line-height: 1.55 !important;
+                                                            text-align: center !important;
+                                                          }
+
                                                           }
                                                         `}</style>
                          
