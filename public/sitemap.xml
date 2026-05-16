@@ -3,7 +3,22 @@
 
   <url>
     <loc>https://tec-casa.pt/</loc>
-    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://tec-casa.pt/reparacao-portoes-lisboa</loc>
+  </url>
+
+  <url>
+    <loc>https://tec-casa.pt/comandos-garagem</loc>
+  </url>
+
+  <url>
+    <loc>https://tec-casa.pt/casas-inteligentes-lisboa</loc>
+  </url>
+
+  <url>
+    <loc>https://tec-casa.pt/instalacao-camaras-lisboa</loc>
   </url>
 
 </urlset>
