@@ -387,71 +387,80 @@ style={{
     }}
   >
 
-    {[
-      {
-        icon:"🚧",
-        title:"Portão abre até meio",
-        text:"Pode estar relacionado com esforço, programação, fim de curso ou obstáculos no percurso."
-      },
-      {
-        icon:"📡",
-        title:"Comando não funciona",
-        text:"Pode ser pilha, comando desprogramado, recetor RF ou problema na central."
-      },
-      {
-        icon:"👁️",
-        title:"Fotocélulas em erro",
-        text:"Fotocélulas desalinhadas, sujas, sem alimentação ou com cabos danificados."
-      },
-      {
-        icon:"⚙️",
-        title:"Motor sem força",
-        text:"Pode indicar desgaste mecânico, condensador fraco, esforço excessivo ou parametrização incorreta."
-      },
-      {
-        icon:"🧠",
-        title:"Central bloqueada",
-        text:"Erros de programação, entradas de segurança ativas ou configuração alterada."
-      },
-      {
-        icon:"🔁",
-        title:"Fecha e volta a abrir",
-        text:"Normalmente associado a segurança, obstáculos, fotocélulas ou esforço mal calibrado."
-      }
-    ].map((item,index)=>(
+   {[
+  {
+    image:"/portao-abre-ate-meio.jpg",
+    title:"Portão abre até meio",
+    text:"Pode estar relacionado com esforço, programação, fim de curso ou obstáculos no percurso."
+  },
+  {
+    image:"/comando-portao.jpg",
+    title:"Comando não funciona",
+    text:"Pode ser pilha, comando desprogramado, recetor RF ou problema na central."
+  },
+  {
+    image:"/fotocelulas-erro.jpg",
+    title:"Fotocélulas em erro",
+    text:"Fotocélulas desalinhadas, sujas, sem alimentação ou com cabos danificados."
+  },
+  {
+    image:"/motor-portao.jpg",
+    title:"Motor sem força",
+    text:"Pode indicar desgaste mecânico, esforço excessivo ou parametrização incorreta."
+  },
+  {
+    image:"/central-eletronica.jpg",
+    title:"Central bloqueada",
+    text:"Erros de programação, entradas de segurança ativas ou configuração alterada."
+  },
+  {
+    image:"/portao-inverte-fecho.jpg",
+    title:"Fecha e volta a abrir",
+    text:"Normalmente associado a segurança, obstáculos, fotocélulas ou esforço mal calibrado."
+  }
+].map((item,index)=>(
 
-      <div key={index} style={{
-        background:"#e6edf7",
-        padding:"28px",
-        borderRadius:"22px",
-        boxShadow:"0 12px 30px rgba(11,44,95,0.08)",
-        minHeight:"210px"
+  <div key={index} style={{
+    background:"#e6edf7",
+    borderRadius:"22px",
+    overflow:"hidden",
+    boxShadow:"0 12px 30px rgba(11,44,95,0.08)"
+  }}>
+
+    <img
+      src={item.image}
+      alt={item.title}
+      style={{
+        width:"100%",
+        height:"180px",
+        objectFit:"cover",
+        display:"block"
+      }}
+    />
+
+    <div style={{
+      padding:"24px"
+    }}>
+      <h3 style={{
+        color:"#08285c",
+        fontSize:"21px",
+        marginBottom:"12px"
       }}>
-        <div style={{
-          fontSize:"34px",
-          marginBottom:"18px"
-        }}>
-          {item.icon}
-        </div>
+        {item.title}
+      </h3>
 
-        <h3 style={{
-          color:"#08285c",
-          fontSize:"21px",
-          marginBottom:"12px"
-        }}>
-          {item.title}
-        </h3>
+      <p style={{
+        color:"#333",
+        lineHeight:"1.6",
+        margin:"0"
+      }}>
+        {item.text}
+      </p>
+    </div>
 
-        <p style={{
-          color:"#333",
-          lineHeight:"1.6",
-          margin:"0"
-        }}>
-          {item.text}
-        </p>
-      </div>
+  </div>
 
-    ))}
+))}
 
   </div>
 </section>
