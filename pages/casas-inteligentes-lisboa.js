@@ -633,6 +633,132 @@ style={{
                                                                             
                                                                             </section>
 
+                                                                                               <section style={{
+                                                                                               marginTop:"90px"
+                                                                                               }}>
+                                                                                               
+                                                                                               <h2 style={{
+                                                                                               color:"#08285c",
+                                                                                               fontSize:"42px",
+                                                                                               marginBottom:"18px",
+                                                                                               textAlign:"center"
+                                                                                               }}>
+                                                                                               Cenários inteligentes
+                                                                                               </h2>
+                                                                                               
+                                                                                               <p style={{
+                                                                                               textAlign:"center",
+                                                                                               maxWidth:"850px",
+                                                                                               margin:"0 auto 55px auto",
+                                                                                               color:"#555",
+                                                                                               fontSize:"20px",
+                                                                                               lineHeight:"1.7"
+                                                                                               }}>
+                                                                                               A domótica permite criar automatizações práticas para tornar a casa mais confortável, eficiente e segura no dia a dia.
+                                                                                               </p>
+                                                                                               
+                                                                                               <div style={{
+                                                                                               display:"grid",
+                                                                                               gridTemplateColumns:"repeat(auto-fit,minmax(320px,1fr))",
+                                                                                               gap:"28px"
+                                                                                               }}>
+                                                                                               
+                                                                                               <div
+                                                                                               className="cartao-vantagem"
+                                                                                               style={{
+                                                                                               background:"linear-gradient(180deg,#ffffff 0%,#f5f8fc 100%)",
+                                                                                               borderRadius:"28px",
+                                                                                               overflow:"hidden",
+                                                                                               boxShadow:"0 15px 35px rgba(11,44,95,0.08)"
+                                                                                               }}
+                                                                                               >
+                                                                                               
+                                                                                               <img
+                                                                                               src="/cenario-chegar-casa.png"
+                                                                                               alt="Chegar a casa"
+                                                                                               style={{
+                                                                                               width:"100%",
+                                                                                               height:"260px",
+                                                                                               objectFit:"cover",
+                                                                                               display:"block"
+                                                                                               }}
+                                                                                               />
+                                                                                               
+                                                                                               <div style={{
+                                                                                               padding:"30px"
+                                                                                               }}>
+                                                                                               
+                                                                                               <h3 style={{
+                                                                                               fontSize:"30px",
+                                                                                               color:"#08285c",
+                                                                                               marginBottom:"16px"
+                                                                                               }}>
+                                                                                               Chegar a casa
+                                                                                               </h3>
+                                                                                               
+                                                                                               <p style={{
+                                                                                               color:"#444",
+                                                                                               lineHeight:"1.8",
+                                                                                               fontSize:"17px",
+                                                                                               margin:"0"
+                                                                                               }}>
+                                                                                               O portão abre automaticamente, a iluminação exterior acende e pode receber confirmação no telemóvel assim que chega a casa.
+                                                                                               </p>
+                                                                                               
+                                                                                               </div>
+                                                                                               
+                                                                                               </div>
+                                                                                               
+                                                                                               <div
+                                                                                               className="cartao-vantagem"
+                                                                                               style={{
+                                                                                               background:"linear-gradient(180deg,#ffffff 0%,#f5f8fc 100%)",
+                                                                                               borderRadius:"28px",
+                                                                                               overflow:"hidden",
+                                                                                               boxShadow:"0 15px 35px rgba(11,44,95,0.08)"
+                                                                                               }}
+                                                                                               >
+                                                                                               
+                                                                                               <img
+                                                                                               src="/controlo-remoto-casa.png"
+                                                                                               alt="Controlo remoto"
+                                                                                               style={{
+                                                                                               width:"100%",
+                                                                                               height:"260px",
+                                                                                               objectFit:"cover",
+                                                                                               display:"block"
+                                                                                               }}
+                                                                                               />
+                                                                                               
+                                                                                               <div style={{
+                                                                                               padding:"30px"
+                                                                                               }}>
+                                                                                               
+                                                                                               <h3 style={{
+                                                                                               fontSize:"30px",
+                                                                                               color:"#08285c",
+                                                                                               marginBottom:"16px"
+                                                                                               }}>
+                                                                                               Controlo remoto
+                                                                                               </h3>
+                                                                                               
+                                                                                               <p style={{
+                                                                                               color:"#444",
+                                                                                               lineHeight:"1.8",
+                                                                                               fontSize:"17px",
+                                                                                               margin:"0"
+                                                                                               }}>
+                                                                                               Controle sistemas da casa à distância, consulte câmaras, automatize horários e acompanhe notificações em tempo real.
+                                                                                               </p>
+                                                                                               
+                                                                                               </div>
+                                                                                               
+                                                                                               </div>
+                                                                                               
+                                                                                               </div>
+                                                                                               
+                                                                                               </section>
+
                                                     {/* =========================
                                                              SECÇÃO COMANDOS
                                                                       ========================= */}
