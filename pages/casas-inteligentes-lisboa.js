@@ -274,6 +274,85 @@ style={{
       
       <div className="main-card">
 
+                     <section
+                      className="hero-reparacao"
+                      style={{
+                      display:"grid",
+                      gridTemplateColumns:"repeat(auto-fit,minmax(320px,1fr))",
+                      gap:"50px",
+                      alignItems:"center",
+                      padding:"70px 0"
+                      }}
+                      >
+                      
+                      <div>
+                      
+                      <h1 style={{
+                      fontSize:"clamp(42px,5vw,58px)",
+                      lineHeight:"1.05",
+                      marginBottom:"26px",
+                      color:"#08285c",
+                      fontWeight:"900"
+                      }}>
+                      Casas Inteligentes e Domótica em Lisboa
+                      </h1>
+                      
+                      <p style={{
+                      fontSize:"22px",
+                      lineHeight:"1.8",
+                      color:"#444",
+                      maxWidth:"700px",
+                      marginBottom:"35px"
+                      }}>
+                      Controle portões, iluminação, estores, câmaras e outros sistemas da sua casa através do telemóvel, de forma simples, prática e segura.
+                      </p>
+                      
+                      <a
+                      href="#solucoes"
+                      style={{
+                      display:"inline-block",
+                      background:"#08285c",
+                      color:"white",
+                      padding:"18px 30px",
+                      borderRadius:"16px",
+                      fontWeight:"bold",
+                      textDecoration:"none",
+                      fontSize:"18px",
+                      boxShadow:"0 10px 25px rgba(8,40,92,0.18)",
+                      transition:"0.3s"
+                      }}
+                      onMouseEnter={(e)=>{
+                      e.currentTarget.style.transform="translateY(-4px)"
+                      }}
+                      onMouseLeave={(e)=>{
+                      e.currentTarget.style.transform="translateY(0)"
+                      }}
+                      >
+                      Explorar soluções
+                      </a>
+                      
+                      </div>
+                      
+                      <div style={{
+                      display:"flex",
+                      justifyContent:"center"
+                      }}>
+                      
+                      <img
+                      src="/hero-domotica.png"
+                      alt="Casa inteligente com domótica"
+                      style={{
+                      width:"100%",
+                      maxWidth:"620px",
+                      borderRadius:"32px",
+                      boxShadow:"0 25px 60px rgba(11,44,95,0.18)",
+                      objectFit:"cover"
+                      }}
+                      />
+                      
+                      </div>
+                      
+                      </section>
    
                                                     {/* =========================
                                                              SECÇÃO COMANDOS
