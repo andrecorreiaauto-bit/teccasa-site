@@ -10,7 +10,7 @@ export default function ReparacaoPortoes() {
 
   { label:"Domótica", href:"/casas-inteligentes-lisboa", active:true },
 
-  { label:"Vigilância", href:"/instalacao-camaras-lisboa", active:false },
+  { label:"Vigilância", href:"/instalacao-camaras-lisboa", active:true },
   ]
  useEffect(() => {
   if (typeof window === "undefined") return;
