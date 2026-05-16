@@ -276,7 +276,7 @@ style={{
 
    
   <section
-            className="hero-reparacao"
+            className="hero"
             style={{
             display:"grid",
             gridTemplateColumns:"repeat(auto-fit,minmax(320px,1fr))",
