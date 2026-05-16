@@ -354,6 +354,124 @@ style={{
                       
                       </section>
 
+                                           <section
+                                           id="aplicacoes"
+                                           style={{
+                                           padding:"40px 20px 70px",
+                                           maxWidth:"1200px",
+                                           margin:"0 auto"
+                                           }}
+                                           >
+                                           
+                                           <h2 style={{
+                                           fontSize:"42px",
+                                           color:"#08285c",
+                                           marginBottom:"18px",
+                                           textAlign:"center"
+                                           }}>
+                                           Onde pode aplicar
+                                           </h2>
+                                           
+                                           <p style={{
+                                           fontSize:"20px",
+                                           color:"#555",
+                                           maxWidth:"850px",
+                                           margin:"0 auto 45px auto",
+                                           textAlign:"center",
+                                           lineHeight:"1.7"
+                                           }}>
+                                           Soluções simples para acompanhar espaços residenciais, entradas, garagens e zonas exteriores através do telemóvel.
+                                           </p>
+                                           
+                                           <div
+                                           className="problemas-grid"
+                                           style={{
+                                           display:"grid",
+                                           gridTemplateColumns:"repeat(2,1fr)",
+                                           gap:"24px"
+                                           }}
+                                           >
+                                           
+                                           {[
+                                           {
+                                           image:"/camera-entrada-casa.png",
+                                           title:"Entrada da habitação",
+                                           text:"Acompanhe movimentos junto à porta de entrada e receba alertas no telemóvel."
+                                           },
+                                           {
+                                           image:"/camera-portao-garagem.png",
+                                           title:"Portão e garagem",
+                                           text:"Veja quem chega, acompanhe a entrada e complemente o controlo do portão automático."
+                                           },
+                                           {
+                                           image:"/camera-exterior-casa.png",
+                                           title:"Exterior da casa",
+                                           text:"Monitorize zonas exteriores, jardim, acessos e áreas envolventes da habitação."
+                                           },
+                                           {
+                                           image:"/camera-pets.png",
+                                           title:"Animais de estimação",
+                                           text:"Veja o que se passa em casa e acompanhe os seus animais quando está fora."
+                                           },
+                                           {
+                                           image:"/camera-segunda-casa.png",
+                                           title:"Segunda habitação",
+                                           text:"Acompanhe remotamente uma casa de férias, garagem ou espaço residencial secundário."
+                                           }
+                                           ].map((item,index)=>(
+                                           
+                                           <div
+                                           key={index}
+                                           style={{
+                                           background:"#e6edf7",
+                                           borderRadius:"26px",
+                                           overflow:"hidden",
+                                           boxShadow:"0 14px 35px rgba(11,44,95,0.08)"
+                                           }}
+                                           >
+                                           
+                                           <img
+                                           src={item.image}
+                                           alt={item.title}
+                                           style={{
+                                           width:"100%",
+                                           height:"260px",
+                                           objectFit:"cover",
+                                           display:"block"
+                                           }}
+                                           />
+                                           
+                                           <div style={{
+                                           padding:"28px"
+                                           }}>
+                                           
+                                           <h3 style={{
+                                           color:"#08285c",
+                                           fontSize:"28px",
+                                           marginBottom:"14px"
+                                           }}>
+                                           {item.title}
+                                           </h3>
+                                           
+                                           <p style={{
+                                           color:"#444",
+                                           lineHeight:"1.7",
+                                           fontSize:"17px",
+                                           margin:"0"
+                                           }}>
+                                           {item.text}
+                                           </p>
+                                           
+                                           </div>
+                                           
+                                           </div>
+                                           
+                                           ))}
+                                           
+                                           </div>
+                                           
+                                           </section>
+
    
                                                     {/* =========================
                                                              SECÇÃO COMANDOS
