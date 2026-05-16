@@ -4,7 +4,7 @@ export default function Home() {
  const [menuOpen, setMenuOpen] = useState(false);
  const menuItems = [
   { label:"Início", href:"/", active:true },
-  { label:"Reparação de Portões", href:"/reparacao-portoes-lisboa", active:false },
+  { label:"Reparação de Portões", href:"/reparacao-portoes-lisboa", active:true },
 
   { label:"Comandos Garagem", href:"/comandos-garagem", active:false },
 
