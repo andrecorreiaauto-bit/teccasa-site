@@ -478,6 +478,74 @@ style={{
                                            
                                            </section>
 
+                                                                <section
+                                                                 style={{
+                                                                 padding:"40px 20px 90px",
+                                                                 maxWidth:"1200px",
+                                                                 margin:"0 auto"
+                                                                 }}
+                                                                 >
+                                                                 
+                                                                 <div
+                                                                 className="vigilancia-wow"
+                                                                 style={{
+                                                                 background:"#08285c",
+                                                                 borderRadius:"38px",
+                                                                 padding:"70px",
+                                                                 display:"grid",
+                                                                 gridTemplateColumns:"repeat(auto-fit,minmax(320px,1fr))",
+                                                                 gap:"50px",
+                                                                 alignItems:"center",
+                                                                 overflow:"hidden",
+                                                                 boxShadow:"0 25px 60px rgba(8,40,92,0.18)"
+                                                                 }}
+                                                                 >
+                                                                 
+                                                                 <div>
+                                                                 
+                                                                 <h2 style={{
+                                                                 fontSize:"clamp(38px,4vw,54px)",
+                                                                 lineHeight:"1.05",
+                                                                 color:"white",
+                                                                 marginBottom:"28px",
+                                                                 fontWeight:"900"
+                                                                 }}>
+                                                                 Veja tudo à distância
+                                                                 </h2>
+                                                                 
+                                                                 <p style={{
+                                                                 fontSize:"22px",
+                                                                 lineHeight:"1.8",
+                                                                 color:"rgba(255,255,255,0.88)"
+                                                                 }}>
+                                                                 Acompanhe entradas, portões, exterior da casa e receba notificações diretamente no telemóvel, esteja onde estiver.
+                                                                 </p>
+                                                                 
+                                                                 </div>
+                                                                 
+                                                                 <div style={{
+                                                                 display:"flex",
+                                                                 justifyContent:"center"
+                                                                 }}>
+                                                                 
+                                                                 <img
+                                                                 src="/vigilancia-remota.png"
+                                                                 alt="Sistema de vigilância inteligente"
+                                                                 style={{
+                                                                 width:"100%",
+                                                                 maxWidth:"560px",
+                                                                 borderRadius:"28px",
+                                                                 display:"block",
+                                                                 boxShadow:"0 20px 45px rgba(0,0,0,0.25)"
+                                                                 }}
+                                                                 />
+                                                                 
+                                                                 </div>
+                                                                 
+                                                                 </div>
+                                                                 
+                                                                 </section>
+
    
                                                     {/* =========================
                                                              SECÇÃO COMANDOS
@@ -902,6 +970,22 @@ border:"1px solid rgba(11,44,95,0.05)"
                                                             font-size: 16px !important;
                                                             line-height: 1.55 !important;
                                                             text-align: center !important;
+                                                          }
+
+                                                          .vigilancia-wow {
+                                                            padding: 38px 24px !important;
+                                                            border-radius: 30px !important;
+                                                            text-align: center !important;
+                                                          }
+                                                          
+                                                          .vigilancia-wow h2 {
+                                                            font-size: 42px !important;
+                                                            line-height: 1.05 !important;
+                                                          }
+                                                          
+                                                          .vigilancia-wow p {
+                                                            font-size: 18px !important;
+                                                            line-height: 1.7 !important;
                                                           }
 
                                                           }
