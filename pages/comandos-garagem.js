@@ -276,7 +276,7 @@ style={{
 
    
                                                     {/* =========================
-                                                             SECÇÃO REPARAÇÃO PORTÕES
+                                                             SECÇÃO COMANDOS
                                                                       ========================= */}
                                                      
   <footer style={{
