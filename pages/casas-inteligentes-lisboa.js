@@ -294,7 +294,7 @@ style={{
                       color:"#08285c",
                       fontWeight:"900"
                       }}>
-                      Casas Inteligentes e Domótica em Lisboa
+                      Casas Inteligentes e Domótica
                       </h1>
                       
                       <p style={{
