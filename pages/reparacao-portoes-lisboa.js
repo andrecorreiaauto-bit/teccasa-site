@@ -4,9 +4,9 @@ export default function ReparacaoPortoes() {
  const [menuOpen, setMenuOpen] = useState(false);
  const menuItems = [
   { label:"Início", href:"/", active:true },
-  { label:"Reparação de Portões", href:"/reparacao-portoes-lisboa", active:false },
+  { label:"Reparação de Portões", href:"/reparacao-portoes-lisboa", active:true },
 
-  { label:"Comandos", href:"/comandos-garagem", active:false },
+  { label:"Comandos", href:"/comandos-garagem", active:true },
 
   { label:"Domótica", href:"/casas-inteligentes-lisboa", active:false },
 
