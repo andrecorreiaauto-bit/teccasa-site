@@ -8,9 +8,9 @@ export default function Home() {
 
   { label:"Comandos", href:"/comandos-garagem", active:false },
 
-  { label:"Domótica", href:"/domotica", active:false },
+  { label:"Domótica", href:"/casas-inteligentes-lisboa", active:false },
 
-  { label:"Vigilância", href:"/vigilancia", active:false },
+  { label:"Vigilância", href:"/instalacao-camaras-lisboa", active:false },
   ]
  useEffect(() => {
   if (typeof window === "undefined") return;
