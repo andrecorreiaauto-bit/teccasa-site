@@ -389,32 +389,32 @@ style={{
 
    {[
   {
-    image:"/portao-abre-ate-meio.jpg",
+    image:"/portao-abre-ate-meio.png",
     title:"Portão abre até meio",
     text:"Pode estar relacionado com esforço, programação, fim de curso ou obstáculos no percurso."
   },
   {
-    image:"/comando-portao.jpg",
+    image:"/comando-portao.png",
     title:"Comando não funciona",
     text:"Pode ser pilha, comando desprogramado, recetor RF ou problema na central."
   },
   {
-    image:"/fotocelulas-erro.jpg",
+    image:"/fotocelulas-erro.png",
     title:"Fotocélulas em erro",
     text:"Fotocélulas desalinhadas, sujas, sem alimentação ou com cabos danificados."
   },
   {
-    image:"/motor-portao.jpg",
+    image:"/motor-portao.png",
     title:"Motor sem força",
     text:"Pode indicar desgaste mecânico, esforço excessivo ou parametrização incorreta."
   },
   {
-    image:"/central-eletronica.jpg",
+    image:"/central-eletronica.png",
     title:"Central bloqueada",
     text:"Erros de programação, entradas de segurança ativas ou configuração alterada."
   },
   {
-    image:"/portao-inverte-fecho.jpg",
+    image:"/portao-inverte-fecho.png",
     title:"Fecha e volta a abrir",
     text:"Normalmente associado a segurança, obstáculos, fotocélulas ou esforço mal calibrado."
   }
