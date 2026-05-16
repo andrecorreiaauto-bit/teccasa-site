@@ -8,7 +8,7 @@ export default function Home() {
 
   { label:"Comandos", href:"/comandos-garagem", active:true },
 
-  { label:"Domótica", href:"/casas-inteligentes-lisboa", active:false },
+  { label:"Domótica", href:"/casas-inteligentes-lisboa", active:true },
 
   { label:"Vigilância", href:"/instalacao-camaras-lisboa", active:false },
   ]
