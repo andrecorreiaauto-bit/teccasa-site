@@ -273,86 +273,86 @@ style={{
 </nav>
       
       <div className="main-card">
-        
+
+   
+  <section style={{
+            display:"grid",
+            gridTemplateColumns:"repeat(auto-fit,minmax(320px,1fr))",
+            gap:"50px",
+            alignItems:"center",
+            padding:"70px 0"
+            }}>
+            
+            <div>
+            
+            <h1 style={{
+            fontSize:"clamp(42px,7vw,72px)",
+            lineHeight:"1.05",
+            marginBottom:"26px",
+            color:"#08285c",
+            fontWeight:"900"
+            }}>
+            Reparação de Portões Automáticos em Lisboa
+            </h1>
+            
+            <p style={{
+            fontSize:"22px",
+            lineHeight:"1.8",
+            color:"#444",
+            maxWidth:"700px",
+            marginBottom:"35px"
+            }}>
+            Assistência técnica multimarca para portões automáticos em Lisboa e arredores, incluindo Loures, Odivelas, Vila Franca de Xira e Margem Sul. Diagnóstico claro antes de recomendar substituições.
+            </p>
+            
+            <a
+            href="#problemas"
+            style={{
+            display:"inline-block",
+            background:"#08285c",
+            color:"white",
+            padding:"18px 30px",
+            borderRadius:"16px",
+            fontWeight:"bold",
+            textDecoration:"none",
+            fontSize:"18px",
+            boxShadow:"0 10px 25px rgba(8,40,92,0.18)",
+            transition:"0.3s"
+            }}
+            onMouseEnter={(e)=>{
+            e.currentTarget.style.transform="translateY(-4px)"
+            }}
+            onMouseLeave={(e)=>{
+            e.currentTarget.style.transform="translateY(0)"
+            }}
+            >
+            Ver problemas comuns
+            </a>
+            
+            </div>
+            
+            <div style={{
+            display:"flex",
+            justifyContent:"center"
+            }}>
+            
+            <img
+            src="/hero-reparacao-portoes.png"
+            alt="Reparação de portões automáticos"
+            style={{
+            width:"100%",
+            maxWidth:"620px",
+            borderRadius:"32px",
+            boxShadow:"0 25px 60px rgba(11,44,95,0.18)",
+            objectFit:"cover"
+            }}
+            />
+            
+            </div>
+
+</section>
+
     <section style={{
-  background:"linear-gradient(135deg, #08285c, #0b3f88)",
-  color:"white",
-  padding:"50px",
-  borderRadius:"25px",
-  marginBottom:"45px",
-  boxShadow:"0 18px 40px rgba(0,0,0,0.18)"
-}}>
-
-                    <img
-                    src="/Logo.png"
-                    style={{
-                    width:"300px",
-                    background:"white",
-                    padding:"15px",
-                    borderRadius:"18px",
-                    marginBottom:"30px"
-                    }}
-                    />
-                  
-                    <h1 style={{
-                      fontSize:"clamp(30px,6vw,42px)",
-                      margin:"0 0 15px 0",
-                      lineHeight:"1.15"
-                    }}>
-                      Soluções técnicas para a sua casa, garagem ou condomínio.
-                    </h1>
-                  
-                    <p style={{
-                      fontSize:"clamp(16px,3vw,20px)",
-                      color:"#dbeafe",
-                      maxWidth:"750px",
-                      lineHeight:"1.5"
-                    }}>
-                      Automatismos, reparações, domótica e vigilância com apoio próximo, diagnóstico claro e soluções inteligentes.
-                    </p>
-                  
-                    <div style={{
-                      display:"flex",
-                      gap:"15px",
-                      flexWrap:"wrap",
-                      marginTop:"30px"
-                    }}>
-                  
-                      <a
-                        href="https://wa.me/351922021980"
-                        target="_blank"
-                        style={{
-                          background:"white",
-                          color:"#08285c",
-                          padding:"15px 24px",
-                          borderRadius:"12px",
-                          textDecoration:"none",
-                          fontWeight:"bold"
-                        }}
-                      >
-                        Pedir ajuda
-                      </a>
-                  
-                      <a
-                        href="tel:922021980"
-                        style={{
-                          background:"transparent",
-                          color:"white",
-                          padding:"15px 24px",
-                          borderRadius:"12px",
-                          textDecoration:"none",
-                          fontWeight:"bold",
-                          border:"2px solid white"
-                        }}
-                      >
-                        Ligar agora
-                      </a>
-                  
-                    </div>
-                  
-                  </section>
-
-                                                         <section style={{
                                                           marginTop:"70px"
                                                         }}>
                                                         
