@@ -480,7 +480,7 @@ style={{
                                                 boxShadow:"0 25px 60px rgba(11,44,95,0.20)"
                                               }}>
                                               
-                                                <div style={{
+                                                <div className="domotica-wow-grid" style={{
                                                   display:"grid",
                                                   gridTemplateColumns:"repeat(auto-fit,minmax(320px,1fr))",
                                                   gap:"45px",
@@ -664,7 +664,7 @@ style={{
                                                                                                }}>
                                                                                                
                                                                                                <div
-                                                                                               className="cartao-vantagem"
+                                                                                               className="cartao-vantagem cenario-card"
                                                                                                style={{
                                                                                                background:"linear-gradient(180deg,#ffffff 0%,#f5f8fc 100%)",
                                                                                                borderRadius:"28px",
@@ -710,7 +710,7 @@ style={{
                                                                                                </div>
                                                                                                
                                                                                                <div
-                                                                                               className="cartao-vantagem"
+                                                                                               className="cartao-vantagem cenario-card"
                                                                                                style={{
                                                                                                background:"linear-gradient(180deg,#ffffff 0%,#f5f8fc 100%)",
                                                                                                borderRadius:"28px",
@@ -1287,6 +1287,100 @@ border:"1px solid rgba(11,44,95,0.05)"
                                                             margin-left: auto !important;
                                                             margin-right: auto !important;
                                                           }
+
+                                                          .domotica-wow {
+                                                          width: 100% !important;
+                                                          max-width: 100% !important;
+                                                          padding: 32px 16px !important;
+                                                          margin: 50px auto 0 auto !important;
+                                                          box-sizing: border-box !important;
+                                                          overflow: hidden !important;
+                                                          border-radius: 24px !important;
+                                                        }
+                                                        
+                                                        .domotica-wow-grid {
+                                                          display: flex !important;
+                                                          flex-direction: column !important;
+                                                          gap: 28px !important;
+                                                          width: 100% !important;
+                                                          max-width: 100% !important;
+                                                          box-sizing: border-box !important;
+                                                        }
+                                                        
+                                                        .domotica-wow h2 {
+                                                          font-size: 28px !important;
+                                                          line-height: 1.15 !important;
+                                                          text-align: center !important;
+                                                          max-width: 280px !important;
+                                                          margin: 0 auto 16px auto !important;
+                                                        }
+                                                        
+                                                        .domotica-wow p {
+                                                          font-size: 16px !important;
+                                                          line-height: 1.55 !important;
+                                                          text-align: center !important;
+                                                          max-width: 290px !important;
+                                                          margin: 0 auto !important;
+                                                        }
+                                                        
+                                                        .domotica-wow img {
+                                                          width: 100% !important;
+                                                          max-width: 290px !important;
+                                                          height: auto !important;
+                                                          object-fit: contain !important;
+                                                          display: block !important;
+                                                          margin: 0 auto !important;
+                                                          border-radius: 18px !important;
+                                                        }
+                                                        
+                                                        .cenarios-domotica {
+                                                          width: 100% !important;
+                                                          max-width: 100% !important;
+                                                          margin-top: 55px !important;
+                                                          box-sizing: border-box !important;
+                                                          overflow: hidden !important;
+                                                        }
+                                                        
+                                                        .cenarios-domotica h2 {
+                                                          font-size: 30px !important;
+                                                          line-height: 1.15 !important;
+                                                          text-align: center !important;
+                                                        }
+                                                        
+                                                        .cenarios-domotica > p {
+                                                          font-size: 16px !important;
+                                                          line-height: 1.55 !important;
+                                                          max-width: 300px !important;
+                                                          margin-left: auto !important;
+                                                          margin-right: auto !important;
+                                                          text-align: center !important;
+                                                        }
+                                                        
+                                                        .cenario-card {
+                                                          width: 100% !important;
+                                                          max-width: 320px !important;
+                                                          margin: 0 auto !important;
+                                                          box-sizing: border-box !important;
+                                                        }
+                                                        
+                                                        .cenario-card img {
+                                                          width: 100% !important;
+                                                          height: auto !important;
+                                                          object-fit: contain !important;
+                                                          display: block !important;
+                                                        }
+                                                        
+                                                        .cenario-card h3 {
+                                                          font-size: 28px !important;
+                                                          line-height: 1.15 !important;
+                                                          text-align: center !important;
+                                                        }
+                                                        
+                                                        .cenario-card p {
+                                                          font-size: 16px !important;
+                                                          line-height: 1.55 !important;
+                                                          text-align: center !important;
+                                                        }
 
                                                           }
                                                         `}</style>
