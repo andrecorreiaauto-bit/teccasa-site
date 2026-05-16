@@ -519,7 +519,7 @@ style={{
                                               
                                               </section>
 
-                                                                           <section style={{
+                                                                           <section className="integracoes-domotica" style={{
                                                                             marginTop:"90px"
                                                                             }}>
                                                                             
@@ -543,7 +543,7 @@ style={{
                                                                             As soluções podem integrar diferentes plataformas e ecossistemas, permitindo controlo centralizado, automações e acesso remoto.
                                                                             </p>
                                                                             
-                                                                            <div style={{
+                                                                            <div className="integracoes-grid" style={{
                                                                             display:"grid",
                                                                             gridTemplateColumns:"repeat(auto-fit,minmax(140px,1fr))",
                                                                             gap:"22px",
@@ -657,7 +657,7 @@ style={{
                                                                                                A domótica permite criar automatizações práticas para tornar a casa mais confortável, eficiente e segura no dia a dia.
                                                                                                </p>
                                                                                                
-                                                                                               <div style={{
+                                                                                               <div className="cenarios-grid" style={{
                                                                                                display:"grid",
                                                                                                gridTemplateColumns:"repeat(auto-fit,minmax(320px,1fr))",
                                                                                                gap:"28px"
@@ -1381,6 +1381,74 @@ border:"1px solid rgba(11,44,95,0.05)"
                                                           line-height: 1.55 !important;
                                                           text-align: center !important;
                                                         }
+
+                                                        .integracoes-domotica {
+                                                        margin-top: 65px !important;
+                                                        padding: 0 !important;
+                                                        text-align: center !important;
+                                                      }
+                                                      
+                                                      .integracoes-domotica h2 {
+                                                        font-size: 34px !important;
+                                                        line-height: 1.15 !important;
+                                                        max-width: 330px !important;
+                                                        margin: 0 auto 18px auto !important;
+                                                      }
+                                                      
+                                                      .integracoes-domotica > p {
+                                                        font-size: 16px !important;
+                                                        line-height: 1.55 !important;
+                                                        max-width: 315px !important;
+                                                        margin: 0 auto 35px auto !important;
+                                                      }
+                                                      
+                                                      .integracoes-grid {
+                                                        display: grid !important;
+                                                        grid-template-columns: 1fr !important;
+                                                        gap: 18px !important;
+                                                        justify-items: center !important;
+                                                      }
+                                                      
+                                                      .integracoes-grid > div {
+                                                        width: 100% !important;
+                                                        max-width: 300px !important;
+                                                        box-sizing: border-box !important;
+                                                      }
+                                                      
+                                                      .cenarios-domotica {
+                                                        padding: 0 !important;
+                                                      }
+                                                      
+                                                      .cenarios-grid {
+                                                        display: grid !important;
+                                                        grid-template-columns: 1fr !important;
+                                                        gap: 26px !important;
+                                                        justify-items: center !important;
+                                                      }
+                                                      
+                                                      .cenario-card {
+                                                        width: 100% !important;
+                                                        max-width: 300px !important;
+                                                        overflow: hidden !important;
+                                                      }
+                                                      
+                                                      .cenario-card img {
+                                                        width: 100% !important;
+                                                        height: auto !important;
+                                                        object-fit: contain !important;
+                                                      }
+                                                      
+                                                      .cenario-card h3 {
+                                                        font-size: 30px !important;
+                                                        line-height: 1.15 !important;
+                                                        text-align: center !important;
+                                                      }
+                                                      
+                                                      .cenario-card p {
+                                                        font-size: 16px !important;
+                                                        line-height: 1.55 !important;
+                                                        text-align: center !important;
+                                                      }
 
                                                           }
                                                         `}</style>
