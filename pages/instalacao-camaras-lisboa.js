@@ -646,6 +646,87 @@ style={{
                                                                                            
                                                                                            </section>
 
+                                                                                                                               <section
+                                                                                                                                style={{
+                                                                                                                                padding:"20px 20px 80px",
+                                                                                                                                maxWidth:"1100px",
+                                                                                                                                margin:"0 auto"
+                                                                                                                                }}
+                                                                                                                                >
+                                                                                                                                
+                                                                                                                                <h2 style={{
+                                                                                                                                fontSize:"42px",
+                                                                                                                                color:"#08285c",
+                                                                                                                                marginBottom:"18px",
+                                                                                                                                textAlign:"center"
+                                                                                                                                }}>
+                                                                                                                                Funcionalidades úteis no dia a dia
+                                                                                                                                </h2>
+                                                                                                                                
+                                                                                                                                <p style={{
+                                                                                                                                fontSize:"20px",
+                                                                                                                                color:"#555",
+                                                                                                                                maxWidth:"850px",
+                                                                                                                                margin:"0 auto 45px auto",
+                                                                                                                                textAlign:"center",
+                                                                                                                                lineHeight:"1.7"
+                                                                                                                                }}>
+                                                                                                                                Soluções pensadas para acompanhamento simples da casa através do telemóvel, sem sistemas complexos.
+                                                                                                                                </p>
+                                                                                                                                
+                                                                                                                                <div
+                                                                                                                                className="funcionalidades-vigilancia"
+                                                                                                                                style={{
+                                                                                                                                display:"grid",
+                                                                                                                                gridTemplateColumns:"repeat(3,1fr)",
+                                                                                                                                gap:"20px"
+                                                                                                                                }}
+                                                                                                                                >
+                                                                                                                                
+                                                                                                                                {[
+                                                                                                                                { icon:"📱", title:"Alertas no telemóvel" },
+                                                                                                                                { icon:"🌙", title:"Visão noturna" },
+                                                                                                                                { icon:"🚶", title:"Deteção de movimento" },
+                                                                                                                                { icon:"🎙️", title:"Áudio bidirecional" },
+                                                                                                                                { icon:"💾", title:"Gravação local ou cloud" },
+                                                                                                                                { icon:"🌍", title:"Acesso remoto" }
+                                                                                                                                ].map((item,index)=>(
+                                                                                                                                
+                                                                                                                                <div
+                                                                                                                                key={index}
+                                                                                                                                style={{
+                                                                                                                                background:"linear-gradient(180deg,#ffffff 0%,#f4f8fd 100%)",
+                                                                                                                                borderRadius:"24px",
+                                                                                                                                padding:"30px 20px",
+                                                                                                                                textAlign:"center",
+                                                                                                                                boxShadow:"0 12px 30px rgba(11,44,95,0.08)",
+                                                                                                                                border:"1px solid rgba(11,44,95,0.05)"
+                                                                                                                                }}
+                                                                                                                                >
+                                                                                                                                
+                                                                                                                                <div style={{
+                                                                                                                                fontSize:"40px",
+                                                                                                                                marginBottom:"16px"
+                                                                                                                                }}>
+                                                                                                                                {item.icon}
+                                                                                                                                </div>
+                                                                                                                                
+                                                                                                                                <h3 style={{
+                                                                                                                                color:"#08285c",
+                                                                                                                                fontSize:"22px",
+                                                                                                                                margin:"0"
+                                                                                                                                }}>
+                                                                                                                                {item.title}
+                                                                                                                                </h3>
+                                                                                                                                
+                                                                                                                                </div>
+                                                                                                                                
+                                                                                                                                ))}
+                                                                                                                                
+                                                                                                                                </div>
+                                                                                                                                
+                                                                                                                                </section>
+
    
                                                     {/* =========================
                                                              SECÇÃO COMANDOS
@@ -1121,6 +1202,16 @@ border:"1px solid rgba(11,44,95,0.05)"
                                                           }
                                                           
                                                           .logos-vigilancia > div {
+                                                            width: 100% !important;
+                                                            max-width: 300px !important;
+                                                          }
+
+                                                          .funcionalidades-vigilancia {
+                                                            grid-template-columns: 1fr !important;
+                                                            justify-items: center !important;
+                                                          }
+                                                          
+                                                          .funcionalidades-vigilancia > div {
                                                             width: 100% !important;
                                                             max-width: 300px !important;
                                                           }
