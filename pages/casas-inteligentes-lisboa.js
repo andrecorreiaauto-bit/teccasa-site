@@ -353,6 +353,123 @@ style={{
                       </div>
                       
                       </section>
+
+                                   <section
+                                    id="solucoes"
+                                    style={{
+                                    padding:"40px 20px 70px",
+                                    maxWidth:"1200px",
+                                    margin:"0 auto"
+                                    }}
+                                    >
+                                    
+                                    <h2 style={{
+                                    fontSize:"42px",
+                                    color:"#08285c",
+                                    marginBottom:"18px",
+                                    textAlign:"center"
+                                    }}>
+                                    O que pode controlar
+                                    </h2>
+                                    
+                                    <p style={{
+                                    fontSize:"20px",
+                                    color:"#555",
+                                    maxWidth:"850px",
+                                    margin:"0 auto 45px auto",
+                                    textAlign:"center",
+                                    lineHeight:"1.7"
+                                    }}>
+                                    As soluções de domótica permitem automatizar e controlar vários sistemas da casa de forma integrada e intuitiva.
+                                    </p>
+                                    
+                                    <div
+                                    className="problemas-grid"
+                                    style={{
+                                    display:"grid",
+                                    gridTemplateColumns:"repeat(2,1fr)",
+                                    gap:"24px"
+                                    }}
+                                    >
+                                    
+                                    {[
+                                    {
+                                    image:"/domotica-iluminacao.png",
+                                    title:"Iluminação inteligente",
+                                    text:"Controle luzes interiores e exteriores através do telemóvel, horários automáticos ou comandos de voz."
+                                    },
+                                    
+                                    {
+                                    image:"/domotica-portao.png",
+                                    title:"Portões automáticos",
+                                    text:"Abra e controle portões à distância, receba notificações e integre automatismos na sua casa inteligente."
+                                    },
+                                    
+                                    {
+                                    image:"/domotica-estores-clima.png",
+                                    title:"Estores e climatização",
+                                    text:"Automatize conforto térmico e luminosidade com controlo inteligente de estores e climatização."
+                                    },
+                                    
+                                    {
+                                    image:"/domotica-vigilancia.png",
+                                    title:"Videovigilância",
+                                    text:"Visualize câmaras, receba alertas e acompanhe a segurança da sua casa em tempo real."
+                                    }
+                                    
+                                    ].map((item,index)=>(
+                                    
+                                    <div
+                                    key={index}
+                                    style={{
+                                    background:"#e6edf7",
+                                    borderRadius:"26px",
+                                    overflow:"hidden",
+                                    boxShadow:"0 14px 35px rgba(11,44,95,0.08)"
+                                    }}
+                                    >
+                                    
+                                    <img
+                                    src={item.image}
+                                    alt={item.title}
+                                    style={{
+                                    width:"100%",
+                                    height:"260px",
+                                    objectFit:"cover",
+                                    display:"block"
+                                    }}
+                                    />
+                                    
+                                    <div style={{
+                                    padding:"28px"
+                                    }}>
+                                    
+                                    <h3 style={{
+                                    color:"#08285c",
+                                    fontSize:"28px",
+                                    marginBottom:"14px"
+                                    }}>
+                                    {item.title}
+                                    </h3>
+                                    
+                                    <p style={{
+                                    color:"#444",
+                                    lineHeight:"1.7",
+                                    fontSize:"17px",
+                                    margin:"0"
+                                    }}>
+                                    {item.text}
+                                    </p>
+                                    
+                                    </div>
+                                    
+                                    </div>
+                                    
+                                    ))}
+                                    
+                                    </div>
+                                    
+                                    </section>
    
                                                     {/* =========================
                                                              SECÇÃO COMANDOS
