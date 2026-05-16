@@ -470,7 +470,54 @@ style={{
                                     </div>
                                     
                                     </section>
-   
+
+                                               <section style={{
+                                                marginTop:"80px",
+                                                padding:"70px 30px",
+                                                borderRadius:"32px",
+                                                background:"linear-gradient(135deg,#08285c,#0b3f88)",
+                                                color:"white",
+                                                boxShadow:"0 25px 60px rgba(11,44,95,0.20)"
+                                              }}>
+                                              
+                                                <div style={{
+                                                  display:"grid",
+                                                  gridTemplateColumns:"repeat(auto-fit,minmax(320px,1fr))",
+                                                  gap:"45px",
+                                                  alignItems:"center"
+                                                }}>
+                                              
+                                                  <div>
+                                                    <h2 style={{
+                                                      fontSize:"42px",
+                                                      marginBottom:"18px",
+                                                      lineHeight:"1.15"
+                                                    }}>
+                                                      Tudo ligado numa só casa
+                                                    </h2>
+                                              
+                                                    <p style={{
+                                                      fontSize:"20px",
+                                                      lineHeight:"1.7",
+                                                      color:"#dbeafe"
+                                                    }}>
+                                                      Portões, iluminação, estores, climatização, câmaras e outros sistemas podem trabalhar em conjunto, criando uma casa mais prática, segura e inteligente.
+                                                    </p>
+                                                  </div>
+                                              
+                                                  <img
+                                                    src="/casa-inteligente-conectada.png"
+                                                    alt="Casa inteligente interligada"
+                                                    style={{
+                                                      width:"100%",
+                                                      borderRadius:"26px",
+                                                      boxShadow:"0 20px 50px rgba(0,0,0,0.25)"
+                                                    }}
+                                                  />
+                                              
+                                                </div>
+                                              
+                                              </section>
                                                     {/* =========================
                                                              SECÇÃO COMANDOS
                                                                       ========================= */}
