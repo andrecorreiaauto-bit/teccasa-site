@@ -275,7 +275,9 @@ style={{
       <div className="main-card">
 
    
-  <section style={{
+  <section
+            className="hero-reparacao"
+            style={{
             display:"grid",
             gridTemplateColumns:"repeat(auto-fit,minmax(320px,1fr))",
             gap:"50px",
@@ -826,7 +828,36 @@ border:"1px solid rgba(11,44,95,0.05)"
                                                             margin: 0 !important;
                                                             border-radius: 18px !important;
                                                             }
-                                                        
+
+                                                        .hero-reparacao{
+                                                        gap:30px !important;
+                                                        padding:30px 0 10px 0 !important;
+                                                      }
+                                                      
+                                                      .hero-reparacao h1{
+                                                        font-size:48px !important;
+                                                        line-height:1.1 !important;
+                                                        text-align:center;
+                                                      }
+                                                      
+                                                      .hero-reparacao p{
+                                                        font-size:18px !important;
+                                                        line-height:1.7 !important;
+                                                        text-align:center;
+                                                        margin-left:auto !important;
+                                                        margin-right:auto !important;
+                                                      }
+                                                      
+                                                      .hero-reparacao a{
+                                                        width:100%;
+                                                        text-align:center;
+                                                        box-sizing:border-box;
+                                                      }
+                                                      
+                                                      .hero-reparacao img{
+                                                        border-radius:24px !important;
+                                                      }
+
                                                             .desktop-menu {
                                                               display: none !important;
                                                             }
