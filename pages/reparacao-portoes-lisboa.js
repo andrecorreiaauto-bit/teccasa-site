@@ -484,9 +484,9 @@ style={{
                                                   color:"#444",
                                                   maxWidth:"850px"
                                                 }}>
-                                                  Assistência técnica multimarca para portões automáticos, motores, comandos,
-                                                  fotocélulas, recetores e centrais eletrónicas. Diagnóstico claro antes de
-                                                  recomendar substituições.
+                                                  Assistência técnica multimarca para portões automáticos em Lisboa e arredores, 
+                                                  incluindo Loures, Odivelas, Vila Franca de Xira e Margem Sul. 
+                                                  Diagnóstico claro antes de recomendar substituições.
                                                 </p>
                                               
                                                 <div style={{
