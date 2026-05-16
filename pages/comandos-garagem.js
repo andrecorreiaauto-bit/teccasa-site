@@ -465,7 +465,189 @@ style={{
                                            ))}
                                        
                                          </div>
-                                       </section>                              
+                                       </section>     
+
+                                                          <section style={{
+                                                           marginTop:"80px"
+                                                           }}>
+                                                           
+                                                           <h2 style={{
+                                                           color:"#08285c",
+                                                           fontSize:"42px",
+                                                           marginBottom:"18px",
+                                                           textAlign:"center"
+                                                           }}>
+                                                           Soluções específicas e universais
+                                                           </h2>
+                                                           
+                                                           <p style={{
+                                                           textAlign:"center",
+                                                           maxWidth:"850px",
+                                                           margin:"0 auto 50px auto",
+                                                           color:"#555",
+                                                           fontSize:"20px",
+                                                           lineHeight:"1.7"
+                                                           }}>
+                                                           Nem todos os sistemas precisam de comandos originais. Em muitos casos é possível recuperar ou modernizar automatismos com soluções compatíveis e recetores universais.
+                                                           </p>
+                                                           
+                                                           <div className="compromisso-grid" style={{
+                                                           display:"grid",
+                                                           gridTemplateColumns:"repeat(auto-fit,minmax(320px,1fr))",
+                                                           gap:"24px"
+                                                           }}>
+                                                           
+                                                           <div
+                                                           className="cartao-vantagem"
+                                                           style={{
+                                                           background:"linear-gradient(180deg,#ffffff 0%,#f5f8fc 100%)",
+                                                           borderRadius:"24px",
+                                                           padding:"34px 28px",
+                                                           boxShadow:"0 12px 30px rgba(11,44,95,0.08)",
+                                                           border:"1px solid rgba(11,44,95,0.05)"
+                                                           }}
+                                                           >
+                                                           
+                                                           <div style={{
+                                                           fontSize:"46px",
+                                                           marginBottom:"20px"
+                                                           }}>
+                                                           🔒
+                                                           </div>
+                                                           
+                                                           <h3 style={{
+                                                           color:"#08285c",
+                                                           fontSize:"28px",
+                                                           marginBottom:"16px"
+                                                           }}>
+                                                           Soluções específicas
+                                                           </h3>
+                                                           
+                                                           <p style={{
+                                                           color:"#555",
+                                                           lineHeight:"1.7",
+                                                           fontSize:"17px",
+                                                           marginBottom:"20px"
+                                                           }}>
+                                                           Comandos originais e compatíveis para marcas específicas, mantendo funcionalidades e segurança do sistema.
+                                                           </p>
+                                                           
+                                                           <div style={{
+                                                           display:"flex",
+                                                           flexWrap:"wrap",
+                                                           gap:"10px"
+                                                           }}>
+                                                           
+                                                           {[
+                                                           "Nice",
+                                                           "BFT",
+                                                           "FAAC",
+                                                           "Motorline",
+                                                           "CAME",
+                                                           "Hörmann"
+                                                           ].map((marca,index)=>(
+                                                           
+                                                           <div
+                                                           key={index}
+                                                           style={{
+                                                           background:"#e9f0f9",
+                                                           padding:"10px 14px",
+                                                           borderRadius:"999px",
+                                                           fontWeight:"bold",
+                                                           color:"#08285c",
+                                                           fontSize:"14px"
+                                                           }}
+                                                           >
+                                                           {marca}
+                                                           </div>
+                                                           
+                                                           ))}
+                                                           
+                                                           <div style={{
+                                                           padding:"10px 14px",
+                                                           fontSize:"14px",
+                                                           color:"#555"
+                                                           }}>
+                                                           e muitas outras
+                                                           </div>
+                                                           
+                                                           </div>
+                                                           
+                                                           </div>
+                                                           
+                                                           <div
+                                                           className="cartao-vantagem"
+                                                           style={{
+                                                           background:"linear-gradient(180deg,#ffffff 0%,#f5f8fc 100%)",
+                                                           borderRadius:"24px",
+                                                           padding:"34px 28px",
+                                                           boxShadow:"0 12px 30px rgba(11,44,95,0.08)",
+                                                           border:"1px solid rgba(11,44,95,0.05)"
+                                                           }}
+                                                           >
+                                                           
+                                                           <div style={{
+                                                           fontSize:"46px",
+                                                           marginBottom:"20px"
+                                                           }}>
+                                                           📡
+                                                           </div>
+                                                           
+                                                           <h3 style={{
+                                                           color:"#08285c",
+                                                           fontSize:"28px",
+                                                           marginBottom:"16px"
+                                                           }}>
+                                                           Soluções universais
+                                                           </h3>
+                                                           
+                                                           <p style={{
+                                                           color:"#555",
+                                                           lineHeight:"1.7",
+                                                           fontSize:"17px",
+                                                           marginBottom:"20px"
+                                                           }}>
+                                                           Aplicação de comandos e recetores universais para recuperar sistemas antigos, substituir comandos descontinuados ou melhorar alcance e compatibilidade.
+                                                           </p>
+                                                           
+                                                           <div style={{
+                                                           display:"flex",
+                                                           flexDirection:"column",
+                                                           gap:"12px",
+                                                           marginTop:"15px"
+                                                           }}>
+                                                           
+                                                           {[
+                                                           "Recetores RF universais",
+                                                           "Compatibilidade multimarca",
+                                                           "Recuperação de sistemas antigos",
+                                                           "Substituição sem trocar central",
+                                                           "Maior alcance e estabilidade"
+                                                           ].map((item,index)=>(
+                                                           
+                                                           <div
+                                                           key={index}
+                                                           style={{
+                                                           display:"flex",
+                                                           alignItems:"center",
+                                                           gap:"10px",
+                                                           color:"#08285c",
+                                                           fontWeight:"bold"
+                                                           }}
+                                                           >
+                                                           <span>✔</span>
+                                                           <span>{item}</span>
+                                                           </div>
+                                                           
+                                                           ))}
+                                                           
+                                                           </div>
+                                                           
+                                                           </div>
+                                                           
+                                                           </div>
+                                                           
+                                                           </section>
    
                                                     {/* =========================
                                                              SECÇÃO COMANDOS
