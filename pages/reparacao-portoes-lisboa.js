@@ -276,7 +276,7 @@ style={{
 
    
   <section
-            className="hero"
+            className="hero-reparacao"
             style={{
             display:"grid",
             gridTemplateColumns:"repeat(auto-fit,minmax(320px,1fr))",
@@ -288,7 +288,7 @@ style={{
             <div>
             
             <h1 style={{
-            fontSize:"clamp(42px,7vw,72px)",
+            fontSize:"clamp(42px,5vw,58px)",
             lineHeight:"1.05",
             marginBottom:"26px",
             color:"#08285c",
@@ -857,6 +857,9 @@ border:"1px solid rgba(11,44,95,0.05)"
                                                       .hero-reparacao img{
                                                         border-radius:24px !important;
                                                       }
+
+                                                      .hero-reparacao h1{
+                                                      font-size:34px !important;
 
                                                             .desktop-menu {
                                                               display: none !important;
