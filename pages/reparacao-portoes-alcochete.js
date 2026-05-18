@@ -62,7 +62,7 @@ export default function ReparacaoPortoes() {
                                                   
                                                   <meta
                                                   name="keywords"
-                                                  content="automatismos lisboa,
+                                                  content="automatismos alcochete,
                                                    reparação portões,
                                                    comandos garagem,
                                                    motorline,
