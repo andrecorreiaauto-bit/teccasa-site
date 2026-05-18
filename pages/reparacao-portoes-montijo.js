@@ -62,7 +62,7 @@ export default function ReparacaoPortoes() {
                                                   
                                                   <meta
                                                   name="keywords"
-                                                  content="automatismos lisboa,
+                                                  content="automatismos montijo,
                                                    reparação portões,
                                                    comandos garagem,
                                                    motorline,
@@ -577,7 +577,7 @@ style={{
                                                   color:"#08285c",
                                                   marginBottom:"18px"
                                                 }}>
-                                                  Reparação de Portões Automáticos em Alcochete
+                                                  Reparação de Portões Automáticos no Montijo
                                                 </h1>
                                               
                                                 <p style={{
