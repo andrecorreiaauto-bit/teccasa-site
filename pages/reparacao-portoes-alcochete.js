@@ -57,7 +57,7 @@ export default function ReparacaoPortoes() {
                                                   
                                                   <meta
                                                   name="description"
-                                                  content="Automatismos, portões automáticos, comandos, domótica, vigilância e assistência técnica em Lisboa e arredores."
+                                                  content="Reparação de portões automáticos em Alcochete. Assistência técnica a motores, automatismos, comandos e portões residenciais."
                                                   />
                                                   
                                                   <meta
