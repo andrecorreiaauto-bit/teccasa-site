@@ -577,7 +577,7 @@ style={{
                                                   color:"#08285c",
                                                   marginBottom:"18px"
                                                 }}>
-                                                  Reparação de Portões Automáticos em Lisboa
+                                                  Reparação de Portões Automáticos em Alcochete
                                                 </h1>
                                               
                                                 <p style={{
@@ -586,8 +586,9 @@ style={{
                                                   color:"#444",
                                                   maxWidth:"850px"
                                                 }}>
-                                                  Assistência técnica multimarca para portões automáticos em Lisboa e arredores, 
-                                                  incluindo Loures, Odivelas, Vila Franca de Xira e Margem Sul. 
+                                                  Prestamos assistência técnica em Alcochete, São Francisco, 
+                                                  Samouco e zonas próximas, com reparação de automatismos, motores, 
+                                                  comandos e portões automáticos residenciais. 
                                                   Diagnóstico claro antes de recomendar substituições.
                                                 </p>
                                               
