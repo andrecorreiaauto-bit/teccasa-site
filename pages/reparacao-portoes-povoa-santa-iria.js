@@ -587,11 +587,9 @@ style={{
                                                   color:"#444",
                                                   maxWidth:"850px"
                                                 }}>
-                                                  Prestamos assistência técnica na Póvoa de Santa Iria, 
-                                                  Forte da Casa, Alverca e zonas próximas, 
-                                                  com diagnóstico e reparação de portões automáticos residenciais e portões de garagem.
-                                                  Intervimos em motores, comandos, fotocélulas, centrais eletrónicas e automatismos multimarca, 
-                                                  procurando identificar a origem da avaria antes de recomendar substituições.
+                                                  Prestamos assistência técnica na Póvoa de Santa Iria e zonas próximas, 
+                                                  com reparação de portões automáticos residenciais, portões de garagem, automatismos e comandos multimarca.
+                                                  Acompanhamento técnico claro, diagnóstico da avaria e soluções ajustadas ao tipo de instalação existente.
                                                 </p>
                                               
                                                 <div style={{
