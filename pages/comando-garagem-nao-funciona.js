@@ -625,7 +625,7 @@ fontSize:"17px",
 boxShadow:"0 10px 25px rgba(37,211,102,.20)"
 }}
 >
-Diagnóstico por WhatsApp
+Pedir assistência
 </a>
 
 <a
