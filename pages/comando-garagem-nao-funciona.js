@@ -499,6 +499,78 @@ style={{
                                               
                                               </section>
 
+                                                                               <section
+                                                                               style={{
+                                                                               padding:"20px 0 70px"
+                                                                               }}
+                                                                               >
+                                                                               
+                                                                               <h2 style={{
+                                                                               fontSize:"38px",
+                                                                               color:"#08285c",
+                                                                               marginBottom:"18px",
+                                                                               textAlign:"center"
+                                                                               }}>
+                                                                               Compatível com várias marcas
+                                                                               </h2>
+                                                                               
+                                                                               <p style={{
+                                                                               fontSize:"19px",
+                                                                               lineHeight:"1.7",
+                                                                               color:"#555",
+                                                                               maxWidth:"760px",
+                                                                               margin:"0 auto 40px auto",
+                                                                               textAlign:"center"
+                                                                               }}>
+                                                                               Assistência técnica, programação e diagnóstico de comandos e automatismos multimarca.
+                                                                               </p>
+                                                                               
+                                                                               <div
+                                                                               className="marcas-grid"
+                                                                               style={{
+                                                                               display:"grid",
+                                                                               gridTemplateColumns:"repeat(auto-fit,minmax(150px,1fr))",
+                                                                               gap:"16px"
+                                                                               }}
+                                                                               >
+                                                                               
+                                                                               {[
+                                                                               "Motorline",
+                                                                               "BFT",
+                                                                               "Nice",
+                                                                               "CAME",
+                                                                               "FAAC",
+                                                                               "DEA",
+                                                                               "Somfy",
+                                                                               "Beninca",
+                                                                               "V2",
+                                                                               "Roger",
+                                                                               "LiftMaster",
+                                                                               "e muitas outras"
+                                                                               ].map((marca,index)=>(
+                                                                               
+                                                                               <div
+                                                                               key={index}
+                                                                               className="cartao-marca"
+                                                                               style={{
+                                                                               background:"#eef3fa",
+                                                                               padding:"18px 14px",
+                                                                               borderRadius:"18px",
+                                                                               textAlign:"center",
+                                                                               fontWeight:"bold",
+                                                                               color:"#08285c",
+                                                                               boxShadow:"0 10px 24px rgba(11,44,95,0.08)"
+                                                                               }}
+                                                                               >
+                                                                               {marca}
+                                                                               </div>
+                                                                               
+                                                                               ))}
+                                                                               
+                                                                               </div>
+                                                                               
+                                                                               </section>
+
                         {/* NOVA PÁGINA AQUI */}
                                                      
   <footer style={{
