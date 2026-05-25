@@ -340,7 +340,7 @@ style={{
             }}>
             
             <img
-            src="/hero-reparacao-portoes.png"
+            src="/hero-povoa-garagem.png"
             alt="Reparação de portões automáticos"
             style={{
             width:"100%",
