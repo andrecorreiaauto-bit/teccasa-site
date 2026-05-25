@@ -52,12 +52,12 @@ export default function ReparacaoPortoes() {
                                                   <Head>
                                                   
                                                   <title>
-                                                  Reparação de Portões Automáticos em Alcochete | TecCasa Soluções
+                                                  Reparação de Portões Automáticos na Póvoa de Santa Iria | TecCasa Soluções
                                                   </title>
                                                   
                                                   <meta
                                                   name="description"
-                                                  content="Reparação de portões automáticos em Alcochete. Assistência técnica a motores, automatismos, comandos e portões residenciais."
+                                                  content="Reparação de portões automáticos na Póvoa de Santa Iria. Assistência técnica a motores, comandos, fotocélulas, centrais e automatismos residenciais."
                                                   />
                                                   
                                                   <meta
@@ -101,7 +101,7 @@ export default function ReparacaoPortoes() {
                                                   
                                                   <meta
                                                   property="og:url"
-                                                  content="https://tec-casa.pt/reparacao-portoes-alcochete"
+                                                  content="https://tec-casa.pt/reparacao-portoes-povoa-santa-iria"
                                                   />
                                                   
                                                   <meta property="og:type" content="website" />
@@ -116,7 +116,7 @@ export default function ReparacaoPortoes() {
                                                         
                                                         <link rel="manifest" href="/site.webmanifest" />
 
-                                                  <link rel="canonical" href="https://tec-casa.pt/reparacao-portoes-alcochete" />
+                                                  <link rel="canonical" href="https://tec-casa.pt/reparacao-portoes-povoa-santa-iria" />
                                                   
                                                   </Head>
     <div className="page">
