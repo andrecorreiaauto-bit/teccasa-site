@@ -571,6 +571,85 @@ style={{
                                                                                
                                                                                </section>
 
+<section
+style={{
+padding:"30px 0 20px",
+textAlign:"center"
+}}
+>
+
+<div style={{
+background:"linear-gradient(180deg,#f5f8fc 0%,#e8eef8 100%)",
+borderRadius:"32px",
+padding:"55px 35px",
+boxShadow:"0 18px 40px rgba(11,44,95,0.08)"
+}}
+>
+
+<h2 style={{
+fontSize:"42px",
+color:"#08285c",
+marginBottom:"18px"
+}}>
+O comando deixou de funcionar?
+</h2>
+
+<p style={{
+fontSize:"20px",
+lineHeight:"1.8",
+color:"#555",
+maxWidth:"760px",
+margin:"0 auto 35px auto"
+}}>
+Antes de substituir comandos ou automatismos, é importante perceber se o problema está no comando, no recetor RF, na central eletrónica ou na programação do sistema.
+</p>
+
+<div style={{
+display:"flex",
+justifyContent:"center",
+gap:"16px",
+flexWrap:"wrap"
+}}>
+
+<a
+href="https://wa.me/351922021980"
+target="_blank"
+style={{
+background:"#25D366",
+color:"white",
+padding:"17px 28px",
+borderRadius:"16px",
+textDecoration:"none",
+fontWeight:"bold",
+fontSize:"17px",
+boxShadow:"0 10px 25px rgba(37,211,102,.20)"
+}}
+>
+Diagnóstico por WhatsApp
+</a>
+
+<a
+href="tel:922021980"
+style={{
+background:"#08285c",
+color:"white",
+padding:"17px 28px",
+borderRadius:"16px",
+textDecoration:"none",
+fontWeight:"bold",
+fontSize:"17px",
+boxShadow:"0 10px 25px rgba(8,40,92,.18)"
+}}
+>
+Ligar agora
+</a>
+
+</div>
+
+</div>
+
+</section>
+
                         {/* NOVA PÁGINA AQUI */}
                                                      
   <footer style={{
