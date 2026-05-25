@@ -295,7 +295,7 @@ style={{
             color:"#08285c",
             fontWeight:"900"
             }}>
-            Reparação de Portões Automáticos em Alcochete
+            Reparação de Portões Automáticos e Garagem na Póvoa de Santa Iria
             </h1>
             
             <p style={{
@@ -305,7 +305,7 @@ style={{
             maxWidth:"700px",
             marginBottom:"35px"
             }}>
-            Assistência técnica multimarca para portões automáticos em Alcochete, São Francisco, Samouco e zonas próximas. Diagnóstico claro antes de recomendar substituições.
+            Assistência técnica a portões automáticos, portões de garagem, comandos e automatismos residenciais na Póvoa de Santa Iria e zonas próximas.
             </p>
             
             <a
