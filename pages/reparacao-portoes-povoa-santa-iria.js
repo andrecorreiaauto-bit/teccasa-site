@@ -587,10 +587,11 @@ style={{
                                                   color:"#444",
                                                   maxWidth:"850px"
                                                 }}>
-                                                  Prestamos assistência técnica em Alcochete, São Francisco, 
-                                                  Samouco e zonas próximas, com reparação de automatismos, motores, 
-                                                  comandos e portões automáticos residenciais. 
-                                                  Diagnóstico claro antes de recomendar substituições.
+                                                  Prestamos assistência técnica na Póvoa de Santa Iria, 
+                                                  Forte da Casa, Alverca e zonas próximas, 
+                                                  com diagnóstico e reparação de portões automáticos residenciais e portões de garagem.
+                                                  Intervimos em motores, comandos, fotocélulas, centrais eletrónicas e automatismos multimarca, 
+                                                  procurando identificar a origem da avaria antes de recomendar substituições.
                                                 </p>
                                               
                                                 <div style={{
