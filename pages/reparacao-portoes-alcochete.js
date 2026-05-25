@@ -64,6 +64,7 @@ export default function ReparacaoPortoes() {
                                                   name="keywords"
                                                   content="automatismos alcochete,
                                                    reparação portões,
+                                                   portões garagem,
                                                    comandos garagem,
                                                    motorline,
                                                    bft,
