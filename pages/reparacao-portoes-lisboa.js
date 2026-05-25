@@ -100,7 +100,7 @@ export default function ReparacaoPortoes() {
                                                   
                                                   <meta
                                                   property="og:url"
-                                                  content="https://tec-casa.pt"
+                                                  content="https://tec-casa.pt/reparacao-portoes-lisboa"
                                                   />
                                                   
                                                   <meta property="og:type" content="website" />
@@ -115,7 +115,7 @@ export default function ReparacaoPortoes() {
                                                         
                                                         <link rel="manifest" href="/site.webmanifest" />
 
-                                                  <link rel="canonical" href="https://tec-casa.pt" />
+                                                  <link rel="canonical" href="https://tec-casa.pt/reparacao-portoes-lisboa" />
                                                   
                                                   </Head>
     <div className="page">
