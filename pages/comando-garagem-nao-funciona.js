@@ -52,12 +52,12 @@ export default function ComandoGaragemNaoFunciona() {
                                                   <Head>
                                                   
                                                   <title>
-                                                  TecCasa Soluções | Portões Automáticos, Automatismos e Domótica em Lisboa
+                                                  Comando da Garagem Não Funciona? | TecCasa Soluções
                                                   </title>
                                                   
                                                   <meta
                                                   name="description"
-                                                  content="Automatismos, portões automáticos, comandos, domótica, vigilância e assistência técnica em Lisboa e arredores."
+                                                  content="Diagnóstico e assistência técnica para comandos de garagem e portões automáticos. Programação, recetores RF, pilhas, centrais e automatismos multimarca."
                                                   />
                                                   
                                                   <meta
@@ -100,7 +100,7 @@ export default function ComandoGaragemNaoFunciona() {
                                                   
                                                   <meta
                                                   property="og:url"
-                                                  content="https://tec-casa.pt"
+                                                  content="https://tec-casa.pt/comando-garagem-nao-funciona"
                                                   />
                                                   
                                                   <meta property="og:type" content="website" />
@@ -115,7 +115,7 @@ export default function ComandoGaragemNaoFunciona() {
                                                         
                                                         <link rel="manifest" href="/site.webmanifest" />
 
-                                                  <link rel="canonical" href="https://tec-casa.pt" />
+                                                  <link rel="canonical" href="https://tec-casa.pt/comando-garagem-nao-funciona" />
                                                   
                                                   </Head>
     <div className="page">
