@@ -373,6 +373,132 @@ style={{
                    
                    </section>
 
+                                              <section
+                                              id="problemas"
+                                              style={{
+                                              padding:"20px 0 70px"
+                                              }}
+                                              >
+                                              
+                                              <h2 style={{
+                                              fontSize:"38px",
+                                              color:"#08285c",
+                                              marginBottom:"16px",
+                                              textAlign:"center"
+                                              }}>
+                                              Problemas comuns em comandos de garagem
+                                              </h2>
+                                              
+                                              <p style={{
+                                              fontSize:"19px",
+                                              lineHeight:"1.7",
+                                              color:"#555",
+                                              maxWidth:"760px",
+                                              margin:"0 auto 45px auto",
+                                              textAlign:"center"
+                                              }}>
+                                              Nem todas as falhas significam que o comando avariou. Em muitos casos o problema pode estar na programação, no recetor RF ou na própria central do automatismo.
+                                              </p>
+                                              
+                                              <div
+                                              className="problemas-grid"
+                                              style={{
+                                              display:"grid",
+                                              gridTemplateColumns:"repeat(3,1fr)",
+                                              gap:"22px"
+                                              }}
+                                              >
+                                              
+                                              {[
+                                              {
+                                              image:"/pilha-comando.png",
+                                              title:"Comando deixou de responder",
+                                              text:"Pode estar relacionado com pilha descarregada, desgaste interno ou perda de programação."
+                                              },
+                                              
+                                              {
+                                              image:"/recetor-rf.png",
+                                              title:"Recetor RF sem resposta",
+                                              text:"O problema pode estar no recetor do automatismo e não no comando."
+                                              },
+                                              
+                                              {
+                                              image:"/comando-intermitente.png",
+                                              title:"Só funciona muito perto",
+                                              text:"Normalmente associado a pilha fraca, antena, interferências ou falha RF."
+                                              },
+                                              
+                                              {
+                                              image:"/central-programacao.png",
+                                              title:"Comando perdeu programação",
+                                              text:"Falhas elétricas ou alterações na central podem apagar comandos memorizados."
+                                              },
+                                              
+                                              {
+                                              image:"/garagem-nao-abre.png",
+                                              title:"Garagem não reage",
+                                              text:"A avaria pode estar na central, alimentação ou sistema de segurança."
+                                              },
+                                              
+                                              {
+                                              image:"/comando-universal.png",
+                                              title:"Novo comando não emparelha",
+                                              text:"Nem todos os sistemas são compatíveis diretamente sem programação correta."
+                                              }
+                                              
+                                              ].map((item,index)=>(
+                                              
+                                              <div
+                                              key={index}
+                                              style={{
+                                              background:"#eef3fa",
+                                              borderRadius:"24px",
+                                              overflow:"hidden",
+                                              boxShadow:"0 12px 30px rgba(11,44,95,0.08)"
+                                              }}
+                                              >
+                                              
+                                              <img
+                                              src={item.image}
+                                              alt={item.title}
+                                              style={{
+                                              width:"100%",
+                                              height:"190px",
+                                              objectFit:"cover",
+                                              display:"block"
+                                              }}
+                                              />
+                                              
+                                              <div style={{
+                                              padding:"24px"
+                                              }}>
+                                              
+                                              <h3 style={{
+                                              color:"#08285c",
+                                              fontSize:"22px",
+                                              marginBottom:"12px"
+                                              }}>
+                                              {item.title}
+                                              </h3>
+                                              
+                                              <p style={{
+                                              color:"#444",
+                                              lineHeight:"1.7",
+                                              margin:"0"
+                                              }}>
+                                              {item.text}
+                                              </p>
+                                              
+                                              </div>
+                                              
+                                              </div>
+                                              
+                                              ))}
+                                              
+                                              </div>
+                                              
+                                              </section>
+
                         {/* NOVA PÁGINA AQUI */}
                                                      
   <footer style={{
