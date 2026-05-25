@@ -493,8 +493,8 @@ style={{
    {[
   {
     image:"/portao-abre-ate-meio.png",
-    title:"Portão abre até meio",
-    text:"Pode estar relacionado com esforço, programação, fim de curso ou obstáculos no percurso."
+    title:"Portão da garagem bloqueia",
+    text:"Pode estar relacionado com esforço excessivo, guias desalinhadas, sensores ou programação incorreta."
   },
   {
     image:"/comando-portao.png",
@@ -508,13 +508,13 @@ style={{
   },
   {
     image:"/motor-portao.png",
-    title:"Motor sem força",
-    text:"Pode indicar desgaste mecânico, esforço excessivo ou parametrização incorreta."
+    title:"Motor faz ruído mas não move",
+    text:"Em alguns casos o problema está no condensador, esforço mecânico ou desbloqueio incorreto do automatismo."
   },
   {
     image:"/central-eletronica.png",
-    title:"Central bloqueada",
-    text:"Erros de programação, entradas de segurança ativas ou configuração alterada."
+    title:"Portão perdeu programação",
+    text:"Falhas elétricas, alterações de parâmetros ou avarias na central podem impedir o funcionamento normal."
   },
   {
     image:"/portao-inverte-fecho.png",
