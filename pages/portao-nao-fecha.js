@@ -498,6 +498,165 @@ style={{
                                     
                                     </section>
 
+                                                               <section
+                                                               style={{
+                                                               padding:"10px 0 70px"
+                                                               }}
+                                                               >
+                                                               
+                                                               <div style={{
+                                                               display:"grid",
+                                                               gridTemplateColumns:"repeat(auto-fit,minmax(300px,1fr))",
+                                                               gap:"28px",
+                                                               alignItems:"stretch"
+                                                               }}>
+                                                               
+                                                               <div style={{
+                                                               background:"#f5f8fc",
+                                                               borderRadius:"28px",
+                                                               padding:"34px",
+                                                               boxShadow:"0 14px 35px rgba(11,44,95,0.07)",
+                                                               border:"1px solid rgba(11,44,95,0.06)"
+                                                               }}>
+                                                               
+                                                               <h2 style={{
+                                                               fontSize:"34px",
+                                                               color:"#08285c",
+                                                               marginBottom:"18px"
+                                                               }}>
+                                                               O que pode verificar antes de chamar assistência?
+                                                               </h2>
+                                                               
+                                                               <p style={{
+                                                               fontSize:"18px",
+                                                               lineHeight:"1.75",
+                                                               color:"#555",
+                                                               marginBottom:"24px"
+                                                               }}>
+                                                               Algumas situações simples podem impedir o fecho do portão. Antes de forçar o motor
+                                                               ou tentar alterar a programação, vale a pena confirmar se existe algo visível a bloquear
+                                                               o sistema.
+                                                               </p>
+                                                               
+                                                               <ul style={{
+                                                               listStyle:"none",
+                                                               padding:"0",
+                                                               margin:"0",
+                                                               display:"grid",
+                                                               gap:"14px"
+                                                               }}>
+                                                               
+                                                               {[
+                                                               "Verificar se há obstáculos junto ao portão ou à calha",
+                                                               "Confirmar se as fotocélulas estão limpas e alinhadas",
+                                                               "Testar se o portão reage ao comando e ao botão interior",
+                                                               "Observar se o motor tenta fechar ou fica completamente parado",
+                                                               "Evitar insistir várias vezes se o automatismo estiver a fazer esforço"
+                                                               ].map((item,index)=>(
+                                                               
+                                                               <li
+                                                               key={index}
+                                                               style={{
+                                                               display:"flex",
+                                                               gap:"12px",
+                                                               alignItems:"flex-start",
+                                                               fontSize:"17px",
+                                                               lineHeight:"1.6",
+                                                               color:"#444"
+                                                               }}
+                                                               >
+                                                               <span style={{
+                                                               color:"#25D366",
+                                                               fontWeight:"bold",
+                                                               fontSize:"20px",
+                                                               lineHeight:"1.4"
+                                                               }}>
+                                                               ✓
+                                                               </span>
+                                                               <span>{item}</span>
+                                                               </li>
+                                                               
+                                                               ))}
+                                                               
+                                                               </ul>
+                                                               
+                                                               </div>
+                                                               
+                                                               <div style={{
+                                                               background:"#eef3fa",
+                                                               borderRadius:"28px",
+                                                               padding:"34px",
+                                                               boxShadow:"0 14px 35px rgba(11,44,95,0.08)",
+                                                               border:"1px solid rgba(11,44,95,0.06)"
+                                                               }}>
+                                                               
+                                                               <h2 style={{
+                                                               fontSize:"34px",
+                                                               color:"#08285c",
+                                                               marginBottom:"18px"
+                                                               }}>
+                                                               Quando não deve insistir?
+                                                               </h2>
+                                                               
+                                                               <p style={{
+                                                               fontSize:"18px",
+                                                               lineHeight:"1.75",
+                                                               color:"#555",
+                                                               marginBottom:"24px"
+                                                               }}>
+                                                               Se o portão começa a fechar e volta a abrir, se o motor faz força em excesso
+                                                               ou se o movimento parece preso, insistir pode agravar a avaria e danificar
+                                                               componentes do automatismo.
+                                                               </p>
+                                                               
+                                                               <ul style={{
+                                                               listStyle:"none",
+                                                               padding:"0",
+                                                               margin:"0",
+                                                               display:"grid",
+                                                               gap:"14px"
+                                                               }}>
+                                                               
+                                                               {[
+                                                               "O motor faz barulho mas o portão não se move",
+                                                               "O portão fecha um pouco e volta imediatamente atrás",
+                                                               "O movimento está mais lento ou irregular do que o normal",
+                                                               "A central apresenta erro ou luzes fora do habitual",
+                                                               "O portão está desalinhado ou bate antes de fechar"
+                                                               ].map((item,index)=>(
+                                                               
+                                                               <li
+                                                               key={index}
+                                                               style={{
+                                                               display:"flex",
+                                                               gap:"12px",
+                                                               alignItems:"flex-start",
+                                                               fontSize:"17px",
+                                                               lineHeight:"1.6",
+                                                               color:"#444"
+                                                               }}
+                                                               >
+                                                               <span style={{
+                                                               color:"#d97706",
+                                                               fontWeight:"bold",
+                                                               fontSize:"20px",
+                                                               lineHeight:"1.4"
+                                                               }}>
+                                                               !
+                                                               </span>
+                                                               <span>{item}</span>
+                                                               </li>
+                                                               
+                                                               ))}
+                                                               
+                                                               </ul>
+                                                               
+                                                               </div>
+                                                               
+                                                               </div>
+                                                               
+                                                               </section>
+
                         {/* NOVA PÁGINA AQUI */}
                                                      
   <footer style={{
