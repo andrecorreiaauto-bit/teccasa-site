@@ -1153,30 +1153,79 @@ Soluções técnicas com foco em diagnóstico, transparência e apoio próximo.
                                                                   <h2 style={{
                                                                   marginTop:"0",
                                                                   fontSize:"34px",
-                                                                  marginBottom:"25px"
+                                                                  marginBottom:"10px"
                                                                   }}>
                                                                   Painel SEO
                                                                   </h2>
                                                                   
+                                                                  <p style={{
+                                                                  color:"rgba(255,255,255,0.75)",
+                                                                  marginBottom:"30px"
+                                                                  }}>
+                                                                  Acesso rápido às páginas e ferramentas da TecCasa.
+                                                                  </p>
+                                                                  
+                                                                  {[
+                                                                  {
+                                                                  title:"SEO local",
+                                                                  items:[
+                                                                  ["Lisboa","/reparacao-portoes-lisboa"],
+                                                                  ["Alcochete","/reparacao-portoes-alcochete"],
+                                                                  ["Montijo","/reparacao-portoes-montijo"],
+                                                                  ["Vila Franca de Xira","/reparacao-portoes-vila-franca-de-xira"],
+                                                                  ["Póvoa de Santa Iria","/reparacao-portoes-povoa-santa-iria"]
+                                                                  ]
+                                                                  },
+                                                                  {
+                                                                  title:"Páginas de avarias",
+                                                                  items:[
+                                                                  ["Comando garagem não funciona","/comando-garagem-nao-funciona"],
+                                                                  ["Portão abre até meio","/portao-abre-ate-meio"]
+                                                                  ]
+                                                                  },
+                                                                  {
+                                                                  title:"Páginas de marcas",
+                                                                  items:[
+                                                                  ["Motorline","/assistencia-motorline"],
+                                                                  ["BFT","/assistencia-bft"],
+                                                                  ["Nice","/assistencia-nice"]
+                                                                  ]
+                                                                  },
+                                                                  {
+                                                                  title:"Ferramentas análise e gestão",
+                                                                  items:[
+                                                                  ["Google Analytics","https://analytics.google.com"],
+                                                                  ["Google Search Console","https://search.google.com/search-console"],
+                                                                  ["Vercel","https://vercel.com"],
+                                                                  ["Google Business Profile","https://business.google.com"]
+                                                                  ]
+                                                                  }
+                                                                  ].map((section,index)=>(
+                                                                  
+                                                                  <div key={index} style={{
+                                                                  marginTop:"28px"
+                                                                  }}>
+                                                                  
+                                                                  <h3 style={{
+                                                                  fontSize:"22px",
+                                                                  marginBottom:"14px",
+                                                                  color:"white"
+                                                                  }}>
+                                                                  {section.title}
+                                                                  </h3>
+                                                                  
                                                                   <div style={{
                                                                   display:"grid",
-                                                                  gridTemplateColumns:"repeat(auto-fit,minmax(240px,1fr))",
+                                                                  gridTemplateColumns:"repeat(auto-fit,minmax(220px,1fr))",
                                                                   gap:"14px"
                                                                   }}>
                                                                   
-                                                                  {[
-                                                                  "/reparacao-portoes-lisboa",
-                                                                  "/reparacao-portoes-alcochete",
-                                                                  "/reparacao-portoes-montijo",
-                                                                  "/reparacao-portoes-vila-franca-de-xira",
-                                                                  "/reparacao-portoes-povoa-santa-iria",
-                                                                  "/comando-garagem-nao-funciona",
-                                                                  "/portao-abre-ate-meio"
-                                                                  ].map((url,index)=>(
+                                                                  {section.items.map((item,itemIndex)=>(
                                                                   
                                                                   <a
-                                                                  key={index}
-                                                                  href={url}
+                                                                  key={itemIndex}
+                                                                  href={item[1]}
+                                                                  target={item[1].startsWith("http") ? "_blank" : "_self"}
                                                                   style={{
                                                                   background:"rgba(255,255,255,0.08)",
                                                                   padding:"16px",
@@ -1187,12 +1236,16 @@ Soluções técnicas com foco em diagnóstico, transparência e apoio próximo.
                                                                   border:"1px solid rgba(255,255,255,0.08)"
                                                                   }}
                                                                   >
-                                                                  {url}
+                                                                  {item[0]}
                                                                   </a>
                                                                   
                                                                   ))}
                                                                   
                                                                   </div>
+                                                                  
+                                                                  </div>
+                                                                  
+                                                                  ))}
                                                                   
                                                                   </div>
                                                                   
