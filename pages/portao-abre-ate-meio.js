@@ -274,6 +274,105 @@ style={{
       
       <div className="main-card">
 
+                    <section
+                 className="hero-reparacao"
+                 style={{
+                 display:"grid",
+                 gridTemplateColumns:"repeat(auto-fit,minmax(320px,1fr))",
+                 gap:"50px",
+                 alignItems:"center",
+                 padding:"70px 0"
+                 }}
+                 >
+                 
+                 <div>
+                 
+                 <h1 style={{
+                 fontSize:"clamp(40px,5vw,56px)",
+                 lineHeight:"1.05",
+                 marginBottom:"24px",
+                 color:"#08285c",
+                 fontWeight:"900"
+                 }}>
+                 O portão abre apenas até meio?
+                 </h1>
+                 
+                 <p style={{
+                 fontSize:"21px",
+                 lineHeight:"1.8",
+                 color:"#444",
+                 maxWidth:"700px",
+                 marginBottom:"34px"
+                 }}>
+                 Quando um portão automático abre parcialmente ou pára a meio do percurso, o problema pode estar relacionado com esforço, programação, fotocélulas, fins de curso ou obstáculos mecânicos.
+                 </p>
+                 
+                 <div style={{
+                 display:"flex",
+                 gap:"14px",
+                 flexWrap:"wrap"
+                 }}>
+                 
+                 <a
+                 href="https://wa.me/351922021980"
+                 target="_blank"
+                 style={{
+                 display:"inline-block",
+                 background:"#25D366",
+                 color:"white",
+                 padding:"17px 28px",
+                 borderRadius:"16px",
+                 fontWeight:"bold",
+                 textDecoration:"none",
+                 fontSize:"17px",
+                 boxShadow:"0 10px 25px rgba(37,211,102,0.18)"
+                 }}
+                 >
+                 Pedir assistência
+                 </a>
+                 
+                 <a
+                 href="#causas"
+                 style={{
+                 display:"inline-block",
+                 background:"#08285c",
+                 color:"white",
+                 padding:"17px 28px",
+                 borderRadius:"16px",
+                 fontWeight:"bold",
+                 textDecoration:"none",
+                 fontSize:"17px",
+                 boxShadow:"0 10px 25px rgba(8,40,92,0.18)"
+                 }}
+                 >
+                 Ver causas comuns
+                 </a>
+                 
+                 </div>
+                 
+                 </div>
+                 
+                 <div style={{
+                 display:"flex",
+                 justifyContent:"center"
+                 }}>
+                 
+                 <img
+                 src="/portao-abre-ate-meio-hero.png"
+                 alt="Portão automático abre até meio"
+                 style={{
+                 width:"100%",
+                 maxWidth:"600px",
+                 borderRadius:"28px",
+                 boxShadow:"0 25px 60px rgba(11,44,95,0.18)",
+                 objectFit:"cover"
+                 }}
+                 />
+                 
+                 </div>
+                 
+                 </section>
+
                         {/* NOVA PÁGINA AQUI */}
                                                      
   <footer style={{
