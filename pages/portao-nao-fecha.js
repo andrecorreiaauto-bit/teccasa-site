@@ -780,6 +780,159 @@ style={{
                              
                              </section>
 
+                                                  <section
+                                                  style={{
+                                                  padding:"10px 0 70px"
+                                                  }}
+                                                  >
+                                                  
+                                                  <h2 style={{
+                                                  fontSize:"38px",
+                                                  color:"#08285c",
+                                                  marginBottom:"18px",
+                                                  textAlign:"center"
+                                                  }}>
+                                                  Assistência em portões de garagem e automatismos exteriores
+                                                  </h2>
+                                                  
+                                                  <p style={{
+                                                  fontSize:"19px",
+                                                  lineHeight:"1.7",
+                                                  color:"#555",
+                                                  maxWidth:"780px",
+                                                  margin:"0 auto 40px auto",
+                                                  textAlign:"center"
+                                                  }}>
+                                                  Prestamos assistência a portões de garagem, portões de correr e portões de batente
+                                                  que não fecham corretamente, trabalhando com várias marcas e diferentes tipos de automatismo.
+                                                  </p>
+                                                  
+                                                  <div
+                                                  className="marcas-grid"
+                                                  style={{
+                                                  display:"grid",
+                                                  gridTemplateColumns:"repeat(auto-fit,minmax(150px,1fr))",
+                                                  gap:"16px"
+                                                  }}
+                                                  >
+                                                  
+                                                  {[
+                                                  "Motorline",
+                                                  "BFT",
+                                                  "Nice",
+                                                  "CAME",
+                                                  "FAAC",
+                                                  "DEA",
+                                                  "Beninca",
+                                                  "Somfy",
+                                                  "Roger",
+                                                  "V2",
+                                                  "LiftMaster",
+                                                  "outras marcas"
+                                                  ].map((marca,index)=>(
+                                                  
+                                                  <div
+                                                  key={index}
+                                                  className="cartao-marca"
+                                                  style={{
+                                                  background:"#eef3fa",
+                                                  padding:"18px 14px",
+                                                  borderRadius:"18px",
+                                                  textAlign:"center",
+                                                  fontWeight:"bold",
+                                                  color:"#08285c",
+                                                  boxShadow:"0 10px 24px rgba(11,44,95,0.08)"
+                                                  }}
+                                                  >
+                                                  {marca}
+                                                  </div>
+                                                  
+                                                  ))}
+                                                  
+                                                  </div>
+                                                  
+                                                  </section>
+
+                                                                            <section
+                                                                            style={{
+                                                                            padding:"30px 0 20px",
+                                                                            textAlign:"center"
+                                                                            }}
+                                                                            >
+                                                                            
+                                                                            <div style={{
+                                                                            background:"linear-gradient(180deg,#f5f8fc 0%,#e8eef8 100%)",
+                                                                            borderRadius:"32px",
+                                                                            padding:"55px 35px",
+                                                                            boxShadow:"0 18px 40px rgba(11,44,95,0.08)"
+                                                                            }}
+                                                                            >
+                                                                            
+                                                                            <h2 style={{
+                                                                            fontSize:"42px",
+                                                                            color:"#08285c",
+                                                                            marginBottom:"18px"
+                                                                            }}>
+                                                                            O portão deixou de fechar corretamente?
+                                                                            </h2>
+                                                                            
+                                                                            <p style={{
+                                                                            fontSize:"20px",
+                                                                            lineHeight:"1.8",
+                                                                            color:"#555",
+                                                                            maxWidth:"780px",
+                                                                            margin:"0 auto 35px auto"
+                                                                            }}>
+                                                                            Se o portão não fecha, fecha só parcialmente ou volta a abrir sozinho,
+                                                                            o ideal é fazer um diagnóstico antes de forçar o automatismo ou alterar a programação.
+                                                                            </p>
+                                                                            
+                                                                            <div style={{
+                                                                            display:"flex",
+                                                                            justifyContent:"center",
+                                                                            gap:"16px",
+                                                                            flexWrap:"wrap"
+                                                                            }}>
+                                                                            
+                                                                            <a
+                                                                            href="https://wa.me/351922021980"
+                                                                            target="_blank"
+                                                                            style={{
+                                                                            background:"#25D366",
+                                                                            color:"white",
+                                                                            padding:"17px 28px",
+                                                                            borderRadius:"16px",
+                                                                            textDecoration:"none",
+                                                                            fontWeight:"bold",
+                                                                            fontSize:"17px",
+                                                                            boxShadow:"0 10px 25px rgba(37,211,102,.20)"
+                                                                            }}
+                                                                            >
+                                                                            Pedir assistência
+                                                                            </a>
+                                                                            
+                                                                            <a
+                                                                            href="tel:922021980"
+                                                                            style={{
+                                                                            background:"#08285c",
+                                                                            color:"white",
+                                                                            padding:"17px 28px",
+                                                                            borderRadius:"16px",
+                                                                            textDecoration:"none",
+                                                                            fontWeight:"bold",
+                                                                            fontSize:"17px",
+                                                                            boxShadow:"0 10px 25px rgba(8,40,92,.18)"
+                                                                            }}
+                                                                            >
+                                                                            Ligar agora
+                                                                            </a>
+                                                                            
+                                                                            </div>
+                                                                            
+                                                                            </div>
+                                                                            
+                                                                            </section>
+
                         {/* NOVA PÁGINA AQUI */}
                                                      
   <footer style={{
