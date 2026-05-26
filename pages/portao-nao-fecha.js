@@ -383,7 +383,7 @@ style={{
                                     marginBottom:"16px",
                                     textAlign:"center"
                                     }}>
-                                    Porque é que o portão abre só até meio?
+                                    Porque é que o portão não fecha?
                                     </h2>
                                     
                                     <p style={{
@@ -394,9 +394,9 @@ style={{
                                     margin:"0 auto 45px auto",
                                     textAlign:"center"
                                     }}>
-                                    Quando um portão automático interrompe o movimento antes de concluir a abertura,
-                                    o problema pode estar relacionado com sensores de segurança, esforço mecânico,
-                                    programação incorreta ou falhas no automatismo.
+                                    Quando um portão automático deixa de fechar, a causa pode estar num sistema de segurança ativo,
+                                    num obstáculo no percurso, numa afinação incorreta ou numa falha no automatismo.
+                                    O diagnóstico correto evita trocar peças sem necessidade.
                                     </p>
                                     
                                     <div
@@ -410,39 +410,39 @@ style={{
                                     
                                     {[
                                     {
-                                    image:"/fotocelulas-falha.png",
-                                    title:"Fotocélulas desalinhadas",
-                                    text:"Sensores de segurança desalinhados ou obstruídos podem interromper automaticamente o movimento do portão."
+                                    image:"/fotocelulas-bloqueadas.png",
+                                    title:"Fotocélulas bloqueadas",
+                                    text:"Se as fotocélulas estiverem sujas, desalinhadas ou com falha, o portão pode impedir o fecho por segurança."
                                     },
                                     
                                     {
-                                    image:"/portao-abre-ate-meio.png",
-                                    title:"Portão com esforço",
-                                    text:"Guias, rodas ou calhas com resistência excessiva podem fazer o motor parar a meio do percurso."
+                                    image:"/portao-volta-abrir.png",
+                                    title:"Fecha e volta a abrir",
+                                    text:"Quando o portão começa a fechar e volta atrás, pode estar a detetar esforço, obstáculo ou erro na segurança."
                                     },
                                     
                                     {
-                                    image:"/hero-reparacao-portoes.png",
-                                    title:"Fim de curso mal configurado",
-                                    text:"O automatismo pode interpretar incorretamente a posição de abertura e parar antes do final."
-                                    },
-                                    
-                                    {
-                                    image:"/motor-portao.png",
-                                    title:"Motor sem potência",
-                                    text:"Condensadores degradados ou desgaste interno podem reduzir a força disponível no automatismo."
-                                    },
-                                    
-                                    {
-                                    image:"/central-eletronica.png",
-                                    title:"Falha eletrónica",
-                                    text:"Problemas na central de comando podem causar interrupções aleatórias durante a abertura."
-                                    },
-                                    
-                                    {
-                                    image:"/obstaculo-calha.png",
+                                    image:"/obstaculo-fecho-portao.png",
                                     title:"Obstáculo no percurso",
-                                    text:"Pequenas deformações, pedras ou bloqueios na guia podem ativar a proteção anti-esmagamento."
+                                    text:"Pedras, folhas acumuladas, objetos pequenos ou deformações podem impedir o fecho completo do portão."
+                                    },
+                                    
+                                    {
+                                    image:"/fim-curso-fecho.png",
+                                    title:"Fim de curso desajustado",
+                                    text:"Se o fim de curso estiver mal regulado, o automatismo pode não reconhecer corretamente a posição de fecho."
+                                    },
+                                    
+                                    {
+                                    image:"/central-modo-seguranca.png",
+                                    title:"Central em proteção",
+                                    text:"Algumas centrais interrompem o fecho quando detetam erro elétrico, falha de sensores ou parâmetros incorretos."
+                                    },
+                                    
+                                    {
+                                    image:"/motor-esforco-fecho.png",
+                                    title:"Motor com esforço",
+                                    text:"Desgaste mecânico, falta de força ou desalinhamento podem fazer o motor parar antes de fechar totalmente."
                                     }
                                     
                                     ].map((item,index)=>(
@@ -497,160 +497,6 @@ style={{
                                     </div>
                                     
                                     </section>
-
-                                                  <section
-                                                  style={{
-                                                  padding:"20px 0 70px"
-                                                  }}
-                                                  >
-                                                  
-                                                  <h2 style={{
-                                                  fontSize:"38px",
-                                                  color:"#08285c",
-                                                  marginBottom:"18px",
-                                                  textAlign:"center"
-                                                  }}>
-                                                  Assistência técnica multimarca
-                                                  </h2>
-                                                  
-                                                  <p style={{
-                                                  fontSize:"19px",
-                                                  lineHeight:"1.7",
-                                                  color:"#555",
-                                                  maxWidth:"760px",
-                                                  margin:"0 auto 40px auto",
-                                                  textAlign:"center"
-                                                  }}>
-                                                  Reparação e diagnóstico de portões automáticos e portões de garagem
-                                                  compatíveis com vários fabricantes e sistemas residenciais.
-                                                  </p>
-                                                  
-                                                  <div
-                                                  className="marcas-grid"
-                                                  style={{
-                                                  display:"grid",
-                                                  gridTemplateColumns:"repeat(auto-fit,minmax(150px,1fr))",
-                                                  gap:"16px"
-                                                  }}
-                                                  >
-                                                  
-                                                  {[
-                                                  "Motorline",
-                                                  "BFT",
-                                                  "Nice",
-                                                  "CAME",
-                                                  "FAAC",
-                                                  "DEA",
-                                                  "Beninca",
-                                                  "Roger",
-                                                  "Somfy",
-                                                  "V2",
-                                                  "LiftMaster",
-                                                  "e outras marcas"
-                                                  ].map((marca,index)=>(
-                                                  
-                                                  <div
-                                                  key={index}
-                                                  className="cartao-marca"
-                                                  style={{
-                                                  background:"#eef3fa",
-                                                  padding:"18px 14px",
-                                                  borderRadius:"18px",
-                                                  textAlign:"center",
-                                                  fontWeight:"bold",
-                                                  color:"#08285c",
-                                                  boxShadow:"0 10px 24px rgba(11,44,95,0.08)"
-                                                  }}
-                                                  >
-                                                  {marca}
-                                                  </div>
-                                                  
-                                                  ))}
-                                                  
-                                                  </div>
-                                                  
-                                                  </section>
-
-                                                                             <section
-                                                                             style={{
-                                                                             padding:"30px 0 20px",
-                                                                             textAlign:"center"
-                                                                             }}
-                                                                             >
-                                                                             
-                                                                             <div style={{
-                                                                             background:"linear-gradient(180deg,#f5f8fc 0%,#e8eef8 100%)",
-                                                                             borderRadius:"32px",
-                                                                             padding:"55px 35px",
-                                                                             boxShadow:"0 18px 40px rgba(11,44,95,0.08)"
-                                                                             }}
-                                                                             >
-                                                                             
-                                                                             <h2 style={{
-                                                                             fontSize:"42px",
-                                                                             color:"#08285c",
-                                                                             marginBottom:"18px"
-                                                                             }}>
-                                                                             O portão ficou preso a meio?
-                                                                             </h2>
-                                                                             
-                                                                             <p style={{
-                                                                             fontSize:"20px",
-                                                                             lineHeight:"1.8",
-                                                                             color:"#555",
-                                                                             maxWidth:"760px",
-                                                                             margin:"0 auto 35px auto"
-                                                                             }}>
-                                                                             Nem sempre é necessário substituir o automatismo.
-                                                                             Em muitos casos o problema está relacionado com afinação,
-                                                                             sensores de segurança ou esforço excessivo no portão.
-                                                                             </p>
-                                                                             
-                                                                             <div style={{
-                                                                             display:"flex",
-                                                                             justifyContent:"center",
-                                                                             gap:"16px",
-                                                                             flexWrap:"wrap"
-                                                                             }}>
-                                                                             
-                                                                             <a
-                                                                             href="https://wa.me/351922021980"
-                                                                             target="_blank"
-                                                                             style={{
-                                                                             background:"#25D366",
-                                                                             color:"white",
-                                                                             padding:"17px 28px",
-                                                                             borderRadius:"16px",
-                                                                             textDecoration:"none",
-                                                                             fontWeight:"bold",
-                                                                             fontSize:"17px",
-                                                                             boxShadow:"0 10px 25px rgba(37,211,102,.20)"
-                                                                             }}
-                                                                             >
-                                                                             Pedir assistência
-                                                                             </a>
-                                                                             
-                                                                             <a
-                                                                             href="tel:922021980"
-                                                                             style={{
-                                                                             background:"#08285c",
-                                                                             color:"white",
-                                                                             padding:"17px 28px",
-                                                                             borderRadius:"16px",
-                                                                             textDecoration:"none",
-                                                                             fontWeight:"bold",
-                                                                             fontSize:"17px",
-                                                                             boxShadow:"0 10px 25px rgba(8,40,92,.18)"
-                                                                             }}
-                                                                             >
-                                                                             Ligar agora
-                                                                             </a>
-                                                                             
-                                                                             </div>
-                                                                             
-                                                                             </div>
-                                                                             
-                                                                             </section>
 
                         {/* NOVA PÁGINA AQUI */}
                                                      
