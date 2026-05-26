@@ -373,6 +373,288 @@ style={{
                  
                  </section>
 
+                                    <section
+                                    id="causas"
+                                    style={{
+                                    padding:"20px 0 70px"
+                                    }}
+                                    >
+                                    
+                                    <h2 style={{
+                                    fontSize:"38px",
+                                    color:"#08285c",
+                                    marginBottom:"16px",
+                                    textAlign:"center"
+                                    }}>
+                                    Porque é que o portão abre só até meio?
+                                    </h2>
+                                    
+                                    <p style={{
+                                    fontSize:"19px",
+                                    lineHeight:"1.7",
+                                    color:"#555",
+                                    maxWidth:"780px",
+                                    margin:"0 auto 45px auto",
+                                    textAlign:"center"
+                                    }}>
+                                    Quando um portão automático interrompe o movimento antes de concluir a abertura,
+                                    o problema pode estar relacionado com sensores de segurança, esforço mecânico,
+                                    programação incorreta ou falhas no automatismo.
+                                    </p>
+                                    
+                                    <div
+                                    className="problemas-grid"
+                                    style={{
+                                    display:"grid",
+                                    gridTemplateColumns:"repeat(3,1fr)",
+                                    gap:"22px"
+                                    }}
+                                    >
+                                    
+                                    {[
+                                    {
+                                    image:"/fotocelulas-falha.png",
+                                    title:"Fotocélulas desalinhadas",
+                                    text:"Sensores de segurança desalinhados ou obstruídos podem interromper automaticamente o movimento do portão."
+                                    },
+                                    
+                                    {
+                                    image:"/portao-preso.png",
+                                    title:"Portão com esforço",
+                                    text:"Guias, rodas ou calhas com resistência excessiva podem fazer o motor parar a meio do percurso."
+                                    },
+                                    
+                                    {
+                                    image:"/fim-curso-desregulado.png",
+                                    title:"Fim de curso mal configurado",
+                                    text:"O automatismo pode interpretar incorretamente a posição de abertura e parar antes do final."
+                                    },
+                                    
+                                    {
+                                    image:"/motor-sem-forca.png",
+                                    title:"Motor sem potência",
+                                    text:"Condensadores degradados ou desgaste interno podem reduzir a força disponível no automatismo."
+                                    },
+                                    
+                                    {
+                                    image:"/central-eletronica.png",
+                                    title:"Falha eletrónica",
+                                    text:"Problemas na central de comando podem causar interrupções aleatórias durante a abertura."
+                                    },
+                                    
+                                    {
+                                    image:"/obstaculo-calha.png",
+                                    title:"Obstáculo no percurso",
+                                    text:"Pequenas deformações, pedras ou bloqueios na guia podem ativar a proteção anti-esmagamento."
+                                    }
+                                    
+                                    ].map((item,index)=>(
+                                    
+                                    <div
+                                    key={index}
+                                    style={{
+                                    background:"#eef3fa",
+                                    borderRadius:"24px",
+                                    overflow:"hidden",
+                                    boxShadow:"0 12px 30px rgba(11,44,95,0.08)"
+                                    }}
+                                    >
+                                    
+                                    <img
+                                    src={item.image}
+                                    alt={item.title}
+                                    style={{
+                                    width:"100%",
+                                    height:"190px",
+                                    objectFit:"cover",
+                                    display:"block"
+                                    }}
+                                    />
+                                    
+                                    <div style={{
+                                    padding:"24px"
+                                    }}>
+                                    
+                                    <h3 style={{
+                                    color:"#08285c",
+                                    fontSize:"22px",
+                                    marginBottom:"12px"
+                                    }}>
+                                    {item.title}
+                                    </h3>
+                                    
+                                    <p style={{
+                                    color:"#444",
+                                    lineHeight:"1.7",
+                                    margin:"0"
+                                    }}>
+                                    {item.text}
+                                    </p>
+                                    
+                                    </div>
+                                    
+                                    </div>
+                                    
+                                    ))}
+                                    
+                                    </div>
+                                    
+                                    </section>
+
+                                                  <section
+                                                  style={{
+                                                  padding:"20px 0 70px"
+                                                  }}
+                                                  >
+                                                  
+                                                  <h2 style={{
+                                                  fontSize:"38px",
+                                                  color:"#08285c",
+                                                  marginBottom:"18px",
+                                                  textAlign:"center"
+                                                  }}>
+                                                  Assistência técnica multimarca
+                                                  </h2>
+                                                  
+                                                  <p style={{
+                                                  fontSize:"19px",
+                                                  lineHeight:"1.7",
+                                                  color:"#555",
+                                                  maxWidth:"760px",
+                                                  margin:"0 auto 40px auto",
+                                                  textAlign:"center"
+                                                  }}>
+                                                  Reparação e diagnóstico de portões automáticos e portões de garagem
+                                                  compatíveis com vários fabricantes e sistemas residenciais.
+                                                  </p>
+                                                  
+                                                  <div
+                                                  className="marcas-grid"
+                                                  style={{
+                                                  display:"grid",
+                                                  gridTemplateColumns:"repeat(auto-fit,minmax(150px,1fr))",
+                                                  gap:"16px"
+                                                  }}
+                                                  >
+                                                  
+                                                  {[
+                                                  "Motorline",
+                                                  "BFT",
+                                                  "Nice",
+                                                  "CAME",
+                                                  "FAAC",
+                                                  "DEA",
+                                                  "Beninca",
+                                                  "Roger",
+                                                  "Somfy",
+                                                  "V2",
+                                                  "LiftMaster",
+                                                  "e outras marcas"
+                                                  ].map((marca,index)=>(
+                                                  
+                                                  <div
+                                                  key={index}
+                                                  className="cartao-marca"
+                                                  style={{
+                                                  background:"#eef3fa",
+                                                  padding:"18px 14px",
+                                                  borderRadius:"18px",
+                                                  textAlign:"center",
+                                                  fontWeight:"bold",
+                                                  color:"#08285c",
+                                                  boxShadow:"0 10px 24px rgba(11,44,95,0.08)"
+                                                  }}
+                                                  >
+                                                  {marca}
+                                                  </div>
+                                                  
+                                                  ))}
+                                                  
+                                                  </div>
+                                                  
+                                                  </section>
+
+                                                                             <section
+                                                                             style={{
+                                                                             padding:"30px 0 20px",
+                                                                             textAlign:"center"
+                                                                             }}
+                                                                             >
+                                                                             
+                                                                             <div style={{
+                                                                             background:"linear-gradient(180deg,#f5f8fc 0%,#e8eef8 100%)",
+                                                                             borderRadius:"32px",
+                                                                             padding:"55px 35px",
+                                                                             boxShadow:"0 18px 40px rgba(11,44,95,0.08)"
+                                                                             }}
+                                                                             >
+                                                                             
+                                                                             <h2 style={{
+                                                                             fontSize:"42px",
+                                                                             color:"#08285c",
+                                                                             marginBottom:"18px"
+                                                                             }}>
+                                                                             O portão ficou preso a meio?
+                                                                             </h2>
+                                                                             
+                                                                             <p style={{
+                                                                             fontSize:"20px",
+                                                                             lineHeight:"1.8",
+                                                                             color:"#555",
+                                                                             maxWidth:"760px",
+                                                                             margin:"0 auto 35px auto"
+                                                                             }}>
+                                                                             Nem sempre é necessário substituir o automatismo.
+                                                                             Em muitos casos o problema está relacionado com afinação,
+                                                                             sensores de segurança ou esforço excessivo no portão.
+                                                                             </p>
+                                                                             
+                                                                             <div style={{
+                                                                             display:"flex",
+                                                                             justifyContent:"center",
+                                                                             gap:"16px",
+                                                                             flexWrap:"wrap"
+                                                                             }}>
+                                                                             
+                                                                             <a
+                                                                             href="https://wa.me/351922021980"
+                                                                             target="_blank"
+                                                                             style={{
+                                                                             background:"#25D366",
+                                                                             color:"white",
+                                                                             padding:"17px 28px",
+                                                                             borderRadius:"16px",
+                                                                             textDecoration:"none",
+                                                                             fontWeight:"bold",
+                                                                             fontSize:"17px",
+                                                                             boxShadow:"0 10px 25px rgba(37,211,102,.20)"
+                                                                             }}
+                                                                             >
+                                                                             Pedir assistência
+                                                                             </a>
+                                                                             
+                                                                             <a
+                                                                             href="tel:922021980"
+                                                                             style={{
+                                                                             background:"#08285c",
+                                                                             color:"white",
+                                                                             padding:"17px 28px",
+                                                                             borderRadius:"16px",
+                                                                             textDecoration:"none",
+                                                                             fontWeight:"bold",
+                                                                             fontSize:"17px",
+                                                                             boxShadow:"0 10px 25px rgba(8,40,92,.18)"
+                                                                             }}
+                                                                             >
+                                                                             Ligar agora
+                                                                             </a>
+                                                                             
+                                                                             </div>
+                                                                             
+                                                                             </div>
+                                                                             
+                                                                             </section>
+
                         {/* NOVA PÁGINA AQUI */}
                                                      
   <footer style={{
