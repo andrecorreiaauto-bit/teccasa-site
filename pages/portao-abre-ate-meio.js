@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import Head from "next/head";
-export default function ComandoGaragemNaoFunciona() {
+export default function PortaoAbreAteMeio() {
  const [menuOpen, setMenuOpen] = useState(false);
  const menuItems = [
   { label:"Início", href:"/", active:true },
