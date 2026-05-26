@@ -1,6 +1,9 @@
 import { useEffect, useState } from "react";
 import Head from "next/head";
 export default function Home() {
+ const [logoClicks, setLogoClicks] = useState(0);
+ const [showSeoPanel, setShowSeoPanel] = useState(false);
+ const [pinInput, setPinInput] = useState("");
  const [menuOpen, setMenuOpen] = useState(false);
  const menuItems = [
   { label:"Início", href:"/", active:true },
@@ -143,14 +146,34 @@ export default function Home() {
     alignItems:"center"
   }}>
 
-    <div style={{
-      display:"flex",
-      alignItems:"center",
-      gap:"10px",
-      fontWeight:"bold",
-      color:"#08285c",
-      fontSize:"20px"
-    }}>
+    <div
+    onClick={()=>{
+    setLogoClicks(prev => {
+    const next = prev + 1;
+    
+    if(next >= 5){
+    const pin = prompt("Introduz o PIN");
+    
+    if(pin === "2026"){
+    setShowSeoPanel(true);
+    }
+    
+    return 0;
+    }
+    
+    return next;
+    });
+    }}
+    style={{
+    display:"flex",
+    alignItems:"center",
+    gap:"10px",
+    fontWeight:"bold",
+    color:"#08285c",
+    fontSize:"20px",
+    cursor:"pointer"
+    }}
+    >
       <img src="/favicon.png" style={{width:"30px"}} />
       TecCasa Soluções
     </div>
@@ -1115,6 +1138,65 @@ Soluções técnicas com foco em diagnóstico, transparência e apoio próximo.
                                  </div>
                                  
                                  </section>
+
+                                                                  {showSeoPanel && (
+
+                                                                  <div style={{
+                                                                  background:"#08285c",
+                                                                  padding:"35px",
+                                                                  borderRadius:"28px",
+                                                                  marginTop:"50px",
+                                                                  marginBottom:"40px",
+                                                                  color:"white"
+                                                                  }}>
+                                                                  
+                                                                  <h2 style={{
+                                                                  marginTop:"0",
+                                                                  fontSize:"34px",
+                                                                  marginBottom:"25px"
+                                                                  }}>
+                                                                  Painel SEO
+                                                                  </h2>
+                                                                  
+                                                                  <div style={{
+                                                                  display:"grid",
+                                                                  gridTemplateColumns:"repeat(auto-fit,minmax(240px,1fr))",
+                                                                  gap:"14px"
+                                                                  }}>
+                                                                  
+                                                                  {[
+                                                                  "/reparacao-portoes-lisboa",
+                                                                  "/reparacao-portoes-alcochete",
+                                                                  "/reparacao-portoes-montijo",
+                                                                  "/reparacao-portoes-vila-franca-de-xira",
+                                                                  "/reparacao-portoes-povoa-santa-iria",
+                                                                  "/comando-garagem-nao-funciona",
+                                                                  "/portao-abre-ate-meio"
+                                                                  ].map((url,index)=>(
+                                                                  
+                                                                  <a
+                                                                  key={index}
+                                                                  href={url}
+                                                                  style={{
+                                                                  background:"rgba(255,255,255,0.08)",
+                                                                  padding:"16px",
+                                                                  borderRadius:"16px",
+                                                                  color:"white",
+                                                                  textDecoration:"none",
+                                                                  fontWeight:"bold",
+                                                                  border:"1px solid rgba(255,255,255,0.08)"
+                                                                  }}
+                                                                  >
+                                                                  {url}
+                                                                  </a>
+                                                                  
+                                                                  ))}
+                                                                  
+                                                                  </div>
+                                                                  
+                                                                  </div>
+                                                                  
+                                                                  )}
  
   <footer style={{
 marginTop:"80px",
