@@ -419,7 +419,7 @@ style={{
                                     },
                                     
                                     {
-                                    image:"/portao-preso.png",
+                                    image:"/portao-abre-ate-meio.png",
                                     title:"Portão com esforço",
                                     text:"Guias, rodas ou calhas com resistência excessiva podem fazer o motor parar a meio do percurso."
                                     },
@@ -431,7 +431,7 @@ style={{
                                     },
                                     
                                     {
-                                    image:"/motor-sem-forca.png",
+                                    image:"/motor-portao.png",
                                     title:"Motor sem potência",
                                     text:"Condensadores degradados ou desgaste interno podem reduzir a força disponível no automatismo."
                                     },
