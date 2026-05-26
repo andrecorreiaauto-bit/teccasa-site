@@ -425,7 +425,7 @@ style={{
                                     },
                                     
                                     {
-                                    image:"/fim-curso-desregulado.png",
+                                    image:"/hero-reparacao-portoes.png",
                                     title:"Fim de curso mal configurado",
                                     text:"O automatismo pode interpretar incorretamente a posição de abertura e parar antes do final."
                                     },
