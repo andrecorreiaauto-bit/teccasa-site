@@ -52,12 +52,12 @@ export default function ComandoGaragemNaoFunciona() {
                                                   <Head>
                                                   
                                                   <title>
-                                                  Comando da Garagem Não Funciona? | TecCasa Soluções
+                                                  Portão abre até meio | Reparação de Portões Automáticos | TecCasa Soluções
                                                   </title>
                                                   
                                                   <meta
                                                   name="description"
-                                                  content="Diagnóstico e assistência técnica para comandos de garagem e portões automáticos. Programação, recetores RF, pilhas, centrais e automatismos multimarca."
+                                                  content="O portão automático abre apenas até meio? Diagnóstico técnico de avarias em motores, centrais, fotocélulas e programação. Assistência técnica especializada."
                                                   />
                                                   
                                                   <meta
@@ -100,7 +100,7 @@ export default function ComandoGaragemNaoFunciona() {
                                                   
                                                   <meta
                                                   property="og:url"
-                                                  content="https://tec-casa.pt/comando-garagem-nao-funciona"
+                                                  content="https://tec-casa.pt/portao-abre-ate-meio"
                                                   />
                                                   
                                                   <meta property="og:type" content="website" />
@@ -115,7 +115,7 @@ export default function ComandoGaragemNaoFunciona() {
                                                         
                                                         <link rel="manifest" href="/site.webmanifest" />
 
-                                                  <link rel="canonical" href="https://tec-casa.pt/comando-garagem-nao-funciona" />
+                                                  <link rel="canonical" href="https://tec-casa.pt/portao-abre-ate-meio" />
                                                   
                                                   </Head>
     <div className="page">
