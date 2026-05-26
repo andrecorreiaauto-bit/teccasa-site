@@ -657,6 +657,129 @@ style={{
                                                                
                                                                </section>
 
+                             <section
+                             style={{
+                             padding:"10px 0 70px"
+                             }}
+                             >
+                             
+                             <div style={{
+                             background:"linear-gradient(180deg,#ffffff 0%,#f5f8fc 100%)",
+                             borderRadius:"32px",
+                             padding:"50px 36px",
+                             boxShadow:"0 18px 40px rgba(11,44,95,0.08)",
+                             border:"1px solid rgba(11,44,95,0.06)"
+                             }}
+                             >
+                             
+                             <h2 style={{
+                             fontSize:"38px",
+                             color:"#08285c",
+                             marginBottom:"18px",
+                             textAlign:"center"
+                             }}>
+                             Diagnóstico técnico antes de substituir peças
+                             </h2>
+                             
+                             <p style={{
+                             fontSize:"19px",
+                             lineHeight:"1.75",
+                             color:"#555",
+                             maxWidth:"820px",
+                             margin:"0 auto 42px auto",
+                             textAlign:"center"
+                             }}>
+                             Um portão que não fecha pode ter uma causa simples ou uma avaria mais técnica.
+                             Por isso, antes de trocar motores, comandos ou centrais, verificamos o funcionamento
+                             do sistema de segurança, o esforço do portão e a resposta do automatismo.
+                             </p>
+                             
+                             <div style={{
+                             display:"grid",
+                             gridTemplateColumns:"repeat(auto-fit,minmax(230px,1fr))",
+                             gap:"22px"
+                             }}
+                             >
+                             
+                             {[
+                             {
+                             number:"1",
+                             title:"Verificação visual",
+                             text:"Confirmamos obstáculos, desalinhamentos, calhas, dobradiças e sinais de esforço mecânico."
+                             },
+                             
+                             {
+                             number:"2",
+                             title:"Teste das seguranças",
+                             text:"Analisamos fotocélulas, ligações, resposta da central e eventuais bloqueios de segurança."
+                             },
+                             
+                             {
+                             number:"3",
+                             title:"Avaliação do motor",
+                             text:"Verificamos se o automatismo tem força suficiente e se o movimento está regular."
+                             },
+                             
+                             {
+                             number:"4",
+                             title:"Afinação ou reparação",
+                             text:"Sempre que possível, corrigimos a avaria sem substituir componentes desnecessariamente."
+                             }
+                             
+                             ].map((item,index)=>(
+                             
+                             <div
+                             key={index}
+                             style={{
+                             background:"#eef3fa",
+                             borderRadius:"24px",
+                             padding:"28px 24px",
+                             boxShadow:"0 12px 28px rgba(11,44,95,0.07)"
+                             }}
+                             >
+                             
+                             <div style={{
+                             width:"42px",
+                             height:"42px",
+                             borderRadius:"50%",
+                             background:"#08285c",
+                             color:"white",
+                             display:"flex",
+                             alignItems:"center",
+                             justifyContent:"center",
+                             fontWeight:"bold",
+                             fontSize:"18px",
+                             marginBottom:"18px"
+                             }}>
+                             {item.number}
+                             </div>
+                             
+                             <h3 style={{
+                             color:"#08285c",
+                             fontSize:"22px",
+                             marginBottom:"12px"
+                             }}>
+                             {item.title}
+                             </h3>
+                             
+                             <p style={{
+                             color:"#444",
+                             lineHeight:"1.7",
+                             margin:"0"
+                             }}>
+                             {item.text}
+                             </p>
+                             
+                             </div>
+                             
+                             ))}
+                             
+                             </div>
+                             
+                             </div>
+                             
+                             </section>
+
                         {/* NOVA PÁGINA AQUI */}
                                                      
   <footer style={{
