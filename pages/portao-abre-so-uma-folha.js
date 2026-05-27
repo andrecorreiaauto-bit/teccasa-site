@@ -789,20 +789,85 @@ style={{
                                                   marginBottom:"18px",
                                                   textAlign:"center"
                                                   }}>
-                                                  Assistência em portões de garagem e automatismos exteriores
+                                                  Assistência em portões automáticos de batente
                                                   </h2>
                                                   
                                                   <p style={{
                                                   fontSize:"19px",
                                                   lineHeight:"1.7",
                                                   color:"#555",
-                                                  maxWidth:"780px",
-                                                  margin:"0 auto 40px auto",
+                                                  maxWidth:"820px",
+                                                  margin:"0 auto 42px auto",
                                                   textAlign:"center"
                                                   }}>
-                                                  Prestamos assistência a portões de garagem, portões de correr e portões de batente
-                                                  que não fecham corretamente, trabalhando com várias marcas e diferentes tipos de automatismo.
+                                                  Prestamos assistência a portões residenciais de duas folhas, com motores de batente,
+                                                  braços articulados, motores enterrados e centrais eletrónicas configuradas para abertura total ou pedonal.
                                                   </p>
+                                                  
+                                                  <div
+                                                  style={{
+                                                  display:"grid",
+                                                  gridTemplateColumns:"repeat(auto-fit,minmax(230px,1fr))",
+                                                  gap:"22px",
+                                                  marginBottom:"36px"
+                                                  }}
+                                                  >
+                                                  
+                                                  {[
+                                                  {
+                                                  title:"Motores de batente",
+                                                  text:"Diagnóstico de motores instalados em pilares ou folhas do portão, com abertura interior ou exterior."
+                                                  },
+                                                  
+                                                  {
+                                                  title:"Braços articulados",
+                                                  text:"Verificação de folgas, esforço mecânico, curso de abertura e funcionamento individual de cada braço."
+                                                  },
+                                                  
+                                                  {
+                                                  title:"Centrais de duas folhas",
+                                                  text:"Análise da programação, tempos de atraso, força aplicada e comandos de abertura total ou parcial."
+                                                  },
+                                                  
+                                                  {
+                                                  title:"Instalações residenciais",
+                                                  text:"Assistência em portões de moradias, entradas particulares e acessos exteriores com automatismos multimarca."
+                                                  }
+                                                  
+                                                  ].map((item,index)=>(
+                                                  
+                                                  <div
+                                                  key={index}
+                                                  style={{
+                                                  background:"#eef3fa",
+                                                  borderRadius:"24px",
+                                                  padding:"28px 24px",
+                                                  boxShadow:"0 12px 28px rgba(11,44,95,0.07)",
+                                                  border:"1px solid rgba(11,44,95,0.05)"
+                                                  }}
+                                                  >
+                                                  
+                                                  <h3 style={{
+                                                  color:"#08285c",
+                                                  fontSize:"22px",
+                                                  marginBottom:"12px"
+                                                  }}>
+                                                  {item.title}
+                                                  </h3>
+                                                  
+                                                  <p style={{
+                                                  color:"#444",
+                                                  lineHeight:"1.7",
+                                                  margin:"0"
+                                                  }}>
+                                                  {item.text}
+                                                  </p>
+                                                  
+                                                  </div>
+                                                  
+                                                  ))}
+                                                  
+                                                  </div>
                                                   
                                                   <div
                                                   className="marcas-grid"
@@ -821,8 +886,8 @@ style={{
                                                   "FAAC",
                                                   "DEA",
                                                   "Beninca",
-                                                  "Somfy",
                                                   "Roger",
+                                                  "Somfy",
                                                   "V2",
                                                   "LiftMaster",
                                                   "outras marcas"
@@ -832,13 +897,13 @@ style={{
                                                   key={index}
                                                   className="cartao-marca"
                                                   style={{
-                                                  background:"#eef3fa",
+                                                  background:"#f5f8fc",
                                                   padding:"18px 14px",
                                                   borderRadius:"18px",
                                                   textAlign:"center",
                                                   fontWeight:"bold",
                                                   color:"#08285c",
-                                                  boxShadow:"0 10px 24px rgba(11,44,95,0.08)"
+                                                  boxShadow:"0 10px 24px rgba(11,44,95,0.07)"
                                                   }}
                                                   >
                                                   {marca}
