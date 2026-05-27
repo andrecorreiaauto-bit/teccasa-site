@@ -935,18 +935,18 @@ style={{
                                                                             color:"#08285c",
                                                                             marginBottom:"18px"
                                                                             }}>
-                                                                            O portão deixou de fechar corretamente?
+                                                                            Uma das folhas do portão deixou de abrir?
                                                                             </h2>
                                                                             
                                                                             <p style={{
                                                                             fontSize:"20px",
                                                                             lineHeight:"1.8",
                                                                             color:"#555",
-                                                                            maxWidth:"780px",
+                                                                            maxWidth:"800px",
                                                                             margin:"0 auto 35px auto"
                                                                             }}>
-                                                                            Se o portão não fecha, fecha só parcialmente ou volta a abrir sozinho,
-                                                                            o ideal é fazer um diagnóstico antes de forçar o automatismo ou alterar a programação.
+                                                                            Se o portão abre apenas de um lado, não force manualmente o automatismo.
+                                                                            A falha pode estar no motor, na central, na cablagem, na afinação mecânica ou na programação das duas folhas.
                                                                             </p>
                                                                             
                                                                             <div style={{
