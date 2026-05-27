@@ -523,7 +523,7 @@ style={{
                                                                color:"#08285c",
                                                                marginBottom:"18px"
                                                                }}>
-                                                               O que pode verificar antes de chamar assistência?
+                                                               Quando pode ser problema mecânico?
                                                                </h2>
                                                                
                                                                <p style={{
@@ -532,9 +532,8 @@ style={{
                                                                color:"#555",
                                                                marginBottom:"24px"
                                                                }}>
-                                                               Algumas situações simples podem impedir o fecho do portão. Antes de forçar o motor
-                                                               ou tentar alterar a programação, vale a pena confirmar se existe algo visível a bloquear
-                                                               o sistema.
+                                                               Se uma das folhas do portão estiver presa, desalinhada ou a fazer mais esforço do que o normal,
+                                                               o motor pode não conseguir iniciar o movimento ou pode parar por proteção.
                                                                </p>
                                                                
                                                                <ul style={{
@@ -546,11 +545,11 @@ style={{
                                                                }}>
                                                                
                                                                {[
-                                                               "Verificar se há obstáculos junto ao portão ou à calha",
-                                                               "Confirmar se as fotocélulas estão limpas e alinhadas",
-                                                               "Testar se o portão reage ao comando e ao botão interior",
-                                                               "Observar se o motor tenta fechar ou fica completamente parado",
-                                                               "Evitar insistir várias vezes se o automatismo estiver a fazer esforço"
+                                                               "Uma folha parece mais pesada do que a outra",
+                                                               "O portão bate no chão ou no batente",
+                                                               "A dobradiça está presa, solta ou desalinhada",
+                                                               "O braço do motor está em esforço",
+                                                               "A folha não se move bem mesmo em modo manual"
                                                                ].map((item,index)=>(
                                                                
                                                                <li
@@ -594,7 +593,7 @@ style={{
                                                                color:"#08285c",
                                                                marginBottom:"18px"
                                                                }}>
-                                                               Quando não deve insistir?
+                                                               Quando pode ser problema elétrico?
                                                                </h2>
                                                                
                                                                <p style={{
@@ -603,9 +602,8 @@ style={{
                                                                color:"#555",
                                                                marginBottom:"24px"
                                                                }}>
-                                                               Se o portão começa a fechar e volta a abrir, se o motor faz força em excesso
-                                                               ou se o movimento parece preso, insistir pode agravar a avaria e danificar
-                                                               componentes do automatismo.
+                                                               Quando uma folha não dá qualquer sinal, não arranca ou deixou de responder de repente,
+                                                               a falha pode estar no motor, na central, na cablagem ou na programação do automatismo.
                                                                </p>
                                                                
                                                                <ul style={{
@@ -617,11 +615,11 @@ style={{
                                                                }}>
                                                                
                                                                {[
-                                                               "O motor faz barulho mas o portão não se move",
-                                                               "O portão fecha um pouco e volta imediatamente atrás",
-                                                               "O movimento está mais lento ou irregular do que o normal",
-                                                               "A central apresenta erro ou luzes fora do habitual",
-                                                               "O portão está desalinhado ou bate antes de fechar"
+                                                               "Um dos motores não faz qualquer ruído",
+                                                               "A central só aciona uma das folhas",
+                                                               "Há sinais de humidade em caixas ou ligações",
+                                                               "O problema começou após mexer na programação",
+                                                               "Uma folha abre normalmente e a outra fica parada"
                                                                ].map((item,index)=>(
                                                                
                                                                <li
