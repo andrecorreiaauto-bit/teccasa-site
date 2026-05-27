@@ -382,20 +382,20 @@ style={{
                                     marginBottom:"16px",
                                     textAlign:"center"
                                     }}>
-                                    Porque é que o portão não fecha?
+                                    Porque é que só abre uma folha do portão?
                                     </h2>
                                     
                                     <p style={{
                                     fontSize:"19px",
                                     lineHeight:"1.7",
                                     color:"#555",
-                                    maxWidth:"780px",
+                                    maxWidth:"800px",
                                     margin:"0 auto 45px auto",
                                     textAlign:"center"
                                     }}>
-                                    Quando um portão automático deixa de fechar, a causa pode estar num sistema de segurança ativo,
-                                    num obstáculo no percurso, numa afinação incorreta ou numa falha no automatismo.
-                                    O diagnóstico correto evita trocar peças sem necessidade.
+                                    Num portão automático de batente com duas folhas, cada lado pode depender de motor,
+                                    cablagem, condensador, afinação mecânica e programação próprios. Quando apenas uma folha
+                                    abre, é importante perceber se a falha está no automatismo ou no movimento físico do portão.
                                     </p>
                                     
                                     <div
@@ -409,39 +409,39 @@ style={{
                                     
                                     {[
                                     {
-                                    image:"/fotocelulas-bloqueadas.png",
-                                    title:"Fotocélulas bloqueadas",
-                                    text:"Se as fotocélulas estiverem sujas, desalinhadas ou com falha, o portão pode impedir o fecho por segurança."
+                                    image:"/motor-batente-parado.png",
+                                    title:"Motor de uma folha parado",
+                                    text:"Um dos motores pode deixar de responder por falha interna, alimentação incorreta ou desgaste do automatismo."
                                     },
                                     
                                     {
-                                    image:"/portao-volta-abrir.png",
-                                    title:"Fecha e volta a abrir",
-                                    text:"Quando o portão começa a fechar e volta atrás, pode estar a detetar esforço, obstáculo ou erro na segurança."
+                                    image:"/condensador-portao-batente.png",
+                                    title:"Condensador com falha",
+                                    text:"Em alguns motores, o condensador degradado pode fazer com que uma folha perca força ou nem chegue a arrancar."
                                     },
                                     
                                     {
-                                    image:"/obstaculo-fecho-portao.png",
-                                    title:"Obstáculo no percurso",
-                                    text:"Pedras, folhas acumuladas, objetos pequenos ou deformações podem impedir o fecho completo do portão."
+                                    image:"/cablagem-motor-portao.png",
+                                    title:"Problema na cablagem",
+                                    text:"Fios partidos, ligações oxidadas ou caixas de derivação com humidade podem interromper o funcionamento de um lado."
                                     },
                                     
                                     {
-                                    image:"/fim-curso-fecho.png",
-                                    title:"Fim de curso desajustado",
-                                    text:"Se o fim de curso estiver mal regulado, o automatismo pode não reconhecer corretamente a posição de fecho."
+                                    image:"/central-duas-folhas.png",
+                                    title:"Central não aciona uma saída",
+                                    text:"A central eletrónica pode estar a comandar apenas um motor devido a avaria, configuração incorreta ou erro de programação."
                                     },
                                     
                                     {
-                                    image:"/central-modo-seguranca.png",
-                                    title:"Central em proteção",
-                                    text:"Algumas centrais interrompem o fecho quando detetam erro elétrico, falha de sensores ou parâmetros incorretos."
+                                    image:"/braco-batente-preso.png",
+                                    title:"Braço ou dobradiça preso",
+                                    text:"Se a folha estiver presa, desalinhada ou com dobradiças em esforço, o motor pode não conseguir iniciar o movimento."
                                     },
                                     
                                     {
-                                    image:"/motor-esforco-fecho.png",
-                                    title:"Motor com esforço",
-                                    text:"Desgaste mecânico, falta de força ou desalinhamento podem fazer o motor parar antes de fechar totalmente."
+                                    image:"/programacao-duas-folhas.png",
+                                    title:"Tempos mal programados",
+                                    text:"Alterações na programação podem afetar o atraso entre folhas, o tempo de trabalho ou a força aplicada em cada motor."
                                     }
                                     
                                     ].map((item,index)=>(
