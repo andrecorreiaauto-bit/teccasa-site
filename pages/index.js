@@ -147,14 +147,21 @@ export default function Home() {
   }}>
 
     <div
-    onClick={()=>{
+    onClick={() => {
+
     setLogoClicks(prev => {
+    
     const next = prev + 1;
     
+    setTimeout(() => {
+    setLogoClicks(0);
+    }, 1800);
+    
     if(next >= 5){
+    
     const pin = prompt("Introduz o PIN");
     
-    if(pin === "2026"){
+    if(pin === "1234"){
     setShowSeoPanel(true);
     }
     
@@ -162,7 +169,9 @@ export default function Home() {
     }
     
     return next;
+    
     });
+    
     }}
     style={{
     display:"flex",
