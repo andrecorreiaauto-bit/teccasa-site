@@ -161,7 +161,7 @@ export default function Home() {
     
     const pin = prompt("Introduz o PIN");
     
-    if(pin === "1234"){
+    if(pin === "2026"){
     setShowSeoPanel(true);
     }
     
