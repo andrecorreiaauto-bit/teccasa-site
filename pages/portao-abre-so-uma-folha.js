@@ -675,20 +675,20 @@ style={{
                              marginBottom:"18px",
                              textAlign:"center"
                              }}>
-                             Diagnóstico técnico antes de substituir peças
+                             Diagnóstico em portões de duas folhas
                              </h2>
                              
                              <p style={{
                              fontSize:"19px",
                              lineHeight:"1.75",
                              color:"#555",
-                             maxWidth:"820px",
+                             maxWidth:"840px",
                              margin:"0 auto 42px auto",
                              textAlign:"center"
                              }}>
-                             Um portão que não fecha pode ter uma causa simples ou uma avaria mais técnica.
-                             Por isso, antes de trocar motores, comandos ou centrais, verificamos o funcionamento
-                             do sistema de segurança, o esforço do portão e a resposta do automatismo.
+                             Quando apenas uma folha do portão abre, é importante testar cada lado separadamente.
+                             O objetivo é perceber se a avaria está no motor, na central, na cablagem,
+                             na programação ou no próprio movimento mecânico da folha.
                              </p>
                              
                              <div style={{
@@ -701,26 +701,26 @@ style={{
                              {[
                              {
                              number:"1",
-                             title:"Verificação visual",
-                             text:"Confirmamos obstáculos, desalinhamentos, calhas, dobradiças e sinais de esforço mecânico."
+                             title:"Teste em modo manual",
+                             text:"Verificamos se cada folha se movimenta livremente sem o esforço do motor."
                              },
                              
                              {
                              number:"2",
-                             title:"Teste das seguranças",
-                             text:"Analisamos fotocélulas, ligações, resposta da central e eventuais bloqueios de segurança."
+                             title:"Verificação dos motores",
+                             text:"Confirmamos se ambos os motores recebem ordem de abertura e se algum deles perdeu força."
                              },
                              
                              {
                              number:"3",
-                             title:"Avaliação do motor",
-                             text:"Verificamos se o automatismo tem força suficiente e se o movimento está regular."
+                             title:"Análise da central",
+                             text:"Testamos as saídas da central, a programação de duas folhas e os tempos de abertura."
                              },
                              
                              {
                              number:"4",
-                             title:"Afinação ou reparação",
-                             text:"Sempre que possível, corrigimos a avaria sem substituir componentes desnecessariamente."
+                             title:"Cablagem e ligações",
+                             text:"Procuramos falhas em fios, caixas de derivação, ligações oxidadas ou sinais de humidade."
                              }
                              
                              ].map((item,index)=>(
