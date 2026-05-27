@@ -52,35 +52,34 @@ export default function PortaoAbreSoUmaFolha() {
                                                   <Head>
 
                                                   <title>
-                                                  Portão Não Fecha? Reparação de Portões e Garagens | TecCasa Soluções
+                                                  Portão Abre Só Uma Folha? Reparação de Portões de Batente | TecCasa Soluções
                                                   </title>
                                                   
                                                   <meta
                                                   name="description"
-                                                  content="O portão automático ou portão de garagem não fecha? Diagnóstico de fotocélulas, obstáculos, centrais, motores, fins de curso e sistemas de segurança."
+                                                  content="O portão automático abre só uma folha? Diagnóstico de motores de batente, centrais, condensadores, cablagem, braços articulados e programação."
                                                   />
                                                   
                                                   <meta
                                                   name="keywords"
-                                                  content="portão não fecha,
-                                                  portão automático não fecha,
-                                                  portão de garagem não fecha,
-                                                  portão fecha e volta a abrir,
-                                                  reparação portões,
-                                                  assistência portões automáticos,
-                                                  fotocélulas portão,
-                                                  motor portão garagem,
-                                                  automatismos,
+                                                  content="portão abre só uma folha,
+                                                  portão automático abre só de um lado,
+                                                  portão de batente avariado,
+                                                  portão duas folhas não abre,
+                                                  motor portão batente,
+                                                  reparação portões automáticos,
+                                                  automatismos portões,
+                                                  assistência portões de batente,
                                                   TecCasa Soluções"
                                                   />
                                                   
                                                   <meta name="viewport" content="width=device-width, initial-scale=1" />
                                                   
-                                                  <meta property="og:title" content="Portão Não Fecha? | TecCasa Soluções" />
+                                                  <meta property="og:title" content="Portão Abre Só Uma Folha? | TecCasa Soluções" />
                                                   
                                                   <meta
                                                   property="og:description"
-                                                  content="Assistência técnica para portões automáticos e portões de garagem que não fecham corretamente."
+                                                  content="Assistência técnica para portões automáticos de duas folhas que abrem apenas de um lado."
                                                   />
                                                   
                                                   <meta 
@@ -95,7 +94,7 @@ export default function PortaoAbreSoUmaFolha() {
                                                   
                                                   <meta
                                                   property="og:url"
-                                                  content="https://tec-casa.pt/portao-nao-fecha"
+                                                  content="https://tec-casa.pt/portao-abre-so-uma-folha"
                                                   />
                                                   
                                                   <meta property="og:type" content="website" />
@@ -110,9 +109,10 @@ export default function PortaoAbreSoUmaFolha() {
                                                   
                                                   <link rel="manifest" href="/site.webmanifest" />
                                                   
-                                                  <link rel="canonical" href="https://tec-casa.pt/portao-nao-fecha" />
+                                                  <link rel="canonical" href="https://tec-casa.pt/portao-abre-so-uma-folha" />
                                                   
                                                   </Head>
+ 
     <div className="page">
 
 <nav style={{
@@ -289,7 +289,7 @@ style={{
                     color:"#08285c",
                     fontWeight:"900"
                     }}>
-                    O portão não fecha?
+                    O portão abre só uma folha?
                     </h1>
                     
                     <p style={{
@@ -299,9 +299,9 @@ style={{
                     maxWidth:"700px",
                     marginBottom:"34px"
                     }}>
-                    Quando um portão automático ou portão de garagem deixa de fechar corretamente,
-                    o problema pode estar nos sensores de segurança, obstáculos no percurso,
-                    programação, central eletrónica ou no próprio automatismo.
+                    Quando um portão automático de duas folhas abre apenas de um lado,
+                    a avaria pode estar num dos motores, na central eletrónica, na cablagem,
+                    no condensador ou na programação dos tempos de abertura.
                     </p>
                     
                     <div style={{
@@ -355,8 +355,8 @@ style={{
                     }}>
                     
                     <img
-                    src="/portao-nao-fecha-hero.png"
-                    alt="Portão automático não fecha"
+                    src="/portao-abre-so-uma-folha-hero.png"
+                    alt="Portão automático abre só uma folha"
                     style={{
                     width:"100%",
                     maxWidth:"600px",
@@ -369,7 +369,6 @@ style={{
                     </div>
                     
                     </section>
-
                                     <section
                                     id="causas"
                                     style={{
