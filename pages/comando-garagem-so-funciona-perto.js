@@ -371,7 +371,7 @@ style={{
                   </section>
 
                                               <section
-                                              id="problemas"
+                                              id="causas"
                                               style={{
                                               padding:"20px 0 70px"
                                               }}
@@ -383,18 +383,20 @@ style={{
                                               marginBottom:"16px",
                                               textAlign:"center"
                                               }}>
-                                              Problemas comuns em comandos de garagem
+                                              Porque é que o comando só funciona perto do portão?
                                               </h2>
                                               
                                               <p style={{
                                               fontSize:"19px",
                                               lineHeight:"1.7",
                                               color:"#555",
-                                              maxWidth:"760px",
+                                              maxWidth:"800px",
                                               margin:"0 auto 45px auto",
                                               textAlign:"center"
                                               }}>
-                                              Nem todas as falhas significam que o comando avariou. Em muitos casos o problema pode estar na programação, no recetor RF ou na própria central do automatismo.
+                                              Quando o comando da garagem perde alcance, nem sempre significa que esteja avariado.
+                                              O problema pode estar na alimentação do comando, na receção do automatismo,
+                                              na antena, em interferências ou na configuração do sistema.
                                               </p>
                                               
                                               <div
@@ -408,39 +410,39 @@ style={{
                                               
                                               {[
                                               {
-                                              image:"/pilha-comando.png",
-                                              title:"Comando deixou de responder",
-                                              text:"Pode estar relacionado com pilha descarregada, desgaste interno ou perda de programação."
+                                              image:"/pilha-fraca-comando.png",
+                                              title:"Pilha com pouca carga",
+                                              text:"Mesmo quando o LED acende, uma pilha fraca pode reduzir bastante o alcance do comando."
                                               },
                                               
                                               {
-                                              image:"/recetor-rf.png",
-                                              title:"Recetor RF sem resposta",
-                                              text:"O problema pode estar no recetor do automatismo e não no comando."
+                                              image:"/antena-portao-garagem.png",
+                                              title:"Antena mal posicionada",
+                                              text:"Uma antena danificada, escondida ou mal orientada pode limitar a distância de receção do sinal."
                                               },
                                               
                                               {
-                                              image:"/comando-intermitente.png",
-                                              title:"Só funciona muito perto",
-                                              text:"Normalmente associado a pilha fraca, antena, interferências ou falha RF."
+                                              image:"/recetor-rf-fraco.png",
+                                              title:"Recetor RF com falha",
+                                              text:"O recetor pode estar a receber mal o sinal, principalmente se tiver humidade, desgaste ou má ligação."
                                               },
                                               
                                               {
-                                              image:"/central-programacao.png",
-                                              title:"Comando perdeu programação",
-                                              text:"Falhas elétricas ou alterações na central podem apagar comandos memorizados."
+                                              image:"/interferencias-comando-garagem.png",
+                                              title:"Interferências no sinal",
+                                              text:"Equipamentos eletrónicos, estruturas metálicas ou outros emissores podem afetar a comunicação do comando."
                                               },
                                               
                                               {
-                                              image:"/garagem-nao-abre.png",
-                                              title:"Garagem não reage",
-                                              text:"A avaria pode estar na central, alimentação ou sistema de segurança."
+                                              image:"/comando-desgastado.png",
+                                              title:"Comando desgastado",
+                                              text:"Botões gastos, contactos internos sujos ou componentes envelhecidos podem tornar o sinal mais fraco."
                                               },
                                               
                                               {
-                                              image:"/comando-universal.png",
-                                              title:"Novo comando não emparelha",
-                                              text:"Nem todos os sistemas são compatíveis diretamente sem programação correta."
+                                              image:"/central-rececao-fraca.png",
+                                              title:"Central com receção limitada",
+                                              text:"Algumas instalações precisam de afinação, antena exterior ou verificação da ligação entre central e recetor."
                                               }
                                               
                                               ].map((item,index)=>(
