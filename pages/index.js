@@ -1189,7 +1189,12 @@ Soluções técnicas com foco em diagnóstico, transparência e apoio próximo.
                                                                   title:"Páginas de avarias",
                                                                   items:[
                                                                   ["Comando garagem não funciona","/comando-garagem-nao-funciona"],
-                                                                  ["Portão abre até meio","/portao-abre-ate-meio"]
+                                                                  ["Portão abre até meio","/portao-abre-ate-meio"],
+                                                                  ["Portão não fecha","/portao-nao-fecha"],
+                                                                  ["Portão abre só uma folha","/portao-abre-so-uma-folha"],
+                                                                  ["Comando só funciona perto","/comando-garagem-so-funciona-perto"],
+                                                                  ["Portão fecha e volta a abrir","/portao-fecha-e-volta-a-abrir"],
+                                                                  ["Motor faz barulho mas não abre","/motor-portao-faz-barulho-mas-nao-abre"]
                                                                   ]
                                                                   },
                                                                   {
