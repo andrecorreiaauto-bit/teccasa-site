@@ -778,78 +778,145 @@ style={{
                                              
                                              </section>
 
-                                                                               <section
-                                                                               style={{
-                                                                               padding:"20px 0 70px"
-                                                                               }}
-                                                                               >
-                                                                               
-                                                                               <h2 style={{
-                                                                               fontSize:"38px",
-                                                                               color:"#08285c",
-                                                                               marginBottom:"18px",
-                                                                               textAlign:"center"
-                                                                               }}>
-                                                                               Compatível com várias marcas
-                                                                               </h2>
-                                                                               
-                                                                               <p style={{
-                                                                               fontSize:"19px",
-                                                                               lineHeight:"1.7",
-                                                                               color:"#555",
-                                                                               maxWidth:"760px",
-                                                                               margin:"0 auto 40px auto",
-                                                                               textAlign:"center"
-                                                                               }}>
-                                                                               Assistência técnica, programação e diagnóstico de comandos e automatismos multimarca.
-                                                                               </p>
-                                                                               
-                                                                               <div
-                                                                               className="marcas-grid"
-                                                                               style={{
-                                                                               display:"grid",
-                                                                               gridTemplateColumns:"repeat(auto-fit,minmax(150px,1fr))",
-                                                                               gap:"16px"
-                                                                               }}
-                                                                               >
-                                                                               
-                                                                               {[
-                                                                               "Motorline",
-                                                                               "BFT",
-                                                                               "Nice",
-                                                                               "CAME",
-                                                                               "FAAC",
-                                                                               "DEA",
-                                                                               "Somfy",
-                                                                               "Beninca",
-                                                                               "V2",
-                                                                               "Roger",
-                                                                               "LiftMaster",
-                                                                               "e muitas outras"
-                                                                               ].map((marca,index)=>(
-                                                                               
-                                                                               <div
-                                                                               key={index}
-                                                                               className="cartao-marca"
-                                                                               style={{
-                                                                               background:"#eef3fa",
-                                                                               padding:"18px 14px",
-                                                                               borderRadius:"18px",
-                                                                               textAlign:"center",
-                                                                               fontWeight:"bold",
-                                                                               color:"#08285c",
-                                                                               boxShadow:"0 10px 24px rgba(11,44,95,0.08)"
-                                                                               }}
-                                                                               >
-                                                                               {marca}
-                                                                               </div>
-                                                                               
-                                                                               ))}
-                                                                               
-                                                                               </div>
-                                                                               
-                                                                               </section>
-
+                                                                              <section
+                                                                              style={{
+                                                                              padding:"10px 0 70px"
+                                                                              }}
+                                                                              >
+                                                                              
+                                                                              <h2 style={{
+                                                                              fontSize:"38px",
+                                                                              color:"#08285c",
+                                                                              marginBottom:"18px",
+                                                                              textAlign:"center"
+                                                                              }}>
+                                                                              Como melhorar o alcance do comando?
+                                                                              </h2>
+                                                                              
+                                                                              <p style={{
+                                                                              fontSize:"19px",
+                                                                              lineHeight:"1.7",
+                                                                              color:"#555",
+                                                                              maxWidth:"820px",
+                                                                              margin:"0 auto 42px auto",
+                                                                              textAlign:"center"
+                                                                              }}>
+                                                                              Depois do diagnóstico, a solução pode passar por uma simples substituição de pilha,
+                                                                              reposicionamento da antena, verificação do recetor RF ou correção da instalação.
+                                                                              Nem sempre é necessário trocar o comando ou o automatismo.
+                                                                              </p>
+                                                                              
+                                                                              <div
+                                                                              style={{
+                                                                              display:"grid",
+                                                                              gridTemplateColumns:"repeat(auto-fit,minmax(230px,1fr))",
+                                                                              gap:"22px",
+                                                                              marginBottom:"36px"
+                                                                              }}
+                                                                              >
+                                                                              
+                                                                              {[
+                                                                              {
+                                                                              title:"Substituição de pilha",
+                                                                              text:"Uma pilha nova e adequada pode resolver falhas de alcance quando o comando ainda funciona, mas com sinal fraco."
+                                                                              },
+                                                                              
+                                                                              {
+                                                                              title:"Ajuste da antena",
+                                                                              text:"O posicionamento correto da antena pode melhorar bastante a receção do sinal em algumas instalações."
+                                                                              },
+                                                                              
+                                                                              {
+                                                                              title:"Verificação do recetor RF",
+                                                                              text:"Analisamos ligações, humidade, desgaste e compatibilidade do recetor com os comandos existentes."
+                                                                              },
+                                                                              
+                                                                              {
+                                                                              title:"Programação correta",
+                                                                              text:"Quando necessário, confirmamos a programação dos comandos e a comunicação com a central do automatismo."
+                                                                              }
+                                                                              
+                                                                              ].map((item,index)=>(
+                                                                              
+                                                                              <div
+                                                                              key={index}
+                                                                              style={{
+                                                                              background:"#eef3fa",
+                                                                              borderRadius:"24px",
+                                                                              padding:"28px 24px",
+                                                                              boxShadow:"0 12px 28px rgba(11,44,95,0.07)",
+                                                                              border:"1px solid rgba(11,44,95,0.05)"
+                                                                              }}
+                                                                              >
+                                                                              
+                                                                              <h3 style={{
+                                                                              color:"#08285c",
+                                                                              fontSize:"22px",
+                                                                              marginBottom:"12px"
+                                                                              }}>
+                                                                              {item.title}
+                                                                              </h3>
+                                                                              
+                                                                              <p style={{
+                                                                              color:"#444",
+                                                                              lineHeight:"1.7",
+                                                                              margin:"0"
+                                                                              }}>
+                                                                              {item.text}
+                                                                              </p>
+                                                                              
+                                                                              </div>
+                                                                              
+                                                                              ))}
+                                                                              
+                                                                              </div>
+                                                                              
+                                                                              <div
+                                                                              className="marcas-grid"
+                                                                              style={{
+                                                                              display:"grid",
+                                                                              gridTemplateColumns:"repeat(auto-fit,minmax(150px,1fr))",
+                                                                              gap:"16px"
+                                                                              }}
+                                                                              >
+                                                                              
+                                                                              {[
+                                                                              "Motorline",
+                                                                              "BFT",
+                                                                              "Nice",
+                                                                              "CAME",
+                                                                              "FAAC",
+                                                                              "DEA",
+                                                                              "Beninca",
+                                                                              "Somfy",
+                                                                              "Roger",
+                                                                              "V2",
+                                                                              "LiftMaster",
+                                                                              "outras marcas"
+                                                                              ].map((marca,index)=>(
+                                                                              
+                                                                              <div
+                                                                              key={index}
+                                                                              className="cartao-marca"
+                                                                              style={{
+                                                                              background:"#f5f8fc",
+                                                                              padding:"18px 14px",
+                                                                              borderRadius:"18px",
+                                                                              textAlign:"center",
+                                                                              fontWeight:"bold",
+                                                                              color:"#08285c",
+                                                                              boxShadow:"0 10px 24px rgba(11,44,95,0.07)"
+                                                                              }}
+                                                                              >
+                                                                              {marca}
+                                                                              </div>
+                                                                              
+                                                                              ))}
+                                                                              
+                                                                              </div>
+                                                                              
+                                                                              </section>
+ 
 <section
 style={{
 padding:"30px 0 20px",
@@ -870,17 +937,18 @@ fontSize:"42px",
 color:"#08285c",
 marginBottom:"18px"
 }}>
-O comando deixou de funcionar?
+O comando só abre a garagem mesmo de perto?
 </h2>
 
 <p style={{
 fontSize:"20px",
 lineHeight:"1.8",
 color:"#555",
-maxWidth:"760px",
+maxWidth:"800px",
 margin:"0 auto 35px auto"
 }}>
-Antes de substituir comandos ou automatismos, é importante perceber se o problema está no comando, no recetor RF, na central eletrónica ou na programação do sistema.
+Se o comando perdeu alcance, funciona apenas junto ao portão ou falha de forma intermitente,
+podemos ajudar a identificar se o problema está no comando, na antena, no recetor RF ou na central eletrónica.
 </p>
 
 <div style={{
@@ -904,7 +972,7 @@ fontSize:"17px",
 boxShadow:"0 10px 25px rgba(37,211,102,.20)"
 }}
 >
-Pedir assistência
+Pedir diagnóstico
 </a>
 
 <a
@@ -928,7 +996,6 @@ Ligar agora
 </div>
 
 </section>
-
                         {/* NOVA PÁGINA AQUI */}
                                                      
   <footer style={{
