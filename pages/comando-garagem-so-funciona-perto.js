@@ -498,6 +498,163 @@ style={{
                                               
                                               </section>
 
+                    <section
+                    style={{
+                    padding:"10px 0 70px"
+                    }}
+                    >
+                    
+                    <div style={{
+                    display:"grid",
+                    gridTemplateColumns:"repeat(auto-fit,minmax(300px,1fr))",
+                    gap:"28px",
+                    alignItems:"stretch"
+                    }}>
+                    
+                    <div style={{
+                    background:"#f5f8fc",
+                    borderRadius:"28px",
+                    padding:"34px",
+                    boxShadow:"0 14px 35px rgba(11,44,95,0.07)",
+                    border:"1px solid rgba(11,44,95,0.06)"
+                    }}>
+                    
+                    <h2 style={{
+                    fontSize:"34px",
+                    color:"#08285c",
+                    marginBottom:"18px"
+                    }}>
+                    O que pode verificar primeiro?
+                    </h2>
+                    
+                    <p style={{
+                    fontSize:"18px",
+                    lineHeight:"1.75",
+                    color:"#555",
+                    marginBottom:"24px"
+                    }}>
+                    Quando o comando só funciona muito perto, existem algumas verificações simples que podem ajudar
+                    a perceber se o problema está no comando ou na receção do automatismo.
+                    </p>
+                    
+                    <ul style={{
+                    listStyle:"none",
+                    padding:"0",
+                    margin:"0",
+                    display:"grid",
+                    gap:"14px"
+                    }}>
+                    
+                    {[
+                    "Trocar a pilha por uma nova de boa qualidade",
+                    "Testar o comando junto ao portão e depois a alguns metros",
+                    "Verificar se acontece com todos os comandos ou apenas com um",
+                    "Confirmar se o LED do comando acende de forma normal",
+                    "Observar se existe alguma antena solta, dobrada ou escondida"
+                    ].map((item,index)=>(
+                    
+                    <li
+                    key={index}
+                    style={{
+                    display:"flex",
+                    gap:"12px",
+                    alignItems:"flex-start",
+                    fontSize:"17px",
+                    lineHeight:"1.6",
+                    color:"#444"
+                    }}
+                    >
+                    <span style={{
+                    color:"#25D366",
+                    fontWeight:"bold",
+                    fontSize:"20px",
+                    lineHeight:"1.4"
+                    }}>
+                    ✓
+                    </span>
+                    <span>{item}</span>
+                    </li>
+                    
+                    ))}
+                    
+                    </ul>
+                    
+                    </div>
+                    
+                    <div style={{
+                    background:"#eef3fa",
+                    borderRadius:"28px",
+                    padding:"34px",
+                    boxShadow:"0 14px 35px rgba(11,44,95,0.08)",
+                    border:"1px solid rgba(11,44,95,0.06)"
+                    }}>
+                    
+                    <h2 style={{
+                    fontSize:"34px",
+                    color:"#08285c",
+                    marginBottom:"18px"
+                    }}>
+                    Quando pode ser necessário diagnóstico?
+                    </h2>
+                    
+                    <p style={{
+                    fontSize:"18px",
+                    lineHeight:"1.75",
+                    color:"#555",
+                    marginBottom:"24px"
+                    }}>
+                    Se a pilha já foi substituída e o problema continua, a falha pode estar no recetor,
+                    na antena, na central eletrónica ou em interferências no local.
+                    </p>
+                    
+                    <ul style={{
+                    listStyle:"none",
+                    padding:"0",
+                    margin:"0",
+                    display:"grid",
+                    gap:"14px"
+                    }}>
+                    
+                    {[
+                    "O comando só funciona encostado ao portão",
+                    "Todos os comandos têm pouco alcance",
+                    "O alcance piorou de repente sem motivo aparente",
+                    "A garagem só abre em alguns pontos específicos",
+                    "O comando funciona, mas de forma irregular ou intermitente"
+                    ].map((item,index)=>(
+                    
+                    <li
+                    key={index}
+                    style={{
+                    display:"flex",
+                    gap:"12px",
+                    alignItems:"flex-start",
+                    fontSize:"17px",
+                    lineHeight:"1.6",
+                    color:"#444"
+                    }}
+                    >
+                    <span style={{
+                    color:"#d97706",
+                    fontWeight:"bold",
+                    fontSize:"20px",
+                    lineHeight:"1.4"
+                    }}>
+                    !
+                    </span>
+                    <span>{item}</span>
+                    </li>
+                    
+                    ))}
+                    
+                    </ul>
+                    
+                    </div>
+                    
+                    </div>
+                    
+                    </section>
+
                                                                                <section
                                                                                style={{
                                                                                padding:"20px 0 70px"
