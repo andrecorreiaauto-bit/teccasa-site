@@ -356,7 +356,7 @@ style={{
                     }}>
                     
                     <img
-                    src="/motor-portao-faz-barulho-mas-nao-abre-hero.png"
+                    src="/motor-esforco-fecho.png"
                     alt="Motor do portão faz barulho mas não abre"
                     style={{
                     width:"100%",
