@@ -371,133 +371,133 @@ style={{
                     
                     </section>
 
-                                    <section
-                                    id="causas"
-                                    style={{
-                                    padding:"20px 0 70px"
-                                    }}
-                                    >
-                                    
-                                    <h2 style={{
-                                    fontSize:"38px",
-                                    color:"#08285c",
-                                    marginBottom:"16px",
-                                    textAlign:"center"
-                                    }}>
-                                    Porque é que o portão não fecha?
-                                    </h2>
-                                    
-                                    <p style={{
-                                    fontSize:"19px",
-                                    lineHeight:"1.7",
-                                    color:"#555",
-                                    maxWidth:"780px",
-                                    margin:"0 auto 45px auto",
-                                    textAlign:"center"
-                                    }}>
-                                    Quando um portão automático deixa de fechar, a causa pode estar num sistema de segurança ativo,
-                                    num obstáculo no percurso, numa afinação incorreta ou numa falha no automatismo.
-                                    O diagnóstico correto evita trocar peças sem necessidade.
-                                    </p>
-                                    
-                                    <div
-                                    className="problemas-grid"
-                                    style={{
-                                    display:"grid",
-                                    gridTemplateColumns:"repeat(3,1fr)",
-                                    gap:"22px"
-                                    }}
-                                    >
-                                    
-                                    {[
-                                    {
-                                    image:"/fotocelulas-bloqueadas.png",
-                                    title:"Fotocélulas bloqueadas",
-                                    text:"Se as fotocélulas estiverem sujas, desalinhadas ou com falha, o portão pode impedir o fecho por segurança."
-                                    },
-                                    
-                                    {
-                                    image:"/portao-volta-abrir.png",
-                                    title:"Fecha e volta a abrir",
-                                    text:"Quando o portão começa a fechar e volta atrás, pode estar a detetar esforço, obstáculo ou erro na segurança."
-                                    },
-                                    
-                                    {
-                                    image:"/obstaculo-fecho-portao.png",
-                                    title:"Obstáculo no percurso",
-                                    text:"Pedras, folhas acumuladas, objetos pequenos ou deformações podem impedir o fecho completo do portão."
-                                    },
-                                    
-                                    {
-                                    image:"/fim-curso-fecho.png",
-                                    title:"Fim de curso desajustado",
-                                    text:"Se o fim de curso estiver mal regulado, o automatismo pode não reconhecer corretamente a posição de fecho."
-                                    },
-                                    
-                                    {
-                                    image:"/central-modo-seguranca.png",
-                                    title:"Central em proteção",
-                                    text:"Algumas centrais interrompem o fecho quando detetam erro elétrico, falha de sensores ou parâmetros incorretos."
-                                    },
-                                    
-                                    {
-                                    image:"/motor-esforco-fecho.png",
-                                    title:"Motor com esforço",
-                                    text:"Desgaste mecânico, falta de força ou desalinhamento podem fazer o motor parar antes de fechar totalmente."
-                                    }
-                                    
-                                    ].map((item,index)=>(
-                                    
-                                    <div
-                                    key={index}
-                                    style={{
-                                    background:"#eef3fa",
-                                    borderRadius:"24px",
-                                    overflow:"hidden",
-                                    boxShadow:"0 12px 30px rgba(11,44,95,0.08)"
-                                    }}
-                                    >
-                                    
-                                    <img
-                                    src={item.image}
-                                    alt={item.title}
-                                    style={{
-                                    width:"100%",
-                                    height:"190px",
-                                    objectFit:"cover",
-                                    display:"block"
-                                    }}
-                                    />
-                                    
-                                    <div style={{
-                                    padding:"24px"
-                                    }}>
-                                    
-                                    <h3 style={{
-                                    color:"#08285c",
-                                    fontSize:"22px",
-                                    marginBottom:"12px"
-                                    }}>
-                                    {item.title}
-                                    </h3>
-                                    
-                                    <p style={{
-                                    color:"#444",
-                                    lineHeight:"1.7",
-                                    margin:"0"
-                                    }}>
-                                    {item.text}
-                                    </p>
-                                    
-                                    </div>
-                                    
-                                    </div>
-                                    
-                                    ))}
-                                    
-                                    </div>
-                                    
-                                    </section>
+                                   <section
+                                   id="causas"
+                                   style={{
+                                   padding:"20px 0 70px"
+                                   }}
+                                   >
+                                   
+                                   <h2 style={{
+                                   fontSize:"38px",
+                                   color:"#08285c",
+                                   marginBottom:"16px",
+                                   textAlign:"center"
+                                   }}>
+                                   Porque é que o portão fecha e volta a abrir?
+                                   </h2>
+                                   
+                                   <p style={{
+                                   fontSize:"19px",
+                                   lineHeight:"1.7",
+                                   color:"#555",
+                                   maxWidth:"800px",
+                                   margin:"0 auto 45px auto",
+                                   textAlign:"center"
+                                   }}>
+                                   Quando o portão inicia o fecho mas volta a abrir sozinho, normalmente o sistema está
+                                   a interpretar alguma situação como risco ou obstáculo. Pode ser uma falha simples nas
+                                   fotocélulas, excesso de esforço, má afinação ou erro na central eletrónica.
+                                   </p>
+                                   
+                                   <div
+                                   className="problemas-grid"
+                                   style={{
+                                   display:"grid",
+                                   gridTemplateColumns:"repeat(3,1fr)",
+                                   gap:"22px"
+                                   }}
+                                   >
+                                   
+                                   {[
+                                   {
+                                   image:"/fotocelulas-desalinhadas-fecho.png",
+                                   title:"Fotocélulas desalinhadas",
+                                   text:"Se as fotocélulas não comunicarem corretamente, a central pode impedir o fecho e mandar o portão voltar a abrir."
+                                   },
+                                   
+                                   {
+                                   image:"/portao-deteta-obstaculo.png",
+                                   title:"Deteção de obstáculo",
+                                   text:"Pequenos objetos, folhas acumuladas ou sujidade no percurso podem ativar o sistema de segurança."
+                                   },
+                                   
+                                   {
+                                   image:"/portao-esforco-fecho.png",
+                                   title:"Esforço excessivo",
+                                   text:"Se o portão estiver pesado, preso ou desalinhado, o motor pode interpretar o esforço como obstáculo."
+                                   },
+                                   
+                                   {
+                                   image:"/sensibilidade-anti-esmagamento.png",
+                                   title:"Sensibilidade mal ajustada",
+                                   text:"A função anti-esmagamento pode estar demasiado sensível e fazer o portão inverter sem necessidade."
+                                   },
+                                   
+                                   {
+                                   image:"/fim-curso-mal-afinado.png",
+                                   title:"Fim de curso incorreto",
+                                   text:"Uma má afinação do fim de curso pode fazer a central não reconhecer corretamente o ponto de fecho."
+                                   },
+                                   
+                                   {
+                                   image:"/central-portao-erro-seguranca.png",
+                                   title:"Erro na central",
+                                   text:"Falhas de programação, ligações ou parâmetros de segurança podem provocar inversão automática do movimento."
+                                   }
+                                   
+                                   ].map((item,index)=>(
+                                   
+                                   <div
+                                   key={index}
+                                   style={{
+                                   background:"#eef3fa",
+                                   borderRadius:"24px",
+                                   overflow:"hidden",
+                                   boxShadow:"0 12px 30px rgba(11,44,95,0.08)"
+                                   }}
+                                   >
+                                   
+                                   <img
+                                   src={item.image}
+                                   alt={item.title}
+                                   style={{
+                                   width:"100%",
+                                   height:"190px",
+                                   objectFit:"cover",
+                                   display:"block"
+                                   }}
+                                   />
+                                   
+                                   <div style={{
+                                   padding:"24px"
+                                   }}>
+                                   
+                                   <h3 style={{
+                                   color:"#08285c",
+                                   fontSize:"22px",
+                                   marginBottom:"12px"
+                                   }}>
+                                   {item.title}
+                                   </h3>
+                                   
+                                   <p style={{
+                                   color:"#444",
+                                   lineHeight:"1.7",
+                                   margin:"0"
+                                   }}>
+                                   {item.text}
+                                   </p>
+                                   
+                                   </div>
+                                   
+                                   </div>
+                                   
+                                   ))}
+                                   
+                                   </div>
+                                   
+                                   </section>
 
                                                                <section
                                                                style={{
@@ -525,7 +525,7 @@ style={{
                                                                color:"#08285c",
                                                                marginBottom:"18px"
                                                                }}>
-                                                               O que pode verificar antes de chamar assistência?
+                                                               O que pode verificar primeiro?
                                                                </h2>
                                                                
                                                                <p style={{
@@ -534,9 +534,9 @@ style={{
                                                                color:"#555",
                                                                marginBottom:"24px"
                                                                }}>
-                                                               Algumas situações simples podem impedir o fecho do portão. Antes de forçar o motor
-                                                               ou tentar alterar a programação, vale a pena confirmar se existe algo visível a bloquear
-                                                               o sistema.
+                                                               Quando o portão fecha e volta a abrir, o sistema pode estar a reagir a uma situação
+                                                               de segurança. Antes de alterar parâmetros ou insistir no comando, convém verificar
+                                                               alguns pontos simples.
                                                                </p>
                                                                
                                                                <ul style={{
@@ -548,11 +548,11 @@ style={{
                                                                }}>
                                                                
                                                                {[
-                                                               "Verificar se há obstáculos junto ao portão ou à calha",
-                                                               "Confirmar se as fotocélulas estão limpas e alinhadas",
-                                                               "Testar se o portão reage ao comando e ao botão interior",
-                                                               "Observar se o motor tenta fechar ou fica completamente parado",
-                                                               "Evitar insistir várias vezes se o automatismo estiver a fazer esforço"
+                                                               "Confirmar se existe algum objeto no percurso do portão",
+                                                               "Limpar e verificar as fotocélulas de segurança",
+                                                               "Observar se o portão fecha sempre até ao mesmo ponto",
+                                                               "Verificar se há folhas, pedras ou sujidade junto à calha",
+                                                               "Testar se o problema acontece com comando e botão interior"
                                                                ].map((item,index)=>(
                                                                
                                                                <li
@@ -605,9 +605,8 @@ style={{
                                                                color:"#555",
                                                                marginBottom:"24px"
                                                                }}>
-                                                               Se o portão começa a fechar e volta a abrir, se o motor faz força em excesso
-                                                               ou se o movimento parece preso, insistir pode agravar a avaria e danificar
-                                                               componentes do automatismo.
+                                                               Se o portão volta a abrir várias vezes, insistir pode sobrecarregar o motor,
+                                                               desregular ainda mais o sistema ou agravar uma avaria mecânica existente.
                                                                </p>
                                                                
                                                                <ul style={{
@@ -619,11 +618,11 @@ style={{
                                                                }}>
                                                                
                                                                {[
-                                                               "O motor faz barulho mas o portão não se move",
-                                                               "O portão fecha um pouco e volta imediatamente atrás",
-                                                               "O movimento está mais lento ou irregular do que o normal",
-                                                               "A central apresenta erro ou luzes fora do habitual",
-                                                               "O portão está desalinhado ou bate antes de fechar"
+                                                               "O motor faz esforço antes de inverter o movimento",
+                                                               "O portão bate ou prende antes de fechar",
+                                                               "A central mostra erro ou luzes fora do habitual",
+                                                               "As fotocélulas parecem desalinhadas ou sem resposta",
+                                                               "O portão só fecha se mantiver o botão pressionado"
                                                                ].map((item,index)=>(
                                                                
                                                                <li
@@ -679,20 +678,20 @@ style={{
                              marginBottom:"18px",
                              textAlign:"center"
                              }}>
-                             Diagnóstico técnico antes de substituir peças
+                             Diagnóstico da inversão de movimento
                              </h2>
                              
                              <p style={{
                              fontSize:"19px",
                              lineHeight:"1.75",
                              color:"#555",
-                             maxWidth:"820px",
+                             maxWidth:"840px",
                              margin:"0 auto 42px auto",
                              textAlign:"center"
                              }}>
-                             Um portão que não fecha pode ter uma causa simples ou uma avaria mais técnica.
-                             Por isso, antes de trocar motores, comandos ou centrais, verificamos o funcionamento
-                             do sistema de segurança, o esforço do portão e a resposta do automatismo.
+                             Quando o portão fecha e volta a abrir, o sistema está normalmente a receber uma indicação
+                             de segurança ou esforço. O diagnóstico permite perceber se a causa está nas fotocélulas,
+                             no percurso do portão, na sensibilidade anti-esmagamento, no fim de curso ou na central eletrónica.
                              </p>
                              
                              <div style={{
@@ -705,26 +704,26 @@ style={{
                              {[
                              {
                              number:"1",
-                             title:"Verificação visual",
-                             text:"Confirmamos obstáculos, desalinhamentos, calhas, dobradiças e sinais de esforço mecânico."
+                             title:"Teste das fotocélulas",
+                             text:"Verificamos alinhamento, limpeza, alimentação e resposta dos sensores de segurança."
                              },
                              
                              {
                              number:"2",
-                             title:"Teste das seguranças",
-                             text:"Analisamos fotocélulas, ligações, resposta da central e eventuais bloqueios de segurança."
+                             title:"Análise do percurso",
+                             text:"Confirmamos se o portão fecha livremente ou se existe esforço, atrito, obstáculo ou desalinhamento."
                              },
                              
                              {
                              number:"3",
-                             title:"Avaliação do motor",
-                             text:"Verificamos se o automatismo tem força suficiente e se o movimento está regular."
+                             title:"Afinação de segurança",
+                             text:"Avaliamos força, sensibilidade anti-esmagamento e comportamento da central durante o fecho."
                              },
                              
                              {
                              number:"4",
-                             title:"Afinação ou reparação",
-                             text:"Sempre que possível, corrigimos a avaria sem substituir componentes desnecessariamente."
+                             title:"Correção da avaria",
+                             text:"Sempre que possível, corrigimos a causa sem substituir componentes desnecessariamente."
                              }
                              
                              ].map((item,index)=>(
@@ -793,20 +792,85 @@ style={{
                                                   marginBottom:"18px",
                                                   textAlign:"center"
                                                   }}>
-                                                  Assistência em portões de garagem e automatismos exteriores
+                                                  Verificação de segurança e automatismo
                                                   </h2>
                                                   
                                                   <p style={{
                                                   fontSize:"19px",
                                                   lineHeight:"1.7",
                                                   color:"#555",
-                                                  maxWidth:"780px",
-                                                  margin:"0 auto 40px auto",
+                                                  maxWidth:"820px",
+                                                  margin:"0 auto 42px auto",
                                                   textAlign:"center"
                                                   }}>
-                                                  Prestamos assistência a portões de garagem, portões de correr e portões de batente
-                                                  que não fecham corretamente, trabalhando com várias marcas e diferentes tipos de automatismo.
+                                                  Prestamos assistência a portões automáticos que invertem o movimento durante o fecho,
+                                                  incluindo portões de garagem, portões de correr e portões de batente com sistemas de segurança ativos.
                                                   </p>
+                                                  
+                                                  <div
+                                                  style={{
+                                                  display:"grid",
+                                                  gridTemplateColumns:"repeat(auto-fit,minmax(230px,1fr))",
+                                                  gap:"22px",
+                                                  marginBottom:"36px"
+                                                  }}
+                                                  >
+                                                  
+                                                  {[
+                                                  {
+                                                  title:"Fotocélulas de segurança",
+                                                  text:"Verificação de alinhamento, alimentação, limpeza, cablagem e resposta dos sensores durante o fecho."
+                                                  },
+                                                  
+                                                  {
+                                                  title:"Sistema anti-esmagamento",
+                                                  text:"Análise da força, sensibilidade e comportamento do automatismo quando encontra resistência."
+                                                  },
+                                                  
+                                                  {
+                                                  title:"Fim de curso e percurso",
+                                                  text:"Afinação dos pontos de paragem, curso de fecho e deteção correta da posição final do portão."
+                                                  },
+                                                  
+                                                  {
+                                                  title:"Centrais eletrónicas",
+                                                  text:"Diagnóstico de parâmetros, entradas de segurança, programação e resposta da central ao comando de fecho."
+                                                  }
+                                                  
+                                                  ].map((item,index)=>(
+                                                  
+                                                  <div
+                                                  key={index}
+                                                  style={{
+                                                  background:"#eef3fa",
+                                                  borderRadius:"24px",
+                                                  padding:"28px 24px",
+                                                  boxShadow:"0 12px 28px rgba(11,44,95,0.07)",
+                                                  border:"1px solid rgba(11,44,95,0.05)"
+                                                  }}
+                                                  >
+                                                  
+                                                  <h3 style={{
+                                                  color:"#08285c",
+                                                  fontSize:"22px",
+                                                  marginBottom:"12px"
+                                                  }}>
+                                                  {item.title}
+                                                  </h3>
+                                                  
+                                                  <p style={{
+                                                  color:"#444",
+                                                  lineHeight:"1.7",
+                                                  margin:"0"
+                                                  }}>
+                                                  {item.text}
+                                                  </p>
+                                                  
+                                                  </div>
+                                                  
+                                                  ))}
+                                                  
+                                                  </div>
                                                   
                                                   <div
                                                   className="marcas-grid"
@@ -825,8 +889,8 @@ style={{
                                                   "FAAC",
                                                   "DEA",
                                                   "Beninca",
-                                                  "Somfy",
                                                   "Roger",
+                                                  "Somfy",
                                                   "V2",
                                                   "LiftMaster",
                                                   "outras marcas"
@@ -836,13 +900,13 @@ style={{
                                                   key={index}
                                                   className="cartao-marca"
                                                   style={{
-                                                  background:"#eef3fa",
+                                                  background:"#f5f8fc",
                                                   padding:"18px 14px",
                                                   borderRadius:"18px",
                                                   textAlign:"center",
                                                   fontWeight:"bold",
                                                   color:"#08285c",
-                                                  boxShadow:"0 10px 24px rgba(11,44,95,0.08)"
+                                                  boxShadow:"0 10px 24px rgba(11,44,95,0.07)"
                                                   }}
                                                   >
                                                   {marca}
@@ -874,18 +938,18 @@ style={{
                                                                             color:"#08285c",
                                                                             marginBottom:"18px"
                                                                             }}>
-                                                                            O portão deixou de fechar corretamente?
+                                                                            O portão volta a abrir quando tenta fechar?
                                                                             </h2>
                                                                             
                                                                             <p style={{
                                                                             fontSize:"20px",
                                                                             lineHeight:"1.8",
                                                                             color:"#555",
-                                                                            maxWidth:"780px",
+                                                                            maxWidth:"800px",
                                                                             margin:"0 auto 35px auto"
                                                                             }}>
-                                                                            Se o portão não fecha, fecha só parcialmente ou volta a abrir sozinho,
-                                                                            o ideal é fazer um diagnóstico antes de forçar o automatismo ou alterar a programação.
+                                                                            Se o portão fecha e volta a abrir sozinho, não force o automatismo nem altere a programação sem diagnóstico.
+                                                                            A causa pode estar nas fotocélulas, no esforço mecânico, no fim de curso ou na configuração de segurança.
                                                                             </p>
                                                                             
                                                                             <div style={{
