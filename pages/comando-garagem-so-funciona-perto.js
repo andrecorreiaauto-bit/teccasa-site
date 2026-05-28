@@ -655,6 +655,129 @@ style={{
                     
                     </section>
 
+                                             <section
+                                             style={{
+                                             padding:"10px 0 70px"
+                                             }}
+                                             >
+                                             
+                                             <div style={{
+                                             background:"linear-gradient(180deg,#ffffff 0%,#f5f8fc 100%)",
+                                             borderRadius:"32px",
+                                             padding:"50px 36px",
+                                             boxShadow:"0 18px 40px rgba(11,44,95,0.08)",
+                                             border:"1px solid rgba(11,44,95,0.06)"
+                                             }}
+                                             >
+                                             
+                                             <h2 style={{
+                                             fontSize:"38px",
+                                             color:"#08285c",
+                                             marginBottom:"18px",
+                                             textAlign:"center"
+                                             }}>
+                                             Diagnóstico do sinal e alcance do comando
+                                             </h2>
+                                             
+                                             <p style={{
+                                             fontSize:"19px",
+                                             lineHeight:"1.75",
+                                             color:"#555",
+                                             maxWidth:"840px",
+                                             margin:"0 auto 42px auto",
+                                             textAlign:"center"
+                                             }}>
+                                             Quando o comando só funciona perto do portão, o problema pode estar no próprio comando
+                                             ou na forma como o automatismo recebe o sinal. Por isso, analisamos o sistema completo:
+                                             comando, pilha, antena, recetor RF, central eletrónica e possíveis interferências.
+                                             </p>
+                                             
+                                             <div style={{
+                                             display:"grid",
+                                             gridTemplateColumns:"repeat(auto-fit,minmax(230px,1fr))",
+                                             gap:"22px"
+                                             }}
+                                             >
+                                             
+                                             {[
+                                             {
+                                             number:"1",
+                                             title:"Teste do comando",
+                                             text:"Verificamos se o comando emite corretamente e se a pilha tem força suficiente."
+                                             },
+                                             
+                                             {
+                                             number:"2",
+                                             title:"Análise da receção",
+                                             text:"Testamos a distância de funcionamento e a resposta do automatismo em diferentes pontos."
+                                             },
+                                             
+                                             {
+                                             number:"3",
+                                             title:"Verificação da antena",
+                                             text:"Confirmamos se a antena está bem ligada, posicionada e livre de danos ou cortes."
+                                             },
+                                             
+                                             {
+                                             number:"4",
+                                             title:"Recetor e central",
+                                             text:"Analisamos ligações, humidade, configuração e possíveis falhas no recetor RF ou na central."
+                                             }
+                                             
+                                             ].map((item,index)=>(
+                                             
+                                             <div
+                                             key={index}
+                                             style={{
+                                             background:"#eef3fa",
+                                             borderRadius:"24px",
+                                             padding:"28px 24px",
+                                             boxShadow:"0 12px 28px rgba(11,44,95,0.07)"
+                                             }}
+                                             >
+                                             
+                                             <div style={{
+                                             width:"42px",
+                                             height:"42px",
+                                             borderRadius:"50%",
+                                             background:"#08285c",
+                                             color:"white",
+                                             display:"flex",
+                                             alignItems:"center",
+                                             justifyContent:"center",
+                                             fontWeight:"bold",
+                                             fontSize:"18px",
+                                             marginBottom:"18px"
+                                             }}>
+                                             {item.number}
+                                             </div>
+                                             
+                                             <h3 style={{
+                                             color:"#08285c",
+                                             fontSize:"22px",
+                                             marginBottom:"12px"
+                                             }}>
+                                             {item.title}
+                                             </h3>
+                                             
+                                             <p style={{
+                                             color:"#444",
+                                             lineHeight:"1.7",
+                                             margin:"0"
+                                             }}>
+                                             {item.text}
+                                             </p>
+                                             
+                                             </div>
+                                             
+                                             ))}
+                                             
+                                             </div>
+                                             
+                                             </div>
+                                             
+                                             </section>
+
                                                                                <section
                                                                                style={{
                                                                                padding:"20px 0 70px"
