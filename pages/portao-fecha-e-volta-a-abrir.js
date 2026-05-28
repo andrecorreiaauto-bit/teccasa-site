@@ -411,7 +411,7 @@ style={{
                                    
                                    {[
                                    {
-                                   image:"/fotocelulas-desalinhadas-fecho.png",
+                                   image:"/fotocelulas-erro.png",
                                    title:"Fotocélulas desalinhadas",
                                    text:"Se as fotocélulas não comunicarem corretamente, a central pode impedir o fecho e mandar o portão voltar a abrir."
                                    },
