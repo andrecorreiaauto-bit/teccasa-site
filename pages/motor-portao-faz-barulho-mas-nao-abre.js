@@ -371,569 +371,637 @@ style={{
                     
                     </section>
 
-                                    <section
-                                    id="causas"
-                                    style={{
-                                    padding:"20px 0 70px"
-                                    }}
-                                    >
-                                    
-                                    <h2 style={{
-                                    fontSize:"38px",
-                                    color:"#08285c",
-                                    marginBottom:"16px",
-                                    textAlign:"center"
-                                    }}>
-                                    Porque é que o portão não fecha?
-                                    </h2>
-                                    
-                                    <p style={{
-                                    fontSize:"19px",
-                                    lineHeight:"1.7",
-                                    color:"#555",
-                                    maxWidth:"780px",
-                                    margin:"0 auto 45px auto",
-                                    textAlign:"center"
-                                    }}>
-                                    Quando um portão automático deixa de fechar, a causa pode estar num sistema de segurança ativo,
-                                    num obstáculo no percurso, numa afinação incorreta ou numa falha no automatismo.
-                                    O diagnóstico correto evita trocar peças sem necessidade.
-                                    </p>
-                                    
-                                    <div
-                                    className="problemas-grid"
-                                    style={{
-                                    display:"grid",
-                                    gridTemplateColumns:"repeat(3,1fr)",
-                                    gap:"22px"
-                                    }}
-                                    >
-                                    
-                                    {[
-                                    {
-                                    image:"/fotocelulas-bloqueadas.png",
-                                    title:"Fotocélulas bloqueadas",
-                                    text:"Se as fotocélulas estiverem sujas, desalinhadas ou com falha, o portão pode impedir o fecho por segurança."
-                                    },
-                                    
-                                    {
-                                    image:"/portao-volta-abrir.png",
-                                    title:"Fecha e volta a abrir",
-                                    text:"Quando o portão começa a fechar e volta atrás, pode estar a detetar esforço, obstáculo ou erro na segurança."
-                                    },
-                                    
-                                    {
-                                    image:"/obstaculo-fecho-portao.png",
-                                    title:"Obstáculo no percurso",
-                                    text:"Pedras, folhas acumuladas, objetos pequenos ou deformações podem impedir o fecho completo do portão."
-                                    },
-                                    
-                                    {
-                                    image:"/fim-curso-fecho.png",
-                                    title:"Fim de curso desajustado",
-                                    text:"Se o fim de curso estiver mal regulado, o automatismo pode não reconhecer corretamente a posição de fecho."
-                                    },
-                                    
-                                    {
-                                    image:"/central-modo-seguranca.png",
-                                    title:"Central em proteção",
-                                    text:"Algumas centrais interrompem o fecho quando detetam erro elétrico, falha de sensores ou parâmetros incorretos."
-                                    },
-                                    
-                                    {
-                                    image:"/motor-esforco-fecho.png",
-                                    title:"Motor com esforço",
-                                    text:"Desgaste mecânico, falta de força ou desalinhamento podem fazer o motor parar antes de fechar totalmente."
-                                    }
-                                    
-                                    ].map((item,index)=>(
-                                    
-                                    <div
-                                    key={index}
-                                    style={{
-                                    background:"#eef3fa",
-                                    borderRadius:"24px",
-                                    overflow:"hidden",
-                                    boxShadow:"0 12px 30px rgba(11,44,95,0.08)"
-                                    }}
-                                    >
-                                    
-                                    <img
-                                    src={item.image}
-                                    alt={item.title}
-                                    style={{
-                                    width:"100%",
-                                    height:"190px",
-                                    objectFit:"cover",
-                                    display:"block"
-                                    }}
-                                    />
-                                    
-                                    <div style={{
-                                    padding:"24px"
-                                    }}>
-                                    
-                                    <h3 style={{
-                                    color:"#08285c",
-                                    fontSize:"22px",
-                                    marginBottom:"12px"
-                                    }}>
-                                    {item.title}
-                                    </h3>
-                                    
-                                    <p style={{
-                                    color:"#444",
-                                    lineHeight:"1.7",
-                                    margin:"0"
-                                    }}>
-                                    {item.text}
-                                    </p>
-                                    
-                                    </div>
-                                    
-                                    </div>
-                                    
-                                    ))}
-                                    
-                                    </div>
-                                    
-                                    </section>
+                                           <section
+                                           id="causas"
+                                           style={{
+                                           padding:"20px 0 70px"
+                                           }}
+                                           >
+                                           
+                                           <h2 style={{
+                                           fontSize:"38px",
+                                           color:"#08285c",
+                                           marginBottom:"16px",
+                                           textAlign:"center"
+                                           }}>
+                                           Porque é que o motor faz barulho mas o portão não abre?
+                                           </h2>
+                                           
+                                           <p style={{
+                                           fontSize:"19px",
+                                           lineHeight:"1.7",
+                                           color:"#555",
+                                           maxWidth:"820px",
+                                           margin:"0 auto 45px auto",
+                                           textAlign:"center"
+                                           }}>
+                                           Quando o motor trabalha, faz ruído ou tenta arrancar, mas o portão não se movimenta,
+                                           a avaria pode estar relacionada com falta de força, transmissão mecânica,
+                                           desbloqueio mal encaixado, cremalheira, condensador ou esforço excessivo no portão.
+                                           </p>
+                                           
+                                           <div
+                                           className="problemas-grid"
+                                           style={{
+                                           display:"grid",
+                                           gridTemplateColumns:"repeat(3,1fr)",
+                                           gap:"22px"
+                                           }}
+                                           >
+                                           
+                                           {[
+                                           {
+                                           image:"/condensador-motor-portao.png",
+                                           title:"Condensador degradado",
+                                           text:"Um condensador fraco pode fazer o motor tentar arrancar, mas sem força suficiente para movimentar o portão."
+                                           },
+                                           
+                                           {
+                                           image:"/cremalheira-desalinhada.png",
+                                           title:"Cremalheira desalinhada",
+                                           text:"Nos portões de correr, a cremalheira pode estar fora da posição correta e impedir a transmissão do movimento."
+                                           },
+                                           
+                                           {
+                                           image:"/motor-desbloqueado.png",
+                                           title:"Motor desbloqueado",
+                                           text:"Se o sistema de desbloqueio manual não estiver bem encaixado, o motor pode trabalhar sem mover o portão."
+                                           },
+                                           
+                                           {
+                                           image:"/engrenagem-motor-portao.png",
+                                           title:"Engrenagem danificada",
+                                           text:"Peças internas gastas ou partidas podem fazer ruído, mas deixar de transmitir força ao portão."
+                                           },
+                                           
+                                           {
+                                           image:"/portao-pesado-preso.png",
+                                           title:"Portão pesado ou preso",
+                                           text:"Rodas, calhas, dobradiças ou guias com esforço podem impedir o motor de conseguir iniciar o movimento."
+                                           },
+                                           
+                                           {
+                                           image:"/motor-portao-sem-forca.png",
+                                           title:"Motor sem força",
+                                           text:"O automatismo pode estar gasto, mal dimensionado ou com componentes internos a perder capacidade de arranque."
+                                           }
+                                           
+                                           ].map((item,index)=>(
+                                           
+                                           <div
+                                           key={index}
+                                           style={{
+                                           background:"#eef3fa",
+                                           borderRadius:"24px",
+                                           overflow:"hidden",
+                                           boxShadow:"0 12px 30px rgba(11,44,95,0.08)"
+                                           }}
+                                           >
+                                           
+                                           <img
+                                           src={item.image}
+                                           alt={item.title}
+                                           style={{
+                                           width:"100%",
+                                           height:"190px",
+                                           objectFit:"cover",
+                                           display:"block"
+                                           }}
+                                           />
+                                           
+                                           <div style={{
+                                           padding:"24px"
+                                           }}>
+                                           
+                                           <h3 style={{
+                                           color:"#08285c",
+                                           fontSize:"22px",
+                                           marginBottom:"12px"
+                                           }}>
+                                           {item.title}
+                                           </h3>
+                                           
+                                           <p style={{
+                                           color:"#444",
+                                           lineHeight:"1.7",
+                                           margin:"0"
+                                           }}>
+                                           {item.text}
+                                           </p>
+                                           
+                                           </div>
+                                           
+                                           </div>
+                                           
+                                           ))}
+                                           
+                                           </div>
+                                           
+                                           </section>
 
-                                                               <section
-                                                               style={{
-                                                               padding:"10px 0 70px"
-                                                               }}
-                                                               >
-                                                               
-                                                               <div style={{
-                                                               display:"grid",
-                                                               gridTemplateColumns:"repeat(auto-fit,minmax(300px,1fr))",
-                                                               gap:"28px",
-                                                               alignItems:"stretch"
-                                                               }}>
-                                                               
-                                                               <div style={{
-                                                               background:"#f5f8fc",
-                                                               borderRadius:"28px",
-                                                               padding:"34px",
-                                                               boxShadow:"0 14px 35px rgba(11,44,95,0.07)",
-                                                               border:"1px solid rgba(11,44,95,0.06)"
-                                                               }}>
-                                                               
-                                                               <h2 style={{
-                                                               fontSize:"34px",
-                                                               color:"#08285c",
-                                                               marginBottom:"18px"
-                                                               }}>
-                                                               O que pode verificar antes de chamar assistência?
-                                                               </h2>
-                                                               
-                                                               <p style={{
-                                                               fontSize:"18px",
-                                                               lineHeight:"1.75",
-                                                               color:"#555",
-                                                               marginBottom:"24px"
-                                                               }}>
-                                                               Algumas situações simples podem impedir o fecho do portão. Antes de forçar o motor
-                                                               ou tentar alterar a programação, vale a pena confirmar se existe algo visível a bloquear
-                                                               o sistema.
-                                                               </p>
-                                                               
-                                                               <ul style={{
-                                                               listStyle:"none",
-                                                               padding:"0",
-                                                               margin:"0",
-                                                               display:"grid",
-                                                               gap:"14px"
-                                                               }}>
-                                                               
-                                                               {[
-                                                               "Verificar se há obstáculos junto ao portão ou à calha",
-                                                               "Confirmar se as fotocélulas estão limpas e alinhadas",
-                                                               "Testar se o portão reage ao comando e ao botão interior",
-                                                               "Observar se o motor tenta fechar ou fica completamente parado",
-                                                               "Evitar insistir várias vezes se o automatismo estiver a fazer esforço"
-                                                               ].map((item,index)=>(
-                                                               
-                                                               <li
-                                                               key={index}
-                                                               style={{
-                                                               display:"flex",
-                                                               gap:"12px",
-                                                               alignItems:"flex-start",
-                                                               fontSize:"17px",
-                                                               lineHeight:"1.6",
-                                                               color:"#444"
-                                                               }}
-                                                               >
-                                                               <span style={{
-                                                               color:"#25D366",
-                                                               fontWeight:"bold",
-                                                               fontSize:"20px",
-                                                               lineHeight:"1.4"
-                                                               }}>
-                                                               ✓
-                                                               </span>
-                                                               <span>{item}</span>
-                                                               </li>
-                                                               
-                                                               ))}
-                                                               
-                                                               </ul>
-                                                               
-                                                               </div>
-                                                               
-                                                               <div style={{
-                                                               background:"#eef3fa",
-                                                               borderRadius:"28px",
-                                                               padding:"34px",
-                                                               boxShadow:"0 14px 35px rgba(11,44,95,0.08)",
-                                                               border:"1px solid rgba(11,44,95,0.06)"
-                                                               }}>
-                                                               
-                                                               <h2 style={{
-                                                               fontSize:"34px",
-                                                               color:"#08285c",
-                                                               marginBottom:"18px"
-                                                               }}>
-                                                               Quando não deve insistir?
-                                                               </h2>
-                                                               
-                                                               <p style={{
-                                                               fontSize:"18px",
-                                                               lineHeight:"1.75",
-                                                               color:"#555",
-                                                               marginBottom:"24px"
-                                                               }}>
-                                                               Se o portão começa a fechar e volta a abrir, se o motor faz força em excesso
-                                                               ou se o movimento parece preso, insistir pode agravar a avaria e danificar
-                                                               componentes do automatismo.
-                                                               </p>
-                                                               
-                                                               <ul style={{
-                                                               listStyle:"none",
-                                                               padding:"0",
-                                                               margin:"0",
-                                                               display:"grid",
-                                                               gap:"14px"
-                                                               }}>
-                                                               
-                                                               {[
-                                                               "O motor faz barulho mas o portão não se move",
-                                                               "O portão fecha um pouco e volta imediatamente atrás",
-                                                               "O movimento está mais lento ou irregular do que o normal",
-                                                               "A central apresenta erro ou luzes fora do habitual",
-                                                               "O portão está desalinhado ou bate antes de fechar"
-                                                               ].map((item,index)=>(
-                                                               
-                                                               <li
-                                                               key={index}
-                                                               style={{
-                                                               display:"flex",
-                                                               gap:"12px",
-                                                               alignItems:"flex-start",
-                                                               fontSize:"17px",
-                                                               lineHeight:"1.6",
-                                                               color:"#444"
-                                                               }}
-                                                               >
-                                                               <span style={{
-                                                               color:"#d97706",
-                                                               fontWeight:"bold",
-                                                               fontSize:"20px",
-                                                               lineHeight:"1.4"
-                                                               }}>
-                                                               !
-                                                               </span>
-                                                               <span>{item}</span>
-                                                               </li>
-                                                               
-                                                               ))}
-                                                               
-                                                               </ul>
-                                                               
-                                                               </div>
-                                                               
-                                                               </div>
-                                                               
-                                                               </section>
+                                                              <section
+                                                              style={{
+                                                              padding:"10px 0 70px"
+                                                              }}
+                                                              >
+                                                              
+                                                              <div style={{
+                                                              display:"grid",
+                                                              gridTemplateColumns:"repeat(auto-fit,minmax(300px,1fr))",
+                                                              gap:"28px",
+                                                              alignItems:"stretch"
+                                                              }}>
+                                                              
+                                                              <div style={{
+                                                              background:"#f5f8fc",
+                                                              borderRadius:"28px",
+                                                              padding:"34px",
+                                                              boxShadow:"0 14px 35px rgba(11,44,95,0.07)",
+                                                              border:"1px solid rgba(11,44,95,0.06)"
+                                                              }}>
+                                                              
+                                                              <h2 style={{
+                                                              fontSize:"34px",
+                                                              color:"#08285c",
+                                                              marginBottom:"18px"
+                                                              }}>
+                                                              O que pode verificar primeiro?
+                                                              </h2>
+                                                              
+                                                              <p style={{
+                                                              fontSize:"18px",
+                                                              lineHeight:"1.75",
+                                                              color:"#555",
+                                                              marginBottom:"24px"
+                                                              }}>
+                                                              Quando o motor faz barulho mas o portão não abre, há algumas verificações simples
+                                                              que podem ajudar a perceber se o problema é mecânico, elétrico ou relacionado com
+                                                              o desbloqueio manual.
+                                                              </p>
+                                                              
+                                                              <ul style={{
+                                                              listStyle:"none",
+                                                              padding:"0",
+                                                              margin:"0",
+                                                              display:"grid",
+                                                              gap:"14px"
+                                                              }}>
+                                                              
+                                                              {[
+                                                              "Verificar se o portão está desbloqueado em modo manual",
+                                                              "Confirmar se há pedras, sujidade ou obstáculos na calha",
+                                                              "Observar se o motor roda mas o portão fica parado",
+                                                              "Testar se o portão se movimenta livremente à mão",
+                                                              "Evitar insistir se o motor fizer esforço ou cheiro a aquecimento"
+                                                              ].map((item,index)=>(
+                                                              
+                                                              <li
+                                                              key={index}
+                                                              style={{
+                                                              display:"flex",
+                                                              gap:"12px",
+                                                              alignItems:"flex-start",
+                                                              fontSize:"17px",
+                                                              lineHeight:"1.6",
+                                                              color:"#444"
+                                                              }}
+                                                              >
+                                                              <span style={{
+                                                              color:"#25D366",
+                                                              fontWeight:"bold",
+                                                              fontSize:"20px",
+                                                              lineHeight:"1.4"
+                                                              }}>
+                                                              ✓
+                                                              </span>
+                                                              <span>{item}</span>
+                                                              </li>
+                                                              
+                                                              ))}
+                                                              
+                                                              </ul>
+                                                              
+                                                              </div>
+                                                              
+                                                              <div style={{
+                                                              background:"#eef3fa",
+                                                              borderRadius:"28px",
+                                                              padding:"34px",
+                                                              boxShadow:"0 14px 35px rgba(11,44,95,0.08)",
+                                                              border:"1px solid rgba(11,44,95,0.06)"
+                                                              }}>
+                                                              
+                                                              <h2 style={{
+                                                              fontSize:"34px",
+                                                              color:"#08285c",
+                                                              marginBottom:"18px"
+                                                              }}>
+                                                              Quando não deve insistir?
+                                                              </h2>
+                                                              
+                                                              <p style={{
+                                                              fontSize:"18px",
+                                                              lineHeight:"1.75",
+                                                              color:"#555",
+                                                              marginBottom:"24px"
+                                                              }}>
+                                                              Se o motor tenta trabalhar mas o portão não mexe, insistir repetidamente pode
+                                                              sobreaquecer o automatismo, danificar engrenagens ou agravar uma avaria que ainda
+                                                              poderia ser reparada.
+                                                              </p>
+                                                              
+                                                              <ul style={{
+                                                              listStyle:"none",
+                                                              padding:"0",
+                                                              margin:"0",
+                                                              display:"grid",
+                                                              gap:"14px"
+                                                              }}>
+                                                              
+                                                              {[
+                                                              "O motor faz ruído mas o portão não se desloca",
+                                                              "O automatismo aquece ou cheira a queimado",
+                                                              "O portão está pesado em modo manual",
+                                                              "O motor trabalha mas parece patinar",
+                                                              "A cremalheira, braço ou transmissão parecem fora do sítio"
+                                                              ].map((item,index)=>(
+                                                              
+                                                              <li
+                                                              key={index}
+                                                              style={{
+                                                              display:"flex",
+                                                              gap:"12px",
+                                                              alignItems:"flex-start",
+                                                              fontSize:"17px",
+                                                              lineHeight:"1.6",
+                                                              color:"#444"
+                                                              }}
+                                                              >
+                                                              <span style={{
+                                                              color:"#d97706",
+                                                              fontWeight:"bold",
+                                                              fontSize:"20px",
+                                                              lineHeight:"1.4"
+                                                              }}>
+                                                              !
+                                                              </span>
+                                                              <span>{item}</span>
+                                                              </li>
+                                                              
+                                                              ))}
+                                                              
+                                                              </ul>
+                                                              
+                                                              </div>
+                                                              
+                                                              </div>
+                                                              
+                                                              </section>
 
-                             <section
-                             style={{
-                             padding:"10px 0 70px"
-                             }}
-                             >
-                             
-                             <div style={{
-                             background:"linear-gradient(180deg,#ffffff 0%,#f5f8fc 100%)",
-                             borderRadius:"32px",
-                             padding:"50px 36px",
-                             boxShadow:"0 18px 40px rgba(11,44,95,0.08)",
-                             border:"1px solid rgba(11,44,95,0.06)"
-                             }}
-                             >
-                             
-                             <h2 style={{
-                             fontSize:"38px",
-                             color:"#08285c",
-                             marginBottom:"18px",
-                             textAlign:"center"
-                             }}>
-                             Diagnóstico técnico antes de substituir peças
-                             </h2>
-                             
-                             <p style={{
-                             fontSize:"19px",
-                             lineHeight:"1.75",
-                             color:"#555",
-                             maxWidth:"820px",
-                             margin:"0 auto 42px auto",
-                             textAlign:"center"
-                             }}>
-                             Um portão que não fecha pode ter uma causa simples ou uma avaria mais técnica.
-                             Por isso, antes de trocar motores, comandos ou centrais, verificamos o funcionamento
-                             do sistema de segurança, o esforço do portão e a resposta do automatismo.
-                             </p>
-                             
-                             <div style={{
-                             display:"grid",
-                             gridTemplateColumns:"repeat(auto-fit,minmax(230px,1fr))",
-                             gap:"22px"
-                             }}
-                             >
-                             
-                             {[
-                             {
-                             number:"1",
-                             title:"Verificação visual",
-                             text:"Confirmamos obstáculos, desalinhamentos, calhas, dobradiças e sinais de esforço mecânico."
-                             },
-                             
-                             {
-                             number:"2",
-                             title:"Teste das seguranças",
-                             text:"Analisamos fotocélulas, ligações, resposta da central e eventuais bloqueios de segurança."
-                             },
-                             
-                             {
-                             number:"3",
-                             title:"Avaliação do motor",
-                             text:"Verificamos se o automatismo tem força suficiente e se o movimento está regular."
-                             },
-                             
-                             {
-                             number:"4",
-                             title:"Afinação ou reparação",
-                             text:"Sempre que possível, corrigimos a avaria sem substituir componentes desnecessariamente."
-                             }
-                             
-                             ].map((item,index)=>(
-                             
-                             <div
-                             key={index}
-                             style={{
-                             background:"#eef3fa",
-                             borderRadius:"24px",
-                             padding:"28px 24px",
-                             boxShadow:"0 12px 28px rgba(11,44,95,0.07)"
-                             }}
-                             >
-                             
-                             <div style={{
-                             width:"42px",
-                             height:"42px",
-                             borderRadius:"50%",
-                             background:"#08285c",
-                             color:"white",
-                             display:"flex",
-                             alignItems:"center",
-                             justifyContent:"center",
-                             fontWeight:"bold",
-                             fontSize:"18px",
-                             marginBottom:"18px"
-                             }}>
-                             {item.number}
-                             </div>
-                             
-                             <h3 style={{
-                             color:"#08285c",
-                             fontSize:"22px",
-                             marginBottom:"12px"
-                             }}>
-                             {item.title}
-                             </h3>
-                             
-                             <p style={{
-                             color:"#444",
-                             lineHeight:"1.7",
-                             margin:"0"
-                             }}>
-                             {item.text}
-                             </p>
-                             
-                             </div>
-                             
-                             ))}
-                             
-                             </div>
-                             
-                             </div>
-                             
-                             </section>
+                                                                                         <section
+                                                                                         style={{
+                                                                                         padding:"10px 0 70px"
+                                                                                         }}
+                                                                                         >
+                                                                                         
+                                                                                         <div style={{
+                                                                                         background:"linear-gradient(180deg,#ffffff 0%,#f5f8fc 100%)",
+                                                                                         borderRadius:"32px",
+                                                                                         padding:"50px 36px",
+                                                                                         boxShadow:"0 18px 40px rgba(11,44,95,0.08)",
+                                                                                         border:"1px solid rgba(11,44,95,0.06)"
+                                                                                         }}
+                                                                                         >
+                                                                                         
+                                                                                         <h2 style={{
+                                                                                         fontSize:"38px",
+                                                                                         color:"#08285c",
+                                                                                         marginBottom:"18px",
+                                                                                         textAlign:"center"
+                                                                                         }}>
+                                                                                         Diagnóstico quando o motor trabalha mas o portão não se move
+                                                                                         </h2>
+                                                                                         
+                                                                                         <p style={{
+                                                                                         fontSize:"19px",
+                                                                                         lineHeight:"1.75",
+                                                                                         color:"#555",
+                                                                                         maxWidth:"860px",
+                                                                                         margin:"0 auto 42px auto",
+                                                                                         textAlign:"center"
+                                                                                         }}>
+                                                                                         Quando o motor faz barulho mas o portão não abre, é importante perceber se o automatismo
+                                                                                         está realmente a transmitir movimento ou se existe uma falha mecânica, elétrica ou de força.
+                                                                                         O diagnóstico evita trocar o motor sem confirmar primeiro a origem da avaria.
+                                                                                         </p>
+                                                                                         
+                                                                                         <div style={{
+                                                                                         display:"grid",
+                                                                                         gridTemplateColumns:"repeat(auto-fit,minmax(230px,1fr))",
+                                                                                         gap:"22px"
+                                                                                         }}
+                                                                                         >
+                                                                                         
+                                                                                         {[
+                                                                                         {
+                                                                                         number:"1",
+                                                                                         title:"Teste do portão em manual",
+                                                                                         text:"Verificamos se o portão se desloca livremente sem o motor ou se está preso, pesado ou desalinhado."
+                                                                                         },
+                                                                                         
+                                                                                         {
+                                                                                         number:"2",
+                                                                                         title:"Verificação da transmissão",
+                                                                                         text:"Analisamos cremalheira, pinhão, braço, desbloqueio manual e peças que transferem a força do motor."
+                                                                                         },
+                                                                                         
+                                                                                         {
+                                                                                         number:"3",
+                                                                                         title:"Teste elétrico do motor",
+                                                                                         text:"Confirmamos condensador, alimentação, arranque do motor e sinais de perda de força ou aquecimento."
+                                                                                         },
+                                                                                         
+                                                                                         {
+                                                                                         number:"4",
+                                                                                         title:"Reparação ou afinação",
+                                                                                         text:"Sempre que possível, corrigimos a causa com afinação, substituição de peça pontual ou ajuste do sistema."
+                                                                                         }
+                                                                                         
+                                                                                         ].map((item,index)=>(
+                                                                                         
+                                                                                         <div
+                                                                                         key={index}
+                                                                                         style={{
+                                                                                         background:"#eef3fa",
+                                                                                         borderRadius:"24px",
+                                                                                         padding:"28px 24px",
+                                                                                         boxShadow:"0 12px 28px rgba(11,44,95,0.07)"
+                                                                                         }}
+                                                                                         >
+                                                                                         
+                                                                                         <div style={{
+                                                                                         width:"42px",
+                                                                                         height:"42px",
+                                                                                         borderRadius:"50%",
+                                                                                         background:"#08285c",
+                                                                                         color:"white",
+                                                                                         display:"flex",
+                                                                                         alignItems:"center",
+                                                                                         justifyContent:"center",
+                                                                                         fontWeight:"bold",
+                                                                                         fontSize:"18px",
+                                                                                         marginBottom:"18px"
+                                                                                         }}>
+                                                                                         {item.number}
+                                                                                         </div>
+                                                                                         
+                                                                                         <h3 style={{
+                                                                                         color:"#08285c",
+                                                                                         fontSize:"22px",
+                                                                                         marginBottom:"12px"
+                                                                                         }}>
+                                                                                         {item.title}
+                                                                                         </h3>
+                                                                                         
+                                                                                         <p style={{
+                                                                                         color:"#444",
+                                                                                         lineHeight:"1.7",
+                                                                                         margin:"0"
+                                                                                         }}>
+                                                                                         {item.text}
+                                                                                         </p>
+                                                                                         
+                                                                                         </div>
+                                                                                         
+                                                                                         ))}
+                                                                                         
+                                                                                         </div>
+                                                                                         
+                                                                                         </div>
+                                                                                         
+                                                                                         </section>
 
-                                                  <section
-                                                  style={{
-                                                  padding:"10px 0 70px"
-                                                  }}
-                                                  >
-                                                  
-                                                  <h2 style={{
-                                                  fontSize:"38px",
-                                                  color:"#08285c",
-                                                  marginBottom:"18px",
-                                                  textAlign:"center"
-                                                  }}>
-                                                  Assistência em portões de garagem e automatismos exteriores
-                                                  </h2>
-                                                  
-                                                  <p style={{
-                                                  fontSize:"19px",
-                                                  lineHeight:"1.7",
-                                                  color:"#555",
-                                                  maxWidth:"780px",
-                                                  margin:"0 auto 40px auto",
-                                                  textAlign:"center"
-                                                  }}>
-                                                  Prestamos assistência a portões de garagem, portões de correr e portões de batente
-                                                  que não fecham corretamente, trabalhando com várias marcas e diferentes tipos de automatismo.
-                                                  </p>
-                                                  
-                                                  <div
-                                                  className="marcas-grid"
-                                                  style={{
-                                                  display:"grid",
-                                                  gridTemplateColumns:"repeat(auto-fit,minmax(150px,1fr))",
-                                                  gap:"16px"
-                                                  }}
-                                                  >
-                                                  
-                                                  {[
-                                                  "Motorline",
-                                                  "BFT",
-                                                  "Nice",
-                                                  "CAME",
-                                                  "FAAC",
-                                                  "DEA",
-                                                  "Beninca",
-                                                  "Somfy",
-                                                  "Roger",
-                                                  "V2",
-                                                  "LiftMaster",
-                                                  "outras marcas"
-                                                  ].map((marca,index)=>(
-                                                  
-                                                  <div
-                                                  key={index}
-                                                  className="cartao-marca"
-                                                  style={{
-                                                  background:"#eef3fa",
-                                                  padding:"18px 14px",
-                                                  borderRadius:"18px",
-                                                  textAlign:"center",
-                                                  fontWeight:"bold",
-                                                  color:"#08285c",
-                                                  boxShadow:"0 10px 24px rgba(11,44,95,0.08)"
-                                                  }}
-                                                  >
-                                                  {marca}
-                                                  </div>
-                                                  
-                                                  ))}
-                                                  
-                                                  </div>
-                                                  
-                                                  </section>
+                                                      <section
+                                                      style={{
+                                                      padding:"10px 0 70px"
+                                                      }}
+                                                      >
+                                                      
+                                                      <h2 style={{
+                                                      fontSize:"38px",
+                                                      color:"#08285c",
+                                                      marginBottom:"18px",
+                                                      textAlign:"center"
+                                                      }}>
+                                                      Verificação do motor, transmissão e movimento do portão
+                                                      </h2>
+                                                      
+                                                      <p style={{
+                                                      fontSize:"19px",
+                                                      lineHeight:"1.7",
+                                                      color:"#555",
+                                                      maxWidth:"840px",
+                                                      margin:"0 auto 42px auto",
+                                                      textAlign:"center"
+                                                      }}>
+                                                      Prestamos assistência a motores de portões automáticos que fazem barulho, tentam arrancar,
+                                                      mas não conseguem movimentar o portão. O diagnóstico pode envolver componentes elétricos,
+                                                      mecânicos e a própria estrutura do portão.
+                                                      </p>
+                                                      
+                                                      <div
+                                                      style={{
+                                                      display:"grid",
+                                                      gridTemplateColumns:"repeat(auto-fit,minmax(230px,1fr))",
+                                                      gap:"22px",
+                                                      marginBottom:"36px"
+                                                      }}
+                                                      >
+                                                      
+                                                      {[
+                                                      {
+                                                      title:"Motores de correr",
+                                                      text:"Verificação de pinhão, cremalheira, desbloqueio manual, rodas, calha e força de arranque."
+                                                      },
+                                                      
+                                                      {
+                                                      title:"Motores de batente",
+                                                      text:"Análise de braços, dobradiças, condensadores, esforço mecânico e movimento individual das folhas."
+                                                      },
+                                                      
+                                                      {
+                                                      title:"Portões de garagem",
+                                                      text:"Diagnóstico de motores de teto, calhas, transmissão, desbloqueio e portões seccionados ou basculantes."
+                                                      },
+                                                      
+                                                      {
+                                                      title:"Componentes elétricos",
+                                                      text:"Teste de condensador, alimentação, central eletrónica, ligações e sinais de aquecimento ou desgaste."
+                                                      }
+                                                      
+                                                      ].map((item,index)=>(
+                                                      
+                                                      <div
+                                                      key={index}
+                                                      style={{
+                                                      background:"#eef3fa",
+                                                      borderRadius:"24px",
+                                                      padding:"28px 24px",
+                                                      boxShadow:"0 12px 28px rgba(11,44,95,0.07)",
+                                                      border:"1px solid rgba(11,44,95,0.05)"
+                                                      }}
+                                                      >
+                                                      
+                                                      <h3 style={{
+                                                      color:"#08285c",
+                                                      fontSize:"22px",
+                                                      marginBottom:"12px"
+                                                      }}>
+                                                      {item.title}
+                                                      </h3>
+                                                      
+                                                      <p style={{
+                                                      color:"#444",
+                                                      lineHeight:"1.7",
+                                                      margin:"0"
+                                                      }}>
+                                                      {item.text}
+                                                      </p>
+                                                      
+                                                      </div>
+                                                      
+                                                      ))}
+                                                      
+                                                      </div>
+                                                      
+                                                      <div
+                                                      className="marcas-grid"
+                                                      style={{
+                                                      display:"grid",
+                                                      gridTemplateColumns:"repeat(auto-fit,minmax(150px,1fr))",
+                                                      gap:"16px"
+                                                      }}
+                                                      >
+                                                      
+                                                      {[
+                                                      "Motorline",
+                                                      "BFT",
+                                                      "Nice",
+                                                      "CAME",
+                                                      "FAAC",
+                                                      "DEA",
+                                                      "Beninca",
+                                                      "Roger",
+                                                      "Somfy",
+                                                      "V2",
+                                                      "LiftMaster",
+                                                      "outras marcas"
+                                                      ].map((marca,index)=>(
+                                                      
+                                                      <div
+                                                      key={index}
+                                                      className="cartao-marca"
+                                                      style={{
+                                                      background:"#f5f8fc",
+                                                      padding:"18px 14px",
+                                                      borderRadius:"18px",
+                                                      textAlign:"center",
+                                                      fontWeight:"bold",
+                                                      color:"#08285c",
+                                                      boxShadow:"0 10px 24px rgba(11,44,95,0.07)"
+                                                      }}
+                                                      >
+                                                      {marca}
+                                                      </div>
+                                                      
+                                                      ))}
+                                                      
+                                                      </div>
+                                                      
+                                                      </section>
 
-                                                                            <section
-                                                                            style={{
-                                                                            padding:"30px 0 20px",
-                                                                            textAlign:"center"
-                                                                            }}
-                                                                            >
-                                                                            
-                                                                            <div style={{
-                                                                            background:"linear-gradient(180deg,#f5f8fc 0%,#e8eef8 100%)",
-                                                                            borderRadius:"32px",
-                                                                            padding:"55px 35px",
-                                                                            boxShadow:"0 18px 40px rgba(11,44,95,0.08)"
-                                                                            }}
-                                                                            >
-                                                                            
-                                                                            <h2 style={{
-                                                                            fontSize:"42px",
-                                                                            color:"#08285c",
-                                                                            marginBottom:"18px"
-                                                                            }}>
-                                                                            O portão deixou de fechar corretamente?
-                                                                            </h2>
-                                                                            
-                                                                            <p style={{
-                                                                            fontSize:"20px",
-                                                                            lineHeight:"1.8",
-                                                                            color:"#555",
-                                                                            maxWidth:"780px",
-                                                                            margin:"0 auto 35px auto"
-                                                                            }}>
-                                                                            Se o portão não fecha, fecha só parcialmente ou volta a abrir sozinho,
-                                                                            o ideal é fazer um diagnóstico antes de forçar o automatismo ou alterar a programação.
-                                                                            </p>
-                                                                            
-                                                                            <div style={{
-                                                                            display:"flex",
-                                                                            justifyContent:"center",
-                                                                            gap:"16px",
-                                                                            flexWrap:"wrap"
-                                                                            }}>
-                                                                            
-                                                                            <a
-                                                                            href="https://wa.me/351922021980"
-                                                                            target="_blank"
-                                                                            style={{
-                                                                            background:"#25D366",
-                                                                            color:"white",
-                                                                            padding:"17px 28px",
-                                                                            borderRadius:"16px",
-                                                                            textDecoration:"none",
-                                                                            fontWeight:"bold",
-                                                                            fontSize:"17px",
-                                                                            boxShadow:"0 10px 25px rgba(37,211,102,.20)"
-                                                                            }}
-                                                                            >
-                                                                            Pedir assistência
-                                                                            </a>
-                                                                            
-                                                                            <a
-                                                                            href="tel:922021980"
-                                                                            style={{
-                                                                            background:"#08285c",
-                                                                            color:"white",
-                                                                            padding:"17px 28px",
-                                                                            borderRadius:"16px",
-                                                                            textDecoration:"none",
-                                                                            fontWeight:"bold",
-                                                                            fontSize:"17px",
-                                                                            boxShadow:"0 10px 25px rgba(8,40,92,.18)"
-                                                                            }}
-                                                                            >
-                                                                            Ligar agora
-                                                                            </a>
-                                                                            
-                                                                            </div>
-                                                                            
-                                                                            </div>
-                                                                            
-                                                                            </section>
+                        <section
+                        style={{
+                        padding:"30px 0 20px",
+                        textAlign:"center"
+                        }}
+                        >
+                        
+                        <div style={{
+                        background:"linear-gradient(180deg,#f5f8fc 0%,#e8eef8 100%)",
+                        borderRadius:"32px",
+                        padding:"55px 35px",
+                        boxShadow:"0 18px 40px rgba(11,44,95,0.08)"
+                        }}
+                        >
+                        
+                        <h2 style={{
+                        fontSize:"42px",
+                        color:"#08285c",
+                        marginBottom:"18px"
+                        }}>
+                        O motor trabalha mas o portão não abre?
+                        </h2>
+                        
+                        <p style={{
+                        fontSize:"20px",
+                        lineHeight:"1.8",
+                        color:"#555",
+                        maxWidth:"820px",
+                        margin:"0 auto 35px auto"
+                        }}>
+                        Se o motor faz barulho, tenta arrancar ou parece estar a trabalhar mas o portão não se mexe,
+                        não force o automatismo. A causa pode estar no condensador, na transmissão, no desbloqueio,
+                        na cremalheira ou no esforço mecânico do portão.
+                        </p>
+                        
+                        <div style={{
+                        display:"flex",
+                        justifyContent:"center",
+                        gap:"16px",
+                        flexWrap:"wrap"
+                        }}>
+                        
+                        <a
+                        href="https://wa.me/351922021980"
+                        target="_blank"
+                        style={{
+                        background:"#25D366",
+                        color:"white",
+                        padding:"17px 28px",
+                        borderRadius:"16px",
+                        textDecoration:"none",
+                        fontWeight:"bold",
+                        fontSize:"17px",
+                        boxShadow:"0 10px 25px rgba(37,211,102,.20)"
+                        }}
+                        >
+                        Pedir assistência
+                        </a>
+                        
+                        <a
+                        href="tel:922021980"
+                        style={{
+                        background:"#08285c",
+                        color:"white",
+                        padding:"17px 28px",
+                        borderRadius:"16px",
+                        textDecoration:"none",
+                        fontWeight:"bold",
+                        fontSize:"17px",
+                        boxShadow:"0 10px 25px rgba(8,40,92,.18)"
+                        }}
+                        >
+                        Ligar agora
+                        </a>
+                        
+                        </div>
+                        
+                        </div>
+                        
+                        </section>
 
+                                    
                         {/* NOVA PÁGINA AQUI */}
                                                      
   <footer style={{
