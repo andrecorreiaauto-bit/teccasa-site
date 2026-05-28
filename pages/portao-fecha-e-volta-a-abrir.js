@@ -429,7 +429,7 @@ style={{
                                    },
                                    
                                    {
-                                   image:"/sensibilidade-anti-esmagamento.png",
+                                   image:"/programacao-duas-folhas.png",
                                    title:"Sensibilidade mal ajustada",
                                    text:"A função anti-esmagamento pode estar demasiado sensível e fazer o portão inverter sem necessidade."
                                    },
@@ -441,7 +441,7 @@ style={{
                                    },
                                    
                                    {
-                                   image:"/central-portao-erro-seguranca.png",
+                                   image:"/central-modo-seguranca.png",
                                    title:"Erro na central",
                                    text:"Falhas de programação, ligações ou parâmetros de segurança podem provocar inversão automática do movimento."
                                    }
