@@ -435,7 +435,7 @@ style={{
                                    },
                                    
                                    {
-                                   image:"/fim-curso-mal-afinado.png",
+                                   image:"/fim-curso-fecho.png",
                                    title:"Fim de curso incorreto",
                                    text:"Uma má afinação do fim de curso pode fazer a central não reconhecer corretamente o ponto de fecho."
                                    },
