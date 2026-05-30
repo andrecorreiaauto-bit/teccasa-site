@@ -1194,7 +1194,8 @@ Soluções técnicas com foco em diagnóstico, transparência e apoio próximo.
                                                                   ["Portão abre só uma folha","/portao-abre-so-uma-folha"],
                                                                   ["Comando só funciona perto","/comando-garagem-so-funciona-perto"],
                                                                   ["Portão fecha e volta a abrir","/portao-fecha-e-volta-a-abrir"],
-                                                                  ["Motor faz barulho mas não abre","/motor-portao-faz-barulho-mas-nao-abre"]
+                                                                  ["Motor faz barulho mas não abre","/motor-portao-faz-barulho-mas-nao-abre"],
+                                                                  ["Portão garagem não abre","/portao-garagem-nao-abre"]
                                                                   ]
                                                                   },
                                                                   {
