@@ -610,7 +610,7 @@ style={{
                                                       fontWeight:"bold"
                                                     }}
                                                   >
-                                                    Pedir diagnóstico por WhatsApp
+                                                    Pedir assistência
                                                   </a>
                                               
                                                   <a
