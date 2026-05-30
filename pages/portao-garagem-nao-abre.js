@@ -384,7 +384,7 @@ style={{
                                            marginBottom:"16px",
                                            textAlign:"center"
                                            }}>
-                                           Porque é que o motor faz barulho mas o portão não abre?
+                                           Porque é que o portão da garagem não abre?
                                            </h2>
                                            
                                            <p style={{
@@ -395,9 +395,9 @@ style={{
                                            margin:"0 auto 45px auto",
                                            textAlign:"center"
                                            }}>
-                                           Quando o motor trabalha, faz ruído ou tenta arrancar, mas o portão não se movimenta,
-                                           a avaria pode estar relacionada com falta de força, transmissão mecânica,
-                                           desbloqueio mal encaixado, cremalheira, condensador ou esforço excessivo no portão.
+                                           Quando um portão de garagem automático deixa de abrir, a origem pode estar no comando,
+                                           no motor de teto, nas calhas, no sistema de desbloqueio, nas molas, nas fotocélulas
+                                           ou na própria central eletrónica do automatismo.
                                            </p>
                                            
                                            <div
@@ -411,39 +411,39 @@ style={{
                                            
                                            {[
                                            {
-                                           image:"/condensador-motor-portao.png",
-                                           title:"Condensador degradado",
-                                           text:"Um condensador fraco pode fazer o motor tentar arrancar, mas sem força suficiente para movimentar o portão."
+                                           image:"/motor-teto-garagem.png",
+                                           title:"Motor de teto sem resposta",
+                                           text:"O motor pode não receber sinal, estar sem alimentação ou ter uma avaria interna que impede a abertura."
                                            },
                                            
                                            {
-                                           image:"/cremalheira-desalinhada.png",
-                                           title:"Cremalheira desalinhada",
-                                           text:"Nos portões de correr, a cremalheira pode estar fora da posição correta e impedir a transmissão do movimento."
+                                           image:"/calhas-portao-garagem.png",
+                                           title:"Calhas ou guias presas",
+                                           text:"Nos portões seccionados ou basculantes, calhas desalinhadas ou com resistência podem bloquear o movimento."
                                            },
                                            
                                            {
-                                           image:"/motor-desbloqueado.png",
-                                           title:"Motor desbloqueado",
-                                           text:"Se o sistema de desbloqueio manual não estiver bem encaixado, o motor pode trabalhar sem mover o portão."
+                                           image:"/comando-garagem-falha-sinal.png",
+                                           title:"Comando sem sinal",
+                                           text:"O problema pode estar no comando, na pilha, no recetor RF ou na programação do automatismo."
                                            },
                                            
                                            {
-                                           image:"/engrenagem-motor-portao.png",
-                                           title:"Engrenagem danificada",
-                                           text:"Peças internas gastas ou partidas podem fazer ruído, mas deixar de transmitir força ao portão."
+                                           image:"/desbloqueio-garagem.png",
+                                           title:"Desbloqueio manual mal encaixado",
+                                           text:"Se o sistema de desbloqueio estiver acionado ou mal reposto, o motor pode trabalhar sem mover o portão."
                                            },
                                            
                                            {
-                                           image:"/portao-pesado-preso.png",
-                                           title:"Portão pesado ou preso",
-                                           text:"Rodas, calhas, dobradiças ou guias com esforço podem impedir o motor de conseguir iniciar o movimento."
+                                           image:"/molas-portao-garagem.png",
+                                           title:"Molas ou equilíbrio do portão",
+                                           text:"Um portão de garagem pesado ou desequilibrado pode impedir o motor de conseguir iniciar a abertura."
                                            },
                                            
                                            {
-                                           image:"/motor-portao-sem-forca.png",
-                                           title:"Motor sem força",
-                                           text:"O automatismo pode estar gasto, mal dimensionado ou com componentes internos a perder capacidade de arranque."
+                                           image:"/central-garagem-avaria.png",
+                                           title:"Falha na central eletrónica",
+                                           text:"A central pode estar em erro, com ligação defeituosa ou com parâmetros que impedem a abertura correta."
                                            }
                                            
                                            ].map((item,index)=>(
@@ -534,9 +534,8 @@ style={{
                                                               color:"#555",
                                                               marginBottom:"24px"
                                                               }}>
-                                                              Quando o motor faz barulho mas o portão não abre, há algumas verificações simples
-                                                              que podem ajudar a perceber se o problema é mecânico, elétrico ou relacionado com
-                                                              o desbloqueio manual.
+                                                              Quando o portão da garagem não abre, existem algumas verificações simples que podem ajudar
+                                                              a perceber se o problema está no comando, na alimentação elétrica ou no próprio movimento do portão.
                                                               </p>
                                                               
                                                               <ul style={{
@@ -548,11 +547,11 @@ style={{
                                                               }}>
                                                               
                                                               {[
-                                                              "Verificar se o portão está desbloqueado em modo manual",
-                                                              "Confirmar se há pedras, sujidade ou obstáculos na calha",
-                                                              "Observar se o motor roda mas o portão fica parado",
-                                                              "Testar se o portão se movimenta livremente à mão",
-                                                              "Evitar insistir se o motor fizer esforço ou cheiro a aquecimento"
+                                                              "Confirmar se o comando tem pilha e se o LED acende normalmente",
+                                                              "Testar o botão de parede ou outro comando, se existir",
+                                                              "Verificar se o motor de teto tem alimentação elétrica",
+                                                              "Observar se o portão tenta mexer ou fica completamente parado",
+                                                              "Confirmar se o desbloqueio manual ficou bem encaixado"
                                                               ].map((item,index)=>(
                                                               
                                                               <li
@@ -605,9 +604,9 @@ style={{
                                                               color:"#555",
                                                               marginBottom:"24px"
                                                               }}>
-                                                              Se o motor tenta trabalhar mas o portão não mexe, insistir repetidamente pode
-                                                              sobreaquecer o automatismo, danificar engrenagens ou agravar uma avaria que ainda
-                                                              poderia ser reparada.
+                                                              Se o motor tenta abrir mas o portão não se move, insistir várias vezes pode forçar
+                                                              o automatismo, danificar a transmissão ou agravar uma avaria mecânica nas calhas,
+                                                              molas ou sistema de abertura.
                                                               </p>
                                                               
                                                               <ul style={{
@@ -619,11 +618,11 @@ style={{
                                                               }}>
                                                               
                                                               {[
-                                                              "O motor faz ruído mas o portão não se desloca",
-                                                              "O automatismo aquece ou cheira a queimado",
-                                                              "O portão está pesado em modo manual",
-                                                              "O motor trabalha mas parece patinar",
-                                                              "A cremalheira, braço ou transmissão parecem fora do sítio"
+                                                              "O motor faz barulho mas o portão não sobe",
+                                                              "O portão sobe apenas alguns centímetros e pára",
+                                                              "O movimento está torto, preso ou irregular",
+                                                              "O portão parece pesado em modo manual",
+                                                              "As calhas, roldanas ou molas parecem fora do sítio"
                                                               ].map((item,index)=>(
                                                               
                                                               <li
@@ -657,7 +656,7 @@ style={{
                                                               </div>
                                                               
                                                               </section>
-
+                                                               
                                                                                          <section
                                                                                          style={{
                                                                                          padding:"10px 0 70px"
@@ -679,7 +678,7 @@ style={{
                                                                                          marginBottom:"18px",
                                                                                          textAlign:"center"
                                                                                          }}>
-                                                                                         Diagnóstico quando o motor trabalha mas o portão não se move
+                                                                                         Diagnóstico técnico em portões de garagem
                                                                                          </h2>
                                                                                          
                                                                                          <p style={{
@@ -690,9 +689,9 @@ style={{
                                                                                          margin:"0 auto 42px auto",
                                                                                          textAlign:"center"
                                                                                          }}>
-                                                                                         Quando o motor faz barulho mas o portão não abre, é importante perceber se o automatismo
-                                                                                         está realmente a transmitir movimento ou se existe uma falha mecânica, elétrica ou de força.
-                                                                                         O diagnóstico evita trocar o motor sem confirmar primeiro a origem da avaria.
+                                                                                         Quando um portão de garagem não abre, é importante analisar o sistema completo:
+                                                                                         motor de teto, comando, calhas, desbloqueio manual, transmissão, equilíbrio do portão
+                                                                                         e resposta da central eletrónica. Assim evitamos trocar peças sem confirmar a origem da avaria.
                                                                                          </p>
                                                                                          
                                                                                          <div style={{
@@ -705,26 +704,26 @@ style={{
                                                                                          {[
                                                                                          {
                                                                                          number:"1",
-                                                                                         title:"Teste do portão em manual",
-                                                                                         text:"Verificamos se o portão se desloca livremente sem o motor ou se está preso, pesado ou desalinhado."
+                                                                                         title:"Teste do comando e botão",
+                                                                                         text:"Verificamos se o comando, o botão de parede ou o recetor estão a enviar ordem ao automatismo."
                                                                                          },
                                                                                          
                                                                                          {
                                                                                          number:"2",
-                                                                                         title:"Verificação da transmissão",
-                                                                                         text:"Analisamos cremalheira, pinhão, braço, desbloqueio manual e peças que transferem a força do motor."
+                                                                                         title:"Análise do motor de teto",
+                                                                                         text:"Confirmamos se o motor recebe alimentação, tenta arrancar e transmite movimento corretamente."
                                                                                          },
                                                                                          
                                                                                          {
                                                                                          number:"3",
-                                                                                         title:"Teste elétrico do motor",
-                                                                                         text:"Confirmamos condensador, alimentação, arranque do motor e sinais de perda de força ou aquecimento."
+                                                                                         title:"Verificação das calhas",
+                                                                                         text:"Analisamos calhas, roldanas, guias e pontos de atrito que possam impedir o portão de subir."
                                                                                          },
                                                                                          
                                                                                          {
                                                                                          number:"4",
-                                                                                         title:"Reparação ou afinação",
-                                                                                         text:"Sempre que possível, corrigimos a causa com afinação, substituição de peça pontual ou ajuste do sistema."
+                                                                                         title:"Avaliação do esforço",
+                                                                                         text:"Testamos se o portão está equilibrado, pesado ou preso, principalmente em sistemas seccionados e basculantes."
                                                                                          }
                                                                                          
                                                                                          ].map((item,index)=>(
@@ -793,7 +792,7 @@ style={{
                                                       marginBottom:"18px",
                                                       textAlign:"center"
                                                       }}>
-                                                      Verificação do motor, transmissão e movimento do portão
+                                                      Assistência em portões de garagem automáticos
                                                       </h2>
                                                       
                                                       <p style={{
@@ -804,9 +803,9 @@ style={{
                                                       margin:"0 auto 42px auto",
                                                       textAlign:"center"
                                                       }}>
-                                                      Prestamos assistência a motores de portões automáticos que fazem barulho, tentam arrancar,
-                                                      mas não conseguem movimentar o portão. O diagnóstico pode envolver componentes elétricos,
-                                                      mecânicos e a própria estrutura do portão.
+                                                      Prestamos assistência a portões de garagem residenciais que deixaram de abrir,
+                                                      incluindo sistemas com motor de teto, portões seccionados, portões basculantes,
+                                                      calhas, comandos, recetores e automatismos multimarca.
                                                       </p>
                                                       
                                                       <div
@@ -820,23 +819,23 @@ style={{
                                                       
                                                       {[
                                                       {
-                                                      title:"Motores de correr",
-                                                      text:"Verificação de pinhão, cremalheira, desbloqueio manual, rodas, calha e força de arranque."
+                                                      title:"Portões seccionados",
+                                                      text:"Verificação de calhas, roldanas, painéis, equilíbrio do portão e funcionamento do motor de teto."
                                                       },
                                                       
                                                       {
-                                                      title:"Motores de batente",
-                                                      text:"Análise de braços, dobradiças, condensadores, esforço mecânico e movimento individual das folhas."
+                                                      title:"Portões basculantes",
+                                                      text:"Diagnóstico de esforço mecânico, braços, molas, desbloqueio manual e movimento de abertura."
                                                       },
                                                       
                                                       {
-                                                      title:"Portões de garagem",
-                                                      text:"Diagnóstico de motores de teto, calhas, transmissão, desbloqueio e portões seccionados ou basculantes."
+                                                      title:"Motores de teto",
+                                                      text:"Análise da transmissão, alimentação elétrica, comando, recetor, corrente ou correia de acionamento."
                                                       },
                                                       
                                                       {
-                                                      title:"Componentes elétricos",
-                                                      text:"Teste de condensador, alimentação, central eletrónica, ligações e sinais de aquecimento ou desgaste."
+                                                      title:"Sistemas residenciais",
+                                                      text:"Assistência em garagens de moradias, condomínios pequenos e acessos automáticos de uso diário."
                                                       }
                                                       
                                                       ].map((item,index)=>(
@@ -891,8 +890,8 @@ style={{
                                                       "FAAC",
                                                       "DEA",
                                                       "Beninca",
-                                                      "Roger",
                                                       "Somfy",
+                                                      "Roger",
                                                       "V2",
                                                       "LiftMaster",
                                                       "outras marcas"
@@ -940,7 +939,7 @@ style={{
                         color:"#08285c",
                         marginBottom:"18px"
                         }}>
-                        O motor trabalha mas o portão não abre?
+                        O portão da garagem deixou de abrir?
                         </h2>
                         
                         <p style={{
@@ -950,9 +949,9 @@ style={{
                         maxWidth:"820px",
                         margin:"0 auto 35px auto"
                         }}>
-                        Se o motor faz barulho, tenta arrancar ou parece estar a trabalhar mas o portão não se mexe,
-                        não force o automatismo. A causa pode estar no condensador, na transmissão, no desbloqueio,
-                        na cremalheira ou no esforço mecânico do portão.
+                        Se o portão de garagem não abre, não force o motor nem tente levantar o portão sem perceber a causa.
+                        O problema pode estar no comando, no motor de teto, nas calhas, no desbloqueio manual,
+                        nas molas ou no esforço mecânico do sistema.
                         </p>
                         
                         <div style={{
