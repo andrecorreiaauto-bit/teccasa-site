@@ -384,20 +384,20 @@ style={{
                                            marginBottom:"16px",
                                            textAlign:"center"
                                            }}>
-                                           Porque é que o motor faz barulho mas o portão não abre?
+                                           Porque é que o motor do portão perde força?
                                            </h2>
                                            
                                            <p style={{
                                            fontSize:"19px",
                                            lineHeight:"1.7",
                                            color:"#555",
-                                           maxWidth:"820px",
+                                           maxWidth:"830px",
                                            margin:"0 auto 45px auto",
                                            textAlign:"center"
                                            }}>
-                                           Quando o motor trabalha, faz ruído ou tenta arrancar, mas o portão não se movimenta,
-                                           a avaria pode estar relacionada com falta de força, transmissão mecânica,
-                                           desbloqueio mal encaixado, cremalheira, condensador ou esforço excessivo no portão.
+                                           Quando um portão automático começa a abrir devagar, perde força ou pára com facilidade,
+                                           a origem pode estar no motor, no condensador, no esforço mecânico do portão,
+                                           na afinação da central ou no desgaste natural do automatismo.
                                            </p>
                                            
                                            <div
@@ -411,39 +411,39 @@ style={{
                                            
                                            {[
                                            {
-                                           image:"/condensador-motor-portao.png",
-                                           title:"Condensador degradado",
-                                           text:"Um condensador fraco pode fazer o motor tentar arrancar, mas sem força suficiente para movimentar o portão."
+                                           image:"/condensador-fraco-portao.png",
+                                           title:"Condensador fraco",
+                                           text:"Em muitos motores, um condensador degradado reduz a força de arranque e faz o portão abrir com dificuldade."
                                            },
                                            
                                            {
-                                           image:"/cremalheira-desalinhada.png",
-                                           title:"Cremalheira desalinhada",
-                                           text:"Nos portões de correr, a cremalheira pode estar fora da posição correta e impedir a transmissão do movimento."
+                                           image:"/portao-abre-devagar.png",
+                                           title:"Portão abre devagar",
+                                           text:"Quando o movimento fica lento ou irregular, pode existir esforço mecânico, falta de afinação ou perda de rendimento do motor."
                                            },
                                            
                                            {
-                                           image:"/motor-desbloqueado.png",
-                                           title:"Motor desbloqueado",
-                                           text:"Se o sistema de desbloqueio manual não estiver bem encaixado, o motor pode trabalhar sem mover o portão."
-                                           },
-                                           
-                                           {
-                                           image:"/engrenagem-motor-portao.png",
-                                           title:"Engrenagem danificada",
-                                           text:"Peças internas gastas ou partidas podem fazer ruído, mas deixar de transmitir força ao portão."
-                                           },
-                                           
-                                           {
-                                           image:"/portao-pesado-preso.png",
+                                           image:"/portao-pesado-calhas.png",
                                            title:"Portão pesado ou preso",
-                                           text:"Rodas, calhas, dobradiças ou guias com esforço podem impedir o motor de conseguir iniciar o movimento."
+                                           text:"Rodas, calhas, dobradiças ou guias com resistência obrigam o motor a trabalhar acima do esforço normal."
                                            },
                                            
                                            {
-                                           image:"/motor-portao-sem-forca.png",
-                                           title:"Motor sem força",
-                                           text:"O automatismo pode estar gasto, mal dimensionado ou com componentes internos a perder capacidade de arranque."
+                                           image:"/forca-central-portao.png",
+                                           title:"Força mal ajustada",
+                                           text:"A central pode estar configurada com força insuficiente ou parâmetros inadequados ao peso real do portão."
+                                           },
+                                           
+                                           {
+                                           image:"/motor-portao-desgastado.png",
+                                           title:"Motor desgastado",
+                                           text:"Com o uso, alguns automatismos perdem capacidade de arranque e deixam de movimentar o portão com a mesma facilidade."
+                                           },
+                                           
+                                           {
+                                           image:"/portao-precisa-ajuda.png",
+                                           title:"Portão precisa de ajuda",
+                                           text:"Se o portão só abre quando é ajudado manualmente, é sinal de que existe esforço excessivo ou falta de força no sistema."
                                            }
                                            
                                            ].map((item,index)=>(
@@ -498,7 +498,7 @@ style={{
                                            </div>
                                            
                                            </section>
-
+                                            
                                                               <section
                                                               style={{
                                                               padding:"10px 0 70px"
@@ -534,9 +534,9 @@ style={{
                                                               color:"#555",
                                                               marginBottom:"24px"
                                                               }}>
-                                                              Quando o motor faz barulho mas o portão não abre, há algumas verificações simples
-                                                              que podem ajudar a perceber se o problema é mecânico, elétrico ou relacionado com
-                                                              o desbloqueio manual.
+                                                              Quando o motor do portão parece estar sem força, é importante perceber se o portão
+                                                              está pesado, se o movimento ficou mais lento ou se o automatismo perdeu capacidade
+                                                              de arranque ao longo do tempo.
                                                               </p>
                                                               
                                                               <ul style={{
@@ -548,11 +548,11 @@ style={{
                                                               }}>
                                                               
                                                               {[
-                                                              "Verificar se o portão está desbloqueado em modo manual",
-                                                              "Confirmar se há pedras, sujidade ou obstáculos na calha",
-                                                              "Observar se o motor roda mas o portão fica parado",
-                                                              "Testar se o portão se movimenta livremente à mão",
-                                                              "Evitar insistir se o motor fizer esforço ou cheiro a aquecimento"
+                                                              "Verificar se o portão se move livremente em modo manual",
+                                                              "Observar se o problema acontece sempre ou apenas às vezes",
+                                                              "Confirmar se o portão ficou mais lento do que o habitual",
+                                                              "Verificar se há sujidade, pedras ou resistência na calha",
+                                                              "Evitar ajudar o portão manualmente de forma repetida"
                                                               ].map((item,index)=>(
                                                               
                                                               <li
@@ -605,9 +605,9 @@ style={{
                                                               color:"#555",
                                                               marginBottom:"24px"
                                                               }}>
-                                                              Se o motor tenta trabalhar mas o portão não mexe, insistir repetidamente pode
-                                                              sobreaquecer o automatismo, danificar engrenagens ou agravar uma avaria que ainda
-                                                              poderia ser reparada.
+                                                              Se o motor está a perder força, insistir pode aquecer o automatismo,
+                                                              forçar componentes internos ou agravar uma avaria que ainda poderia ser resolvida
+                                                              com afinação ou substituição de uma peça simples.
                                                               </p>
                                                               
                                                               <ul style={{
@@ -619,11 +619,11 @@ style={{
                                                               }}>
                                                               
                                                               {[
-                                                              "O motor faz ruído mas o portão não se desloca",
-                                                              "O automatismo aquece ou cheira a queimado",
-                                                              "O portão está pesado em modo manual",
-                                                              "O motor trabalha mas parece patinar",
-                                                              "A cremalheira, braço ou transmissão parecem fora do sítio"
+                                                              "O portão só abre quando é ajudado à mão",
+                                                              "O motor aquece ou faz mais ruído do que o normal",
+                                                              "O portão pára a meio do percurso com frequência",
+                                                              "O movimento está lento, irregular ou aos solavancos",
+                                                              "O portão parece pesado mesmo quando está desbloqueado"
                                                               ].map((item,index)=>(
                                                               
                                                               <li
@@ -679,7 +679,7 @@ style={{
                                                                                          marginBottom:"18px",
                                                                                          textAlign:"center"
                                                                                          }}>
-                                                                                         Diagnóstico quando o motor trabalha mas o portão não se move
+                                                                                         Diagnóstico quando o motor do portão está sem força
                                                                                          </h2>
                                                                                          
                                                                                          <p style={{
@@ -690,9 +690,9 @@ style={{
                                                                                          margin:"0 auto 42px auto",
                                                                                          textAlign:"center"
                                                                                          }}>
-                                                                                         Quando o motor faz barulho mas o portão não abre, é importante perceber se o automatismo
-                                                                                         está realmente a transmitir movimento ou se existe uma falha mecânica, elétrica ou de força.
-                                                                                         O diagnóstico evita trocar o motor sem confirmar primeiro a origem da avaria.
+                                                                                         Quando o motor do portão perde força, o problema nem sempre está no próprio motor.
+                                                                                         Antes de substituir o automatismo, verificamos o esforço mecânico do portão,
+                                                                                         o condensador, a afinação da central, a alimentação elétrica e o estado geral da instalação.
                                                                                          </p>
                                                                                          
                                                                                          <div style={{
@@ -705,26 +705,26 @@ style={{
                                                                                          {[
                                                                                          {
                                                                                          number:"1",
-                                                                                         title:"Teste do portão em manual",
-                                                                                         text:"Verificamos se o portão se desloca livremente sem o motor ou se está preso, pesado ou desalinhado."
+                                                                                         title:"Teste em modo manual",
+                                                                                         text:"Verificamos se o portão se movimenta livremente ou se está pesado, preso ou desalinhado."
                                                                                          },
                                                                                          
                                                                                          {
                                                                                          number:"2",
-                                                                                         title:"Verificação da transmissão",
-                                                                                         text:"Analisamos cremalheira, pinhão, braço, desbloqueio manual e peças que transferem a força do motor."
+                                                                                         title:"Análise do condensador",
+                                                                                         text:"Confirmamos se o condensador ainda garante força de arranque suficiente para o motor trabalhar corretamente."
                                                                                          },
                                                                                          
                                                                                          {
                                                                                          number:"3",
-                                                                                         title:"Teste elétrico do motor",
-                                                                                         text:"Confirmamos condensador, alimentação, arranque do motor e sinais de perda de força ou aquecimento."
+                                                                                         title:"Verificação da afinação",
+                                                                                         text:"Analisamos força, tempos de trabalho, abrandamento e parâmetros da central eletrónica."
                                                                                          },
                                                                                          
                                                                                          {
                                                                                          number:"4",
-                                                                                         title:"Reparação ou afinação",
-                                                                                         text:"Sempre que possível, corrigimos a causa com afinação, substituição de peça pontual ou ajuste do sistema."
+                                                                                         title:"Avaliação do automatismo",
+                                                                                         text:"Confirmamos se o motor está adequado ao peso do portão ou se apresenta sinais de desgaste."
                                                                                          }
                                                                                          
                                                                                          ].map((item,index)=>(
@@ -793,7 +793,7 @@ style={{
                                                       marginBottom:"18px",
                                                       textAlign:"center"
                                                       }}>
-                                                      Verificação do motor, transmissão e movimento do portão
+                                                      Verificação do motor, esforço e movimento do portão
                                                       </h2>
                                                       
                                                       <p style={{
@@ -804,9 +804,9 @@ style={{
                                                       margin:"0 auto 42px auto",
                                                       textAlign:"center"
                                                       }}>
-                                                      Prestamos assistência a motores de portões automáticos que fazem barulho, tentam arrancar,
-                                                      mas não conseguem movimentar o portão. O diagnóstico pode envolver componentes elétricos,
-                                                      mecânicos e a própria estrutura do portão.
+                                                      Prestamos assistência a motores de portões automáticos que perderam força,
+                                                      abrem devagar, param a meio ou precisam de ajuda para movimentar o portão.
+                                                      O diagnóstico pode envolver o motor, a central, o condensador e o próprio esforço mecânico da instalação.
                                                       </p>
                                                       
                                                       <div
@@ -820,23 +820,23 @@ style={{
                                                       
                                                       {[
                                                       {
-                                                      title:"Motores de correr",
-                                                      text:"Verificação de pinhão, cremalheira, desbloqueio manual, rodas, calha e força de arranque."
+                                                      title:"Portões de correr",
+                                                      text:"Verificação de rodas, calha, cremalheira, pinhão, peso do portão e força de arranque do motor."
                                                       },
                                                       
                                                       {
-                                                      title:"Motores de batente",
-                                                      text:"Análise de braços, dobradiças, condensadores, esforço mecânico e movimento individual das folhas."
+                                                      title:"Portões de batente",
+                                                      text:"Análise de braços, dobradiças, condensadores, afinação de força e esforço individual de cada folha."
                                                       },
                                                       
                                                       {
                                                       title:"Portões de garagem",
-                                                      text:"Diagnóstico de motores de teto, calhas, transmissão, desbloqueio e portões seccionados ou basculantes."
+                                                      text:"Diagnóstico de motores de teto, calhas, molas, equilíbrio do portão e sistemas seccionados ou basculantes."
                                                       },
                                                       
                                                       {
-                                                      title:"Componentes elétricos",
-                                                      text:"Teste de condensador, alimentação, central eletrónica, ligações e sinais de aquecimento ou desgaste."
+                                                      title:"Afinação e componentes",
+                                                      text:"Teste de condensador, força da central, abrandamento, alimentação elétrica e sinais de desgaste do automatismo."
                                                       }
                                                       
                                                       ].map((item,index)=>(
@@ -887,14 +887,14 @@ style={{
                                                       "Motorline",
                                                       "BFT",
                                                       "Nice",
+                                                      "Ditec",
+                                                      "Roger",
                                                       "CAME",
                                                       "FAAC",
                                                       "DEA",
                                                       "Beninca",
-                                                      "Roger",
                                                       "Somfy",
                                                       "V2",
-                                                      "LiftMaster",
                                                       "outras marcas"
                                                       ].map((marca,index)=>(
                                                       
@@ -940,7 +940,7 @@ style={{
                         color:"#08285c",
                         marginBottom:"18px"
                         }}>
-                        O motor trabalha mas o portão não abre?
+                        O motor do portão perdeu força?
                         </h2>
                         
                         <p style={{
@@ -950,9 +950,9 @@ style={{
                         maxWidth:"820px",
                         margin:"0 auto 35px auto"
                         }}>
-                        Se o motor faz barulho, tenta arrancar ou parece estar a trabalhar mas o portão não se mexe,
-                        não force o automatismo. A causa pode estar no condensador, na transmissão, no desbloqueio,
-                        na cremalheira ou no esforço mecânico do portão.
+                        Se o portão abre devagar, pára a meio ou só se movimenta quando é ajudado manualmente,
+                        não force o automatismo. A causa pode estar no condensador, no esforço mecânico,
+                        na afinação da central ou no desgaste do próprio motor.
                         </p>
                         
                         <div style={{
