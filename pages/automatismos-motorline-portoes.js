@@ -575,154 +575,89 @@ export default function AutomatismosMotorlinePortoes() {
                                                               }}
                                                               >
                                                               
-                                                              <div style={{
-                                                              display:"grid",
-                                                              gridTemplateColumns:"repeat(auto-fit,minmax(300px,1fr))",
-                                                              gap:"28px",
-                                                              alignItems:"stretch"
+                                                              <h2 style={{
+                                                              fontSize:"38px",
+                                                              color:"#08285c",
+                                                              marginBottom:"18px",
+                                                              textAlign:"center"
                                                               }}>
+                                                              Automatismos Motorline para diferentes tipos de portão
+                                                              </h2>
                                                               
-                                                              <div style={{
+                                                              <p style={{
+                                                              fontSize:"19px",
+                                                              lineHeight:"1.7",
+                                                              color:"#555",
+                                                              maxWidth:"830px",
+                                                              margin:"0 auto 42px auto",
+                                                              textAlign:"center"
+                                                              }}>
+                                                              Os automatismos Motorline podem ser aplicados em diferentes tipos de portão,
+                                                              desde que o equipamento seja adequado ao peso, dimensões, frequência de utilização
+                                                              e condições mecânicas da instalação.
+                                                              </p>
+                                                              
+                                                              <div
+                                                              style={{
+                                                              display:"grid",
+                                                              gridTemplateColumns:"repeat(auto-fit,minmax(250px,1fr))",
+                                                              gap:"22px"
+                                                              }}
+                                                              >
+                                                              
+                                                              {[
+                                                              {
+                                                              title:"Portões de correr",
+                                                              text:"Instalação e assistência a motores Motorline para portões de correr, incluindo cremalheira, fins de curso, comandos, fotocélulas e afinação de força."
+                                                              },
+                                                              
+                                                              {
+                                                              title:"Portões de batente",
+                                                              text:"Montagem, programação e diagnóstico de automatismos Motorline para portões de duas folhas, com afinação de tempos, atraso entre folhas e abertura pedonal."
+                                                              },
+                                                              
+                                                              {
+                                                              title:"Portões de garagem",
+                                                              text:"Assistência a motores Motorline para portões seccionados ou basculantes, com verificação de calhas, desbloqueio manual, comandos e força de abertura."
+                                                              },
+                                                              
+                                                              {
+                                                              title:"Substituição de sistemas antigos",
+                                                              text:"Avaliação de automatismos antigos ou avariados e substituição por soluções compatíveis com o tipo de portão e utilização diária."
+                                                              }
+                                                              
+                                                              ].map((item,index)=>(
+                                                              
+                                                              <div
+                                                              key={index}
+                                                              style={{
                                                               background:"#f5f8fc",
-                                                              borderRadius:"28px",
-                                                              padding:"34px",
-                                                              boxShadow:"0 14px 35px rgba(11,44,95,0.07)",
+                                                              borderRadius:"24px",
+                                                              padding:"30px 26px",
+                                                              boxShadow:"0 12px 28px rgba(11,44,95,0.07)",
                                                               border:"1px solid rgba(11,44,95,0.06)"
-                                                              }}>
-                                                              
-                                                              <h2 style={{
-                                                              fontSize:"34px",
-                                                              color:"#08285c",
-                                                              marginBottom:"18px"
-                                                              }}>
-                                                              O que pode verificar primeiro?
-                                                              </h2>
-                                                              
-                                                              <p style={{
-                                                              fontSize:"18px",
-                                                              lineHeight:"1.75",
-                                                              color:"#555",
-                                                              marginBottom:"24px"
-                                                              }}>
-                                                              Quando o motor do portão parece estar sem força, é importante perceber se o portão
-                                                              está pesado, se o movimento ficou mais lento ou se o automatismo perdeu capacidade
-                                                              de arranque ao longo do tempo.
-                                                              </p>
-                                                              
-                                                              <ul style={{
-                                                              listStyle:"none",
-                                                              padding:"0",
-                                                              margin:"0",
-                                                              display:"grid",
-                                                              gap:"14px"
-                                                              }}>
-                                                              
-                                                              {[
-                                                              "Verificar se o portão se move livremente em modo manual",
-                                                              "Observar se o problema acontece sempre ou apenas às vezes",
-                                                              "Confirmar se o portão ficou mais lento do que o habitual",
-                                                              "Verificar se há sujidade, pedras ou resistência na calha",
-                                                              "Evitar ajudar o portão manualmente de forma repetida"
-                                                              ].map((item,index)=>(
-                                                              
-                                                              <li
-                                                              key={index}
-                                                              style={{
-                                                              display:"flex",
-                                                              gap:"12px",
-                                                              alignItems:"flex-start",
-                                                              fontSize:"17px",
-                                                              lineHeight:"1.6",
-                                                              color:"#444"
                                                               }}
                                                               >
-                                                              <span style={{
-                                                              color:"#25D366",
-                                                              fontWeight:"bold",
-                                                              fontSize:"20px",
-                                                              lineHeight:"1.4"
+                                                              
+                                                              <h3 style={{
+                                                              color:"#08285c",
+                                                              fontSize:"23px",
+                                                              marginBottom:"12px"
                                                               }}>
-                                                              ✓
-                                                              </span>
-                                                              <span>{item}</span>
-                                                              </li>
+                                                              {item.title}
+                                                              </h3>
                                                               
-                                                              ))}
-                                                              
-                                                              </ul>
+                                                              <p style={{
+                                                              color:"#444",
+                                                              lineHeight:"1.7",
+                                                              margin:"0"
+                                                              }}>
+                                                              {item.text}
+                                                              </p>
                                                               
                                                               </div>
                                                               
-                                                              <div style={{
-                                                              background:"#eef3fa",
-                                                              borderRadius:"28px",
-                                                              padding:"34px",
-                                                              boxShadow:"0 14px 35px rgba(11,44,95,0.08)",
-                                                              border:"1px solid rgba(11,44,95,0.06)"
-                                                              }}>
-                                                              
-                                                              <h2 style={{
-                                                              fontSize:"34px",
-                                                              color:"#08285c",
-                                                              marginBottom:"18px"
-                                                              }}>
-                                                              Quando não deve insistir?
-                                                              </h2>
-                                                              
-                                                              <p style={{
-                                                              fontSize:"18px",
-                                                              lineHeight:"1.75",
-                                                              color:"#555",
-                                                              marginBottom:"24px"
-                                                              }}>
-                                                              Se o motor está a perder força, insistir pode aquecer o automatismo,
-                                                              forçar componentes internos ou agravar uma avaria que ainda poderia ser resolvida
-                                                              com afinação ou substituição de uma peça simples.
-                                                              </p>
-                                                              
-                                                              <ul style={{
-                                                              listStyle:"none",
-                                                              padding:"0",
-                                                              margin:"0",
-                                                              display:"grid",
-                                                              gap:"14px"
-                                                              }}>
-                                                              
-                                                              {[
-                                                              "O portão só abre quando é ajudado à mão",
-                                                              "O motor aquece ou faz mais ruído do que o normal",
-                                                              "O portão pára a meio do percurso com frequência",
-                                                              "O movimento está lento, irregular ou aos solavancos",
-                                                              "O portão parece pesado mesmo quando está desbloqueado"
-                                                              ].map((item,index)=>(
-                                                              
-                                                              <li
-                                                              key={index}
-                                                              style={{
-                                                              display:"flex",
-                                                              gap:"12px",
-                                                              alignItems:"flex-start",
-                                                              fontSize:"17px",
-                                                              lineHeight:"1.6",
-                                                              color:"#444"
-                                                              }}
-                                                              >
-                                                              <span style={{
-                                                              color:"#d97706",
-                                                              fontWeight:"bold",
-                                                              fontSize:"20px",
-                                                              lineHeight:"1.4"
-                                                              }}>
-                                                              !
-                                                              </span>
-                                                              <span>{item}</span>
-                                                              </li>
-                                                              
                                                               ))}
-                                                              
-                                                              </ul>
-                                                              
-                                                              </div>
                                                               
                                                               </div>
                                                               
