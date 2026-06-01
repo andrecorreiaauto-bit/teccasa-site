@@ -845,139 +845,157 @@ export default function AutomatismosMotorlinePortoes() {
                                                       }}
                                                       >
                                                       
-                                                      <h2 style={{
-                                                      fontSize:"38px",
-                                                      color:"#08285c",
-                                                      marginBottom:"18px",
-                                                      textAlign:"center"
+                                                      <div style={{
+                                                      display:"grid",
+                                                      gridTemplateColumns:"repeat(auto-fit,minmax(300px,1fr))",
+                                                      gap:"28px",
+                                                      alignItems:"stretch"
                                                       }}>
-                                                      Verificação do motor, esforço e movimento do portão
+                                                      
+                                                      <div style={{
+                                                      background:"#f5f8fc",
+                                                      borderRadius:"28px",
+                                                      padding:"34px",
+                                                      boxShadow:"0 14px 35px rgba(11,44,95,0.07)",
+                                                      border:"1px solid rgba(11,44,95,0.06)"
+                                                      }}>
+                                                      
+                                                      <h2 style={{
+                                                      fontSize:"34px",
+                                                      color:"#08285c",
+                                                      marginBottom:"18px"
+                                                      }}>
+                                                      Quando instalar um automatismo Motorline?
                                                       </h2>
                                                       
                                                       <p style={{
-                                                      fontSize:"19px",
-                                                      lineHeight:"1.7",
+                                                      fontSize:"18px",
+                                                      lineHeight:"1.75",
                                                       color:"#555",
-                                                      maxWidth:"840px",
-                                                      margin:"0 auto 42px auto",
-                                                      textAlign:"center"
+                                                      marginBottom:"24px"
                                                       }}>
-                                                      Prestamos assistência a motores de portões automáticos que perderam força,
-                                                      abrem devagar, param a meio ou precisam de ajuda para movimentar o portão.
-                                                      O diagnóstico pode envolver o motor, a central, o condensador e o próprio esforço mecânico da instalação.
+                                                      A instalação de um novo automatismo pode ser indicada quando o portão ainda é manual,
+                                                      quando o sistema antigo já não responde bem ou quando se pretende melhorar o conforto,
+                                                      a segurança e a utilização diária.
                                                       </p>
                                                       
-                                                      <div
-                                                      style={{
+                                                      <ul style={{
+                                                      listStyle:"none",
+                                                      padding:"0",
+                                                      margin:"0",
                                                       display:"grid",
-                                                      gridTemplateColumns:"repeat(auto-fit,minmax(230px,1fr))",
-                                                      gap:"22px",
-                                                      marginBottom:"36px"
-                                                      }}
-                                                      >
+                                                      gap:"14px"
+                                                      }}>
                                                       
                                                       {[
-                                                      {
-                                                      title:"Portões de correr",
-                                                      text:"Verificação de rodas, calha, cremalheira, pinhão, peso do portão e força de arranque do motor."
-                                                      },
-                                                      
-                                                      {
-                                                      title:"Portões de batente",
-                                                      text:"Análise de braços, dobradiças, condensadores, afinação de força e esforço individual de cada folha."
-                                                      },
-                                                      
-                                                      {
-                                                      title:"Portões de garagem",
-                                                      text:"Diagnóstico de motores de teto, calhas, molas, equilíbrio do portão e sistemas seccionados ou basculantes."
-                                                      },
-                                                      
-                                                      {
-                                                      title:"Afinação e componentes",
-                                                      text:"Teste de condensador, força da central, abrandamento, alimentação elétrica e sinais de desgaste do automatismo."
-                                                      }
-                                                      
+                                                      "Portão manual que pretende automatizar",
+                                                      "Motor antigo, lento ou pouco fiável",
+                                                      "Necessidade de comandos novos ou abertura pedonal",
+                                                      "Melhoria da segurança com fotocélulas e afinações corretas",
+                                                      "Substituição por equipamento mais adequado ao peso do portão"
                                                       ].map((item,index)=>(
                                                       
-                                                      <div
+                                                      <li
                                                       key={index}
                                                       style={{
-                                                      background:"#eef3fa",
-                                                      borderRadius:"24px",
-                                                      padding:"28px 24px",
-                                                      boxShadow:"0 12px 28px rgba(11,44,95,0.07)",
-                                                      border:"1px solid rgba(11,44,95,0.05)"
+                                                      display:"flex",
+                                                      gap:"12px",
+                                                      alignItems:"flex-start",
+                                                      fontSize:"17px",
+                                                      lineHeight:"1.6",
+                                                      color:"#444"
                                                       }}
                                                       >
-                                                      
-                                                      <h3 style={{
-                                                      color:"#08285c",
-                                                      fontSize:"22px",
-                                                      marginBottom:"12px"
+                                                      <span style={{
+                                                      color:"#25D366",
+                                                      fontWeight:"bold",
+                                                      fontSize:"20px",
+                                                      lineHeight:"1.4"
                                                       }}>
-                                                      {item.title}
-                                                      </h3>
+                                                      ✓
+                                                      </span>
+                                                      <span>{item}</span>
+                                                      </li>
+                                                      
+                                                      ))}
+                                                      
+                                                      </ul>
+                                                      
+                                                      </div>
+                                                      
+                                                      <div style={{
+                                                      background:"#eef3fa",
+                                                      borderRadius:"28px",
+                                                      padding:"34px",
+                                                      boxShadow:"0 14px 35px rgba(11,44,95,0.08)",
+                                                      border:"1px solid rgba(11,44,95,0.06)"
+                                                      }}>
+                                                      
+                                                      <h2 style={{
+                                                      fontSize:"34px",
+                                                      color:"#08285c",
+                                                      marginBottom:"18px"
+                                                      }}>
+                                                      Quando pode compensar reparar?
+                                                      </h2>
                                                       
                                                       <p style={{
-                                                      color:"#444",
-                                                      lineHeight:"1.7",
-                                                      margin:"0"
+                                                      fontSize:"18px",
+                                                      lineHeight:"1.75",
+                                                      color:"#555",
+                                                      marginBottom:"24px"
                                                       }}>
-                                                      {item.text}
+                                                      Nem todas as avarias obrigam à substituição do motor. Em muitos casos, uma afinação,
+                                                      programação, correção de ligação ou substituição de componente pode resolver o problema.
                                                       </p>
                                                       
-                                                      </div>
-                                                      
-                                                      ))}
-                                                      
-                                                      </div>
-                                                      
-                                                      <div
-                                                      className="marcas-grid"
-                                                      style={{
+                                                      <ul style={{
+                                                      listStyle:"none",
+                                                      padding:"0",
+                                                      margin:"0",
                                                       display:"grid",
-                                                      gridTemplateColumns:"repeat(auto-fit,minmax(150px,1fr))",
-                                                      gap:"16px"
-                                                      }}
-                                                      >
+                                                      gap:"14px"
+                                                      }}>
                                                       
                                                       {[
-                                                      "Motorline",
-                                                      "BFT",
-                                                      "Nice",
-                                                      "Ditec",
-                                                      "Roger",
-                                                      "CAME",
-                                                      "FAAC",
-                                                      "DEA",
-                                                      "Beninca",
-                                                      "Somfy",
-                                                      "V2",
-                                                      "outras marcas"
-                                                      ].map((marca,index)=>(
+                                                      "O motor ainda trabalha mas perdeu força",
+                                                      "O problema surgiu após falha elétrica ou alteração de programação",
+                                                      "Comandos, fotocélulas ou central precisam de diagnóstico",
+                                                      "O portão está mecanicamente bom mas o automatismo falha",
+                                                      "Há possibilidade de afinação antes de trocar equipamento"
+                                                      ].map((item,index)=>(
                                                       
-                                                      <div
+                                                      <li
                                                       key={index}
-                                                      className="cartao-marca"
                                                       style={{
-                                                      background:"#f5f8fc",
-                                                      padding:"18px 14px",
-                                                      borderRadius:"18px",
-                                                      textAlign:"center",
-                                                      fontWeight:"bold",
-                                                      color:"#08285c",
-                                                      boxShadow:"0 10px 24px rgba(11,44,95,0.07)"
+                                                      display:"flex",
+                                                      gap:"12px",
+                                                      alignItems:"flex-start",
+                                                      fontSize:"17px",
+                                                      lineHeight:"1.6",
+                                                      color:"#444"
                                                       }}
                                                       >
-                                                      {marca}
-                                                      </div>
+                                                      <span style={{
+                                                      color:"#d97706",
+                                                      fontWeight:"bold",
+                                                      fontSize:"20px",
+                                                      lineHeight:"1.4"
+                                                      }}>
+                                                      !
+                                                      </span>
+                                                      <span>{item}</span>
+                                                      </li>
                                                       
                                                       ))}
+                                                      
+                                                      </ul>
+                                                      
+                                                      </div>
                                                       
                                                       </div>
                                                       
                                                       </section>
-
                         <section
                         style={{
                         padding:"30px 0 20px",
