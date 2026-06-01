@@ -333,6 +333,38 @@ export default function AutomatismosMotorlinePortoes() {
                     
                     <div>
                     
+                    <div style={{
+                    display:"flex",
+                    alignItems:"center",
+                    gap:"12px",
+                    marginBottom:"20px",
+                    flexWrap:"wrap"
+                    }}>
+                    <span style={{
+                    display:"inline-block",
+                    background:"#eef3fa",
+                    color:"#08285c",
+                    padding:"8px 14px",
+                    borderRadius:"999px",
+                    fontSize:"14px",
+                    fontWeight:"700",
+                    boxShadow:"0 6px 16px rgba(11,44,95,0.08)"
+                    }}>
+                    Automatismos para portões
+                    </span>
+                    
+                    <img
+                    src="/motorline-logo.png"
+                    alt="Motorline"
+                    style={{
+                    height:"28px",
+                    width:"auto",
+                    objectFit:"contain",
+                    display:"block"
+                    }}
+                    />
+                    </div>
+                    
                     <h1 style={{
                     fontSize:"clamp(40px,5vw,56px)",
                     lineHeight:"1.05",
@@ -348,11 +380,22 @@ export default function AutomatismosMotorlinePortoes() {
                     lineHeight:"1.8",
                     color:"#444",
                     maxWidth:"700px",
+                    marginBottom:"18px"
+                    }}>
+                    Instalação, programação e assistência técnica a automatismos Motorline
+                    para portões de correr, portões de batente e portões de garagem.
+                    Diagnóstico de motores, centrais eletrónicas, comandos, fotocélulas
+                    e sistemas de segurança.
+                    </p>
+                    
+                    <p style={{
+                    fontSize:"16px",
+                    lineHeight:"1.7",
+                    color:"#666",
+                    maxWidth:"650px",
                     marginBottom:"34px"
                     }}>
-                    Instalação, substituição, programação e assistência técnica a automatismos Motorline
-                    para portões de correr, portões de batente e portões de garagem. Diagnóstico de motores,
-                    centrais eletrónicas, comandos, fotocélulas e sistemas de segurança.
+                    Serviço técnico independente para automatismos Motorline.
                     </p>
                     
                     <div style={{
@@ -407,7 +450,7 @@ export default function AutomatismosMotorlinePortoes() {
                     
                     <img
                     src="/automatismos-motorline-portoes-hero.png"
-                    alt="Automatismos Motorline para portões"
+                    alt="Instalação e assistência a automatismos Motorline para portões"
                     style={{
                     width:"100%",
                     maxWidth:"600px",
