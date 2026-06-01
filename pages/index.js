@@ -1219,7 +1219,7 @@ Soluções técnicas com foco em diagnóstico, transparência e apoio próximo.
                                                                   {
                                                                   title:"Páginas de marcas",
                                                                   items:[
-                                                                  ["Motorline","/assistencia-motorline"],
+                                                                  ["Motorline","/automatismos-motorline-portoes"],
                                                                   ["BFT","/assistencia-bft"],
                                                                   ["Nice","/assistencia-nice"]
                                                                   ]
