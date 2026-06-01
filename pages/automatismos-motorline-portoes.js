@@ -663,6 +663,43 @@ export default function AutomatismosMotorlinePortoes() {
                                                               
                                                               </section>
 
+                                                                                         <section
+                                                                                         id="avarias"
+                                                                                         style={{
+                                                                                         padding:"10px 0 70px"
+                                                                                         }}
+                                                                                         >
+                                                                                         
+                                                                                         <div style={{
+                                                                                         background:"linear-gradient(180deg,#ffffff 0%,#f5f8fc 100%)",
+                                                                                         borderRadius:"32px",
+                                                                                         padding:"50px 36px",
+                                                                                         boxShadow:"0 18px 40px rgba(11,44,95,0.08)",
+                                                                                         border:"1px solid rgba(11,44,95,0.06)"
+                                                                                         }}
+                                                                                         >
+                                                                                         
+                                                                                         <h2 style={{
+                                                                                         fontSize:"38px",
+                                                                                         color:"#08285c",
+                                                                                         marginBottom:"18px",
+                                                                                         textAlign:"center"
+                                                                                         }}>
+                                                                                         Avarias comuns em automatismos Motorline
+                                                                                         </h2>
+                                                                                         
+                                                                                         <p style={{
+                                                                                         fontSize:"19px",
+                                                                                         lineHeight:"1.75",
+                                                                                         color:"#555",
+                                                                                         maxWidth:"850px",
+                                                                                         margin:"0 auto 36px auto",
+                                                                                         textAlign:"center"
+                                                                                         }}>
+                                                                                         Alguns sintomas podem acontecer em portões automáticos de várias marcas, incluindo sistemas Motorline.
+                                                                                         Clique em cada situação para saber mais sobre possíveis causas e quando pedir assistência técnica.
+                                                                                         </p>
+                                                                                         
                                                                                          <div
                                                                                          style={{
                                                                                          display:"grid",
@@ -786,6 +823,10 @@ export default function AutomatismosMotorlinePortoes() {
                                                                                          ))}
                                                                                          
                                                                                          </div>
+                                                                                         
+                                                                                         </div>
+                                                                                         
+                                                                                         </section>
 
                                                       <section
                                                       style={{
