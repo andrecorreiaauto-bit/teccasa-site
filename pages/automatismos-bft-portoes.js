@@ -477,19 +477,19 @@ export default function AutomatismosBftPortoes() {
                                            marginBottom:"16px",
                                            textAlign:"center"
                                            }}>
-                                           Serviços em automatismos Motorline
+                                           Serviços em automatismos BFT
                                            </h2>
                                            
                                            <p style={{
                                            fontSize:"19px",
                                            lineHeight:"1.7",
                                            color:"#555",
-                                           maxWidth:"830px",
+                                           maxWidth:"850px",
                                            margin:"0 auto 45px auto",
                                            textAlign:"center"
                                            }}>
-                                           A TecCasa Soluções presta apoio técnico em sistemas Motorline para portões automáticos,
-                                           desde a instalação inicial até à programação, substituição, afinação e diagnóstico de avarias.
+                                           A TecCasa Soluções presta instalação, programação, substituição e assistência técnica
+                                           a automatismos BFT para portões residenciais, acessos exteriores e sistemas de utilização frequente.
                                            </p>
                                            
                                            <div
@@ -503,33 +503,33 @@ export default function AutomatismosBftPortoes() {
                                            
                                            {[
                                            {
-                                           title:"Instalação de automatismos",
-                                           text:"Montagem de motores Motorline em portões de correr, portões de batente e portões de garagem, de acordo com as condições do local."
+                                           title:"Instalação de motores BFT",
+                                           text:"Montagem de automatismos BFT em portões de correr, batente e garagem, com atenção ao peso, curso e condições mecânicas do portão."
                                            },
                                            
                                            {
-                                           title:"Substituição de motores",
-                                           text:"Troca de automatismos antigos ou avariados por soluções adequadas ao peso, uso e tipo de portão."
+                                           title:"Substituição de automatismos",
+                                           text:"Troca de motores antigos ou avariados por soluções BFT adequadas ao tipo de portão e à frequência de utilização."
                                            },
                                            
                                            {
                                            title:"Programação de comandos",
-                                           text:"Configuração de comandos, recetores e sistemas de abertura para utilização diária simples e segura."
+                                           text:"Configuração de comandos, recetores, abertura total, abertura pedonal e modos de funcionamento do automatismo."
                                            },
                                            
                                            {
-                                           title:"Centrais eletrónicas",
-                                           text:"Diagnóstico e parametrização de centrais Motorline, incluindo tempos, força, abrandamento e modos de funcionamento."
+                                           title:"Centrais eletrónicas BFT",
+                                           text:"Diagnóstico e parametrização de centrais, incluindo tempos de trabalho, força, abrandamento e entradas de segurança."
                                            },
                                            
                                            {
                                            title:"Fotocélulas e segurança",
-                                           text:"Instalação, verificação e afinação de fotocélulas, sistemas de segurança e proteção durante abertura e fecho."
+                                           text:"Verificação, instalação e afinação de fotocélulas, sistemas de proteção e comportamento do portão durante o fecho."
                                            },
                                            
                                            {
-                                           title:"Afinação do portão",
-                                           text:"Ajuste de curso, força, paragens, atraso entre folhas e comportamento geral do automatismo."
+                                           title:"Diagnóstico de avarias",
+                                           text:"Análise de falhas em motores, comandos, sensores, centrais e movimento mecânico antes de substituir componentes."
                                            }
                                            
                                            ].map((item,index)=>(
@@ -581,20 +581,20 @@ export default function AutomatismosBftPortoes() {
                                                               marginBottom:"18px",
                                                               textAlign:"center"
                                                               }}>
-                                                              Automatismos Motorline para diferentes tipos de portão
+                                                              Automatismos BFT para diferentes utilizações
                                                               </h2>
                                                               
                                                               <p style={{
                                                               fontSize:"19px",
                                                               lineHeight:"1.7",
                                                               color:"#555",
-                                                              maxWidth:"830px",
+                                                              maxWidth:"850px",
                                                               margin:"0 auto 42px auto",
                                                               textAlign:"center"
                                                               }}>
-                                                              Os automatismos Motorline podem ser aplicados em diferentes tipos de portão,
-                                                              desde que o equipamento seja adequado ao peso, dimensões, frequência de utilização
-                                                              e condições mecânicas da instalação.
+                                                              Os automatismos BFT são utilizados em vários tipos de portão. Para garantir bom funcionamento,
+                                                              é importante escolher e afinar o equipamento de acordo com o peso do portão, o espaço disponível
+                                                              e a intensidade de utilização.
                                                               </p>
                                                               
                                                               <div
@@ -608,22 +608,22 @@ export default function AutomatismosBftPortoes() {
                                                               {[
                                                               {
                                                               title:"Portões de correr",
-                                                              text:"Instalação e assistência a motores Motorline para portões de correr, incluindo cremalheira, fins de curso, comandos, fotocélulas e afinação de força."
+                                                              text:"Instalação e assistência a motores BFT para portões de correr, com verificação de cremalheira, pinhão, fins de curso e força de arranque."
                                                               },
                                                               
                                                               {
                                                               title:"Portões de batente",
-                                                              text:"Montagem, programação e diagnóstico de automatismos Motorline para portões de duas folhas, com afinação de tempos, atraso entre folhas e abertura pedonal."
+                                                              text:"Programação e diagnóstico de automatismos BFT para portões de uma ou duas folhas, incluindo atraso entre folhas e abertura pedonal."
                                                               },
                                                               
                                                               {
                                                               title:"Portões de garagem",
-                                                              text:"Assistência a motores Motorline para portões seccionados ou basculantes, com verificação de calhas, desbloqueio manual, comandos e força de abertura."
+                                                              text:"Assistência a sistemas BFT aplicados em portões de garagem, com análise do motor, comandos, calhas e segurança."
                                                               },
                                                               
                                                               {
-                                                              title:"Substituição de sistemas antigos",
-                                                              text:"Avaliação de automatismos antigos ou avariados e substituição por soluções compatíveis com o tipo de portão e utilização diária."
+                                                              title:"Acessos residenciais e condomínios",
+                                                              text:"Verificação de automatismos em moradias e acessos de utilização frequente, onde a fiabilidade e a afinação correta são essenciais."
                                                               }
                                                               
                                                               ].map((item,index)=>(
@@ -685,7 +685,7 @@ export default function AutomatismosBftPortoes() {
                                                                                          marginBottom:"18px",
                                                                                          textAlign:"center"
                                                                                          }}>
-                                                                                         Avarias comuns em automatismos Motorline
+                                                                                         Avarias comuns em automatismos BFT
                                                                                          </h2>
                                                                                          
                                                                                          <p style={{
@@ -696,8 +696,9 @@ export default function AutomatismosBftPortoes() {
                                                                                          margin:"0 auto 36px auto",
                                                                                          textAlign:"center"
                                                                                          }}>
-                                                                                         Alguns sintomas podem acontecer em portões automáticos de várias marcas, incluindo sistemas Motorline.
-                                                                                         Clique em cada situação para saber mais sobre possíveis causas e quando pedir assistência técnica.
+                                                                                         Os automatismos BFT podem apresentar diferentes sintomas consoante o tipo de portão,
+                                                                                         a utilização diária, a afinação da central e o estado mecânico da instalação.
+                                                                                         Clique em cada situação para saber mais sobre possíveis causas.
                                                                                          </p>
                                                                                          
                                                                                          <div
@@ -714,37 +715,37 @@ export default function AutomatismosBftPortoes() {
                                                                                          {
                                                                                          title:"O portão não fecha",
                                                                                          href:"/portao-nao-fecha",
-                                                                                         text:"Quando o portão fica aberto, não completa o fecho ou parece bloquear por segurança."
+                                                                                         text:"Quando o portão fica aberto, não termina o fecho ou bloqueia por segurança."
                                                                                          },
                                                                                          
                                                                                          {
                                                                                          title:"O portão fecha e volta a abrir",
                                                                                          href:"/portao-fecha-e-volta-a-abrir",
-                                                                                         text:"Quando o automatismo inicia o fecho mas inverte o movimento."
+                                                                                         text:"Quando o sistema inicia o fecho, mas inverte o movimento durante o percurso."
                                                                                          },
                                                                                          
                                                                                          {
                                                                                          title:"O portão abre só uma folha",
                                                                                          href:"/portao-abre-so-uma-folha",
-                                                                                         text:"Situação comum em portões de batente com dois motores."
+                                                                                         text:"Situação comum em portões de batente com automatismos de duas folhas."
                                                                                          },
                                                                                          
                                                                                          {
                                                                                          title:"O portão abre apenas até meio",
                                                                                          href:"/portao-abre-ate-meio",
-                                                                                         text:"Quando o portão interrompe o percurso antes de abrir totalmente."
+                                                                                         text:"Quando o portão interrompe o movimento antes de completar a abertura."
                                                                                          },
                                                                                          
                                                                                          {
                                                                                          title:"Motor faz barulho mas não abre",
                                                                                          href:"/motor-portao-faz-barulho-mas-nao-abre",
-                                                                                         text:"Quando o motor trabalha, mas o portão não se movimenta."
+                                                                                         text:"Quando o motor trabalha, mas não consegue transmitir movimento ao portão."
                                                                                          },
                                                                                          
                                                                                          {
                                                                                          title:"Motor do portão sem força",
                                                                                          href:"/motor-portao-sem-forca",
-                                                                                         text:"Quando o motor abre devagar, pára a meio ou precisa de ajuda."
+                                                                                         text:"Quando o portão abre devagar, perde força ou pára com facilidade."
                                                                                          },
                                                                                          
                                                                                          {
@@ -756,13 +757,13 @@ export default function AutomatismosBftPortoes() {
                                                                                          {
                                                                                          title:"Comando da garagem não funciona",
                                                                                          href:"/comando-garagem-nao-funciona",
-                                                                                         text:"Quando o comando deixou de abrir o portão ou perdeu programação."
+                                                                                         text:"Quando o comando deixou de responder, perdeu programação ou não abre o portão."
                                                                                          },
                                                                                          
                                                                                          {
                                                                                          title:"Comando só funciona perto",
                                                                                          href:"/comando-garagem-so-funciona-perto",
-                                                                                         text:"Quando o comando tem pouco alcance ou falha o sinal RF."
+                                                                                         text:"Quando o comando tem pouco alcance, sinal fraco ou falhas de receção."
                                                                                          }
                                                                                          
                                                                                          ].map((item,index)=>(
@@ -839,6 +840,7 @@ export default function AutomatismosBftPortoes() {
                                                                                          </div>
                                                                                          
                                                                                          </section>
+ 
                                                       <section
                                                       style={{
                                                       padding:"10px 0 70px"
@@ -865,7 +867,7 @@ export default function AutomatismosBftPortoes() {
                                                       color:"#08285c",
                                                       marginBottom:"18px"
                                                       }}>
-                                                      Quando instalar um automatismo Motorline?
+                                                      Quando instalar um automatismo BFT?
                                                       </h2>
                                                       
                                                       <p style={{
@@ -874,9 +876,9 @@ export default function AutomatismosBftPortoes() {
                                                       color:"#555",
                                                       marginBottom:"24px"
                                                       }}>
-                                                      A instalação de um novo automatismo pode ser indicada quando o portão ainda é manual,
-                                                      quando o sistema antigo já não responde bem ou quando se pretende melhorar o conforto,
-                                                      a segurança e a utilização diária.
+                                                      A instalação de um automatismo BFT pode ser indicada quando se pretende automatizar
+                                                      um portão manual, substituir um sistema antigo ou melhorar a fiabilidade de um acesso
+                                                      usado com frequência.
                                                       </p>
                                                       
                                                       <ul style={{
@@ -889,10 +891,10 @@ export default function AutomatismosBftPortoes() {
                                                       
                                                       {[
                                                       "Portão manual que pretende automatizar",
-                                                      "Motor antigo, lento ou pouco fiável",
-                                                      "Necessidade de comandos novos ou abertura pedonal",
-                                                      "Melhoria da segurança com fotocélulas e afinações corretas",
-                                                      "Substituição por equipamento mais adequado ao peso do portão"
+                                                      "Acesso residencial ou condomínio pequeno com uso frequente",
+                                                      "Motor antigo que já não responde com regularidade",
+                                                      "Necessidade de comandos, abertura pedonal ou maior conforto",
+                                                      "Instalação que precisa de equipamento adequado ao peso do portão"
                                                       ].map((item,index)=>(
                                                       
                                                       <li
@@ -945,8 +947,9 @@ export default function AutomatismosBftPortoes() {
                                                       color:"#555",
                                                       marginBottom:"24px"
                                                       }}>
-                                                      Nem todas as avarias obrigam à substituição do motor. Em muitos casos, uma afinação,
-                                                      programação, correção de ligação ou substituição de componente pode resolver o problema.
+                                                      Nem sempre é necessário substituir o automatismo. Em muitos casos, uma afinação,
+                                                      reprogramação, correção de segurança ou substituição de componente pode devolver
+                                                      bom funcionamento ao sistema.
                                                       </p>
                                                       
                                                       <ul style={{
@@ -958,11 +961,11 @@ export default function AutomatismosBftPortoes() {
                                                       }}>
                                                       
                                                       {[
-                                                      "O motor ainda trabalha mas perdeu força",
-                                                      "O problema surgiu após falha elétrica ou alteração de programação",
-                                                      "Comandos, fotocélulas ou central precisam de diagnóstico",
+                                                      "O motor ainda trabalha mas perdeu força ou regularidade",
+                                                      "A central precisa de programação ou ajuste de parâmetros",
+                                                      "Os comandos, fotocélulas ou recetor deixaram de responder bem",
                                                       "O portão está mecanicamente bom mas o automatismo falha",
-                                                      "Há possibilidade de afinação antes de trocar equipamento"
+                                                      "A avaria parece localizada e pode ser diagnosticada no local"
                                                       ].map((item,index)=>(
                                                       
                                                       <li
@@ -996,6 +999,7 @@ export default function AutomatismosBftPortoes() {
                                                       </div>
                                                       
                                                       </section>
+ 
                         <section
                         style={{
                         padding:"30px 0 20px",
@@ -1016,7 +1020,7 @@ export default function AutomatismosBftPortoes() {
                         color:"#08285c",
                         marginBottom:"18px"
                         }}>
-                        Precisa de instalar ou reparar um automatismo Motorline?
+                        Precisa de instalar ou reparar um automatismo BFT?
                         </h2>
                         
                         <p style={{
@@ -1026,9 +1030,9 @@ export default function AutomatismosBftPortoes() {
                         maxWidth:"820px",
                         margin:"0 auto 35px auto"
                         }}>
-                        Se tem um portão com automatismo Motorline, pretende instalar um novo motor,
-                        programar comandos, substituir equipamento antigo ou resolver uma avaria,
-                        podemos ajudar com diagnóstico e assistência técnica no local.
+                        Se tem um portão com automatismo BFT, pretende substituir um motor antigo,
+                        programar comandos, corrigir uma avaria ou instalar um novo sistema,
+                        podemos ajudar com diagnóstico, afinação e assistência técnica no local.
                         </p>
                         
                         <div style={{
@@ -1141,7 +1145,7 @@ export default function AutomatismosBftPortoes() {
                                                                                       lineHeight:"1.7",
                                                                                       color:"#666"
                                                                                       }}>
-                                                                                      Serviço técnico independente. A TecCasa Soluções presta instalação, programação e assistência a automatismos Motorline.
+                                                                                      Serviço técnico independente. A TecCasa Soluções presta instalação, programação e assistência a automatismos BFT.
                                                                                       </p>
                                                                                       
                                                                                       </div>
