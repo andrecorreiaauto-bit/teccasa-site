@@ -703,8 +703,10 @@ export default function AutomatismosMotorlinePortoes() {
                                                                                          <div
                                                                                          style={{
                                                                                          display:"grid",
-                                                                                         gridTemplateColumns:"repeat(auto-fit,minmax(260px,1fr))",
-                                                                                         gap:"16px"
+                                                                                         gridTemplateColumns:"repeat(auto-fit,minmax(280px,1fr))",
+                                                                                         columnGap:"18px",
+                                                                                         rowGap:"24px",
+                                                                                         alignItems:"stretch"
                                                                                          }}
                                                                                          >
                                                                                          
@@ -771,29 +773,37 @@ export default function AutomatismosMotorlinePortoes() {
                                                                                          style={{
                                                                                          display:"flex",
                                                                                          flexDirection:"column",
-                                                                                         height:"100%",
+                                                                                         justifyContent:"space-between",
+                                                                                         minHeight:"205px",
                                                                                          background:"#eef3fa",
                                                                                          borderRadius:"22px",
-                                                                                         padding:"22px 22px",
+                                                                                         padding:"24px 24px",
                                                                                          textDecoration:"none",
                                                                                          boxShadow:"0 10px 24px rgba(11,44,95,0.07)",
                                                                                          border:"1px solid rgba(11,44,95,0.05)",
-                                                                                         transition:"transform .25s ease, box-shadow .25s ease"
+                                                                                         transition:"transform .25s ease, box-shadow .25s ease, background .25s ease",
+                                                                                         boxSizing:"border-box",
+                                                                                         overflow:"hidden"
                                                                                          }}
                                                                                          onMouseEnter={(e)=>{
                                                                                          e.currentTarget.style.transform="translateY(-5px)"
                                                                                          e.currentTarget.style.boxShadow="0 16px 32px rgba(11,44,95,0.12)"
+                                                                                         e.currentTarget.style.background="#f5f8fc"
                                                                                          }}
                                                                                          onMouseLeave={(e)=>{
                                                                                          e.currentTarget.style.transform="translateY(0)"
                                                                                          e.currentTarget.style.boxShadow="0 10px 24px rgba(11,44,95,0.07)"
+                                                                                         e.currentTarget.style.background="#eef3fa"
                                                                                          }}
                                                                                          >
+                                                                                         
+                                                                                         <div>
                                                                                          
                                                                                          <h3 style={{
                                                                                          color:"#08285c",
                                                                                          fontSize:"21px",
-                                                                                         margin:"0 0 10px 0"
+                                                                                         lineHeight:"1.25",
+                                                                                         margin:"0 0 12px 0"
                                                                                          }}>
                                                                                          {item.title}
                                                                                          </h3>
@@ -807,13 +817,15 @@ export default function AutomatismosMotorlinePortoes() {
                                                                                          {item.text}
                                                                                          </p>
                                                                                          
+                                                                                         </div>
+                                                                                         
                                                                                          <span style={{
+                                                                                         display:"inline-block",
                                                                                          color:"#08285c",
                                                                                          fontWeight:"bold",
                                                                                          fontSize:"15px",
                                                                                          textDecoration:"underline",
-                                                                                         marginTop:"auto",
-                                                                                         paddingTop:"14px"
+                                                                                         marginTop:"22px"
                                                                                          }}>
                                                                                          Saber mais
                                                                                          </span>
@@ -827,7 +839,6 @@ export default function AutomatismosMotorlinePortoes() {
                                                                                          </div>
                                                                                          
                                                                                          </section>
-
                                                       <section
                                                       style={{
                                                       padding:"10px 0 70px"
