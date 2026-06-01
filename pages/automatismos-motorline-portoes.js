@@ -357,7 +357,7 @@ export default function AutomatismosMotorlinePortoes() {
                     src="/motorline-logo.png"
                     alt="Motorline"
                     style={{
-                    height:"28px",
+                    height:"48px",
                     width:"auto",
                     objectFit:"contain",
                     display:"block"
