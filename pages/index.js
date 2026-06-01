@@ -1220,7 +1220,7 @@ Soluções técnicas com foco em diagnóstico, transparência e apoio próximo.
                                                                   title:"Páginas de marcas",
                                                                   items:[
                                                                   ["Motorline","/automatismos-motorline-portoes"],
-                                                                  ["BFT","/assistencia-bft"],
+                                                                  ["BFT","/automatismos-bft-portoes"],
                                                                   ["Nice","/assistencia-nice"]
                                                                   ]
                                                                   },
