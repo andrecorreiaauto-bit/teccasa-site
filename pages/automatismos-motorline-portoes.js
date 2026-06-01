@@ -465,7 +465,7 @@ export default function AutomatismosMotorlinePortoes() {
                     </section>
                       
                                            <section
-                                           id="causas"
+                                           id="servicos"
                                            style={{
                                            padding:"20px 0 70px"
                                            }}
@@ -477,7 +477,7 @@ export default function AutomatismosMotorlinePortoes() {
                                            marginBottom:"16px",
                                            textAlign:"center"
                                            }}>
-                                           Porque é que o motor do portão perde força?
+                                           Serviços em automatismos Motorline
                                            </h2>
                                            
                                            <p style={{
@@ -488,9 +488,8 @@ export default function AutomatismosMotorlinePortoes() {
                                            margin:"0 auto 45px auto",
                                            textAlign:"center"
                                            }}>
-                                           Quando um portão automático começa a abrir devagar, perde força ou pára com facilidade,
-                                           a origem pode estar no motor, no condensador, no esforço mecânico do portão,
-                                           na afinação da central ou no desgaste natural do automatismo.
+                                           A TecCasa Soluções presta apoio técnico em sistemas Motorline para portões automáticos,
+                                           desde a instalação inicial até à programação, substituição, afinação e diagnóstico de avarias.
                                            </p>
                                            
                                            <div
@@ -504,39 +503,33 @@ export default function AutomatismosMotorlinePortoes() {
                                            
                                            {[
                                            {
-                                           image:"/condensador-fraco-portao.png",
-                                           title:"Condensador fraco",
-                                           text:"Em muitos motores, um condensador degradado reduz a força de arranque e faz o portão abrir com dificuldade."
+                                           title:"Instalação de automatismos",
+                                           text:"Montagem de motores Motorline em portões de correr, portões de batente e portões de garagem, de acordo com as condições do local."
                                            },
                                            
                                            {
-                                           image:"/portao-abre-devagar.png",
-                                           title:"Portão abre devagar",
-                                           text:"Quando o movimento fica lento ou irregular, pode existir esforço mecânico, falta de afinação ou perda de rendimento do motor."
+                                           title:"Substituição de motores",
+                                           text:"Troca de automatismos antigos ou avariados por soluções adequadas ao peso, uso e tipo de portão."
                                            },
                                            
                                            {
-                                           image:"/portao-pesado-calhas.png",
-                                           title:"Portão pesado ou preso",
-                                           text:"Rodas, calhas, dobradiças ou guias com resistência obrigam o motor a trabalhar acima do esforço normal."
+                                           title:"Programação de comandos",
+                                           text:"Configuração de comandos, recetores e sistemas de abertura para utilização diária simples e segura."
                                            },
                                            
                                            {
-                                           image:"/forca-central-portao.png",
-                                           title:"Força mal ajustada",
-                                           text:"A central pode estar configurada com força insuficiente ou parâmetros inadequados ao peso real do portão."
+                                           title:"Centrais eletrónicas",
+                                           text:"Diagnóstico e parametrização de centrais Motorline, incluindo tempos, força, abrandamento e modos de funcionamento."
                                            },
                                            
                                            {
-                                           image:"/motor-portao-desgastado.png",
-                                           title:"Motor desgastado",
-                                           text:"Com o uso, alguns automatismos perdem capacidade de arranque e deixam de movimentar o portão com a mesma facilidade."
+                                           title:"Fotocélulas e segurança",
+                                           text:"Instalação, verificação e afinação de fotocélulas, sistemas de segurança e proteção durante abertura e fecho."
                                            },
                                            
                                            {
-                                           image:"/portao-precisa-ajuda.png",
-                                           title:"Portão precisa de ajuda",
-                                           text:"Se o portão só abre quando é ajudado manualmente, é sinal de que existe esforço excessivo ou falta de força no sistema."
+                                           title:"Afinação do portão",
+                                           text:"Ajuste de curso, força, paragens, atraso entre folhas e comportamento geral do automatismo."
                                            }
                                            
                                            ].map((item,index)=>(
@@ -546,25 +539,11 @@ export default function AutomatismosMotorlinePortoes() {
                                            style={{
                                            background:"#eef3fa",
                                            borderRadius:"24px",
-                                           overflow:"hidden",
-                                           boxShadow:"0 12px 30px rgba(11,44,95,0.08)"
+                                           padding:"28px 24px",
+                                           boxShadow:"0 12px 28px rgba(11,44,95,0.08)",
+                                           border:"1px solid rgba(11,44,95,0.05)"
                                            }}
                                            >
-                                           
-                                           <img
-                                           src={item.image}
-                                           alt={item.title}
-                                           style={{
-                                           width:"100%",
-                                           height:"190px",
-                                           objectFit:"cover",
-                                           display:"block"
-                                           }}
-                                           />
-                                           
-                                           <div style={{
-                                           padding:"24px"
-                                           }}>
                                            
                                            <h3 style={{
                                            color:"#08285c",
@@ -581,8 +560,6 @@ export default function AutomatismosMotorlinePortoes() {
                                            }}>
                                            {item.text}
                                            </p>
-                                           
-                                           </div>
                                            
                                            </div>
                                            
