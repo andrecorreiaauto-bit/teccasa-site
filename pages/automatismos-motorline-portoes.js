@@ -1016,7 +1016,7 @@ export default function AutomatismosMotorlinePortoes() {
                         color:"#08285c",
                         marginBottom:"18px"
                         }}>
-                        O motor do portão perdeu força?
+                        Precisa de instalar ou reparar um automatismo Motorline?
                         </h2>
                         
                         <p style={{
@@ -1026,9 +1026,9 @@ export default function AutomatismosMotorlinePortoes() {
                         maxWidth:"820px",
                         margin:"0 auto 35px auto"
                         }}>
-                        Se o portão abre devagar, pára a meio ou só se movimenta quando é ajudado manualmente,
-                        não force o automatismo. A causa pode estar no condensador, no esforço mecânico,
-                        na afinação da central ou no desgaste do próprio motor.
+                        Se tem um portão com automatismo Motorline, pretende instalar um novo motor,
+                        programar comandos, substituir equipamento antigo ou resolver uma avaria,
+                        podemos ajudar com diagnóstico e assistência técnica no local.
                         </p>
                         
                         <div style={{
