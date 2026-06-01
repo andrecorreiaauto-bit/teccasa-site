@@ -357,7 +357,7 @@ export default function AutomatismosBftPortoes() {
                     src="/bft-logo.png"
                     alt="BFT"
                     style={{
-                    height:"28px",
+                    height:"78px",
                     width:"auto",
                     objectFit:"contain",
                     display:"block"
