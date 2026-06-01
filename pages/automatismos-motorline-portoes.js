@@ -47,6 +47,21 @@ export default function AutomatismosMotorlinePortoes() {
 
   document.body.appendChild(leafletScript);
 }, []);
+
+ useEffect(() => {
+  if (!menuOpen) return;
+
+  const fecharMenu = () => {
+    setMenuOpen(false);
+  };
+
+  document.addEventListener("click", fecharMenu);
+
+  return () => {
+    document.removeEventListener("click", fecharMenu);
+  };
+}, [menuOpen]);
+ 
   return (
                                                   <>
                                                   <Head>
@@ -140,14 +155,43 @@ export default function AutomatismosMotorlinePortoes() {
     alignItems:"center"
   }}>
 
-    <div style={{
-      display:"flex",
-      alignItems:"center",
-      gap:"10px",
-      fontWeight:"bold",
-      color:"#08285c",
-      fontSize:"20px"
-    }}>
+    <div
+    onClick={() => {
+
+    setLogoClicks(prev => {
+    
+    const next = prev + 1;
+    
+    setTimeout(() => {
+    setLogoClicks(0);
+    }, 1800);
+    
+    if(next >= 5){
+    
+    const pin = prompt("Introduz o PIN");
+    
+    if(pin === "2026"){
+    setShowSeoPanel(true);
+    }
+    
+    return 0;
+    }
+    
+    return next;
+    
+    });
+    
+    }}
+    style={{
+    display:"flex",
+    alignItems:"center",
+    gap:"10px",
+    fontWeight:"bold",
+    color:"#08285c",
+    fontSize:"20px",
+    cursor:"pointer"
+    }}
+    >
       <img src="/favicon.png" style={{width:"30px"}} />
       TecCasa Soluções
     </div>
@@ -214,75 +258,60 @@ export default function AutomatismosMotorlinePortoes() {
 
   </div>
 
- {menuOpen && (
+  {menuOpen && (
 
   <div
-    onClick={() => setMenuOpen(false)}
+    className="mobile-menu"
+    onClick={(e)=>e.stopPropagation()}
     style={{
-      position:"fixed",
-      inset:"0",
-      zIndex:"999"
+      display:"flex",
+      flexDirection:"column",
+      gap:"14px",
+      marginTop:"22px",
+      paddingTop:"18px",
+      borderTop:"1px solid rgba(11,44,95,0.08)"
     }}
   >
 
-    <div
-      className="mobile-menu"
-      onClick={(e)=>e.stopPropagation()}
-      style={{
-        display:"flex",
-        flexDirection:"column",
-        gap:"14px",
-        marginTop:"90px",
-        marginLeft:"20px",
-        marginRight:"20px",
-        padding:"18px",
-        background:"white",
-        borderRadius:"18px",
-        boxShadow:"0 15px 40px rgba(0,0,0,0.15)"
-      }}
+    {menuItems
+    .filter(item => item.active)
+    .map((item,index)=>(
+
+    <a
+    key={index}
+    href={item.href}
+    onClick={() => setMenuOpen(false)}
+    style={{
+      color:"#08285c",
+      textDecoration:"none",
+      fontWeight:"bold",
+      fontSize:"17px",
+      padding:"10px 0"
+    }}
     >
+      {item.label}
+    </a>
 
-      {menuItems
-      .filter(item => item.active)
-      .map((item,index)=>(
+    ))}
 
-      <a
-      key={index}
-      href={item.href}
-      onClick={() => setMenuOpen(false)}
-      style={{
-        color:"#08285c",
-        textDecoration:"none",
-        fontWeight:"bold",
-        fontSize:"17px",
-        padding:"10px 0"
-      }}
-      >
-        {item.label}
-      </a>
-
-      ))}
-
-      <a
-      href="https://wa.me/351922021980"
-      target="_blank"
-      onClick={() => setMenuOpen(false)}
-      style={{
-        background:"#25D366",
-        color:"white",
-        padding:"14px",
-        borderRadius:"14px",
-        textDecoration:"none",
-        fontWeight:"bold",
-        textAlign:"center",
-        marginTop:"10px",
-        boxShadow:"0 10px 25px rgba(37,211,102,.22)"
-      }}
-      >
-        WhatsApp
-      </a>
-
-    </div>
+    <a
+    href="https://wa.me/351922021980"
+    target="_blank"
+    onClick={() => setMenuOpen(false)}
+    style={{
+      background:"#25D366",
+      color:"white",
+      padding:"14px",
+      borderRadius:"14px",
+      textDecoration:"none",
+      fontWeight:"bold",
+      textAlign:"center",
+      marginTop:"10px",
+      boxShadow:"0 10px 25px rgba(37,211,102,.22)"
+    }}
+    >
+      WhatsApp
+    </a>
 
   </div>
 
