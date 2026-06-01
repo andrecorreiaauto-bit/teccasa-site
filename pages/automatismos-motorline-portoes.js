@@ -664,6 +664,7 @@ export default function AutomatismosMotorlinePortoes() {
                                                               </section>
 
                                                                                          <section
+                                                                                         id="avarias"
                                                                                          style={{
                                                                                          padding:"10px 0 70px"
                                                                                          }}
@@ -684,99 +685,136 @@ export default function AutomatismosMotorlinePortoes() {
                                                                                          marginBottom:"18px",
                                                                                          textAlign:"center"
                                                                                          }}>
-                                                                                         Diagnóstico quando o motor do portão está sem força
+                                                                                         Avarias comuns em automatismos Motorline
                                                                                          </h2>
                                                                                          
                                                                                          <p style={{
                                                                                          fontSize:"19px",
                                                                                          lineHeight:"1.75",
                                                                                          color:"#555",
-                                                                                         maxWidth:"860px",
-                                                                                         margin:"0 auto 42px auto",
+                                                                                         maxWidth:"850px",
+                                                                                         margin:"0 auto 36px auto",
                                                                                          textAlign:"center"
                                                                                          }}>
-                                                                                         Quando o motor do portão perde força, o problema nem sempre está no próprio motor.
-                                                                                         Antes de substituir o automatismo, verificamos o esforço mecânico do portão,
-                                                                                         o condensador, a afinação da central, a alimentação elétrica e o estado geral da instalação.
+                                                                                         Alguns sintomas podem acontecer em portões automáticos de várias marcas, incluindo sistemas Motorline.
+                                                                                         Clique em cada situação para saber mais sobre possíveis causas e quando pedir assistência técnica.
                                                                                          </p>
                                                                                          
-                                                                                         <div style={{
+                                                                                         <div
+                                                                                         style={{
                                                                                          display:"grid",
-                                                                                         gridTemplateColumns:"repeat(auto-fit,minmax(230px,1fr))",
-                                                                                         gap:"22px"
+                                                                                         gridTemplateColumns:"repeat(auto-fit,minmax(260px,1fr))",
+                                                                                         gap:"16px"
                                                                                          }}
                                                                                          >
                                                                                          
                                                                                          {[
                                                                                          {
-                                                                                         number:"1",
-                                                                                         title:"Teste em modo manual",
-                                                                                         text:"Verificamos se o portão se movimenta livremente ou se está pesado, preso ou desalinhado."
+                                                                                         title:"O portão não fecha",
+                                                                                         href:"/portao-nao-fecha",
+                                                                                         text:"Quando o portão fica aberto, não completa o fecho ou parece bloquear por segurança."
                                                                                          },
                                                                                          
                                                                                          {
-                                                                                         number:"2",
-                                                                                         title:"Análise do condensador",
-                                                                                         text:"Confirmamos se o condensador ainda garante força de arranque suficiente para o motor trabalhar corretamente."
+                                                                                         title:"O portão fecha e volta a abrir",
+                                                                                         href:"/portao-fecha-e-volta-a-abrir",
+                                                                                         text:"Quando o automatismo inicia o fecho mas inverte o movimento."
                                                                                          },
                                                                                          
                                                                                          {
-                                                                                         number:"3",
-                                                                                         title:"Verificação da afinação",
-                                                                                         text:"Analisamos força, tempos de trabalho, abrandamento e parâmetros da central eletrónica."
+                                                                                         title:"O portão abre só uma folha",
+                                                                                         href:"/portao-abre-so-uma-folha",
+                                                                                         text:"Situação comum em portões de batente com dois motores."
                                                                                          },
                                                                                          
                                                                                          {
-                                                                                         number:"4",
-                                                                                         title:"Avaliação do automatismo",
-                                                                                         text:"Confirmamos se o motor está adequado ao peso do portão ou se apresenta sinais de desgaste."
+                                                                                         title:"O portão abre apenas até meio",
+                                                                                         href:"/portao-abre-ate-meio",
+                                                                                         text:"Quando o portão interrompe o percurso antes de abrir totalmente."
+                                                                                         },
+                                                                                         
+                                                                                         {
+                                                                                         title:"Motor faz barulho mas não abre",
+                                                                                         href:"/motor-portao-faz-barulho-mas-nao-abre",
+                                                                                         text:"Quando o motor trabalha, mas o portão não se movimenta."
+                                                                                         },
+                                                                                         
+                                                                                         {
+                                                                                         title:"Motor do portão sem força",
+                                                                                         href:"/motor-portao-sem-forca",
+                                                                                         text:"Quando o motor abre devagar, pára a meio ou precisa de ajuda."
+                                                                                         },
+                                                                                         
+                                                                                         {
+                                                                                         title:"Portão de garagem não abre",
+                                                                                         href:"/portao-garagem-nao-abre",
+                                                                                         text:"Para motores de teto, portões seccionados, basculantes e sistemas de garagem."
+                                                                                         },
+                                                                                         
+                                                                                         {
+                                                                                         title:"Comando da garagem não funciona",
+                                                                                         href:"/comando-garagem-nao-funciona",
+                                                                                         text:"Quando o comando deixou de abrir o portão ou perdeu programação."
+                                                                                         },
+                                                                                         
+                                                                                         {
+                                                                                         title:"Comando só funciona perto",
+                                                                                         href:"/comando-garagem-so-funciona-perto",
+                                                                                         text:"Quando o comando tem pouco alcance ou falha o sinal RF."
                                                                                          }
                                                                                          
                                                                                          ].map((item,index)=>(
                                                                                          
-                                                                                         <div
+                                                                                         <a
                                                                                          key={index}
+                                                                                         href={item.href}
                                                                                          style={{
+                                                                                         display:"block",
                                                                                          background:"#eef3fa",
-                                                                                         borderRadius:"24px",
-                                                                                         padding:"28px 24px",
-                                                                                         boxShadow:"0 12px 28px rgba(11,44,95,0.07)"
+                                                                                         borderRadius:"22px",
+                                                                                         padding:"22px 22px",
+                                                                                         textDecoration:"none",
+                                                                                         boxShadow:"0 10px 24px rgba(11,44,95,0.07)",
+                                                                                         border:"1px solid rgba(11,44,95,0.05)",
+                                                                                         transition:"transform .25s ease, box-shadow .25s ease"
+                                                                                         }}
+                                                                                         onMouseEnter={(e)=>{
+                                                                                         e.currentTarget.style.transform="translateY(-5px)"
+                                                                                         e.currentTarget.style.boxShadow="0 16px 32px rgba(11,44,95,0.12)"
+                                                                                         }}
+                                                                                         onMouseLeave={(e)=>{
+                                                                                         e.currentTarget.style.transform="translateY(0)"
+                                                                                         e.currentTarget.style.boxShadow="0 10px 24px rgba(11,44,95,0.07)"
                                                                                          }}
                                                                                          >
                                                                                          
-                                                                                         <div style={{
-                                                                                         width:"42px",
-                                                                                         height:"42px",
-                                                                                         borderRadius:"50%",
-                                                                                         background:"#08285c",
-                                                                                         color:"white",
-                                                                                         display:"flex",
-                                                                                         alignItems:"center",
-                                                                                         justifyContent:"center",
-                                                                                         fontWeight:"bold",
-                                                                                         fontSize:"18px",
-                                                                                         marginBottom:"18px"
-                                                                                         }}>
-                                                                                         {item.number}
-                                                                                         </div>
-                                                                                         
                                                                                          <h3 style={{
                                                                                          color:"#08285c",
-                                                                                         fontSize:"22px",
-                                                                                         marginBottom:"12px"
+                                                                                         fontSize:"21px",
+                                                                                         margin:"0 0 10px 0"
                                                                                          }}>
                                                                                          {item.title}
                                                                                          </h3>
                                                                                          
                                                                                          <p style={{
                                                                                          color:"#444",
-                                                                                         lineHeight:"1.7",
-                                                                                         margin:"0"
+                                                                                         lineHeight:"1.65",
+                                                                                         margin:"0 0 14px 0",
+                                                                                         fontSize:"16px"
                                                                                          }}>
                                                                                          {item.text}
                                                                                          </p>
                                                                                          
-                                                                                         </div>
+                                                                                         <span style={{
+                                                                                         color:"#08285c",
+                                                                                         fontWeight:"bold",
+                                                                                         fontSize:"15px",
+                                                                                         textDecoration:"underline"
+                                                                                         }}>
+                                                                                         Saber mais
+                                                                                         </span>
+                                                                                         
+                                                                                         </a>
                                                                                          
                                                                                          ))}
                                                                                          
