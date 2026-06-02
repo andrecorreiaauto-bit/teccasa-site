@@ -773,34 +773,7 @@ export default function InstalacaoKitPortaoAutomatico() {
                                                            
                                                            </section>
 
-                                                                                      <section
-                                                                                      style={{
-                                                                                      padding:"10px 0 5px",
-                                                                                      textAlign:"center"
-                                                                                      }}
-                                                                                      >
                                                                                       
-                                                                                      <div style={{
-                                                                                      background:"#ffffff",
-                                                                                      border:"1px solid rgba(11,44,95,0.08)",
-                                                                                      borderRadius:"20px",
-                                                                                      padding:"18px 22px",
-                                                                                      boxShadow:"0 8px 22px rgba(11,44,95,0.04)"
-                                                                                      }}
-                                                                                      >
-                                                                                      
-                                                                                      <p style={{
-                                                                                      margin:"0",
-                                                                                      fontSize:"14px",
-                                                                                      lineHeight:"1.7",
-                                                                                      color:"#666"
-                                                                                      }}>
-                                                                                      Serviço técnico independente. A TecCasa Soluções presta instalação, programação e assistência a automatismos Motorline.
-                                                                                      </p>
-                                                                                      
-                                                                                      </div>
-                                                                                      
-                                                                                      </section>
                                                      
   <footer style={{
 marginTop:"80px",
