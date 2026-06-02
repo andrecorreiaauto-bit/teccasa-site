@@ -1,6 +1,9 @@
 import { useEffect, useState } from "react";
 import Head from "next/head";
 export default function AutomatismosBftPortoes() {
+ const [logoClicks, setLogoClicks] = useState(0);
+ const [showSeoPanel, setShowSeoPanel] = useState(false);
+ const [pinInput, setPinInput] = useState("");
  const [menuOpen, setMenuOpen] = useState(false);
  const menuItems = [
   { label:"Início", href:"/", active:true },
