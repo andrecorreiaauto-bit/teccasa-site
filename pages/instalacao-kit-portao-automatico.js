@@ -564,20 +564,20 @@ export default function InstalacaoKitPortaoAutomatico() {
                                                               marginBottom:"18px",
                                                               textAlign:"center"
                                                               }}>
-                                                              Automatismos Motorline para diferentes tipos de portão
+                                                              Kits de automatismo que podemos verificar
                                                               </h2>
                                                               
                                                               <p style={{
                                                               fontSize:"19px",
                                                               lineHeight:"1.7",
                                                               color:"#555",
-                                                              maxWidth:"830px",
+                                                              maxWidth:"850px",
                                                               margin:"0 auto 42px auto",
                                                               textAlign:"center"
                                                               }}>
-                                                              Os automatismos Motorline podem ser aplicados em diferentes tipos de portão,
-                                                              desde que o equipamento seja adequado ao peso, dimensões, frequência de utilização
-                                                              e condições mecânicas da instalação.
+                                                              Muitos clientes compram kits de automatismo em loja ou online e depois precisam de apoio
+                                                              para montar, ligar, programar e verificar se o sistema funciona em segurança.
+                                                              A instalação é avaliada caso a caso, consoante o equipamento e o tipo de portão.
                                                               </p>
                                                               
                                                               <div
@@ -590,23 +590,23 @@ export default function InstalacaoKitPortaoAutomatico() {
                                                               
                                                               {[
                                                               {
-                                                              title:"Portões de correr",
-                                                              text:"Instalação e assistência a motores Motorline para portões de correr, incluindo cremalheira, fins de curso, comandos, fotocélulas e afinação de força."
+                                                              title:"Kits para portões de correr",
+                                                              text:"Verificação de motor, cremalheira, fim de curso, comandos, fotocélulas, alimentação elétrica e condições da calha."
                                                               },
                                                               
                                                               {
-                                                              title:"Portões de batente",
-                                                              text:"Montagem, programação e diagnóstico de automatismos Motorline para portões de duas folhas, com afinação de tempos, atraso entre folhas e abertura pedonal."
+                                                              title:"Kits para portões de batente",
+                                                              text:"Avaliação dos motores de braço, suportes, curso das folhas, abertura interior ou exterior e programação das duas folhas."
                                                               },
                                                               
                                                               {
-                                                              title:"Portões de garagem",
-                                                              text:"Assistência a motores Motorline para portões seccionados ou basculantes, com verificação de calhas, desbloqueio manual, comandos e força de abertura."
+                                                              title:"Kits para portões de garagem",
+                                                              text:"Análise de motores de teto, calhas, desbloqueio manual, comandos e compatibilidade com portões seccionados ou basculantes."
                                                               },
                                                               
                                                               {
-                                                              title:"Substituição de sistemas antigos",
-                                                              text:"Avaliação de automatismos antigos ou avariados e substituição por soluções compatíveis com o tipo de portão e utilização diária."
+                                                              title:"Kits comprados em loja ou online",
+                                                              text:"Podemos verificar kits adquiridos em lojas físicas, marketplaces ou plataformas online, desde que estejam completos e tecnicamente adequados."
                                                               }
                                                               
                                                               ].map((item,index)=>(
