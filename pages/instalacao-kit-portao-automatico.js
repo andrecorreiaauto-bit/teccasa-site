@@ -447,7 +447,7 @@ export default function InstalacaoKitPortaoAutomatico() {
                     </section>
                       
                                            <section
-                                           id="servicos"
+                                           id="verificacao"
                                            style={{
                                            padding:"20px 0 70px"
                                            }}
@@ -459,19 +459,20 @@ export default function InstalacaoKitPortaoAutomatico() {
                                            marginBottom:"16px",
                                            textAlign:"center"
                                            }}>
-                                           Serviços em automatismos Motorline
+                                           O que verificamos antes de instalar o kit?
                                            </h2>
                                            
                                            <p style={{
                                            fontSize:"19px",
                                            lineHeight:"1.7",
                                            color:"#555",
-                                           maxWidth:"830px",
+                                           maxWidth:"850px",
                                            margin:"0 auto 45px auto",
                                            textAlign:"center"
                                            }}>
-                                           A TecCasa Soluções presta apoio técnico em sistemas Motorline para portões automáticos,
-                                           desde a instalação inicial até à programação, substituição, afinação e diagnóstico de avarias.
+                                           Antes de instalar um kit de portão automático fornecido pelo cliente,
+                                           é essencial confirmar se o equipamento é compatível, se o portão está em condições
+                                           e se existe alimentação elétrica adequada no local onde será instalado o motor ou a central.
                                            </p>
                                            
                                            <div
@@ -485,33 +486,33 @@ export default function InstalacaoKitPortaoAutomatico() {
                                            
                                            {[
                                            {
-                                           title:"Instalação de automatismos",
-                                           text:"Montagem de motores Motorline em portões de correr, portões de batente e portões de garagem, de acordo com as condições do local."
+                                           title:"Equipamento completo",
+                                           text:"Confirmamos se o kit inclui motor, central, comandos, fotocélulas, suportes, acessórios e documentação necessária."
                                            },
                                            
                                            {
-                                           title:"Substituição de motores",
-                                           text:"Troca de automatismos antigos ou avariados por soluções adequadas ao peso, uso e tipo de portão."
+                                           title:"Compatibilidade com o portão",
+                                           text:"Verificamos se o motor é adequado ao tipo de portão, peso, dimensões, curso e frequência de utilização."
                                            },
                                            
                                            {
-                                           title:"Programação de comandos",
-                                           text:"Configuração de comandos, recetores e sistemas de abertura para utilização diária simples e segura."
+                                           title:"Alimentação elétrica disponível",
+                                           text:"É necessário existir alimentação elétrica adequada junto ao local do motor ou central, em segurança e pronta para ligação."
                                            },
                                            
                                            {
-                                           title:"Centrais eletrónicas",
-                                           text:"Diagnóstico e parametrização de centrais Motorline, incluindo tempos, força, abrandamento e modos de funcionamento."
+                                           title:"Estado mecânico do portão",
+                                           text:"O portão deve mover-se livremente, sem estar preso, desalinhado, pesado ou com calhas, rodas ou dobradiças em esforço."
                                            },
                                            
                                            {
-                                           title:"Fotocélulas e segurança",
-                                           text:"Instalação, verificação e afinação de fotocélulas, sistemas de segurança e proteção durante abertura e fecho."
+                                           title:"Condições de segurança",
+                                           text:"Analisamos a possibilidade de instalar fotocélulas, proteção no fecho e funcionamento seguro do automatismo."
                                            },
                                            
                                            {
-                                           title:"Afinação do portão",
-                                           text:"Ajuste de curso, força, paragens, atraso entre folhas e comportamento geral do automatismo."
+                                           title:"Limitações do kit",
+                                           text:"Alguns kits económicos podem ter limitações de força, compatibilidade, acessórios, documentação ou assistência futura."
                                            }
                                            
                                            ].map((item,index)=>(
