@@ -4,6 +4,9 @@ export default function AutomatismosMotorlinePortoes() {
  const [menuOpen, setMenuOpen] = useState(false);
  const menuItems = [
   { label:"Início", href:"/", active:true },
+
+  { label:"Instalação de Automatismos", href:"/instalacao-automatismos-portoes", active:true },
+
   { label:"Reparação de Portões", href:"/reparacao-portoes-lisboa", active:true },
 
   { label:"Comandos", href:"/comandos-garagem", active:true },
@@ -11,7 +14,7 @@ export default function AutomatismosMotorlinePortoes() {
   { label:"Domótica", href:"/casas-inteligentes-lisboa", active:true },
 
   { label:"Vigilância", href:"/instalacao-camaras-lisboa", active:true },
-  ]
+]
  useEffect(() => {
   if (typeof window === "undefined") return;
 
