@@ -558,55 +558,65 @@ export default function InstalacaoKitPortaoAutomatico() {
                                                               }}
                                                               >
                                                               
+                                                              <div style={{
+                                                              background:"linear-gradient(180deg,#ffffff 0%,#f5f8fc 100%)",
+                                                              borderRadius:"32px",
+                                                              padding:"50px 36px",
+                                                              boxShadow:"0 18px 40px rgba(11,44,95,0.08)",
+                                                              border:"1px solid rgba(11,44,95,0.06)"
+                                                              }}
+                                                              >
+                                                              
                                                               <h2 style={{
                                                               fontSize:"38px",
                                                               color:"#08285c",
                                                               marginBottom:"18px",
                                                               textAlign:"center"
                                                               }}>
-                                                              Kits de automatismo que podemos verificar
+                                                              Comprou um kit e precisa de instalador?
                                                               </h2>
                                                               
                                                               <p style={{
                                                               fontSize:"19px",
-                                                              lineHeight:"1.7",
+                                                              lineHeight:"1.75",
                                                               color:"#555",
                                                               maxWidth:"850px",
-                                                              margin:"0 auto 42px auto",
+                                                              margin:"0 auto 38px auto",
                                                               textAlign:"center"
                                                               }}>
-                                                              Muitos clientes compram kits de automatismo em loja ou online e depois precisam de apoio
-                                                              para montar, ligar, programar e verificar se o sistema funciona em segurança.
-                                                              A instalação é avaliada caso a caso, consoante o equipamento e o tipo de portão.
+                                                              Se comprou um kit de automatismo para portão numa loja, online ou marketplace,
+                                                              podemos analisar o equipamento, verificar as condições do portão e indicar a melhor forma
+                                                              de avançar com a instalação.
                                                               </p>
                                                               
                                                               <div
                                                               style={{
                                                               display:"grid",
                                                               gridTemplateColumns:"repeat(auto-fit,minmax(250px,1fr))",
-                                                              gap:"22px"
+                                                              gap:"22px",
+                                                              marginBottom:"38px"
                                                               }}
                                                               >
                                                               
                                                               {[
                                                               {
-                                                              title:"Kits para portões de correr",
-                                                              text:"Verificação de motor, cremalheira, fim de curso, comandos, fotocélulas, alimentação elétrica e condições da calha."
+                                                              title:"Envie fotos do kit",
+                                                              text:"Pode enviar imagens da caixa, motores, acessórios e manual para uma primeira análise."
                                                               },
                                                               
                                                               {
-                                                              title:"Kits para portões de batente",
-                                                              text:"Avaliação dos motores de braço, suportes, curso das folhas, abertura interior ou exterior e programação das duas folhas."
+                                                              title:"Mostre o portão",
+                                                              text:"Fotos ou vídeos do portão ajudam a perceber se é de correr, batente, garagem ou outro sistema."
                                                               },
                                                               
                                                               {
-                                                              title:"Kits para portões de garagem",
-                                                              text:"Análise de motores de teto, calhas, desbloqueio manual, comandos e compatibilidade com portões seccionados ou basculantes."
+                                                              title:"Receba orientação",
+                                                              text:"Indicamos se o kit parece adequado, se falta algum acessório ou se é necessária visita ao local."
                                                               },
                                                               
                                                               {
-                                                              title:"Kits comprados em loja ou online",
-                                                              text:"Podemos verificar kits adquiridos em lojas físicas, marketplaces ou plataformas online, desde que estejam completos e tecnicamente adequados."
+                                                              title:"Instalação com segurança",
+                                                              text:"Quando existem condições, avançamos com montagem, ligação, programação e testes de funcionamento."
                                                               }
                                                               
                                                               ].map((item,index)=>(
@@ -614,17 +624,17 @@ export default function InstalacaoKitPortaoAutomatico() {
                                                               <div
                                                               key={index}
                                                               style={{
-                                                              background:"#f5f8fc",
+                                                              background:"#eef3fa",
                                                               borderRadius:"24px",
-                                                              padding:"30px 26px",
+                                                              padding:"28px 24px",
                                                               boxShadow:"0 12px 28px rgba(11,44,95,0.07)",
-                                                              border:"1px solid rgba(11,44,95,0.06)"
+                                                              border:"1px solid rgba(11,44,95,0.05)"
                                                               }}
                                                               >
                                                               
                                                               <h3 style={{
                                                               color:"#08285c",
-                                                              fontSize:"23px",
+                                                              fontSize:"22px",
                                                               marginBottom:"12px"
                                                               }}>
                                                               {item.title}
@@ -641,6 +651,67 @@ export default function InstalacaoKitPortaoAutomatico() {
                                                               </div>
                                                               
                                                               ))}
+                                                              
+                                                              </div>
+                                                              
+                                                              <div style={{
+                                                              textAlign:"center"
+                                                              }}>
+                                                              
+                                                              <p style={{
+                                                              fontSize:"18px",
+                                                              lineHeight:"1.7",
+                                                              color:"#555",
+                                                              maxWidth:"760px",
+                                                              margin:"0 auto 28px auto"
+                                                              }}>
+                                                              Antes de comprar ou instalar, fale connosco. Muitas vezes uma simples verificação evita
+                                                              comprar um kit incompatível ou avançar com uma instalação que depois não funciona corretamente.
+                                                              </p>
+                                                              
+                                                              <div style={{
+                                                              display:"flex",
+                                                              justifyContent:"center",
+                                                              gap:"16px",
+                                                              flexWrap:"wrap"
+                                                              }}>
+                                                              
+                                                              <a
+                                                              href="https://wa.me/351922021980"
+                                                              target="_blank"
+                                                              style={{
+                                                              background:"#25D366",
+                                                              color:"white",
+                                                              padding:"17px 28px",
+                                                              borderRadius:"16px",
+                                                              textDecoration:"none",
+                                                              fontWeight:"bold",
+                                                              fontSize:"17px",
+                                                              boxShadow:"0 10px 25px rgba(37,211,102,.20)"
+                                                              }}
+                                                              >
+                                                              Enviar fotos do kit
+                                                              </a>
+                                                              
+                                                              <a
+                                                              href="tel:922021980"
+                                                              style={{
+                                                              background:"#08285c",
+                                                              color:"white",
+                                                              padding:"17px 28px",
+                                                              borderRadius:"16px",
+                                                              textDecoration:"none",
+                                                              fontWeight:"bold",
+                                                              fontSize:"17px",
+                                                              boxShadow:"0 10px 25px rgba(8,40,92,.18)"
+                                                              }}
+                                                              >
+                                                              Ligar agora
+                                                              </a>
+                                                              
+                                                              </div>
+                                                              
+                                                              </div>
                                                               
                                                               </div>
                                                               
