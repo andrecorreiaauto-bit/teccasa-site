@@ -1,9 +1,15 @@
 import { useEffect, useState } from "react";
 import Head from "next/head";
 export default function ComandoGaragemSoFuncionaPerto() {
+ const [logoClicks, setLogoClicks] = useState(0);
+ const [showSeoPanel, setShowSeoPanel] = useState(false);
+ const [pinInput, setPinInput] = useState("");
  const [menuOpen, setMenuOpen] = useState(false);
  const menuItems = [
   { label:"Início", href:"/", active:true },
+
+  { label:"Instalação de Automatismos", href:"/instalacao-automatismos-portoes", active:true },
+
   { label:"Reparação de Portões", href:"/reparacao-portoes-lisboa", active:true },
 
   { label:"Comandos", href:"/comandos-garagem", active:true },
@@ -11,7 +17,7 @@ export default function ComandoGaragemSoFuncionaPerto() {
   { label:"Domótica", href:"/casas-inteligentes-lisboa", active:true },
 
   { label:"Vigilância", href:"/instalacao-camaras-lisboa", active:true },
-  ]
+]
  useEffect(() => {
   if (typeof window === "undefined") return;
 
