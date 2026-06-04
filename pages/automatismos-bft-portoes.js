@@ -1567,11 +1567,50 @@ border:"1px solid rgba(11,44,95,0.05)"
                                                            }
                                                          
                                                            a[href="https://wa.me/351922021980"][style*="fixed"] {
-                                                             right: 12px !important;
-                                                             bottom: 12px !important;
-                                                             padding: 12px 15px !important;
-                                                             font-size: 15px !important;
+                                                           right: 10px !important;
+                                                           bottom: 12px !important;
+                                                           max-width: calc(100% - 20px) !important;
+                                                           padding: 12px 15px !important;
+                                                           font-size: 15px !important;
+                                                           box-sizing: border-box !important;
+                                                         }
+
+                                                           *,
+                                                           *::before,
+                                                           *::after {
+                                                             box-sizing: border-box !important;
                                                            }
+                                                           
+                                                           html,
+                                                           body,
+                                                           #__next {
+                                                             width: 100% !important;
+                                                             max-width: 100% !important;
+                                                             overflow-x: hidden !important;
+                                                           }
+                                                           
+                                                           .page,
+                                                           .main-card {
+                                                             max-width: 100% !important;
+                                                             overflow-x: hidden !important;
+                                                           }
+                                                           
+                                                           nav {
+                                                             max-width: calc(100% - 16px) !important;
+                                                             overflow: hidden !important;
+                                                           }
+                                                           
+                                                           section,
+                                                           section > div,
+                                                           div {
+                                                             max-width: 100% !important;
+                                                           }
+                                                           
+                                                           img {
+                                                             max-width: 100% !important;
+                                                             height: auto !important;
+                                                           }
+
                                                          }
                                                         `}</style>
                          
