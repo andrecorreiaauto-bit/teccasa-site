@@ -604,6 +604,7 @@ export default function AutomatismosBftPortoes() {
                                                               </p>
                                                               
                                                               <div
+                                                              className="tipos-bft-grid"
                                                               style={{
                                                               display:"grid",
                                                               gridTemplateColumns:"repeat(auto-fit,minmax(250px,1fr))",
@@ -708,6 +709,7 @@ export default function AutomatismosBftPortoes() {
                                                                                          </p>
                                                                                          
                                                                                          <div
+                                                                                         className="avarias-bft-grid"
                                                                                          style={{
                                                                                          display:"grid",
                                                                                          gridTemplateColumns:"repeat(auto-fit,minmax(280px,1fr))",
@@ -853,7 +855,9 @@ export default function AutomatismosBftPortoes() {
                                                       }}
                                                       >
                                                       
-                                                      <div style={{
+                                                      <div 
+                                                      className="instalar-reparar-grid"
+                                                      style={{
                                                       display:"grid",
                                                       gridTemplateColumns:"repeat(auto-fit,minmax(300px,1fr))",
                                                       gap:"28px",
@@ -1438,6 +1442,33 @@ border:"1px solid rgba(11,44,95,0.05)"
                                                             .problemas-grid {
                                                               grid-template-columns: 1fr !important;
                                                             }
+
+                                                            .tipos-bft-grid,
+                                                            .avarias-bft-grid,
+                                                            .instalar-reparar-grid {
+                                                              display: grid !important;
+                                                              grid-template-columns: 1fr !important;
+                                                              justify-items: center !important;
+                                                              align-items: stretch !important;
+                                                              gap: 22px !important;
+                                                              width: 100% !important;
+                                                              max-width: 100% !important;
+                                                              box-sizing: border-box !important;
+                                                            }
+                                                            
+                                                            .tipos-bft-grid > *,
+                                                            .avarias-bft-grid > *,
+                                                            .instalar-reparar-grid > * {
+                                                              width: 100% !important;
+                                                              max-width: 320px !important;
+                                                              margin-left: auto !important;
+                                                              margin-right: auto !important;
+                                                              box-sizing: border-box !important;
+                                                            }
+                                                            
+                                                            .instalar-reparar-grid > * {
+                                                              padding: 28px 22px !important;
+                                                            }
                                                         
                                                             .contact-grid {
                                                               grid-template-columns: minmax(260px, 320px) !important;
@@ -1529,6 +1560,14 @@ border:"1px solid rgba(11,44,95,0.05)"
                                                             text-align: center !important;
                                                             box-sizing: border-box !important;
                                                           }
+
+                                                          a[href="https://wa.me/351922021980"][style*="fixed"] {
+                                                          right: 14px !important;
+                                                          bottom: 14px !important;
+                                                          padding: 12px 15px !important;
+                                                          font-size: 15px !important;
+                                                        }
+
                                                           }
                                                         `}</style>
                          
