@@ -1611,6 +1611,52 @@ border:"1px solid rgba(11,44,95,0.05)"
                                                              height: auto !important;
                                                            }
 
+                                                           @media (hover: none) and (pointer: coarse) {
+                                                           * {
+                                                             animation: none !important;
+                                                           }
+                                                         
+                                                           a[href="https://wa.me/351922021980"][style*="fixed"] {
+                                                             animation: none !important;
+                                                             transform: none !important;
+                                                             right: 10px !important;
+                                                             bottom: 10px !important;
+                                                             padding: 11px 14px !important;
+                                                             font-size: 14px !important;
+                                                             max-width: calc(100vw - 24px) !important;
+                                                           }
+                                                         }
+
+                                                         body {
+                                                         position: relative !important;
+                                                       }
+                                                       
+                                                       .page {
+                                                         position: relative !important;
+                                                         left: 0 !important;
+                                                         right: 0 !important;
+                                                       }
+                                                       
+                                                       .main-card {
+                                                         position: relative !important;
+                                                         left: 0 !important;
+                                                         right: 0 !important;
+                                                       }
+                                                       
+                                                       section,
+                                                       section > div,
+                                                       footer {
+                                                         position: relative !important;
+                                                         left: 0 !important;
+                                                         right: 0 !important;
+                                                       }
+                                                       
+                                                       nav {
+                                                         left: 8px !important;
+                                                         right: 8px !important;
+                                                         width: calc(100% - 16px) !important;
+                                                       }
+
                                                          }
                                                         `}</style>
                          
