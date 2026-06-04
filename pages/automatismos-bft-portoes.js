@@ -1384,12 +1384,13 @@ border:"1px solid rgba(11,44,95,0.05)"
                                                              left: 8px !important;
                                                              right: 8px !important;
                                                              transform: none !important;
-                                                             width: auto !important;
-                                                             max-width: none !important;
+                                                             width: calc(100% - 16px) !important;
+                                                             max-width: calc(100% - 16px) !important;
                                                              box-sizing: border-box !important;
                                                              margin: 0 !important;
                                                              border-radius: 18px !important;
                                                              z-index: 1000 !important;
+                                                             overflow: hidden !important;
                                                            }
                                                          
                                                            nav img {
@@ -1484,7 +1485,7 @@ border:"1px solid rgba(11,44,95,0.05)"
                                                              display: block !important;
                                                            }
                                                          
-                                                           .hero-reparacao img[src="/bft-logo.png"] {
+                                                           .hero-reparacao img[src*="-logo"] {
                                                              width: auto !important;
                                                              max-width: 120px !important;
                                                              height: auto !important;
@@ -1496,10 +1497,7 @@ border:"1px solid rgba(11,44,95,0.05)"
                                                            .servicos-grid,
                                                            .marcas-grid,
                                                            .contact-grid,
-                                                           .compromisso-grid,
-                                                           .tipos-bft-grid,
-                                                           .avarias-bft-grid,
-                                                           .instalar-reparar-grid {
+                                                           .compromisso-grid {
                                                              display: grid !important;
                                                              grid-template-columns: 1fr !important;
                                                              gap: 20px !important;
@@ -1514,10 +1512,7 @@ border:"1px solid rgba(11,44,95,0.05)"
                                                            .servicos-grid > *,
                                                            .marcas-grid > *,
                                                            .contact-grid > *,
-                                                           .compromisso-grid > *,
-                                                           .tipos-bft-grid > *,
-                                                           .avarias-bft-grid > *,
-                                                           .instalar-reparar-grid > * {
+                                                           .compromisso-grid > * {
                                                              width: 100% !important;
                                                              max-width: none !important;
                                                              margin-left: 0 !important;
@@ -1570,6 +1565,7 @@ border:"1px solid rgba(11,44,95,0.05)"
                                                          
                                                            img {
                                                              max-width: 100% !important;
+                                                             height: auto !important;
                                                            }
                                                          
                                                            footer {
@@ -1581,97 +1577,67 @@ border:"1px solid rgba(11,44,95,0.05)"
                                                            }
                                                          
                                                            a[href="https://wa.me/351922021980"][style*="fixed"] {
-                                                           right: 10px !important;
-                                                           bottom: 12px !important;
-                                                           max-width: calc(100% - 20px) !important;
-                                                           padding: 12px 15px !important;
-                                                           font-size: 15px !important;
-                                                           box-sizing: border-box !important;
-                                                         }
-
-                                                           *,
-                                                           *::before,
-                                                           *::after {
+                                                             right: 12px !important;
+                                                             bottom: 12px !important;
+                                                             padding: 12px 15px !important;
+                                                             font-size: 15px !important;
+                                                             max-width: calc(100vw - 24px) !important;
                                                              box-sizing: border-box !important;
                                                            }
-                                                           
-                                                           html,
-                                                           body,
-                                                           #__next {
-                                                             width: 100% !important;
-                                                             max-width: 100% !important;
-                                                             overflow-x: hidden !important;
-                                                           }
-                                                           
-                                                           .page,
-                                                           .main-card {
-                                                             max-width: 100% !important;
-                                                             overflow-x: hidden !important;
-                                                           }
-                                                           
-                                                           nav {
-                                                             max-width: calc(100% - 16px) !important;
-                                                             overflow: hidden !important;
-                                                           }
-                                                           
-                                                           section,
-                                                           section > div,
-                                                           div {
-                                                             max-width: 100% !important;
-                                                           }
-                                                           
-                                                           img {
-                                                             max-width: 100% !important;
-                                                             height: auto !important;
-                                                           }
-
-                                                           @media (hover: none) and (pointer: coarse) {
-                                                           * {
-                                                             animation: none !important;
-                                                           }
                                                          
-                                                           a[href="https://wa.me/351922021980"][style*="fixed"] {
-                                                             animation: none !important;
-                                                             transform: none !important;
-                                                             right: 10px !important;
-                                                             bottom: 10px !important;
-                                                             padding: 11px 14px !important;
-                                                             font-size: 14px !important;
-                                                             max-width: calc(100vw - 24px) !important;
+                                                           @media (hover: none) and (pointer: coarse) {
+                                                             * {
+                                                               animation: none !important;
+                                                             }
+                                                         
+                                                             a[href="https://wa.me/351922021980"][style*="fixed"] {
+                                                               animation: none !important;
+                                                               transform: none !important;
+                                                             }
                                                            }
-                                                         }
 
-                                                         body {
-                                                         position: relative !important;
-                                                       }
-                                                       
-                                                       .page {
-                                                         position: relative !important;
-                                                         left: 0 !important;
-                                                         right: 0 !important;
-                                                       }
-                                                       
-                                                       .main-card {
-                                                         position: relative !important;
-                                                         left: 0 !important;
-                                                         right: 0 !important;
-                                                       }
-                                                       
-                                                       section,
-                                                       section > div,
-                                                       footer {
-                                                         position: relative !important;
-                                                         left: 0 !important;
-                                                         right: 0 !important;
-                                                       }
-                                                       
-                                                       nav {
-                                                         left: 8px !important;
-                                                         right: 8px !important;
-                                                         width: calc(100% - 16px) !important;
-                                                       }
+                                                           /* Alinhamento mobile mais consistente */
+
+                                                            h1,
+                                                            h2 {
+                                                              text-align: center !important;
+                                                            }
+                                                            
+                                                            section > p {
+                                                              text-align: center !important;
+                                                              margin-left: auto !important;
+                                                              margin-right: auto !important;
+                                                            }
+                                                            
+                                                            .hero-reparacao p {
+                                                              text-align: center !important;
+                                                            }
+                                                            
+                                                            .problemas-grid h3,
+                                                            .servicos-grid h3,
+                                                            .marcas-grid h3,
+                                                            .contact-grid h3,
+                                                            .compromisso-grid h3,
+                                                            div[style*="grid-template-columns"] h3 {
+                                                              text-align: left !important;
+                                                            }
+                                                            
+                                                            .problemas-grid p,
+                                                            .servicos-grid p,
+                                                            .marcas-grid p,
+                                                            .contact-grid p,
+                                                            .compromisso-grid p,
+                                                            div[style*="grid-template-columns"] p {
+                                                              text-align: left !important;
+                                                            }
+                                                            
+                                                            li,
+                                                            li span {
+                                                              text-align: left !important;
+                                                            }
 
                                                          }
+                                                         
                                                         `}</style>
                          
 
