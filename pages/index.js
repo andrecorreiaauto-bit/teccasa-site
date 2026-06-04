@@ -21,6 +21,10 @@ export default function Home() {
  useEffect(() => {
   if (typeof window === "undefined") return;
 
+  const mapContainer = document.getElementById("mapa-teccasa");
+
+  if (!mapContainer) return;
+
   const leafletCss = document.createElement("link");
   leafletCss.rel = "stylesheet";
   leafletCss.href = "https://unpkg.com/leaflet@1.9.4/dist/leaflet.css";
@@ -28,6 +32,7 @@ export default function Home() {
 
   const leafletScript = document.createElement("script");
   leafletScript.src = "https://unpkg.com/leaflet@1.9.4/dist/leaflet.js";
+
   leafletScript.onload = () => {
     const center = [38.84002, -9.10069];
 
@@ -53,6 +58,7 @@ export default function Home() {
 
   document.body.appendChild(leafletScript);
 }, []);
+ 
  useEffect(() => {
   if (!menuOpen) return;
 
