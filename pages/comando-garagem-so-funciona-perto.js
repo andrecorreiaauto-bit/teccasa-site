@@ -1450,18 +1450,18 @@ border:"1px solid rgba(11,44,95,0.05)"
                                                              box-sizing: border-box !important;
                                                            }
                                                          
-                                                           div[style*="grid-template-columns"] {
-                                                             grid-template-columns: 1fr !important;
-                                                             width: 100% !important;
-                                                             max-width: 100% !important;
-                                                             box-sizing: border-box !important;
-                                                           }
+                                                           div[style*="grid-template-columns"]:not(.marcas-grid) {
+                                                           grid-template-columns: 1fr !important;
+                                                           width: 100% !important;
+                                                           max-width: 100% !important;
+                                                           box-sizing: border-box !important;
+                                                         }
                                                          
-                                                           div[style*="grid-template-columns"] > * {
-                                                             width: 100% !important;
-                                                             max-width: none !important;
-                                                             box-sizing: border-box !important;
-                                                           }
+                                                         div[style*="grid-template-columns"]:not(.marcas-grid) > * {
+                                                           width: 100% !important;
+                                                           max-width: none !important;
+                                                           box-sizing: border-box !important;
+                                                         }
                                                          
                                                            h1 {
                                                              font-size: 30px !important;
@@ -1595,7 +1595,6 @@ border:"1px solid rgba(11,44,95,0.05)"
                                                             }
 
                                                          }
-
                                                          
                                                         `}</style>
                          
