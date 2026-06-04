@@ -1220,6 +1220,34 @@ border:"1px solid rgba(11,44,95,0.05)"
                                                               text-align: left !important;
                                                             }
 
+                                                            /* Marcas em 2 colunas no mobile */
+
+                                                            .marcas-grid {
+                                                              display: grid !important;
+                                                              grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+                                                              gap: 12px !important;
+                                                              width: 100% !important;
+                                                              max-width: 100% !important;
+                                                              box-sizing: border-box !important;
+                                                            }
+                                                            
+                                                            .marcas-grid > * {
+                                                              width: 100% !important;
+                                                              max-width: none !important;
+                                                              margin-left: 0 !important;
+                                                              margin-right: 0 !important;
+                                                              box-sizing: border-box !important;
+                                                            }
+                                                            
+                                                            .cartao-marca {
+                                                              width: 100% !important;
+                                                              min-height: 48px !important;
+                                                              padding: 12px 8px !important;
+                                                              font-size: 15px !important;
+                                                              border-radius: 14px !important;
+                                                              text-align: center !important;
+                                                            }
+
                                                          }
                                                          
                                                         `}</style>
