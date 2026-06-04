@@ -1140,18 +1140,18 @@ border:"1px solid rgba(11,44,95,0.05)"
                                                              box-sizing: border-box !important;
                                                            }
                                                          
-                                                           div[style*="grid-template-columns"] {
-                                                             grid-template-columns: 1fr !important;
-                                                             width: 100% !important;
-                                                             max-width: 100% !important;
-                                                             box-sizing: border-box !important;
-                                                           }
+                                                           div[style*="grid-template-columns"]:not(.marcas-grid) {
+                                                           grid-template-columns: 1fr !important;
+                                                           width: 100% !important;
+                                                           max-width: 100% !important;
+                                                           box-sizing: border-box !important;
+                                                         }
                                                          
-                                                           div[style*="grid-template-columns"] > * {
-                                                             width: 100% !important;
-                                                             max-width: none !important;
-                                                             box-sizing: border-box !important;
-                                                           }
+                                                         div[style*="grid-template-columns"]:not(.marcas-grid) > * {
+                                                           width: 100% !important;
+                                                           max-width: none !important;
+                                                           box-sizing: border-box !important;
+                                                         }
                                                          
                                                            h1 {
                                                              font-size: 30px !important;
@@ -1215,7 +1215,77 @@ border:"1px solid rgba(11,44,95,0.05)"
                                                                transform: none !important;
                                                              }
                                                            }
+
+                                                           /* Alinhamento mobile mais consistente */
+
+                                                            h1,
+                                                            h2 {
+                                                              text-align: center !important;
+                                                            }
+                                                            
+                                                            section > p {
+                                                              text-align: center !important;
+                                                              margin-left: auto !important;
+                                                              margin-right: auto !important;
+                                                            }
+                                                            
+                                                            .hero-reparacao p {
+                                                              text-align: center !important;
+                                                            }
+                                                            
+                                                            .problemas-grid h3,
+                                                            .servicos-grid h3,
+                                                            .marcas-grid h3,
+                                                            .contact-grid h3,
+                                                            .compromisso-grid h3,
+                                                            div[style*="grid-template-columns"] h3 {
+                                                              text-align: left !important;
+                                                            }
+                                                            
+                                                            .problemas-grid p,
+                                                            .servicos-grid p,
+                                                            .marcas-grid p,
+                                                            .contact-grid p,
+                                                            .compromisso-grid p,
+                                                            div[style*="grid-template-columns"] p {
+                                                              text-align: left !important;
+                                                            }
+                                                            
+                                                            li,
+                                                            li span {
+                                                              text-align: left !important;
+                                                            }
+
+                                                            /* Marcas em 2 colunas no mobile */
+
+                                                            .marcas-grid {
+                                                              display: grid !important;
+                                                              grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+                                                              gap: 12px !important;
+                                                              width: 100% !important;
+                                                              max-width: 100% !important;
+                                                              box-sizing: border-box !important;
+                                                            }
+                                                            
+                                                            .marcas-grid > * {
+                                                              width: 100% !important;
+                                                              max-width: none !important;
+                                                              margin-left: 0 !important;
+                                                              margin-right: 0 !important;
+                                                              box-sizing: border-box !important;
+                                                            }
+                                                            
+                                                            .cartao-marca {
+                                                              width: 100% !important;
+                                                              min-height: 48px !important;
+                                                              padding: 12px 8px !important;
+                                                              font-size: 15px !important;
+                                                              border-radius: 14px !important;
+                                                              text-align: center !important;
+                                                            }
+
                                                          }
+                                                         
 
                                                         `}</style>
                          
