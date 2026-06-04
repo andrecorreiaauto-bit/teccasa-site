@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import Head from "next/head";
-export default function ReparacaoPortoes() {
+export default function CasasInteligentesLisboa() {
  const [logoClicks, setLogoClicks] = useState(0);
  const [showSeoPanel, setShowSeoPanel] = useState(false);
  const [pinInput, setPinInput] = useState("");
