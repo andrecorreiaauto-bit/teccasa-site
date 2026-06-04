@@ -368,7 +368,7 @@ export default function AutomatismosNicePortoes() {
                     src="/nice-logo.png"
                     alt="Nice"
                     style={{
-                    height:"58px",
+                    height:"98px",
                     width:"auto",
                     objectFit:"contain",
                     display:"block"
