@@ -488,59 +488,49 @@ export default function AutomatismosNicePortoes() {
                                            marginBottom:"16px",
                                            textAlign:"center"
                                            }}>
-                                           Serviços em automatismos BFT
+                                           Serviços em automatismos Nice
                                            </h2>
                                            
                                            <p style={{
                                            fontSize:"19px",
                                            lineHeight:"1.7",
                                            color:"#555",
-                                           maxWidth:"850px",
-                                           margin:"0 auto 45px auto",
+                                           maxWidth:"830px",
+                                           margin:"0 auto 42px auto",
                                            textAlign:"center"
                                            }}>
-                                           A TecCasa Soluções presta instalação, programação, substituição e assistência técnica
-                                           a automatismos BFT para portões residenciais, acessos exteriores e sistemas de utilização frequente.
+                                           A TecCasa Soluções presta instalação, programação e assistência técnica a automatismos Nice,
+                                           com foco em utilização residencial, conforto diário, comandos, centrais eletrónicas e funcionamento seguro do portão.
                                            </p>
                                            
                                            <div
                                            className="problemas-grid"
                                            style={{
                                            display:"grid",
-                                           gridTemplateColumns:"repeat(3,1fr)",
+                                           gridTemplateColumns:"repeat(4,1fr)",
                                            gap:"22px"
                                            }}
                                            >
                                            
                                            {[
                                            {
-                                           title:"Instalação de motores BFT",
-                                           text:"Montagem de automatismos BFT em portões de correr, batente e garagem, com atenção ao peso, curso e condições mecânicas do portão."
-                                           },
-                                           
-                                           {
-                                           title:"Substituição de automatismos",
-                                           text:"Troca de motores antigos ou avariados por soluções BFT adequadas ao tipo de portão e à frequência de utilização."
+                                           title:"Instalação de motores Nice",
+                                           text:"Montagem de automatismos Nice em portões de correr, batente e garagem, com verificação do portão antes da instalação."
                                            },
                                            
                                            {
                                            title:"Programação de comandos",
-                                           text:"Configuração de comandos, recetores, abertura total, abertura pedonal e modos de funcionamento do automatismo."
+                                           text:"Configuração de comandos, recetores e modos de abertura para utilização simples no dia a dia."
                                            },
                                            
                                            {
-                                           title:"Centrais eletrónicas BFT",
-                                           text:"Diagnóstico e parametrização de centrais, incluindo tempos de trabalho, força, abrandamento e entradas de segurança."
+                                           title:"Diagnóstico e assistência",
+                                           text:"Análise de avarias em motores, centrais, comandos, fotocélulas e sistemas de segurança."
                                            },
                                            
                                            {
-                                           title:"Fotocélulas e segurança",
-                                           text:"Verificação, instalação e afinação de fotocélulas, sistemas de proteção e comportamento do portão durante o fecho."
-                                           },
-                                           
-                                           {
-                                           title:"Diagnóstico de avarias",
-                                           text:"Análise de falhas em motores, comandos, sensores, centrais e movimento mecânico antes de substituir componentes."
+                                           title:"Substituição de automatismos",
+                                           text:"Troca de motores antigos ou pouco fiáveis por soluções adequadas ao tipo de portão e utilização."
                                            }
                                            
                                            ].map((item,index)=>(
@@ -581,8 +571,18 @@ export default function AutomatismosNicePortoes() {
                                            </section>
                                             
                                                               <section
+                                                              id="avarias"
                                                               style={{
                                                               padding:"10px 0 70px"
+                                                              }}
+                                                              >
+                                                              
+                                                              <div style={{
+                                                              background:"linear-gradient(180deg,#ffffff 0%,#f5f8fc 100%)",
+                                                              borderRadius:"32px",
+                                                              padding:"50px 36px",
+                                                              boxShadow:"0 18px 40px rgba(11,44,95,0.08)",
+                                                              border:"1px solid rgba(11,44,95,0.06)"
                                                               }}
                                                               >
                                                               
@@ -592,509 +592,223 @@ export default function AutomatismosNicePortoes() {
                                                               marginBottom:"18px",
                                                               textAlign:"center"
                                                               }}>
-                                                              Automatismos BFT para diferentes utilizações
+                                                              Problemas comuns em automatismos Nice
                                                               </h2>
                                                               
                                                               <p style={{
                                                               fontSize:"19px",
-                                                              lineHeight:"1.7",
+                                                              lineHeight:"1.75",
                                                               color:"#555",
                                                               maxWidth:"850px",
-                                                              margin:"0 auto 42px auto",
+                                                              margin:"0 auto 36px auto",
                                                               textAlign:"center"
                                                               }}>
-                                                              Os automatismos BFT são utilizados em vários tipos de portão. Para garantir bom funcionamento,
-                                                              é importante escolher e afinar o equipamento de acordo com o peso do portão, o espaço disponível
-                                                              e a intensidade de utilização.
+                                                              Se o seu portão com automatismo Nice deixou de funcionar corretamente,
+                                                              clique no sintoma mais parecido para saber mais ou peça assistência diretamente.
                                                               </p>
                                                               
                                                               <div
-                                                              className="tipos-bft-grid"
                                                               style={{
                                                               display:"grid",
-                                                              gridTemplateColumns:"repeat(auto-fit,minmax(250px,1fr))",
-                                                              gap:"22px"
+                                                              gridTemplateColumns:"repeat(auto-fit,minmax(280px,1fr))",
+                                                              columnGap:"18px",
+                                                              rowGap:"24px",
+                                                              alignItems:"stretch"
                                                               }}
                                                               >
                                                               
                                                               {[
                                                               {
-                                                              title:"Portões de correr",
-                                                              text:"Instalação e assistência a motores BFT para portões de correr, com verificação de cremalheira, pinhão, fins de curso e força de arranque."
+                                                              title:"Comando da garagem não funciona",
+                                                              href:"/comando-garagem-nao-funciona",
+                                                              text:"Quando o comando deixou de abrir o portão ou perdeu programação."
                                                               },
                                                               
                                                               {
-                                                              title:"Portões de batente",
-                                                              text:"Programação e diagnóstico de automatismos BFT para portões de uma ou duas folhas, incluindo atraso entre folhas e abertura pedonal."
+                                                              title:"Comando só funciona perto",
+                                                              href:"/comando-garagem-so-funciona-perto",
+                                                              text:"Quando o comando tem pouco alcance ou falhas de receção."
                                                               },
                                                               
                                                               {
-                                                              title:"Portões de garagem",
-                                                              text:"Assistência a sistemas BFT aplicados em portões de garagem, com análise do motor, comandos, calhas e segurança."
+                                                              title:"O portão não fecha",
+                                                              href:"/portao-nao-fecha",
+                                                              text:"Quando o portão fica aberto ou não termina o fecho."
                                                               },
                                                               
                                                               {
-                                                              title:"Acessos residenciais e condomínios",
-                                                              text:"Verificação de automatismos em moradias e acessos de utilização frequente, onde a fiabilidade e a afinação correta são essenciais."
+                                                              title:"O portão fecha e volta a abrir",
+                                                              href:"/portao-fecha-e-volta-a-abrir",
+                                                              text:"Quando o sistema inverte o movimento durante o fecho."
+                                                              },
+                                                              
+                                                              {
+                                                              title:"Motor do portão sem força",
+                                                              href:"/motor-portao-sem-forca",
+                                                              text:"Quando o portão abre devagar, perde força ou pára a meio."
+                                                              },
+                                                              
+                                                              {
+                                                              title:"Portão de garagem não abre",
+                                                              href:"/portao-garagem-nao-abre",
+                                                              text:"Para motores de teto, portões seccionados e sistemas de garagem."
                                                               }
                                                               
                                                               ].map((item,index)=>(
                                                               
-                                                              <div
+                                                              <a
                                                               key={index}
+                                                              href={item.href}
                                                               style={{
-                                                              background:"#f5f8fc",
-                                                              borderRadius:"24px",
-                                                              padding:"30px 26px",
-                                                              boxShadow:"0 12px 28px rgba(11,44,95,0.07)",
-                                                              border:"1px solid rgba(11,44,95,0.06)"
+                                                              display:"flex",
+                                                              flexDirection:"column",
+                                                              justifyContent:"space-between",
+                                                              minHeight:"190px",
+                                                              background:"#eef3fa",
+                                                              borderRadius:"22px",
+                                                              padding:"24px 24px",
+                                                              textDecoration:"none",
+                                                              boxShadow:"0 10px 24px rgba(11,44,95,0.07)",
+                                                              border:"1px solid rgba(11,44,95,0.05)",
+                                                              transition:"transform .25s ease, box-shadow .25s ease, background .25s ease",
+                                                              boxSizing:"border-box",
+                                                              overflow:"hidden"
+                                                              }}
+                                                              onMouseEnter={(e)=>{
+                                                              e.currentTarget.style.transform="translateY(-5px)"
+                                                              e.currentTarget.style.boxShadow="0 16px 32px rgba(11,44,95,0.12)"
+                                                              e.currentTarget.style.background="#f5f8fc"
+                                                              }}
+                                                              onMouseLeave={(e)=>{
+                                                              e.currentTarget.style.transform="translateY(0)"
+                                                              e.currentTarget.style.boxShadow="0 10px 24px rgba(11,44,95,0.07)"
+                                                              e.currentTarget.style.background="#eef3fa"
                                                               }}
                                                               >
                                                               
+                                                              <div>
+                                                              
                                                               <h3 style={{
                                                               color:"#08285c",
-                                                              fontSize:"23px",
-                                                              marginBottom:"12px"
+                                                              fontSize:"21px",
+                                                              lineHeight:"1.25",
+                                                              margin:"0 0 12px 0"
                                                               }}>
                                                               {item.title}
                                                               </h3>
                                                               
                                                               <p style={{
                                                               color:"#444",
-                                                              lineHeight:"1.7",
-                                                              margin:"0"
+                                                              lineHeight:"1.65",
+                                                              margin:"0",
+                                                              fontSize:"16px"
                                                               }}>
                                                               {item.text}
                                                               </p>
                                                               
                                                               </div>
                                                               
+                                                              <span style={{
+                                                              display:"inline-block",
+                                                              color:"#08285c",
+                                                              fontWeight:"bold",
+                                                              fontSize:"15px",
+                                                              textDecoration:"underline",
+                                                              marginTop:"22px"
+                                                              }}>
+                                                              Saber mais
+                                                              </span>
+                                                              
+                                                              </a>
+                                                              
                                                               ))}
+                                                              
+                                                              </div>
                                                               
                                                               </div>
                                                               
                                                               </section>
 
                                                                                          <section
-                                                                                         id="avarias"
                                                                                          style={{
-                                                                                         padding:"10px 0 70px"
+                                                                                         padding:"30px 0 20px",
+                                                                                         textAlign:"center"
                                                                                          }}
                                                                                          >
                                                                                          
                                                                                          <div style={{
-                                                                                         background:"linear-gradient(180deg,#ffffff 0%,#f5f8fc 100%)",
+                                                                                         background:"linear-gradient(180deg,#f5f8fc 0%,#e8eef8 100%)",
                                                                                          borderRadius:"32px",
-                                                                                         padding:"50px 36px",
-                                                                                         boxShadow:"0 18px 40px rgba(11,44,95,0.08)",
-                                                                                         border:"1px solid rgba(11,44,95,0.06)"
+                                                                                         padding:"55px 35px",
+                                                                                         boxShadow:"0 18px 40px rgba(11,44,95,0.08)"
                                                                                          }}
                                                                                          >
                                                                                          
                                                                                          <h2 style={{
-                                                                                         fontSize:"38px",
+                                                                                         fontSize:"42px",
                                                                                          color:"#08285c",
-                                                                                         marginBottom:"18px",
-                                                                                         textAlign:"center"
+                                                                                         marginBottom:"18px"
                                                                                          }}>
-                                                                                         Avarias comuns em automatismos BFT
+                                                                                         Precisa de ajuda com um automatismo Nice?
                                                                                          </h2>
                                                                                          
                                                                                          <p style={{
-                                                                                         fontSize:"19px",
-                                                                                         lineHeight:"1.75",
+                                                                                         fontSize:"20px",
+                                                                                         lineHeight:"1.8",
                                                                                          color:"#555",
-                                                                                         maxWidth:"850px",
-                                                                                         margin:"0 auto 36px auto",
-                                                                                         textAlign:"center"
+                                                                                         maxWidth:"820px",
+                                                                                         margin:"0 auto 35px auto"
                                                                                          }}>
-                                                                                         Os automatismos BFT podem apresentar diferentes sintomas consoante o tipo de portão,
-                                                                                         a utilização diária, a afinação da central e o estado mecânico da instalação.
-                                                                                         Clique em cada situação para saber mais sobre possíveis causas.
+                                                                                         Se tem um portão com automatismo Nice, precisa de instalar um motor,
+                                                                                         programar comandos, corrigir uma avaria ou substituir equipamento antigo,
+                                                                                         fale connosco para avaliarmos a situação.
                                                                                          </p>
                                                                                          
-                                                                                         <div
-                                                                                         className="avarias-bft-grid"
-                                                                                         style={{
-                                                                                         display:"grid",
-                                                                                         gridTemplateColumns:"repeat(auto-fit,minmax(280px,1fr))",
-                                                                                         columnGap:"18px",
-                                                                                         rowGap:"24px",
-                                                                                         alignItems:"stretch"
-                                                                                         }}
-                                                                                         >
-                                                                                         
-                                                                                         {[
-                                                                                         {
-                                                                                         title:"O portão não fecha",
-                                                                                         href:"/portao-nao-fecha",
-                                                                                         text:"Quando o portão fica aberto, não termina o fecho ou bloqueia por segurança."
-                                                                                         },
-                                                                                         
-                                                                                         {
-                                                                                         title:"O portão fecha e volta a abrir",
-                                                                                         href:"/portao-fecha-e-volta-a-abrir",
-                                                                                         text:"Quando o sistema inicia o fecho, mas inverte o movimento durante o percurso."
-                                                                                         },
-                                                                                         
-                                                                                         {
-                                                                                         title:"O portão abre só uma folha",
-                                                                                         href:"/portao-abre-so-uma-folha",
-                                                                                         text:"Situação comum em portões de batente com automatismos de duas folhas."
-                                                                                         },
-                                                                                         
-                                                                                         {
-                                                                                         title:"O portão abre apenas até meio",
-                                                                                         href:"/portao-abre-ate-meio",
-                                                                                         text:"Quando o portão interrompe o movimento antes de completar a abertura."
-                                                                                         },
-                                                                                         
-                                                                                         {
-                                                                                         title:"Motor faz barulho mas não abre",
-                                                                                         href:"/motor-portao-faz-barulho-mas-nao-abre",
-                                                                                         text:"Quando o motor trabalha, mas não consegue transmitir movimento ao portão."
-                                                                                         },
-                                                                                         
-                                                                                         {
-                                                                                         title:"Motor do portão sem força",
-                                                                                         href:"/motor-portao-sem-forca",
-                                                                                         text:"Quando o portão abre devagar, perde força ou pára com facilidade."
-                                                                                         },
-                                                                                         
-                                                                                         {
-                                                                                         title:"Portão de garagem não abre",
-                                                                                         href:"/portao-garagem-nao-abre",
-                                                                                         text:"Para motores de teto, portões seccionados, basculantes e sistemas de garagem."
-                                                                                         },
-                                                                                         
-                                                                                         {
-                                                                                         title:"Comando da garagem não funciona",
-                                                                                         href:"/comando-garagem-nao-funciona",
-                                                                                         text:"Quando o comando deixou de responder, perdeu programação ou não abre o portão."
-                                                                                         },
-                                                                                         
-                                                                                         {
-                                                                                         title:"Comando só funciona perto",
-                                                                                         href:"/comando-garagem-so-funciona-perto",
-                                                                                         text:"Quando o comando tem pouco alcance, sinal fraco ou falhas de receção."
-                                                                                         }
-                                                                                         
-                                                                                         ].map((item,index)=>(
+                                                                                         <div style={{
+                                                                                         display:"flex",
+                                                                                         justifyContent:"center",
+                                                                                         gap:"16px",
+                                                                                         flexWrap:"wrap"
+                                                                                         }}>
                                                                                          
                                                                                          <a
-                                                                                         key={index}
-                                                                                         href={item.href}
+                                                                                         href="https://wa.me/351922021980"
+                                                                                         target="_blank"
                                                                                          style={{
-                                                                                         display:"flex",
-                                                                                         flexDirection:"column",
-                                                                                         justifyContent:"space-between",
-                                                                                         minHeight:"205px",
-                                                                                         background:"#eef3fa",
-                                                                                         borderRadius:"22px",
-                                                                                         padding:"24px 24px",
+                                                                                         background:"#25D366",
+                                                                                         color:"white",
+                                                                                         padding:"17px 28px",
+                                                                                         borderRadius:"16px",
                                                                                          textDecoration:"none",
-                                                                                         boxShadow:"0 10px 24px rgba(11,44,95,0.07)",
-                                                                                         border:"1px solid rgba(11,44,95,0.05)",
-                                                                                         transition:"transform .25s ease, box-shadow .25s ease, background .25s ease",
-                                                                                         boxSizing:"border-box",
-                                                                                         overflow:"hidden"
-                                                                                         }}
-                                                                                         onMouseEnter={(e)=>{
-                                                                                         e.currentTarget.style.transform="translateY(-5px)"
-                                                                                         e.currentTarget.style.boxShadow="0 16px 32px rgba(11,44,95,0.12)"
-                                                                                         e.currentTarget.style.background="#f5f8fc"
-                                                                                         }}
-                                                                                         onMouseLeave={(e)=>{
-                                                                                         e.currentTarget.style.transform="translateY(0)"
-                                                                                         e.currentTarget.style.boxShadow="0 10px 24px rgba(11,44,95,0.07)"
-                                                                                         e.currentTarget.style.background="#eef3fa"
+                                                                                         fontWeight:"bold",
+                                                                                         fontSize:"17px",
+                                                                                         boxShadow:"0 10px 25px rgba(37,211,102,.20)"
                                                                                          }}
                                                                                          >
-                                                                                         
-                                                                                         <div>
-                                                                                         
-                                                                                         <h3 style={{
-                                                                                         color:"#08285c",
-                                                                                         fontSize:"21px",
-                                                                                         lineHeight:"1.25",
-                                                                                         margin:"0 0 12px 0"
-                                                                                         }}>
-                                                                                         {item.title}
-                                                                                         </h3>
-                                                                                         
-                                                                                         <p style={{
-                                                                                         color:"#444",
-                                                                                         lineHeight:"1.65",
-                                                                                         margin:"0",
-                                                                                         fontSize:"16px"
-                                                                                         }}>
-                                                                                         {item.text}
-                                                                                         </p>
-                                                                                         
-                                                                                         </div>
-                                                                                         
-                                                                                         <span style={{
-                                                                                         display:"inline-block",
-                                                                                         color:"#08285c",
-                                                                                         fontWeight:"bold",
-                                                                                         fontSize:"15px",
-                                                                                         textDecoration:"underline",
-                                                                                         marginTop:"22px"
-                                                                                         }}>
-                                                                                         Saber mais
-                                                                                         </span>
-                                                                                         
+                                                                                         Pedir assistência
                                                                                          </a>
                                                                                          
-                                                                                         ))}
+                                                                                         <a
+                                                                                         href="tel:922021980"
+                                                                                         style={{
+                                                                                         background:"#08285c",
+                                                                                         color:"white",
+                                                                                         padding:"17px 28px",
+                                                                                         borderRadius:"16px",
+                                                                                         textDecoration:"none",
+                                                                                         fontWeight:"bold",
+                                                                                         fontSize:"17px",
+                                                                                         boxShadow:"0 10px 25px rgba(8,40,92,.18)"
+                                                                                         }}
+                                                                                         >
+                                                                                         Ligar agora
+                                                                                         </a>
                                                                                          
                                                                                          </div>
                                                                                          
                                                                                          </div>
                                                                                          
                                                                                          </section>
- 
-                                                      <section
-                                                      style={{
-                                                      padding:"10px 0 70px"
-                                                      }}
-                                                      >
-                                                      
-                                                      <div 
-                                                      className="instalar-reparar-grid"
-                                                      style={{
-                                                      display:"grid",
-                                                      gridTemplateColumns:"repeat(auto-fit,minmax(300px,1fr))",
-                                                      gap:"28px",
-                                                      alignItems:"stretch"
-                                                      }}>
-                                                      
-                                                      <div style={{
-                                                      background:"#f5f8fc",
-                                                      borderRadius:"28px",
-                                                      padding:"34px",
-                                                      boxShadow:"0 14px 35px rgba(11,44,95,0.07)",
-                                                      border:"1px solid rgba(11,44,95,0.06)"
-                                                      }}>
-                                                      
-                                                      <h2 style={{
-                                                      fontSize:"34px",
-                                                      color:"#08285c",
-                                                      marginBottom:"18px"
-                                                      }}>
-                                                      Quando instalar um automatismo BFT?
-                                                      </h2>
-                                                      
-                                                      <p style={{
-                                                      fontSize:"18px",
-                                                      lineHeight:"1.75",
-                                                      color:"#555",
-                                                      marginBottom:"24px"
-                                                      }}>
-                                                      A instalação de um automatismo BFT pode ser indicada quando se pretende automatizar
-                                                      um portão manual, substituir um sistema antigo ou melhorar a fiabilidade de um acesso
-                                                      usado com frequência.
-                                                      </p>
-                                                      
-                                                      <ul style={{
-                                                      listStyle:"none",
-                                                      padding:"0",
-                                                      margin:"0",
-                                                      display:"grid",
-                                                      gap:"14px"
-                                                      }}>
-                                                      
-                                                      {[
-                                                      "Portão manual que pretende automatizar",
-                                                      "Acesso residencial ou condomínio pequeno com uso frequente",
-                                                      "Motor antigo que já não responde com regularidade",
-                                                      "Necessidade de comandos, abertura pedonal ou maior conforto",
-                                                      "Instalação que precisa de equipamento adequado ao peso do portão"
-                                                      ].map((item,index)=>(
-                                                      
-                                                      <li
-                                                      key={index}
-                                                      style={{
-                                                      display:"flex",
-                                                      gap:"12px",
-                                                      alignItems:"flex-start",
-                                                      fontSize:"17px",
-                                                      lineHeight:"1.6",
-                                                      color:"#444"
-                                                      }}
-                                                      >
-                                                      <span style={{
-                                                      color:"#25D366",
-                                                      fontWeight:"bold",
-                                                      fontSize:"20px",
-                                                      lineHeight:"1.4"
-                                                      }}>
-                                                      ✓
-                                                      </span>
-                                                      <span>{item}</span>
-                                                      </li>
-                                                      
-                                                      ))}
-                                                      
-                                                      </ul>
-                                                      
-                                                      </div>
-                                                      
-                                                      <div style={{
-                                                      background:"#eef3fa",
-                                                      borderRadius:"28px",
-                                                      padding:"34px",
-                                                      boxShadow:"0 14px 35px rgba(11,44,95,0.08)",
-                                                      border:"1px solid rgba(11,44,95,0.06)"
-                                                      }}>
-                                                      
-                                                      <h2 style={{
-                                                      fontSize:"34px",
-                                                      color:"#08285c",
-                                                      marginBottom:"18px"
-                                                      }}>
-                                                      Quando pode compensar reparar?
-                                                      </h2>
-                                                      
-                                                      <p style={{
-                                                      fontSize:"18px",
-                                                      lineHeight:"1.75",
-                                                      color:"#555",
-                                                      marginBottom:"24px"
-                                                      }}>
-                                                      Nem sempre é necessário substituir o automatismo. Em muitos casos, uma afinação,
-                                                      reprogramação, correção de segurança ou substituição de componente pode devolver
-                                                      bom funcionamento ao sistema.
-                                                      </p>
-                                                      
-                                                      <ul style={{
-                                                      listStyle:"none",
-                                                      padding:"0",
-                                                      margin:"0",
-                                                      display:"grid",
-                                                      gap:"14px"
-                                                      }}>
-                                                      
-                                                      {[
-                                                      "O motor ainda trabalha mas perdeu força ou regularidade",
-                                                      "A central precisa de programação ou ajuste de parâmetros",
-                                                      "Os comandos, fotocélulas ou recetor deixaram de responder bem",
-                                                      "O portão está mecanicamente bom mas o automatismo falha",
-                                                      "A avaria parece localizada e pode ser diagnosticada no local"
-                                                      ].map((item,index)=>(
-                                                      
-                                                      <li
-                                                      key={index}
-                                                      style={{
-                                                      display:"flex",
-                                                      gap:"12px",
-                                                      alignItems:"flex-start",
-                                                      fontSize:"17px",
-                                                      lineHeight:"1.6",
-                                                      color:"#444"
-                                                      }}
-                                                      >
-                                                      <span style={{
-                                                      color:"#d97706",
-                                                      fontWeight:"bold",
-                                                      fontSize:"20px",
-                                                      lineHeight:"1.4"
-                                                      }}>
-                                                      !
-                                                      </span>
-                                                      <span>{item}</span>
-                                                      </li>
-                                                      
-                                                      ))}
-                                                      
-                                                      </ul>
-                                                      
-                                                      </div>
-                                                      
-                                                      </div>
-                                                      
-                                                      </section>
- 
-                        <section
-                        style={{
-                        padding:"30px 0 20px",
-                        textAlign:"center"
-                        }}
-                        >
-                        
-                        <div style={{
-                        background:"linear-gradient(180deg,#f5f8fc 0%,#e8eef8 100%)",
-                        borderRadius:"32px",
-                        padding:"55px 35px",
-                        boxShadow:"0 18px 40px rgba(11,44,95,0.08)"
-                        }}
-                        >
-                        
-                        <h2 style={{
-                        fontSize:"42px",
-                        color:"#08285c",
-                        marginBottom:"18px"
-                        }}>
-                        Precisa de instalar ou reparar um automatismo BFT?
-                        </h2>
-                        
-                        <p style={{
-                        fontSize:"20px",
-                        lineHeight:"1.8",
-                        color:"#555",
-                        maxWidth:"820px",
-                        margin:"0 auto 35px auto"
-                        }}>
-                        Se tem um portão com automatismo BFT, pretende substituir um motor antigo,
-                        programar comandos, corrigir uma avaria ou instalar um novo sistema,
-                        podemos ajudar com diagnóstico, afinação e assistência técnica no local.
-                        </p>
-                        
-                        <div style={{
-                        display:"flex",
-                        justifyContent:"center",
-                        gap:"16px",
-                        flexWrap:"wrap"
-                        }}>
-                        
-                        <a
-                        href="https://wa.me/351922021980"
-                        target="_blank"
-                        style={{
-                        background:"#25D366",
-                        color:"white",
-                        padding:"17px 28px",
-                        borderRadius:"16px",
-                        textDecoration:"none",
-                        fontWeight:"bold",
-                        fontSize:"17px",
-                        boxShadow:"0 10px 25px rgba(37,211,102,.20)"
-                        }}
-                        >
-                        Pedir assistência
-                        </a>
-                        
-                        <a
-                        href="tel:922021980"
-                        style={{
-                        background:"#08285c",
-                        color:"white",
-                        padding:"17px 28px",
-                        borderRadius:"16px",
-                        textDecoration:"none",
-                        fontWeight:"bold",
-                        fontSize:"17px",
-                        boxShadow:"0 10px 25px rgba(8,40,92,.18)"
-                        }}
-                        >
-                        Ligar agora
-                        </a>
-                        
-                        </div>
-                        
-                        </div>
-                        
-                        </section>
 
                                     
                         {/* NOVA PÁGINA AQUI */}
@@ -1160,7 +874,7 @@ export default function AutomatismosNicePortoes() {
                                                                                       lineHeight:"1.7",
                                                                                       color:"#666"
                                                                                       }}>
-                                                                                      Serviço técnico independente. A TecCasa Soluções presta instalação, programação e assistência a automatismos BFT.
+                                                                                      Serviço técnico independente. A TecCasa Soluções presta instalação, programação e assistência a automatismos Nice.
                                                                                       </p>
                                                                                       
                                                                                       </div>
