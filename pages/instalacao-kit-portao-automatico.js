@@ -608,6 +608,7 @@ export default function InstalacaoKitPortaoAutomatico() {
                                                               </p>
                                                               
                                                               <div
+                                                              className="kit-contact-grid"
                                                               style={{
                                                               display:"grid",
                                                               gridTemplateColumns:"repeat(auto-fit,minmax(250px,1fr))",
@@ -1058,8 +1059,25 @@ border:"1px solid rgba(11,44,95,0.05)"
                                                               grid-template-columns: 1fr !important;
                                                             }
                                                         
-                                                            .problemas-grid {
+                                                            .problemas-grid,
+                                                            .kit-contact-grid {
+                                                              display: grid !important;
                                                               grid-template-columns: 1fr !important;
+                                                              justify-items: center !important;
+                                                              align-items: stretch !important;
+                                                              gap: 22px !important;
+                                                              width: 100% !important;
+                                                              max-width: 100% !important;
+                                                              box-sizing: border-box !important;
+                                                            }
+                                                            
+                                                            .problemas-grid > *,
+                                                            .kit-contact-grid > * {
+                                                              width: 100% !important;
+                                                              max-width: 320px !important;
+                                                              margin-left: auto !important;
+                                                              margin-right: auto !important;
+                                                              box-sizing: border-box !important;
                                                             }
                                                         
                                                             .contact-grid {
@@ -1152,6 +1170,24 @@ border:"1px solid rgba(11,44,95,0.05)"
                                                             text-align: center !important;
                                                             box-sizing: border-box !important;
                                                           }
+
+                                                          section > div {
+                                                          max-width: 100% !important;
+                                                          box-sizing: border-box !important;
+                                                        }
+                                                        
+                                                        section > div[style*="border-radius: 32px"],
+                                                        section > div[style*="border-radius:32px"] {
+                                                          padding-left: 16px !important;
+                                                          padding-right: 16px !important;
+                                                        }
+
+                                                        a[href="https://wa.me/351922021980"][style*="fixed"] {
+                                                        right: 14px !important;
+                                                        bottom: 14px !important;
+                                                        padding: 12px 15px !important;
+                                                        font-size: 15px !important;
+                                                      }
                                                           }
                                                         `}</style>
                          
