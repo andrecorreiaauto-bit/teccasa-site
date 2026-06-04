@@ -936,202 +936,292 @@ border:"1px solid rgba(11,44,95,0.05)"
                                                           }
                                                         
                                                           @media (max-width: 768px) {
-                                                            .page {
-                                                              padding: 95px 10px 10px 10px !important;
-                                                            }
-                                                        
-                                                            .main-card {
-                                                              width: 100% !important;
-                                                              max-width: 100% !important;
-                                                              padding: 18px !important;
-                                                              border-radius: 16px !important;
-                                                              overflow: hidden !important;
-                                                            }
-                                                        
-                                                            nav {
-                                                            position: fixed !important;
-                                                            top: 10px !important;
-                                                            left: 10px !important;
-                                                            right: 10px !important;
-                                                            transform: none !important;
-                                                            width: auto !important;
-                                                            max-width: none !important;
-                                                            box-sizing: border-box !important;
-                                                            margin: 0 !important;
-                                                            border-radius: 18px !important;
-                                                            }
 
-                                                        .hero-reparacao{
-                                                        display:flex !important;
-                                                        flex-direction:column !important;
-                                                        gap:24px !important;
-                                                        padding:28px 0 10px 0 !important;
-                                                        text-align:center !important;
-                                                        overflow:hidden !important;
-                                                      }
-                                                      
-                                                      .hero-reparacao > div{
-                                                        width:100% !important;
-                                                        max-width:100% !important;
-                                                        box-sizing:border-box !important;
-                                                      }
-                                                      
-                                                      .hero-reparacao h1{
-                                                        font-size:31px !important;
-                                                        line-height:1.12 !important;
-                                                        text-align:center !important;
-                                                        margin:0 auto 18px auto !important;
-                                                        max-width:330px !important;
-                                                      }
-                                                      
-                                                      .hero-reparacao p{
-                                                        font-size:17px !important;
-                                                        line-height:1.55 !important;
-                                                        text-align:center !important;
-                                                        margin:0 auto 26px auto !important;
-                                                        max-width:330px !important;
-                                                      }
-                                                      
-                                                      .hero-reparacao a{
-                                                        display:block !important;
-                                                        width:100% !important;
-                                                        max-width:300px !important;
-                                                        margin:0 auto !important;
-                                                        text-align:center !important;
-                                                        box-sizing:border-box !important;
-                                                        padding:15px 18px !important;
-                                                        font-size:16px !important;
-                                                      }
-                                                      
-                                                      .hero-reparacao img{
-                                                        width:100% !important;
-                                                        max-width:330px !important;
-                                                        border-radius:22px !important;
-                                                        margin:0 auto !important;
-                                                        display:block !important;
-                                                      }
+                                                           html,
+                                                           body {
+                                                             width: 100% !important;
+                                                             max-width: 100% !important;
+                                                             overflow-x: hidden !important;
+                                                           }
+                                                         
+                                                           .page {
+                                                             width: 100% !important;
+                                                             max-width: 100% !important;
+                                                             padding: 95px 6px 10px 6px !important;
+                                                             box-sizing: border-box !important;
+                                                             overflow-x: hidden !important;
+                                                           }
+                                                         
+                                                           .main-card {
+                                                             width: 100% !important;
+                                                             max-width: 100% !important;
+                                                             padding: 12px !important;
+                                                             margin: 0 auto !important;
+                                                             border-radius: 16px !important;
+                                                             box-sizing: border-box !important;
+                                                             overflow-x: hidden !important;
+                                                           }
+                                                         
+                                                           nav {
+                                                             position: fixed !important;
+                                                             top: 10px !important;
+                                                             left: 8px !important;
+                                                             right: 8px !important;
+                                                             transform: none !important;
+                                                             width: calc(100% - 16px) !important;
+                                                             max-width: calc(100% - 16px) !important;
+                                                             box-sizing: border-box !important;
+                                                             margin: 0 !important;
+                                                             border-radius: 18px !important;
+                                                             z-index: 1000 !important;
+                                                             overflow: hidden !important;
+                                                           }
+                                                         
+                                                           nav img {
+                                                             width: 30px !important;
+                                                             max-width: 30px !important;
+                                                           }
+                                                         
+                                                           .desktop-menu {
+                                                             display: none !important;
+                                                           }
+                                                         
+                                                           .menu-button {
+                                                             display: block !important;
+                                                           }
+                                                         
+                                                           .mobile-menu {
+                                                             display: flex !important;
+                                                           }
+                                                         
+                                                           section {
+                                                             width: 100% !important;
+                                                             max-width: 100% !important;
+                                                             padding: 28px 0 !important;
+                                                             box-sizing: border-box !important;
+                                                             overflow: visible !important;
+                                                           }
+                                                         
+                                                           section > div {
+                                                             max-width: 100% !important;
+                                                             box-sizing: border-box !important;
+                                                           }
+                                                         
+                                                           section > div[style*="border-radius:32px"],
+                                                           section > div[style*="border-radius: 32px"],
+                                                           section > div[style*="borderRadius"] {
+                                                             padding-left: 18px !important;
+                                                             padding-right: 18px !important;
+                                                           }
+                                                         
+                                                           .hero-reparacao {
+                                                             display: flex !important;
+                                                             flex-direction: column !important;
+                                                             gap: 26px !important;
+                                                             padding: 30px 0 34px 0 !important;
+                                                             text-align: center !important;
+                                                             overflow: visible !important;
+                                                           }
+                                                         
+                                                           .hero-reparacao > div {
+                                                             width: 100% !important;
+                                                             max-width: 100% !important;
+                                                             box-sizing: border-box !important;
+                                                           }
+                                                         
+                                                           .hero-reparacao > div:first-child > div:first-child {
+                                                             justify-content: center !important;
+                                                           }
+                                                         
+                                                           .hero-reparacao h1 {
+                                                             font-size: 30px !important;
+                                                             line-height: 1.14 !important;
+                                                             text-align: center !important;
+                                                             margin: 0 auto 18px auto !important;
+                                                             max-width: 100% !important;
+                                                           }
+                                                         
+                                                           .hero-reparacao p {
+                                                             font-size: 16px !important;
+                                                             line-height: 1.6 !important;
+                                                             text-align: center !important;
+                                                             margin: 0 auto 22px auto !important;
+                                                             max-width: 100% !important;
+                                                           }
+                                                         
+                                                           .hero-reparacao a {
+                                                             display: block !important;
+                                                             width: 100% !important;
+                                                             max-width: none !important;
+                                                             margin: 0 auto !important;
+                                                             text-align: center !important;
+                                                             box-sizing: border-box !important;
+                                                             padding: 15px 18px !important;
+                                                             font-size: 16px !important;
+                                                           }
+                                                         
+                                                           .hero-reparacao img {
+                                                             width: 100% !important;
+                                                             max-width: 100% !important;
+                                                             height: auto !important;
+                                                             border-radius: 22px !important;
+                                                             margin: 0 auto !important;
+                                                             display: block !important;
+                                                           }
+                                                         
+                                                           .hero-reparacao img[src*="-logo"] {
+                                                             width: auto !important;
+                                                             max-width: 120px !important;
+                                                             height: auto !important;
+                                                             box-shadow: none !important;
+                                                             border-radius: 0 !important;
+                                                           }
+                                                         
+                                                           .problemas-grid,
+                                                           .servicos-grid,
+                                                           .marcas-grid,
+                                                           .contact-grid,
+                                                           .compromisso-grid {
+                                                             display: grid !important;
+                                                             grid-template-columns: 1fr !important;
+                                                             gap: 20px !important;
+                                                             width: 100% !important;
+                                                             max-width: 100% !important;
+                                                             justify-items: stretch !important;
+                                                             align-items: stretch !important;
+                                                             box-sizing: border-box !important;
+                                                           }
+                                                         
+                                                           .problemas-grid > *,
+                                                           .servicos-grid > *,
+                                                           .marcas-grid > *,
+                                                           .contact-grid > *,
+                                                           .compromisso-grid > * {
+                                                             width: 100% !important;
+                                                             max-width: none !important;
+                                                             margin-left: 0 !important;
+                                                             margin-right: 0 !important;
+                                                             box-sizing: border-box !important;
+                                                           }
+                                                         
+                                                           div[style*="grid-template-columns"] {
+                                                             grid-template-columns: 1fr !important;
+                                                             width: 100% !important;
+                                                             max-width: 100% !important;
+                                                             box-sizing: border-box !important;
+                                                           }
+                                                         
+                                                           div[style*="grid-template-columns"] > * {
+                                                             width: 100% !important;
+                                                             max-width: none !important;
+                                                             box-sizing: border-box !important;
+                                                           }
+                                                         
+                                                           h1 {
+                                                             font-size: 30px !important;
+                                                             line-height: 1.16 !important;
+                                                           }
+                                                         
+                                                           h2 {
+                                                             font-size: 27px !important;
+                                                             line-height: 1.2 !important;
+                                                           }
+                                                         
+                                                           h3 {
+                                                             font-size: 22px !important;
+                                                             line-height: 1.25 !important;
+                                                           }
+                                                         
+                                                           p {
+                                                             font-size: 16px !important;
+                                                             line-height: 1.6 !important;
+                                                           }
+                                                         
+                                                           li {
+                                                             font-size: 16px !important;
+                                                             line-height: 1.55 !important;
+                                                           }
+                                                         
+                                                           li span {
+                                                             font-size: 16px !important;
+                                                             line-height: 1.55 !important;
+                                                           }
+                                                         
+                                                           img {
+                                                             max-width: 100% !important;
+                                                             height: auto !important;
+                                                           }
+                                                         
+                                                           footer {
+                                                             padding: 35px 18px !important;
+                                                           }
+                                                         
+                                                           #mapa-teccasa {
+                                                             height: 300px !important;
+                                                           }
+                                                         
+                                                           a[href="https://wa.me/351922021980"][style*="fixed"] {
+                                                             right: 12px !important;
+                                                             bottom: 12px !important;
+                                                             padding: 12px 15px !important;
+                                                             font-size: 15px !important;
+                                                             max-width: calc(100vw - 24px) !important;
+                                                             box-sizing: border-box !important;
+                                                           }
+                                                         
+                                                           @media (hover: none) and (pointer: coarse) {
+                                                             * {
+                                                               animation: none !important;
+                                                             }
+                                                         
+                                                             a[href="https://wa.me/351922021980"][style*="fixed"] {
+                                                               animation: none !important;
+                                                               transform: none !important;
+                                                             }
+                                                           }
 
-                                                            .desktop-menu {
-                                                              display: none !important;
-                                                            }
-                                                        
-                                                            .menu-button {
-                                                              display: block !important;
-                                                            }
-                                                        
-                                                            .mobile-menu {
-                                                              display: flex !important;
-                                                            }
-                                                        
-                                                            .servicos-grid {
-                                                              grid-template-columns: 1fr !important;
-                                                            }
-                                                        
-                                                            .marcas-grid {
-                                                              display: grid !important;
-                                                              grid-template-columns: repeat(2, 1fr) !important;
-                                                              gap: 12px !important;
-                                                            }
-                                                        
-                                                            .compromisso-grid {
-                                                              grid-template-columns: 1fr !important;
-                                                            }
-                                                        
-                                                            .problemas-grid {
-                                                              grid-template-columns: 1fr !important;
-                                                            }
-                                                        
-                                                            .contact-grid {
-                                                              grid-template-columns: minmax(260px, 320px) !important;
-                                                              justify-content: center !important;
-                                                            }
-                                                        
-                                                            .contact-card {
-                                                              width: 100% !important;
-                                                              max-width: 300px !important;
-                                                              margin-left: auto !important;
-                                                              margin-right: auto !important;
-                                                              box-sizing: border-box !important;
+                                                           /* Alinhamento mobile mais consistente */
+
+                                                            h1,
+                                                            h2 {
                                                               text-align: center !important;
                                                             }
-                                                        
-                                                            .contact-card > div {
-                                                              justify-content: center !important;
+                                                            
+                                                            section > p {
+                                                              text-align: center !important;
+                                                              margin-left: auto !important;
+                                                              margin-right: auto !important;
                                                             }
-                                                        
-                                                            .cartao-marca {
-                                                              width: 100% !important;
-                                                              min-height: 48px !important;
-                                                              padding: 12px 8px !important;
-                                                              font-size: 15px !important;
-                                                              border-radius: 14px !important;
-                                                              box-sizing: border-box !important;
+                                                            
+                                                            .hero-reparacao p {
+                                                              text-align: center !important;
                                                             }
-                                                        
-                                                            section {
-                                                              padding: 24px 18px !important;
-                                                              box-sizing: border-box !important;
+                                                            
+                                                            .problemas-grid h3,
+                                                            .servicos-grid h3,
+                                                            .marcas-grid h3,
+                                                            .contact-grid h3,
+                                                            .compromisso-grid h3,
+                                                            div[style*="grid-template-columns"] h3 {
+                                                              text-align: left !important;
                                                             }
-                                                        
-                                                            section img[src="/Logo.png"] {
-                                                              width: 85% !important;
-                                                              max-width: 260px !important;
-                                                              display: block !important;
-                                                              margin: 0 auto 25px auto !important;
+                                                            
+                                                            .problemas-grid p,
+                                                            .servicos-grid p,
+                                                            .marcas-grid p,
+                                                            .contact-grid p,
+                                                            .compromisso-grid p,
+                                                            div[style*="grid-template-columns"] p {
+                                                              text-align: left !important;
                                                             }
-                                                        
-                                                            h1 {
-                                                              font-size: 28px !important;
+                                                            
+                                                            li,
+                                                            li span {
+                                                              text-align: left !important;
                                                             }
-                                                        
-                                                            h2 {
-                                                              font-size: 26px !important;
-                                                            }
-                                                        
-                                                            p {
-                                                              font-size: 16px !important;
-                                                            }
-                                                        
-                                                            img {
-                                                              max-width: 100%;
-                                                            }
-                                                        
-                                                            #mapa-teccasa {
-                                                              height: 300px !important;
-                                                            }
-                                                        
-                                                            footer {
-                                                              padding: 35px 18px !important;
-                                                            }
-                                                            section:first-of-type {
-                                                            padding: 28px 18px !important;
-                                                            margin-bottom: 32px !important;
-                                                            border-radius: 22px !important;
-                                                            text-align: center !important;
-                                                          }
-                                                          
-                                                          section:first-of-type h1 {
-                                                            font-size: 27px !important;
-                                                            line-height: 1.18 !important;
-                                                            margin-bottom: 14px !important;
-                                                          }
-                                                          
-                                                          section:first-of-type p {
-                                                            font-size: 16px !important;
-                                                            line-height: 1.55 !important;
-                                                          }
-                                                          
-                                                          section:first-of-type div {
-                                                            justify-content: center !important;
-                                                          }
-                                                          
-                                                          section:first-of-type a {
-                                                            width: 100% !important;
-                                                            max-width: 260px !important;
-                                                            text-align: center !important;
-                                                            box-sizing: border-box !important;
-                                                          }
-                                                          }
+
+                                                         }
+                                                         
                                                         `}</style>
                          
 
