@@ -1198,13 +1198,27 @@ border:"1px solid rgba(11,44,95,0.05)"
 </footer>
                                                                                <style jsx global>{`
                                                           html {
-                                                            scroll-behavior: smooth;
-                                                            overflow-x: hidden;
-                                                          }
+                                                          scroll-behavior: smooth;
+                                                          overflow-x: hidden;
+                                                          width: 100%;
+                                                          max-width: 100%;
+                                                          margin: 0;
+                                                          padding: 0;
+                                                        }
                                                         
-                                                          body {
-                                                            overflow-x: hidden;
-                                                          }
+                                                        body {
+                                                          overflow-x: hidden;
+                                                          width: 100%;
+                                                          max-width: 100%;
+                                                          margin: 0;
+                                                          padding: 0;
+                                                        }
+                                                        
+                                                        #__next {
+                                                          width: 100%;
+                                                          max-width: 100%;
+                                                          overflow-x: hidden;
+                                                        }
                                                         
                                                           .page {
                                                           font-family: Arial, sans-serif;
