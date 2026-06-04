@@ -1587,6 +1587,47 @@ border:"1px solid rgba(11,44,95,0.05)"
                                                                transform: none !important;
                                                              }
                                                            }
+
+                                                           /* Alinhamento mobile mais consistente */
+
+                                                            h1,
+                                                            h2 {
+                                                              text-align: center !important;
+                                                            }
+                                                            
+                                                            section > p {
+                                                              text-align: center !important;
+                                                              margin-left: auto !important;
+                                                              margin-right: auto !important;
+                                                            }
+                                                            
+                                                            .hero-reparacao p {
+                                                              text-align: center !important;
+                                                            }
+                                                            
+                                                            .problemas-grid h3,
+                                                            .servicos-grid h3,
+                                                            .marcas-grid h3,
+                                                            .contact-grid h3,
+                                                            .compromisso-grid h3,
+                                                            div[style*="grid-template-columns"] h3 {
+                                                              text-align: left !important;
+                                                            }
+                                                            
+                                                            .problemas-grid p,
+                                                            .servicos-grid p,
+                                                            .marcas-grid p,
+                                                            .contact-grid p,
+                                                            .compromisso-grid p,
+                                                            div[style*="grid-template-columns"] p {
+                                                              text-align: left !important;
+                                                            }
+                                                            
+                                                            li,
+                                                            li span {
+                                                              text-align: left !important;
+                                                            }
+
                                                          }
 
                                                         `}</style>
