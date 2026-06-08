@@ -368,7 +368,7 @@ export default function AutomatismosDitecPortoes() {
                     src="/ditec-logo.png"
                     alt="Ditec"
                     style={{
-                    height:"54px",
+                    height:"94px",
                     width:"auto",
                     objectFit:"contain",
                     display:"block"
