@@ -488,19 +488,20 @@ export default function AutomatismosFaacPortoes() {
                                            marginBottom:"16px",
                                            textAlign:"center"
                                            }}>
-                                           Serviços em automatismos Nice
+                                           Serviços em automatismos FAAC
                                            </h2>
                                            
                                            <p style={{
                                            fontSize:"19px",
                                            lineHeight:"1.7",
                                            color:"#555",
-                                           maxWidth:"830px",
+                                           maxWidth:"820px",
                                            margin:"0 auto 42px auto",
                                            textAlign:"center"
                                            }}>
-                                           A TecCasa Soluções presta instalação, programação e assistência técnica a automatismos Nice,
-                                           com foco em utilização residencial, conforto diário, comandos, centrais eletrónicas e funcionamento seguro do portão.
+                                           A TecCasa Soluções presta instalação, programação e assistência técnica a automatismos FAAC,
+                                           com foco em portões residenciais, acessos exteriores, motores robustos, centrais eletrónicas,
+                                           comandos e sistemas de segurança.
                                            </p>
                                            
                                            <div
@@ -514,23 +515,23 @@ export default function AutomatismosFaacPortoes() {
                                            
                                            {[
                                            {
-                                           title:"Instalação de motores Nice",
-                                           text:"Montagem de automatismos Nice em portões de correr, batente e garagem, com verificação do portão antes da instalação."
+                                           title:"Instalação de motores FAAC",
+                                           text:"Montagem de automatismos FAAC em portões de correr, batente e garagem, com verificação prévia do estado do portão."
                                            },
                                            
                                            {
-                                           title:"Programação de comandos",
-                                           text:"Configuração de comandos, recetores e modos de abertura para utilização simples no dia a dia."
+                                           title:"Programação e afinação",
+                                           text:"Configuração de comandos, tempos de abertura, fecho automático, força, abrandamento e segurança."
                                            },
                                            
                                            {
-                                           title:"Diagnóstico e assistência",
-                                           text:"Análise de avarias em motores, centrais, comandos, fotocélulas e sistemas de segurança."
+                                           title:"Diagnóstico de avarias",
+                                           text:"Análise de falhas em motores, centrais, condensadores, comandos, fotocélulas e cablagem."
                                            },
                                            
                                            {
-                                           title:"Substituição de automatismos",
-                                           text:"Troca de motores antigos ou pouco fiáveis por soluções adequadas ao tipo de portão e utilização."
+                                           title:"Substituição de equipamento",
+                                           text:"Troca de motores antigos, centrais danificadas ou automatismos desadequados ao peso e utilização do portão."
                                            }
                                            
                                            ].map((item,index)=>(
@@ -592,7 +593,7 @@ export default function AutomatismosFaacPortoes() {
                                                               marginBottom:"18px",
                                                               textAlign:"center"
                                                               }}>
-                                                              Problemas comuns em automatismos Nice
+                                                              Problemas comuns em automatismos FAAC
                                                               </h2>
                                                               
                                                               <p style={{
@@ -603,8 +604,8 @@ export default function AutomatismosFaacPortoes() {
                                                               margin:"0 auto 36px auto",
                                                               textAlign:"center"
                                                               }}>
-                                                              Se o seu portão com automatismo Nice deixou de funcionar corretamente,
-                                                              clique no sintoma mais parecido para saber mais ou peça assistência diretamente.
+                                                              Se o seu portão com automatismo FAAC deixou de funcionar corretamente,
+                                                              clique no sintoma mais parecido ou peça assistência diretamente.
                                                               </p>
                                                               
                                                               <div
@@ -619,39 +620,39 @@ export default function AutomatismosFaacPortoes() {
                                                               
                                                               {[
                                                               {
-                                                              title:"Comando da garagem não funciona",
-                                                              href:"/comando-garagem-nao-funciona",
-                                                              text:"Quando o comando deixou de abrir o portão ou perdeu programação."
-                                                              },
-                                                              
-                                                              {
-                                                              title:"Comando só funciona perto",
-                                                              href:"/comando-garagem-so-funciona-perto",
-                                                              text:"Quando o comando tem pouco alcance ou falhas de receção."
-                                                              },
-                                                              
-                                                              {
                                                               title:"O portão não fecha",
                                                               href:"/portao-nao-fecha",
-                                                              text:"Quando o portão fica aberto ou não termina o fecho."
+                                                              text:"Quando o portão abre, mas não fecha ou fica bloqueado antes de terminar o movimento."
                                                               },
                                                               
                                                               {
                                                               title:"O portão fecha e volta a abrir",
                                                               href:"/portao-fecha-e-volta-a-abrir",
-                                                              text:"Quando o sistema inverte o movimento durante o fecho."
+                                                              text:"Quando o automatismo inverte o movimento durante o fecho."
                                                               },
                                                               
                                                               {
                                                               title:"Motor do portão sem força",
                                                               href:"/motor-portao-sem-forca",
-                                                              text:"Quando o portão abre devagar, perde força ou pára a meio."
+                                                              text:"Quando o motor perde força, trabalha em esforço ou o portão se move lentamente."
                                                               },
                                                               
                                                               {
-                                                              title:"Portão de garagem não abre",
-                                                              href:"/portao-garagem-nao-abre",
-                                                              text:"Para motores de teto, portões seccionados e sistemas de garagem."
+                                                              title:"Motor faz barulho mas não abre",
+                                                              href:"/motor-portao-faz-barulho-mas-nao-abre",
+                                                              text:"Quando o motor trabalha, mas o portão não se movimenta corretamente."
+                                                              },
+                                                              
+                                                              {
+                                                              title:"Portão abre só uma folha",
+                                                              href:"/portao-abre-so-uma-folha",
+                                                              text:"Em portões de batente com duas folhas, quando apenas uma folha responde."
+                                                              },
+                                                              
+                                                              {
+                                                              title:"Comando da garagem não funciona",
+                                                              href:"/comando-garagem-nao-funciona",
+                                                              text:"Quando o comando não abre o portão, perdeu programação ou deixou de comunicar."
                                                               }
                                                               
                                                               ].map((item,index)=>(
@@ -749,19 +750,19 @@ export default function AutomatismosFaacPortoes() {
                                                                                          color:"#08285c",
                                                                                          marginBottom:"18px"
                                                                                          }}>
-                                                                                         Precisa de ajuda com um automatismo Nice?
+                                                                                         Precisa de ajuda com um automatismo FAAC?
                                                                                          </h2>
                                                                                          
                                                                                          <p style={{
                                                                                          fontSize:"20px",
                                                                                          lineHeight:"1.8",
                                                                                          color:"#555",
-                                                                                         maxWidth:"820px",
+                                                                                         maxWidth:"800px",
                                                                                          margin:"0 auto 35px auto"
                                                                                          }}>
-                                                                                         Se tem um portão com automatismo Nice, precisa de instalar um motor,
-                                                                                         programar comandos, corrigir uma avaria ou substituir equipamento antigo,
-                                                                                         fale connosco para avaliarmos a situação.
+                                                                                         Se tem um motor FAAC instalado, precisa de programar comandos,
+                                                                                         corrigir uma avaria, substituir equipamento antigo ou instalar um novo automatismo,
+                                                                                         envie-nos uma mensagem para avaliarmos a situação.
                                                                                          </p>
                                                                                          
                                                                                          <div style={{
@@ -874,7 +875,7 @@ export default function AutomatismosFaacPortoes() {
                                                                                       lineHeight:"1.7",
                                                                                       color:"#666"
                                                                                       }}>
-                                                                                      Serviço técnico independente. A TecCasa Soluções presta instalação, programação e assistência a automatismos Nice.
+                                                                                      Serviço técnico independente. A TecCasa Soluções presta instalação, programação e assistência a automatismos FAAC.
                                                                                       </p>
                                                                                       
                                                                                       </div>
