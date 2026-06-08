@@ -368,7 +368,7 @@ export default function AutomatismosFaacPortoes() {
                     src="/faac-logo.png"
                     alt="FAAC"
                     style={{
-                    height:"54px",
+                    height:"94px",
                     width:"auto",
                     objectFit:"contain",
                     display:"block"
