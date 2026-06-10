@@ -193,7 +193,7 @@ export default function Home() {
         
         logoTimer.current = setTimeout(() => {
         setLogoClicks(0);
-        window.location.href = "/";
+        window.location.reload();
         }, 1800);
         
         return next;
