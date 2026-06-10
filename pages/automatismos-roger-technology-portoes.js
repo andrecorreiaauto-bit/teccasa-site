@@ -488,7 +488,7 @@ export default function AutomatismosRogerTechnologyPortoes() {
                                            marginBottom:"16px",
                                            textAlign:"center"
                                            }}>
-                                           Serviços em automatismos Ditec
+                                           Serviços em automatismos Roger Technology
                                            </h2>
                                            
                                            <p style={{
@@ -499,8 +499,8 @@ export default function AutomatismosRogerTechnologyPortoes() {
                                            margin:"0 auto 42px auto",
                                            textAlign:"center"
                                            }}>
-                                           A TecCasa Soluções presta instalação, programação e assistência técnica a automatismos Ditec,
-                                           com foco em portões residenciais, acessos exteriores, pequenos condomínios, comandos,
+                                           A TecCasa Soluções presta instalação, programação e assistência técnica a automatismos Roger Technology,
+                                           com foco em sistemas modernos para portões residenciais, acessos exteriores, comandos,
                                            centrais eletrónicas e funcionamento seguro do portão.
                                            </p>
                                            
@@ -515,8 +515,8 @@ export default function AutomatismosRogerTechnologyPortoes() {
                                            
                                            {[
                                            {
-                                           title:"Instalação de motores Ditec",
-                                           text:"Montagem de automatismos Ditec em portões de correr, batente e garagem, com verificação prévia das condições do portão."
+                                           title:"Instalação de motores Roger",
+                                           text:"Montagem de automatismos Roger Technology em portões de correr, batente e garagem, com verificação prévia do portão."
                                            },
                                            
                                            {
@@ -531,7 +531,7 @@ export default function AutomatismosRogerTechnologyPortoes() {
                                            
                                            {
                                            title:"Substituição de automatismos",
-                                           text:"Troca de motores antigos ou desadequados por soluções compatíveis com o tipo de portão e utilização."
+                                           text:"Troca de motores antigos, centrais danificadas ou equipamentos desadequados ao tipo de portão."
                                            }
                                            
                                            ].map((item,index)=>(
@@ -593,7 +593,7 @@ export default function AutomatismosRogerTechnologyPortoes() {
                                                               marginBottom:"18px",
                                                               textAlign:"center"
                                                               }}>
-                                                              Problemas comuns em automatismos Ditec
+                                                              Problemas comuns em automatismos Roger Technology
                                                               </h2>
                                                               
                                                               <p style={{
@@ -604,7 +604,7 @@ export default function AutomatismosRogerTechnologyPortoes() {
                                                               margin:"0 auto 36px auto",
                                                               textAlign:"center"
                                                               }}>
-                                                              Se o seu portão com automatismo Ditec deixou de funcionar corretamente,
+                                                              Se o seu portão com automatismo Roger Technology deixou de funcionar corretamente,
                                                               clique no sintoma mais parecido ou peça assistência diretamente.
                                                               </p>
                                                               
@@ -750,7 +750,7 @@ export default function AutomatismosRogerTechnologyPortoes() {
                                                                                          color:"#08285c",
                                                                                          marginBottom:"18px"
                                                                                          }}>
-                                                                                         Precisa de ajuda com um automatismo Ditec?
+                                                                                         Precisa de ajuda com um automatismo Roger Technology?
                                                                                          </h2>
                                                                                          
                                                                                          <p style={{
@@ -760,7 +760,7 @@ export default function AutomatismosRogerTechnologyPortoes() {
                                                                                          maxWidth:"800px",
                                                                                          margin:"0 auto 35px auto"
                                                                                          }}>
-                                                                                         Se tem um motor Ditec instalado, precisa de programar comandos,
+                                                                                         Se tem um motor Roger Technology instalado, precisa de programar comandos,
                                                                                          corrigir uma avaria, substituir equipamento antigo ou instalar um novo automatismo,
                                                                                          fale connosco para avaliarmos a situação.
                                                                                          </p>
@@ -875,7 +875,7 @@ export default function AutomatismosRogerTechnologyPortoes() {
                                                                                       lineHeight:"1.7",
                                                                                       color:"#666"
                                                                                       }}>
-                                                                                      Serviço técnico independente. A TecCasa Soluções presta instalação, programação e assistência a automatismos Ditec.
+                                                                                      Serviço técnico independente. A TecCasa Soluções presta instalação, programação e assistência a automatismos Roger Technology.
                                                                                       </p>
                                                                                       
                                                                                       </div>
