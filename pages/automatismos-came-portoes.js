@@ -368,7 +368,7 @@ export default function AutomatismosCamePortoes() {
                     src="/came-logo.png"
                     alt="CAME"
                     style={{
-                    height:"94px",
+                    height:"74px",
                     width:"auto",
                     objectFit:"contain",
                     display:"block"
