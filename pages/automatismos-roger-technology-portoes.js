@@ -368,7 +368,7 @@ export default function AutomatismosRogerTechnologyPortoes() {
                     src="/roger-technology-logo.png"
                     alt="Roger Technology"
                     style={{
-                    height:"54px",
+                    height:"94px",
                     width:"auto",
                     objectFit:"contain",
                     display:"block"
