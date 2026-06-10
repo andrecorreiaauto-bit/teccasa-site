@@ -200,7 +200,6 @@ export default function AutomatismosCamePortoes() {
         
         }}
     
-    }}
     style={{
     display:"flex",
     alignItems:"center",
