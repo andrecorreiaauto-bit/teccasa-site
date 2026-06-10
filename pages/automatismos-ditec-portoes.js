@@ -488,7 +488,7 @@ export default function AutomatismosDitecPortoes() {
                                            marginBottom:"16px",
                                            textAlign:"center"
                                            }}>
-                                           Serviços em automatismos FAAC
+                                           Serviços em automatismos Ditec
                                            </h2>
                                            
                                            <p style={{
@@ -499,9 +499,9 @@ export default function AutomatismosDitecPortoes() {
                                            margin:"0 auto 42px auto",
                                            textAlign:"center"
                                            }}>
-                                           A TecCasa Soluções presta instalação, programação e assistência técnica a automatismos FAAC,
-                                           com foco em portões residenciais, acessos exteriores, motores robustos, centrais eletrónicas,
-                                           comandos e sistemas de segurança.
+                                           A TecCasa Soluções presta instalação, programação e assistência técnica a automatismos Ditec,
+                                           com foco em portões residenciais, acessos exteriores, pequenos condomínios, comandos,
+                                           centrais eletrónicas e funcionamento seguro do portão.
                                            </p>
                                            
                                            <div
@@ -515,23 +515,23 @@ export default function AutomatismosDitecPortoes() {
                                            
                                            {[
                                            {
-                                           title:"Instalação de motores FAAC",
-                                           text:"Montagem de automatismos FAAC em portões de correr, batente e garagem, com verificação prévia do estado do portão."
+                                           title:"Instalação de motores Ditec",
+                                           text:"Montagem de automatismos Ditec em portões de correr, batente e garagem, com verificação prévia das condições do portão."
                                            },
                                            
                                            {
                                            title:"Programação e afinação",
-                                           text:"Configuração de comandos, tempos de abertura, fecho automático, força, abrandamento e segurança."
+                                           text:"Configuração de comandos, tempos, força, fecho automático, abertura pedonal e parâmetros de segurança."
                                            },
                                            
                                            {
                                            title:"Diagnóstico de avarias",
-                                           text:"Análise de falhas em motores, centrais, condensadores, comandos, fotocélulas e cablagem."
+                                           text:"Análise de falhas em motores, centrais, comandos, fotocélulas, cablagem e funcionamento geral do sistema."
                                            },
                                            
                                            {
-                                           title:"Substituição de equipamento",
-                                           text:"Troca de motores antigos, centrais danificadas ou automatismos desadequados ao peso e utilização do portão."
+                                           title:"Substituição de automatismos",
+                                           text:"Troca de motores antigos ou desadequados por soluções compatíveis com o tipo de portão e utilização."
                                            }
                                            
                                            ].map((item,index)=>(
@@ -593,7 +593,7 @@ export default function AutomatismosDitecPortoes() {
                                                               marginBottom:"18px",
                                                               textAlign:"center"
                                                               }}>
-                                                              Problemas comuns em automatismos FAAC
+                                                              Problemas comuns em automatismos Ditec
                                                               </h2>
                                                               
                                                               <p style={{
@@ -604,7 +604,7 @@ export default function AutomatismosDitecPortoes() {
                                                               margin:"0 auto 36px auto",
                                                               textAlign:"center"
                                                               }}>
-                                                              Se o seu portão com automatismo FAAC deixou de funcionar corretamente,
+                                                              Se o seu portão com automatismo Ditec deixou de funcionar corretamente,
                                                               clique no sintoma mais parecido ou peça assistência diretamente.
                                                               </p>
                                                               
@@ -622,7 +622,7 @@ export default function AutomatismosDitecPortoes() {
                                                               {
                                                               title:"O portão não fecha",
                                                               href:"/portao-nao-fecha",
-                                                              text:"Quando o portão abre, mas não fecha ou fica bloqueado antes de terminar o movimento."
+                                                              text:"Quando o portão abre, mas não fecha ou fica bloqueado antes de terminar o percurso."
                                                               },
                                                               
                                                               {
@@ -650,9 +650,9 @@ export default function AutomatismosDitecPortoes() {
                                                               },
                                                               
                                                               {
-                                                              title:"Comando da garagem não funciona",
-                                                              href:"/comando-garagem-nao-funciona",
-                                                              text:"Quando o comando não abre o portão, perdeu programação ou deixou de comunicar."
+                                                              title:"Comando só funciona perto",
+                                                              href:"/comando-garagem-so-funciona-perto",
+                                                              text:"Quando o comando tem pouco alcance ou falhas de receção."
                                                               }
                                                               
                                                               ].map((item,index)=>(
@@ -750,7 +750,7 @@ export default function AutomatismosDitecPortoes() {
                                                                                          color:"#08285c",
                                                                                          marginBottom:"18px"
                                                                                          }}>
-                                                                                         Precisa de ajuda com um automatismo FAAC?
+                                                                                         Precisa de ajuda com um automatismo Ditec?
                                                                                          </h2>
                                                                                          
                                                                                          <p style={{
@@ -760,9 +760,9 @@ export default function AutomatismosDitecPortoes() {
                                                                                          maxWidth:"800px",
                                                                                          margin:"0 auto 35px auto"
                                                                                          }}>
-                                                                                         Se tem um motor FAAC instalado, precisa de programar comandos,
+                                                                                         Se tem um motor Ditec instalado, precisa de programar comandos,
                                                                                          corrigir uma avaria, substituir equipamento antigo ou instalar um novo automatismo,
-                                                                                         envie-nos uma mensagem para avaliarmos a situação.
+                                                                                         fale connosco para avaliarmos a situação.
                                                                                          </p>
                                                                                          
                                                                                          <div style={{
@@ -875,7 +875,7 @@ export default function AutomatismosDitecPortoes() {
                                                                                       lineHeight:"1.7",
                                                                                       color:"#666"
                                                                                       }}>
-                                                                                      Serviço técnico independente. A TecCasa Soluções presta instalação, programação e assistência a automatismos FAAC.
+                                                                                      Serviço técnico independente. A TecCasa Soluções presta instalação, programação e assistência a automatismos Ditec.
                                                                                       </p>
                                                                                       
                                                                                       </div>
