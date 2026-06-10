@@ -1,9 +1,6 @@
 import { useEffect, useState } from "react";
 import Head from "next/head";
 export default function MotorPortaoFazBarulhoMasNaoAbre() {
- const [logoClicks, setLogoClicks] = useState(0);
- const [showSeoPanel, setShowSeoPanel] = useState(false);
- const [pinInput, setPinInput] = useState("");
  const [menuOpen, setMenuOpen] = useState(false);
  const menuItems = [
   { label:"Início", href:"/", active:true },
@@ -166,32 +163,10 @@ export default function MotorPortaoFazBarulhoMasNaoAbre() {
   }}>
 
     <div
-    onClick={() => {
+  onClick={() => {
+    window.location.href = "/";
+  }}
 
-    setLogoClicks(prev => {
-    
-    const next = prev + 1;
-    
-    setTimeout(() => {
-    setLogoClicks(0);
-    }, 1800);
-    
-    if(next >= 5){
-    
-    const pin = prompt("Introduz o PIN");
-    
-    if(pin === "2026"){
-    setShowSeoPanel(true);
-    }
-    
-    return 0;
-    }
-    
-    return next;
-    
-    });
-    
-    }}
     style={{
     display:"flex",
     alignItems:"center",
