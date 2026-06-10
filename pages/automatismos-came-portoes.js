@@ -168,7 +168,6 @@ export default function AutomatismosCamePortoes() {
   }}>
 
     <div
-    <div
         onClick={() => {
         
         setLogoClicks(prev => {
