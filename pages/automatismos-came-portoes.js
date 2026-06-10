@@ -463,7 +463,7 @@ export default function AutomatismosCamePortoes() {
                                            marginBottom:"16px",
                                            textAlign:"center"
                                            }}>
-                                           Serviços em automatismos Roger Technology
+                                           Serviços em automatismos CAME
                                            </h2>
                                            
                                            <p style={{
@@ -474,8 +474,8 @@ export default function AutomatismosCamePortoes() {
                                            margin:"0 auto 42px auto",
                                            textAlign:"center"
                                            }}>
-                                           A TecCasa Soluções presta instalação, programação e assistência técnica a automatismos Roger Technology,
-                                           com foco em sistemas modernos para portões residenciais, acessos exteriores, comandos,
+                                           A TecCasa Soluções presta instalação, programação e assistência técnica a automatismos CAME,
+                                           com foco em portões residenciais, acessos exteriores, pequenos condomínios, comandos,
                                            centrais eletrónicas e funcionamento seguro do portão.
                                            </p>
                                            
@@ -490,8 +490,8 @@ export default function AutomatismosCamePortoes() {
                                            
                                            {[
                                            {
-                                           title:"Instalação de motores Roger",
-                                           text:"Montagem de automatismos Roger Technology em portões de correr, batente e garagem, com verificação prévia do portão."
+                                           title:"Instalação de motores CAME",
+                                           text:"Montagem de automatismos CAME em portões de correr, batente e garagem, com verificação prévia do estado do portão."
                                            },
                                            
                                            {
@@ -506,7 +506,7 @@ export default function AutomatismosCamePortoes() {
                                            
                                            {
                                            title:"Substituição de automatismos",
-                                           text:"Troca de motores antigos, centrais danificadas ou equipamentos desadequados ao tipo de portão."
+                                           text:"Troca de motores antigos, centrais danificadas ou equipamentos desadequados ao peso e utilização do portão."
                                            }
                                            
                                            ].map((item,index)=>(
@@ -568,7 +568,7 @@ export default function AutomatismosCamePortoes() {
                                                               marginBottom:"18px",
                                                               textAlign:"center"
                                                               }}>
-                                                              Problemas comuns em automatismos Roger Technology
+                                                              Problemas comuns em automatismos CAME
                                                               </h2>
                                                               
                                                               <p style={{
@@ -579,7 +579,7 @@ export default function AutomatismosCamePortoes() {
                                                               margin:"0 auto 36px auto",
                                                               textAlign:"center"
                                                               }}>
-                                                              Se o seu portão com automatismo Roger Technology deixou de funcionar corretamente,
+                                                              Se o seu portão com automatismo CAME deixou de funcionar corretamente,
                                                               clique no sintoma mais parecido ou peça assistência diretamente.
                                                               </p>
                                                               
@@ -625,9 +625,9 @@ export default function AutomatismosCamePortoes() {
                                                               },
                                                               
                                                               {
-                                                              title:"Comando só funciona perto",
-                                                              href:"/comando-garagem-so-funciona-perto",
-                                                              text:"Quando o comando tem pouco alcance ou falhas de receção."
+                                                              title:"Comando da garagem não funciona",
+                                                              href:"/comando-garagem-nao-funciona",
+                                                              text:"Quando o comando não abre o portão, perdeu programação ou deixou de comunicar."
                                                               }
                                                               
                                                               ].map((item,index)=>(
@@ -725,7 +725,7 @@ export default function AutomatismosCamePortoes() {
                                                                                          color:"#08285c",
                                                                                          marginBottom:"18px"
                                                                                          }}>
-                                                                                         Precisa de ajuda com um automatismo Roger Technology?
+                                                                                         Precisa de ajuda com um automatismo CAME?
                                                                                          </h2>
                                                                                          
                                                                                          <p style={{
@@ -735,7 +735,7 @@ export default function AutomatismosCamePortoes() {
                                                                                          maxWidth:"800px",
                                                                                          margin:"0 auto 35px auto"
                                                                                          }}>
-                                                                                         Se tem um motor Roger Technology instalado, precisa de programar comandos,
+                                                                                         Se tem um motor CAME instalado, precisa de programar comandos,
                                                                                          corrigir uma avaria, substituir equipamento antigo ou instalar um novo automatismo,
                                                                                          fale connosco para avaliarmos a situação.
                                                                                          </p>
@@ -785,7 +785,6 @@ export default function AutomatismosCamePortoes() {
                                                                                          </div>
                                                                                          
                                                                                          </section>
-
                                     
                         {/* NOVA PÁGINA AQUI */}
 
@@ -850,7 +849,7 @@ export default function AutomatismosCamePortoes() {
                                                                                       lineHeight:"1.7",
                                                                                       color:"#666"
                                                                                       }}>
-                                                                                      Serviço técnico independente. A TecCasa Soluções presta instalação, programação e assistência a automatismos Roger Technology.
+                                                                                      Serviço técnico independente. A TecCasa Soluções presta instalação, programação e assistência a automatismos CAME.
                                                                                       </p>
                                                                                       
                                                                                       </div>
