@@ -5,6 +5,7 @@ export default function Home() {
  const [showSeoPanel, setShowSeoPanel] = useState(false);
  const [pinInput, setPinInput] = useState("");
  const [menuOpen, setMenuOpen] = useState(false);
+ const logoTimer = useRef(null);
  const menuItems = [
   { label:"Início", href:"/", active:true },
 
