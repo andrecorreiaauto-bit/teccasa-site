@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef } from "react";
 import Head from "next/head";
 export default function Home() {
  const [logoClicks, setLogoClicks] = useState(0);
