@@ -164,32 +164,10 @@ export default function AutomatismosMotorlinePortoes() {
   }}>
 
     <div
-    onClick={() => {
+  onClick={() => {
+    window.location.href = "/";
+  }}
 
-    setLogoClicks(prev => {
-    
-    const next = prev + 1;
-    
-    setTimeout(() => {
-    setLogoClicks(0);
-    }, 1800);
-    
-    if(next >= 5){
-    
-    const pin = prompt("Introduz o PIN");
-    
-    if(pin === "2026"){
-    setShowSeoPanel(true);
-    }
-    
-    return 0;
-    }
-    
-    return next;
-    
-    });
-    
-    }}
     style={{
     display:"flex",
     alignItems:"center",
