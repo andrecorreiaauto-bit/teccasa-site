@@ -571,22 +571,23 @@ export default function InstalacaoAutomatismosPortoes() {
                                                                   >
                                                                   
                                                                   {[
-                                                                  "Motorline",
-                                                                  "BFT",
-                                                                  "Nice",
-                                                                  "FAAC",
-                                                                  "Ditec",
-                                                                  "Roger Technology",
-                                                                  "CAME",
-                                                                  "Hörmann",
-                                                                  "DEA",
-                                                                  "Beninca",
-                                                                  "Somfy",
-                                                                  "V2"
+                                                                  { nome:"Motorline", href:"/automatismos-motorline-portoes" },
+                                                                  { nome:"BFT", href:"/automatismos-bft-portoes" },
+                                                                  { nome:"Nice", href:"/automatismos-nice-portoes" },
+                                                                  { nome:"FAAC", href:"/automatismos-faac-portoes" },
+                                                                  { nome:"Ditec", href:"/automatismos-ditec-portoes" },
+                                                                  { nome:"Roger Technology", href:"/automatismos-roger-technology-portoes" },
+                                                                  { nome:"CAME", href:"/automatismos-came-portoes" },
+                                                                  { nome:"Hörmann", href:"/automatismos-hormann-portoes" },
+                                                                  { nome:"DEA", href:"/automatismos-dea-portoes" },
+                                                                  { nome:"Beninca", href:"/automatismos-beninca-portoes" },
+                                                                  { nome:"Somfy", href:"/automatismos-somfy-portoes" },
+                                                                  { nome:"V2", href:"/automatismos-v2-portoes" }
                                                                   ].map((marca,index)=>(
                                                                   
-                                                                  <div
+                                                                  <a
                                                                   key={index}
+                                                                  href={marca.href}
                                                                   className="cartao-marca"
                                                                   style={{
                                                                   background:"#ffffff",
@@ -596,11 +597,27 @@ export default function InstalacaoAutomatismosPortoes() {
                                                                   fontWeight:"bold",
                                                                   color:"#08285c",
                                                                   boxShadow:"0 10px 24px rgba(11,44,95,0.07)",
-                                                                  border:"1px solid rgba(11,44,95,0.05)"
+                                                                  border:"1px solid rgba(11,44,95,0.05)",
+                                                                  textDecoration:"none",
+                                                                  display:"flex",
+                                                                  alignItems:"center",
+                                                                  justifyContent:"center",
+                                                                  minHeight:"58px",
+                                                                  transition:"transform .25s ease, box-shadow .25s ease, background .25s ease"
+                                                                  }}
+                                                                  onMouseEnter={(e)=>{
+                                                                  e.currentTarget.style.transform="translateY(-4px)"
+                                                                  e.currentTarget.style.boxShadow="0 16px 32px rgba(11,44,95,0.12)"
+                                                                  e.currentTarget.style.background="#f9fbff"
+                                                                  }}
+                                                                  onMouseLeave={(e)=>{
+                                                                  e.currentTarget.style.transform="translateY(0)"
+                                                                  e.currentTarget.style.boxShadow="0 10px 24px rgba(11,44,95,0.07)"
+                                                                  e.currentTarget.style.background="#ffffff"
                                                                   }}
                                                                   >
-                                                                  {marca}
-                                                                  </div>
+                                                                  {marca.nome}
+                                                                  </a>
                                                                   
                                                                   ))}
                                                                   
