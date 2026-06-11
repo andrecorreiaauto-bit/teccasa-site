@@ -463,7 +463,7 @@ export default function AutomatismosDeaPortoes() {
                                            marginBottom:"16px",
                                            textAlign:"center"
                                            }}>
-                                           Serviços em automatismos Hörmann
+                                           Serviços em automatismos DEA
                                            </h2>
                                            
                                            <p style={{
@@ -474,9 +474,9 @@ export default function AutomatismosDeaPortoes() {
                                            margin:"0 auto 42px auto",
                                            textAlign:"center"
                                            }}>
-                                           A TecCasa Soluções presta instalação, programação e assistência técnica a automatismos Hörmann,
-                                           com foco em portões de garagem, portões seccionados, comandos, motores de teto,
-                                           afinação de funcionamento e diagnóstico de avarias.
+                                           A TecCasa Soluções presta instalação, programação e assistência técnica a automatismos DEA,
+                                           com foco em portões residenciais, portões de correr, portões de batente, comandos,
+                                           centrais eletrónicas e funcionamento seguro do sistema.
                                            </p>
                                            
                                            <div
@@ -490,23 +490,23 @@ export default function AutomatismosDeaPortoes() {
                                            
                                            {[
                                            {
-                                           title:"Instalação de motores Hörmann",
-                                           text:"Montagem de automatismos Hörmann em portões de garagem, portões seccionados e outros sistemas residenciais compatíveis."
+                                           title:"Instalação de motores DEA",
+                                           text:"Montagem de automatismos DEA em portões de correr, batente e garagem, com verificação prévia das condições do portão."
                                            },
                                            
                                            {
-                                           title:"Programação de comandos",
-                                           text:"Configuração de comandos, recetores, abertura automática e parâmetros de utilização diária."
+                                           title:"Programação e afinação",
+                                           text:"Configuração de comandos, tempos, força, fecho automático, abertura pedonal e parâmetros de segurança."
                                            },
                                            
                                            {
                                            title:"Diagnóstico de avarias",
-                                           text:"Análise de falhas em motores de teto, comandos, centrais, sensores, cablagem e sistemas de segurança."
+                                           text:"Análise de falhas em motores, centrais, comandos, fotocélulas, condensadores, cablagem e funcionamento geral."
                                            },
                                            
                                            {
-                                           title:"Substituição e afinação",
-                                           text:"Substituição de motores antigos, afinação de funcionamento e verificação do estado mecânico do portão."
+                                           title:"Substituição de equipamento",
+                                           text:"Troca de motores antigos, centrais danificadas ou automatismos desadequados ao peso e utilização do portão."
                                            }
                                            
                                            ].map((item,index)=>(
@@ -568,7 +568,7 @@ export default function AutomatismosDeaPortoes() {
                                                               marginBottom:"18px",
                                                               textAlign:"center"
                                                               }}>
-                                                              Problemas comuns em automatismos Hörmann
+                                                              Problemas comuns em automatismos DEA
                                                               </h2>
                                                               
                                                               <p style={{
@@ -579,7 +579,7 @@ export default function AutomatismosDeaPortoes() {
                                                               margin:"0 auto 36px auto",
                                                               textAlign:"center"
                                                               }}>
-                                                              Se o seu portão com automatismo Hörmann deixou de funcionar corretamente,
+                                                              Se o seu portão com automatismo DEA deixou de funcionar corretamente,
                                                               clique no sintoma mais parecido ou peça assistência diretamente.
                                                               </p>
                                                               
@@ -595,21 +595,27 @@ export default function AutomatismosDeaPortoes() {
                                                               
                                                               {[
                                                               {
-                                                              title:"Portão de garagem não abre",
-                                                              href:"/portao-garagem-nao-abre",
-                                                              text:"Quando o motor de teto não abre o portão de garagem ou o portão fica bloqueado."
+                                                              title:"O portão não fecha",
+                                                              href:"/portao-nao-fecha",
+                                                              text:"Quando o portão abre, mas não fecha ou fica bloqueado antes de terminar o percurso."
                                                               },
                                                               
                                                               {
-                                                              title:"Comando da garagem não funciona",
-                                                              href:"/comando-garagem-nao-funciona",
-                                                              text:"Quando o comando deixou de abrir o portão, perdeu programação ou não comunica."
+                                                              title:"O portão fecha e volta a abrir",
+                                                              href:"/portao-fecha-e-volta-a-abrir",
+                                                              text:"Quando o automatismo inverte o movimento durante o fecho."
                                                               },
                                                               
                                                               {
-                                                              title:"Comando só funciona perto",
-                                                              href:"/comando-garagem-so-funciona-perto",
-                                                              text:"Quando o comando tem pouco alcance ou só funciona muito perto da garagem."
+                                                              title:"Portão abre só uma folha",
+                                                              href:"/portao-abre-so-uma-folha",
+                                                              text:"Em portões de batente com duas folhas, quando apenas uma folha responde."
+                                                              },
+                                                              
+                                                              {
+                                                              title:"Motor do portão sem força",
+                                                              href:"/motor-portao-sem-forca",
+                                                              text:"Quando o motor perde força, trabalha em esforço ou o portão se move lentamente."
                                                               },
                                                               
                                                               {
@@ -619,15 +625,9 @@ export default function AutomatismosDeaPortoes() {
                                                               },
                                                               
                                                               {
-                                                              title:"Motor do portão sem força",
-                                                              href:"/motor-portao-sem-forca",
-                                                              text:"Quando o motor perde força, o portão sobe com dificuldade ou para durante o movimento."
-                                                              },
-                                                              
-                                                              {
-                                                              title:"O portão não fecha",
-                                                              href:"/portao-nao-fecha",
-                                                              text:"Quando o portão não termina o fecho ou fica parado antes de fechar completamente."
+                                                              title:"Comando da garagem não funciona",
+                                                              href:"/comando-garagem-nao-funciona",
+                                                              text:"Quando o comando não abre o portão, perdeu programação ou deixou de comunicar."
                                                               }
                                                               
                                                               ].map((item,index)=>(
@@ -725,7 +725,7 @@ export default function AutomatismosDeaPortoes() {
                                                                                          color:"#08285c",
                                                                                          marginBottom:"18px"
                                                                                          }}>
-                                                                                         Precisa de ajuda com um automatismo Hörmann?
+                                                                                         Precisa de ajuda com um automatismo DEA?
                                                                                          </h2>
                                                                                          
                                                                                          <p style={{
@@ -735,7 +735,7 @@ export default function AutomatismosDeaPortoes() {
                                                                                          maxWidth:"800px",
                                                                                          margin:"0 auto 35px auto"
                                                                                          }}>
-                                                                                         Se tem um motor Hörmann instalado, precisa de programar comandos,
+                                                                                         Se tem um motor DEA instalado, precisa de programar comandos,
                                                                                          corrigir uma avaria, substituir equipamento antigo ou instalar um novo automatismo,
                                                                                          fale connosco para avaliarmos a situação.
                                                                                          </p>
@@ -849,7 +849,7 @@ export default function AutomatismosDeaPortoes() {
                                                                                       lineHeight:"1.7",
                                                                                       color:"#666"
                                                                                       }}>
-                                                                                      Serviço técnico independente. A TecCasa Soluções presta instalação, programação e assistência a automatismos Hörmann.
+                                                                                      Serviço técnico independente. A TecCasa Soluções presta instalação, programação e assistência a automatismos DEA.
                                                                                       </p>
                                                                                       
                                                                                       </div>
