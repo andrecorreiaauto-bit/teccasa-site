@@ -343,7 +343,7 @@ export default function AutomatismosV2Portoes() {
                     src="/v2-logo.png"
                     alt="V2"
                     style={{
-                    height:"114px",
+                    height:"134px",
                     width:"auto",
                     objectFit:"contain",
                     display:"block"
