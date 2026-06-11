@@ -463,7 +463,7 @@ export default function AutomatismosBenincaPortoes() {
                                            marginBottom:"16px",
                                            textAlign:"center"
                                            }}>
-                                           Serviços em automatismos DEA
+                                           Serviços em automatismos Beninca
                                            </h2>
                                            
                                            <p style={{
@@ -474,7 +474,7 @@ export default function AutomatismosBenincaPortoes() {
                                            margin:"0 auto 42px auto",
                                            textAlign:"center"
                                            }}>
-                                           A TecCasa Soluções presta instalação, programação e assistência técnica a automatismos DEA,
+                                           A TecCasa Soluções presta instalação, programação e assistência técnica a automatismos Beninca,
                                            com foco em portões residenciais, portões de correr, portões de batente, comandos,
                                            centrais eletrónicas e funcionamento seguro do sistema.
                                            </p>
@@ -490,8 +490,8 @@ export default function AutomatismosBenincaPortoes() {
                                            
                                            {[
                                            {
-                                           title:"Instalação de motores DEA",
-                                           text:"Montagem de automatismos DEA em portões de correr, batente e garagem, com verificação prévia das condições do portão."
+                                           title:"Instalação de motores Beninca",
+                                           text:"Montagem de automatismos Beninca em portões de correr, batente e garagem, com verificação prévia das condições do portão."
                                            },
                                            
                                            {
@@ -568,7 +568,7 @@ export default function AutomatismosBenincaPortoes() {
                                                               marginBottom:"18px",
                                                               textAlign:"center"
                                                               }}>
-                                                              Problemas comuns em automatismos DEA
+                                                              Problemas comuns em automatismos Beninca
                                                               </h2>
                                                               
                                                               <p style={{
@@ -579,7 +579,7 @@ export default function AutomatismosBenincaPortoes() {
                                                               margin:"0 auto 36px auto",
                                                               textAlign:"center"
                                                               }}>
-                                                              Se o seu portão com automatismo DEA deixou de funcionar corretamente,
+                                                              Se o seu portão com automatismo Beninca deixou de funcionar corretamente,
                                                               clique no sintoma mais parecido ou peça assistência diretamente.
                                                               </p>
                                                               
@@ -625,9 +625,9 @@ export default function AutomatismosBenincaPortoes() {
                                                               },
                                                               
                                                               {
-                                                              title:"Comando da garagem não funciona",
-                                                              href:"/comando-garagem-nao-funciona",
-                                                              text:"Quando o comando não abre o portão, perdeu programação ou deixou de comunicar."
+                                                              title:"Comando só funciona perto",
+                                                              href:"/comando-garagem-so-funciona-perto",
+                                                              text:"Quando o comando tem pouco alcance ou falhas de receção."
                                                               }
                                                               
                                                               ].map((item,index)=>(
@@ -725,7 +725,7 @@ export default function AutomatismosBenincaPortoes() {
                                                                                          color:"#08285c",
                                                                                          marginBottom:"18px"
                                                                                          }}>
-                                                                                         Precisa de ajuda com um automatismo DEA?
+                                                                                         Precisa de ajuda com um automatismo Beninca?
                                                                                          </h2>
                                                                                          
                                                                                          <p style={{
@@ -735,7 +735,7 @@ export default function AutomatismosBenincaPortoes() {
                                                                                          maxWidth:"800px",
                                                                                          margin:"0 auto 35px auto"
                                                                                          }}>
-                                                                                         Se tem um motor DEA instalado, precisa de programar comandos,
+                                                                                         Se tem um motor Beninca instalado, precisa de programar comandos,
                                                                                          corrigir uma avaria, substituir equipamento antigo ou instalar um novo automatismo,
                                                                                          fale connosco para avaliarmos a situação.
                                                                                          </p>
@@ -849,7 +849,7 @@ export default function AutomatismosBenincaPortoes() {
                                                                                       lineHeight:"1.7",
                                                                                       color:"#666"
                                                                                       }}>
-                                                                                      Serviço técnico independente. A TecCasa Soluções presta instalação, programação e assistência a automatismos DEA.
+                                                                                      Serviço técnico independente. A TecCasa Soluções presta instalação, programação e assistência a automatismos Beninca.
                                                                                       </p>
                                                                                       
                                                                                       </div>
