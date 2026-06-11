@@ -343,7 +343,7 @@ export default function AutomatismosBenincaPortoes() {
                     src="/beninca-logo.png"
                     alt="Beninca"
                     style={{
-                    height:"94px",
+                    height:"74px",
                     width:"auto",
                     objectFit:"contain",
                     display:"block"
