@@ -344,7 +344,7 @@ export default function AutomatismosHormannPortoes() {
                     src="/hormann-logo.png"
                     alt="Hörmann"
                     style={{
-                    height:"94px",
+                    height:"104px",
                     width:"auto",
                     objectFit:"contain",
                     display:"block"
