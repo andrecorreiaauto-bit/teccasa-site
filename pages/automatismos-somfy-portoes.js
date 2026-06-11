@@ -343,7 +343,7 @@ export default function AutomatismosSomfyPortoes() {
                     src="/somfy-logo.png"
                     alt="Somfy"
                     style={{
-                    height:"94px",
+                    height:"74px",
                     width:"auto",
                     objectFit:"contain",
                     display:"block"
