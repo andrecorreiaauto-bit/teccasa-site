@@ -1222,13 +1222,21 @@ Soluções técnicas com foco em diagnóstico, transparência e apoio próximo.
                                                                   title:"Páginas de avarias",
                                                                   items:[
                                                                   ["Comando garagem não funciona","/comando-garagem-nao-funciona"],
+                                                                  ["Comando só funciona perto","/comando-garagem-so-funciona-perto"],
                                                                   ["Portão abre até meio","/portao-abre-ate-meio"],
                                                                   ["Portão não fecha","/portao-nao-fecha"],
                                                                   ["Portão abre só uma folha","/portao-abre-so-uma-folha"],
-                                                                  ["Comando só funciona perto","/comando-garagem-so-funciona-perto"],
                                                                   ["Portão fecha e volta a abrir","/portao-fecha-e-volta-a-abrir"],
                                                                   ["Motor faz barulho mas não abre","/motor-portao-faz-barulho-mas-nao-abre"],
+                                                                  ["Motor portão sem força","/motor-portao-sem-forca"],
                                                                   ["Portão garagem não abre","/portao-garagem-nao-abre"]
+                                                                  ]
+                                                                  },
+                                                                  {
+                                                                  title:"Instalação",
+                                                                  items:[
+                                                                  ["Instalação de automatismos","/instalacao-automatismos-portoes"],
+                                                                  ["Instalação kit portão automático","/instalacao-kit-portao-automatico"]
                                                                   ]
                                                                   },
                                                                   {
@@ -1236,7 +1244,25 @@ Soluções técnicas com foco em diagnóstico, transparência e apoio próximo.
                                                                   items:[
                                                                   ["Motorline","/automatismos-motorline-portoes"],
                                                                   ["BFT","/automatismos-bft-portoes"],
-                                                                  ["Nice","/assistencia-nice"]
+                                                                  ["Nice","/automatismos-nice-portoes"],
+                                                                  ["FAAC","/automatismos-faac-portoes"],
+                                                                  ["Ditec","/automatismos-ditec-portoes"],
+                                                                  ["Roger Technology","/automatismos-roger-technology-portoes"],
+                                                                  ["CAME","/automatismos-came-portoes"],
+                                                                  ["Hörmann","/automatismos-hormann-portoes"],
+                                                                  ["DEA","/automatismos-dea-portoes"],
+                                                                  ["Benincà","/automatismos-beninca-portoes"],
+                                                                  ["Somfy","/automatismos-somfy-portoes"],
+                                                                  ["V2","/automatismos-v2-portoes"]
+                                                                  ]
+                                                                  },
+                                                                  {
+                                                                  title:"Páginas principais",
+                                                                  items:[
+                                                                  ["Homepage","/"],
+                                                                  ["Comandos garagem","/comandos-garagem"],
+                                                                  ["Casas inteligentes","/casas-inteligentes-lisboa"],
+                                                                  ["Instalação câmaras","/instalacao-camaras-lisboa"]
                                                                   ]
                                                                   },
                                                                   {
