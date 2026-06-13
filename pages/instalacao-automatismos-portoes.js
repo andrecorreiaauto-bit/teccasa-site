@@ -584,7 +584,7 @@ export default function InstalacaoAutomatismosPortoes() {
                                                                   { nome:"Somfy", href:"/automatismos-somfy-portoes", logo:"/somfy-logo.png", style:{maxHeight:"50px", maxWidth:"88%"} },
                                                                   { nome:"Beninca", href:"/automatismos-beninca-portoes", logo:"/beninca-logo.png", style:{maxHeight:"54px", maxWidth:"92%"} },
                                                                   { nome:"V2", href:"/automatismos-v2-portoes", logo:"/v2-logo.png", style:{maxHeight:"70px", maxWidth:"95%", transform:"scale(2.05)"} },
-                                                                  { nome:"Ditec", href:"/automatismos-ditec-portoes", logo:"/ditec-logo.png", style:{maxHeight:"58px", maxWidth:"74%", transform:"scale(1.18)"} }
+                                                                  { nome:"Ditec", href:"/automatismos-ditec-portoes", logo:"/ditec-logo.png", style:{maxHeight:"60px", maxWidth:"82%", transform:"scale(1.32)"} }
                                                                   ].map((marca,index)=>(
                                                                   
                                                                   <a
