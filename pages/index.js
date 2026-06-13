@@ -565,72 +565,97 @@ export default function Home() {
 
 </div>
 
+                                                                         <section
+                                                                         style={{
+                                                                         padding:"45px 0 70px",
+                                                                         textAlign:"center"
+                                                                         }}
+                                                                         >
+                                                                         
                                                                          <h2 style={{
-                                                                      fontSize:"34px",
-                                                                      color:"#08285c",
-                                                                      textAlign:"center",
-                                                                      marginBottom:"10px"
-                                                                      }}>
-                                                                      Assistência Multimarca
-                                                                      </h2>
-                                                                      
-                                                                      <p style={{
-                                                                      fontSize:"18px",
-                                                                      color:"#666",
-                                                                      maxWidth:"750px",
-                                                                      textAlign:"center",
-                                                                      margin:"0 auto",
-                                                                      lineHeight:"1.6"
-                                                                      }}>
-                                                                      Prestamos assistência, programação e diagnóstico em automatismos de várias marcas comuns no mercado.
-                                                                      </p>
-
-                                                                       <div
-                                                                       className="marcas-grid"
-                                                                       style={{
-                                                                       display:"grid",
-                                                                       gridTemplateColumns:"repeat(6,1fr)",
-                                                                       gap:"16px",
-                                                                       marginTop:"30px",
-                                                                       marginBottom:"60px"
-                                                                       }}>
-                                                                       
-                                                                       {[
-                                                                       "Nice",
-                                                                       "BFT",
-                                                                       "Motorline",
-                                                                       "FAAC",
-                                                                       "CAME",
-                                                                       "Hörmann",
-                                                                       "Roger",
-                                                                       "DEA",
-                                                                       "Somfy",
-                                                                       "Benincà",
-                                                                       "V2",
-                                                                       "DITEC"
-                                                                       ].map((marca)=>(
-                                                                       
-                                                                       <div
-                                                                       key={marca}
-                                                                       className="cartao-marca"
-                                                                       style={{
-                                                                       background:"linear-gradient(180deg,#ffffff,#e6edf7)",
-                                                                       border:"1px solid rgba(11,44,95,0.08)",
-                                                                       borderRadius:"18px",
-                                                                       padding:"22px 10px",
-                                                                       textAlign:"center",
-                                                                       fontWeight:"bold",
-                                                                       fontSize:"18px",
-                                                                       color:"#08285c",
-                                                                       boxShadow:"0 8px 20px rgba(0,0,0,0.05)"
-                                                                       }}
-                                                                       >
-                                                                       {marca}
-                                                                       </div>
-                                                                       
-                                                                       ))}
-                                                                       
-                                                                       </div>
+                                                                         fontSize:"34px",
+                                                                         color:"#08285c",
+                                                                         textAlign:"center",
+                                                                         marginBottom:"10px"
+                                                                         }}>
+                                                                         Assistência Multimarca
+                                                                         </h2>
+                                                                         
+                                                                         <p style={{
+                                                                         fontSize:"18px",
+                                                                         color:"#666",
+                                                                         maxWidth:"750px",
+                                                                         textAlign:"center",
+                                                                         margin:"0 auto",
+                                                                         lineHeight:"1.6"
+                                                                         }}>
+                                                                         Prestamos assistência, programação e diagnóstico em automatismos de várias marcas comuns no mercado.
+                                                                         </p>
+                                                                         
+                                                                         <div
+                                                                         className="marcas-grid"
+                                                                         style={{
+                                                                         display:"grid",
+                                                                         gridTemplateColumns:"repeat(6,1fr)",
+                                                                         gap:"16px",
+                                                                         marginTop:"30px",
+                                                                         marginBottom:"10px"
+                                                                         }}
+                                                                         >
+                                                                         
+                                                                         {[
+                                                                         { nome:"Nice", href:"/automatismos-nice-portoes" },
+                                                                         { nome:"BFT", href:"/automatismos-bft-portoes" },
+                                                                         { nome:"Motorline", href:"/automatismos-motorline-portoes" },
+                                                                         { nome:"FAAC", href:"/automatismos-faac-portoes" },
+                                                                         { nome:"CAME", href:"/automatismos-came-portoes" },
+                                                                         { nome:"Hörmann", href:"/automatismos-hormann-portoes" },
+                                                                         { nome:"Roger Technology", href:"/automatismos-roger-technology-portoes" },
+                                                                         { nome:"DEA", href:"/automatismos-dea-portoes" },
+                                                                         { nome:"Somfy", href:"/automatismos-somfy-portoes" },
+                                                                         { nome:"Beninca", href:"/automatismos-beninca-portoes" },
+                                                                         { nome:"V2", href:"/automatismos-v2-portoes" },
+                                                                         { nome:"Ditec", href:"/automatismos-ditec-portoes" }
+                                                                         ].map((marca,index)=>(
+                                                                         
+                                                                         <a
+                                                                         key={index}
+                                                                         href={marca.href}
+                                                                         className="cartao-marca"
+                                                                         style={{
+                                                                         background:"linear-gradient(180deg,#ffffff,#e6edf7)",
+                                                                         border:"1px solid rgba(11,44,95,0.08)",
+                                                                         borderRadius:"18px",
+                                                                         padding:"22px 10px",
+                                                                         textAlign:"center",
+                                                                         fontWeight:"bold",
+                                                                         fontSize:"18px",
+                                                                         color:"#08285c",
+                                                                         boxShadow:"0 8px 20px rgba(0,0,0,0.05)",
+                                                                         textDecoration:"none",
+                                                                         display:"flex",
+                                                                         alignItems:"center",
+                                                                         justifyContent:"center",
+                                                                         minHeight:"58px",
+                                                                         transition:"transform .25s ease, box-shadow .25s ease, background .25s ease"
+                                                                         }}
+                                                                         onMouseEnter={(e)=>{
+                                                                         e.currentTarget.style.transform="translateY(-4px)"
+                                                                         e.currentTarget.style.boxShadow="0 16px 32px rgba(11,44,95,0.12)"
+                                                                         }}
+                                                                         onMouseLeave={(e)=>{
+                                                                         e.currentTarget.style.transform="translateY(0)"
+                                                                         e.currentTarget.style.boxShadow="0 8px 20px rgba(0,0,0,0.05)"
+                                                                         }}
+                                                                         >
+                                                                         {marca.nome}
+                                                                         </a>
+                                                                         
+                                                                         ))}
+                                                                         
+                                                                         </div>
+                                                                         
+                                                                         </section>
 
                     <div id="zona-atuacao"></div>
                     <div style={{
