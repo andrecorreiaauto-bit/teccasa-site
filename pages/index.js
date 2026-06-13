@@ -604,19 +604,19 @@ export default function Home() {
                                                                          >
                                                                          
                                                                          {[
-                                                                         { nome:"Nice", href:"/automatismos-nice-portoes", logo:"/nice-logo.png", style:{maxHeight:"46px", maxWidth:"78%"} },
-                                                                         { nome:"BFT", href:"/automatismos-bft-portoes", logo:"/bft-logo.png", style:{maxHeight:"42px", maxWidth:"78%"} },
-                                                                         { nome:"Motorline", href:"/automatismos-motorline-portoes", logo:"/motorline-logo.png", style:{maxHeight:"42px", maxWidth:"88%"} },
+                                                                         { nome:"Nice", href:"/automatismos-nice-portoes", logo:"/nice-logo.png", style:{maxHeight:"70px", maxWidth:"95%", transform:"scale(1.45)"} },
+                                                                         { nome:"BFT", href:"/automatismos-bft-portoes", logo:"/bft-logo.png", style:{maxHeight:"62px", maxWidth:"90%", transform:"scale(1.35)"} },
+                                                                         { nome:"Motorline", href:"/automatismos-motorline-portoes", logo:"/motorline-logo.png", style:{maxHeight:"58px", maxWidth:"98%", transform:"scale(1.25)"} },
                                                                          { nome:"FAAC", href:"/automatismos-faac-portoes", logo:"/faac-logo.png", style:{maxHeight:"54px", maxWidth:"88%"} },
                                                                          { nome:"CAME", href:"/automatismos-came-portoes", logo:"/came-logo.png", style:{maxHeight:"52px", maxWidth:"88%"} },
-                                                                         { nome:"Hörmann", href:"/automatismos-hormann-portoes", logo:"/hormann-logo.png", style:{maxHeight:"38px", maxWidth:"82%"} },
+                                                                         { nome:"Hörmann", href:"/automatismos-hormann-portoes", logo:"/hormann-logo.png", style:{maxHeight:"58px", maxWidth:"95%", transform:"scale(1.45)"} },
                                                                          
                                                                          { nome:"Roger Technology", href:"/automatismos-roger-technology-portoes", logo:"/roger-technology-logo.png", style:{maxHeight:"58px", maxWidth:"92%"} },
                                                                          { nome:"DEA", href:"/automatismos-dea-portoes", logo:"/dea-logo.png", style:{maxHeight:"56px", maxWidth:"82%"} },
                                                                          { nome:"Somfy", href:"/automatismos-somfy-portoes", logo:"/somfy-logo.png", style:{maxHeight:"50px", maxWidth:"88%"} },
                                                                          { nome:"Beninca", href:"/automatismos-beninca-portoes", logo:"/beninca-logo.png", style:{maxHeight:"54px", maxWidth:"92%"} },
-                                                                         { nome:"V2", href:"/automatismos-v2-portoes", logo:"/v2-logo.png", style:{maxHeight:"48px", maxWidth:"70%", transform:"scale(1.35)"} },
-                                                                         { nome:"Ditec", href:"/automatismos-ditec-portoes", logo:"/ditec-logo.png", style:{maxHeight:"50px", maxWidth:"82%"} }
+                                                                         { nome:"V2", href:"/automatismos-v2-portoes", logo:"/v2-logo.png", style:{maxHeight:"70px", maxWidth:"95%", transform:"scale(2.05)"} },
+                                                                         { nome:"Ditec", href:"/automatismos-ditec-portoes", logo:"/ditec-logo.png", style:{maxHeight:"62px", maxWidth:"95%", transform:"scale(1.45)"} }
                                                                          ].map((marca,index)=>(
                                                                          
                                                                          <a
@@ -638,7 +638,7 @@ export default function Home() {
                                                                          justifyContent:"center",
                                                                          minHeight:"112px",
                                                                          transition:"transform .25s ease, box-shadow .25s ease, background .25s ease",
-                                                                         overflow:"hidden"
+                                                                         overflow:"visible"
                                                                          }}
                                                                          onMouseEnter={(e)=>{
                                                                          e.currentTarget.style.transform="translateY(-4px)"
