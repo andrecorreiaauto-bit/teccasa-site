@@ -914,40 +914,87 @@ export default function MotorPortaoFazBarulhoMasNaoAbre() {
                                                       style={{
                                                       display:"grid",
                                                       gridTemplateColumns:"repeat(auto-fit,minmax(150px,1fr))",
-                                                      gap:"16px"
+                                                      gap:"16px",
+                                                      marginTop:"30px",
+                                                      marginBottom:"60px"
                                                       }}
                                                       >
                                                       
                                                       {[
-                                                      "Motorline",
-                                                      "BFT",
-                                                      "Nice",
-                                                      "CAME",
-                                                      "FAAC",
-                                                      "DEA",
-                                                      "Beninca",
-                                                      "Roger",
-                                                      "Somfy",
-                                                      "V2",
-                                                      "LiftMaster",
-                                                      "outras marcas"
+                                                      { nome:"Motorline", href:"/automatismos-motorline-portoes" },
+                                                      { nome:"BFT", href:"/automatismos-bft-portoes" },
+                                                      { nome:"Nice", href:"/automatismos-nice-portoes" },
+                                                      { nome:"CAME", href:"/automatismos-came-portoes" },
+                                                      { nome:"FAAC", href:"/automatismos-faac-portoes" },
+                                                      { nome:"Ditec", href:"/automatismos-ditec-portoes" },
+                                                      { nome:"Beninca", href:"/automatismos-beninca-portoes" },
+                                                      { nome:"Somfy", href:"/automatismos-somfy-portoes" },
+                                                      { nome:"Roger", href:"/automatismos-roger-technology-portoes" },
+                                                      { nome:"Hörmann", href:"/automatismos-hormann-portoes" },
+                                                      { nome:"V2", href:"/automatismos-v2-portoes" },
+                                                      { nome:"outras marcas", href:null }
                                                       ].map((marca,index)=>(
+                                                      
+                                                      marca.href ? (
+                                                      
+                                                      <a
+                                                      key={index}
+                                                      href={marca.href}
+                                                      className="cartao-marca"
+                                                      style={{
+                                                      background:"#eef3fa",
+                                                      borderRadius:"18px",
+                                                      padding:"18px 14px",
+                                                      textAlign:"center",
+                                                      fontWeight:"bold",
+                                                      color:"#08285c",
+                                                      boxShadow:"0 10px 24px rgba(11,44,95,0.07)",
+                                                      border:"1px solid rgba(11,44,95,0.05)",
+                                                      textDecoration:"none",
+                                                      display:"flex",
+                                                      alignItems:"center",
+                                                      justifyContent:"center",
+                                                      minHeight:"58px",
+                                                      transition:"transform .25s ease, box-shadow .25s ease, background .25s ease"
+                                                      }}
+                                                      onMouseEnter={(e)=>{
+                                                      e.currentTarget.style.transform="translateY(-4px)"
+                                                      e.currentTarget.style.boxShadow="0 16px 32px rgba(11,44,95,0.12)"
+                                                      e.currentTarget.style.background="#f9fbff"
+                                                      }}
+                                                      onMouseLeave={(e)=>{
+                                                      e.currentTarget.style.transform="translateY(0)"
+                                                      e.currentTarget.style.boxShadow="0 10px 24px rgba(11,44,95,0.07)"
+                                                      e.currentTarget.style.background="#eef3fa"
+                                                      }}
+                                                      >
+                                                      {marca.nome}
+                                                      </a>
+                                                      
+                                                      ) : (
                                                       
                                                       <div
                                                       key={index}
                                                       className="cartao-marca"
                                                       style={{
-                                                      background:"#f5f8fc",
-                                                      padding:"18px 14px",
+                                                      background:"#eef3fa",
                                                       borderRadius:"18px",
+                                                      padding:"18px 14px",
                                                       textAlign:"center",
                                                       fontWeight:"bold",
                                                       color:"#08285c",
-                                                      boxShadow:"0 10px 24px rgba(11,44,95,0.07)"
+                                                      boxShadow:"0 10px 24px rgba(11,44,95,0.07)",
+                                                      border:"1px solid rgba(11,44,95,0.05)",
+                                                      display:"flex",
+                                                      alignItems:"center",
+                                                      justifyContent:"center",
+                                                      minHeight:"58px"
                                                       }}
                                                       >
-                                                      {marca}
+                                                      {marca.nome}
                                                       </div>
+                                                      
+                                                      )
                                                       
                                                       ))}
                                                       
