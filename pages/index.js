@@ -604,18 +604,18 @@ export default function Home() {
                                                                          >
                                                                          
                                                                          {[
-                                                                         { nome:"Nice", href:"/automatismos-nice-portoes" },
-                                                                         { nome:"BFT", href:"/automatismos-bft-portoes" },
-                                                                         { nome:"Motorline", href:"/automatismos-motorline-portoes" },
-                                                                         { nome:"FAAC", href:"/automatismos-faac-portoes" },
-                                                                         { nome:"CAME", href:"/automatismos-came-portoes" },
-                                                                         { nome:"Hörmann", href:"/automatismos-hormann-portoes" },
-                                                                         { nome:"Roger Technology", href:"/automatismos-roger-technology-portoes" },
-                                                                         { nome:"DEA", href:"/automatismos-dea-portoes" },
-                                                                         { nome:"Somfy", href:"/automatismos-somfy-portoes" },
-                                                                         { nome:"Beninca", href:"/automatismos-beninca-portoes" },
-                                                                         { nome:"V2", href:"/automatismos-v2-portoes" },
-                                                                         { nome:"Ditec", href:"/automatismos-ditec-portoes" }
+                                                                         { nome:"Nice", href:"/automatismos-nice-portoes", logo:"/nice-logo.png" },
+                                                                         { nome:"BFT", href:"/automatismos-bft-portoes", logo:"/bft-logo.png" },
+                                                                         { nome:"Motorline", href:"/automatismos-motorline-portoes", logo:"/motorline-logo.png" },
+                                                                         { nome:"FAAC", href:"/automatismos-faac-portoes", logo:"/faac-logo.png" },
+                                                                         { nome:"CAME", href:"/automatismos-came-portoes", logo:"/came-logo.png" },
+                                                                         { nome:"Hörmann", href:"/automatismos-hormann-portoes", logo:"/hormann-logo.png" },
+                                                                         { nome:"Roger Technology", href:"/automatismos-roger-technology-portoes", logo:"/roger-technology-logo.png" },
+                                                                         { nome:"DEA", href:"/automatismos-dea-portoes", logo:"/dea-logo.png" },
+                                                                         { nome:"Somfy", href:"/automatismos-somfy-portoes", logo:"/somfy-logo.png" },
+                                                                         { nome:"Beninca", href:"/automatismos-beninca-portoes", logo:"/beninca-logo.png" },
+                                                                         { nome:"V2", href:"/automatismos-v2-portoes", logo:"/v2-logo.png" },
+                                                                         { nome:"Ditec", href:"/automatismos-ditec-portoes", logo:"/ditec-logo.png" }
                                                                          ].map((marca,index)=>(
                                                                          
                                                                          <a
@@ -626,17 +626,19 @@ export default function Home() {
                                                                          background:"linear-gradient(180deg,#ffffff,#e6edf7)",
                                                                          border:"1px solid rgba(11,44,95,0.08)",
                                                                          borderRadius:"18px",
-                                                                         padding:"22px 10px",
+                                                                         padding:"18px 10px",
                                                                          textAlign:"center",
                                                                          fontWeight:"bold",
-                                                                         fontSize:"18px",
+                                                                         fontSize:"15px",
                                                                          color:"#08285c",
                                                                          boxShadow:"0 8px 20px rgba(0,0,0,0.05)",
                                                                          textDecoration:"none",
                                                                          display:"flex",
+                                                                         flexDirection:"column",
                                                                          alignItems:"center",
                                                                          justifyContent:"center",
-                                                                         minHeight:"58px",
+                                                                         gap:"10px",
+                                                                         minHeight:"92px",
                                                                          transition:"transform .25s ease, box-shadow .25s ease, background .25s ease"
                                                                          }}
                                                                          onMouseEnter={(e)=>{
@@ -648,7 +650,26 @@ export default function Home() {
                                                                          e.currentTarget.style.boxShadow="0 8px 20px rgba(0,0,0,0.05)"
                                                                          }}
                                                                          >
+                                                                         
+                                                                         <img
+                                                                         src={marca.logo}
+                                                                         alt={marca.nome}
+                                                                         style={{
+                                                                         maxWidth:"82%",
+                                                                         maxHeight:"34px",
+                                                                         objectFit:"contain",
+                                                                         display:"block"
+                                                                         }}
+                                                                         />
+                                                                         
+                                                                         <span style={{
+                                                                         fontSize:"14px",
+                                                                         lineHeight:"1.2",
+                                                                         color:"#08285c"
+                                                                         }}>
                                                                          {marca.nome}
+                                                                         </span>
+                                                                         
                                                                          </a>
                                                                          
                                                                          ))}
