@@ -1323,6 +1323,103 @@ border:"1px solid rgba(11,44,95,0.05)"
                                                               text-align: center !important;
                                                             }
 
+                                                            /* Ajuste específico da Assistência Multimarca na homepage */
+
+                                                            .assistencia-multimarca {
+                                                              padding: 70px 6px 55px 6px !important;
+                                                              scroll-margin-top: 130px !important;
+                                                            }
+                                                            
+                                                            .assistencia-multimarca .marcas-grid {
+                                                              display: grid !important;
+                                                              grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+                                                              gap: 14px !important;
+                                                              width: 100% !important;
+                                                              max-width: 100% !important;
+                                                              margin-top: 26px !important;
+                                                              margin-bottom: 20px !important;
+                                                              box-sizing: border-box !important;
+                                                            }
+                                                            
+                                                            .assistencia-multimarca .cartao-marca {
+                                                              height: 106px !important;
+                                                              min-height: 106px !important;
+                                                              padding: 10px 8px !important;
+                                                              border-radius: 16px !important;
+                                                              overflow: hidden !important;
+                                                              box-sizing: border-box !important;
+                                                            }
+                                                            
+                                                            .assistencia-multimarca .cartao-marca img {
+                                                              transform: none !important;
+                                                              width: auto !important;
+                                                              height: auto !important;
+                                                              object-fit: contain !important;
+                                                              display: block !important;
+                                                            }
+                                                            
+                                                            /* Ajustes individuais dos logos no mobile */
+                                                            
+                                                            .assistencia-multimarca .cartao-marca:nth-child(1) img {
+                                                              max-height: 72px !important;
+                                                              max-width: 82% !important;
+                                                            }
+                                                            
+                                                            .assistencia-multimarca .cartao-marca:nth-child(2) img {
+                                                              max-height: 64px !important;
+                                                              max-width: 86% !important;
+                                                            }
+                                                            
+                                                            .assistencia-multimarca .cartao-marca:nth-child(3) img {
+                                                              max-height: 52px !important;
+                                                              max-width: 92% !important;
+                                                            }
+                                                            
+                                                            .assistencia-multimarca .cartao-marca:nth-child(4) img {
+                                                              max-height: 56px !important;
+                                                              max-width: 90% !important;
+                                                            }
+                                                            
+                                                            .assistencia-multimarca .cartao-marca:nth-child(5) img {
+                                                              max-height: 56px !important;
+                                                              max-width: 90% !important;
+                                                            }
+                                                            
+                                                            .assistencia-multimarca .cartao-marca:nth-child(6) img {
+                                                              max-height: 48px !important;
+                                                              max-width: 92% !important;
+                                                            }
+                                                            
+                                                            .assistencia-multimarca .cartao-marca:nth-child(7) img {
+                                                              max-height: 56px !important;
+                                                              max-width: 92% !important;
+                                                            }
+                                                            
+                                                            .assistencia-multimarca .cartao-marca:nth-child(8) img {
+                                                              max-height: 68px !important;
+                                                              max-width: 82% !important;
+                                                            }
+                                                            
+                                                            .assistencia-multimarca .cartao-marca:nth-child(9) img {
+                                                              max-height: 52px !important;
+                                                              max-width: 88% !important;
+                                                            }
+                                                            
+                                                            .assistencia-multimarca .cartao-marca:nth-child(10) img {
+                                                              max-height: 56px !important;
+                                                              max-width: 92% !important;
+                                                            }
+                                                            
+                                                            .assistencia-multimarca .cartao-marca:nth-child(11) img {
+                                                              max-height: 72px !important;
+                                                              max-width: 80% !important;
+                                                            }
+                                                            
+                                                            .assistencia-multimarca .cartao-marca:nth-child(12) img {
+                                                              max-height: 66px !important;
+                                                              max-width: 88% !important;
+                                                            }
+
                                                          }
 
                                                         `}</style>
