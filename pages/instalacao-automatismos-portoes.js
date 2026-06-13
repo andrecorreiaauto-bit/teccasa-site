@@ -526,6 +526,7 @@ export default function InstalacaoAutomatismosPortoes() {
                                            </section>
 
                                                                   <section
+                                                                  className="assistencia-multimarca"
                                                                   style={{
                                                                   padding:"10px 0 70px"
                                                                   }}
