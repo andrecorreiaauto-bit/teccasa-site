@@ -562,80 +562,92 @@ export default function InstalacaoAutomatismosPortoes() {
                                                                   </p>
                                                                   
                                                                   <div
-                                                                         className="marcas-grid"
-                                                                         style={{
-                                                                         display:"grid",
-                                                                         gridTemplateColumns:"repeat(6,1fr)",
-                                                                         gap:"16px",
-                                                                         marginTop:"30px",
-                                                                         marginBottom:"10px"
-                                                                         }}
-                                                                         >
-                                                                         
-                                                                         {[
-                                                                         { nome:"Nice", href:"/automatismos-nice-portoes", logo:"/nice-logo.png", style:{maxHeight:"70px", maxWidth:"95%", transform:"scale(1.45)"} },
-                                                                         { nome:"BFT", href:"/automatismos-bft-portoes", logo:"/bft-logo.png", style:{maxHeight:"62px", maxWidth:"90%", transform:"scale(1.35)"} },
-                                                                         { nome:"Motorline", href:"/automatismos-motorline-portoes", logo:"/motorline-logo.png", style:{maxHeight:"58px", maxWidth:"98%", transform:"scale(1.25)"} },
-                                                                         { nome:"FAAC", href:"/automatismos-faac-portoes", logo:"/faac-logo.png", style:{maxHeight:"54px", maxWidth:"88%"} },
-                                                                         { nome:"CAME", href:"/automatismos-came-portoes", logo:"/came-logo.png", style:{maxHeight:"52px", maxWidth:"88%"} },
-                                                                         { nome:"Hörmann", href:"/automatismos-hormann-portoes", logo:"/hormann-logo.png", style:{maxHeight:"58px", maxWidth:"95%", transform:"scale(1.45)"} },
-                                                                         
-                                                                         { nome:"Roger Technology", href:"/automatismos-roger-technology-portoes", logo:"/roger-technology-logo.png", style:{maxHeight:"58px", maxWidth:"92%"} },
-                                                                         { nome:"DEA", href:"/automatismos-dea-portoes", logo:"/dea-logo.png", style:{maxHeight:"56px", maxWidth:"82%"} },
-                                                                         { nome:"Somfy", href:"/automatismos-somfy-portoes", logo:"/somfy-logo.png", style:{maxHeight:"50px", maxWidth:"88%"} },
-                                                                         { nome:"Beninca", href:"/automatismos-beninca-portoes", logo:"/beninca-logo.png", style:{maxHeight:"54px", maxWidth:"92%"} },
-                                                                         { nome:"V2", href:"/automatismos-v2-portoes", logo:"/v2-logo.png", style:{maxHeight:"70px", maxWidth:"95%", transform:"scale(2.05)"} },
-                                                                         { nome:"Ditec", href:"/automatismos-ditec-portoes", logo:"/ditec-logo.png", style:{maxHeight:"62px", maxWidth:"95%", transform:"scale(1.45)"} }
-                                                                         ].map((marca,index)=>(
-                                                                         
-                                                                         <a
-                                                                         key={index}
-                                                                         href={marca.href}
-                                                                         className="cartao-marca"
-                                                                         aria-label={marca.nome}
-                                                                         title={marca.nome}
-                                                                         style={{
-                                                                         background:"linear-gradient(180deg,#ffffff,#e6edf7)",
-                                                                         border:"1px solid rgba(11,44,95,0.08)",
-                                                                         borderRadius:"18px",
-                                                                         padding:"18px 12px",
-                                                                         textAlign:"center",
-                                                                         boxShadow:"0 8px 20px rgba(0,0,0,0.05)",
-                                                                         textDecoration:"none",
-                                                                         display:"flex",
-                                                                         alignItems:"center",
-                                                                         justifyContent:"center",
-                                                                         minHeight:"112px",
-                                                                         transition:"transform .25s ease, box-shadow .25s ease, background .25s ease",
-                                                                         overflow:"visible"
-                                                                         }}
-                                                                         onMouseEnter={(e)=>{
-                                                                         e.currentTarget.style.transform="translateY(-4px)"
-                                                                         e.currentTarget.style.boxShadow="0 16px 32px rgba(11,44,95,0.12)"
-                                                                         }}
-                                                                         onMouseLeave={(e)=>{
-                                                                         e.currentTarget.style.transform="translateY(0)"
-                                                                         e.currentTarget.style.boxShadow="0 8px 20px rgba(0,0,0,0.05)"
-                                                                         }}
-                                                                         >
-                                                                         
-                                                                         <img
-                                                                         src={marca.logo}
-                                                                         alt={marca.nome}
-                                                                         style={{
-                                                                         width:"auto",
-                                                                         height:"auto",
-                                                                         objectFit:"contain",
-                                                                         display:"block",
-                                                                         ...marca.style
-                                                                         }}
-                                                                         />
-                                                                         
-                                                                         </a>
-                                                                         
-                                                                         ))}
-                                                                         
-                                                                         </div>
+                                                                  className="marcas-grid"
+                                                                  style={{
+                                                                  display:"grid",
+                                                                  gridTemplateColumns:"repeat(6,1fr)",
+                                                                  gap:"16px",
+                                                                  marginBottom:"32px"
+                                                                  }}
+                                                                  >
+                                                                  
+                                                                  {[
+                                                                  { nome:"Nice", href:"/automatismos-nice-portoes", logo:"/nice-logo.png", style:{maxHeight:"70px", maxWidth:"95%", transform:"scale(1.45)"} },
+                                                                  { nome:"BFT", href:"/automatismos-bft-portoes", logo:"/bft-logo.png", style:{maxHeight:"62px", maxWidth:"90%", transform:"scale(1.35)"} },
+                                                                  { nome:"Motorline", href:"/automatismos-motorline-portoes", logo:"/motorline-logo.png", style:{maxHeight:"58px", maxWidth:"98%", transform:"scale(1.25)"} },
+                                                                  { nome:"FAAC", href:"/automatismos-faac-portoes", logo:"/faac-logo.png", style:{maxHeight:"54px", maxWidth:"88%"} },
+                                                                  { nome:"CAME", href:"/automatismos-came-portoes", logo:"/came-logo.png", style:{maxHeight:"52px", maxWidth:"88%"} },
+                                                                  { nome:"Hörmann", href:"/automatismos-hormann-portoes", logo:"/hormann-logo.png", style:{maxHeight:"58px", maxWidth:"95%", transform:"scale(1.45)"} },
+                                                                  
+                                                                  { nome:"Roger Technology", href:"/automatismos-roger-technology-portoes", logo:"/roger-technology-logo.png", style:{maxHeight:"58px", maxWidth:"92%"} },
+                                                                  { nome:"DEA", href:"/automatismos-dea-portoes", logo:"/dea-logo.png", style:{maxHeight:"56px", maxWidth:"82%"} },
+                                                                  { nome:"Somfy", href:"/automatismos-somfy-portoes", logo:"/somfy-logo.png", style:{maxHeight:"50px", maxWidth:"88%"} },
+                                                                  { nome:"Beninca", href:"/automatismos-beninca-portoes", logo:"/beninca-logo.png", style:{maxHeight:"54px", maxWidth:"92%"} },
+                                                                  { nome:"V2", href:"/automatismos-v2-portoes", logo:"/v2-logo.png", style:{maxHeight:"70px", maxWidth:"95%", transform:"scale(2.05)"} },
+                                                                  { nome:"Ditec", href:"/automatismos-ditec-portoes", logo:"/ditec-logo.png", style:{maxHeight:"62px", maxWidth:"95%", transform:"scale(1.45)"} }
+                                                                  ].map((marca,index)=>(
+                                                                  
+                                                                  <a
+                                                                  key={index}
+                                                                  href={marca.href}
+                                                                  className="cartao-marca"
+                                                                  aria-label={marca.nome}
+                                                                  title={marca.nome}
+                                                                  style={{
+                                                                  background:"linear-gradient(180deg,#ffffff,#e6edf7)",
+                                                                  border:"1px solid rgba(11,44,95,0.08)",
+                                                                  borderRadius:"18px",
+                                                                  padding:"18px 12px",
+                                                                  textAlign:"center",
+                                                                  boxShadow:"0 8px 20px rgba(0,0,0,0.05)",
+                                                                  textDecoration:"none",
+                                                                  display:"flex",
+                                                                  alignItems:"center",
+                                                                  justifyContent:"center",
+                                                                  minHeight:"112px",
+                                                                  transition:"transform .25s ease, box-shadow .25s ease, background .25s ease",
+                                                                  overflow:"visible"
+                                                                  }}
+                                                                  onMouseEnter={(e)=>{
+                                                                  e.currentTarget.style.transform="translateY(-4px)"
+                                                                  e.currentTarget.style.boxShadow="0 16px 32px rgba(11,44,95,0.12)"
+                                                                  }}
+                                                                  onMouseLeave={(e)=>{
+                                                                  e.currentTarget.style.transform="translateY(0)"
+                                                                  e.currentTarget.style.boxShadow="0 8px 20px rgba(0,0,0,0.05)"
+                                                                  }}
+                                                                  >
+                                                                  
+                                                                  <img
+                                                                  src={marca.logo}
+                                                                  alt={marca.nome}
+                                                                  style={{
+                                                                  width:"auto",
+                                                                  height:"auto",
+                                                                  objectFit:"contain",
+                                                                  display:"block",
+                                                                  ...marca.style
+                                                                  }}
+                                                                  />
+                                                                  
+                                                                  </a>
+                                                                  
+                                                                  ))}
+                                                                  
+                                                                  </div>
+                                                                  
+                                                                  <p style={{
+                                                                  fontSize:"17px",
+                                                                  lineHeight:"1.7",
+                                                                  color:"#666",
+                                                                  maxWidth:"780px",
+                                                                  margin:"0 auto"
+                                                                  }}>
+                                                                  Se já tem uma marca em mente ou pretende substituir um automatismo antigo,
+                                                                  podemos ajudar a perceber qual a solução mais adequada para o seu portão.
+                                                                  </p>
+                                                                  
+                                                                  </div>
                                                                   
                                                                   </section>
                                             
