@@ -4,6 +4,7 @@ import Head from "next/head";
 export default function AutomaticGateRepairLisbon() {
   const [menuOpen, setMenuOpen] = useState(false);
 
+
   const menuItems = [
     { label: "Home", href: "/" },
     { label: "Gate installation", href: "/instalacao-automatismos-portoes" },
