@@ -733,9 +733,22 @@ marginTop:"20px"
     e.currentTarget.style.boxShadow="0 8px 25px rgba(0,0,0,0.05)"
   }}
 >
-  <h3>📞 Telefone / WhatsApp</h3>
-  <p style={{color:"#0a3a7a", fontWeight:"bold"}}>922 021 980</p>
-  <p style={{color:"#25D366", fontWeight:"bold"}}>Ligar ou enviar mensagem</p>
+  <h3>📞 Phone / WhatsApp</h3>
+
+<p style={{color:"#0a3a7a", fontWeight:"bold"}}>+351 922 021 980</p>
+
+<p style={{color:"#25D366", fontWeight:"bold"}}>
+Call or send a WhatsApp message
+</p>
+
+<p style={{
+fontSize:"14px",
+lineHeight:"1.5",
+color:"#6b7280",
+marginTop:"12px"
+}}>
+Phone calls are only answered from Portuguese numbers (+351).
+</p>
 </div>
 
 <div
@@ -762,7 +775,7 @@ marginTop:"20px"
 >
   <h3>✉️ Email</h3>
   <p style={{color:"#0a3a7a", fontWeight:"bold"}}>geral@tec-casa.pt</p>
-  <p>Enviar email</p>
+  <p>Send email</p>
 </div>
 
 <div
@@ -783,7 +796,7 @@ marginTop:"20px"
     e.currentTarget.style.boxShadow="0 8px 25px rgba(0,0,0,0.05)"
   }}
 >
-  <h3>🌐 Redes sociais</h3>
+  <h3>🌐 Social media</h3>
 
   <div style={{
     display:"flex",
@@ -860,12 +873,12 @@ fontSize:"18px",
 lineHeight:"1.7",
 margin:"0"
 }}>
-Descreva a necessidade ou envie fotografias para o ajudarmos da forma mais simples e rápida.
+Describe what you need or send photos/videos so we can understand the situation in the simplest and fastest way.
 </p>
 </div>
 
 <a
-href="https://wa.me/351922021980"
+href="https://wa.me/351922021980?text=Hello%2C%20I%20need%20help%20with%20a%20service%20in%20Lisbon."
 target="_blank"
 style={{
 background:"#0b2c5f",
@@ -890,7 +903,7 @@ e.currentTarget.style.boxShadow="0 8px 20px rgba(11,44,95,0.25)"
 }}
 
 >
-Pedir ajuda
+Send message
 </a>
 </div>
  </div>
@@ -1097,14 +1110,14 @@ Soluções técnicas com foco em diagnóstico, transparência e apoio próximo.
                                                                  marginTop:"0",
                                                                  color:"#08285c"
                                                                  }}>
-                                                                 Escolha uma opção
+                                                                 Choose an option
                                                                  </h2>
                                                                  
                                                                  <p style={{
                                                                  color:"#555",
                                                                  marginBottom:"25px"
                                                                  }}>
-                                                                 Como pretende entrar em contacto?
+                                                                 How would you like to contact us?
                                                                  </p>
                                                                  
                                                                  <div style={{
@@ -1124,7 +1137,7 @@ Soluções técnicas com foco em diagnóstico, transparência e apoio próximo.
                                                                  fontWeight:"bold"
                                                                  }}
                                                                  >
-                                                                 📞 Ligar
+                                                                 📞 Call
                                                                  </a>
                                                                  
                                                                  <a
@@ -1139,7 +1152,7 @@ Soluções técnicas com foco em diagnóstico, transparência e apoio próximo.
                                                                  fontWeight:"bold"
                                                                  }}
                                                                  >
-                                                                 💬 Mensagem WhatsApp
+                                                                 💬 WhatsApp message
                                                                  </a>
                                                                  
                                                                  <button
@@ -1155,8 +1168,16 @@ Soluções técnicas com foco em diagnóstico, transparência e apoio próximo.
                                                                  fontWeight:"bold"
                                                                  }}
                                                                  >
-                                                                 Fechar
+                                                                 Close
                                                                  </button>
+                                                                  <p style={{
+                                                                  fontSize:"14px",
+                                                                  lineHeight:"1.5",
+                                                                  color:"#6b7280",
+                                                                  marginBottom:"20px"
+                                                                  }}>
+                                                                  Phone calls are only answered from Portuguese numbers (+351). If you do not have a Portuguese number, please use WhatsApp message, email or social media.
+                                                                  </p>
                                                                  
                                                                  </div>
                                                                  </div>
