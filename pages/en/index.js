@@ -918,14 +918,14 @@ Send message
                                                      color:"#08285c",
                                                      marginBottom:"10px"
                                                      }}>
-                                                     Compromisso TecCasa
+                                                     TecCasa commitment
                                                      </h2>
                                                      
                                                      <p style={{
                                                      fontSize:"18px",
                                                      color:"#666"
                                                      }}>
-                                                     A forma como trabalhamos é tão importante como a solução.
+                                                     How we work matters as much as the technical solution.
                                                      </p>
                                                      </div>
                                                      
@@ -939,12 +939,12 @@ Send message
                                                      }}>
                                                      
                                                      {[
-                                                     ["🛠️","Diagnóstico antes da troca"],
-                                                     ["💬","Orçamentos claros"],
-                                                     ["📸","Apoio por fotografia"],
-                                                     ["🏠","Casas e condomínios"],
-                                                     ["📍","Lisboa e arredores"],
-                                                     ["⚡","Resposta próxima"]
+                                                     ["🛠️","Diagnosis before replacement"],
+                                                     ["💬","Clear estimates"],
+                                                     ["📸","Photo-based support"],
+                                                     ["🏠","Homes and condominiums"],
+                                                     ["📍","Lisbon and surrounding areas"],
+                                                     ["⚡","Local response"]
                                                      ].map(([icon,text])=>(
                                                      
                                                      <div
@@ -988,7 +988,7 @@ fontSize:"34px",
 color:"#08285c",
 marginBottom:"10px"
 }}>
-Porquê escolher a TecCasa?
+Why choose TecCasa?
 </h2>
 
 <p style={{
@@ -998,7 +998,7 @@ maxWidth:"700px",
 margin:"0 auto",
 lineHeight:"1.6"
 }}>
-Soluções técnicas com foco em diagnóstico, transparência e apoio próximo.
+Technical support focused on diagnosis, clear communication and local assistance.
 </p>
 </div>
                                  
@@ -1019,9 +1019,9 @@ Soluções técnicas com foco em diagnóstico, transparência e apoio próximo.
                                  boxShadow:"0 8px 20px rgba(0,0,0,0.05)"
                                  }}
                                  >
-                                 <h3>🛠️ Diagnóstico</h3>
+                                 <h3>🛠️ Diagnosis</h3>
                                  <p>
-                                 Analisamos a causa antes de sugerir substituições.
+                                 We look for the cause of the problem before suggesting replacements.
                                  </p>
                                  </div>
                                  
@@ -1035,9 +1035,9 @@ Soluções técnicas com foco em diagnóstico, transparência e apoio próximo.
                                  boxShadow:"0 8px 20px rgba(0,0,0,0.05)"
                                  }}
                                  >
-                                 <h3>📱 Resposta rápida</h3>
+                                 <h3>📱 Fast contact</h3>
                                  <p>
-                                 Apoio simples através de WhatsApp e contacto direto.
+                                 Simple support through WhatsApp message, email and direct contact.
                                  </p>
                                  </div>
                                  
@@ -1051,9 +1051,9 @@ Soluções técnicas com foco em diagnóstico, transparência e apoio próximo.
                                  boxShadow:"0 8px 20px rgba(0,0,0,0.05)"
                                  }}
                                  >
-                                 <h3>🏠 Habitação e condomínios</h3>
+                                 <h3>🏠 Homes and condominiums</h3>
                                  <p>
-                                 Soluções adaptadas a casas, garagens e edifícios.
+                                 Solutions adapted to houses, garages and residential buildings.
                                  </p>
                                  </div>
                                  
@@ -1067,9 +1067,9 @@ Soluções técnicas com foco em diagnóstico, transparência e apoio próximo.
                                  boxShadow:"0 8px 20px rgba(0,0,0,0.05)"
                                  }}
                                  >
-                                 <h3>🤝 Transparência</h3>
+                                 <h3>🤝 Transparency</h3>
                                  <p>
-                                 Explicação clara antes de qualquer intervenção.
+                                 Clear explanation before any intervention or replacement.
                                  </p>
                                  </div>
 
@@ -1186,149 +1186,7 @@ Soluções técnicas com foco em diagnóstico, transparência e apoio próximo.
                                  
                                  </section>
 
-                                                                  {showSeoPanel && (
-
-                                                                  <div style={{
-                                                                  background:"#08285c",
-                                                                  padding:"35px",
-                                                                  borderRadius:"28px",
-                                                                  marginTop:"50px",
-                                                                  marginBottom:"40px",
-                                                                  color:"white"
-                                                                  }}>
                                                                   
-                                                                  <h2 style={{
-                                                                  marginTop:"0",
-                                                                  fontSize:"34px",
-                                                                  marginBottom:"10px"
-                                                                  }}>
-                                                                  Painel SEO
-                                                                  </h2>
-                                                                  
-                                                                  <p style={{
-                                                                  color:"rgba(255,255,255,0.75)",
-                                                                  marginBottom:"30px"
-                                                                  }}>
-                                                                  Acesso rápido às páginas e ferramentas da TecCasa.
-                                                                  </p>
-                                                                  
-                                                                  {[
-                                                                  {
-                                                                  title:"SEO local",
-                                                                  items:[
-                                                                  ["Lisboa","/reparacao-portoes-lisboa"],
-                                                                  ["Alcochete","/reparacao-portoes-alcochete"],
-                                                                  ["Montijo","/reparacao-portoes-montijo"],
-                                                                  ["Vila Franca de Xira","/reparacao-portoes-vila-franca-de-xira"],
-                                                                  ["Póvoa de Santa Iria","/reparacao-portoes-povoa-santa-iria"]
-                                                                  ]
-                                                                  },
-                                                                  {
-                                                                  title:"Páginas de avarias",
-                                                                  items:[
-                                                                  ["Comando garagem não funciona","/comando-garagem-nao-funciona"],
-                                                                  ["Comando só funciona perto","/comando-garagem-so-funciona-perto"],
-                                                                  ["Portão abre até meio","/portao-abre-ate-meio"],
-                                                                  ["Portão não fecha","/portao-nao-fecha"],
-                                                                  ["Portão abre só uma folha","/portao-abre-so-uma-folha"],
-                                                                  ["Portão fecha e volta a abrir","/portao-fecha-e-volta-a-abrir"],
-                                                                  ["Motor faz barulho mas não abre","/motor-portao-faz-barulho-mas-nao-abre"],
-                                                                  ["Motor portão sem força","/motor-portao-sem-forca"],
-                                                                  ["Portão garagem não abre","/portao-garagem-nao-abre"]
-                                                                  ]
-                                                                  },
-                                                                  {
-                                                                  title:"Instalação",
-                                                                  items:[
-                                                                  ["Instalação de automatismos","/instalacao-automatismos-portoes"],
-                                                                  ["Instalação kit portão automático","/instalacao-kit-portao-automatico"]
-                                                                  ]
-                                                                  },
-                                                                  {
-                                                                  title:"Páginas de marcas",
-                                                                  items:[
-                                                                  ["Motorline","/automatismos-motorline-portoes"],
-                                                                  ["BFT","/automatismos-bft-portoes"],
-                                                                  ["Nice","/automatismos-nice-portoes"],
-                                                                  ["FAAC","/automatismos-faac-portoes"],
-                                                                  ["Ditec","/automatismos-ditec-portoes"],
-                                                                  ["Roger Technology","/automatismos-roger-technology-portoes"],
-                                                                  ["CAME","/automatismos-came-portoes"],
-                                                                  ["Hörmann","/automatismos-hormann-portoes"],
-                                                                  ["DEA","/automatismos-dea-portoes"],
-                                                                  ["Benincà","/automatismos-beninca-portoes"],
-                                                                  ["Somfy","/automatismos-somfy-portoes"],
-                                                                  ["V2","/automatismos-v2-portoes"]
-                                                                  ]
-                                                                  },
-                                                                  {
-                                                                  title:"Páginas principais",
-                                                                  items:[
-                                                                  ["Homepage","/"],
-                                                                  ["Comandos garagem","/comandos-garagem"],
-                                                                  ["Casas inteligentes","/casas-inteligentes-lisboa"],
-                                                                  ["Instalação câmaras","/instalacao-camaras-lisboa"]
-                                                                  ]
-                                                                  },
-                                                                  {
-                                                                  title:"Ferramentas análise e gestão",
-                                                                  items:[
-                                                                  ["Google Analytics","https://analytics.google.com"],
-                                                                  ["Google Search Console","https://search.google.com/search-console"],
-                                                                  ["Vercel","https://vercel.com"],
-                                                                  ["Google Business Profile","https://business.google.com"]
-                                                                  ]
-                                                                  }
-                                                                  ].map((section,index)=>(
-                                                                  
-                                                                  <div key={index} style={{
-                                                                  marginTop:"28px"
-                                                                  }}>
-                                                                  
-                                                                  <h3 style={{
-                                                                  fontSize:"22px",
-                                                                  marginBottom:"14px",
-                                                                  color:"white"
-                                                                  }}>
-                                                                  {section.title}
-                                                                  </h3>
-                                                                  
-                                                                  <div style={{
-                                                                  display:"grid",
-                                                                  gridTemplateColumns:"repeat(auto-fit,minmax(220px,1fr))",
-                                                                  gap:"14px"
-                                                                  }}>
-                                                                  
-                                                                  {section.items.map((item,itemIndex)=>(
-                                                                  
-                                                                  <a
-                                                                  key={itemIndex}
-                                                                  href={item[1]}
-                                                                  target={item[1].startsWith("http") ? "_blank" : "_self"}
-                                                                  style={{
-                                                                  background:"rgba(255,255,255,0.08)",
-                                                                  padding:"16px",
-                                                                  borderRadius:"16px",
-                                                                  color:"white",
-                                                                  textDecoration:"none",
-                                                                  fontWeight:"bold",
-                                                                  border:"1px solid rgba(255,255,255,0.08)"
-                                                                  }}
-                                                                  >
-                                                                  {item[0]}
-                                                                  </a>
-                                                                  
-                                                                  ))}
-                                                                  
-                                                                  </div>
-                                                                  
-                                                                  </div>
-                                                                  
-                                                                  ))}
-                                                                  
-                                                                  </div>
-                                                                  
-                                                                  )}
  
   <footer style={{
 marginTop:"80px",
@@ -1361,7 +1219,7 @@ border:"1px solid rgba(11,44,95,0.05)"
     margin:"0 0 25px 0",
     fontSize:"17px"
   }}>
-    Automatismos • Reparações • Soluções Inteligentes
+    Automatic gates • Repairs • Smart solutions
   </p>
 
   <div style={{
@@ -1373,7 +1231,7 @@ border:"1px solid rgba(11,44,95,0.05)"
   }}>
     <span>📞 922 021 980</span>
     <span>✉️ geral@tec-casa.pt</span>
-    <span>📍 Lisboa e arredores</span>
+    <span>📍 Lisbon and surrounding areas</span>
   </div>
 
   <div style={{
@@ -1424,7 +1282,7 @@ border:"1px solid rgba(11,44,95,0.05)"
     fontSize:"14px",
     color:"#777"
   }}>
-    © 2026 TecCasa Soluções. Todos os direitos reservados.
+    © 2026 TecCasa Soluções. All rights reserved.
   </p>
 
 </footer>
