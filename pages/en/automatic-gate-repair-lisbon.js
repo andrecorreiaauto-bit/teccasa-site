@@ -162,6 +162,16 @@ export default function AutomaticGateRepairLisbon() {
                   Call 922 021 980
                 </a>
               </div>
+                    <p style={{
+                    fontSize:"14px",
+                    lineHeight:"1.6",
+                    color:"#6b7280",
+                    maxWidth:"680px",
+                    margin:"16px 0 0 0"
+                    }}>
+                    For safety reasons, phone calls are only answered from Portuguese numbers (+351). 
+                    If you do not have a Portuguese phone number, please contact us by WhatsApp message, email or social media.
+                    </p>
             </div>
 
             <div className="hero-image-wrap">
@@ -353,6 +363,16 @@ export default function AutomaticGateRepairLisbon() {
                 Call now
               </a>
             </div>
+                  <p style={{
+                  fontSize:"14px",
+                  lineHeight:"1.6",
+                  color:"#6b7280",
+                  maxWidth:"680px",
+                  margin:"16px 0 0 0"
+                  }}>
+                  For safety reasons, phone calls are only answered from Portuguese numbers (+351). 
+                  If you do not have a Portuguese phone number, please contact us by WhatsApp message, email or social media.
+                  </p>
           </section>
 
           <footer>
