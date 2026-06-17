@@ -524,18 +524,18 @@ export default function Home() {
                                                                          textAlign:"center",
                                                                          marginBottom:"10px"
                                                                          }}>
-                                                                         Assistência Multimarca
+                                                                         Multi-brand gate automation support
                                                                          </h2>
                                                                          
                                                                          <p style={{
                                                                          fontSize:"18px",
                                                                          color:"#666",
-                                                                         maxWidth:"750px",
+                                                                         maxWidth:"760px",
                                                                          textAlign:"center",
                                                                          margin:"0 auto",
                                                                          lineHeight:"1.6"
                                                                          }}>
-                                                                         Prestamos assistência, programação e diagnóstico em automatismos de várias marcas comuns no mercado.
+                                                                         We provide diagnosis, programming and technical support for several common gate automation brands used in Portugal.
                                                                          </p>
                                                                          
                                                                          <div
@@ -627,17 +627,17 @@ export default function Home() {
                       color:"#08285c",
                       marginBottom:"10px"
                     }}>
-                      Zona de atuação
+                      Service area
                     </h2>
                   
                     <p style={{
-                      fontSize:"18px",
-                      color:"#666",
-                      maxWidth:"700px",
-                      margin:"0 auto",
-                      lineHeight:"1.5"
+                    fontSize:"18px",
+                    color:"#666",
+                    maxWidth:"720px",
+                    margin:"0 auto",
+                    lineHeight:"1.5"
                     }}>
-                      Assistência local com cobertura aproximada num raio de 45 km para garantir resposta próxima e apoio rápido.
+                    Local support in Lisbon and surrounding areas, within an approximate 45 km service radius.
                     </p>
                   </div>
 
@@ -662,17 +662,17 @@ export default function Home() {
                   color:"#08285c",
                   marginBottom:"10px"
                 }}>
-                  Precisa de ajuda?
+                  Need help?
                 </h2>
               
                 <p style={{
-                  fontSize:"18px",
-                  color:"#666",
-                  maxWidth:"700px",
-                  margin:"0 auto",
-                  lineHeight:"1.6"
+                fontSize:"18px",
+                color:"#666",
+                maxWidth:"720px",
+                margin:"0 auto",
+                lineHeight:"1.6"
                 }}>
-                  Explique a situação ou envie fotografias. Procuramos perceber o problema antes de recomendar qualquer solução.
+                Send a short message, photos or a video. We try to understand the problem before recommending a repair or replacement.
                 </p>
               </div>
 
@@ -687,17 +687,17 @@ export default function Home() {
                      color:"#08285c",
                      marginBottom:"10px"
                    }}>
-                     Contactos
+                     Contact
                    </h2>
                  
                    <p style={{
-                     fontSize:"18px",
-                     color:"#666",
-                     maxWidth:"700px",
-                     margin:"0 auto",
-                     lineHeight:"1.6"
+                   fontSize:"18px",
+                   color:"#666",
+                   maxWidth:"720px",
+                   margin:"0 auto",
+                   lineHeight:"1.6"
                    }}>
-                     Fale connosco por telefone, WhatsApp, email ou redes sociais.
+                   Contact us by phone, WhatsApp message, email or social media.
                    </p>
                  </div>
                                       
