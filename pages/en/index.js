@@ -307,82 +307,93 @@ export default function Home() {
       <div className="main-card">
         
     <section style={{
-  background:"linear-gradient(135deg, #08285c, #0b3f88)",
-  color:"white",
-  padding:"50px",
-  borderRadius:"25px",
-  marginBottom:"45px",
-  boxShadow:"0 18px 40px rgba(0,0,0,0.18)"
-}}>
-
-                    <img
-                    src="/Logo.png"
-                    style={{
-                    width:"300px",
-                    background:"white",
-                    padding:"15px",
-                    borderRadius:"18px",
-                    marginBottom:"30px"
-                    }}
-                    />
-                  
-                    <h1 style={{
-                      fontSize:"clamp(30px,6vw,42px)",
-                      margin:"0 0 15px 0",
-                      lineHeight:"1.15"
-                    }}>
-                      Soluções técnicas para a sua casa, garagem ou condomínio.
-                    </h1>
-                  
-                    <p style={{
-                      fontSize:"clamp(16px,3vw,20px)",
-                      color:"#dbeafe",
-                      maxWidth:"750px",
-                      lineHeight:"1.5"
-                    }}>
-                      Automatismos, reparações, domótica e vigilância com apoio próximo, diagnóstico claro e soluções inteligentes.
-                    </p>
-                  
-                    <div style={{
-                      display:"flex",
-                      gap:"15px",
-                      flexWrap:"wrap",
-                      marginTop:"30px"
-                    }}>
-                  
-                      <a
-                        href="https://wa.me/351922021980"
-                        target="_blank"
-                        style={{
-                          background:"white",
-                          color:"#08285c",
-                          padding:"15px 24px",
-                          borderRadius:"12px",
-                          textDecoration:"none",
-                          fontWeight:"bold"
-                        }}
-                      >
-                        Pedir ajuda
-                      </a>
-                  
-                      <a
-                        href="tel:922021980"
-                        style={{
-                          background:"transparent",
-                          color:"white",
-                          padding:"15px 24px",
-                          borderRadius:"12px",
-                          textDecoration:"none",
-                          fontWeight:"bold",
-                          border:"2px solid white"
-                        }}
-                      >
-                        Ligar agora
-                      </a>
-                  
-                    </div>
-                  
-                  </section>
+    background:"linear-gradient(135deg, #08285c, #0b3f88)",
+    color:"white",
+    padding:"50px",
+    borderRadius:"25px",
+    marginBottom:"45px",
+    boxShadow:"0 18px 40px rgba(0,0,0,0.18)"
+    }}>
+    
+      <img
+      src="/Logo.png"
+      style={{
+      width:"300px",
+      background:"white",
+      padding:"15px",
+      borderRadius:"18px",
+      marginBottom:"30px"
+      }}
+      />
+    
+      <h1 style={{
+      fontSize:"clamp(30px,6vw,42px)",
+      margin:"0 0 15px 0",
+      lineHeight:"1.15"
+      }}>
+      Automatic gates, repairs and smart home support in Lisbon.
+      </h1>
+    
+      <p style={{
+      fontSize:"clamp(16px,3vw,20px)",
+      color:"#dbeafe",
+      maxWidth:"780px",
+      lineHeight:"1.5"
+      }}>
+      TecCasa Soluções provides automatic gate repair, gate automation, garage remote support, smart home solutions and domestic security camera installation in Lisbon and surrounding areas.
+      </p>
+    
+      <div style={{
+      display:"flex",
+      gap:"15px",
+      flexWrap:"wrap",
+      marginTop:"30px"
+      }}>
+    
+        <a
+        href="https://wa.me/351922021980?text=Hello%2C%20I%20need%20help%20with%20a%20service%20in%20Lisbon."
+        target="_blank"
+        style={{
+        background:"white",
+        color:"#08285c",
+        padding:"15px 24px",
+        borderRadius:"12px",
+        textDecoration:"none",
+        fontWeight:"bold"
+        }}
+        >
+        Send WhatsApp message
+        </a>
+    
+        <a
+        href="tel:+351922021980"
+        style={{
+        background:"transparent",
+        color:"white",
+        padding:"15px 24px",
+        borderRadius:"12px",
+        textDecoration:"none",
+        fontWeight:"bold",
+        border:"2px solid white"
+        }}
+        >
+        Call now
+        </a>
+    
+      </div>
+    
+      <p style={{
+      fontSize:"14px",
+      lineHeight:"1.6",
+      color:"#dbeafe",
+      maxWidth:"720px",
+      margin:"18px 0 0 0"
+      }}>
+      For safety reasons, phone calls are only answered from Portuguese numbers (+351). 
+      If you do not have a Portuguese phone number, please contact us by WhatsApp message, email or social media.
+      </p>
+    
+    </section>
 
                                                  <div id="servicos"></div>
                          
@@ -391,20 +402,20 @@ export default function Home() {
                                                  marginBottom:"30px"
                                                }}>
                                                  <h2 style={{
-                                                   fontSize:"34px",
-                                                   color:"#08285c",
-                                                   marginBottom:"10px"
+                                                 fontSize:"34px",
+                                                 color:"#08285c",
+                                                 marginBottom:"10px"
                                                  }}>
-                                                   Serviços TecCasa
+                                                 TecCasa Services
                                                  </h2>
                                                
                                                  <p style={{
-                                                   fontSize:"18px",
-                                                   color:"#666",
-                                                   maxWidth:"700px",
-                                                   margin:"0 auto"
+                                                 fontSize:"18px",
+                                                 color:"#666",
+                                                 maxWidth:"720px",
+                                                 margin:"0 auto"
                                                  }}>
-                                                   Soluções técnicas para automatizar, reparar e tornar a sua casa mais segura e inteligente.
+                                                 Technical support for automatic gates, garage remotes, smart home solutions and domestic security systems.
                                                  </p>
                                                </div>
   <div
@@ -414,123 +425,90 @@ export default function Home() {
   gridTemplateColumns:"repeat(3,1fr)",
   gap:"22px",
   marginTop:"25px"
-}}>
-
-  <div
-  className="cartao-servico"
-  style={{
-    background:"#e6edf7",
-    borderRadius:"18px",
-    overflow:"hidden",
-    boxShadow:"0 8px 20px rgba(0,0,0,0.06)"
   }}>
-    <img src="/portao.png" style={{
-      width:"100%",
-      height:"190px",
-      objectFit:"cover"
-    }}/>
-    <div style={{padding:"20px"}}>
-      <h3>⚙️ Automatismos</h3>
-      <p>Instalação e substituição de motores para portões.</p>
-    </div>
+  
+    {[
+      {
+        href:"/en/automatic-gate-installation-lisbon",
+        image:"/portao.png",
+        title:"Automatic gate installation",
+        text:"Installation and replacement of motors for sliding gates, swing gates and selected garage doors."
+      },
+      {
+        href:"/en/automatic-gate-repair-lisbon",
+        image:"/diagnostico.png",
+        title:"Gate repair and diagnosis",
+        text:"Diagnosis of faults, motors, control boards, photocells, remotes and safety devices."
+      },
+      {
+        href:"/en/garage-remote-controls-lisbon",
+        image:"/comandos.png",
+        title:"Garage remotes",
+        text:"Remote controls, receivers, programming, replacement and signal troubleshooting."
+      },
+      {
+        href:"/en/smart-home-lisbon",
+        image:"/domotica.png",
+        title:"Smart home",
+        text:"Simple smart home solutions for lighting, automation, comfort and remote control."
+      },
+      {
+        href:"/en/security-cameras-lisbon",
+        image:"/vigilancia.png",
+        title:"Domestic security cameras",
+        text:"Installation of home cameras and simple remote monitoring solutions for residential use."
+      },
+      {
+        href:"/en/technical-solutions-lisbon",
+        image:"/solucoes.png",
+        title:"Technical solutions",
+        text:"Small technical improvements, safe repairs, photocells, adjustments and practical support."
+      }
+    ].map((item,index)=>(
+  
+      <a
+      key={index}
+      href={item.href}
+      className="cartao-servico"
+      style={{
+      background:"#e6edf7",
+      borderRadius:"18px",
+      overflow:"hidden",
+      boxShadow:"0 8px 20px rgba(0,0,0,0.06)",
+      textDecoration:"none",
+      color:"inherit",
+      display:"block"
+      }}
+      >
+  
+        <img src={item.image} style={{
+        width:"100%",
+        height:"190px",
+        objectFit:"cover"
+        }}/>
+  
+        <div style={{padding:"20px"}}>
+          <h3 style={{
+          color:"#08285c",
+          marginTop:"0"
+          }}>
+          {item.title}
+          </h3>
+  
+          <p style={{
+          color:"#444",
+          lineHeight:"1.6",
+          margin:"0"
+          }}>
+          {item.text}
+          </p>
+        </div>
+  
+      </a>
+  
+    ))}
+  
   </div>
-
-  <div
-  className="cartao-servico"
-  style={{
-    background:"#e6edf7",
-    borderRadius:"18px",
-    overflow:"hidden",
-    boxShadow:"0 8px 20px rgba(0,0,0,0.06)"
-  }}>
-    <img src="/diagnostico.png" style={{
-      width:"100%",
-      height:"190px",
-      objectFit:"cover"
-    }}/>
-    <div style={{padding:"20px"}}>
-      <h3>🔧 Diagnóstico</h3>
-      <p>Deteção de avarias e reparações técnicas.</p>
-    </div>
-  </div>
-
-  <div
-  className="cartao-servico"
-  style={{
-    background:"#e6edf7",
-    borderRadius:"18px",
-    overflow:"hidden",
-    boxShadow:"0 8px 20px rgba(0,0,0,0.06)"
-  }}>
-    <img src="/comandos.png" style={{
-      width:"100%",
-      height:"190px",
-      objectFit:"cover"
-    }}/>
-    <div style={{padding:"20px"}}>
-      <h3>📡 Comandos</h3>
-      <p>Comandos, recetores, programação e clonagem.</p>
-    </div>
-  </div>
-
-  <div
-  className="cartao-servico"
-  style={{
-    background:"#e6edf7",
-    borderRadius:"18px",
-    overflow:"hidden",
-    boxShadow:"0 8px 20px rgba(0,0,0,0.06)"
-  }}>
-    <img src="/domotica.png" style={{
-      width:"100%",
-      height:"190px",
-      objectFit:"cover"
-    }}/>
-    <div style={{padding:"20px"}}>
-      <h3>🏠 Domótica</h3>
-      <p>Soluções smart home para tornar a casa mais prática e eficiente.</p>
-    </div>
-  </div>
-
-  <div
-  className="cartao-servico"
-  style={{
-    background:"#e6edf7",
-    borderRadius:"18px",
-    overflow:"hidden",
-    boxShadow:"0 8px 20px rgba(0,0,0,0.06)"
-  }}>
-    <img src="/vigilancia.png" style={{
-      width:"100%",
-      height:"190px",
-      objectFit:"cover"
-    }}/>
-    <div style={{padding:"20px"}}>
-      <h3>🎥 Vigilância</h3>
-      <p>Câmaras, segurança doméstica e controlo remoto simples.</p>
-    </div>
-  </div>
-
-  <div
-  className="cartao-servico"
-  style={{
-    background:"#e6edf7",
-    borderRadius:"18px",
-    overflow:"hidden",
-    boxShadow:"0 8px 20px rgba(0,0,0,0.06)"
-  }}>
-    <img src="/solucoes.png" style={{
-      width:"100%",
-      height:"190px",
-      objectFit:"cover"
-    }}/>
-    <div style={{padding:"20px"}}>
-      <h3>💡 Soluções técnicas</h3>
-      <p>Fotocélulas, pequenas intervenções elétricas e melhorias.</p>
-    </div>
-  </div>
-
-</div>
 
                                                                          <section
                                                                          className="assistencia-multimarca"
