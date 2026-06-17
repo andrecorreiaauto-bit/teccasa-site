@@ -368,7 +368,8 @@ export default function AutomaticGateRepairLisbon() {
                   lineHeight:"1.6",
                   color:"#6b7280",
                   maxWidth:"680px",
-                  margin:"16px 0 0 0"
+                  margin:"16px auto 0 auto",
+                  textAlign:"center"
                   }}>
                   For safety reasons, phone calls are only answered from Portuguese numbers (+351). 
                   If you do not have a Portuguese phone number, please contact us by WhatsApp message, email or social media.
