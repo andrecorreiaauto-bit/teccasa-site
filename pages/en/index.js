@@ -9,7 +9,7 @@ export default function Home() {
  const menuItems = [
   { label:"Home", href:"/en", active:true },
 
-  { label:"Gate Repair", href:"/en/automatic-gate-repair-lisbon", active:true },
+  { label:"Gate Repair", href:"/en/electric-gate-repair-lisbon", active:true },
 
   { label:"Gate Installation", href:"/en/automatic-gate-installation-lisbon", active:true },
 
