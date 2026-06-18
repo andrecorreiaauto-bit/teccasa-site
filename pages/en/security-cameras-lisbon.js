@@ -183,37 +183,37 @@ export default function AutomaticGateRepairLisbon() {
           </section>
 
           <section id="services" className="section-block">
-            <h2>Remote control services</h2>
+            <h2>Domestic camera services</h2>
           
             <p className="section-intro">
-              We help with common garage and gate remote control issues, from programming and replacement to receiver and signal checks.
+              We install simple camera systems for residential properties, focused on practical monitoring, remote access and everyday security.
             </p>
           
             <div className="problemas-grid">
               {[
                 {
-                  title: "Remote programming",
-                  text: "Programming compatible garage or gate remotes, depending on the automation system and receiver."
+                  title: "Home camera installation",
+                  text: "Installation of cameras for homes, apartments, garages, entrances, patios and residential access areas."
                 },
                 {
-                  title: "Remote replacement",
-                  text: "Replacement of damaged, lost or unreliable remotes with compatible solutions where possible."
+                  title: "Holiday home monitoring",
+                  text: "Useful for foreign homeowners who want to keep an eye on a property in Portugal when they are away."
                 },
                 {
-                  title: "Receiver checks",
-                  text: "Checking the radio receiver, antenna, wiring and control board input when remotes stop working."
+                  title: "Remote access setup",
+                  text: "Configuration of app access so you can view your cameras remotely from your phone when supported by the system."
                 },
                 {
-                  title: "Weak signal diagnosis",
-                  text: "Troubleshooting remotes that only work very close to the gate or garage door."
+                  title: "Camera placement",
+                  text: "Basic guidance on where cameras should be placed for useful coverage without overcomplicating the installation."
                 },
                 {
-                  title: "Battery and button issues",
-                  text: "Basic checks for weak batteries, damaged buttons, worn casing or intermittent remote operation."
+                  title: "Wi-Fi or wired cameras",
+                  text: "Assessment of whether a Wi-Fi or wired solution makes more sense depending on signal, distance and reliability."
                 },
                 {
-                  title: "Multiple remotes setup",
-                  text: "Programming and testing more than one remote for homes, garages or small residential buildings."
+                  title: "Simple residential systems",
+                  text: "Practical domestic camera solutions for private homes, not complex professional surveillance projects."
                 }
               ].map((item) => (
                 <article key={item.title} className="info-card">
@@ -225,43 +225,43 @@ export default function AutomaticGateRepairLisbon() {
           </section>
 
           <section id="common-problems" className="section-block">
-            <h2>Common remote control problems</h2>
+            <h2>What to consider before installing cameras</h2>
           
             <p className="section-intro">
-              Remote control faults can come from the remote itself, the battery, the receiver, the antenna, interference or the gate control board.
+              A good domestic camera installation depends on coverage, internet connection, power supply, privacy and reliable access from your phone.
             </p>
           
             <div className="problem-image-grid">
               {[
                 {
-                  image: "/comandos.png",
-                  title: "Remote does not work",
-                  text: "The cause may be battery, lost programming, damaged remote, receiver issue or control board input."
+                  image: "/vigilancia.png",
+                  title: "Areas to monitor",
+                  text: "Entrances, gates, garages, patios and access points are usually the most useful areas to monitor."
                 },
                 {
-                  image: "/comando-portao.png",
-                  title: "Only works nearby",
-                  text: "Usually related to weak battery, antenna position, receiver sensitivity or radio interference."
+                  image: "/solucoes.png",
+                  title: "Power and internet",
+                  text: "Cameras need suitable power and a reliable network connection, especially for remote access."
                 },
                 {
-                  image: "/central-eletronica.png",
-                  title: "Receiver or control board",
-                  text: "If the remote sends signal but nothing happens, the receiver or control board may need checking."
+                  image: "/domotica.png",
+                  title: "Remote viewing",
+                  text: "App access can allow you to check the property from your phone, depending on the camera system."
                 },
                 {
                   image: "/diagnostico.png",
-                  title: "Intermittent operation",
-                  text: "A remote that works sometimes and fails other times may have worn buttons, poor contact or signal issues."
+                  title: "Wi-Fi signal",
+                  text: "Weak Wi-Fi can cause delays, disconnections or unreliable video access."
                 },
                 {
                   image: "/portao.png",
-                  title: "Gate does not respond",
-                  text: "Sometimes the problem is not the remote, but the gate automation, safety inputs or power supply."
+                  title: "Gate and entrance coverage",
+                  text: "Cameras can be useful near gates, doors and driveway entrances when positioned correctly."
                 },
                 {
-                  image: "/motor-portao.png",
-                  title: "Remote copied but not working",
-                  text: "Some systems use rolling code or brand-specific programming and cannot be copied like a simple fixed-code remote."
+                  image: "/central-eletronica.png",
+                  title: "Simple setup",
+                  text: "The goal is a practical residential system that is easy to understand and maintain."
                 }
               ].map((item) => (
                 <article key={item.title} className="problem-image-card">
@@ -277,25 +277,25 @@ export default function AutomaticGateRepairLisbon() {
           </section>
 
           <section className="highlight-block">
-            <h2>Send photos of the remote before booking a visit</h2>
+            <h2>Useful for holiday homes and second homes</h2>
           
             <p>
-              Many remote control problems can be assessed faster if you send photos of the remote, the motor/control board area and a short description of what happens when you press the button.
+              If you live abroad or only spend part of the year in Portugal, a simple camera system can help you monitor entrances, garages and outdoor areas from your phone.
             </p>
           
             <div className="steps-grid">
               {[
                 {
-                  title: "Send remote photos",
-                  text: "Show the front and back of the remote, any visible brand or model, and the button layout."
+                  title: "Send property photos",
+                  text: "Show the areas you want to monitor, such as gates, doors, garage entrances or patios."
                 },
                 {
-                  title: "Show the automation system",
-                  text: "If possible, send a photo of the gate motor, garage motor or receiver/control board area."
+                  title: "We assess the setup",
+                  text: "We check likely camera positions, power, Wi-Fi/network conditions and whether the installation is practical."
                 },
                 {
-                  title: "We guide the next step",
-                  text: "We can tell you whether it looks like programming, replacement, receiver diagnosis or a full automation check."
+                  title: "Installation and access",
+                  text: "When conditions are suitable, we install the cameras and help configure basic remote access."
                 }
               ].map((item) => (
                 <article key={item.title} className="step-card">
@@ -307,7 +307,7 @@ export default function AutomaticGateRepairLisbon() {
           
             <div className="button-row centered">
               <a
-                href="https://wa.me/351922021980?text=Hello%2C%20I%20need%20help%20with%20a%20garage%20or%20gate%20remote%20control.%20I%20can%20send%20photos."
+                href="https://wa.me/351922021980?text=Hello%2C%20I%20need%20help%20with%20security%20camera%20installation.%20I%20can%20send%20photos%20of%20the%20property."
                 target="_blank"
                 className="primary-button"
               >
@@ -320,28 +320,29 @@ export default function AutomaticGateRepairLisbon() {
             <h2>Service area</h2>
           
             <p className="section-intro">
-              Garage and gate remote control support in Lisbon and surrounding areas, within the usual TecCasa service radius.
+              Domestic security camera installation in Lisbon and surrounding areas, within the usual TecCasa service radius.
             </p>
           
             <div className="area-card">
               <p>
                 Send your location by WhatsApp and we will confirm whether it is inside our normal service area before scheduling a visit.{" "}
-                <a href="https://wa.me/351922021980?text=Hello%2C%20I%20need%20help%20with%20a%20garage%20or%20gate%20remote%20control.%20Can%20you%20confirm%20if%20you%20cover%20my%20area%3F" target="_blank">
+                <a href="https://wa.me/351922021980?text=Hello%2C%20I%20need%20help%20with%20security%20camera%20installation.%20Can%20you%20confirm%20if%20you%20cover%20my%20area%3F" target="_blank">
                   Confirm service area
                 </a>.
               </p>
             </div>
           </section>
+        
           <section id="contact" className="final-cta">
-            <h2>Need help with a garage or gate remote?</h2>
+            <h2>Need cameras for a home or holiday property?</h2>
           
             <p>
-              Send photos of the remote control, the gate or garage motor and a short description of the problem. We will help identify whether it is likely to be programming, replacement, receiver diagnosis or another automation issue.
+              Send photos of the areas you want to monitor and a short description of what you need. We will help assess whether a simple domestic camera installation is suitable.
             </p>
           
             <div className="button-row centered">
               <a
-                href="https://wa.me/351922021980?text=Hello%2C%20I%20need%20help%20with%20a%20garage%20or%20gate%20remote%20control%20in%20Lisbon."
+                href="https://wa.me/351922021980?text=Hello%2C%20I%20need%20help%20with%20security%20camera%20installation%20in%20Lisbon."
                 target="_blank"
                 className="primary-button"
               >
@@ -398,7 +399,7 @@ export default function AutomaticGateRepairLisbon() {
         </main>
 
         <a
-          href="https://wa.me/351922021980?text=Hello%2C%20I%20need%20help%20with%20a%20garage%20or%20gate%20remote%20control%20in%20Lisbon."
+          href="https://wa.me/351922021980?text=Hello%2C%20I%20need%20help%20with%20security%20camera%20installation%20in%20Lisbon."
           target="_blank"
           className="floating-whatsapp"
         >
