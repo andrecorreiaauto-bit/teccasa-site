@@ -320,56 +320,52 @@ export default function AutomaticGateRepairLisbon() {
 
           <section id="service-area" className="section-block compact">
             <h2>Service area</h2>
-
+          
             <p className="section-intro">
-              TecCasa Soluções works in Lisbon and surrounding areas, including
-              nearby municipalities within the usual service radius.
+              Garage and gate remote control support in Lisbon and surrounding areas, within the usual TecCasa service radius.
             </p>
-
+          
             <div className="area-card">
               <p>
-                Send your location by WhatsApp and we will confirm whether it is
-                inside our normal service area before scheduling a visit.{" "}
-                <a href="https://wa.me/351922021980?text=Hello%2C%20I%20need%20help%20with%20an%20automatic%20gate.%20Can%20you%20confirm%20if%20you%20cover%20my%20area%3F" target="_blank">
+                Send your location by WhatsApp and we will confirm whether it is inside our normal service area before scheduling a visit.{" "}
+                <a href="https://wa.me/351922021980?text=Hello%2C%20I%20need%20help%20with%20a%20garage%20or%20gate%20remote%20control.%20Can%20you%20confirm%20if%20you%20cover%20my%20area%3F" target="_blank">
                   Confirm service area
                 </a>.
               </p>
             </div>
           </section>
-
           <section id="contact" className="final-cta">
-            <h2>Need help with an automatic gate in Lisbon?</h2>
-
+            <h2>Need help with a garage or gate remote?</h2>
+          
             <p>
-              Send a WhatsApp message with your location, the gate type and a
-              short description of the problem. Photos or video usually make the
-              first assessment much faster.
+              Send photos of the remote control, the gate or garage motor and a short description of the problem. We will help identify whether it is likely to be programming, replacement, receiver diagnosis or another automation issue.
             </p>
-
+          
             <div className="button-row centered">
               <a
-                href="https://wa.me/351922021980?text=Hello%2C%20I%20need%20help%20with%20an%20automatic%20gate%20in%20Lisbon."
+                href="https://wa.me/351922021980?text=Hello%2C%20I%20need%20help%20with%20a%20garage%20or%20gate%20remote%20control%20in%20Lisbon."
                 target="_blank"
                 className="primary-button"
               >
-                Message TecCasa
+                Send WhatsApp message
               </a>
-
-              <a href="tel:922021980" className="secondary-button">
+          
+              <a href="tel:+351922021980" className="secondary-button">
                 Call now
               </a>
             </div>
-                  <p style={{
-                  fontSize:"14px",
-                  lineHeight:"1.6",
-                  color:"#6b7280",
-                  maxWidth:"680px",
-                  margin:"16px auto 0 auto",
-                  textAlign:"center"
-                  }}>
-                  For safety reasons, phone calls are only answered from Portuguese numbers (+351). 
-                  If you do not have a Portuguese phone number, please contact us by WhatsApp message, email or social media.
-                  </p>
+          
+            <p style={{
+            fontSize:"14px",
+            lineHeight:"1.6",
+            color:"#6b7280",
+            maxWidth:"680px",
+            margin:"16px auto 0 auto",
+            textAlign:"center"
+            }}>
+            For safety reasons, phone calls are only answered from Portuguese numbers (+351). 
+            If you do not have a Portuguese phone number, please contact us by WhatsApp message, email or social media.
+            </p>
           </section>
 
           <footer>
@@ -404,7 +400,7 @@ export default function AutomaticGateRepairLisbon() {
         </main>
 
         <a
-          href="https://wa.me/351922021980?text=Hello%2C%20I%20need%20help%20with%20an%20automatic%20gate%20in%20Lisbon."
+          href="https://wa.me/351922021980?text=Hello%2C%20I%20need%20help%20with%20a%20garage%20or%20gate%20remote%20control%20in%20Lisbon."
           target="_blank"
           className="floating-whatsapp"
         >
