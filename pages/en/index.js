@@ -433,7 +433,7 @@ marginTop:"25px"
       text:"Installation and replacement of gate motors for sliding gates, swing gates and selected garage doors."
     },
     {
-      href:"/en/automatic-gate-repair-lisbon",
+      href:"/en/electric-gate-repair-lisbon",
       image:"/diagnostico.png",
       title:"Gate repair and diagnosis",
       text:"Diagnosis of faults, motors, control boards, photocells, remotes and safety devices."
