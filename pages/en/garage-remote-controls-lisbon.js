@@ -134,51 +134,52 @@ export default function AutomaticGateRepairLisbon() {
         <main className="main-card">
           <section className="hero-reparacao">
             <div>
-              <div className="eyebrow">English-friendly gate service in Lisbon</div>
-
-              <h1>Automatic gate repair and installation in Lisbon</h1>
-
+              <div className="eyebrow">Garage and gate remote controls in Lisbon</div>
+          
+              <h1>Garage remote programming, replacement and troubleshooting</h1>
+          
               <p className="lead">
-                TecCasa Soluções helps homeowners, landlords and residents with
-                automatic gate repairs, garage door motors, remotes, diagnosis
-                and new gate automation installations.
+                TecCasa Soluções helps with garage and gate remote controls, including
+                programming, replacement, receiver checks and signal troubleshooting in
+                Lisbon and surrounding areas.
               </p>
-
+          
               <p className="support">
-                If your gate does not open, stops halfway, has no force, only
-                works from very close range or needs a new motor installed, send
-                photos or a short video by WhatsApp.
+                If your remote does not work, only works very close to the gate, lost
+                programming or needs replacement, send photos of the remote and the gate
+                automation system by WhatsApp message.
               </p>
-
+          
               <div className="button-row">
                 <a
-                  href="https://wa.me/351922021980?text=Hello%2C%20I%20need%20help%20with%20an%20automatic%20gate%20in%20Lisbon."
+                  href="https://wa.me/351922021980?text=Hello%2C%20I%20need%20help%20with%20a%20garage%20or%20gate%20remote%20control%20in%20Lisbon."
                   target="_blank"
                   className="primary-button"
                 >
-                  Contact on WhatsApp
+                  Send WhatsApp message
                 </a>
-
-                <a href="tel:922021980" className="secondary-button">
+          
+                <a href="tel:+351922021980" className="secondary-button">
                   Call 922 021 980
                 </a>
               </div>
-                    <p style={{
-                    fontSize:"14px",
-                    lineHeight:"1.6",
-                    color:"#6b7280",
-                    maxWidth:"680px",
-                    margin:"16px 0 0 0"
-                    }}>
-                    For safety reasons, phone calls are only answered from Portuguese numbers (+351). 
-                    If you do not have a Portuguese phone number, please contact us by WhatsApp message, email or social media.
-                    </p>
+          
+              <p style={{
+              fontSize:"14px",
+              lineHeight:"1.6",
+              color:"#6b7280",
+              maxWidth:"680px",
+              margin:"16px 0 0 0"
+              }}>
+              For safety reasons, phone calls are only answered from Portuguese numbers (+351). 
+              If you do not have a Portuguese phone number, please contact us by WhatsApp message, email or social media.
+              </p>
             </div>
-
+          
             <div className="hero-image-wrap">
               <img
-                src="/hero-reparacao-portoes.png"
-                alt="Technician working on an automatic gate motor in Lisbon"
+                src="/comandos.png"
+                alt="Garage and gate remote controls in Lisbon"
               />
             </div>
           </section>
