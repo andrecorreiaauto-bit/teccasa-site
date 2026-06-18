@@ -1091,15 +1091,6 @@ export default function AutomaticGateInstallationLisbon() {
               }
             }
 
-            @media (min-width: 1060px) {
-              .desktop-menu {
-                display: flex !important;
-              }
-
-              .menu-button {
-                display: none !important;
-              }
-            }
 
             @media (max-width: 768px) {
               html,
