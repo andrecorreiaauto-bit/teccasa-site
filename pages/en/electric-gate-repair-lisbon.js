@@ -72,7 +72,7 @@ export default function AutomaticGateRepairLisbon() {
       <div className="page">
         <nav className="top-nav">
           <div className="nav-inner">
-            <a href="/en/automatic-gate-repair-lisbon" className="brand">
+            <a href="/en" className="brand">
               <img src="/favicon.png" alt="TecCasa Soluções" />
               TecCasa Soluções
             </a>
