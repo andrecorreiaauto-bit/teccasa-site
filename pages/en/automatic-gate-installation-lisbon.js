@@ -183,38 +183,37 @@ export default function AutomaticGateRepairLisbon() {
           </section>
 
           <section id="services" className="section-block">
-            <h2>How we can help</h2>
-
+            <h2>What we install</h2>
+          
             <p className="section-intro">
-              We focus on practical, residential gate automation work: diagnosis,
-              repair, replacement, programming and installation.
+              We install and replace automatic gate systems for residential properties, choosing a solution according to the gate type, use and safety conditions.
             </p>
-
+          
             <div className="problemas-grid">
               {[
                 {
-                  title: "Automatic gate repair",
-                  text: "Diagnosis of motors, control boards, photocells, remotes, force issues and gates that stop or reverse during movement."
+                  title: "Sliding gate motors",
+                  text: "Installation and replacement of motors for residential sliding gates, including rack alignment, limit setup and operating tests."
                 },
                 {
-                  title: "Gate motor installation",
-                  text: "Installation of automation systems for sliding gates, swing gates and selected garage door motors, depending on site conditions."
+                  title: "Swing gate automation",
+                  text: "Automation for one-leaf or two-leaf swing gates, with attention to geometry, opening angle, force and safety."
                 },
                 {
                   title: "Garage door motors",
-                  text: "Support for residential garage door motors, including checks, setup, remote programming and basic troubleshooting."
+                  text: "Installation or replacement of selected garage door motors where the door condition and structure are suitable."
                 },
                 {
-                  title: "Remote controls",
-                  text: "Programming and replacement of compatible garage and gate remotes, including checks for weak signal or receiver issues."
+                  title: "Motor replacement",
+                  text: "Replacement of old, weak or unreliable gate motors with a suitable automation system for daily use."
                 },
                 {
-                  title: "Customer-supplied kits",
-                  text: "Verification and installation of gate automation kits supplied by the customer when the equipment is compatible and complete."
+                  title: "Controls and accessories",
+                  text: "Setup of remote controls, receivers, photocells, flashing light and basic safety accessories when required."
                 },
                 {
-                  title: "Safety checks",
-                  text: "Basic safety verification of photocells, gate movement, mechanical effort and reliable opening and closing."
+                  title: "Programming and testing",
+                  text: "Configuration of opening/closing travel, force, safety inputs and final tests before handover."
                 }
               ].map((item) => (
                 <article key={item.title} className="info-card">
@@ -226,50 +225,48 @@ export default function AutomaticGateRepairLisbon() {
           </section>
 
           <section id="common-problems" className="section-block">
-            <h2>Common automatic gate problems</h2>
-
+            <h2>Before installing a new motor</h2>
+          
             <p className="section-intro">
-              These are some of the most common symptoms we see in automatic
-              gates and garage door motors. A short video often helps identify
-              the likely cause before a visit.
+              A reliable installation starts with checking the gate itself. A motor should not be used to compensate for a gate that is heavy, misaligned or mechanically unsafe.
             </p>
-
+          
             <div className="problem-image-grid">
               {[
                 {
-                  image: "/portao-abre-ate-meio.png",
-                  title: "Gate opens halfway",
-                  text: "May be related to mechanical effort, limits, programming, obstacles or motor force."
-                },
-                {
-                  image: "/comando-portao.png",
-                  title: "Remote control does not work",
-                  text: "Can be caused by a weak battery, lost programming, receiver issue or control board fault."
-                },
-                {
-                  image: "/fotocelulas-erro.png",
-                  title: "Photocells in error",
-                  text: "Dirty, misaligned, damaged or unpowered photocells can block closing or make the gate reverse."
+                  image: "/portao.png",
+                  title: "Gate type",
+                  text: "We check if the gate is sliding, swing or garage-style and choose the automation accordingly."
                 },
                 {
                   image: "/motor-portao.png",
-                  title: "Gate motor has no force",
-                  text: "Often linked to mechanical resistance, worn components, capacitor issues or incorrect settings."
+                  title: "Mechanical condition",
+                  text: "The gate must move correctly by hand before fitting or replacing an automatic motor."
                 },
                 {
                   image: "/central-eletronica.png",
-                  title: "Control board blocked",
-                  text: "Programming errors, active safety inputs or wiring faults can stop the gate from operating normally."
+                  title: "Electrical setup",
+                  text: "Power supply, control board location and cable routes need to be suitable and safe."
                 },
                 {
-                  image: "/portao-inverte-fecho.png",
-                  title: "Gate closes and opens again",
-                  text: "Usually related to safety devices, obstacles, force sensitivity or photocell problems."
+                  image: "/fotocelulas-erro.png",
+                  title: "Safety devices",
+                  text: "Photocells and safety inputs help prevent unsafe closing and unreliable operation."
+                },
+                {
+                  image: "/comandos.png",
+                  title: "Remote controls",
+                  text: "Remote controls and receivers are programmed and tested after installation."
+                },
+                {
+                  image: "/diagnostico.png",
+                  title: "Final testing",
+                  text: "Opening, closing, force, limits and safety behaviour are checked before finishing the work."
                 }
               ].map((item) => (
                 <article key={item.title} className="problem-image-card">
                   <img src={item.image} alt={item.title} />
-
+          
                   <div>
                     <h3>{item.title}</h3>
                     <p>{item.text}</p>
@@ -280,28 +277,25 @@ export default function AutomaticGateRepairLisbon() {
           </section>
 
           <section className="highlight-block">
-            <h2>Useful for expats and foreign residents</h2>
-
+            <h2>Suitable installation, not just any motor</h2>
+          
             <p>
-              Many customers contact us after buying or renting a house in the
-              Lisbon area and finding that the automatic gate does not work
-              properly. You can send a short message in English with photos of
-              the gate, motor, control board or remote control.
+              For foreign homeowners, landlords and holiday home owners in Portugal, we help choose and install an automation system that makes sense for the property, the gate and the expected use.
             </p>
-
+          
             <div className="steps-grid">
               {[
                 {
                   title: "Send photos or video",
-                  text: "Show the gate, the motor area and what happens when you try to open or close it."
+                  text: "Show the gate, the opening area, the existing motor if there is one, and the space around the pillars or track."
                 },
                 {
-                  title: "Describe the symptom",
-                  text: "Tell us if it does not open, stops halfway, makes noise, reverses, or only works near the gate."
+                  title: "We assess the situation",
+                  text: "We check the type of gate, likely motor requirements, safety conditions and whether a visit is needed."
                 },
                 {
-                  title: "Get guidance",
-                  text: "We will tell you whether it looks like a repair, a setup issue, a mechanical problem or a visit is needed."
+                  title: "Installation and setup",
+                  text: "When the conditions are suitable, we install, program and test the automation system."
                 }
               ].map((item) => (
                 <article key={item.title} className="step-card">
@@ -310,10 +304,10 @@ export default function AutomaticGateRepairLisbon() {
                 </article>
               ))}
             </div>
-
+          
             <div className="button-row centered">
               <a
-                href="https://wa.me/351922021980?text=Hello%2C%20I%20need%20help%20with%20an%20automatic%20gate%20in%20Lisbon.%20I%20can%20send%20photos%20or%20a%20video."
+                href="https://wa.me/351922021980?text=Hello%2C%20I%20need%20help%20with%20automatic%20gate%20installation%20in%20Lisbon.%20I%20can%20send%20photos%20or%20a%20video."
                 target="_blank"
                 className="primary-button"
               >
