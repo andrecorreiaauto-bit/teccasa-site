@@ -15,8 +15,6 @@ export default function Home() {
 
   { label:"Garage Remotes", href:"/en/garage-remote-controls-lisbon", active:true },
 
-  { label:"Smart Home", href:"/en/smart-home-lisbon", active:true },
-
   { label:"Security Cameras", href:"/en/security-cameras-lisbon", active:true },
 ]
  useEffect(() => {
@@ -419,96 +417,84 @@ export default function Home() {
                                                  </p>
                                                </div>
   <div
-  className="servicos-grid"
-  style={{
-  display:"grid",
-  gridTemplateColumns:"repeat(3,1fr)",
-  gap:"22px",
-  marginTop:"25px"
-  }}>
-  
-    {[
-      {
-        href:"/en/automatic-gate-installation-lisbon",
-        image:"/portao.png",
-        title:"Automatic gate installation",
-        text:"Installation and replacement of motors for sliding gates, swing gates and selected garage doors."
-      },
-      {
-        href:"/en/automatic-gate-repair-lisbon",
-        image:"/diagnostico.png",
-        title:"Gate repair and diagnosis",
-        text:"Diagnosis of faults, motors, control boards, photocells, remotes and safety devices."
-      },
-      {
-        href:"/en/garage-remote-controls-lisbon",
-        image:"/comandos.png",
-        title:"Garage remotes",
-        text:"Remote controls, receivers, programming, replacement and signal troubleshooting."
-      },
-      {
-        href:"/en/smart-home-lisbon",
-        image:"/domotica.png",
-        title:"Smart home",
-        text:"Simple smart home solutions for lighting, automation, comfort and remote control."
-      },
-      {
-        href:"/en/security-cameras-lisbon",
-        image:"/vigilancia.png",
-        title:"Domestic security cameras",
-        text:"Installation of home cameras and simple remote monitoring solutions for residential use."
-      },
-      {
-        href:"/en/technical-solutions-lisbon",
-        image:"/solucoes.png",
-        title:"Technical solutions",
-        text:"Small technical improvements, safe repairs, photocells, adjustments and practical support."
-      }
-    ].map((item,index)=>(
-  
-      <a
-      key={index}
-      href={item.href}
-      className="cartao-servico"
-      style={{
-      background:"#e6edf7",
-      borderRadius:"18px",
-      overflow:"hidden",
-      boxShadow:"0 8px 20px rgba(0,0,0,0.06)",
-      textDecoration:"none",
-      color:"inherit",
-      display:"block"
-      }}
-      >
-  
-        <img src={item.image} style={{
-        width:"100%",
-        height:"190px",
-        objectFit:"cover"
-        }}/>
-  
-        <div style={{padding:"20px"}}>
-          <h3 style={{
-          color:"#08285c",
-          marginTop:"0"
-          }}>
-          {item.title}
-          </h3>
-  
-          <p style={{
-          color:"#444",
-          lineHeight:"1.6",
-          margin:"0"
-          }}>
-          {item.text}
-          </p>
-        </div>
-  
-      </a>
-  
-    ))}
-  
-  </div>
+className="servicos-grid"
+style={{
+display:"grid",
+gridTemplateColumns:"repeat(auto-fit,minmax(240px,1fr))",
+gap:"22px",
+marginTop:"25px"
+}}>
+
+  {[
+    {
+      href:"/en/automatic-gate-installation-lisbon",
+      image:"/portao.png",
+      title:"Automatic gate installation",
+      text:"Installation and replacement of gate motors for sliding gates, swing gates and selected garage doors."
+    },
+    {
+      href:"/en/automatic-gate-repair-lisbon",
+      image:"/diagnostico.png",
+      title:"Gate repair and diagnosis",
+      text:"Diagnosis of faults, motors, control boards, photocells, remotes and safety devices."
+    },
+    {
+      href:"/en/garage-remote-controls-lisbon",
+      image:"/comandos.png",
+      title:"Garage remotes",
+      text:"Remote controls, receivers, programming, replacement and signal troubleshooting."
+    },
+    {
+      href:"/en/security-cameras-lisbon",
+      image:"/vigilancia.png",
+      title:"Domestic security cameras",
+      text:"Installation of home cameras and simple remote monitoring solutions for holiday homes and residential properties."
+    }
+  ].map((item,index)=>(
+
+    <a
+    key={index}
+    href={item.href}
+    className="cartao-servico"
+    style={{
+    background:"#e6edf7",
+    borderRadius:"18px",
+    overflow:"hidden",
+    boxShadow:"0 8px 20px rgba(0,0,0,0.06)",
+    textDecoration:"none",
+    color:"inherit",
+    display:"block"
+    }}
+    >
+
+      <img src={item.image} style={{
+      width:"100%",
+      height:"190px",
+      objectFit:"cover"
+      }}/>
+
+      <div style={{padding:"20px"}}>
+        <h3 style={{
+        color:"#08285c",
+        marginTop:"0"
+        }}>
+        {item.title}
+        </h3>
+
+        <p style={{
+        color:"#444",
+        lineHeight:"1.6",
+        margin:"0"
+        }}>
+        {item.text}
+        </p>
+      </div>
+
+    </a>
+
+  ))}
+
+</div>
 
                                                                          <section
                                                                          className="assistencia-multimarca"
