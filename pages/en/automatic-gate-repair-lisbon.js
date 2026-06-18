@@ -209,8 +209,8 @@ export default function AutomaticGateRepairLisbon() {
                   text: "Programming and replacement of compatible garage and gate remotes, including checks for weak signal or receiver issues."
                 },
                 {
-                  title: "Customer-supplied kits",
-                  text: "Verification and installation of gate automation kits supplied by the customer when the equipment is compatible and complete."
+                  title: "Motor replacement",
+                  text: "Assessment and replacement of old, weak or unreliable gate motors when repair is not the best solution."
                 },
                 {
                   title: "Safety checks",
