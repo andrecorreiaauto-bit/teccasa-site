@@ -5,7 +5,7 @@ export default function AutomaticGateRepairLisbon() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   const menuItems = [
-    { label: "Gate repair", href: "/en/automatic-gate-repair-lisbon" },
+    { label: "Gate repair", href: "/en/electric-gate-repair-lisbon" },
     { label: "Gate installation", href: "/en/automatic-gate-installation-lisbon" },
     { label: "Garage remotes", href: "/en/garage-remote-controls-lisbon" },
     { label: "Smart home", href: "/en/smart-home-lisbon" },
