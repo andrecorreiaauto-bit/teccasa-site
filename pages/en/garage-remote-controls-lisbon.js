@@ -184,55 +184,45 @@ export default function AutomaticGateRepairLisbon() {
             </div>
           </section>
 
-          <section className="hero-reparacao">
-            <div>
-              <div className="eyebrow">Garage and gate remote controls in Lisbon</div>
+          <section id="services" className="section-block">
+            <h2>Remote control services</h2>
           
-              <h1>Garage remote programming, replacement and troubleshooting</h1>
+            <p className="section-intro">
+              We help with common garage and gate remote control issues, from programming and replacement to receiver and signal checks.
+            </p>
           
-              <p className="lead">
-                TecCasa Soluções helps with garage and gate remote controls, including
-                programming, replacement, receiver checks and signal troubleshooting in
-                Lisbon and surrounding areas.
-              </p>
-          
-              <p className="support">
-                If your remote does not work, only works very close to the gate, lost
-                programming or needs replacement, send photos of the remote and the gate
-                automation system by WhatsApp message.
-              </p>
-          
-              <div className="button-row">
-                <a
-                  href="https://wa.me/351922021980?text=Hello%2C%20I%20need%20help%20with%20a%20garage%20or%20gate%20remote%20control%20in%20Lisbon."
-                  target="_blank"
-                  className="primary-button"
-                >
-                  Send WhatsApp message
-                </a>
-          
-                <a href="tel:+351922021980" className="secondary-button">
-                  Call 922 021 980
-                </a>
-              </div>
-          
-              <p style={{
-              fontSize:"14px",
-              lineHeight:"1.6",
-              color:"#6b7280",
-              maxWidth:"680px",
-              margin:"16px 0 0 0"
-              }}>
-              For safety reasons, phone calls are only answered from Portuguese numbers (+351). 
-              If you do not have a Portuguese phone number, please contact us by WhatsApp message, email or social media.
-              </p>
-            </div>
-          
-            <div className="hero-image-wrap">
-              <img
-                src="/comandos.png"
-                alt="Garage and gate remote controls in Lisbon"
-              />
+            <div className="problemas-grid">
+              {[
+                {
+                  title: "Remote programming",
+                  text: "Programming compatible garage or gate remotes, depending on the automation system and receiver."
+                },
+                {
+                  title: "Remote replacement",
+                  text: "Replacement of damaged, lost or unreliable remotes with compatible solutions where possible."
+                },
+                {
+                  title: "Receiver checks",
+                  text: "Checking the radio receiver, antenna, wiring and control board input when remotes stop working."
+                },
+                {
+                  title: "Weak signal diagnosis",
+                  text: "Troubleshooting remotes that only work very close to the gate or garage door."
+                },
+                {
+                  title: "Battery and button issues",
+                  text: "Basic checks for weak batteries, damaged buttons, worn casing or intermittent remote operation."
+                },
+                {
+                  title: "Multiple remotes setup",
+                  text: "Programming and testing more than one remote for homes, garages or small residential buildings."
+                }
+              ].map((item) => (
+                <article key={item.title} className="info-card">
+                  <h3>{item.title}</h3>
+                  <p>{item.text}</p>
+                </article>
+              ))}
             </div>
           </section>
 
