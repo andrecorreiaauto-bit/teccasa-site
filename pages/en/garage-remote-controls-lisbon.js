@@ -184,94 +184,101 @@ export default function AutomaticGateRepairLisbon() {
             </div>
           </section>
 
-          <section id="services" className="section-block">
-            <h2>How we can help</h2>
-
-            <p className="section-intro">
-              We focus on practical, residential gate automation work: diagnosis,
-              repair, replacement, programming and installation.
-            </p>
-
-            <div className="problemas-grid">
-              {[
-                {
-                  title: "Automatic gate repair",
-                  text: "Diagnosis of motors, control boards, photocells, remotes, force issues and gates that stop or reverse during movement."
-                },
-                {
-                  title: "Gate motor installation",
-                  text: "Installation of automation systems for sliding gates, swing gates and selected garage door motors, depending on site conditions."
-                },
-                {
-                  title: "Garage door motors",
-                  text: "Support for residential garage door motors, including checks, setup, remote programming and basic troubleshooting."
-                },
-                {
-                  title: "Remote controls",
-                  text: "Programming and replacement of compatible garage and gate remotes, including checks for weak signal or receiver issues."
-                },
-                {
-                  title: "Motor replacement",
-                  text: "Assessment and replacement of old, weak or unreliable gate motors when repair is not the best solution."
-                },
-                {
-                  title: "Safety checks",
-                  text: "Basic safety verification of photocells, gate movement, mechanical effort and reliable opening and closing."
-                }
-              ].map((item) => (
-                <article key={item.title} className="info-card">
-                  <h3>{item.title}</h3>
-                  <p>{item.text}</p>
-                </article>
-              ))}
+          <section className="hero-reparacao">
+            <div>
+              <div className="eyebrow">Garage and gate remote controls in Lisbon</div>
+          
+              <h1>Garage remote programming, replacement and troubleshooting</h1>
+          
+              <p className="lead">
+                TecCasa Soluções helps with garage and gate remote controls, including
+                programming, replacement, receiver checks and signal troubleshooting in
+                Lisbon and surrounding areas.
+              </p>
+          
+              <p className="support">
+                If your remote does not work, only works very close to the gate, lost
+                programming or needs replacement, send photos of the remote and the gate
+                automation system by WhatsApp message.
+              </p>
+          
+              <div className="button-row">
+                <a
+                  href="https://wa.me/351922021980?text=Hello%2C%20I%20need%20help%20with%20a%20garage%20or%20gate%20remote%20control%20in%20Lisbon."
+                  target="_blank"
+                  className="primary-button"
+                >
+                  Send WhatsApp message
+                </a>
+          
+                <a href="tel:+351922021980" className="secondary-button">
+                  Call 922 021 980
+                </a>
+              </div>
+          
+              <p style={{
+              fontSize:"14px",
+              lineHeight:"1.6",
+              color:"#6b7280",
+              maxWidth:"680px",
+              margin:"16px 0 0 0"
+              }}>
+              For safety reasons, phone calls are only answered from Portuguese numbers (+351). 
+              If you do not have a Portuguese phone number, please contact us by WhatsApp message, email or social media.
+              </p>
+            </div>
+          
+            <div className="hero-image-wrap">
+              <img
+                src="/comandos.png"
+                alt="Garage and gate remote controls in Lisbon"
+              />
             </div>
           </section>
 
           <section id="common-problems" className="section-block">
-            <h2>Common automatic gate problems</h2>
-
+            <h2>Common remote control problems</h2>
+          
             <p className="section-intro">
-              These are some of the most common symptoms we see in automatic
-              gates and garage door motors. A short video often helps identify
-              the likely cause before a visit.
+              Remote control faults can come from the remote itself, the battery, the receiver, the antenna, interference or the gate control board.
             </p>
-
+          
             <div className="problem-image-grid">
               {[
                 {
-                  image: "/portao-abre-ate-meio.png",
-                  title: "Gate opens halfway",
-                  text: "May be related to mechanical effort, limits, programming, obstacles or motor force."
+                  image: "/comandos.png",
+                  title: "Remote does not work",
+                  text: "The cause may be battery, lost programming, damaged remote, receiver issue or control board input."
                 },
                 {
                   image: "/comando-portao.png",
-                  title: "Remote control does not work",
-                  text: "Can be caused by a weak battery, lost programming, receiver issue or control board fault."
-                },
-                {
-                  image: "/fotocelulas-erro.png",
-                  title: "Photocells in error",
-                  text: "Dirty, misaligned, damaged or unpowered photocells can block closing or make the gate reverse."
-                },
-                {
-                  image: "/motor-portao.png",
-                  title: "Gate motor has no force",
-                  text: "Often linked to mechanical resistance, worn components, capacitor issues or incorrect settings."
+                  title: "Only works nearby",
+                  text: "Usually related to weak battery, antenna position, receiver sensitivity or radio interference."
                 },
                 {
                   image: "/central-eletronica.png",
-                  title: "Control board blocked",
-                  text: "Programming errors, active safety inputs or wiring faults can stop the gate from operating normally."
+                  title: "Receiver or control board",
+                  text: "If the remote sends signal but nothing happens, the receiver or control board may need checking."
                 },
                 {
-                  image: "/portao-inverte-fecho.png",
-                  title: "Gate closes and opens again",
-                  text: "Usually related to safety devices, obstacles, force sensitivity or photocell problems."
+                  image: "/diagnostico.png",
+                  title: "Intermittent operation",
+                  text: "A remote that works sometimes and fails other times may have worn buttons, poor contact or signal issues."
+                },
+                {
+                  image: "/portao.png",
+                  title: "Gate does not respond",
+                  text: "Sometimes the problem is not the remote, but the gate automation, safety inputs or power supply."
+                },
+                {
+                  image: "/motor-portao.png",
+                  title: "Remote copied but not working",
+                  text: "Some systems use rolling code or brand-specific programming and cannot be copied like a simple fixed-code remote."
                 }
               ].map((item) => (
                 <article key={item.title} className="problem-image-card">
                   <img src={item.image} alt={item.title} />
-
+          
                   <div>
                     <h3>{item.title}</h3>
                     <p>{item.text}</p>
@@ -282,28 +289,25 @@ export default function AutomaticGateRepairLisbon() {
           </section>
 
           <section className="highlight-block">
-            <h2>Useful for expats and foreign residents</h2>
-
+            <h2>Send photos of the remote before booking a visit</h2>
+          
             <p>
-              Many customers contact us after buying or renting a house in the
-              Lisbon area and finding that the automatic gate does not work
-              properly. You can send a short message in English with photos of
-              the gate, motor, control board or remote control.
+              Many remote control problems can be assessed faster if you send photos of the remote, the motor/control board area and a short description of what happens when you press the button.
             </p>
-
+          
             <div className="steps-grid">
               {[
                 {
-                  title: "Send photos or video",
-                  text: "Show the gate, the motor area and what happens when you try to open or close it."
+                  title: "Send remote photos",
+                  text: "Show the front and back of the remote, any visible brand or model, and the button layout."
                 },
                 {
-                  title: "Describe the symptom",
-                  text: "Tell us if it does not open, stops halfway, makes noise, reverses, or only works near the gate."
+                  title: "Show the automation system",
+                  text: "If possible, send a photo of the gate motor, garage motor or receiver/control board area."
                 },
                 {
-                  title: "Get guidance",
-                  text: "We will tell you whether it looks like a repair, a setup issue, a mechanical problem or a visit is needed."
+                  title: "We guide the next step",
+                  text: "We can tell you whether it looks like programming, replacement, receiver diagnosis or a full automation check."
                 }
               ].map((item) => (
                 <article key={item.title} className="step-card">
@@ -312,10 +316,10 @@ export default function AutomaticGateRepairLisbon() {
                 </article>
               ))}
             </div>
-
+          
             <div className="button-row centered">
               <a
-                href="https://wa.me/351922021980?text=Hello%2C%20I%20need%20help%20with%20an%20automatic%20gate%20in%20Lisbon.%20I%20can%20send%20photos%20or%20a%20video."
+                href="https://wa.me/351922021980?text=Hello%2C%20I%20need%20help%20with%20a%20garage%20or%20gate%20remote%20control.%20I%20can%20send%20photos."
                 target="_blank"
                 className="primary-button"
               >
