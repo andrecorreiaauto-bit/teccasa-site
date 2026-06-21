@@ -139,6 +139,10 @@ export default function InstalacaoCamarasLisboa() {
                                                         <link rel="manifest" href="/site.webmanifest" />
 
                                                   <link rel="canonical" href="https://tec-casa.pt" />
+
+                                                  <link rel="alternate" hrefLang="pt-PT" href="https://tec-casa.pt/instalacao-camaras-lisboa" />
+                                                  <link rel="alternate" hrefLang="en" href="https://tec-casa.pt/en/security-cameras-lisbon" />
+                                                  <link rel="alternate" hrefLang="x-default" href="https://tec-casa.pt/instalacao-camaras-lisboa" />
                                                   
                                                   </Head>
     <div className="page">
