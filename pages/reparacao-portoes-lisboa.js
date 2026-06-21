@@ -139,6 +139,10 @@ export default function ReparacaoPortoes() {
                                                         <link rel="manifest" href="/site.webmanifest" />
 
                                                   <link rel="canonical" href="https://tec-casa.pt/reparacao-portoes-lisboa" />
+
+                                                  <link rel="alternate" hrefLang="pt-PT" href="https://tec-casa.pt/reparacao-portoes-lisboa" />
+                                                  <link rel="alternate" hrefLang="en" href="https://tec-casa.pt/en/electric-gate-repair-lisbon" />
+                                                  <link rel="alternate" hrefLang="x-default" href="https://tec-casa.pt/reparacao-portoes-lisboa" />
                                                   
                                                   </Head>
     <div className="page">
