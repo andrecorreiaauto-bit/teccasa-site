@@ -100,7 +100,7 @@ export default function ElectricGateRepairLisbon() {
           content="electric gate repair Lisbon, automatic gate repair Lisbon, gate motor repair Lisbon, gate remote not working, photocell fault, holiday home gate repair Lisbon"
         />
 
-        <meta name="robots" content="noindex, nofollow" />
+      
         <meta name="viewport" content="width=device-width, initial-scale=1" />
 
         <meta property="og:title" content="Electric Gate Repair in Lisbon | TecCasa Soluções" />
