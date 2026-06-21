@@ -118,6 +118,9 @@ export default function GateRemoteControlNotWorking() {
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
         <link rel="manifest" href="/site.webmanifest" />
         <link rel="canonical" href="https://tec-casa.pt/en/gate-remote-control-not-working" />
+        <link rel="alternate" hrefLang="pt-PT" href="https://tec-casa.pt/comando-garagem-nao-funciona" />
+        <link rel="alternate" hrefLang="en" href="https://tec-casa.pt/en/gate-remote-control-not-working" />
+        <link rel="alternate" hrefLang="x-default" href="https://tec-casa.pt/comando-garagem-nao-funciona" />
       </Head>
 
       <div className="page">
