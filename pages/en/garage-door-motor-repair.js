@@ -130,7 +130,7 @@ export default function GarageDoorMotorRepair() {
           content="garage door motor repair Lisbon, garage motor not working, garage door opener repair Lisbon, sectional garage door motor, automatic garage door repair"
         />
 
-        <meta name="robots" content="noindex, nofollow" />
+        
         <meta name="viewport" content="width=device-width, initial-scale=1" />
 
         <meta property="og:title" content="Garage Door Motor Repair in Lisbon | TecCasa Soluções" />
