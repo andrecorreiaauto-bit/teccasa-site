@@ -100,7 +100,7 @@ export default function GateRemoteControlNotWorking() {
           content="gate remote control not working, garage remote not working Lisbon, gate remote programming Lisbon, RF receiver fault, remote control replacement Lisbon"
         />
 
-        <meta name="robots" content="noindex, nofollow" />
+      
         <meta name="viewport" content="width=device-width, initial-scale=1" />
 
         <meta property="og:title" content="Gate Remote Control Not Working? | TecCasa Soluções" />
