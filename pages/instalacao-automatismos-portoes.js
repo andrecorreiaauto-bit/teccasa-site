@@ -185,23 +185,47 @@ export default function InstalacaoAutomatismosPortoes() {
       TecCasa Soluções
     </div>
 
-    <button
+    <div style={{
+display:"flex",
+alignItems:"center",
+gap:"10px"
+}}>
+
+  <a
+  href="/en/automatic-gate-installation-lisbon"
+  style={{
+  color:"#08285c",
+  textDecoration:"none",
+  fontWeight:"bold",
+  fontSize:"14px",
+  border:"1px solid rgba(11,44,95,0.18)",
+  borderRadius:"999px",
+  padding:"7px 10px",
+  lineHeight:"1",
+  background:"rgba(255,255,255,0.75)"
+  }}
+  >
+  EN
+  </a>
+
+  <button
   onClick={(e)=>{
     e.stopPropagation();
     setMenuOpen(!menuOpen);
   }}
-      style={{
-        background:"none",
-        border:"none",
-        fontSize:"30px",
-        cursor:"pointer",
-        color:"#08285c"
-       
-      }}
-      className="menu-button"
-    >
-      ☰
-    </button>
+  style={{
+    background:"none",
+    border:"none",
+    fontSize:"30px",
+    cursor:"pointer",
+    color:"#08285c"
+  }}
+  className="menu-button"
+  >
+    ☰
+  </button>
+
+</div>
 
     <div className="desktop-menu" style={{
       display:"none",
