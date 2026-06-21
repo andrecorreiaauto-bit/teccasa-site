@@ -167,23 +167,47 @@ export default function GateRemoteControlNotWorking() {
               TecCasa Soluções
             </div>
 
-            <button
-              onClick={(e) => {
+            <div style={{
+            display:"flex",
+            alignItems:"center",
+            gap:"10px"
+            }}>
+            
+              <a
+              href="/comando-garagem-nao-funciona"
+              style={{
+              color:"#08285c",
+              textDecoration:"none",
+              fontWeight:"bold",
+              fontSize:"14px",
+              border:"1px solid rgba(11,44,95,0.18)",
+              borderRadius:"999px",
+              padding:"7px 10px",
+              lineHeight:"1",
+              background:"rgba(255,255,255,0.75)"
+              }}
+              >
+              PT
+              </a>
+            
+              <button
+              onClick={(e)=>{
                 e.stopPropagation();
                 setMenuOpen(!menuOpen);
               }}
               style={{
-                background: "none",
-                border: "none",
-                fontSize: "30px",
-                cursor: "pointer",
-                color: "#08285c",
+                background:"none",
+                border:"none",
+                fontSize:"30px",
+                cursor:"pointer",
+                color:"#08285c"
               }}
               className="menu-button"
-              aria-label="Open menu"
-            >
-              ☰
-            </button>
+              >
+                ☰
+              </button>
+            
+            </div>
 
             <div
               className="desktop-menu"
