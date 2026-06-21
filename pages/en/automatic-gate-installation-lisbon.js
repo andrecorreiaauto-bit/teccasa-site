@@ -101,7 +101,6 @@ export default function AutomaticGateInstallationLisbon() {
           content="automatic gate installation Lisbon, electric gate installation Lisbon, gate motor installation, sliding gate motor, swing gate motor, garage door motor Lisbon, TecCasa Soluções"
         />
 
-        <meta name="robots" content="noindex, nofollow" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
 
         <meta property="og:title" content="Automatic Gate Installation in Lisbon | TecCasa Soluções" />
