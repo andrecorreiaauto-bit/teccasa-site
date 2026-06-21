@@ -100,7 +100,7 @@ export default function GarageRemoteControlsLisbon() {
           content="garage remote controls Lisbon, gate remote control Lisbon, remote programming Lisbon, garage remote not working, gate receiver Lisbon, TecCasa Soluções"
         />
 
-        <meta name="robots" content="noindex, nofollow" />
+        
         <meta name="viewport" content="width=device-width, initial-scale=1" />
 
         <meta property="og:title" content="Garage Remote Controls in Lisbon | TecCasa Soluções" />
