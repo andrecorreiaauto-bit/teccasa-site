@@ -134,6 +134,10 @@ export default function InstalacaoAutomatismosPortoes() {
                                                   <link rel="manifest" href="/site.webmanifest" />
                                                   
                                                   <link rel="canonical" href="https://tec-casa.pt/instalacao-automatismos-portoes" />
+
+                                                  <link rel="alternate" hrefLang="pt-PT" href="https://tec-casa.pt/instalacao-automatismos-portoes" />
+                                                  <link rel="alternate" hrefLang="en" href="https://tec-casa.pt/en/automatic-gate-installation-lisbon" />
+                                                  <link rel="alternate" hrefLang="x-default" href="https://tec-casa.pt/instalacao-automatismos-portoes" />
                                                   
                                                   </Head>
   
