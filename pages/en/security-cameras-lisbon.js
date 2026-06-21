@@ -40,7 +40,6 @@ export default function SecurityCamerasLisbon() {
           content="security camera installation Lisbon, home security cameras Lisbon, domestic cameras Lisbon, holiday home monitoring Lisbon, smart cameras Lisbon, home monitoring Lisbon, residential security cameras, TecCasa Soluções"
         />
 
-        <meta name="robots" content="noindex, nofollow" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
 
         <meta
