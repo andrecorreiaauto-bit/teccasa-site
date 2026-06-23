@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import Head from "next/head";
-export default function InstalacaoKitPortaoAutomatico() {
+export default function InstalacaoKitPortaoLeroyMerlin() {
  const [menuOpen, setMenuOpen] = useState(false);
  const menuItems = [
   { label:"Início", href:"/", active:true },
@@ -75,36 +75,32 @@ export default function InstalacaoKitPortaoAutomatico() {
                                                   <Head>
 
                                                   <title>
-                                                  Instalação de Kit de Portão Automático | TecCasa Soluções
+                                                  Instalação de Kit de Portão Leroy Merlin | TecCasa Soluções
                                                   </title>
                                                   
                                                   <meta
                                                   name="description"
-                                                  content="Instalação e verificação de kits de portão automático fornecidos pelo cliente. Montagem de motores para portões de correr, batente e garagem mediante compatibilidade e segurança."
+                                                  content="Comprou um kit de automatismo para portão no Leroy Merlin? A TecCasa Soluções pode avaliar o equipamento e instalar quando existirem condições técnicas, compatibilidade e segurança."
                                                   />
                                                   
                                                   <meta
                                                   name="keywords"
-                                                  content="instalação kit portão automático,
-                                                  instalar kit portão automático,
-                                                  instalar motor portão comprado online,
-                                                  kit motor portão automático,
-                                                  instalação motor portão fornecido pelo cliente,
-                                                  instalador automatismo portão,
-                                                  kit portão Leroy Merlin,
-                                                  kit portão Brico Depôt,
-                                                  automatismo Vevor,
-                                                  automatismo Casanoov,
+                                                  content="instalação kit portão Leroy Merlin,
+                                                  instalar automatismo Leroy Merlin,
+                                                  kit portão automático Leroy Merlin,
+                                                  motor portão Leroy Merlin,
+                                                  automatismo portão Leroy Merlin,
+                                                  instalação motor portão comprado no Leroy Merlin,
                                                   TecCasa Soluções"
                                                   />
                                                   
                                                   <meta name="viewport" content="width=device-width, initial-scale=1" />
                                                   
-                                                  <meta property="og:title" content="Instalação de Kit de Portão Automático | TecCasa Soluções" />
+                                                  <meta property="og:title" content="Instalação de Kit de Portão Leroy Merlin | TecCasa Soluções" />
                                                   
                                                   <meta
                                                   property="og:description"
-                                                  content="Instalação e verificação técnica de kits de automatismo para portões fornecidos pelo cliente, mediante compatibilidade, equipamento completo e condições de segurança."
+                                                  content="Avaliação e instalação de kits de automatismo para portão comprados no Leroy Merlin, mediante compatibilidade, equipamento completo e condições de segurança."
                                                   />
                                                   
                                                   <meta 
@@ -119,7 +115,7 @@ export default function InstalacaoKitPortaoAutomatico() {
                                                   
                                                   <meta
                                                   property="og:url"
-                                                  content="https://tec-casa.pt/instalacao-kit-portao-automatico"
+                                                  content="https://tec-casa.pt/instalacao-kit-portao-leroy-merlin"
                                                   />
                                                   
                                                   <meta property="og:type" content="website" />
@@ -134,7 +130,7 @@ export default function InstalacaoKitPortaoAutomatico() {
                                                   
                                                   <link rel="manifest" href="/site.webmanifest" />
                                                   
-                                                  <link rel="canonical" href="https://tec-casa.pt/instalacao-kit-portao-automatico" />
+                                                  <link rel="canonical" href="https://tec-casa.pt/instalacao-kit-portao-leroy-merlin" />
                                                   
                                                   </Head>
   
@@ -320,9 +316,11 @@ export default function InstalacaoKitPortaoAutomatico() {
                     <div>
                     
                     <div style={{
-                    display:"inline-block",
-                    background:"#eef3fa",
-                    color:"#08285c",
+                    display:"inline-flex",
+                    alignItems:"center",
+                    gap:"8px",
+                    background:"#eef7ee",
+                    color:"#1f6f3a",
                     padding:"8px 14px",
                     borderRadius:"999px",
                     fontSize:"14px",
@@ -330,7 +328,7 @@ export default function InstalacaoKitPortaoAutomatico() {
                     boxShadow:"0 6px 16px rgba(11,44,95,0.08)",
                     marginBottom:"20px"
                     }}>
-                    Kits fornecidos pelo cliente
+                    Kit comprado no <span style={{color:"#1f8f3a"}}>Leroy Merlin</span>
                     </div>
                     
                     <h1 style={{
@@ -340,7 +338,7 @@ export default function InstalacaoKitPortaoAutomatico() {
                     color:"#08285c",
                     fontWeight:"900"
                     }}>
-                    Instalação de kit de portão automático
+                    Instalação de kit de portão comprado no Leroy Merlin
                     </h1>
                     
                     <p style={{
@@ -350,9 +348,8 @@ export default function InstalacaoKitPortaoAutomatico() {
                     maxWidth:"700px",
                     marginBottom:"18px"
                     }}>
-                    Comprou um kit de automatismo para portão e precisa de instalação?
-                    A TecCasa Soluções pode verificar e instalar kits fornecidos pelo cliente
-                    em portões de correr, portões de batente e alguns portões de garagem.
+                    Comprou um kit de automatismo para portão no Leroy Merlin e precisa de instalação? 
+                    A TecCasa Soluções pode avaliar o equipamento, verificar as condições do portão e instalar quando existirem condições técnicas e de segurança.
                     </p>
                     
                     <p style={{
@@ -362,8 +359,7 @@ export default function InstalacaoKitPortaoAutomatico() {
                     maxWidth:"680px",
                     marginBottom:"34px"
                     }}>
-                    A instalação depende da compatibilidade do equipamento, material completo,
-                    condições mecânicas do portão e segurança mínima da instalação.
+                    A instalação depende do kit estar completo, ser compatível com o portão, existir alimentação elétrica adequada e o portão apresentar boas condições mecânicas.
                     </p>
                     
                     <div style={{
@@ -373,7 +369,7 @@ export default function InstalacaoKitPortaoAutomatico() {
                     }}>
                     
                     <a
-                    href="https://wa.me/351922021980"
+                    href="https://wa.me/351922021980?text=Ol%C3%A1%2C%20comprei%20um%20kit%20de%20automatismo%20para%20port%C3%A3o%20no%20Leroy%20Merlin%20e%20gostava%20de%20saber%20se%20%C3%A9%20poss%C3%ADvel%20instalar."
                     target="_blank"
                     style={{
                     display:"inline-block",
@@ -387,11 +383,11 @@ export default function InstalacaoKitPortaoAutomatico() {
                     boxShadow:"0 10px 25px rgba(37,211,102,0.18)"
                     }}
                     >
-                    Pedir avaliação
+                    Enviar fotos do kit
                     </a>
                     
                     <a
-                    href="#verificacao"
+                    href="#condicoes"
                     style={{
                     display:"inline-block",
                     background:"#08285c",
@@ -417,8 +413,8 @@ export default function InstalacaoKitPortaoAutomatico() {
                     }}>
                     
                     <img
-                    src="/instalacao-kit-portao-automatico-hero.png"
-                    alt="Instalação de kit de portão automático fornecido pelo cliente"
+                    src="/instalacao-kit-portao-automatico.png"
+                    alt="Instalação de kit de automatismo para portão comprado no Leroy Merlin"
                     style={{
                     width:"100%",
                     maxWidth:"600px",
@@ -433,7 +429,7 @@ export default function InstalacaoKitPortaoAutomatico() {
                     </section>
                       
                                            <section
-                                           id="verificacao"
+                                           id="condicoes"
                                            style={{
                                            padding:"20px 0 70px"
                                            }}
@@ -456,9 +452,9 @@ export default function InstalacaoKitPortaoAutomatico() {
                                            margin:"0 auto 45px auto",
                                            textAlign:"center"
                                            }}>
-                                           Antes de instalar um kit de portão automático fornecido pelo cliente,
-                                           é essencial confirmar se o equipamento é compatível, se o portão está em condições
-                                           e se existe alimentação elétrica adequada no local onde será instalado o motor ou a central.
+                                           Antes de instalar um kit de automatismo para portão comprado no Leroy Merlin,
+                                           confirmamos se o equipamento está completo, se é adequado ao portão e se existem
+                                           condições técnicas e de segurança para avançar com a montagem.
                                            </p>
                                            
                                            <div
@@ -472,33 +468,33 @@ export default function InstalacaoKitPortaoAutomatico() {
                                            
                                            {[
                                            {
-                                           title:"Equipamento completo",
-                                           text:"Confirmamos se o kit inclui motor, central, comandos, fotocélulas, suportes, acessórios e documentação necessária."
+                                           title:"Kit completo",
+                                           text:"Verificamos se o kit inclui motor, central, comandos, fotocélulas, suportes, acessórios, manual e elementos necessários à montagem."
                                            },
                                            
                                            {
                                            title:"Compatibilidade com o portão",
-                                           text:"Verificamos se o motor é adequado ao tipo de portão, peso, dimensões, curso e frequência de utilização."
+                                           text:"Confirmamos se o motor é adequado ao tipo de portão, peso, dimensões, curso, frequência de utilização e esforço esperado."
                                            },
                                            
                                            {
-                                           title:"Alimentação elétrica disponível",
-                                           text:"É necessário existir alimentação elétrica adequada junto ao local do motor ou central, em segurança e pronta para ligação."
+                                           title:"Alimentação elétrica",
+                                           text:"A instalação depende de existir alimentação elétrica adequada junto ao local do motor ou central, com condições mínimas de segurança."
                                            },
                                            
                                            {
                                            title:"Estado mecânico do portão",
-                                           text:"O portão deve mover-se livremente, sem estar preso, desalinhado, pesado ou com calhas, rodas ou dobradiças em esforço."
+                                           text:"O portão deve mover-se corretamente à mão, sem estar preso, desalinhado, pesado ou com calhas, rodas ou dobradiças em esforço."
                                            },
                                            
                                            {
-                                           title:"Condições de segurança",
-                                           text:"Analisamos a possibilidade de instalar fotocélulas, proteção no fecho e funcionamento seguro do automatismo."
+                                           title:"Segurança da instalação",
+                                           text:"Avaliamos a instalação de fotocélulas, sistemas de proteção e comportamento seguro do automatismo no fecho e abertura."
                                            },
                                            
                                            {
-                                           title:"Limitações do kit",
-                                           text:"Alguns kits económicos podem ter limitações de força, compatibilidade, acessórios, documentação ou assistência futura."
+                                           title:"Limitações do equipamento",
+                                           text:"Alguns kits vendidos em loja podem ter limitações de força, acessórios, documentação, compatibilidade ou assistência futura."
                                            }
                                            
                                            ].map((item,index)=>(
@@ -559,7 +555,7 @@ export default function InstalacaoKitPortaoAutomatico() {
                                                               marginBottom:"18px",
                                                               textAlign:"center"
                                                               }}>
-                                                              Comprou um kit e precisa de instalador?
+                                                              Comprou um kit no <span style={{color:"#1f8f3a"}}>Leroy Merlin</span>?
                                                               </h2>
                                                               
                                                               <p style={{
@@ -570,9 +566,9 @@ export default function InstalacaoKitPortaoAutomatico() {
                                                               margin:"0 auto 22px auto",
                                                               textAlign:"center"
                                                               }}>
-                                                              Se comprou um kit de automatismo para portão numa loja, online ou marketplace,
-                                                              podemos analisar o equipamento, verificar as condições do portão e indicar a melhor forma
-                                                              de avançar com a instalação.
+                                                              Se comprou um kit de automatismo para portão no Leroy Merlin, envie fotografias da caixa,
+                                                              dos motores, acessórios e do portão. A TecCasa Soluções pode fazer uma primeira avaliação
+                                                              e indicar se existem condições para instalação.
                                                               </p>
                                                               
                                                               <p style={{
@@ -583,8 +579,8 @@ export default function InstalacaoKitPortaoAutomatico() {
                                                               margin:"0 auto 38px auto",
                                                               textAlign:"center"
                                                               }}>
-                                                              Podemos analisar kits comprados em lojas como Leroy Merlin, Brico Depôt, Amazon, ManoMano
-                                                              ou marcas como Vevor, Casanoov, Avidsen, Dimoel e SCS Sentinel.
+                                                              A instalação só deve avançar quando o equipamento é compatível, está completo,
+                                                              o portão se encontra em boas condições mecânicas e existe alimentação elétrica adequada.
                                                               </p>
                                                               
                                                               <div
@@ -600,22 +596,22 @@ export default function InstalacaoKitPortaoAutomatico() {
                                                               {[
                                                               {
                                                               title:"Envie fotos do kit",
-                                                              text:"Pode enviar imagens da caixa, motores, acessórios e manual para uma primeira análise."
+                                                              text:"Fotografias da caixa, motores, central, comandos, fotocélulas, acessórios e manual ajudam a perceber o equipamento."
                                                               },
                                                               
                                                               {
                                                               title:"Mostre o portão",
-                                                              text:"Fotos ou vídeos do portão ajudam a perceber se é de correr, batente, garagem ou outro sistema."
+                                                              text:"Fotos ou vídeo do portão permitem avaliar se é de correr, batente ou garagem, e perceber o estado mecânico."
                                                               },
                                                               
                                                               {
-                                                              title:"Receba orientação",
-                                                              text:"Indicamos se o kit parece adequado, se falta algum acessório ou se é necessária visita ao local."
+                                                              title:"Verificação antes da montagem",
+                                                              text:"Confirmamos se o kit parece adequado, se falta algum acessório e se é necessária visita técnica ao local."
                                                               },
                                                               
                                                               {
-                                                              title:"Instalação com segurança",
-                                                              text:"Quando existem condições, avançamos com montagem, ligação, programação e testes de funcionamento."
+                                                              title:"Instalação apenas com condições",
+                                                              text:"Quando existem condições técnicas e de segurança, avançamos com montagem, ligação, programação e testes."
                                                               }
                                                               
                                                               ].map((item,index)=>(
@@ -654,6 +650,28 @@ export default function InstalacaoKitPortaoAutomatico() {
                                                               </div>
                                                               
                                                               <div style={{
+                                                              background:"#eef7ee",
+                                                              border:"1px solid rgba(31,143,58,0.18)",
+                                                              borderRadius:"22px",
+                                                              padding:"24px",
+                                                              maxWidth:"860px",
+                                                              margin:"0 auto 34px auto"
+                                                              }}>
+                                                              
+                                                              <p style={{
+                                                              fontSize:"16px",
+                                                              lineHeight:"1.7",
+                                                              color:"#3f4f45",
+                                                              margin:"0",
+                                                              textAlign:"center"
+                                                              }}>
+                                                              A TecCasa Soluções é um serviço técnico independente. Não representa oficialmente o Leroy Merlin
+                                                              nem qualquer marca ou fabricante dos kits vendidos em loja.
+                                                              </p>
+                                                              
+                                                              </div>
+                                                              
+                                                              <div style={{
                                                               textAlign:"center"
                                                               }}>
                                                               
@@ -664,8 +682,8 @@ export default function InstalacaoKitPortaoAutomatico() {
                                                               maxWidth:"760px",
                                                               margin:"0 auto 28px auto"
                                                               }}>
-                                                              Antes de comprar ou instalar, fale connosco. Muitas vezes uma simples verificação evita
-                                                              comprar um kit incompatível ou avançar com uma instalação que depois não funciona corretamente.
+                                                              Antes de marcar a instalação, envie fotografias do kit e do portão. Uma verificação prévia pode evitar
+                                                              instalações incompatíveis, inseguras ou com material incompleto.
                                                               </p>
                                                               
                                                               <div style={{
@@ -676,7 +694,7 @@ export default function InstalacaoKitPortaoAutomatico() {
                                                               }}>
                                                               
                                                               <a
-                                                              href="https://wa.me/351922021980"
+                                                              href="https://wa.me/351922021980?text=Ol%C3%A1%2C%20comprei%20um%20kit%20de%20automatismo%20para%20port%C3%A3o%20no%20Leroy%20Merlin%20e%20gostava%20de%20saber%20se%20%C3%A9%20poss%C3%ADvel%20instalar.%20Posso%20enviar%20fotos."
                                                               target="_blank"
                                                               style={{
                                                               background:"#25D366",
@@ -1271,7 +1289,7 @@ border:"1px solid rgba(11,44,95,0.05)"
                          
 
  <a
-href="https://wa.me/351922021980"
+href="https://wa.me/351922021980?text=Ol%C3%A1%2C%20comprei%20um%20kit%20de%20automatismo%20para%20port%C3%A3o%20no%20Leroy%20Merlin%20e%20gostava%20de%20saber%20se%20%C3%A9%20poss%C3%ADvel%20instalar."
 target="_blank"
 style={{
 position:"fixed",
