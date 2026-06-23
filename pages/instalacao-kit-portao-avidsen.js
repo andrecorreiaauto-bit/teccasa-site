@@ -350,7 +350,7 @@ export default function InstalacaoKitPortaoAvidsen() {
                     minHeight:"54px"
                     }}>
                     <img
-                    src="/avidsen-logo.png"
+                    src="/avidsen-logo.jpeg"
                     alt="Avidsen"
                     style={{
                     height:"32px",
