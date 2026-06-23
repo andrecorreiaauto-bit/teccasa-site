@@ -475,7 +475,7 @@ export default function InstalacaoKitPortaoCasanoov() {
                                            marginBottom:"16px",
                                            textAlign:"center"
                                            }}>
-                                           O que verificamos antes de instalar o kit?
+                                           O que verificamos antes de instalar um kit Casanoov?
                                            </h2>
                                            
                                            <p style={{
@@ -486,7 +486,8 @@ export default function InstalacaoKitPortaoCasanoov() {
                                            margin:"0 auto 45px auto",
                                            textAlign:"center"
                                            }}>
-                                           Antes de instalar um kit de automatismo para portão comprado na Amazon, confirmamos se o equipamento está completo, se é adequado ao portão e se existem condições técnicas e de segurança para avançar com a montagem.
+                                           Antes de instalar um kit Casanoov para portão automático, confirmamos se o equipamento está completo,
+                                           se é compatível com o tipo de portão e se existem condições técnicas e de segurança para avançar com a montagem.
                                            </p>
                                            
                                            <div
@@ -500,13 +501,13 @@ export default function InstalacaoKitPortaoCasanoov() {
                                            
                                            {[
                                            {
-                                           title:"Kit completo",
-                                           text:"Verificamos se o kit inclui motor, central, comandos, fotocélulas, suportes, acessórios, manual e elementos necessários à montagem."
+                                           title:"Equipamento completo",
+                                           text:"Verificamos se o kit inclui motor, central, comandos, fotocélulas, suportes, acessórios, manual e elementos necessários à instalação."
                                            },
                                            
                                            {
                                            title:"Compatibilidade com o portão",
-                                           text:"Confirmamos se o motor é adequado ao tipo de portão, peso, dimensões, curso, frequência de utilização e esforço esperado."
+                                           text:"Confirmamos se o automatismo é adequado ao tipo de portão, peso, dimensões, curso, esforço e frequência de utilização."
                                            },
                                            
                                            {
@@ -521,12 +522,12 @@ export default function InstalacaoKitPortaoCasanoov() {
                                            
                                            {
                                            title:"Segurança da instalação",
-                                           text:"Avaliamos a instalação de fotocélulas, sistemas de proteção e comportamento seguro do automatismo no fecho e abertura."
+                                           text:"Avaliamos a instalação de fotocélulas, proteção no fecho e comportamento seguro do automatismo durante abertura e fecho."
                                            },
                                            
                                            {
                                            title:"Limitações do equipamento",
-                                           text:"Alguns kits vendidos online podem ter limitações de força, acessórios, documentação, compatibilidade, qualidade do material ou assistência futura."
+                                           text:"Alguns kits podem ter limitações de força, documentação, acessórios, compatibilidade ou assistência futura, pelo que a avaliação prévia é importante."
                                            }
                                            
                                            ].map((item,index)=>(
@@ -587,7 +588,7 @@ export default function InstalacaoKitPortaoCasanoov() {
                                                               marginBottom:"18px",
                                                               textAlign:"center"
                                                               }}>
-                                                              Comprou um kit na <span style={{color:"#ff9900"}}>Amazon</span>?
+                                                              Tem um kit <span style={{color:"#08285c"}}>Casanoov</span> para instalar?
                                                               </h2>
                                                               
                                                               <p style={{
@@ -598,7 +599,9 @@ export default function InstalacaoKitPortaoCasanoov() {
                                                               margin:"0 auto 22px auto",
                                                               textAlign:"center"
                                                               }}>
-                                                              Se comprou um kit de automatismo para portão na Amazon, envie fotografias da caixa, dos motores, acessórios e do portão. A TecCasa Soluções pode fazer uma primeira avaliação e indicar se existem condições para instalação.
+                                                              Se tem um kit Casanoov para automatizar um portão, envie fotografias da caixa,
+                                                              dos motores, acessórios, manual e do próprio portão. A TecCasa Soluções pode fazer
+                                                              uma primeira avaliação e indicar se existem condições para instalação.
                                                               </p>
                                                               
                                                               <p style={{
@@ -609,7 +612,8 @@ export default function InstalacaoKitPortaoCasanoov() {
                                                               margin:"0 auto 38px auto",
                                                               textAlign:"center"
                                                               }}>
-                                                              Como a Amazon funciona com diferentes vendedores e marcas, é importante confirmar se o equipamento está completo, se existe manual, se os acessórios são adequados e se o material é compatível com o portão.
+                                                              A instalação só deve avançar quando o equipamento é compatível, está completo,
+                                                              o portão se encontra em boas condições mecânicas e existe alimentação elétrica adequada.
                                                               </p>
                                                               
                                                               <div
@@ -679,8 +683,8 @@ export default function InstalacaoKitPortaoCasanoov() {
                                                               </div>
                                                               
                                                               <div style={{
-                                                              background:"#fff7e6",
-                                                              border:"1px solid rgba(255,153,0,0.24)",
+                                                              background:"#f5f8fc",
+                                                              border:"1px solid rgba(11,44,95,0.08)",
                                                               borderRadius:"22px",
                                                               padding:"24px",
                                                               maxWidth:"860px",
@@ -690,11 +694,12 @@ export default function InstalacaoKitPortaoCasanoov() {
                                                               <p style={{
                                                               fontSize:"16px",
                                                               lineHeight:"1.7",
-                                                              color:"#333",
+                                                              color:"#555",
                                                               margin:"0",
                                                               textAlign:"center"
                                                               }}>
-                                                              A TecCasa Soluções é um serviço técnico independente. Não representa oficialmente a Amazon, vendedores da plataforma, nem qualquer marca ou fabricante dos kits vendidos online.
+                                                              A TecCasa Soluções é um serviço técnico independente. Não representa oficialmente a Casanoov
+                                                              nem qualquer fabricante, distribuidor ou vendedor associado à marca.
                                                               </p>
                                                               
                                                               </div>
@@ -722,7 +727,7 @@ export default function InstalacaoKitPortaoCasanoov() {
                                                               }}>
                                                               
                                                               <a
-                                                              href="https://wa.me/351922021980?text=Ol%C3%A1%2C%20comprei%20um%20kit%20de%20automatismo%20para%20port%C3%A3o%20na%20Amazon%20e%20gostava%20de%20saber%20se%20%C3%A9%20poss%C3%ADvel%20instalar.%20Posso%20enviar%20fotos."
+                                                              href="https://wa.me/351922021980?text=Ol%C3%A1%2C%20tenho%20um%20kit%20Casanoov%20para%20port%C3%A3o%20e%20gostava%20de%20saber%20se%20%C3%A9%20poss%C3%ADvel%20instalar.%20Posso%20enviar%20fotos."
                                                               target="_blank"
                                                               style={{
                                                               background:"#25D366",
@@ -1315,7 +1320,7 @@ border:"1px solid rgba(11,44,95,0.05)"
                          
 
  <a
-href="https://wa.me/351922021980?text=Ol%C3%A1%2C%20comprei%20um%20kit%20de%20automatismo%20para%20port%C3%A3o%20na%20Amazon%20e%20gostava%20de%20saber%20se%20%C3%A9%20poss%C3%ADvel%20instalar.%20Posso%20enviar%20fotos."
+href="https://wa.me/351922021980?text=Ol%C3%A1%2C%20tenho%20um%20kit%20Casanoov%20para%20port%C3%A3o%20e%20gostava%20de%20saber%20se%20%C3%A9%20poss%C3%ADvel%20instalar."
 target="_blank"
 style={{
 position:"fixed",
