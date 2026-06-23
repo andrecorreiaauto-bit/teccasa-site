@@ -335,7 +335,7 @@ export default function InstalacaoKitPortaoCasanoov() {
                     fontWeight:"700",
                     boxShadow:"0 6px 16px rgba(11,44,95,0.08)"
                     }}>
-                    Kit de automatismo económico
+                    Kit de automatismo
                     </span>
                     
                     <div style={{
@@ -353,7 +353,7 @@ export default function InstalacaoKitPortaoCasanoov() {
                     src="/casanoov-logo.png"
                     alt="Casanoov"
                     style={{
-                    height:"42px",
+                    height:"32px",
                     width:"auto",
                     objectFit:"contain",
                     display:"block"
