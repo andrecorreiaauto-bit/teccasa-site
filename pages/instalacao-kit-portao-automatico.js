@@ -716,6 +716,246 @@ export default function InstalacaoKitPortaoAutomatico() {
                                                               
                                                               </section>
 
+<section
+style={{
+padding:"10px 0 70px"
+}}
+>
+
+<div style={{
+background:"linear-gradient(180deg,#ffffff 0%,#f5f8fc 100%)",
+borderRadius:"32px",
+padding:"50px 36px",
+boxShadow:"0 18px 40px rgba(11,44,95,0.08)",
+border:"1px solid rgba(11,44,95,0.06)"
+}}
+>
+
+<h2 style={{
+fontSize:"38px",
+color:"#08285c",
+marginBottom:"18px",
+textAlign:"center"
+}}>
+Comprou um kit de portão em loja ou online?
+</h2>
+
+<p style={{
+fontSize:"19px",
+lineHeight:"1.75",
+color:"#555",
+maxWidth:"880px",
+margin:"0 auto 38px auto",
+textAlign:"center"
+}}>
+Se comprou um kit de automatismo para portão no Leroy Merlin, Brico Depôt,
+Amazon, OLX ou outra loja online, a TecCasa Soluções pode avaliar o equipamento
+e verificar se existem condições para instalação.
+</p>
+
+<div
+style={{
+display:"grid",
+gridTemplateColumns:"repeat(auto-fit,minmax(240px,1fr))",
+gap:"22px",
+marginBottom:"48px"
+}}
+>
+
+{[
+{
+title:"Kit comprado no Leroy Merlin",
+href:"/instalacao-kit-portao-leroy-merlin",
+text:"Avaliação e instalação de kits comprados no Leroy Merlin, mediante compatibilidade e condições de segurança."
+},
+
+{
+title:"Kit comprado no Brico Depôt",
+href:"/instalacao-kit-portao-brico-depot",
+text:"Verificação de kits adquiridos no Brico Depôt antes da montagem, ligação e programação."
+},
+
+{
+title:"Kit comprado na Amazon",
+href:"/instalacao-kit-portao-amazon",
+text:"Apoio na instalação de kits comprados online, com confirmação de material completo e compatível."
+},
+
+{
+title:"Kit comprado no OLX",
+href:"/instalacao-kit-portao-olx",
+text:"Avaliação prudente de kits anunciados ou comprados no OLX, especialmente quando o material é usado."
+}
+
+].map((item,index)=>(
+
+<a
+key={index}
+href={item.href}
+style={{
+display:"block",
+background:"#eef3fa",
+borderRadius:"24px",
+padding:"28px 24px",
+boxShadow:"0 12px 28px rgba(11,44,95,0.07)",
+border:"1px solid rgba(11,44,95,0.05)",
+textDecoration:"none",
+transition:"transform .25s ease, box-shadow .25s ease, background .25s ease"
+}}
+onMouseEnter={(e)=>{
+e.currentTarget.style.transform="translateY(-5px)"
+e.currentTarget.style.boxShadow="0 16px 32px rgba(11,44,95,0.12)"
+e.currentTarget.style.background="#f5f8fc"
+}}
+onMouseLeave={(e)=>{
+e.currentTarget.style.transform="translateY(0)"
+e.currentTarget.style.boxShadow="0 12px 28px rgba(11,44,95,0.07)"
+e.currentTarget.style.background="#eef3fa"
+}}
+>
+
+<h3 style={{
+color:"#08285c",
+fontSize:"22px",
+marginBottom:"12px"
+}}>
+{item.title}
+</h3>
+
+<p style={{
+color:"#444",
+lineHeight:"1.7",
+margin:"0 0 20px 0"
+}}>
+{item.text}
+</p>
+
+<span style={{
+color:"#08285c",
+fontWeight:"bold",
+textDecoration:"underline"
+}}>
+Saber mais
+</span>
+
+</a>
+
+))}
+
+</div>
+
+<h2 style={{
+fontSize:"34px",
+color:"#08285c",
+marginBottom:"18px",
+textAlign:"center"
+}}>
+Também avaliamos kits de várias marcas
+</h2>
+
+<p style={{
+fontSize:"18px",
+lineHeight:"1.7",
+color:"#555",
+maxWidth:"820px",
+margin:"0 auto 34px auto",
+textAlign:"center"
+}}>
+Além da loja onde o kit foi comprado, também é importante confirmar a marca,
+o modelo, os acessórios incluídos e se o automatismo é adequado ao portão.
+</p>
+
+<div
+className="marcas-grid"
+style={{
+display:"grid",
+gridTemplateColumns:"repeat(auto-fit,minmax(190px,1fr))",
+gap:"18px"
+}}
+>
+
+{[
+{
+title:"Casanoov",
+href:"/instalacao-kit-portao-casanoov"
+},
+
+{
+title:"Vevor",
+href:"/instalacao-kit-portao-vevor"
+},
+
+{
+title:"Avidsen",
+href:"/instalacao-kit-portao-avidsen"
+},
+
+{
+title:"Dimoel",
+href:"/instalacao-kit-portao-dimoel"
+},
+
+{
+title:"SCS Sentinel",
+href:"/instalacao-kit-portao-scs-sentinel"
+}
+
+].map((item,index)=>(
+
+<a
+key={index}
+href={item.href}
+className="cartao-marca"
+style={{
+display:"flex",
+alignItems:"center",
+justifyContent:"center",
+background:"#ffffff",
+borderRadius:"18px",
+padding:"18px 14px",
+minHeight:"58px",
+boxShadow:"0 10px 24px rgba(11,44,95,0.07)",
+border:"1px solid rgba(11,44,95,0.06)",
+textDecoration:"none",
+color:"#08285c",
+fontWeight:"bold",
+fontSize:"17px",
+textAlign:"center"
+}}
+>
+{item.title}
+</a>
+
+))}
+
+</div>
+
+<div style={{
+background:"#f5f8fc",
+border:"1px solid rgba(11,44,95,0.08)",
+borderRadius:"22px",
+padding:"24px",
+maxWidth:"880px",
+margin:"42px auto 0 auto"
+}}>
+
+<p style={{
+fontSize:"16px",
+lineHeight:"1.7",
+color:"#555",
+margin:"0",
+textAlign:"center"
+}}>
+A instalação depende sempre da compatibilidade do kit, do estado mecânico do portão,
+da existência de alimentação elétrica adequada e das condições mínimas de segurança.
+</p>
+
+</div>
+
+</div>
+
+</section>
+
                                                                                          
 
                                     
