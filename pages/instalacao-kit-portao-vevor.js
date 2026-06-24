@@ -353,7 +353,7 @@ export default function InstalacaoKitPortaoVevor() {
                     src="/vevor-logo.png"
                     alt="Vevor"
                     style={{
-                    height:"32px",
+                    height:"52px",
                     width:"auto",
                     objectFit:"contain",
                     display:"block"
