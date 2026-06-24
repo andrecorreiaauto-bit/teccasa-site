@@ -353,7 +353,7 @@ export default function InstalacaoKitPortaoScsSentinel() {
                     src="/scs-sentinel-logo.png"
                     alt="SCS Sentinel"
                     style={{
-                    height:"32px",
+                    height:"64px",
                     width:"auto",
                     objectFit:"contain",
                     display:"block"
