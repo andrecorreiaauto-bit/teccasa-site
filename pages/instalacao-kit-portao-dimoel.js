@@ -353,7 +353,7 @@ export default function InstalacaoKitPortaoDimoel() {
                     src="/dimoel-logo.png"
                     alt="Dimoel"
                     style={{
-                    height:"52px",
+                    height:"67px",
                     width:"auto",
                     objectFit:"contain",
                     display:"block"
