@@ -353,7 +353,7 @@ export default function InstalacaoKitPortaoAvidsen() {
                     src="/avidsen-logo.jpg"
                     alt="Avidsen"
                     style={{
-                    height:"32px",
+                    height:"52px",
                     width:"auto",
                     objectFit:"contain",
                     display:"block"
