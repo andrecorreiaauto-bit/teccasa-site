@@ -1276,6 +1276,15 @@ Soluções técnicas com foco em diagnóstico, transparência e apoio próximo.
                                                                   
                                                                   {[
                                                                   {
+                                                                  title:"Páginas principais",
+                                                                  items:[
+                                                                  ["Homepage","/"],
+                                                                  ["Comandos garagem","/comandos-garagem"],
+                                                                  ["Casas inteligentes","/casas-inteligentes-lisboa"],
+                                                                  ["Instalação câmaras","/instalacao-camaras-lisboa"]
+                                                                  ]
+                                                                  },
+                                                                  {
                                                                   title:"SEO local",
                                                                   items:[
                                                                   ["Lisboa","/reparacao-portoes-lisboa"],
@@ -1307,6 +1316,25 @@ Soluções técnicas com foco em diagnóstico, transparência e apoio próximo.
                                                                   ]
                                                                   },
                                                                   {
+                                                                  title:"Kits / lojas / marketplaces",
+                                                                  items:[
+                                                                  ["Kit Leroy Merlin","/instalacao-kit-portao-leroy-merlin"],
+                                                                  ["Kit Brico Depôt","/instalacao-kit-portao-brico-depot"],
+                                                                  ["Kit Amazon","/instalacao-kit-portao-amazon"],
+                                                                  ["Kit OLX","/instalacao-kit-portao-olx"]
+                                                                  ]
+                                                                  },
+                                                                  {
+                                                                  title:"Marcas de kits económicos",
+                                                                  items:[
+                                                                  ["Casanoov","/instalacao-kit-portao-casanoov"],
+                                                                  ["Vevor","/instalacao-kit-portao-vevor"],
+                                                                  ["Avidsen","/instalacao-kit-portao-avidsen"],
+                                                                  ["Dimoel","/instalacao-kit-portao-dimoel"],
+                                                                  ["SCS Sentinel","/instalacao-kit-portao-scs-sentinel"]
+                                                                  ]
+                                                                  },
+                                                                  {
                                                                   title:"Páginas de marcas",
                                                                   items:[
                                                                   ["Motorline","/automatismos-motorline-portoes"],
@@ -1318,18 +1346,21 @@ Soluções técnicas com foco em diagnóstico, transparência e apoio próximo.
                                                                   ["CAME","/automatismos-came-portoes"],
                                                                   ["Hörmann","/automatismos-hormann-portoes"],
                                                                   ["DEA","/automatismos-dea-portoes"],
-                                                                  ["Benincà","/automatismos-beninca-portoes"],
+                                                                  ["Beninca","/automatismos-beninca-portoes"],
                                                                   ["Somfy","/automatismos-somfy-portoes"],
                                                                   ["V2","/automatismos-v2-portoes"]
                                                                   ]
                                                                   },
                                                                   {
-                                                                  title:"Páginas principais",
+                                                                  title:"Páginas EN",
                                                                   items:[
-                                                                  ["Homepage","/"],
-                                                                  ["Comandos garagem","/comandos-garagem"],
-                                                                  ["Casas inteligentes","/casas-inteligentes-lisboa"],
-                                                                  ["Instalação câmaras","/instalacao-camaras-lisboa"]
+                                                                  ["EN homepage","/en"],
+                                                                  ["Electric gate repair Lisbon","/en/electric-gate-repair-lisbon"],
+                                                                  ["Automatic gate installation Lisbon","/en/automatic-gate-installation-lisbon"],
+                                                                  ["Garage remote controls Lisbon","/en/garage-remote-controls-lisbon"],
+                                                                  ["Security cameras Lisbon","/en/security-cameras-lisbon"],
+                                                                  ["Gate remote control not working","/en/gate-remote-control-not-working"],
+                                                                  ["Garage door motor repair","/en/garage-door-motor-repair"]
                                                                   ]
                                                                   },
                                                                   {
