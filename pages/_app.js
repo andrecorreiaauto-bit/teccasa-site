@@ -1,6 +1,7 @@
 import Head from "next/head";
 import { useRouter } from "next/router";
 import CompanyIdentity from "../components/CompanyIdentity";
+import CookieConsent from "../components/CookieConsent";
 import { organization } from "../lib/company";
 
 export default function App({ Component, pageProps }) {
@@ -25,24 +26,11 @@ export default function App({ Component, pageProps }) {
           href="/favicon.png"
         />
 
-            <script async src="https://www.googletagmanager.com/gtag/js?id=G-N8YRYYNTV5"></script>
-
-<script
-  dangerouslySetInnerHTML={{
-    __html: `
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-N8YRYYNTV5');
-    `,
-  }}
-/>
-
       </Head>
 
       <Component {...pageProps} />
       <CompanyIdentity english={english} />
+      <CookieConsent english={english} />
     </>
   );
 }
