@@ -2,13 +2,14 @@ import Head from "next/head";
 import SiteHeader from "./SiteHeader";
 import { company } from "../lib/company";
 import { CONSENT_DAYS } from "../lib/consent.mjs";
+import serviceTerms from "../lib/service-terms.json";
 
-const routes = { legal: ["/informacao-legal", "/en/legal"], privacy: ["/privacidade", "/en/privacy"], cookies: ["/cookies", "/en/cookies"] };
+const routes = { legal: ["/informacao-legal", "/en/legal"], privacy: ["/privacidade", "/en/privacy"], cookies: ["/cookies", "/en/cookies"], terms: ["/condicoes-servicos", "/en/service-terms"] };
 
 export default function LegalPage({ type, english = false }) {
   const pair = routes[type];
   const path = pair[english ? 1 : 0];
-  const title = type === "legal" ? (english ? "Legal information" : "Informação legal") : type === "privacy" ? (english ? "Privacy policy" : "Política de privacidade") : (english ? "Cookie policy" : "Política de cookies");
+  const title = type === "legal" ? (english ? "Legal information" : "Informação legal") : type === "privacy" ? (english ? "Privacy policy" : "Política de privacidade") : type === "terms" ? (english ? "Service terms" : "Condições dos serviços") : (english ? "Cookie policy" : "Política de cookies");
   const preferences = () => window.dispatchEvent(new Event("teccasa:cookie-preferences"));
   return <>
     <Head>
@@ -25,6 +26,19 @@ export default function LegalPage({ type, english = false }) {
       <main>
         <h1>{title}</h1>
         <p className="date">{english ? "Updated: 30 October 2026" : "Atualizado em 30 de outubro de 2026"}</p>
+        {type === "terms" && <>
+          <p>{english ? "These common terms accompany the quote for each job. The scope, price, payment stages and applicable contracting arrangements are provided before acceptance. Browsing this website does not place an order." : "Estas condições comuns acompanham o orçamento de cada intervenção. O trabalho, o preço, os pagamentos e o regime de contratação aplicável são comunicados antes da aceitação. A consulta deste site não constitui uma adjudicação."}</p>
+          <p><a href={english ? "/en/legal" : "/informacao-legal"}>{english ? "Company identification and consumer dispute resolution" : "Identificação da empresa e resolução de litígios de consumo"}</a> · <a href={english ? "/en/privacy" : "/privacidade"}>{english ? "Privacy policy" : "Política de privacidade"}</a></p>
+          {serviceTerms.sections.map((section, index) => <section key={index}>
+            <h2>{section.title[english ? "en" : "pt"]}</h2>
+            {section.paragraphs[english ? "en" : "pt"].map((paragraph, n) => <p key={n}>{paragraph}</p>)}
+          </section>)}
+          <h2>{english ? "Optional withdrawal form" : "Modelo facultativo de livre resolução"}</h2>
+          <p>{english ? "Complete and send this only if you wish to withdraw from a contract carrying that right. You can also send another unequivocal statement." : "Preencha e envie apenas se pretender resolver um contrato em que exista este direito. Pode também enviar outra declaração inequívoca."}</p>
+          <p>{english ? "To:" : "À entidade:"} {company.legalName}<br />Rua da União Eléctrica 212, 2890-335 São Francisco, Portugal<br /><a href={`mailto:${company.email}`}>{company.email}</a></p>
+          <p>{english ? "I hereby give notice that I withdraw from my contract for the following goods or services:" : "Comunico que pretendo resolver o contrato relativo aos seguintes bens ou serviços:"}<br />________________________________________</p>
+          <p>{english ? "Quote or contract number:" : "Número do orçamento ou contrato:"} ____________________<br />{english ? "Ordered on or received on:" : "Data da contratação ou receção dos bens:"} ____________________<br />{english ? "Consumer’s name:" : "Nome do consumidor:"} ____________________<br />{english ? "Consumer’s address:" : "Morada do consumidor:"} ____________________<br />{english ? "Date:" : "Data:"} ____________________<br />{english ? "Signature only if sent on paper:" : "Assinatura apenas se enviado em papel:"} ____________________</p>
+        </>}
         {type === "legal" && <>
           <h2>{english ? "Website operator" : "Entidade responsável pelo site"}</h2>
           <dl>

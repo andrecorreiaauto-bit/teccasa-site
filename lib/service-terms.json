@@ -1,0 +1,139 @@
+{
+  "version": "2026-10-30",
+  "sections": [
+    {
+      "title": {
+        "pt": "Orçamento e aceitação",
+        "en": "Quotes and acceptance"
+      },
+      "paragraphs": {
+        "pt": [
+          "O pedido de informação, o envio de fotografias e a consulta do site não constituem uma adjudicação. Antes da aceitação, o orçamento identifica o trabalho, os equipamentos, o preço total com os impostos aplicáveis, os custos adicionais conhecidos, as condições de pagamento, a validade e o prazo ou condições de execução.",
+          "A adjudicação exige a aceitação do orçamento e das condições comunicadas antes da contratação. Um adiantamento, quando previsto, tem o valor e a finalidade indicados no orçamento. Estas condições não alteram contratos anteriores nem afastam direitos imperativos do cliente."
+        ],
+        "en": [
+          "An enquiry, sending photos or browsing the website does not place an order. Before acceptance, the quote identifies the work, equipment, total price including applicable taxes, known additional charges, payment terms, validity and the timing or conditions for carrying out the work.",
+          "An order requires acceptance of the quote and the terms provided before the contract is concluded. Any advance payment has the amount and purpose stated in the quote. These terms do not change earlier contracts or override the customer’s mandatory legal rights."
+        ]
+      }
+    },
+    {
+      "title": {
+        "pt": "Deslocação e diagnóstico",
+        "en": "Visits and diagnosis"
+      },
+      "paragraphs": {
+        "pt": [
+          "Se uma deslocação ou diagnóstico tiver um custo, o respetivo valor ou modo de cálculo é comunicado antes do agendamento e deve ser aceite pelo cliente. O eventual desconto desse valor numa reparação posterior só se aplica quando tiver sido acordado.",
+          "O diagnóstico pode justificar uma proposta diferente da inicialmente estimada a partir de fotografias ou descrições. O cliente recebe essa informação antes de autorizar a reparação."
+        ],
+        "en": [
+          "Any charge for a visit or diagnosis, or the way it is calculated, is disclosed before booking and must be accepted by the customer. Deducting that charge from a later repair applies only if agreed.",
+          "The diagnosis may justify a proposal different from an initial estimate based on photos or descriptions. The customer receives that information before authorising the repair."
+        ]
+      }
+    },
+    {
+      "title": {
+        "pt": "Trabalhos e materiais incluídos",
+        "en": "Included work and materials"
+      },
+      "paragraphs": {
+        "pt": [
+          "São executados os trabalhos e fornecidos os materiais descritos no orçamento. Necessidades adicionais, alterações de solução ou custos não previstos são comunicados para aceitação antes da execução.",
+          "A intervenção depende da compatibilidade do material, do estado do equipamento e das condições de segurança e acesso. Se forem identificados impedimentos, é explicado o que falta resolver e os seus efeitos no trabalho, no preço e no agendamento. Os trabalhos sujeitos a habilitação específica dependem da verificação dessa habilitação antes da execução."
+        ],
+        "en": [
+          "The work and materials are those described in the quote. Additional work, changes of solution or unforeseen costs are submitted for acceptance before being carried out.",
+          "Work depends on material compatibility, the condition of the equipment, safety and access. Any obstacle and its effect on the work, price and schedule are explained. Work requiring specific legal authorisation depends on verification of that authorisation before it is carried out."
+        ]
+      }
+    },
+    {
+      "title": {
+        "pt": "Equipamento fornecido pelo cliente",
+        "en": "Equipment supplied by the customer"
+      },
+      "paragraphs": {
+        "pt": [
+          "Quando o cliente fornece o equipamento, a montagem depende da avaliação da sua compatibilidade, integridade e segurança. A TecCasa informa o cliente se identificar material incompleto, inadequado ou danificado.",
+          "Os direitos relativos à venda desse equipamento são exercidos perante o respetivo vendedor ou garante, conforme aplicável. A TecCasa continua responsável pela correta execução do serviço que presta e pelos danos ou defeitos que lhe sejam imputáveis. O fornecimento pelo cliente não elimina essa responsabilidade."
+        ],
+        "en": [
+          "Installation of customer-supplied equipment depends on an assessment of compatibility, completeness and safety. TecCasa informs the customer of any missing, unsuitable or damaged material identified.",
+          "Rights relating to the sale of that equipment are exercised against its seller or guarantor, as applicable. TecCasa remains responsible for correctly performing its own work and for damage or defects attributable to it. Customer supply does not remove that responsibility."
+        ]
+      }
+    },
+    {
+      "title": {
+        "pt": "Agendamento e pagamentos",
+        "en": "Scheduling and payment"
+      },
+      "paragraphs": {
+        "pt": [
+          "O agendamento e as fases de pagamento são os acordados no orçamento. Alterações por disponibilidade de material ou condições do local são comunicadas e os novos termos são acordados com o cliente.",
+          "Um pedido de cancelamento ou alteração deve ser comunicado logo que possível. Os valores a pagar ou devolver são apurados de acordo com o contrato e a lei, incluindo os direitos de livre resolução quando aplicáveis. Não existe perda automática de todos os adiantamentos apenas por estas condições."
+        ],
+        "en": [
+          "The schedule and payment stages are those agreed in the quote. Changes due to material availability or site conditions are communicated and revised terms are agreed with the customer.",
+          "Cancellation or changes should be requested as soon as possible. Amounts payable or refundable are assessed under the contract and applicable law, including withdrawal rights where applicable. These terms do not automatically forfeit all advance payments."
+        ]
+      }
+    },
+    {
+      "title": {
+        "pt": "Garantias e assistência",
+        "en": "Guarantees and support"
+      },
+      "paragraphs": {
+        "pt": [
+          "Mantêm-se os direitos legais aplicáveis ao fornecimento e à execução do serviço. Nas vendas a consumidores de bens móveis novos abrangidas pelo Decreto-Lei n.º 84/2021, o prazo legal de responsabilidade por falta de conformidade é, em regra, de três anos a contar da entrega, com as suspensões e demais regras legais aplicáveis. Obras, bens imóveis e reparações autónomas são avaliados pelo regime que lhes corresponda.",
+          "Uma garantia comercial do fabricante é adicional e não reduz os direitos legais do consumidor perante o vendedor. A análise de uma avaria considera a sua causa e a relação com o material fornecido e o trabalho realizado; não se aplica uma exclusão automática a toda a instalação por esta ter componentes antigos ou de terceiros.",
+          "Para pedir assistência, contacte geral@tec-casa.pt ou 922 021 980 e identifique a intervenção, a data e os sintomas. Envie apenas as fotografias necessárias. A apreciação de uma falta de conformidade não fica condicionada ao pagamento antecipado de uma taxa de diagnóstico."
+        ],
+        "en": [
+          "Statutory rights applying to the supply and the work remain in force. For sales to consumers of new movable goods covered by Portuguese Decree-Law 84/2021, the statutory liability period for lack of conformity is generally three years from delivery, subject to statutory suspensions and other applicable rules. Building work, immovable property and standalone repairs are assessed under their applicable legal regimes.",
+          "A manufacturer’s commercial guarantee is additional and does not reduce the consumer’s statutory rights against the seller. A fault is assessed by its cause and connection with the supplied materials and work. The presence of existing or third-party components does not automatically exclude the whole installation.",
+          "For support, contact geral@tec-casa.pt or 922 021 980 with the job details, date and symptoms. Send only necessary photos. Assessment of a lack of conformity is not conditional on paying a diagnosis charge in advance."
+        ]
+      }
+    },
+    {
+      "title": {
+        "pt": "Livre resolução e início dos trabalhos",
+        "en": "Withdrawal and starting work"
+      },
+      "paragraphs": {
+        "pt": [
+          "Nos contratos com consumidores celebrados à distância ou fora do estabelecimento em que exista direito de livre resolução, o prazo é normalmente de 14 dias, aplicando-se 30 dias nas situações especificamente previstas na lei. O prazo, o seu início, as exceções e as condições aplicáveis ao contrato concreto são comunicados antes da aceitação.",
+          "Pode comunicar a resolução através de declaração inequívoca para geral@tec-casa.pt ou para a sede indicada na informação legal. Pode utilizar o modelo abaixo, mas o seu uso não é obrigatório. Quando aplicável, o reembolso é efetuado no prazo legal de 14 dias após a comunicação, pelo mesmo meio de pagamento salvo acordo sem custos; nas vendas de bens pode aguardar-se a receção dos bens ou prova do envio nos termos legais. A devolução e os seus eventuais custos são previamente informados.",
+          "Se pretender o início de um serviço durante o prazo de livre resolução, é recolhido um pedido expresso separado e o reconhecimento de que o direito se perde quando o serviço estiver integralmente executado nas condições legais. Nos contratos fora do estabelecimento, esse pedido é feito em suporte duradouro. O início, por si só, não equivale à perda automática do direito. Em caso de resolução durante a execução, só é devido o montante proporcional permitido pela lei.",
+          "Existem exceções legais, incluindo determinados serviços de reparação ou manutenção no domicílio a pedido do consumidor. O enquadramento concreto é comunicado antes da contratação; a exceção não é usada como dispensa geral para qualquer instalação nova ou fornecimento adicional."
+        ],
+        "en": [
+          "For distance or off-premises consumer contracts carrying a statutory right of withdrawal, the period is normally 14 days, or 30 days in the situations specifically provided by law. The period, its starting point, exceptions and conditions for the particular contract are disclosed before acceptance.",
+          "You may withdraw by an unequivocal statement sent to geral@tec-casa.pt or the registered office shown in the legal information. The model below is optional. Where applicable, reimbursement is made within the statutory 14 days of notification, using the same payment method unless otherwise agreed without charges. For sales of goods, reimbursement may await receipt of the goods or evidence of return as permitted by law. Return arrangements and any return costs are disclosed beforehand.",
+          "If you want a service to begin during the withdrawal period, a separate express request and acknowledgment of the loss of the right once the service has been fully performed under the legal conditions are collected. For off-premises contracts, this request is made on a durable medium. Starting work alone does not automatically remove the right. Withdrawal during performance gives rise only to the proportionate amount permitted by law.",
+          "Statutory exceptions include certain repair or maintenance services at the consumer’s home at their request. The specific classification is disclosed before contracting and is not treated as a blanket exemption for any new installation or additional supply."
+        ]
+      }
+    },
+    {
+      "title": {
+        "pt": "Reclamações e proteção dos dados",
+        "en": "Complaints and personal data"
+      },
+      "paragraphs": {
+        "pt": [
+          "Pode apresentar um pedido ou reclamação para geral@tec-casa.pt. O acesso ao Livro de Reclamações Eletrónico e a informação sobre resolução alternativa de litígios encontram-se no rodapé e na página Informação legal. A utilização destes meios não limita os direitos legais do cliente.",
+          "Os dados dos pedidos e intervenções são tratados nos termos da Política de privacidade. O envio de fotografias para análise do equipamento não autoriza a sua publicação em redes sociais ou publicidade. Uma eventual utilização promocional exige autorização autónoma e específica."
+        ],
+        "en": [
+          "Send enquiries or complaints to geral@tec-casa.pt. The Electronic Complaints Book and information on alternative consumer dispute resolution are accessible in the footer and the Legal information page. These channels do not restrict the customer’s statutory rights.",
+          "Enquiry and job data is handled under the Privacy policy. Sending photos for equipment assessment does not authorise their publication on social media or in advertising. Promotional use requires separate, specific permission."
+        ]
+      }
+    }
+  ]
+}
