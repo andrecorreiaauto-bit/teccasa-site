@@ -1,3 +1,4 @@
+import CompanyIntro from "../components/CompanyIntro";
 import { useEffect, useState, useRef } from "react";
 import Head from "next/head";
 export default function Home() {
@@ -18,6 +19,7 @@ export default function Home() {
   { label:"Domótica", href:"/casas-inteligentes-lisboa", active:true },
 
   { label:"Vigilância", href:"/instalacao-camaras-lisboa", active:true },
+  { label: "A empresa", href: "/a-empresa", active: true },
 ]
  useEffect(() => {
   if (typeof window === "undefined") return;
@@ -1423,6 +1425,8 @@ Soluções técnicas com foco em diagnóstico, transparência e apoio próximo.
                                                                   
                                                                   )}
  
+  <CompanyIntro />
+
   <footer style={{
 marginTop:"80px",
 padding:"45px 30px",
