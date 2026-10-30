@@ -30,7 +30,8 @@ export default function LegalPage({ type, english = false }) {
           <dl>
             <dt>{english ? "Trading name" : "Nome comercial"}</dt><dd>{company.name}</dd>
             <dt>{english ? "Legal name" : "Denominação social"}</dt><dd>{company.legalName}</dd>
-            <dt>NIPC</dt><dd>{company.taxId}</dd>
+            <dt>{english ? "Registration number / NIPC" : "Matrícula / NIPC"}</dt><dd>{company.taxId}</dd>
+            <dt>{english ? "Commercial registry" : "Conservatória do registo comercial"}</dt><dd>Conservatória do Registo Comercial R.N.P.C.</dd>
             <dt>{english ? "Registered office" : "Sede"}</dt><dd>Rua da União Eléctrica 212, 2890-335 São Francisco, Portugal</dd>
             <dt>{english ? "Share capital" : "Capital social"}</dt><dd>2.000,00 €</dd>
             <dt>{english ? "Contact" : "Contactos"}</dt><dd><a href={`mailto:${company.email}`}>{company.email}</a> · <a href={`tel:${company.telephone}`}>922 021 980</a> ({english ? "Portuguese mobile network call" : "chamada para a rede móvel nacional"})</dd>
