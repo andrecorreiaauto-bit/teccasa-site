@@ -1,12 +1,41 @@
 import Head from "next/head";
+import { useEffect, useState } from "react";
 import { company } from "../lib/company";
 
 export default function CompanyPage({ english = false }) {
+  const [menuOpen, setMenuOpen] = useState(false);
+  const menuItems = english ? [
+    ["Home", "/en"],
+    ["Gate Repair", "/en/electric-gate-repair-lisbon"],
+    ["Gate Installation", "/en/automatic-gate-installation-lisbon"],
+    ["Garage Remotes", "/en/garage-remote-controls-lisbon"],
+    ["Security Cameras", "/en/security-cameras-lisbon"],
+    ["About us", "/en/about"],
+  ] : [
+    ["Início", "/"],
+    ["Instalação de Automatismos", "/instalacao-automatismos-portoes"],
+    ["Reparação de Portões", "/reparacao-portoes-lisboa"],
+    ["Comandos", "/comandos-garagem"],
+    ["Domótica", "/casas-inteligentes-lisboa"],
+    ["Vigilância", "/instalacao-camaras-lisboa"],
+    ["A empresa", "/a-empresa"],
+  ];
+  useEffect(() => {
+    if (!menuOpen) return;
+    const close = () => setMenuOpen(false);
+    const onKeyDown = (event) => { if (event.key === "Escape") close(); };
+    document.addEventListener("click", close);
+    document.addEventListener("keydown", onKeyDown);
+    return () => {
+      document.removeEventListener("click", close);
+      document.removeEventListener("keydown", onKeyDown);
+    };
+  }, [menuOpen]);
   const path = english ? "/en/about" : "/a-empresa";
   const title = english ? "About us | TecCasa Soluções" : "A empresa | TecCasa Soluções";
   const description = english
-    ? "Meet TecCasa Soluções and André Correia: gate automation, repairs and smart home solutions with personal service in Lisbon and the surrounding area."
-    : "Conheça a TecCasa Soluções e André Correia. Automatismos, reparações e soluções inteligentes com contacto direto em Lisboa e arredores. NIPC 519682742.";
+    ? "Meet TecCasa Soluções: gate automation, repairs and smart home solutions, with direct contact and support bases on both banks of the Tagus."
+    : "Conheça a TecCasa Soluções. Automatismos, reparações e soluções inteligentes com contacto direto e duas bases de apoio, nas margens norte e sul do Tejo.";
   return (
     <>
       <Head>
@@ -24,24 +53,29 @@ export default function CompanyPage({ english = false }) {
         <meta property="og:image" content={`${company.url}/preview.jpg`} />
       </Head>
       <div className="company-page" lang={english ? "en" : "pt-PT"}>
-        <header>
-          <a className="brand" href={english ? "/en" : "/"}><img src="/favicon.png" alt="" width="36" height="36" />TecCasa Soluções</a>
-          <nav aria-label={english ? "Navigation" : "Navegação"}>
-            <a href={english ? "/en" : "/"}>{english ? "Home" : "Início"}</a>
-            <a href={english ? "/a-empresa" : "/en/about"} lang={english ? "pt" : "en"}>{english ? "PT" : "EN"}</a>
-            <a href="tel:+351922021980">922 021 980</a>
-          </nav>
-        </header>
+        <nav className="site-header" aria-label={english ? "Main navigation" : "Navegação principal"} onClick={(event) => event.stopPropagation()}>
+          <div className="header-row">
+            <a className="brand" href={english ? "/en" : "/"}><img src="/favicon.png" alt="" width="30" height="30" />TecCasa Soluções</a>
+            <div className="header-controls">
+              <a className="language" href={english ? "/a-empresa" : "/en/about"} lang={english ? "pt" : "en"}>{english ? "PT" : "EN"}</a>
+              <button type="button" className="menu-button" aria-expanded={menuOpen} aria-controls="company-navigation" aria-label={english ? (menuOpen ? "Close menu" : "Open menu") : (menuOpen ? "Fechar menu" : "Abrir menu")} onClick={() => setMenuOpen((open) => !open)}>☰</button>
+            </div>
+          </div>
+          {menuOpen && <div className="navigation-links" id="company-navigation">
+            {menuItems.map(([label, href]) => <a key={href} href={href} aria-current={href === path ? "page" : undefined} onClick={() => setMenuOpen(false)}>{label}</a>)}
+            <a className="whatsapp" href="https://wa.me/351922021980" target="_blank" rel="noopener noreferrer" onClick={() => setMenuOpen(false)}>WhatsApp</a>
+          </div>}
+        </nav>
         <main>
           <section className="hero">
             <span>{english ? "About us" : "A empresa"}</span>
-            <h1>{english ? "Someone you can talk to. A service you can understand." : "Uma pessoa com quem falar. Um serviço que pode compreender."}</h1>
+            <h1>{english ? "A company close to you. Support at every stage." : "Uma empresa próxima. Apoio em cada etapa."}</h1>
             <p>{english ? "Gate automation, repairs and smart home solutions with direct contact and care at every stage." : "Automatismos, reparações e soluções inteligentes com contacto direto e cuidado em cada etapa."}</p>
           </section>
           <section className="story">
-            <h2>{english ? "The people behind TecCasa" : "Quem está por trás da TecCasa"}</h2>
-            <p>{english ? "TecCasa Soluções is led by André Correia, whose background is in automotive mechatronics, automotive electrical work and workshop management. It grew from an interest in diagnosing faults, repairing equipment and finding practical solutions to everyday problems." : "A TecCasa Soluções é um projeto liderado por André Correia, com formação em mecatrónica automóvel e experiência em eletricidade automóvel e chefia de oficina. Nasceu da vontade de aplicar esse conhecimento técnico ao diagnóstico, à reparação de equipamentos e à procura de soluções práticas para o dia a dia."}</p>
-            <p>{english ? "Based in Portela da Azoia, we serve homes and condominiums in Lisbon and the surrounding area, within an approximate 45 km radius. We focus on gate automation, garage remote controls and receivers, smart home systems and technical assistance." : "Com base na Portela da Azoia, apoiamos particulares e condomínios em Lisboa e arredores, num raio aproximado de 45 km. Trabalhamos com automatismos para portões, comandos e recetores, domótica e assistência técnica."}</p>
+            <h2>{english ? "Close to our customers" : "Sempre em proximidade com os nossos clientes"}</h2>
+            <p>{english ? "TecCasa Soluções installs, repairs and services gate automation, remote controls and receivers, smart home systems and intelligent solutions for homes and condominiums. We follow each request with care, from the initial assessment to the work itself and support afterwards." : "A TecCasa Soluções dedica-se à instalação, reparação e assistência técnica de automatismos para portões, comandos e recetores, domótica e soluções inteligentes para habitações e condomínios. Acompanhamos cada pedido com atenção, desde a análise inicial à execução do trabalho e ao apoio após a intervenção."}</p>
+            <p>{english ? "We have two support bases, one on the north bank and one on the south bank of the Tagus, keeping us close to our customers in Lisbon and the surrounding area." : "Contamos com duas bases de apoio, uma na margem norte e outra na margem sul do Tejo, para estarmos próximos dos nossos clientes em Lisboa e arredores."}</p>
             <p>{english ? "When you contact TecCasa, you can speak directly with the person who assesses and carries out the work. We take time to understand your needs, explain the available options and recommend a solution suited to your equipment, its use and your budget." : "Ao contactar a TecCasa, pode falar diretamente com quem analisa e executa o trabalho. Dedicamos tempo a perceber a necessidade, explicar as opções e propor uma solução adequada ao equipamento, à utilização e ao orçamento de cada cliente."}</p>
           </section>
           <section className="principles" aria-label={english ? "How we work" : "Como trabalhamos"}>
@@ -65,7 +99,7 @@ export default function CompanyPage({ english = false }) {
             <h2>{english ? "Tell us what you need" : "Conte-nos o que precisa"}</h2>
             <p>{english ? "Describe the situation or send photos of the equipment. We will help you understand the next step." : "Descreva a situação ou envie fotografias do equipamento. Ajudamo-lo a perceber qual o próximo passo."}</p>
             <div className="actions">
-              <a className="primary" href="https://wa.me/351922021980" target="_blank" rel="noopener noreferrer">{english ? "Talk to André on WhatsApp" : "Falar com o André por WhatsApp"}</a>
+              <a className="primary" href="https://wa.me/351922021980" target="_blank" rel="noopener noreferrer">{english ? "Contact TecCasa on WhatsApp" : "Falar com a TecCasa por WhatsApp"}</a>
               <a href="tel:+351922021980">{english ? "Call 922 021 980" : "Ligar 922 021 980"}</a>
               <a href={`mailto:${company.email}`}>{company.email}</a>
             </div>
@@ -73,13 +107,19 @@ export default function CompanyPage({ english = false }) {
         </main>
       </div>
       <style jsx>{`
-        .company-page { font-family: Arial, sans-serif; color: #08285c; background: #f4f7fb; padding: 24px; }
-        header, main { max-width: 1100px; margin: auto; }
-        header { display: flex; justify-content: space-between; align-items: center; gap: 20px; padding: 14px 0 30px; flex-wrap: wrap; }
+        .company-page { font-family: Arial, sans-serif; color: #08285c; background: #f4f7fb; padding: 110px 24px 24px; }
+        main { max-width: 1200px; margin: auto; }
+        .site-header { position: fixed; top: 20px; left: 50%; transform: translateX(-50%); z-index: 1000; box-sizing: border-box; width: min(1200px, calc(100% - 40px)); padding: 14px 20px; background: rgba(255,255,255,0.92); backdrop-filter: blur(10px); border: 1px solid rgba(11,44,95,0.08); border-radius: 28px; box-shadow: 0 10px 30px rgba(11,44,95,0.10); }
+        .header-row { display: flex; justify-content: space-between; align-items: center; gap: 12px; }
         .brand { display: flex; align-items: center; gap: 10px; font-size: 20px; font-weight: 700; text-decoration: none; }
-        nav { display: flex; align-items: center; flex-wrap: wrap; gap: 20px; }
+        .header-controls { display: flex; align-items: center; gap: 10px; }
+        .language { font-size: 14px; font-weight: 700; border: 1px solid rgba(11,44,95,0.18); border-radius: 999px; padding: 7px 10px; line-height: 1; background: rgba(255,255,255,0.75); text-decoration: none; }
+        .menu-button { display: block; background: none; border: none; padding: 0; font-size: 30px; cursor: pointer; color: #08285c; }
+        .navigation-links { display: flex; flex-direction: column; gap: 14px; margin-top: 22px; padding-top: 18px; border-top: 1px solid rgba(11,44,95,0.08); max-height: calc(100dvh - 150px); overflow-y: auto; }
+        .navigation-links a { text-decoration: none; font-weight: 700; font-size: 17px; padding: 10px 0; }
+        .navigation-links .whatsapp { padding: 14px; margin-top: 10px; border-radius: 14px; text-align: center; background: #25d366; color: white; box-shadow: 0 10px 25px rgba(37,211,102,0.22); }
         a { color: #08285c; text-underline-offset: 4px; }
-        a:focus-visible { outline: 3px solid #f7b545; outline-offset: 5px; }
+        a:focus-visible, button:focus-visible { outline: 3px solid #f7b545; outline-offset: 5px; }
         main { overflow-wrap: anywhere; }
         section { margin-bottom: 28px; }
         .hero { background: linear-gradient(135deg, #08285c, #0b3f88); color: white; padding: clamp(28px, 6vw, 64px); border-radius: 26px; }
@@ -96,7 +136,8 @@ export default function CompanyPage({ english = false }) {
         article p { font-size: 16px; margin-bottom: 0; }
         .actions { display: flex; gap: 18px; align-items: center; flex-wrap: wrap; }
         .primary { display: inline-block; padding: 15px 20px; border-radius: 14px; background: #08285c; color: white; text-decoration: none; font-weight: 700; }
-        @media(max-width: 700px) { .company-page { padding: 16px; } .principles { grid-template-columns: 1fr; } nav { gap: 16px; font-size: 14px; } }
+        @media(max-width: 768px) { .site-header { top: 10px; width: calc(100% - 20px); padding: 12px; border-radius: 18px; } .brand { font-size: 16px; gap: 8px; } .company-page { padding: 95px 16px 16px; } }
+        @media(max-width: 700px) { .principles { grid-template-columns: 1fr; } }
       `}</style>
     </>
   );
