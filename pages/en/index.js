@@ -1,3 +1,4 @@
+import CompanyIntro from "../../components/CompanyIntro";
 import { useEffect, useState, useRef } from "react";
 import Head from "next/head";
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
   { label:"Garage Remotes", href:"/en/garage-remote-controls-lisbon", active:true },
 
   { label:"Security Cameras", href:"/en/security-cameras-lisbon", active:true },
+  { label: "About us", href: "/en/about", active: true },
 ]
  useEffect(() => {
   if (typeof window === "undefined") return;
@@ -1202,6 +1204,8 @@ Technical support focused on diagnosis, clear communication and local assistance
 
                                                                   
  
+  <CompanyIntro english />
+
   <footer style={{
 marginTop:"80px",
 padding:"45px 30px",
