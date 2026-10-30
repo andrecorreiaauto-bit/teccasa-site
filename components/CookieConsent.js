@@ -123,7 +123,7 @@ export default function CookieConsent({ english = false }) {
   };
   return (
     <div className="consent-backdrop">
-      <section ref={panel} tabIndex={-1} className={`consent ${settings ? "settings" : "intro"}`} aria-labelledby="cookie-title" role="dialog" aria-modal="true">
+      <div ref={panel} tabIndex={-1} className={`consent ${settings ? "settings" : "intro"}`} aria-labelledby="cookie-title" role="dialog" aria-modal="true">
         <header>
           <div className="brand"><img src="/favicon.png" alt="" width="32" height="32" /><span>TecCasa Soluções</span></div>
           {settings ? <button type="button" className="text-button" onClick={closeSettings}>{english ? "Close settings" : "Fechar definições"}</button> : <button type="button" className="text-button decline" onClick={() => choose(false)}>{english ? "Continue without accepting" : "Continuar sem aceitar"}</button>}
@@ -131,9 +131,9 @@ export default function CookieConsent({ english = false }) {
         {settings ? <>
           <h2 id="cookie-title" className="settings-title">{english ? "Cookie settings" : "Definições de cookies"}</h2>
           <div className="settings-layout">
-            <nav className="category-nav" aria-label={english ? "Cookie categories" : "Categorias de cookies"}>
+            <div className="category-nav" role="group" aria-label={english ? "Cookie categories" : "Categorias de cookies"}>
               {categories.map(([key, label]) => <button type="button" key={key} aria-pressed={category === key} onClick={() => setCategory(key)}>{label}{key === "analytics" && <small>{analytics ? (english ? "Enabled" : "Ativos") : (english ? "Disabled" : "Desativados")}</small>}</button>)}
-            </nav>
+            </div>
             <div className="category-content" aria-live="polite">
               {category === "overview" && <>
                 <h3>{english ? "Your privacy choices" : "As suas escolhas de privacidade"}</h3>
@@ -157,14 +157,14 @@ export default function CookieConsent({ english = false }) {
               <a href={cookiesHref}>{english ? "Read the cookie policy" : "Consultar a política de cookies"}</a>
             </div>
           </div>
-          <footer>
+          <div className="panel-footer">
             <button type="button" className="text-button back" onClick={() => setView("intro")}>{english ? "Back to notice" : "Voltar ao aviso"}</button>
             <div className="actions settings-actions">
               <button type="button" onClick={() => choose(false)}>{english ? "Reject all" : "Rejeitar todos"}</button>
               <button type="button" onClick={() => choose(analytics)}>{english ? "Save my choices" : "Guardar as minhas escolhas"}</button>
               <button type="button" className="accept" onClick={() => choose(true)}>{english ? "Accept all" : "Aceitar todos"}</button>
             </div>
-          </footer>
+          </div>
         </> : <div className="intro-content">
           <span className="eyebrow">{english ? "Privacy at TecCasa" : "Privacidade na TecCasa"}</span>
           <h2 id="cookie-title">{english ? "Help us make your visit better." : "Ajude-nos a melhorar a sua visita."}</h2>
@@ -175,7 +175,7 @@ export default function CookieConsent({ english = false }) {
             <button type="button" className="accept" onClick={() => choose(true)}>{english ? "Accept cookies" : "Aceitar cookies"}</button>
           </div>
         </div>}
-      </section>
+      </div>
       <style jsx>{`
         .consent-backdrop { position: fixed; z-index: 2000; inset: 0; display: flex; align-items: center; justify-content: center; background: rgba(8, 25, 49, .42); padding: 20px; box-sizing: border-box; }
         .consent { width: min(100%, 800px); max-height: calc(100dvh - 40px); overflow-y: auto; box-sizing: border-box; background: #fff; color: #08285c; border: 1px solid #c8d6e8; border-radius: 24px; box-shadow: 0 20px 70px #08285c40; font: 16px/1.65 Arial, sans-serif; }
@@ -207,7 +207,7 @@ export default function CookieConsent({ english = false }) {
         .category-heading { display: flex; align-items: flex-start; justify-content: space-between; gap: 20px; flex-wrap: wrap; }
         .status { background: #edf2f8; padding: 4px 10px; border-radius: 8px; font-size: 13px; font-weight: 700; }
         .duration { font-size: 14px; color: #52647a; padding-top: 12px; border-top: 1px solid #e1e8f1; }
-        footer { padding: 20px 28px 24px; }
+        .panel-footer { padding: 20px 28px 24px; }
         .back { margin-bottom: 16px; }
         .settings-actions { justify-content: flex-end; }
         .toggle { display: flex; align-items: center; gap: 8px; font-size: 14px; font-weight: 700; cursor: pointer; position: relative; margin-bottom: 16px; }
@@ -230,7 +230,7 @@ export default function CookieConsent({ english = false }) {
           .category-nav button { flex: 1 1 140px; padding: 10px; font-size: 14px; }
           .category-content { padding: 20px; min-height: 0; }
           .settings-title { padding: 0 20px; }
-          footer { padding: 18px 20px; }
+          .panel-footer { padding: 18px 20px; }
           .settings-actions button { flex: 1 1 150px; }
         }
         @media(prefers-reduced-motion: reduce) { .switch::after { transition: none; } }
