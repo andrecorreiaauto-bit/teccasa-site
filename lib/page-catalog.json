@@ -1,0 +1,354 @@
+{
+  "groups": [
+    {
+      "title": "Páginas principais",
+      "items": [
+        {
+          "path": "/",
+          "label": "Homepage",
+          "indexable": true
+        },
+        {
+          "path": "/a-empresa",
+          "label": "A empresa",
+          "indexable": true
+        },
+        {
+          "path": "/casas-inteligentes-lisboa",
+          "label": "Domótica e soluções inteligentes em Lisboa",
+          "indexable": true
+        },
+        {
+          "path": "/comandos-garagem",
+          "label": "Comandos de garagem e recetores em Lisboa",
+          "indexable": true
+        },
+        {
+          "path": "/instalacao-automatismos-portoes",
+          "label": "Instalação de Automatismos para Portões",
+          "indexable": true
+        },
+        {
+          "path": "/instalacao-camaras-lisboa",
+          "label": "Câmaras para habitação em Lisboa",
+          "indexable": true
+        },
+        {
+          "path": "/reparacao-portoes-lisboa",
+          "label": "Reparação de portões automáticos em Lisboa",
+          "indexable": true
+        }
+      ]
+    },
+    {
+      "title": "Instalação por zona",
+      "items": [
+        {
+          "path": "/instalacao-automatismos-portoes-alcochete",
+          "label": "Instalação de automatismos para portões em Alcochete",
+          "indexable": true
+        },
+        {
+          "path": "/instalacao-automatismos-portoes-montijo",
+          "label": "Instalação e substituição de motores de portão no Montijo",
+          "indexable": true
+        },
+        {
+          "path": "/instalacao-automatismos-portoes-povoa-santa-iria",
+          "label": "Instalação de motores de portão na Póvoa de Santa Iria",
+          "indexable": true
+        },
+        {
+          "path": "/instalacao-automatismos-portoes-vila-franca-de-xira",
+          "label": "Instalação de automatismos em Vila Franca de Xira",
+          "indexable": true
+        }
+      ]
+    },
+    {
+      "title": "Reparação por zona",
+      "items": [
+        {
+          "path": "/reparacao-portoes-alcochete",
+          "label": "Reparação de portões automáticos em Alcochete",
+          "indexable": true
+        },
+        {
+          "path": "/reparacao-portoes-montijo",
+          "label": "Reparação de portões automáticos no Montijo",
+          "indexable": true
+        },
+        {
+          "path": "/reparacao-portoes-povoa-santa-iria",
+          "label": "Reparação de portões de garagem na Póvoa de Santa Iria",
+          "indexable": true
+        },
+        {
+          "path": "/reparacao-portoes-vila-franca-de-xira",
+          "label": "Reparação de portões em Vila Franca de Xira",
+          "indexable": true
+        }
+      ]
+    },
+    {
+      "title": "Páginas de avarias",
+      "items": [
+        {
+          "path": "/comando-garagem-nao-funciona",
+          "label": "Comando da Garagem Não Funciona?",
+          "indexable": true
+        },
+        {
+          "path": "/comando-garagem-so-funciona-perto",
+          "label": "Comando da Garagem Só Funciona Perto?",
+          "indexable": true
+        },
+        {
+          "path": "/motor-portao-faz-barulho-mas-nao-abre",
+          "label": "Motor do Portão Faz Barulho Mas Não Abre?",
+          "indexable": true
+        },
+        {
+          "path": "/motor-portao-sem-forca",
+          "label": "Motor do Portão Sem Força? Assistência Técnica",
+          "indexable": true
+        },
+        {
+          "path": "/portao-abre-ate-meio",
+          "label": "Portão abre até meio | Reparação de Portões Automáticos",
+          "indexable": true
+        },
+        {
+          "path": "/portao-abre-so-uma-folha",
+          "label": "Portão Abre Só Uma Folha? Reparação de Portões de Batente",
+          "indexable": true
+        },
+        {
+          "path": "/portao-fecha-e-volta-a-abrir",
+          "label": "Portão Fecha e Volta a Abrir? Reparação de Portões",
+          "indexable": true
+        },
+        {
+          "path": "/portao-garagem-nao-abre",
+          "label": "Portão de Garagem Não Abre? Assistência Técnica",
+          "indexable": true
+        },
+        {
+          "path": "/portao-nao-fecha",
+          "label": "Portão Não Fecha? Reparação de Portões e Garagens",
+          "indexable": true
+        }
+      ]
+    },
+    {
+      "title": "Páginas de marcas",
+      "items": [
+        {
+          "path": "/automatismos-beninca-portoes",
+          "label": "Automatismos Beninca para Portões | Instalação e Assistência",
+          "indexable": true
+        },
+        {
+          "path": "/automatismos-bft-portoes",
+          "label": "Automatismos BFT para Portões | Instalação e Assistência",
+          "indexable": true
+        },
+        {
+          "path": "/automatismos-came-portoes",
+          "label": "Automatismos CAME para Portões | Instalação e Assistência",
+          "indexable": true
+        },
+        {
+          "path": "/automatismos-dea-portoes",
+          "label": "Automatismos DEA para Portões | Instalação e Assistência",
+          "indexable": true
+        },
+        {
+          "path": "/automatismos-ditec-portoes",
+          "label": "Automatismos Ditec para Portões | Instalação e Assistência",
+          "indexable": true
+        },
+        {
+          "path": "/automatismos-faac-portoes",
+          "label": "Automatismos FAAC para Portões | Instalação e Assistência",
+          "indexable": true
+        },
+        {
+          "path": "/automatismos-hormann-portoes",
+          "label": "Automatismos Hörmann para Portões | Instalação e Assistência",
+          "indexable": true
+        },
+        {
+          "path": "/automatismos-motorline-portoes",
+          "label": "Automatismos Motorline para Portões | Instalação e Assistência",
+          "indexable": true
+        },
+        {
+          "path": "/automatismos-nice-portoes",
+          "label": "Automatismos Nice para Portões | Instalação e Assistência",
+          "indexable": true
+        },
+        {
+          "path": "/automatismos-roger-technology-portoes",
+          "label": "Automatismos Roger Technology para Portões | Instalação e Assistência",
+          "indexable": true
+        },
+        {
+          "path": "/automatismos-somfy-portoes",
+          "label": "Automatismos Somfy para Portões | Instalação e Assistência",
+          "indexable": true
+        },
+        {
+          "path": "/automatismos-v2-portoes",
+          "label": "Automatismos V2 para Portões | Instalação e Assistência",
+          "indexable": true
+        }
+      ]
+    },
+    {
+      "title": "Kits e instalação de material do cliente",
+      "items": [
+        {
+          "path": "/instalacao-kit-portao-amazon",
+          "label": "Instalação de Kit de Portão Amazon",
+          "indexable": true
+        },
+        {
+          "path": "/instalacao-kit-portao-automatico",
+          "label": "Instalação de Kit de Portão Automático",
+          "indexable": true
+        },
+        {
+          "path": "/instalacao-kit-portao-avidsen",
+          "label": "Instalação de Kit Avidsen para Portão",
+          "indexable": true
+        },
+        {
+          "path": "/instalacao-kit-portao-brico-depot",
+          "label": "Instalação de Kit de Portão Brico Depôt",
+          "indexable": true
+        },
+        {
+          "path": "/instalacao-kit-portao-casanoov",
+          "label": "Instalação de Kit Casanoov para Portão",
+          "indexable": true
+        },
+        {
+          "path": "/instalacao-kit-portao-dimoel",
+          "label": "Instalação de Kit Dimoel para Portão",
+          "indexable": true
+        },
+        {
+          "path": "/instalacao-kit-portao-leroy-merlin",
+          "label": "Instalação de Kit de Portão Leroy Merlin",
+          "indexable": true
+        },
+        {
+          "path": "/instalacao-kit-portao-olx",
+          "label": "Instalação de Kit de Portão OLX",
+          "indexable": true
+        },
+        {
+          "path": "/instalacao-kit-portao-scs-sentinel",
+          "label": "Instalação de Kit SCS Sentinel para Portão",
+          "indexable": true
+        },
+        {
+          "path": "/instalacao-kit-portao-vevor",
+          "label": "Instalação de Kit Vevor para Portão",
+          "indexable": true
+        }
+      ]
+    },
+    {
+      "title": "Páginas EN",
+      "items": [
+        {
+          "path": "/en",
+          "label": "Homepage EN",
+          "indexable": true
+        },
+        {
+          "path": "/en/about",
+          "label": "About us",
+          "indexable": true
+        },
+        {
+          "path": "/en/automatic-gate-installation-lisbon",
+          "label": "Automatic Gate Installation in Lisbon",
+          "indexable": true
+        },
+        {
+          "path": "/en/electric-gate-repair-lisbon",
+          "label": "Electric Gate Repair in Lisbon",
+          "indexable": true
+        },
+        {
+          "path": "/en/garage-door-motor-repair",
+          "label": "Garage Door Motor Repair in Lisbon",
+          "indexable": true
+        },
+        {
+          "path": "/en/garage-remote-controls-lisbon",
+          "label": "Garage Remote Controls in Lisbon",
+          "indexable": true
+        },
+        {
+          "path": "/en/gate-remote-control-not-working",
+          "label": "Gate Remote Control Not Working?",
+          "indexable": true
+        },
+        {
+          "path": "/en/security-cameras-lisbon",
+          "label": "Security Camera Installation in Lisbon",
+          "indexable": true
+        }
+      ]
+    },
+    {
+      "title": "Informação legal e privacidade",
+      "items": [
+        {
+          "path": "/condicoes-servicos",
+          "label": "Condições dos serviços",
+          "indexable": false
+        },
+        {
+          "path": "/cookies",
+          "label": "Política de cookies",
+          "indexable": false
+        },
+        {
+          "path": "/en/cookies",
+          "label": "Cookie policy",
+          "indexable": false
+        },
+        {
+          "path": "/en/legal",
+          "label": "Legal information",
+          "indexable": false
+        },
+        {
+          "path": "/en/privacy",
+          "label": "Privacy policy",
+          "indexable": false
+        },
+        {
+          "path": "/en/service-terms",
+          "label": "Service terms",
+          "indexable": false
+        },
+        {
+          "path": "/informacao-legal",
+          "label": "Informação legal",
+          "indexable": false
+        },
+        {
+          "path": "/privacidade",
+          "label": "Política de privacidade",
+          "indexable": false
+        }
+      ]
+    }
+  ]
+}

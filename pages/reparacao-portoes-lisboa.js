@@ -1,3 +1,4 @@
+import LocalAreas from "../components/LocalAreas";
 import { useEffect, useState } from "react";
 import Head from "next/head";
 export default function ReparacaoPortoes() {
@@ -74,13 +75,11 @@ export default function ReparacaoPortoes() {
                                                   <>
                                                   <Head>
                                                   
-                                                  <title>
-                                                  TecCasa Soluções | Portões Automáticos, Automatismos e Domótica em Lisboa
-                                                  </title>
+                                                  <title>Reparação de portões automáticos em Lisboa | TecCasa Soluções</title>
                                                   
                                                   <meta
                                                   name="description"
-                                                  content="Automatismos, portões automáticos, comandos, domótica, vigilância e assistência técnica em Lisboa e arredores."
+                                                  content="Assistência técnica a portões de correr, batente e garagem em Lisboa e arredores. Diagnóstico da avaria e explicação da reparação antes de avançar."
                                                   />
                                                   
                                                   <meta
@@ -104,11 +103,11 @@ export default function ReparacaoPortoes() {
                                                   
                                                   <meta name="viewport" content="width=device-width, initial-scale=1" />
                                                   
-                                                  <meta property="og:title" content="TecCasa Soluções" />
+                                                  <meta property="og:title" content="Reparação de portões automáticos em Lisboa | TecCasa Soluções" />
                                                   
                                                   <meta
                                                   property="og:description"
-                                                  content="Automatismos, reparações, domótica e soluções inteligentes."
+                                                  content="Assistência técnica a portões de correr, batente e garagem em Lisboa e arredores. Diagnóstico da avaria e explicação da reparação antes de avançar."
                                                   />
 
                                                   <meta 
@@ -635,13 +634,13 @@ gap:"10px"
                                                 maxWidth:"1100px",
                                                 margin:"0 auto"
                                               }}>
-                                                <h1 style={{
+                                                <h2 style={{
                                                   fontSize:"42px",
                                                   color:"#08285c",
                                                   marginBottom:"18px"
                                                 }}>
                                                   Reparação de Portões Automáticos em Lisboa
-                                                </h1>
+                                                </h2>
                                               
                                                 <p style={{
                                                   fontSize:"20px",
@@ -691,6 +690,8 @@ gap:"10px"
                                                 </div>
                                               </section>
                                                      
+  <LocalAreas />
+
   <footer style={{
 marginTop:"80px",
 padding:"45px 30px",

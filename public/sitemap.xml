@@ -1,202 +1,210 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://tec-casa.pt/</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://tec-casa.pt/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://tec-casa.pt/en" />
   </url>
-
-  <url>
-    <loc>https://tec-casa.pt/reparacao-portoes-lisboa</loc>
-  </url>
-
-  <url>
-    <loc>https://tec-casa.pt/comandos-garagem</loc>
-  </url>
-
-  <url>
-    <loc>https://tec-casa.pt/casas-inteligentes-lisboa</loc>
-  </url>
-
-  <url>
-    <loc>https://tec-casa.pt/instalacao-camaras-lisboa</loc>
-  </url>
-
-  <url>
-  <loc>https://tec-casa.pt/reparacao-portoes-alcochete</loc>
-</url>
-
-  <url>
-  <loc>https://tec-casa.pt/reparacao-portoes-montijo</loc>
-</url>
-
-  <url>
-  <loc>https://tec-casa.pt/reparacao-portoes-vila-franca-de-xira</loc>
-</url>
-
-  <url>
-  <loc>https://tec-casa.pt/reparacao-portoes-povoa-santa-iria</loc>
-</url>
-  
-  <url>
-  <loc>https://tec-casa.pt/comando-garagem-nao-funciona</loc>
-</url>
-
-  <url>
-  <loc>https://tec-casa.pt/portao-abre-ate-meio</loc>
-</url>
-
-  <url>
-  <loc>https://tec-casa.pt/portao-nao-fecha</loc>
-</url>
-
-  <url>
-  <loc>https://tec-casa.pt/portao-abre-so-uma-folha</loc>
-</url>
-
-  <url>
-  <loc>https://tec-casa.pt/comando-garagem-so-funciona-perto</loc>
-</url>
-
-  <url>
-  <loc>https://tec-casa.pt/portao-fecha-e-volta-a-abrir</loc>
-</url>
-
-  <url>
-  <loc>https://tec-casa.pt/motor-portao-faz-barulho-mas-nao-abre</loc>
-</url>
-
-  <url>
-  <loc>https://tec-casa.pt/portao-garagem-nao-abre</loc>
-</url>
-
-  <url>
-  <loc>https://tec-casa.pt/motor-portao-sem-forca</loc>
-</url>
-
-  <url>
-  <loc>https://tec-casa.pt/automatismos-motorline-portoes</loc>
-</url>
-
-  <url>
-  <loc>https://tec-casa.pt/automatismos-bft-portoes</loc>
-</url>
-
-  <url>
-  <loc>https://tec-casa.pt/instalacao-kit-portao-automatico</loc>
-</url>
-
-  <url>
-  <loc>https://tec-casa.pt/instalacao-automatismos-portoes</loc>
-</url>
-
-  <url>
-  <loc>https://tec-casa.pt/automatismos-nice-portoes</loc>
-</url>
-
-  <url>
-  <loc>https://tec-casa.pt/automatismos-faac-portoes</loc>
-</url>
-
-  <url>
-  <loc>https://tec-casa.pt/automatismos-ditec-portoes</loc>
-</url>
-
-  <url>
-  <loc>https://tec-casa.pt/automatismos-roger-technology-portoes</loc>
-</url>
-
-  <url>
-  <loc>https://tec-casa.pt/automatismos-came-portoes</loc>
-</url>
-
-  <url>
-  <loc>https://tec-casa.pt/automatismos-hormann-portoes</loc>
-</url>
-
-  <url>
-  <loc>https://tec-casa.pt/automatismos-dea-portoes</loc>
-</url>
-
-  <url>
-  <loc>https://tec-casa.pt/automatismos-beninca-portoes</loc>
-</url>
-
-  <url>
-  <loc>https://tec-casa.pt/automatismos-somfy-portoes</loc>
-</url>
-
-  <url>
-  <loc>https://tec-casa.pt/automatismos-v2-portoes</loc>
-</url>
-
-  <url>
-  <loc>https://tec-casa.pt/en</loc>
-</url>
-
-<url>
-  <loc>https://tec-casa.pt/en/electric-gate-repair-lisbon</loc>
-</url>
-
-<url>
-  <loc>https://tec-casa.pt/en/automatic-gate-installation-lisbon</loc>
-</url>
-
-<url>
-  <loc>https://tec-casa.pt/en/garage-remote-controls-lisbon</loc>
-</url>
-
-<url>
-  <loc>https://tec-casa.pt/en/security-cameras-lisbon</loc>
-</url>
-
-<url>
-  <loc>https://tec-casa.pt/en/gate-remote-control-not-working</loc>
-</url>
-
-<url>
-  <loc>https://tec-casa.pt/en/garage-door-motor-repair</loc>
-</url>
-
-  <url>
-  <loc>https://tec-casa.pt/instalacao-kit-portao-leroy-merlin</loc>
-</url>
-
-  <url>
-  <loc>https://tec-casa.pt/instalacao-kit-portao-brico-depot</loc>
-</url>
-
-  <url>
-  <loc>https://tec-casa.pt/instalacao-kit-portao-amazon</loc>
-</url>
-
-<url>
-  <loc>https://tec-casa.pt/instalacao-kit-portao-olx</loc>
-</url>
-
-  <url>
-  <loc>https://tec-casa.pt/instalacao-kit-portao-casanoov</loc>
-</url>
-
-  <url>
-  <loc>https://tec-casa.pt/instalacao-kit-portao-vevor</loc>
-</url>
-
-<url>
-  <loc>https://tec-casa.pt/instalacao-kit-portao-avidsen</loc>
-</url>
-
-<url>
-  <loc>https://tec-casa.pt/instalacao-kit-portao-dimoel</loc>
-</url>
-
-<url>
-  <loc>https://tec-casa.pt/instalacao-kit-portao-scs-sentinel</loc>
-</url>
-
   <url>
     <loc>https://tec-casa.pt/a-empresa</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://tec-casa.pt/a-empresa" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://tec-casa.pt/en/about" />
+  </url>
+  <url>
+    <loc>https://tec-casa.pt/automatismos-beninca-portoes</loc>
+  </url>
+  <url>
+    <loc>https://tec-casa.pt/automatismos-bft-portoes</loc>
+  </url>
+  <url>
+    <loc>https://tec-casa.pt/automatismos-came-portoes</loc>
+  </url>
+  <url>
+    <loc>https://tec-casa.pt/automatismos-dea-portoes</loc>
+  </url>
+  <url>
+    <loc>https://tec-casa.pt/automatismos-ditec-portoes</loc>
+  </url>
+  <url>
+    <loc>https://tec-casa.pt/automatismos-faac-portoes</loc>
+  </url>
+  <url>
+    <loc>https://tec-casa.pt/automatismos-hormann-portoes</loc>
+  </url>
+  <url>
+    <loc>https://tec-casa.pt/automatismos-motorline-portoes</loc>
+  </url>
+  <url>
+    <loc>https://tec-casa.pt/automatismos-nice-portoes</loc>
+  </url>
+  <url>
+    <loc>https://tec-casa.pt/automatismos-roger-technology-portoes</loc>
+  </url>
+  <url>
+    <loc>https://tec-casa.pt/automatismos-somfy-portoes</loc>
+  </url>
+  <url>
+    <loc>https://tec-casa.pt/automatismos-v2-portoes</loc>
+  </url>
+  <url>
+    <loc>https://tec-casa.pt/casas-inteligentes-lisboa</loc>
+    <lastmod>2026-10-30</lastmod>
+  </url>
+  <url>
+    <loc>https://tec-casa.pt/comando-garagem-nao-funciona</loc>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://tec-casa.pt/comando-garagem-nao-funciona" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://tec-casa.pt/en/gate-remote-control-not-working" />
+  </url>
+  <url>
+    <loc>https://tec-casa.pt/comando-garagem-so-funciona-perto</loc>
+  </url>
+  <url>
+    <loc>https://tec-casa.pt/comandos-garagem</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://tec-casa.pt/comandos-garagem" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://tec-casa.pt/en/garage-remote-controls-lisbon" />
+  </url>
+  <url>
+    <loc>https://tec-casa.pt/en</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://tec-casa.pt/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://tec-casa.pt/en" />
   </url>
   <url>
     <loc>https://tec-casa.pt/en/about</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://tec-casa.pt/a-empresa" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://tec-casa.pt/en/about" />
+  </url>
+  <url>
+    <loc>https://tec-casa.pt/en/automatic-gate-installation-lisbon</loc>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://tec-casa.pt/instalacao-automatismos-portoes" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://tec-casa.pt/en/automatic-gate-installation-lisbon" />
+  </url>
+  <url>
+    <loc>https://tec-casa.pt/en/electric-gate-repair-lisbon</loc>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://tec-casa.pt/reparacao-portoes-lisboa" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://tec-casa.pt/en/electric-gate-repair-lisbon" />
+  </url>
+  <url>
+    <loc>https://tec-casa.pt/en/garage-door-motor-repair</loc>
+  </url>
+  <url>
+    <loc>https://tec-casa.pt/en/garage-remote-controls-lisbon</loc>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://tec-casa.pt/comandos-garagem" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://tec-casa.pt/en/garage-remote-controls-lisbon" />
+  </url>
+  <url>
+    <loc>https://tec-casa.pt/en/gate-remote-control-not-working</loc>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://tec-casa.pt/comando-garagem-nao-funciona" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://tec-casa.pt/en/gate-remote-control-not-working" />
+  </url>
+  <url>
+    <loc>https://tec-casa.pt/en/security-cameras-lisbon</loc>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://tec-casa.pt/instalacao-camaras-lisboa" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://tec-casa.pt/en/security-cameras-lisbon" />
+  </url>
+  <url>
+    <loc>https://tec-casa.pt/instalacao-automatismos-portoes</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://tec-casa.pt/instalacao-automatismos-portoes" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://tec-casa.pt/en/automatic-gate-installation-lisbon" />
+  </url>
+  <url>
+    <loc>https://tec-casa.pt/instalacao-automatismos-portoes-alcochete</loc>
+    <lastmod>2026-10-30</lastmod>
+  </url>
+  <url>
+    <loc>https://tec-casa.pt/instalacao-automatismos-portoes-montijo</loc>
+    <lastmod>2026-10-30</lastmod>
+  </url>
+  <url>
+    <loc>https://tec-casa.pt/instalacao-automatismos-portoes-povoa-santa-iria</loc>
+    <lastmod>2026-10-30</lastmod>
+  </url>
+  <url>
+    <loc>https://tec-casa.pt/instalacao-automatismos-portoes-vila-franca-de-xira</loc>
+    <lastmod>2026-10-30</lastmod>
+  </url>
+  <url>
+    <loc>https://tec-casa.pt/instalacao-camaras-lisboa</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://tec-casa.pt/instalacao-camaras-lisboa" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://tec-casa.pt/en/security-cameras-lisbon" />
+  </url>
+  <url>
+    <loc>https://tec-casa.pt/instalacao-kit-portao-amazon</loc>
+  </url>
+  <url>
+    <loc>https://tec-casa.pt/instalacao-kit-portao-automatico</loc>
+  </url>
+  <url>
+    <loc>https://tec-casa.pt/instalacao-kit-portao-avidsen</loc>
+  </url>
+  <url>
+    <loc>https://tec-casa.pt/instalacao-kit-portao-brico-depot</loc>
+  </url>
+  <url>
+    <loc>https://tec-casa.pt/instalacao-kit-portao-casanoov</loc>
+  </url>
+  <url>
+    <loc>https://tec-casa.pt/instalacao-kit-portao-dimoel</loc>
+  </url>
+  <url>
+    <loc>https://tec-casa.pt/instalacao-kit-portao-leroy-merlin</loc>
+  </url>
+  <url>
+    <loc>https://tec-casa.pt/instalacao-kit-portao-olx</loc>
+  </url>
+  <url>
+    <loc>https://tec-casa.pt/instalacao-kit-portao-scs-sentinel</loc>
+  </url>
+  <url>
+    <loc>https://tec-casa.pt/instalacao-kit-portao-vevor</loc>
+  </url>
+  <url>
+    <loc>https://tec-casa.pt/motor-portao-faz-barulho-mas-nao-abre</loc>
+  </url>
+  <url>
+    <loc>https://tec-casa.pt/motor-portao-sem-forca</loc>
+  </url>
+  <url>
+    <loc>https://tec-casa.pt/portao-abre-ate-meio</loc>
+  </url>
+  <url>
+    <loc>https://tec-casa.pt/portao-abre-so-uma-folha</loc>
+  </url>
+  <url>
+    <loc>https://tec-casa.pt/portao-fecha-e-volta-a-abrir</loc>
+  </url>
+  <url>
+    <loc>https://tec-casa.pt/portao-garagem-nao-abre</loc>
+  </url>
+  <url>
+    <loc>https://tec-casa.pt/portao-nao-fecha</loc>
+  </url>
+  <url>
+    <loc>https://tec-casa.pt/reparacao-portoes-alcochete</loc>
+    <lastmod>2026-10-30</lastmod>
+  </url>
+  <url>
+    <loc>https://tec-casa.pt/reparacao-portoes-lisboa</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://tec-casa.pt/reparacao-portoes-lisboa" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://tec-casa.pt/en/electric-gate-repair-lisbon" />
+  </url>
+  <url>
+    <loc>https://tec-casa.pt/reparacao-portoes-montijo</loc>
+    <lastmod>2026-10-30</lastmod>
+  </url>
+  <url>
+    <loc>https://tec-casa.pt/reparacao-portoes-povoa-santa-iria</loc>
+    <lastmod>2026-10-30</lastmod>
+  </url>
+  <url>
+    <loc>https://tec-casa.pt/reparacao-portoes-vila-franca-de-xira</loc>
+    <lastmod>2026-10-30</lastmod>
   </url>
 </urlset>

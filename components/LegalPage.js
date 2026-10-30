@@ -13,7 +13,7 @@ export default function LegalPage({ type, english = false }) {
   const preferences = () => window.dispatchEvent(new Event("teccasa:cookie-preferences"));
   return <>
     <Head>
-      <title>{title} | TecCasa Soluções</title>
+      <title>{`${title} | TecCasa Soluções`}</title>
       <meta name="description" content={`${title} — TecCasa Soluções.`} />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <meta name="robots" content="noindex, follow" />

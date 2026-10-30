@@ -74,13 +74,11 @@ export default function ComandosGaragem() {
                                                   <>
                                                   <Head>
                                                   
-                                                  <title>
-                                                  TecCasa Soluções | Portões Automáticos, Automatismos e Domótica em Lisboa
-                                                  </title>
+                                                  <title>Comandos de garagem e recetores em Lisboa | TecCasa Soluções</title>
                                                   
                                                   <meta
                                                   name="description"
-                                                  content="Automatismos, portões automáticos, comandos, domótica, vigilância e assistência técnica em Lisboa e arredores."
+                                                  content="Comandos para portões e garagens em Lisboa. Identificação do sistema, avaliação de compatibilidade e programação de comandos e recetores."
                                                   />
                                                   
                                                   <meta
@@ -104,11 +102,11 @@ export default function ComandosGaragem() {
                                                   
                                                   <meta name="viewport" content="width=device-width, initial-scale=1" />
                                                   
-                                                  <meta property="og:title" content="TecCasa Soluções" />
+                                                  <meta property="og:title" content="Comandos de garagem e recetores em Lisboa | TecCasa Soluções" />
                                                   
                                                   <meta
                                                   property="og:description"
-                                                  content="Automatismos, reparações, domótica e soluções inteligentes."
+                                                  content="Comandos para portões e garagens em Lisboa. Identificação do sistema, avaliação de compatibilidade e programação de comandos e recetores."
                                                   />
 
                                                   <meta 
@@ -123,7 +121,7 @@ export default function ComandosGaragem() {
                                                   
                                                   <meta
                                                   property="og:url"
-                                                  content="https://tec-casa.pt"
+                                                  content="https://tec-casa.pt/comandos-garagem"
                                                   />
                                                   
                                                   <meta property="og:type" content="website" />
@@ -138,7 +136,7 @@ export default function ComandosGaragem() {
                                                         
                                                         <link rel="manifest" href="/site.webmanifest" />
 
-                                                  <link rel="canonical" href="https://tec-casa.pt" />
+                                                  <link rel="canonical" href="https://tec-casa.pt/comandos-garagem" />
 
                                                   <link rel="alternate" hrefLang="pt-PT" href="https://tec-casa.pt/comandos-garagem" />
                                                   <link rel="alternate" hrefLang="en" href="https://tec-casa.pt/en/garage-remote-controls-lisbon" />

@@ -74,13 +74,11 @@ export default function InstalacaoCamarasLisboa() {
                                                   <>
                                                   <Head>
                                                   
-                                                  <title>
-                                                  TecCasa Soluções | Portões Automáticos, Automatismos e Domótica em Lisboa
-                                                  </title>
+                                                  <title>Câmaras para habitação em Lisboa | TecCasa Soluções</title>
                                                   
                                                   <meta
                                                   name="description"
-                                                  content="Automatismos, portões automáticos, comandos, domótica, vigilância e assistência técnica em Lisboa e arredores."
+                                                  content="Soluções de câmaras para acompanhar a sua habitação em Lisboa e arredores. Planeamento da cobertura e ajuda na utilização do equipamento."
                                                   />
                                                   
                                                   <meta
@@ -104,11 +102,11 @@ export default function InstalacaoCamarasLisboa() {
                                                   
                                                   <meta name="viewport" content="width=device-width, initial-scale=1" />
                                                   
-                                                  <meta property="og:title" content="TecCasa Soluções" />
+                                                  <meta property="og:title" content="Câmaras para habitação em Lisboa | TecCasa Soluções" />
                                                   
                                                   <meta
                                                   property="og:description"
-                                                  content="Automatismos, reparações, domótica e soluções inteligentes."
+                                                  content="Soluções de câmaras para acompanhar a sua habitação em Lisboa e arredores. Planeamento da cobertura e ajuda na utilização do equipamento."
                                                   />
 
                                                   <meta 
@@ -123,7 +121,7 @@ export default function InstalacaoCamarasLisboa() {
                                                   
                                                   <meta
                                                   property="og:url"
-                                                  content="https://tec-casa.pt"
+                                                  content="https://tec-casa.pt/instalacao-camaras-lisboa"
                                                   />
                                                   
                                                   <meta property="og:type" content="website" />
@@ -138,7 +136,7 @@ export default function InstalacaoCamarasLisboa() {
                                                         
                                                         <link rel="manifest" href="/site.webmanifest" />
 
-                                                  <link rel="canonical" href="https://tec-casa.pt" />
+                                                  <link rel="canonical" href="https://tec-casa.pt/instalacao-camaras-lisboa" />
 
                                                   <link rel="alternate" hrefLang="pt-PT" href="https://tec-casa.pt/instalacao-camaras-lisboa" />
                                                   <link rel="alternate" hrefLang="en" href="https://tec-casa.pt/en/security-cameras-lisbon" />

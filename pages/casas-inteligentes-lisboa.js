@@ -74,13 +74,11 @@ export default function CasasInteligentesLisboa() {
                                                   <>
                                                   <Head>
                                                   
-                                                  <title>
-                                                  TecCasa Soluções | Portões Automáticos, Automatismos e Domótica em Lisboa
-                                                  </title>
+                                                  <title>Domótica e soluções inteligentes em Lisboa | TecCasa Soluções</title>
                                                   
                                                   <meta
                                                   name="description"
-                                                  content="Automatismos, portões automáticos, comandos, domótica, vigilância e assistência técnica em Lisboa e arredores."
+                                                  content="Soluções de domótica para iluminação, estores e controlo da casa em Lisboa e arredores. Avaliação do que pretende automatizar e contacto direto."
                                                   />
                                                   
                                                   <meta
@@ -104,11 +102,11 @@ export default function CasasInteligentesLisboa() {
                                                   
                                                   <meta name="viewport" content="width=device-width, initial-scale=1" />
                                                   
-                                                  <meta property="og:title" content="TecCasa Soluções" />
+                                                  <meta property="og:title" content="Domótica e soluções inteligentes em Lisboa | TecCasa Soluções" />
                                                   
                                                   <meta
                                                   property="og:description"
-                                                  content="Automatismos, reparações, domótica e soluções inteligentes."
+                                                  content="Soluções de domótica para iluminação, estores e controlo da casa em Lisboa e arredores. Avaliação do que pretende automatizar e contacto direto."
                                                   />
 
                                                   <meta 
@@ -123,7 +121,7 @@ export default function CasasInteligentesLisboa() {
                                                   
                                                   <meta
                                                   property="og:url"
-                                                  content="https://tec-casa.pt"
+                                                  content="https://tec-casa.pt/casas-inteligentes-lisboa"
                                                   />
                                                   
                                                   <meta property="og:type" content="website" />
@@ -138,7 +136,7 @@ export default function CasasInteligentesLisboa() {
                                                         
                                                         <link rel="manifest" href="/site.webmanifest" />
 
-                                                  <link rel="canonical" href="https://tec-casa.pt" />
+                                                  <link rel="canonical" href="https://tec-casa.pt/casas-inteligentes-lisboa" />
                                                   
                                                   </Head>
     <div className="page">

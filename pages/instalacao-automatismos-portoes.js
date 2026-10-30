@@ -1,3 +1,4 @@
+import LocalAreas from "../components/LocalAreas";
 import { useEffect, useState } from "react";
 import Head from "next/head";
 export default function InstalacaoAutomatismosPortoes() {
@@ -862,6 +863,8 @@ gap:"10px"
 
                                                                                       
                                                      
+  <LocalAreas />
+
   <footer style={{
 marginTop:"80px",
 padding:"45px 30px",

@@ -1,3 +1,4 @@
+import LocalAreas from "../../components/LocalAreas";
 import CompanyIntro from "../../components/CompanyIntro";
 import { useEffect, useState, useRef } from "react";
 import Head from "next/head";
@@ -1204,6 +1205,8 @@ Technical support focused on diagnosis, clear communication and local assistance
 
                                                                   
  
+  <LocalAreas english />
+
   <CompanyIntro english />
 
   <footer style={{
