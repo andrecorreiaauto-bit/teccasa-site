@@ -1,4 +1,3 @@
-import LocalAreas from "../components/LocalAreas";
 import { useEffect, useState } from "react";
 import Head from "next/head";
 export default function ReparacaoPortoes() {
@@ -689,8 +688,6 @@ gap:"10px"
                                                   </a>
                                                 </div>
                                               </section>
-                                                     
-  <LocalAreas />
 
   <footer style={{
 marginTop:"80px",

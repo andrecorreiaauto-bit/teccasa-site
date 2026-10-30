@@ -1,5 +1,4 @@
 import SeoDirectory from "../components/SeoDirectory";
-import LocalAreas from "../components/LocalAreas";
 import CompanyIntro from "../components/CompanyIntro";
 import { useEffect, useState, useRef } from "react";
 import Head from "next/head";
@@ -1253,8 +1252,6 @@ Soluções técnicas com foco em diagnóstico, transparência e apoio próximo.
                                  </section>
 
                                                                   {showSeoPanel && <SeoDirectory onClose={() => setShowSeoPanel(false)} />}
-
-  <LocalAreas />
 
   <CompanyIntro />
 

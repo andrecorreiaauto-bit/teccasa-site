@@ -32,7 +32,6 @@ const records = files.map(file => {
 }).sort((a, b) => a.path.localeCompare(b.path));
 const paths = new Set(records.map(item => item.path));
 if (paths.size !== records.length) throw new Error("Duplicate page route");
-for (const page of Object.values(localPages)) if (!paths.has('/' + page.pairedSlug)) throw new Error(`Missing paired service: ${page.slug}`);
 const groups = groupOrder.map(title => ({ title, items: records.filter(item => item.group === title).map(({ group, ...item }) => item) })).filter(group => group.items.length);
 writeFileSync(join(root, "lib/page-catalog.json"), JSON.stringify({ groups }, null, 2) + "\n");
 const xmlEscape = value => value.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
