@@ -5,8 +5,8 @@ export default function CompanyPage({ english = false }) {
   const path = english ? "/en/about" : "/a-empresa";
   const title = english ? "About us | TecCasa Soluções" : "A empresa | TecCasa Soluções";
   const description = english
-    ? "Meet TecCasa Soluções and André Correia: gate automation, repairs and smart home solutions with personal service in Lisbon and the surrounding area."
-    : "Conheça a TecCasa Soluções e André Correia. Automatismos, reparações e soluções inteligentes com contacto direto em Lisboa e arredores. NIPC 519682742.";
+    ? "Meet TecCasa Soluções: gate automation, repairs and smart home solutions, with direct contact and support bases on both banks of the Tagus."
+    : "Conheça a TecCasa Soluções. Automatismos, reparações e soluções inteligentes com contacto direto e duas bases de apoio, nas margens norte e sul do Tejo.";
   return (
     <>
       <Head>
@@ -35,13 +35,13 @@ export default function CompanyPage({ english = false }) {
         <main>
           <section className="hero">
             <span>{english ? "About us" : "A empresa"}</span>
-            <h1>{english ? "Someone you can talk to. A service you can understand." : "Uma pessoa com quem falar. Um serviço que pode compreender."}</h1>
+            <h1>{english ? "A company close to you. Support at every stage." : "Uma empresa próxima. Apoio em cada etapa."}</h1>
             <p>{english ? "Gate automation, repairs and smart home solutions with direct contact and care at every stage." : "Automatismos, reparações e soluções inteligentes com contacto direto e cuidado em cada etapa."}</p>
           </section>
           <section className="story">
-            <h2>{english ? "The people behind TecCasa" : "Quem está por trás da TecCasa"}</h2>
-            <p>{english ? "TecCasa Soluções is led by André Correia, whose background is in automotive mechatronics, automotive electrical work and workshop management. It grew from an interest in diagnosing faults, repairing equipment and finding practical solutions to everyday problems." : "A TecCasa Soluções é um projeto liderado por André Correia, com formação em mecatrónica automóvel e experiência em eletricidade automóvel e chefia de oficina. Nasceu da vontade de aplicar esse conhecimento técnico ao diagnóstico, à reparação de equipamentos e à procura de soluções práticas para o dia a dia."}</p>
-            <p>{english ? "Based in Portela da Azoia, we serve homes and condominiums in Lisbon and the surrounding area, within an approximate 45 km radius. We focus on gate automation, garage remote controls and receivers, smart home systems and technical assistance." : "Com base na Portela da Azoia, apoiamos particulares e condomínios em Lisboa e arredores, num raio aproximado de 45 km. Trabalhamos com automatismos para portões, comandos e recetores, domótica e assistência técnica."}</p>
+            <h2>{english ? "Close to our customers" : "Sempre em proximidade com os nossos clientes"}</h2>
+            <p>{english ? "TecCasa Soluções installs, repairs and services gate automation, remote controls and receivers, smart home systems and intelligent solutions for homes and condominiums. We follow each request with care, from the initial assessment to the work itself and support afterwards." : "A TecCasa Soluções dedica-se à instalação, reparação e assistência técnica de automatismos para portões, comandos e recetores, domótica e soluções inteligentes para habitações e condomínios. Acompanhamos cada pedido com atenção, desde a análise inicial à execução do trabalho e ao apoio após a intervenção."}</p>
+            <p>{english ? "We have two support bases, one on the north bank and one on the south bank of the Tagus, keeping us close to our customers in Lisbon and the surrounding area." : "Contamos com duas bases de apoio, uma na margem norte e outra na margem sul do Tejo, para estarmos próximos dos nossos clientes em Lisboa e arredores."}</p>
             <p>{english ? "When you contact TecCasa, you can speak directly with the person who assesses and carries out the work. We take time to understand your needs, explain the available options and recommend a solution suited to your equipment, its use and your budget." : "Ao contactar a TecCasa, pode falar diretamente com quem analisa e executa o trabalho. Dedicamos tempo a perceber a necessidade, explicar as opções e propor uma solução adequada ao equipamento, à utilização e ao orçamento de cada cliente."}</p>
           </section>
           <section className="principles" aria-label={english ? "How we work" : "Como trabalhamos"}>
@@ -65,7 +65,7 @@ export default function CompanyPage({ english = false }) {
             <h2>{english ? "Tell us what you need" : "Conte-nos o que precisa"}</h2>
             <p>{english ? "Describe the situation or send photos of the equipment. We will help you understand the next step." : "Descreva a situação ou envie fotografias do equipamento. Ajudamo-lo a perceber qual o próximo passo."}</p>
             <div className="actions">
-              <a className="primary" href="https://wa.me/351922021980" target="_blank" rel="noopener noreferrer">{english ? "Talk to André on WhatsApp" : "Falar com o André por WhatsApp"}</a>
+              <a className="primary" href="https://wa.me/351922021980" target="_blank" rel="noopener noreferrer">{english ? "Contact TecCasa on WhatsApp" : "Falar com a TecCasa por WhatsApp"}</a>
               <a href="tel:+351922021980">{english ? "Call 922 021 980" : "Ligar 922 021 980"}</a>
               <a href={`mailto:${company.email}`}>{company.email}</a>
             </div>
