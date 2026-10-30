@@ -10,6 +10,7 @@ export default function CompanyIdentity({ english = false }) {
       </p>
       <p>NIPC: {company.taxId} · <a href={`mailto:${company.email}`}>{company.email}</a> · <a href={`tel:${company.telephone}`}>922 021 980</a></p>
       <div className="policy-links">
+        <a href="https://livroreclamacoes.pt/inicio/qrcode_operator?economicoperator=43126374" target="_blank" rel="noopener noreferrer">{english ? "Electronic Complaints Book" : "Livro de Reclamações Eletrónico"}</a>
         <a href={english ? "/en/legal" : "/informacao-legal"}>{english ? "Legal information" : "Informação legal"}</a>
         <a href={english ? "/en/privacy" : "/privacidade"}>{english ? "Privacy" : "Privacidade"}</a>
         <a href={english ? "/en/cookies" : "/cookies"}>Cookies</a>
