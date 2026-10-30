@@ -73,7 +73,7 @@ export default function LocalServicePage({ page }) {
       figure img { display:block; width:100%; height:auto; border-radius:18px; }
       figcaption { font-size:12px; line-height:1.5; margin-top:10px; color:#667385; }
       .actions { display:flex; align-items:center; flex-wrap:wrap; gap:14px 20px; margin-top:26px; }
-      .primary { background:#158347; color:white; padding:13px 20px; border-radius:12px; font-weight:700; text-decoration:none; }
+      .primary { background:#25D366; color:white; padding:13px 20px; border-radius:12px; font-weight:700; text-decoration:none; }
       .phone { font-weight:700; }
       .call-note { font-size:12px; color:#526075; margin:12px 0 0; }
       .introduction { max-width:880px; margin:60px auto 38px; }
@@ -91,7 +91,6 @@ export default function LocalServicePage({ page }) {
       details p { margin:16px 0 0; }
       .contact { background:#0b2c5f; color:white; padding:40px; border-radius:24px; }
       .contact h2,.contact a { color:white; }
-      .contact .primary { background:#fff; color:#08285c; }
       .small-links { font-size:14px; margin:26px 0 0; }
       a:focus-visible,summary:focus-visible { outline:3px solid #e4a719; outline-offset:5px; }
       @media(max-width:850px) { .hero { grid-template-columns:1fr; gap:25px; } .hero figure { max-width:650px; } }
