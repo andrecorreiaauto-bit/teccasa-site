@@ -6,8 +6,8 @@ export default function CompanyPage({ english = false }) {
   const path = english ? "/en/about" : "/a-empresa";
   const title = english ? "About us | TecCasa Soluções" : "A empresa | TecCasa Soluções";
   const description = english
-    ? "Meet TecCasa Soluções: gate automation, repairs and smart home solutions, with direct contact and support bases on both banks of the Tagus."
-    : "Conheça a TecCasa Soluções. Automatismos, reparações e soluções inteligentes com contacto direto e duas bases de apoio, nas margens norte e sul do Tejo.";
+    ? "Meet TecCasa Soluções, a small gate automation, repairs and smart home business. Speak directly with the person who assesses and carries out the work."
+    : "Conheça a TecCasa Soluções, uma pequena empresa de automatismos, reparações e domótica. Fale diretamente com quem analisa e executa o trabalho.";
   return (
     <>
       <Head>
@@ -29,31 +29,31 @@ export default function CompanyPage({ english = false }) {
         <main>
           <section className="hero">
             <span>{english ? "About us" : "A empresa"}</span>
-            <h1>{english ? "A company close to you. Support at every stage." : "Uma empresa próxima. Apoio em cada etapa."}</h1>
-            <p>{english ? "Gate automation, repairs and smart home solutions with direct contact and care at every stage." : "Automatismos, reparações e soluções inteligentes com contacto direto e cuidado em cada etapa."}</p>
+            <h1>{english ? "A small business, close to you." : "Uma pequena empresa, perto de si."}</h1>
+            <p>{english ? "When you get in touch, you speak directly with the person who will assess the problem and carry out the work." : "Quando nos contacta, fala diretamente com quem vai analisar o problema e fazer o trabalho."}</p>
           </section>
           <section className="story">
-            <h2>{english ? "Close to our customers" : "Sempre em proximidade com os nossos clientes"}</h2>
-            <p>{english ? "TecCasa Soluções installs, repairs and services gate automation, remote controls and receivers, smart home systems and intelligent solutions for homes and condominiums. We follow each request with care, from the initial assessment to the work itself and support afterwards." : "A TecCasa Soluções dedica-se à instalação, reparação e assistência técnica de automatismos para portões, comandos e recetores, domótica e soluções inteligentes para habitações e condomínios. Acompanhamos cada pedido com atenção, desde a análise inicial à execução do trabalho e ao apoio após a intervenção."}</p>
-            <p>{english ? "We have two support bases, one on the north bank and one on the south bank of the Tagus, keeping us close to our customers in Lisbon and the surrounding area." : "Contamos com duas bases de apoio, uma na margem norte e outra na margem sul do Tejo, para estarmos próximos dos nossos clientes em Lisboa e arredores."}</p>
-            <p>{english ? "When you contact TecCasa, you can speak directly with the person who assesses and carries out the work. We take time to understand your needs, explain the available options and recommend a solution suited to your equipment, its use and your budget." : "Ao contactar a TecCasa, pode falar diretamente com quem analisa e executa o trabalho. Dedicamos tempo a perceber a necessidade, explicar as opções e propor uma solução adequada ao equipamento, à utilização e ao orçamento de cada cliente."}</p>
+            <h2>{english ? "Getting to know TecCasa" : "A TecCasa, de perto"}</h2>
+            <p>{english ? "TecCasa Soluções is a small business working on gate automation, remote controls and receivers, repairs and smart home systems for homes and apartment buildings." : "A TecCasa Soluções é uma pequena empresa que trabalha com automatismos para portões, comandos e recetores, reparações e domótica para casas e condomínios."}</p>
+            <p>{english ? "We take a personal approach to each request: we listen to what you need, assess the equipment and explain the options and the quote in plain language. The same person follows the work from your first enquiry through to any questions afterwards." : "Tratamos cada pedido de forma pessoal: ouvimos o que precisa, analisamos o equipamento e explicamos as opções e o orçamento numa linguagem simples. O acompanhamento é feito pela mesma pessoa, desde o primeiro contacto até às dúvidas que possam surgir depois do trabalho."}</p>
+            <p>{english ? "We have two bases, one on the north bank and one on the south bank of the Tagus. From there, we look after our customers in Lisbon and the surrounding area, before and after the work is done." : "Temos duas bases, uma na margem norte e outra na margem sul do Tejo. É a partir delas que acompanhamos os nossos clientes em Lisboa e arredores, antes e depois do trabalho."}</p>
           </section>
           <section className="principles" aria-label={english ? "How we work" : "Como trabalhamos"}>
             {(english ? [
-              ["Understand before recommending", "We investigate the fault and assess repair options before proposing replacement."],
-              ["Explain the work clearly", "We explain what needs to be done and what the quote includes, so you can make an informed decision."],
-              ["Look after each installation", "We value careful work, explaining how the equipment works and providing support after the intervention."],
+              ["First, understand the problem", "Before suggesting a new motor, we look into what has gone wrong and whether a repair makes sense."],
+              ["A straightforward explanation", "We explain what needs doing, why and how much it will cost, so you know what to expect."],
+              ["Help after the work is done", "After installation, we explain how to use the equipment and stay in touch for any questions that come up."],
             ] : [
-              ["Perceber antes de recomendar", "Procuramos a origem da avaria e avaliamos a possibilidade de reparação antes de propor uma substituição."],
-              ["Explicar com clareza", "Esclarecemos o que é necessário fazer e o que está incluído no orçamento, para que possa decidir com informação."],
-              ["Cuidar de cada instalação", "Valorizamos uma execução cuidada, a explicação do funcionamento dos equipamentos e o apoio após a intervenção."],
+              ["Primeiro, perceber o problema", "Antes de sugerir um motor novo, procuramos perceber o que avariou e se vale a pena reparar."],
+              ["Uma explicação simples", "Dizemos o que é preciso fazer, porquê e quanto custa. Assim, sabe com o que pode contar."],
+              ["Apoio depois do trabalho", "Depois da instalação, explicamos como utilizar o equipamento e mantemos o contacto para as dúvidas que possam surgir."],
             ]).map(([heading, body]) => <article key={heading}><h2>{heading}</h2><p>{body}</p></article>)}
           </section>
           <section className="legal">
-            <h2>{english ? "Our company" : "Identificação da empresa"}</h2>
-            <p>{english ? "TecCasa Soluções is the trading name used by the company" : "TecCasa Soluções é o nome comercial utilizado pela sociedade"} <strong>{company.legalName}</strong>.</p>
+            <h2>{english ? "The name on our invoices" : "O nome nas nossas faturas"}</h2>
+            <p>{english ? "You know us as TecCasa Soluções. On invoices and other company documents, you will find our legal name:" : "Conhece-nos como TecCasa Soluções. Nas faturas e restantes documentos da empresa, encontra a nossa denominação social:"} <strong>{company.legalName}</strong>.</p>
             <p><strong>NIPC:</strong> {company.taxId}</p>
-            <p>{english ? "This is the legal entity responsible for the services provided under the TecCasa Soluções name and identified on our invoices and company documents." : "Esta é a entidade responsável pelos serviços prestados sob o nome TecCasa Soluções e identificada nas nossas faturas e documentação da empresa."}</p>
+            <p><a href={english ? "/en/legal" : "/informacao-legal"}>{english ? "View company legal information" : "Consultar a informação legal da empresa"}</a></p>
           </section>
           <section className="contact">
             <h2>{english ? "Tell us what you need" : "Conte-nos o que precisa"}</h2>
