@@ -152,3 +152,84 @@ Autor: Vitor Oliveira — https://www.flickr.com/people/21446942@N00
 Origem: https://commons.wikimedia.org/wiki/File:Ponte_Marechal_Carmona_-_Vila_Franca_de_Xira_-_Portugal_(40774686415).jpg
 
 Licença: CC BY-SA 2.0 — https://creativecommons.org/licenses/by-sa/2.0
+
+
+## Santa Iria de Azóia
+
+Ficheiro: santa-iria-de-azoia.jpg
+
+Autor: Vitor Oliveira — https://www.flickr.com/people/21446942@N00
+
+Origem: https://commons.wikimedia.org/wiki/File:Castelo_de_Pirescoxe_-_Santa_Iria_da_Azoia_-_Portugal_(6368564921).jpg
+
+Licença: CC BY-SA 2.0 — https://creativecommons.org/licenses/by-sa/2.0
+
+## Vialonga
+
+Ficheiro: vialonga.jpg
+
+Autor: Vitor Oliveira — https://www.flickr.com/people/21446942@N00
+
+Origem: https://commons.wikimedia.org/wiki/File:Igreja_Paroquial_da_Vialonga_-_Portugal_(30161857706).jpg
+
+Licença: CC BY-SA 2.0 — https://creativecommons.org/licenses/by-sa/2.0
+
+## Alverca do Ribatejo
+
+Ficheiro: alverca-do-ribatejo.jpg
+
+Autor: GualdimG — https://commons.wikimedia.org/wiki/User:GualdimG
+
+Origem: https://commons.wikimedia.org/wiki/File:Museu_Municipal_de_Vila_Franca_de_Xira_N%C3%BAcleo_de_Alverca_e_Pelourinho.jpg
+
+Licença: CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0
+
+## Loures
+
+Ficheiro: loures.jpg
+
+Autor: Vitor Oliveira — https://www.flickr.com/people/21446942@N00
+
+Origem: https://commons.wikimedia.org/wiki/File:Pal%C3%A1cio_dos_Marqueses_da_Praia_e_de_Monforte_(Sede_da_Assembleia_Municipal_de_Loures)_-_Portugal_(7631839782).jpg
+
+Licença: CC BY-SA 2.0 — https://creativecommons.org/licenses/by-sa/2.0
+
+## Odivelas
+
+Ficheiro: odivelas.jpg
+
+Autor: GualdimG — https://commons.wikimedia.org/wiki/User:GualdimG
+
+Origem: https://commons.wikimedia.org/wiki/File:Mosteiro_de_Odivelas_01.jpg
+
+Licença: CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0
+
+## Moita
+
+Ficheiro: moita.jpg
+
+Autor: GualdimG — https://commons.wikimedia.org/wiki/User:GualdimG
+
+Origem: https://commons.wikimedia.org/wiki/File:Cais_da_Moita,_Moita_06.jpg
+
+Licença: CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0
+
+## Barreiro
+
+Ficheiro: barreiro.jpg
+
+Autor: GualdimG — https://commons.wikimedia.org/wiki/User:GualdimG
+
+Origem: https://commons.wikimedia.org/wiki/File:Alburrica_Mexilhoeiro_Barreiro_01.jpg
+
+Licença: CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0
+
+## Seixal
+
+Ficheiro: seixal.jpg
+
+Autor: Vitor Oliveira — https://www.flickr.com/people/21446942@N00
+
+Origem: https://commons.wikimedia.org/wiki/File:Ba%C3%ADa_do_Seixal_-_Portugal_(50570285986).jpg
+
+Licença: CC BY-SA 2.0 — https://creativecommons.org/licenses/by-sa/2.0

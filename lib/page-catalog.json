@@ -59,8 +59,18 @@
           "indexable": true
         },
         {
+          "path": "/instalacao-automatismos-portoes-alverca-do-ribatejo",
+          "label": "Instalação de automatismos para portões em Alverca do Ribatejo",
+          "indexable": true
+        },
+        {
           "path": "/instalacao-automatismos-portoes-amadora",
           "label": "Instalação de automatismos para portões na Amadora",
+          "indexable": true
+        },
+        {
+          "path": "/instalacao-automatismos-portoes-barreiro",
+          "label": "Instalação de automatismos para portões no Barreiro",
           "indexable": true
         },
         {
@@ -79,8 +89,23 @@
           "indexable": true
         },
         {
+          "path": "/instalacao-automatismos-portoes-loures",
+          "label": "Instalação de automatismos para portões em Loures",
+          "indexable": true
+        },
+        {
+          "path": "/instalacao-automatismos-portoes-moita",
+          "label": "Instalação de automatismos para portões na Moita",
+          "indexable": true
+        },
+        {
           "path": "/instalacao-automatismos-portoes-montijo",
           "label": "Instalação e substituição de motores de portão no Montijo",
+          "indexable": true
+        },
+        {
+          "path": "/instalacao-automatismos-portoes-odivelas",
+          "label": "Instalação de automatismos para portões em Odivelas",
           "indexable": true
         },
         {
@@ -109,8 +134,23 @@
           "indexable": true
         },
         {
+          "path": "/instalacao-automatismos-portoes-santa-iria-de-azoia",
+          "label": "Instalação de automatismos para portões em Santa Iria de Azóia",
+          "indexable": true
+        },
+        {
+          "path": "/instalacao-automatismos-portoes-seixal",
+          "label": "Instalação de automatismos para portões no Seixal",
+          "indexable": true
+        },
+        {
           "path": "/instalacao-automatismos-portoes-sintra",
           "label": "Instalação de automatismos para portões em Sintra",
+          "indexable": true
+        },
+        {
+          "path": "/instalacao-automatismos-portoes-vialonga",
+          "label": "Instalação de automatismos para portões em Vialonga",
           "indexable": true
         },
         {
@@ -139,8 +179,18 @@
           "indexable": true
         },
         {
+          "path": "/reparacao-portoes-alverca-do-ribatejo",
+          "label": "Reparação de portões automáticos em Alverca do Ribatejo",
+          "indexable": true
+        },
+        {
           "path": "/reparacao-portoes-amadora",
           "label": "Reparação de portões automáticos na Amadora",
+          "indexable": true
+        },
+        {
+          "path": "/reparacao-portoes-barreiro",
+          "label": "Reparação de portões automáticos no Barreiro",
           "indexable": true
         },
         {
@@ -159,8 +209,23 @@
           "indexable": true
         },
         {
+          "path": "/reparacao-portoes-loures",
+          "label": "Reparação de portões automáticos em Loures",
+          "indexable": true
+        },
+        {
+          "path": "/reparacao-portoes-moita",
+          "label": "Reparação de portões automáticos na Moita",
+          "indexable": true
+        },
+        {
           "path": "/reparacao-portoes-montijo",
           "label": "Reparação de portões automáticos no Montijo",
+          "indexable": true
+        },
+        {
+          "path": "/reparacao-portoes-odivelas",
+          "label": "Reparação de portões automáticos em Odivelas",
           "indexable": true
         },
         {
@@ -189,8 +254,23 @@
           "indexable": true
         },
         {
+          "path": "/reparacao-portoes-santa-iria-de-azoia",
+          "label": "Reparação de portões automáticos em Santa Iria de Azóia",
+          "indexable": true
+        },
+        {
+          "path": "/reparacao-portoes-seixal",
+          "label": "Reparação de portões automáticos no Seixal",
+          "indexable": true
+        },
+        {
           "path": "/reparacao-portoes-sintra",
           "label": "Reparação de portões automáticos em Sintra",
+          "indexable": true
+        },
+        {
+          "path": "/reparacao-portoes-vialonga",
+          "label": "Reparação de portões automáticos em Vialonga",
           "indexable": true
         },
         {
