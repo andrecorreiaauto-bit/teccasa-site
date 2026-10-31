@@ -834,6 +834,7 @@ marginTop:"20px"
     cursor:"pointer",
     boxShadow:"0 8px 25px rgba(0,0,0,0.05)"
   }}
+  data-contact-href="mailto:geral@tec-casa.pt"
   onClick={()=>{
     window.location.href = "mailto:geral@tec-casa.pt";
   }}

@@ -66,7 +66,7 @@ export default function CookieConsent({ english = false }) {
   useEffect(() => {
     const onContact = (event) => {
       if (event.type === "auxclick" && event.button !== 1) return;
-      const anchor = event.target?.closest?.("a[href]");
+      const anchor = event.target?.closest?.("a[href], [data-contact-href]");
       if (anchor) trackContact(anchor);
     };
     document.addEventListener("click", onContact, true);

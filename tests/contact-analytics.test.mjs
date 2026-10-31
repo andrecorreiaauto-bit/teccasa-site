@@ -73,3 +73,13 @@ test("storage failures, missing tag, non-contact and management links fail quiet
     assert.equal(other.events.length, 0);
   }
 });
+
+
+test("email contact cards are measured without requiring an anchor or collecting the address", () => {
+  const f = fixture();
+  f.anchor.getAttribute = name => name === "data-contact-href" ? "mailto:geral@tec-casa.pt?body=private" : null;
+  assert.equal(trackContact(f.anchor, f), true);
+  assert.equal(f.events[0][1], "contact_email");
+  assert.equal(JSON.stringify(f.events).includes("geral@"), false);
+  assert.equal(JSON.stringify(f.events).includes("private"), false);
+});
