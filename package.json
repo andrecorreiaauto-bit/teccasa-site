@@ -4,7 +4,8 @@
     "build": "next build",
     "start": "next start",
     "prebuild": "node scripts/build-navigation.mjs",
-    "predev": "node scripts/build-navigation.mjs"
+    "predev": "node scripts/build-navigation.mjs",
+    "test": "node --test tests/*.test.mjs"
   },
   "dependencies": {
     "next": "latest",

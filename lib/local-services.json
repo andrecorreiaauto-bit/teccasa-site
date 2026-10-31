@@ -298,7 +298,7 @@
       "license": "CC BY-SA 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
       "width": 1280,
-      "height": 831
+      "height": 832
     }
   },
   "reparacao-portoes-alcochete": {
@@ -600,7 +600,1540 @@
       "license": "CC BY-SA 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
       "width": 1280,
-      "height": 831
+      "height": 832
     }
+  },
+  "instalacao-automatismos-portoes-almada": {
+    "slug": "instalacao-automatismos-portoes-almada",
+    "area": "Almada",
+    "kind": "installation",
+    "title": "Instalação de automatismos para portões em Almada",
+    "description": "Instalação de automatismos para portões em Almada. Meios de abertura, preparação e montagem para a sua entrada.",
+    "image": "/localidades/almada.jpg",
+    "imageAlt": "Cristo Rei, em Almada.",
+    "photo": {
+      "caption": "Cristo Rei, em Almada.",
+      "author": "Simon Burchell",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Simon_Burchell",
+      "source": "https://commons.wikimedia.org/wiki/File:Cristo_Rei,_Almada_01.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": 1280,
+      "height": 1707
+    },
+    "intro": "Quer tornar a entrada mais cómoda sem perder o controlo sobre quem a utiliza? Em Almada, preparamos a automatização a partir do portão existente e das rotinas de quem entra e sai.",
+    "coverageTitle": "Pensar na entrada como um conjunto",
+    "coverage": [
+      "Um motor, um comando e um botão interior têm funções diferentes. No primeiro contacto, percebemos se pretende uma entrada familiar ou um acesso partilhado e como gostaria de a utilizar.",
+      "A TecCasa acompanha pedidos de instalação em Almada para portões de correr, de batente e portas de garagem seccionadas ou basculantes. A deslocação é combinada consigo, com as condições da avaliação esclarecidas antes da visita."
+    ],
+    "sections": [
+      {
+        "title": "Definir os meios de abertura",
+        "paragraphs": [
+          "Pode querer comandos para a família, um botão interior ou uma futura ligação a outro sistema. Confirmamos as entradas de comando disponíveis e os acessórios necessários, para a proposta não deixar essas decisões por esclarecer.",
+          "Uma integração com telemóvel depende do equipamento e da ligação existente; a abertura local deve ficar prevista mesmo quando a internet falha."
+        ]
+      },
+      {
+        "title": "Reservar o espaço de movimento",
+        "paragraphs": [
+          "Num portão de correr, o percurso lateral tem de ficar livre. Num de batente, verificamos a abertura junto aos pilares e a passagem pedonal. Na garagem, observamos o equilíbrio da porta e a posição da calha, do braço e do motor."
+        ]
+      },
+      {
+        "title": "Entregar uma instalação compreensível",
+        "paragraphs": [
+          "O orçamento identifica o automatismo, os dispositivos de segurança e os trabalhos de preparação. A criação ou alteração de alimentação elétrica é distinguida da montagem do motor e deve ter o enquadramento técnico exigível.",
+          "No final, explicamos os comandos e o desbloqueio, com testes das manobras previstas."
+        ]
+      }
+    ],
+    "visitTitle": "O que enviar para prepararmos a instalação",
+    "visitIntro": "Para começar o seu pedido em Almada, basta uma descrição da entrada e fotografias obtidas em segurança.",
+    "visitItems": [
+      "Fotografia geral do portão pelo interior.",
+      "Meios de abertura atuais e os que pretende acrescentar.",
+      "Espaço de abertura e alimentação disponível."
+    ],
+    "questionsTitle": "Antes de escolher o automatismo",
+    "questions": [
+      {
+        "question": "Posso manter um botão ou videoporteiro existente?",
+        "answer": "É necessário identificar a saída do equipamento e a entrada da central. Uma fotografia das referências ajuda a preparar a verificação, mas não confirma por si só a compatibilidade."
+      },
+      {
+        "question": "A ligação ao telemóvel é obrigatória?",
+        "answer": "Não. Os meios de abertura são escolhidos conforme a utilização. Podemos estudar uma integração adicional sem a tornar uma condição para utilizar o portão."
+      }
+    ],
+    "contactTitle": "Vamos preparar a sua instalação",
+    "contactText": "Envie o seu pedido em Almada. Fala com quem acompanha a avaliação e o trabalho, para perceber as opções e decidir o próximo passo.",
+    "message": "Olá, pretendo instalar um automatismo em Almada. Posso enviar fotografias?",
+    "updated": "2026-10-31"
+  },
+  "reparacao-portoes-almada": {
+    "slug": "reparacao-portoes-almada",
+    "area": "Almada",
+    "kind": "repair",
+    "title": "Reparação de portões automáticos em Almada",
+    "description": "Reparação de portões automáticos em Almada. Falhas de comandos, botões e movimento, com diagnóstico explicado.",
+    "image": "/localidades/almada.jpg",
+    "imageAlt": "Cristo Rei, em Almada.",
+    "photo": {
+      "caption": "Cristo Rei, em Almada.",
+      "author": "Simon Burchell",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Simon_Burchell",
+      "source": "https://commons.wikimedia.org/wiki/File:Cristo_Rei,_Almada_01.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": 1280,
+      "height": 1707
+    },
+    "intro": "O portão responde de forma diferente ao comando e ao botão interior? Em Almada, ajudamos a perceber em que ponto a ordem de abertura deixa de produzir o movimento esperado.",
+    "coverageTitle": "Comparar os sintomas antes de trocar peças",
+    "coverage": [
+      "Saber quais os meios de abertura que ainda funcionam permite orientar a avaliação. Uma falha de receção de rádio exige verificações diferentes de um portão que recebe a ordem e depois fica preso.",
+      "A TecCasa acompanha pedidos de reparação em Almada para portões de correr, de batente e portas de garagem seccionadas ou basculantes. A deslocação é combinada consigo, com as condições da avaliação esclarecidas antes da visita."
+    ],
+    "sections": [
+      {
+        "title": "Separar o comando do automatismo",
+        "paragraphs": [
+          "Se apenas um comando falha, verificamos essa situação antes de intervir na memória do recetor. Se todos falham, importa observar se o botão interior ou outro meio de abertura continua a funcionar.",
+          "Alterações de programação são combinadas com o responsável pelo acesso para evitar deixar outros utilizadores sem entrada."
+        ]
+      },
+      {
+        "title": "Relacionar a resposta com o movimento",
+        "paragraphs": [
+          "Num portão de correr, avaliamos o percurso e a transmissão; num de batente, a resposta dos braços e a coordenação das folhas. Numa garagem, a calha e a ligação à porta também podem explicar um motor que se ouve mas não movimenta a entrada."
+        ]
+      },
+      {
+        "title": "Confirmar o resultado com quem utiliza",
+        "paragraphs": [
+          "Depois de identificada a avaria, explicamos a reparação e os limites do aproveitamento do material. Os testes devem incluir os meios de abertura utilizados no dia a dia, além da manobra efetuada junto ao motor.",
+          "Peças adicionais ou trabalhos fora do previsto são apresentados para aceitação antes de avançar."
+        ]
+      }
+    ],
+    "visitTitle": "Informação que ajuda a preparar a assistência",
+    "visitIntro": "Para começar o seu pedido em Almada, basta uma descrição da entrada e fotografias obtidas em segurança.",
+    "visitItems": [
+      "Indique que comandos, botões ou outros meios ainda funcionam.",
+      "Fotografe as referências visíveis do motor e do recetor.",
+      "Descreva se o portão não reage ou tenta mover-se."
+    ],
+    "questionsTitle": "Dúvidas sobre esta reparação",
+    "questions": [
+      {
+        "question": "Um comando novo resolve a falta de alcance?",
+        "answer": "Pode haver um problema no comando, na antena, no recetor ou interferências. É necessário distinguir estas causas antes de recomendar a compra."
+      },
+      {
+        "question": "Tenho de entregar todos os comandos?",
+        "answer": "Na avaliação inicial, costuma ser útil disponibilizar um comando que apresente a falha e outro que funcione, se existir. A necessidade dos restantes depende do trabalho."
+      }
+    ],
+    "contactTitle": "Conte-nos o que aconteceu ao portão",
+    "contactText": "Envie o seu pedido em Almada. Fala com quem acompanha a avaliação e o trabalho, para perceber as opções e decidir o próximo passo.",
+    "message": "Olá, pretendo pedir assistência a um portão em Almada. Posso enviar fotografias?",
+    "updated": "2026-10-31"
+  },
+  "instalacao-automatismos-portoes-corroios": {
+    "slug": "instalacao-automatismos-portoes-corroios",
+    "area": "Corroios",
+    "kind": "installation",
+    "title": "Instalação de automatismos para portões em Corroios",
+    "description": "Instalação de automatismos para portões em Corroios. Bases, suportes e tubagens: preparar o local antes de montar o motor.",
+    "image": "/localidades/corroios.jpg",
+    "imageAlt": "Moinho de Maré de Corroios.",
+    "photo": {
+      "caption": "Moinho de Maré de Corroios.",
+      "author": "Vitor Oliveira",
+      "authorUrl": "https://www.flickr.com/people/21446942@N00",
+      "source": "https://commons.wikimedia.org/wiki/File:Moinho_de_Mar%C3%A9_de_Corroios_-_Portugal_(6530324187).jpg",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "width": 1280,
+      "height": 684
+    },
+    "intro": "Está a preparar uma entrada nova ou a aproveitar um portão manual? Em Corroios, ajudamos a definir o que deve ficar pronto antes de montar o automatismo, para o motor e a preparação do local serem compatíveis.",
+    "coverageTitle": "Preparar primeiro, montar depois",
+    "coverage": [
+      "O momento de construir uma base, prever tubagens ou ajustar suportes influencia a montagem. Uma avaliação antes de fechar esses trabalhos evita escolher material sem conhecer as condições reais da entrada.",
+      "A TecCasa acompanha pedidos de instalação em Corroios para portões de correr, de batente e portas de garagem seccionadas ou basculantes. A deslocação é combinada consigo, com as condições da avaliação esclarecidas antes da visita."
+    ],
+    "sections": [
+      {
+        "title": "Bases e fixações com posição definida",
+        "paragraphs": [
+          "O motor de correr precisa de uma posição que permita o alinhamento com a cremalheira. Nos portões de batente, as medidas dos pilares e das dobradiças condicionam os suportes.",
+          "Marcar a posição antes de executar a base ou fechar revestimentos ajuda a deixar o espaço necessário para manutenção e desbloqueio."
+        ]
+      },
+      {
+        "title": "Garagem com percurso desimpedido",
+        "paragraphs": [
+          "Numa porta seccionada ou basculante, confirmamos a altura livre, o comprimento disponível e o movimento da porta. Vigas, iluminação e tubagens podem interferir com a calha. O motor não deve ser escolhido apenas pela área anunciada para a porta."
+        ]
+      },
+      {
+        "title": "Distinguir montagem e preparação",
+        "paragraphs": [
+          "A proposta indica se inclui suportes, cremalheira e outros acessórios, e o que depende de preparação separada. A alimentação elétrica nova ou alterada deve ser executada com as habilitações aplicáveis.",
+          "Com o local preparado, combinamos a montagem, os testes e a explicação ao utilizador."
+        ]
+      }
+    ],
+    "visitTitle": "O que enviar para prepararmos a instalação",
+    "visitIntro": "Para começar o seu pedido em Corroios, basta uma descrição da entrada e fotografias obtidas em segurança.",
+    "visitItems": [
+      "Vista dos pilares, calha ou interior da garagem.",
+      "Fotografias das tubagens e da alimentação próxima.",
+      "Indique quais os trabalhos de preparação já executados."
+    ],
+    "questionsTitle": "Antes de escolher o automatismo",
+    "questions": [
+      {
+        "question": "Devo fazer a base antes de escolher o motor?",
+        "answer": "É preferível confirmar primeiro as dimensões e a posição de montagem do modelo previsto. Uma base feita sem essa informação pode precisar de adaptação."
+      },
+      {
+        "question": "Uma tubagem existente garante que os cabos passam?",
+        "answer": "Não. É preciso verificar o percurso, a capacidade e o estado da tubagem, bem como os pontos onde deve chegar."
+      }
+    ],
+    "contactTitle": "Vamos preparar a sua instalação",
+    "contactText": "Envie o seu pedido em Corroios. Fala com quem acompanha a avaliação e o trabalho, para perceber as opções e decidir o próximo passo.",
+    "message": "Olá, pretendo instalar um automatismo em Corroios. Posso enviar fotografias?",
+    "updated": "2026-10-31"
+  },
+  "reparacao-portoes-corroios": {
+    "slug": "reparacao-portoes-corroios",
+    "area": "Corroios",
+    "kind": "repair",
+    "title": "Reparação de portões automáticos em Corroios",
+    "description": "Reparação de portões automáticos em Corroios. Paragens no percurso e inversão de fecho: avaliar o mecanismo e a segurança.",
+    "image": "/localidades/corroios.jpg",
+    "imageAlt": "Moinho de Maré de Corroios.",
+    "photo": {
+      "caption": "Moinho de Maré de Corroios.",
+      "author": "Vitor Oliveira",
+      "authorUrl": "https://www.flickr.com/people/21446942@N00",
+      "source": "https://commons.wikimedia.org/wiki/File:Moinho_de_Mar%C3%A9_de_Corroios_-_Portugal_(6530324187).jpg",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "width": 1280,
+      "height": 684
+    },
+    "intro": "O portão prende sempre no mesmo sítio ou volta a abrir quando está quase fechado? Em Corroios, avaliamos o percurso completo para distinguir uma resistência localizada de uma indicação incorreta recebida pela central.",
+    "coverageTitle": "A posição da paragem é uma pista",
+    "coverage": [
+      "Descreva se o defeito surge num ponto fixo ou muda de manobra para manobra. Essa observação ajuda a preparar a assistência sem pedir que force o equipamento para demonstrar a avaria.",
+      "A TecCasa acompanha pedidos de reparação em Corroios para portões de correr, de batente e portas de garagem seccionadas ou basculantes. A deslocação é combinada consigo, com as condições da avaliação esclarecidas antes da visita."
+    ],
+    "sections": [
+      {
+        "title": "Observar o trajeto do portão",
+        "paragraphs": [
+          "Rodas, calha e cremalheira podem introduzir esforço num portão de correr. Num de batente, observamos dobradiças e apoios ao longo do arco de abertura.",
+          "Numa garagem seccionada ou basculante, guias, articulações e equilíbrio fazem parte da análise; aumentar a força do motor não corrige um mecanismo danificado."
+        ]
+      },
+      {
+        "title": "Perceber por que inverte o sentido",
+        "paragraphs": [
+          "Uma inversão pode resultar de deteção de obstáculo, resistência mecânica ou informação de posição. A reparação considera estes sinais em conjunto. Não recomendamos desligar fotocélulas para obrigar a entrada a fechar nem continuar a repetir manobras sobre um obstáculo."
+        ]
+      },
+      {
+        "title": "Verificar a manobra após a correção",
+        "paragraphs": [
+          "A proposta identifica o problema confirmado e a correção prevista. Depois do trabalho, verificamos abertura, fecho e resposta dos dispositivos envolvidos na avaria.",
+          "Se outro defeito impedir um teste seguro, explicamos essa limitação e o trabalho necessário antes de dar a intervenção por concluída."
+        ]
+      }
+    ],
+    "visitTitle": "Informação que ajuda a preparar a assistência",
+    "visitIntro": "Para começar o seu pedido em Corroios, basta uma descrição da entrada e fotografias obtidas em segurança.",
+    "visitItems": [
+      "Diga o ponto aproximado onde a manobra falha.",
+      "Indique se há paragem, inversão ou ruído.",
+      "Envie uma vista geral e a referência do automatismo."
+    ],
+    "questionsTitle": "Dúvidas sobre esta reparação",
+    "questions": [
+      {
+        "question": "Posso limpar a calha antes da visita?",
+        "answer": "Pode retirar resíduos soltos acessíveis com o portão parado e em segurança. Não remova proteções, não entre na zona de movimento nem force componentes para tentar libertar o portão."
+      },
+      {
+        "question": "A inversão significa que as fotocélulas avariaram?",
+        "answer": "É uma hipótese entre várias. O diagnóstico precisa de relacionar o sinal dos dispositivos com o movimento e o estado mecânico do portão."
+      }
+    ],
+    "contactTitle": "Conte-nos o que aconteceu ao portão",
+    "contactText": "Envie o seu pedido em Corroios. Fala com quem acompanha a avaliação e o trabalho, para perceber as opções e decidir o próximo passo.",
+    "message": "Olá, pretendo pedir assistência a um portão em Corroios. Posso enviar fotografias?",
+    "updated": "2026-10-31"
+  },
+  "instalacao-automatismos-portoes-charneca-de-caparica": {
+    "slug": "instalacao-automatismos-portoes-charneca-de-caparica",
+    "area": "Charneca de Caparica",
+    "kind": "installation",
+    "title": "Instalação de automatismos para portões na Charneca de Caparica",
+    "description": "Instalação de automatismos para portões na Charneca de Caparica. Abertura pedonal, comandos e desbloqueio para as rotinas da sua entrada.",
+    "image": "/localidades/charneca-de-caparica.jpg",
+    "imageAlt": "Igreja Paroquial da Charneca de Caparica.",
+    "photo": {
+      "caption": "Igreja Paroquial da Charneca de Caparica.",
+      "author": "Juntas",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Juntas",
+      "source": "https://commons.wikimedia.org/wiki/File:Igreja_Charneca.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": 1280,
+      "height": 851
+    },
+    "intro": "Uma entrada deve funcionar bem tanto na chegada de carro como nas pequenas saídas a pé. Na Charneca de Caparica, estudamos a automatização em função dessas rotinas e das condições do portão.",
+    "coverageTitle": "Escolher pela forma como usa a entrada",
+    "coverage": [
+      "Antes do orçamento, interessa perceber quem utiliza o acesso, se existe passagem pedonal separada e como poderá entrar durante uma falha de energia. São decisões que influenciam os acessórios e a montagem.",
+      "A TecCasa acompanha pedidos de instalação na Charneca de Caparica para portões de correr, de batente e portas de garagem seccionadas ou basculantes. A deslocação é combinada consigo, com as condições da avaliação esclarecidas antes da visita."
+    ],
+    "sections": [
+      {
+        "title": "Abertura total ou passagem pedonal",
+        "paragraphs": [
+          "Algumas centrais permitem uma abertura parcial, mas essa função depende do automatismo e precisa de configuração adequada. A existência de uma porta pedonal integrada exige cuidados próprios.",
+          "Confirmamos a solução possível sem assumir que a abertura parcial substitui uma passagem independente em todas as entradas."
+        ]
+      },
+      {
+        "title": "Adaptar o equipamento ao portão",
+        "paragraphs": [
+          "Num portão de correr, analisamos espaço lateral e transmissão. Num de batente, contam a geometria dos pilares e o esforço de cada folha. Para a garagem, avaliamos portas seccionadas e basculantes, incluindo o equilíbrio e o espaço para a calha."
+        ]
+      },
+      {
+        "title": "Prever o acesso quando falta energia",
+        "paragraphs": [
+          "A localização do desbloqueio deve permitir uma utilização segura. Se não existir outra entrada, a solução de acesso exterior é estudada antes da montagem.",
+          "O orçamento esclarece os meios de abertura, os acessórios de segurança e as preparações necessárias. No final mostramos o funcionamento a quem vai utilizar o equipamento."
+        ]
+      }
+    ],
+    "visitTitle": "O que enviar para prepararmos a instalação",
+    "visitIntro": "Para começar o seu pedido na Charneca de Caparica, basta uma descrição da entrada e fotografias obtidas em segurança.",
+    "visitItems": [
+      "Indique se existe uma passagem pedonal e outra entrada.",
+      "Envie o tipo de portão e uma vista do espaço interior.",
+      "Descreva quantas pessoas utilizam normalmente o acesso."
+    ],
+    "questionsTitle": "Antes de escolher o automatismo",
+    "questions": [
+      {
+        "question": "É possível abrir só o necessário para uma pessoa?",
+        "answer": "Pode ser possível através de uma função de abertura parcial, dependendo da central e da configuração. Avaliamos a passagem e os riscos antes de a recomendar."
+      },
+      {
+        "question": "Posso acrescentar abertura pelo telemóvel mais tarde?",
+        "answer": "Em muitos equipamentos é possível estudar uma integração posterior. Convém prever o espaço, a alimentação e a ligação necessária sem presumir compatibilidade universal."
+      }
+    ],
+    "contactTitle": "Vamos preparar a sua instalação",
+    "contactText": "Envie o seu pedido na Charneca de Caparica. Fala com quem acompanha a avaliação e o trabalho, para perceber as opções e decidir o próximo passo.",
+    "message": "Olá, pretendo instalar um automatismo na Charneca de Caparica. Posso enviar fotografias?",
+    "updated": "2026-10-31"
+  },
+  "reparacao-portoes-charneca-de-caparica": {
+    "slug": "reparacao-portoes-charneca-de-caparica",
+    "area": "Charneca de Caparica",
+    "kind": "repair",
+    "title": "Reparação de portões automáticos na Charneca de Caparica",
+    "description": "Reparação de portões automáticos na Charneca de Caparica. Falhas após cortes de energia, perda de movimento e problemas de fecho.",
+    "image": "/localidades/charneca-de-caparica.jpg",
+    "imageAlt": "Igreja Paroquial da Charneca de Caparica.",
+    "photo": {
+      "caption": "Igreja Paroquial da Charneca de Caparica.",
+      "author": "Juntas",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Juntas",
+      "source": "https://commons.wikimedia.org/wiki/File:Igreja_Charneca.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": 1280,
+      "height": 851
+    },
+    "intro": "O portão mudou de comportamento depois de faltar a luz? Na Charneca de Caparica, avaliamos o que deixou de funcionar e o estado do equipamento antes de tentar novas programações ou substituir componentes.",
+    "coverageTitle": "Reconstruir o que aconteceu à entrada",
+    "coverage": [
+      "Uma falha após um corte de energia pode coincidir com problemas diferentes. Diga-nos se houve trovoada, se o motor ficou sem resposta ou se a abertura funciona mas o fecho mudou.",
+      "A TecCasa acompanha pedidos de reparação na Charneca de Caparica para portões de correr, de batente e portas de garagem seccionadas ou basculantes. A deslocação é combinada consigo, com as condições da avaliação esclarecidas antes da visita."
+    ],
+    "sections": [
+      {
+        "title": "Alimentação e sinais visíveis",
+        "paragraphs": [
+          "Sem abrir caixas, pode indicar se existe alguma luz habitual que deixou de acender ou se outros equipamentos próximos também ficaram sem alimentação.",
+          "Não recomendamos repetir rearmes quando uma proteção volta a disparar. A avaliação deve distinguir a alimentação do automatismo e eventuais problemas a corrigir por técnico habilitado."
+        ]
+      },
+      {
+        "title": "Movimento perdido ou desbloqueio acionado",
+        "paragraphs": [
+          "Num portão de correr ou de batente, um desbloqueio que não foi reengatado pode alterar a transmissão. Numa garagem, verificamos também o carrinho e a ligação à porta.",
+          "A confirmação é feita conforme o modelo e o estado mecânico, sem puxar cabos nem forçar uma porta desequilibrada."
+        ]
+      },
+      {
+        "title": "Reprogramar apenas com uma razão",
+        "paragraphs": [
+          "Apagar memórias ou refazer percursos sem avaliar a causa pode eliminar definições úteis e não resolver a avaria. Identificamos o modelo e os parâmetros relevantes antes de alterar a programação.",
+          "A proposta esclarece o que foi encontrado e os testes a efetuar depois da reparação."
+        ]
+      }
+    ],
+    "visitTitle": "Informação que ajuda a preparar a assistência",
+    "visitIntro": "Para começar o seu pedido na Charneca de Caparica, basta uma descrição da entrada e fotografias obtidas em segurança.",
+    "visitItems": [
+      "Descreva o que aconteceu antes da avaria.",
+      "Indique quais as manobras que ainda funcionam.",
+      "Fotografe a identificação do motor sem abrir proteções."
+    ],
+    "questionsTitle": "Dúvidas sobre esta reparação",
+    "questions": [
+      {
+        "question": "Devo fazer um reset ao motor?",
+        "answer": "Evite fazê-lo sem identificar o equipamento e as consequências. Um reset pode apagar comandos ou percursos e não corrige uma avaria elétrica ou mecânica."
+      },
+      {
+        "question": "O portão abre mas não fecha. Posso anular a segurança?",
+        "answer": "Não. Precisamos de avaliar os dispositivos e o mecanismo. Anular uma proteção pode permitir um movimento perigoso e ocultar a causa da falha."
+      }
+    ],
+    "contactTitle": "Conte-nos o que aconteceu ao portão",
+    "contactText": "Envie o seu pedido na Charneca de Caparica. Fala com quem acompanha a avaliação e o trabalho, para perceber as opções e decidir o próximo passo.",
+    "message": "Olá, pretendo pedir assistência a um portão na Charneca de Caparica. Posso enviar fotografias?",
+    "updated": "2026-10-31"
+  },
+  "instalacao-automatismos-portoes-amadora": {
+    "slug": "instalacao-automatismos-portoes-amadora",
+    "area": "Amadora",
+    "kind": "installation",
+    "title": "Instalação de automatismos para portões na Amadora",
+    "description": "Instalação de automatismos para portões na Amadora. Escolha do motor pela utilização, preparação e organização dos comandos.",
+    "image": "/localidades/amadora.jpg",
+    "imageAlt": "Parque Central da Amadora.",
+    "photo": {
+      "caption": "Parque Central da Amadora.",
+      "author": "Vitor Oliveira",
+      "authorUrl": "https://www.flickr.com/people/21446942@N00",
+      "source": "https://commons.wikimedia.org/wiki/File:Parque_Central_da_Amadora_-_Portugal_(5301681698).jpg",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "width": 1280,
+      "height": 941
+    },
+    "intro": "Um portão utilizado por várias pessoas precisa de uma escolha ajustada ao ritmo da entrada. Na Amadora, preparamos a instalação com atenção à frequência das manobras e à organização dos utilizadores.",
+    "coverageTitle": "Preparar o automatismo para o uso previsto",
+    "coverage": [
+      "No contacto inicial, interessa saber quantas utilizações espera por dia e se existem períodos com várias aberturas seguidas. Assim, a proposta considera a utilização real e não apenas as dimensões do portão.",
+      "A TecCasa acompanha pedidos de instalação na Amadora para portões de correr, de batente e portas de garagem seccionadas ou basculantes. A deslocação é combinada consigo, com as condições da avaliação esclarecidas antes da visita."
+    ],
+    "sections": [
+      {
+        "title": "Frequência e sequência das manobras",
+        "paragraphs": [
+          "O peso máximo anunciado não descreve, sozinho, a capacidade de utilização do motor. Consideramos o tipo de acionamento, os ciclos previstos e as condições indicadas pelo fabricante.",
+          "Se a utilização exigir uma gama diferente, explicamos essa escolha e os limites antes da adjudicação."
+        ]
+      },
+      {
+        "title": "Cada abertura exige uma montagem própria",
+        "paragraphs": [
+          "Em portões de correr verificamos percurso e cremalheira; nos de batente, cotas dos pilares e fixação dos braços. Numa garagem seccionada ou basculante, o equilíbrio da porta e a transmissão precisam de ser avaliados antes de motorizar."
+        ]
+      },
+      {
+        "title": "Organizar a entrega aos utilizadores",
+        "paragraphs": [
+          "Combinamos o número de comandos, quem recebe a instalação e como serão explicados o desbloqueio e os cuidados de utilização. Num acesso partilhado, é útil existir um interlocutor para reunir as necessidades.",
+          "A preparação elétrica ou mecânica fica identificada separadamente quando necessária, com as condições de execução no orçamento."
+        ]
+      }
+    ],
+    "visitTitle": "O que enviar para prepararmos a instalação",
+    "visitIntro": "Para começar o seu pedido na Amadora, basta uma descrição da entrada e fotografias obtidas em segurança.",
+    "visitItems": [
+      "Utilizações aproximadas por dia e períodos de maior movimento.",
+      "Tipo de portão e medidas gerais.",
+      "Quantidade de comandos e contacto de quem acompanha a montagem."
+    ],
+    "questionsTitle": "Antes de escolher o automatismo",
+    "questions": [
+      {
+        "question": "O motor mais potente é sempre o mais adequado?",
+        "answer": "Não. A escolha também depende da frequência de utilização, das dimensões, do movimento e das condições de montagem. Uma potência superior não resolve um portão mecanicamente deficiente."
+      },
+      {
+        "question": "Podem preparar uma proposta para aprovação do condomínio?",
+        "answer": "Sim. Podemos apresentar o equipamento e o âmbito dos trabalhos ao interlocutor indicado, para decisão de quem tem poderes para autorizar a instalação."
+      }
+    ],
+    "contactTitle": "Vamos preparar a sua instalação",
+    "contactText": "Envie o seu pedido na Amadora. Fala com quem acompanha a avaliação e o trabalho, para perceber as opções e decidir o próximo passo.",
+    "message": "Olá, pretendo instalar um automatismo na Amadora. Posso enviar fotografias?",
+    "updated": "2026-10-31"
+  },
+  "reparacao-portoes-amadora": {
+    "slug": "reparacao-portoes-amadora",
+    "area": "Amadora",
+    "kind": "repair",
+    "title": "Reparação de portões automáticos na Amadora",
+    "description": "Reparação de portões automáticos na Amadora. Avarias em acessos partilhados, falhas individuais e problemas com uso seguido.",
+    "image": "/localidades/amadora.jpg",
+    "imageAlt": "Parque Central da Amadora.",
+    "photo": {
+      "caption": "Parque Central da Amadora.",
+      "author": "Vitor Oliveira",
+      "authorUrl": "https://www.flickr.com/people/21446942@N00",
+      "source": "https://commons.wikimedia.org/wiki/File:Parque_Central_da_Amadora_-_Portugal_(5301681698).jpg",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "width": 1280,
+      "height": 941
+    },
+    "intro": "Quando vários utilizadores relatam falhas diferentes, é fácil perder a sequência do problema. Na Amadora, ajudamos a reunir os sintomas e a distinguir uma dificuldade individual de uma avaria comum ao portão.",
+    "coverageTitle": "Um diagnóstico com informação organizada",
+    "coverage": [
+      "Um relato curto de quem acompanha a entrada costuma ser mais útil do que vários testes sem registo. Indique quando começou a falha, quem é afetado e se aparece após várias manobras seguidas.",
+      "A TecCasa acompanha pedidos de reparação na Amadora para portões de correr, de batente e portas de garagem seccionadas ou basculantes. A deslocação é combinada consigo, com as condições da avaliação esclarecidas antes da visita."
+    ],
+    "sections": [
+      {
+        "title": "Falha de um utilizador ou de todos",
+        "paragraphs": [
+          "Um comando com problema não deve levar a apagar a memória de um recetor usado por várias pessoas. Comparamos os meios de abertura e a resposta do equipamento antes de alterar a programação.",
+          "Se for necessário substituir um recetor, combinamos a transição para os utilizadores manterem acesso."
+        ]
+      },
+      {
+        "title": "Avarias que surgem com utilização seguida",
+        "paragraphs": [
+          "Se o portão trabalha normalmente e depois deixa de responder, interessa perceber o intervalo e as condições. Avaliamos o automatismo, os sinais da central e o esforço mecânico, em vez de atribuir a falha apenas ao motor.",
+          "Evite insistir para reproduzir a situação."
+        ]
+      },
+      {
+        "title": "Confirmar o acesso completo",
+        "paragraphs": [
+          "O diagnóstico inclui portões de correr, de batente e portas de garagem seccionadas ou basculantes. Calha, braços, carrinho ou equilíbrio podem exigir correções diferentes.",
+          "Explicamos a solução, o custo e a possibilidade de aproveitar componentes, com autorização antes de trabalhos adicionais."
+        ]
+      }
+    ],
+    "visitTitle": "Informação que ajuda a preparar a assistência",
+    "visitIntro": "Para começar o seu pedido na Amadora, basta uma descrição da entrada e fotografias obtidas em segurança.",
+    "visitItems": [
+      "Indique se a falha afeta todos os utilizadores.",
+      "Registe se surge após maior utilização ou sempre na mesma manobra.",
+      "Identifique quem pode abrir o acesso e acompanhar a visita."
+    ],
+    "questionsTitle": "Dúvidas sobre esta reparação",
+    "questions": [
+      {
+        "question": "Podem falar com a administração para organizar a visita?",
+        "answer": "Sim, através do interlocutor indicado. Precisamos de combinar acesso ao equipamento e quem pode receber a avaliação e autorizar a intervenção."
+      },
+      {
+        "question": "É útil enviar vídeos de vários moradores?",
+        "answer": "Uma descrição organizada e um vídeo obtido em segurança podem ajudar. Não é necessário repetir manobras perigosas nem recolher imagens de pessoas ou matrículas para demonstrar a avaria."
+      }
+    ],
+    "contactTitle": "Conte-nos o que aconteceu ao portão",
+    "contactText": "Envie o seu pedido na Amadora. Fala com quem acompanha a avaliação e o trabalho, para perceber as opções e decidir o próximo passo.",
+    "message": "Olá, pretendo pedir assistência a um portão na Amadora. Posso enviar fotografias?",
+    "updated": "2026-10-31"
+  },
+  "instalacao-automatismos-portoes-agualva-cacem": {
+    "slug": "instalacao-automatismos-portoes-agualva-cacem",
+    "area": "Agualva-Cacém",
+    "kind": "installation",
+    "title": "Instalação de automatismos para portões em Agualva-Cacém",
+    "description": "Instalação de automatismos para portões em Agualva-Cacém. Substituição de motores com avaliação dos acessórios e suportes existentes.",
+    "image": "/localidades/agualva-cacem.jpg",
+    "imageAlt": "Vista de Agualva-Cacém.",
+    "photo": {
+      "caption": "Vista de Agualva-Cacém.",
+      "author": "GualdimG",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:GualdimG",
+      "source": "https://commons.wikimedia.org/wiki/File:20210505_Agualva-Cac%C3%A9m.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": 1280,
+      "height": 632
+    },
+    "intro": "Vai substituir um automatismo antigo e quer perceber o que pode aproveitar? Em Agualva-Cacém, avaliamos a estrutura, a transmissão e os acessórios antes de definir a instalação do equipamento novo.",
+    "coverageTitle": "Uma substituição com limites claros",
+    "coverage": [
+      "Fotografias do motor e do portão ajudam a preparar a avaliação. Importa conhecer o motivo da troca e o que pretende manter: comandos, recetor, fotocélulas ou outros meios de abertura.",
+      "A TecCasa acompanha pedidos de instalação em Agualva-Cacém para portões de correr, de batente e portas de garagem seccionadas ou basculantes. A deslocação é combinada consigo, com as condições da avaliação esclarecidas antes da visita."
+    ],
+    "sections": [
+      {
+        "title": "Identificar o material que fica",
+        "paragraphs": [
+          "Uma central nova pode exigir acessórios com características diferentes dos existentes. Confirmamos compatibilidades e estado de conservação; não basta os cabos estarem ligados ou as peças terem aparência semelhante.",
+          "No orçamento fica identificado o que é novo e o que será aproveitado, quando o seu estado o permitir."
+        ]
+      },
+      {
+        "title": "Rever suportes e transmissão",
+        "paragraphs": [
+          "Nos portões de correr, a altura da cremalheira e a base do motor condicionam a troca. Nos de batente, contam o curso dos braços e as cotas dos pilares. Na garagem, calha e carrinho podem não servir no novo motor, mesmo mantendo a porta."
+        ]
+      },
+      {
+        "title": "Combinar a mudança de sistema",
+        "paragraphs": [
+          "Se a troca afetar comandos de vários utilizadores, definimos como serão entregues e testados. Também verificamos a forma de desbloquear o equipamento e as preparações em falta.",
+          "A passagem para o automatismo novo é combinada consigo para saber quando o acesso fica condicionado e quem recebe a instalação."
+        ]
+      }
+    ],
+    "visitTitle": "O que enviar para prepararmos a instalação",
+    "visitIntro": "Para começar o seu pedido em Agualva-Cacém, basta uma descrição da entrada e fotografias obtidas em segurança.",
+    "visitItems": [
+      "Referências do motor e dos acessórios atuais.",
+      "Motivo da substituição e trabalhos anteriores conhecidos.",
+      "Quantidade de utilizadores e material que gostaria de aproveitar."
+    ],
+    "questionsTitle": "Antes de escolher o automatismo",
+    "questions": [
+      {
+        "question": "Tenho de trocar as fotocélulas com o motor?",
+        "answer": "Depende da compatibilidade, do estado e da solução prevista. A proposta deve esclarecer se os dispositivos existentes são aproveitados ou se estão incluídos outros."
+      },
+      {
+        "question": "Os comandos antigos vão continuar a funcionar?",
+        "answer": "Só depois de identificar o sistema de rádio e o recetor podemos responder. Pode ser necessário um recetor compatível ou a substituição dos comandos."
+      }
+    ],
+    "contactTitle": "Vamos preparar a sua instalação",
+    "contactText": "Envie o seu pedido em Agualva-Cacém. Fala com quem acompanha a avaliação e o trabalho, para perceber as opções e decidir o próximo passo.",
+    "message": "Olá, pretendo instalar um automatismo em Agualva-Cacém. Posso enviar fotografias?",
+    "updated": "2026-10-31"
+  },
+  "reparacao-portoes-agualva-cacem": {
+    "slug": "reparacao-portoes-agualva-cacem",
+    "area": "Agualva-Cacém",
+    "kind": "repair",
+    "title": "Reparação de portões automáticos em Agualva-Cacém",
+    "description": "Reparação de portões automáticos em Agualva-Cacém. Motor com ruído e portão parado: avaliação da transmissão e do desbloqueio.",
+    "image": "/localidades/agualva-cacem.jpg",
+    "imageAlt": "Vista de Agualva-Cacém.",
+    "photo": {
+      "caption": "Vista de Agualva-Cacém.",
+      "author": "GualdimG",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:GualdimG",
+      "source": "https://commons.wikimedia.org/wiki/File:20210505_Agualva-Cac%C3%A9m.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": 1280,
+      "height": 632
+    },
+    "intro": "Ouvir o motor sem ver o portão mexer não significa que a solução seja trocar a central. Em Agualva-Cacém, avaliamos como o movimento é transmitido e onde se interrompe a ligação ao portão.",
+    "coverageTitle": "Do ruído ao componente que falhou",
+    "coverage": [
+      "Descreva se o som é habitual, se existe um estalido ou se o movimento chega a começar. Uma observação breve e segura permite preparar a visita sem insistir num mecanismo que pode estar danificado.",
+      "A TecCasa acompanha pedidos de reparação em Agualva-Cacém para portões de correr, de batente e portas de garagem seccionadas ou basculantes. A deslocação é combinada consigo, com as condições da avaliação esclarecidas antes da visita."
+    ],
+    "sections": [
+      {
+        "title": "O percurso entre o motor e o portão",
+        "paragraphs": [
+          "Num portão de correr, verificamos a relação com a cremalheira e o mecanismo de transmissão. Num de batente, observamos o braço e os seus apoios.",
+          "Numa garagem, a calha, o carrinho e a ligação à porta podem explicar a ausência de movimento, mesmo quando a cabeça do motor funciona."
+        ]
+      },
+      {
+        "title": "Desbloqueio e reengate",
+        "paragraphs": [
+          "Um mecanismo que ficou desbloqueado precisa de ser identificado antes de tentar reengatar. O procedimento depende do modelo e deve respeitar o estado mecânico da entrada.",
+          "Se a porta estiver inclinada ou houver componentes soltos, não force o desbloqueio nem tente sustentar o peso à mão."
+        ]
+      },
+      {
+        "title": "Comparar reparação e substituição",
+        "paragraphs": [
+          "Identificamos a referência do componente e procuramos confirmar se existe uma solução compatível. A disponibilidade de uma peça não basta se o restante conjunto estiver danificado.",
+          "Explicamos a reparação possível, os limites do aproveitamento e a alternativa de substituição quando esta fizer mais sentido."
+        ]
+      }
+    ],
+    "visitTitle": "Informação que ajuda a preparar a assistência",
+    "visitIntro": "Para começar o seu pedido em Agualva-Cacém, basta uma descrição da entrada e fotografias obtidas em segurança.",
+    "visitItems": [
+      "Indique se há ruído, movimento parcial ou ausência total de resposta.",
+      "Envie a referência do motor e uma vista geral da transmissão visível.",
+      "Diga se o desbloqueio foi utilizado antes da avaria."
+    ],
+    "questionsTitle": "Dúvidas sobre esta reparação",
+    "questions": [
+      {
+        "question": "Uma peça partida obriga a trocar todo o motor?",
+        "answer": "Não necessariamente. É preciso identificar o equipamento, confirmar a disponibilidade da peça e avaliar se o restante conjunto pode continuar em serviço."
+      },
+      {
+        "question": "Posso continuar a acionar o comando para ver se destrava?",
+        "answer": "Evite insistir. Manobras repetidas podem agravar um problema de transmissão ou provocar movimento inesperado quando a ligação voltar a prender."
+      }
+    ],
+    "contactTitle": "Conte-nos o que aconteceu ao portão",
+    "contactText": "Envie o seu pedido em Agualva-Cacém. Fala com quem acompanha a avaliação e o trabalho, para perceber as opções e decidir o próximo passo.",
+    "message": "Olá, pretendo pedir assistência a um portão em Agualva-Cacém. Posso enviar fotografias?",
+    "updated": "2026-10-31"
+  },
+  "instalacao-automatismos-portoes-rio-de-mouro": {
+    "slug": "instalacao-automatismos-portoes-rio-de-mouro",
+    "area": "Rio de Mouro",
+    "kind": "installation",
+    "title": "Instalação de automatismos para portões em Rio de Mouro",
+    "description": "Instalação de automatismos para portões em Rio de Mouro. Medidas, calhas e suportes para escolher uma montagem adequada.",
+    "image": "/localidades/rio-de-mouro.jpg",
+    "imageAlt": "Igreja de Nossa Senhora de Belém e cruzeiro, em Rio de Mouro.",
+    "photo": {
+      "caption": "Igreja de Nossa Senhora de Belém e cruzeiro, em Rio de Mouro.",
+      "author": "GualdimG",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:GualdimG",
+      "source": "https://commons.wikimedia.org/wiki/File:Igreja_de_Nossa_Senhora_de_Bel%C3%A9m_(Rio_de_Mouro)_e_Cruzeiro.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": 1280,
+      "height": 720
+    },
+    "intro": "Quer automatizar a garagem ou a entrada exterior e precisa de comparar opções? Em Rio de Mouro, começamos pelas medidas e pelo movimento para escolher uma montagem adequada ao acesso.",
+    "coverageTitle": "Medir o espaço que a instalação vai ocupar",
+    "coverage": [
+      "Uma fotografia de frente não mostra tudo o que condiciona o motor. O espaço interior, os apoios e o percurso de abertura ajudam a perceber as soluções que vale a pena estudar no local.",
+      "A TecCasa acompanha pedidos de instalação em Rio de Mouro para portões de correr, de batente e portas de garagem seccionadas ou basculantes. A deslocação é combinada consigo, com as condições da avaliação esclarecidas antes da visita."
+    ],
+    "sections": [
+      {
+        "title": "Garagem: calha, altura e porta",
+        "paragraphs": [
+          "Numa seccionada ou basculante, observamos o espaço entre a porta aberta e o teto, o comprimento disponível e a posição dos suportes.",
+          "A escolha também depende do equilíbrio da porta. Molas ou cabos com problemas precisam de avaliação antes de montar um motor, sem tentar compensar o defeito pela força."
+        ]
+      },
+      {
+        "title": "Entrada exterior: movimento e fixação",
+        "paragraphs": [
+          "Num portão de correr, confirmamos o espaço de recolha e o alinhamento da transmissão. Num de batente, as medidas entre dobradiça e pilar condicionam a posição do braço.",
+          "Se o portão ainda vai ser alterado, a preparação deve ser compatível com o automatismo escolhido."
+        ]
+      },
+      {
+        "title": "Uma proposta com o conjunto necessário",
+        "paragraphs": [
+          "O motor, a transmissão, os suportes e os dispositivos previstos devem estar identificados. Verificamos ainda os comandos e a forma de entrar numa falha de energia.",
+          "Quando é necessária alimentação elétrica nova ou alterada, esse trabalho é distinguido e deve ser executado com as habilitações aplicáveis."
+        ]
+      }
+    ],
+    "visitTitle": "O que enviar para prepararmos a instalação",
+    "visitIntro": "Para começar o seu pedido em Rio de Mouro, basta uma descrição da entrada e fotografias obtidas em segurança.",
+    "visitItems": [
+      "Vista lateral e interior do portão ou da garagem.",
+      "Medidas aproximadas da passagem e altura livre.",
+      "Indicação de outra entrada e do local da alimentação."
+    ],
+    "questionsTitle": "Antes de escolher o automatismo",
+    "questions": [
+      {
+        "question": "Basta saber a área da porta de garagem?",
+        "answer": "A área ajuda, mas não substitui a identificação do tipo de porta, do equilíbrio, da altura livre e da frequência de utilização. Esses elementos condicionam o motor e a calha."
+      },
+      {
+        "question": "Uma porta basculante pode exigir um adaptador?",
+        "answer": "Sim, conforme a geometria e o equipamento. A montagem deve seguir a solução adequada ao movimento, com o adaptador identificado na proposta quando necessário."
+      }
+    ],
+    "contactTitle": "Vamos preparar a sua instalação",
+    "contactText": "Envie o seu pedido em Rio de Mouro. Fala com quem acompanha a avaliação e o trabalho, para perceber as opções e decidir o próximo passo.",
+    "message": "Olá, pretendo instalar um automatismo em Rio de Mouro. Posso enviar fotografias?",
+    "updated": "2026-10-31"
+  },
+  "reparacao-portoes-rio-de-mouro": {
+    "slug": "reparacao-portoes-rio-de-mouro",
+    "area": "Rio de Mouro",
+    "kind": "repair",
+    "title": "Reparação de portões automáticos em Rio de Mouro",
+    "description": "Reparação de portões automáticos em Rio de Mouro. Portão que pára a meio: diagnóstico do esforço, da transmissão e do controlo.",
+    "image": "/localidades/rio-de-mouro.jpg",
+    "imageAlt": "Igreja de Nossa Senhora de Belém e cruzeiro, em Rio de Mouro.",
+    "photo": {
+      "caption": "Igreja de Nossa Senhora de Belém e cruzeiro, em Rio de Mouro.",
+      "author": "GualdimG",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:GualdimG",
+      "source": "https://commons.wikimedia.org/wiki/File:Igreja_de_Nossa_Senhora_de_Bel%C3%A9m_(Rio_de_Mouro)_e_Cruzeiro.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "width": 1280,
+      "height": 720
+    },
+    "intro": "A porta começa a abrir e fica a meio, ou só volta a funcionar depois de uma pausa? Em Rio de Mouro, avaliamos a relação entre esforço, posição e comando antes de ajustar o automatismo.",
+    "coverageTitle": "Perceber quando a manobra perde continuidade",
+    "coverage": [
+      "Uma paragem ao longo do percurso pode ter causas mecânicas ou de controlo. Interessa perceber se acontece sempre no mesmo ponto, se varia com o sentido e se existe ruído ou esforço visível.",
+      "A TecCasa acompanha pedidos de reparação em Rio de Mouro para portões de correr, de batente e portas de garagem seccionadas ou basculantes. A deslocação é combinada consigo, com as condições da avaliação esclarecidas antes da visita."
+    ],
+    "sections": [
+      {
+        "title": "Calha e transmissão na garagem",
+        "paragraphs": [
+          "Portas seccionadas e basculantes precisam de uma ligação correta entre o motor e a porta. Avaliamos o carrinho, a calha e os apoios, além da resposta da central.",
+          "Cabos, molas ou guias danificados podem tornar insegura a libertação da porta; nessas condições, pare a utilização até à avaliação."
+        ]
+      },
+      {
+        "title": "Resistência nos portões exteriores",
+        "paragraphs": [
+          "Num portão de correr, um desalinhamento ou desgaste no percurso pode provocar esforço localizado. Num de batente, verificamos o arco de movimento, os braços e as dobradiças.",
+          "Aumentar a força para ultrapassar uma paragem não substitui a correção da causa e pode comprometer a segurança."
+        ]
+      },
+      {
+        "title": "Afinação depois do diagnóstico",
+        "paragraphs": [
+          "Percursos e parâmetros são revistos quando a causa o justifica, com atenção às condições indicadas para o equipamento. Explicamos o que foi corrigido e o que precisa de acompanhamento.",
+          "Se for necessário material adicional, a proposta é apresentada antes de avançar com essa parte do trabalho."
+        ]
+      }
+    ],
+    "visitTitle": "Informação que ajuda a preparar a assistência",
+    "visitIntro": "Para começar o seu pedido em Rio de Mouro, basta uma descrição da entrada e fotografias obtidas em segurança.",
+    "visitItems": [
+      "Ponto e sentido em que a manobra é interrompida.",
+      "Existência de pausa, ruído ou esforço antes da paragem.",
+      "Fotografias gerais e referência visível do automatismo."
+    ],
+    "questionsTitle": "Dúvidas sobre esta reparação",
+    "questions": [
+      {
+        "question": "A porta ficar a meio é sempre falta de força?",
+        "answer": "Não. Pode haver resistência mecânica, um problema na transmissão ou uma indicação de controlo. O diagnóstico procura distinguir estas hipóteses antes de alterar parâmetros."
+      },
+      {
+        "question": "Uma pausa que faz o motor voltar a funcionar identifica a avaria?",
+        "answer": "É uma pista útil, mas não identifica sozinha o componente. Indique o tempo aproximado de utilização e de pausa sem repetir manobras para provocar a falha."
+      }
+    ],
+    "contactTitle": "Conte-nos o que aconteceu ao portão",
+    "contactText": "Envie o seu pedido em Rio de Mouro. Fala com quem acompanha a avaliação e o trabalho, para perceber as opções e decidir o próximo passo.",
+    "message": "Olá, pretendo pedir assistência a um portão em Rio de Mouro. Posso enviar fotografias?",
+    "updated": "2026-10-31"
+  },
+  "instalacao-automatismos-portoes-oeiras": {
+    "slug": "instalacao-automatismos-portoes-oeiras",
+    "area": "Oeiras",
+    "kind": "installation",
+    "title": "Instalação de automatismos para portões em Oeiras",
+    "description": "Instalação de automatismos para portões em Oeiras. Montagem com acesso para manutenção, comandos e desbloqueio previstos.",
+    "image": "/localidades/oeiras.jpg",
+    "imageAlt": "Palácio do Marquês de Pombal, em Oeiras.",
+    "photo": {
+      "caption": "Palácio do Marquês de Pombal, em Oeiras.",
+      "author": "Vitor Oliveira",
+      "authorUrl": "https://www.flickr.com/people/21446942@N00",
+      "source": "https://commons.wikimedia.org/wiki/File:Pal%C3%A1cio_Marqu%C3%AAs_de_Pombal_-_Oeiras_-_Portugal_(35855104291).jpg",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "width": 1280,
+      "height": 853
+    },
+    "intro": "Procura uma instalação que seja simples de utilizar e fácil de acompanhar depois? Em Oeiras, preparamos a escolha do automatismo com atenção ao acesso para manutenção, aos comandos e ao desbloqueio.",
+    "coverageTitle": "Planear para além do primeiro dia",
+    "coverage": [
+      "A posição de um motor ou de uma central deve permitir utilização e assistência futuras. No levantamento, percebemos como entra na propriedade e que elementos precisam de ficar acessíveis depois da montagem.",
+      "A TecCasa acompanha pedidos de instalação em Oeiras para portões de correr, de batente e portas de garagem seccionadas ou basculantes. A deslocação é combinada consigo, com as condições da avaliação esclarecidas antes da visita."
+    ],
+    "sections": [
+      {
+        "title": "Acesso aos componentes",
+        "paragraphs": [
+          "Num portão de correr, reservamos espaço para o motor e o desbloqueio. Num de batente, analisamos fixações, curso dos braços e acesso aos mecanismos.",
+          "Evitamos definir a montagem sem considerar revestimentos, obstáculos e a possibilidade de inspecionar os componentes quando for necessária assistência."
+        ]
+      },
+      {
+        "title": "Portas de garagem e entrada alternativa",
+        "paragraphs": [
+          "Numa seccionada ou basculante, avaliamos o motor de teto e a transmissão conforme a porta e o espaço livre. Se a garagem for a única entrada, estudamos o acesso ao desbloqueio exterior.",
+          "A solução deve permitir explicar ao utilizador como agir numa falha de energia."
+        ]
+      },
+      {
+        "title": "Identificar o que será entregue",
+        "paragraphs": [
+          "O orçamento discrimina equipamento, acessórios e âmbito da montagem. São também esclarecidas as preparações elétricas ou mecânicas que precisem de execução separada.",
+          "No final, mostramos as funções utilizadas e as referências do equipamento, para um futuro pedido de assistência começar com informação concreta."
+        ]
+      }
+    ],
+    "visitTitle": "O que enviar para prepararmos a instalação",
+    "visitIntro": "Para começar o seu pedido em Oeiras, basta uma descrição da entrada e fotografias obtidas em segurança.",
+    "visitItems": [
+      "Local onde pretende instalar o motor ou a central.",
+      "Obstáculos e revestimentos previstos junto à montagem.",
+      "Tipo de abertura e existência de passagem alternativa."
+    ],
+    "questionsTitle": "Antes de escolher o automatismo",
+    "questions": [
+      {
+        "question": "Devo prever acesso ao motor depois dos revestimentos?",
+        "answer": "Sim. É importante que manutenção, ligações e desbloqueio continuem acessíveis. As condições de montagem precisam de ser verificadas antes de fechar o espaço."
+      },
+      {
+        "question": "O orçamento pode incluir a substituição de um sistema antigo?",
+        "answer": "Sim. Identificamos o material a retirar, o que pode ser aproveitado e o equipamento novo, após avaliação das condições da entrada."
+      }
+    ],
+    "contactTitle": "Vamos preparar a sua instalação",
+    "contactText": "Envie o seu pedido em Oeiras. Fala com quem acompanha a avaliação e o trabalho, para perceber as opções e decidir o próximo passo.",
+    "message": "Olá, pretendo instalar um automatismo em Oeiras. Posso enviar fotografias?",
+    "updated": "2026-10-31"
+  },
+  "reparacao-portoes-oeiras": {
+    "slug": "reparacao-portoes-oeiras",
+    "area": "Oeiras",
+    "kind": "repair",
+    "title": "Reparação de portões automáticos em Oeiras",
+    "description": "Reparação de portões automáticos em Oeiras. Falhas repetidas e desgaste: diagnóstico com atenção ao histórico do equipamento.",
+    "image": "/localidades/oeiras.jpg",
+    "imageAlt": "Palácio do Marquês de Pombal, em Oeiras.",
+    "photo": {
+      "caption": "Palácio do Marquês de Pombal, em Oeiras.",
+      "author": "Vitor Oliveira",
+      "authorUrl": "https://www.flickr.com/people/21446942@N00",
+      "source": "https://commons.wikimedia.org/wiki/File:Pal%C3%A1cio_Marqu%C3%AAs_de_Pombal_-_Oeiras_-_Portugal_(35855104291).jpg",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "width": 1280,
+      "height": 853
+    },
+    "intro": "Uma pequena falha repetida pode tornar a entrada pouco fiável. Em Oeiras, analisamos o histórico do automatismo e os sintomas atuais para perceber o que precisa de ser reparado e o que ainda pode ser aproveitado.",
+    "coverageTitle": "Diagnóstico com atenção às intervenções anteriores",
+    "coverage": [
+      "Se o portão já teve afinações ou peças substituídas, essa informação ajuda. Não é necessário conhecer toda a instalação: uma referência visível e uma descrição do que mudou são um bom começo.",
+      "A TecCasa acompanha pedidos de reparação em Oeiras para portões de correr, de batente e portas de garagem seccionadas ou basculantes. A deslocação é combinada consigo, com as condições da avaliação esclarecidas antes da visita."
+    ],
+    "sections": [
+      {
+        "title": "Ler o histórico sem assumir a causa",
+        "paragraphs": [
+          "Diga-nos se a avaria apareceu depois de uma troca de comandos, de uma alteração no portão ou de outra intervenção. Verificamos a relação entre essa mudança e o defeito.",
+          "Uma peça recentemente substituída não é automaticamente a causa, nem deve ser excluída da avaliação apenas por ser nova."
+        ]
+      },
+      {
+        "title": "Verificar desgaste e movimento",
+        "paragraphs": [
+          "Em portões de correr, avaliamos rodas, calha e transmissão; nos de batente, braços e fixações. Numa garagem seccionada ou basculante, observamos o equilíbrio, as guias e a ligação ao automatismo.",
+          "Quando existe um defeito mecânico, explicamos a necessidade de o corrigir antes de afinar o motor."
+        ]
+      },
+      {
+        "title": "Definir o âmbito da reparação",
+        "paragraphs": [
+          "A proposta distingue a resolução da avaria de melhorias opcionais que possam ser identificadas. A disponibilidade de componentes e o estado do conjunto influenciam a comparação entre reparar e substituir.",
+          "O custo da avaliação e as condições de uma intervenção posterior são esclarecidos antes do agendamento."
+        ]
+      }
+    ],
+    "visitTitle": "Informação que ajuda a preparar a assistência",
+    "visitIntro": "Para começar o seu pedido em Oeiras, basta uma descrição da entrada e fotografias obtidas em segurança.",
+    "visitItems": [
+      "Referência do equipamento e sintomas atuais.",
+      "Data aproximada de início e reparações conhecidas.",
+      "Fotografias do conjunto e informação sobre o acesso ao motor."
+    ],
+    "questionsTitle": "Dúvidas sobre esta reparação",
+    "questions": [
+      {
+        "question": "Uma revisão anterior elimina a necessidade de diagnóstico?",
+        "answer": "Não. O sintoma atual precisa de avaliação. O relatório ou a descrição do trabalho anterior podem ajudar a evitar repetir verificações sem contexto."
+      },
+      {
+        "question": "Podem explicar o que é urgente e o que pode esperar?",
+        "answer": "Sim, com base no que for identificado. Defeitos que afetem a segurança ou impeçam o funcionamento precisam de ficar distinguidos de melhorias opcionais."
+      }
+    ],
+    "contactTitle": "Conte-nos o que aconteceu ao portão",
+    "contactText": "Envie o seu pedido em Oeiras. Fala com quem acompanha a avaliação e o trabalho, para perceber as opções e decidir o próximo passo.",
+    "message": "Olá, pretendo pedir assistência a um portão em Oeiras. Posso enviar fotografias?",
+    "updated": "2026-10-31"
+  },
+  "instalacao-automatismos-portoes-sintra": {
+    "slug": "instalacao-automatismos-portoes-sintra",
+    "area": "Sintra",
+    "kind": "installation",
+    "title": "Instalação de automatismos para portões em Sintra",
+    "description": "Instalação de automatismos para portões em Sintra. Automatizar a entrada existente com fixações e preparação verificadas.",
+    "image": "/localidades/sintra.jpg",
+    "imageAlt": "Palácio Nacional de Sintra.",
+    "photo": {
+      "caption": "Palácio Nacional de Sintra.",
+      "author": "Alegna13",
+      "authorUrl": "https://commons.wikimedia.org/w/index.php?title=User:Alegna13&action=edit&redlink=1",
+      "source": "https://commons.wikimedia.org/wiki/File:Vista_exterior_Pal%C3%A1cio_Nacional_de_Sintra.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": 1024,
+      "height": 768
+    },
+    "intro": "Quer automatizar a entrada e manter uma montagem cuidada no portão que já tem? Em Sintra, avaliamos as fixações, o percurso e o espaço disponível antes de propor o equipamento.",
+    "coverageTitle": "Integrar o automatismo na entrada existente",
+    "coverage": [
+      "O levantamento considera a forma de abrir, os apoios disponíveis e as preparações que podem ser necessárias. Fala diretamente com quem analisa o acesso e acompanha a montagem.",
+      "A TecCasa acompanha pedidos de instalação em Sintra para portões de correr, de batente e portas de garagem seccionadas ou basculantes. A deslocação é combinada consigo, com as condições da avaliação esclarecidas antes da visita."
+    ],
+    "sections": [
+      {
+        "title": "Fixar sem improvisar suportes",
+        "paragraphs": [
+          "As dimensões de pilares e dobradiças influenciam a montagem dos braços de batente. Nos portões de correr, a base e o alinhamento da cremalheira precisam de ser definidos em conjunto.",
+          "Se a estrutura exigir adaptação, identificamos essa preparação antes de escolher uma solução que dependa dela."
+        ]
+      },
+      {
+        "title": "Passagens de cabos e localização",
+        "paragraphs": [
+          "A central e os dispositivos devem ter posição e percurso de cabos previstos, respeitando as instruções do equipamento. A existência de uma tomada próxima não confirma toda a preparação elétrica.",
+          "Os trabalhos elétricos novos ou alterados são distinguidos e devem ter execução com o enquadramento exigível."
+        ]
+      },
+      {
+        "title": "Garagem e condições de utilização",
+        "paragraphs": [
+          "Também avaliamos portas seccionadas e basculantes, considerando o equilíbrio, a transmissão e a altura disponível. Em qualquer tipo de entrada, a frequência das manobras e a possibilidade de desbloquear influenciam a escolha.",
+          "Depois da montagem, explicamos os meios de abertura e os cuidados de utilização."
+        ]
+      }
+    ],
+    "visitTitle": "O que enviar para prepararmos a instalação",
+    "visitIntro": "Para começar o seu pedido em Sintra, basta uma descrição da entrada e fotografias obtidas em segurança.",
+    "visitItems": [
+      "Portão visto pelo interior, com pilares ou calha visíveis.",
+      "Medidas aproximadas e espaço junto aos apoios.",
+      "Indicação dos percursos de cabos existentes."
+    ],
+    "questionsTitle": "Antes de escolher o automatismo",
+    "questions": [
+      {
+        "question": "Podem automatizar aproveitando o portão existente?",
+        "answer": "Quando o estado da estrutura, o movimento e as condições de segurança forem adequados, pode ser possível. A decisão depende do levantamento e de eventuais preparações."
+      },
+      {
+        "question": "Confirmam o modelo apenas por fotografias?",
+        "answer": "As fotografias permitem preparar hipóteses e pedir medidas úteis. A confirmação da montagem e do orçamento depende das condições verificadas no local."
+      }
+    ],
+    "contactTitle": "Vamos preparar a sua instalação",
+    "contactText": "Envie o seu pedido em Sintra. Fala com quem acompanha a avaliação e o trabalho, para perceber as opções e decidir o próximo passo.",
+    "message": "Olá, pretendo instalar um automatismo em Sintra. Posso enviar fotografias?",
+    "updated": "2026-10-31"
+  },
+  "reparacao-portoes-sintra": {
+    "slug": "reparacao-portoes-sintra",
+    "area": "Sintra",
+    "kind": "repair",
+    "title": "Reparação de portões automáticos em Sintra",
+    "description": "Reparação de portões automáticos em Sintra. Ruído, folgas e arrasto: avaliar apoios, transmissão e automatismo.",
+    "image": "/localidades/sintra.jpg",
+    "imageAlt": "Palácio Nacional de Sintra.",
+    "photo": {
+      "caption": "Palácio Nacional de Sintra.",
+      "author": "Alegna13",
+      "authorUrl": "https://commons.wikimedia.org/w/index.php?title=User:Alegna13&action=edit&redlink=1",
+      "source": "https://commons.wikimedia.org/wiki/File:Vista_exterior_Pal%C3%A1cio_Nacional_de_Sintra.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": 1024,
+      "height": 768
+    },
+    "intro": "O portão ganhou folga, começou a arrastar ou faz um ruído diferente? Em Sintra, avaliamos o movimento e o automatismo para localizar a origem do esforço antes de propor a reparação.",
+    "coverageTitle": "Ouvir o sintoma e observar os apoios",
+    "coverage": [
+      "Um ruído novo pode estar ligado à transmissão, ao alinhamento ou ao mecanismo do próprio portão. Indique onde parece surgir e em que manobra se nota, sem retirar tampas ou proteções.",
+      "A TecCasa acompanha pedidos de reparação em Sintra para portões de correr, de batente e portas de garagem seccionadas ou basculantes. A deslocação é combinada consigo, com as condições da avaliação esclarecidas antes da visita."
+    ],
+    "sections": [
+      {
+        "title": "Apoios e alinhamento no exterior",
+        "paragraphs": [
+          "Nos portões de batente, verificamos braços, dobradiças e fixações. Num portão de correr, observamos rodas, guia e relação com a cremalheira.",
+          "Folgas ou deslocações nos apoios podem alterar o esforço e precisam de ser consideradas antes de modificar as definições da central."
+        ]
+      },
+      {
+        "title": "Porta de garagem com movimento irregular",
+        "paragraphs": [
+          "Numa seccionada ou basculante, a calha e a transmissão são avaliadas em conjunto com o equilíbrio da porta. Um motor que trabalha não garante que a ligação à porta esteja em condições.",
+          "Se houver cabos soltos, molas danificadas ou inclinação, pare a utilização e mantenha a passagem afastada."
+        ]
+      },
+      {
+        "title": "Intervenção adequada ao problema",
+        "paragraphs": [
+          "Explicamos se a correção envolve o automatismo, preparação mecânica ou ambos. Quando uma adaptação precisa de outro trabalho antes da reparação, isso fica identificado.",
+          "Os testes finais verificam a manobra que originou o pedido e as limitações encontradas no conjunto."
+        ]
+      }
+    ],
+    "visitTitle": "Informação que ajuda a preparar a assistência",
+    "visitIntro": "Para começar o seu pedido em Sintra, basta uma descrição da entrada e fotografias obtidas em segurança.",
+    "visitItems": [
+      "Descrição do ruído e da zona onde se nota.",
+      "Indicação de folgas, arrasto ou movimento irregular.",
+      "Vista geral do portão e identificação do automatismo."
+    ],
+    "questionsTitle": "Dúvidas sobre esta reparação",
+    "questions": [
+      {
+        "question": "Lubrificar elimina um ruído novo?",
+        "answer": "Depende da origem e dos componentes. Aplicar produtos sem identificar o ponto pode não resolver o problema. Devem ser respeitadas as indicações de manutenção do fabricante."
+      },
+      {
+        "question": "Podem avaliar um portão que ainda funciona?",
+        "answer": "Sim. Uma alteração de ruído ou movimento pode justificar avaliação antes de uma paragem total, sobretudo quando existe esforço anormal ou folga visível."
+      }
+    ],
+    "contactTitle": "Conte-nos o que aconteceu ao portão",
+    "contactText": "Envie o seu pedido em Sintra. Fala com quem acompanha a avaliação e o trabalho, para perceber as opções e decidir o próximo passo.",
+    "message": "Olá, pretendo pedir assistência a um portão em Sintra. Posso enviar fotografias?",
+    "updated": "2026-10-31"
+  },
+  "instalacao-automatismos-portoes-samora-correia": {
+    "slug": "instalacao-automatismos-portoes-samora-correia",
+    "area": "Samora Correia",
+    "kind": "installation",
+    "title": "Instalação de automatismos para portões em Samora Correia",
+    "description": "Instalação de automatismos para portões em Samora Correia. Avaliação das medidas, do movimento e da preparação para escolher o motor.",
+    "image": "/localidades/samora-correia.jpg",
+    "imageAlt": "Palácio do Infantado, em Samora Correia.",
+    "photo": {
+      "caption": "Palácio do Infantado, em Samora Correia.",
+      "author": "Vitor Oliveira",
+      "authorUrl": "https://www.flickr.com/people/21446942@N00",
+      "source": "https://commons.wikimedia.org/wiki/File:Samora_Correia_-_Portugal_(186704432).jpg",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "width": 948,
+      "height": 1280
+    },
+    "intro": "Vai automatizar uma entrada que ainda é manual ou renovar um motor existente? Em Samora Correia, analisamos o portão, a utilização e as condições de preparação antes de escolher o conjunto.",
+    "coverageTitle": "Começar pelo acesso que pretende melhorar",
+    "coverage": [
+      "Um pedido pode começar com medidas aproximadas e fotografias do interior. Interessa conhecer as dificuldades atuais, a frequência de entrada e o espaço onde o automatismo poderá trabalhar.",
+      "A TecCasa acompanha pedidos de instalação em Samora Correia para portões de correr, de batente e portas de garagem seccionadas ou basculantes. A deslocação é combinada consigo, com as condições da avaliação esclarecidas antes da visita."
+    ],
+    "sections": [
+      {
+        "title": "Dimensões com contexto",
+        "paragraphs": [
+          "A largura e a altura ajudam a escolher uma gama, mas o peso e o movimento também contam. Se não souber o peso, diga de que material é o portão e envie uma vista geral.",
+          "A confirmação do equipamento depende da avaliação, sem transformar uma estimativa por fotografia numa medida garantida."
+        ]
+      },
+      {
+        "title": "Escolher conforme a abertura",
+        "paragraphs": [
+          "Para correr, verificamos o curso, o apoio do motor e a cremalheira necessária. Para batente, analisamos as folhas, as cotas dos pilares e a fixação dos braços.",
+          "Numa garagem seccionada ou basculante, a área da porta precisa de ser considerada com o equilíbrio e o espaço da transmissão."
+        ]
+      },
+      {
+        "title": "Preparação e entrega do conjunto",
+        "paragraphs": [
+          "Definimos os comandos, os dispositivos de segurança e o desbloqueio adequado ao acesso. A existência de alimentação e tubagens é verificada antes de fechar o âmbito da montagem.",
+          "Trabalhos elétricos novos ou alterados são distinguidos e devem ter execução com as habilitações aplicáveis. A proposta esclarece o que está incluído."
+        ]
+      }
+    ],
+    "visitTitle": "O que enviar para prepararmos a instalação",
+    "visitIntro": "Para começar o seu pedido em Samora Correia, basta uma descrição da entrada e fotografias obtidas em segurança.",
+    "visitItems": [
+      "Medidas aproximadas, material e tipo de abertura.",
+      "Fotografias do espaço interior e dos apoios.",
+      "Indicação de primeira instalação ou substituição."
+    ],
+    "questionsTitle": "Antes de escolher o automatismo",
+    "questions": [
+      {
+        "question": "E se não souber o peso do portão?",
+        "answer": "Envie medidas aproximadas, material de construção e fotografias. Estes elementos ajudam a preparar a avaliação; o peso não é confirmado apenas pelo aspeto do portão."
+      },
+      {
+        "question": "Podem avaliar tanto instalação nova como substituição?",
+        "answer": "Sim. Numa instalação nova verificamos a preparação do local; numa substituição identificamos também o que existe e o que pode ser aproveitado."
+      }
+    ],
+    "contactTitle": "Vamos preparar a sua instalação",
+    "contactText": "Envie o seu pedido em Samora Correia. Fala com quem acompanha a avaliação e o trabalho, para perceber as opções e decidir o próximo passo.",
+    "message": "Olá, pretendo instalar um automatismo em Samora Correia. Posso enviar fotografias?",
+    "updated": "2026-10-31"
+  },
+  "reparacao-portoes-samora-correia": {
+    "slug": "reparacao-portoes-samora-correia",
+    "area": "Samora Correia",
+    "kind": "repair",
+    "title": "Reparação de portões automáticos em Samora Correia",
+    "description": "Reparação de portões automáticos em Samora Correia. Motor sem força e movimento irregular: identificar a causa antes de trocar peças.",
+    "image": "/localidades/samora-correia.jpg",
+    "imageAlt": "Palácio do Infantado, em Samora Correia.",
+    "photo": {
+      "caption": "Palácio do Infantado, em Samora Correia.",
+      "author": "Vitor Oliveira",
+      "authorUrl": "https://www.flickr.com/people/21446942@N00",
+      "source": "https://commons.wikimedia.org/wiki/File:Samora_Correia_-_Portugal_(186704432).jpg",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "width": 948,
+      "height": 1280
+    },
+    "intro": "Um motor sem força, um portão que salta ou um braço que já não acompanha o movimento precisam de causas confirmadas. Em Samora Correia, avaliamos a avaria antes de indicar o material a substituir.",
+    "coverageTitle": "Identificar o equipamento e o esforço",
+    "coverage": [
+      "A referência do automatismo e uma descrição da falha ajudam a preparar a deslocação. Se o portão ainda trabalha de forma irregular, não precisa de repetir manobras para produzir uma demonstração.",
+      "A TecCasa acompanha pedidos de reparação em Samora Correia para portões de correr, de batente e portas de garagem seccionadas ou basculantes. A deslocação é combinada consigo, com as condições da avaliação esclarecidas antes da visita."
+    ],
+    "sections": [
+      {
+        "title": "Quando parece faltar força",
+        "paragraphs": [
+          "Um mecanismo pesado, um problema de transmissão ou uma falha no automatismo podem produzir sintomas próximos. Verificamos estas possibilidades antes de alterar forças ou propor um motor maior.",
+          "Indique se o defeito surgiu de repente ou se foi piorando ao longo do tempo."
+        ]
+      },
+      {
+        "title": "Cada mecanismo tem pontos a verificar",
+        "paragraphs": [
+          "Num portão de correr, rodas e cremalheira influenciam o esforço. Num de batente, observamos braços, suportes e dobradiças. Na garagem seccionada ou basculante, guias, equilíbrio e carrinho entram na avaliação.",
+          "Componentes mecânicos danificados precisam de correção adequada antes de voltar à utilização normal."
+        ]
+      },
+      {
+        "title": "Uma deslocação preparada com informação útil",
+        "paragraphs": [
+          "Fotografias da identificação podem permitir procurar informação e peças antes da visita, mas não garantem uma reparação imediata. Explicamos as condições da avaliação e, depois do diagnóstico, o trabalho proposto.",
+          "A decisão de reparar ou substituir considera a causa, a disponibilidade de material e o estado do conjunto."
+        ]
+      }
+    ],
+    "visitTitle": "Informação que ajuda a preparar a assistência",
+    "visitIntro": "Para começar o seu pedido em Samora Correia, basta uma descrição da entrada e fotografias obtidas em segurança.",
+    "visitItems": [
+      "Marca e referência legíveis do equipamento.",
+      "Evolução da falha e manobras afetadas.",
+      "Fotografias do conjunto sem retirar tampas ou proteções."
+    ],
+    "questionsTitle": "Dúvidas sobre esta reparação",
+    "questions": [
+      {
+        "question": "Garantem levar logo a peça certa?",
+        "answer": "Sem diagnóstico não podemos garantir a peça responsável. As referências e fotografias ajudam a preparar a assistência, mas a confirmação pode depender da avaliação no local."
+      },
+      {
+        "question": "Um automatismo antigo ainda pode ser reparado?",
+        "answer": "Depende da avaria, das peças disponíveis e do estado do portão. Explicamos o aproveitamento possível e a alternativa quando a reparação não for adequada."
+      }
+    ],
+    "contactTitle": "Conte-nos o que aconteceu ao portão",
+    "contactText": "Envie o seu pedido em Samora Correia. Fala com quem acompanha a avaliação e o trabalho, para perceber as opções e decidir o próximo passo.",
+    "message": "Olá, pretendo pedir assistência a um portão em Samora Correia. Posso enviar fotografias?",
+    "updated": "2026-10-31"
+  },
+  "instalacao-automatismos-portoes-benavente": {
+    "slug": "instalacao-automatismos-portoes-benavente",
+    "area": "Benavente",
+    "kind": "installation",
+    "title": "Instalação de automatismos para portões em Benavente",
+    "description": "Instalação de automatismos para portões em Benavente. Equipamento, acessórios e preparação identificados antes da montagem.",
+    "image": "/localidades/benavente.jpg",
+    "imageAlt": "Pelourinho de Benavente.",
+    "photo": {
+      "caption": "Pelourinho de Benavente.",
+      "author": "Vitor Oliveira",
+      "authorUrl": "https://www.flickr.com/people/21446942@N00",
+      "source": "https://commons.wikimedia.org/wiki/File:Pelourinho_de_Benavente_-_Portugal_(186755727).jpg",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "width": 958,
+      "height": 1280
+    },
+    "intro": "Antes de instalar um motor, vale a pena definir exatamente o que precisa de ficar incluído. Em Benavente, ajudamos a transformar as condições da entrada numa proposta de automatização com âmbito claro.",
+    "coverageTitle": "Um orçamento que permita decidir",
+    "coverage": [
+      "No primeiro contacto, percebemos se o portão já está montado, se existe automatismo e que preparação foi executada. Assim, o pedido de orçamento parte do estado real do acesso.",
+      "A TecCasa acompanha pedidos de instalação em Benavente para portões de correr, de batente e portas de garagem seccionadas ou basculantes. A deslocação é combinada consigo, com as condições da avaliação esclarecidas antes da visita."
+    ],
+    "sections": [
+      {
+        "title": "Fornecimento e trabalhos de montagem",
+        "paragraphs": [
+          "A proposta identifica motor, acessórios e elementos de transmissão. Num portão de correr, o comprimento e a montagem da cremalheira contam; num de batente, suportes e cotas condicionam o trabalho.",
+          "O preço do motor, isoladamente, não descreve tudo o que pode ser necessário para a entrada funcionar."
+        ]
+      },
+      {
+        "title": "Garagem e adaptações específicas",
+        "paragraphs": [
+          "Uma porta seccionada ou basculante pode exigir uma determinada calha, braço ou adaptador. Avaliamos o movimento e o espaço disponível antes de definir o conjunto.",
+          "Se não existir entrada alternativa, estudamos também a utilização do desbloqueio pelo exterior e a forma de o explicar ao utilizador."
+        ]
+      },
+      {
+        "title": "Confirmar a preparação antes da data",
+        "paragraphs": [
+          "Bases, suportes, tubagens e alimentação precisam de estar compatíveis com o equipamento. Obras mecânicas ou trabalhos elétricos que exijam execução separada ficam identificados.",
+          "Com as condições esclarecidas e a proposta aceite, combinamos a montagem e quem recebe a explicação final dos comandos e das manobras."
+        ]
+      }
+    ],
+    "visitTitle": "O que enviar para prepararmos a instalação",
+    "visitIntro": "Para começar o seu pedido em Benavente, basta uma descrição da entrada e fotografias obtidas em segurança.",
+    "visitItems": [
+      "Estado atual da entrada e trabalhos já preparados.",
+      "Tipo de abertura, medidas e fotografias interiores.",
+      "Comandos pretendidos e existência de acesso alternativo."
+    ],
+    "questionsTitle": "Antes de escolher o automatismo",
+    "questions": [
+      {
+        "question": "Um orçamento pode mudar depois de verem o local?",
+        "answer": "Uma indicação baseada em informação inicial pode precisar de confirmação no levantamento. O âmbito e o valor a adjudicar devem ficar esclarecidos antes de executar o trabalho."
+      },
+      {
+        "question": "Podem identificar o que preciso de preparar antes da montagem?",
+        "answer": "Sim. A avaliação permite indicar os elementos necessários e distinguir a montagem do automatismo de preparações mecânicas ou elétricas separadas."
+      }
+    ],
+    "contactTitle": "Vamos preparar a sua instalação",
+    "contactText": "Envie o seu pedido em Benavente. Fala com quem acompanha a avaliação e o trabalho, para perceber as opções e decidir o próximo passo.",
+    "message": "Olá, pretendo instalar um automatismo em Benavente. Posso enviar fotografias?",
+    "updated": "2026-10-31"
+  },
+  "reparacao-portoes-benavente": {
+    "slug": "reparacao-portoes-benavente",
+    "area": "Benavente",
+    "kind": "repair",
+    "title": "Reparação de portões automáticos em Benavente",
+    "description": "Reparação de portões automáticos em Benavente. Condições da avaliação, diagnóstico e orçamento esclarecidos antes de avançar.",
+    "image": "/localidades/benavente.jpg",
+    "imageAlt": "Pelourinho de Benavente.",
+    "photo": {
+      "caption": "Pelourinho de Benavente.",
+      "author": "Vitor Oliveira",
+      "authorUrl": "https://www.flickr.com/people/21446942@N00",
+      "source": "https://commons.wikimedia.org/wiki/File:Pelourinho_de_Benavente_-_Portugal_(186755727).jpg",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "width": 958,
+      "height": 1280
+    },
+    "intro": "O automatismo deixou de funcionar e precisa de saber como será organizada a assistência? Em Benavente, esclarecemos as condições da avaliação e procuramos identificar a avaria antes de recomendar uma reparação.",
+    "coverageTitle": "Da descrição do problema à proposta",
+    "coverage": [
+      "Não precisa de conhecer a peça responsável para pedir ajuda. Diga-nos o que acontecia normalmente e o que mudou, incluindo se ainda existe alguma forma de abrir o acesso.",
+      "A TecCasa acompanha pedidos de reparação em Benavente para portões de correr, de batente e portas de garagem seccionadas ou basculantes. A deslocação é combinada consigo, com as condições da avaliação esclarecidas antes da visita."
+    ],
+    "sections": [
+      {
+        "title": "Reconhecer a falha sem desmontar",
+        "paragraphs": [
+          "Fotografias da entrada e de referências visíveis permitem preparar o pedido. Indique se o motor não reage, faz ruído ou começa a mover o portão.",
+          "Evite abrir centrais, tocar em ligações ou repetir rearmes quando uma proteção dispara. Essas condições precisam de avaliação adequada."
+        ]
+      },
+      {
+        "title": "Avaliar o conjunto correspondente",
+        "paragraphs": [
+          "A assistência contempla portões de correr, de batente e garagem. O diagnóstico relaciona o controlo e a alimentação com a transmissão e o estado mecânico: calha e rodas, braços e apoios, ou carrinho e equilíbrio da porta.",
+          "Uma ordem recebida pela central não garante que a transmissão esteja em condições."
+        ]
+      },
+      {
+        "title": "Autorizar com os elementos necessários",
+        "paragraphs": [
+          "Depois da avaliação, explicamos o defeito confirmado, o material e os trabalhos propostos. Se for preciso confirmar disponibilidade de peças, essa limitação é comunicada.",
+          "Qualquer custo de deslocação ou diagnóstico é esclarecido antes da marcação; trabalhos adicionais precisam de aceitação antes de serem executados."
+        ]
+      }
+    ],
+    "visitTitle": "Informação que ajuda a preparar a assistência",
+    "visitIntro": "Para começar o seu pedido em Benavente, basta uma descrição da entrada e fotografias obtidas em segurança.",
+    "visitItems": [
+      "Descrição da falha e meios de abertura ainda disponíveis.",
+      "Referências visíveis e vista geral do portão.",
+      "Indicação de quem recebe a visita e pode autorizar o trabalho."
+    ],
+    "questionsTitle": "Dúvidas sobre esta reparação",
+    "questions": [
+      {
+        "question": "O diagnóstico já inclui uma reparação?",
+        "answer": "As condições devem ser combinadas antes da visita. A avaliação pode permitir resolver algumas situações, mas outras exigem material ou uma intervenção posterior orçamentada."
+      },
+      {
+        "question": "Preciso de saber a marca para pedir assistência?",
+        "answer": "Não é obrigatório saber de memória. Uma fotografia de uma referência visível ajuda; se não a encontrar em segurança, envie uma vista geral sem desmontar o equipamento."
+      }
+    ],
+    "contactTitle": "Conte-nos o que aconteceu ao portão",
+    "contactText": "Envie o seu pedido em Benavente. Fala com quem acompanha a avaliação e o trabalho, para perceber as opções e decidir o próximo passo.",
+    "message": "Olá, pretendo pedir assistência a um portão em Benavente. Posso enviar fotografias?",
+    "updated": "2026-10-31"
+  },
+  "instalacao-automatismos-portoes-porto-alto": {
+    "slug": "instalacao-automatismos-portoes-porto-alto",
+    "area": "Porto Alto",
+    "kind": "installation",
+    "title": "Instalação de automatismos para portões no Porto Alto",
+    "description": "Instalação de automatismos para portões no Porto Alto. Escolha do motor conforme dimensões, utilização e espaço disponível.",
+    "image": "/localidades/porto-alto.jpg",
+    "imageAlt": "Ponte Marechal Carmona, na ligação ao Porto Alto.",
+    "photo": {
+      "caption": "Ponte Marechal Carmona, na ligação ao Porto Alto.",
+      "author": "Vitor Oliveira",
+      "authorUrl": "https://www.flickr.com/people/21446942@N00",
+      "source": "https://commons.wikimedia.org/wiki/File:Ponte_Marechal_Carmona_-_Vila_Franca_de_Xira_-_Portugal_(40774686415).jpg",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "width": 1280,
+      "height": 670
+    },
+    "intro": "Uma entrada maior ou usada por várias viaturas exige mais do que escolher um motor pelo peso anunciado. No Porto Alto, estudamos o movimento, o ritmo de utilização e o espaço de montagem.",
+    "coverageTitle": "Definir a utilização antes de escolher a gama",
+    "coverage": [
+      "Quer se trate de uma habitação ou de um acesso partilhado, interessa perceber quantas manobras estão previstas e como chegam as viaturas. A solução é preparada para essas condições, sem presumir uma gama pelo tamanho aparente.",
+      "A TecCasa acompanha pedidos de instalação no Porto Alto para portões de correr, de batente e portas de garagem seccionadas ou basculantes. A deslocação é combinada consigo, com as condições da avaliação esclarecidas antes da visita."
+    ],
+    "sections": [
+      {
+        "title": "Largura, peso e exposição do portão",
+        "paragraphs": [
+          "Num portão de correr, observamos o percurso completo e a transmissão. Num de batente, avaliamos as dimensões de cada folha e as cotas dos pilares.",
+          "O material de construção e as condições do local podem influenciar o esforço; uma estimativa inicial tem de ser confirmada antes da escolha final."
+        ]
+      },
+      {
+        "title": "Garagens e frequência de utilização",
+        "paragraphs": [
+          "Em portas seccionadas ou basculantes, o equilíbrio e a transmissão precisam de ser compatíveis com o motor proposto. A utilização seguida também conta na seleção.",
+          "O número de manobras previsto ajuda a distinguir uma solução adequada ao uso familiar de outra preparada para necessidades diferentes."
+        ]
+      },
+      {
+        "title": "Acessórios e preparação coordenados",
+        "paragraphs": [
+          "A proposta identifica os dispositivos de segurança e os meios de abertura previstos. O alcance dos comandos, o local do desbloqueio e a existência de outra entrada são pontos a esclarecer.",
+          "Alimentação elétrica nova ou alterada e preparações mecânicas são distinguidas quando necessárias, com o enquadramento técnico aplicável."
+        ]
+      }
+    ],
+    "visitTitle": "O que enviar para prepararmos a instalação",
+    "visitIntro": "Para começar o seu pedido no Porto Alto, basta uma descrição da entrada e fotografias obtidas em segurança.",
+    "visitItems": [
+      "Dimensões e material do portão.",
+      "Número aproximado de utilizações diárias e utilizadores.",
+      "Fotografias do espaço de abertura e da preparação existente."
+    ],
+    "questionsTitle": "Antes de escolher o automatismo",
+    "questions": [
+      {
+        "question": "Um portão grande precisa sempre da gama mais potente?",
+        "answer": "É necessário avaliar peso, dimensões, movimento, frequência de utilização e limites de montagem. Uma única característica não basta para escolher a gama."
+      },
+      {
+        "question": "Podem preparar uma solução para várias viaturas?",
+        "answer": "Sim. Diga-nos o ritmo de utilização, os períodos com manobras seguidas e quantos utilizadores precisam de comando. Esses dados ajudam a preparar a proposta."
+      }
+    ],
+    "contactTitle": "Vamos preparar a sua instalação",
+    "contactText": "Envie o seu pedido no Porto Alto. Fala com quem acompanha a avaliação e o trabalho, para perceber as opções e decidir o próximo passo.",
+    "message": "Olá, pretendo instalar um automatismo no Porto Alto. Posso enviar fotografias?",
+    "updated": "2026-10-31"
+  },
+  "reparacao-portoes-porto-alto": {
+    "slug": "reparacao-portoes-porto-alto",
+    "area": "Porto Alto",
+    "kind": "repair",
+    "title": "Reparação de portões automáticos no Porto Alto",
+    "description": "Reparação de portões automáticos no Porto Alto. Avarias intermitentes: relacionar manobras, esforço e resposta do automatismo.",
+    "image": "/localidades/porto-alto.jpg",
+    "imageAlt": "Ponte Marechal Carmona, na ligação ao Porto Alto.",
+    "photo": {
+      "caption": "Ponte Marechal Carmona, na ligação ao Porto Alto.",
+      "author": "Vitor Oliveira",
+      "authorUrl": "https://www.flickr.com/people/21446942@N00",
+      "source": "https://commons.wikimedia.org/wiki/File:Ponte_Marechal_Carmona_-_Vila_Franca_de_Xira_-_Portugal_(40774686415).jpg",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "width": 1280,
+      "height": 670
+    },
+    "intro": "O portão funciona algumas vezes e falha noutras, sobretudo quando há mais entradas e saídas? No Porto Alto, avaliamos a sequência de utilização e o esforço do conjunto para localizar a avaria.",
+    "coverageTitle": "Uma falha intermitente precisa de contexto",
+    "coverage": [
+      "A altura em que o defeito surge e o comportamento antes da paragem ajudam o diagnóstico. Registe o que observou sem insistir em manobras que possam agravar o problema ou tornar a passagem insegura.",
+      "A TecCasa acompanha pedidos de reparação no Porto Alto para portões de correr, de batente e portas de garagem seccionadas ou basculantes. A deslocação é combinada consigo, com as condições da avaliação esclarecidas antes da visita."
+    ],
+    "sections": [
+      {
+        "title": "Uso seguido e resposta do motor",
+        "paragraphs": [
+          "Diga-nos se a falha aparece após várias aberturas, depois de uma pausa ou logo na primeira manobra. O automatismo e a central são avaliados conforme esses sinais.",
+          "Voltar a funcionar depois de algum tempo é uma pista, mas não identifica por si só a causa nem confirma que o equipamento possa continuar em utilização."
+        ]
+      },
+      {
+        "title": "Esforço e transmissão no percurso",
+        "paragraphs": [
+          "Em portões de correr, verificamos calha, rodas e cremalheira; nos de batente, braços e apoios. Numa garagem seccionada ou basculante, avaliamos o mecanismo da porta e a ligação à calha.",
+          "Resistências mecânicas podem alterar o trabalho do motor e precisam de ser distinguidas de falhas de comando."
+        ]
+      },
+      {
+        "title": "Resolver e acompanhar o comportamento",
+        "paragraphs": [
+          "O diagnóstico permite explicar a correção proposta e os testes possíveis. Quando a avaria é intermitente, pode ser necessário acompanhar as condições em que aparece para confirmar o resultado.",
+          "Se houver falta de peças ou necessidade de trabalho separado, indicamos essa condição antes de avançar com uma solução incompleta."
+        ]
+      }
+    ],
+    "visitTitle": "Informação que ajuda a preparar a assistência",
+    "visitIntro": "Para começar o seu pedido no Porto Alto, basta uma descrição da entrada e fotografias obtidas em segurança.",
+    "visitItems": [
+      "Momento em que a falha aparece e número de manobras anterior.",
+      "Tempo aproximado até voltar a funcionar, se acontecer.",
+      "Referência do automatismo e sinais observados sem abrir caixas."
+    ],
+    "questionsTitle": "Dúvidas sobre esta reparação",
+    "questions": [
+      {
+        "question": "Uma avaria intermitente pode ser avaliada se não aparecer na visita?",
+        "answer": "Sim, mas o diagnóstico pode ficar condicionado. O histórico e os sinais disponíveis ajudam; explicamos o que foi confirmado e o que pode exigir acompanhamento adicional."
+      },
+      {
+        "question": "Podem trocar a central para experimentar?",
+        "answer": "A proposta deve assentar na avaliação da causa. Trocar componentes por tentativa pode não resolver o defeito e não substitui a verificação do conjunto."
+      }
+    ],
+    "contactTitle": "Conte-nos o que aconteceu ao portão",
+    "contactText": "Envie o seu pedido no Porto Alto. Fala com quem acompanha a avaliação e o trabalho, para perceber as opções e decidir o próximo passo.",
+    "message": "Olá, pretendo pedir assistência a um portão no Porto Alto. Posso enviar fotografias?",
+    "updated": "2026-10-31"
   }
 }

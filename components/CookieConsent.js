@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { useRouter } from "next/router";
-import { CONSENT_KEY, readConsent, saveConsent, enableAnalytics, disableAnalytics } from "../lib/consent.mjs";
+import { trackContact } from "../lib/contact-analytics.mjs";
+import { CONSENT_KEY, readConsent, saveConsent, enableAnalytics, disableAnalytics, isAnalyticsExcluded } from "../lib/consent.mjs";
 
 export default function CookieConsent({ english = false }) {
   const { pathname } = useRouter();
@@ -18,7 +19,7 @@ export default function CookieConsent({ english = false }) {
     const sync = () => {
       let saved = null;
       try { saved = readConsent(window.localStorage); } catch {}
-      if (!saved?.analytics) {
+      if (!saved?.analytics || isAnalyticsExcluded()) {
         disableAnalytics();
         if (active.current) { window.location.reload(); return; }
       } else { enableAnalytics(); active.current = true; }
@@ -32,10 +33,12 @@ export default function CookieConsent({ english = false }) {
     window.addEventListener("teccasa:cookie-preferences", preferences);
     window.addEventListener("storage", onStorage);
     window.addEventListener("focus", sync);
+    window.addEventListener("teccasa:analytics-exclusion", sync);
     return () => {
       window.removeEventListener("teccasa:cookie-preferences", preferences);
       window.removeEventListener("storage", onStorage);
       window.removeEventListener("focus", sync);
+      window.removeEventListener("teccasa:analytics-exclusion", sync);
     };
   }, []);
 
@@ -52,12 +55,27 @@ export default function CookieConsent({ english = false }) {
   }, [choice]);
 
   useEffect(() => {
-    if (!choice?.analytics || trackedPath.current === pathname) return;
+    if (!choice?.analytics || isAnalyticsExcluded() || trackedPath.current === pathname) return;
     enableAnalytics();
     active.current = true;
     window.gtag("event", "page_view", { page_location: window.location.origin + pathname, page_path: pathname, page_title: document.title });
     trackedPath.current = pathname;
   }, [choice, pathname]);
+
+
+  useEffect(() => {
+    const onContact = (event) => {
+      if (event.type === "auxclick" && event.button !== 1) return;
+      const anchor = event.target?.closest?.("a[href]");
+      if (anchor) trackContact(anchor);
+    };
+    document.addEventListener("click", onContact, true);
+    document.addEventListener("auxclick", onContact, true);
+    return () => {
+      document.removeEventListener("click", onContact, true);
+      document.removeEventListener("auxclick", onContact, true);
+    };
+  }, []);
 
 
   const choose = (allow) => {
@@ -66,7 +84,7 @@ export default function CookieConsent({ english = false }) {
     setChoice(saved);
     setAnalytics(allow);
     setOpen(false);
-    if (allow) { enableAnalytics(); active.current = true; }
+    if (allow && !isAnalyticsExcluded()) { enableAnalytics(); active.current = true; }
     else {
       disableAnalytics();
       if (active.current) window.location.reload();

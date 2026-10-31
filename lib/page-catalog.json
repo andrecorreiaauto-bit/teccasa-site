@@ -44,8 +44,38 @@
       "title": "Instalação por zona",
       "items": [
         {
+          "path": "/instalacao-automatismos-portoes-agualva-cacem",
+          "label": "Instalação de automatismos para portões em Agualva-Cacém",
+          "indexable": true
+        },
+        {
           "path": "/instalacao-automatismos-portoes-alcochete",
           "label": "Instalação de automatismos para portões em Alcochete",
+          "indexable": true
+        },
+        {
+          "path": "/instalacao-automatismos-portoes-almada",
+          "label": "Instalação de automatismos para portões em Almada",
+          "indexable": true
+        },
+        {
+          "path": "/instalacao-automatismos-portoes-amadora",
+          "label": "Instalação de automatismos para portões na Amadora",
+          "indexable": true
+        },
+        {
+          "path": "/instalacao-automatismos-portoes-benavente",
+          "label": "Instalação de automatismos para portões em Benavente",
+          "indexable": true
+        },
+        {
+          "path": "/instalacao-automatismos-portoes-charneca-de-caparica",
+          "label": "Instalação de automatismos para portões na Charneca de Caparica",
+          "indexable": true
+        },
+        {
+          "path": "/instalacao-automatismos-portoes-corroios",
+          "label": "Instalação de automatismos para portões em Corroios",
           "indexable": true
         },
         {
@@ -54,8 +84,33 @@
           "indexable": true
         },
         {
+          "path": "/instalacao-automatismos-portoes-oeiras",
+          "label": "Instalação de automatismos para portões em Oeiras",
+          "indexable": true
+        },
+        {
+          "path": "/instalacao-automatismos-portoes-porto-alto",
+          "label": "Instalação de automatismos para portões no Porto Alto",
+          "indexable": true
+        },
+        {
           "path": "/instalacao-automatismos-portoes-povoa-santa-iria",
           "label": "Instalação de motores de portão na Póvoa de Santa Iria",
+          "indexable": true
+        },
+        {
+          "path": "/instalacao-automatismos-portoes-rio-de-mouro",
+          "label": "Instalação de automatismos para portões em Rio de Mouro",
+          "indexable": true
+        },
+        {
+          "path": "/instalacao-automatismos-portoes-samora-correia",
+          "label": "Instalação de automatismos para portões em Samora Correia",
+          "indexable": true
+        },
+        {
+          "path": "/instalacao-automatismos-portoes-sintra",
+          "label": "Instalação de automatismos para portões em Sintra",
           "indexable": true
         },
         {
@@ -69,8 +124,38 @@
       "title": "Reparação por zona",
       "items": [
         {
+          "path": "/reparacao-portoes-agualva-cacem",
+          "label": "Reparação de portões automáticos em Agualva-Cacém",
+          "indexable": true
+        },
+        {
           "path": "/reparacao-portoes-alcochete",
           "label": "Reparação de portões automáticos em Alcochete",
+          "indexable": true
+        },
+        {
+          "path": "/reparacao-portoes-almada",
+          "label": "Reparação de portões automáticos em Almada",
+          "indexable": true
+        },
+        {
+          "path": "/reparacao-portoes-amadora",
+          "label": "Reparação de portões automáticos na Amadora",
+          "indexable": true
+        },
+        {
+          "path": "/reparacao-portoes-benavente",
+          "label": "Reparação de portões automáticos em Benavente",
+          "indexable": true
+        },
+        {
+          "path": "/reparacao-portoes-charneca-de-caparica",
+          "label": "Reparação de portões automáticos na Charneca de Caparica",
+          "indexable": true
+        },
+        {
+          "path": "/reparacao-portoes-corroios",
+          "label": "Reparação de portões automáticos em Corroios",
           "indexable": true
         },
         {
@@ -79,8 +164,33 @@
           "indexable": true
         },
         {
+          "path": "/reparacao-portoes-oeiras",
+          "label": "Reparação de portões automáticos em Oeiras",
+          "indexable": true
+        },
+        {
+          "path": "/reparacao-portoes-porto-alto",
+          "label": "Reparação de portões automáticos no Porto Alto",
+          "indexable": true
+        },
+        {
           "path": "/reparacao-portoes-povoa-santa-iria",
           "label": "Reparação de portões automáticos na Póvoa de Santa Iria",
+          "indexable": true
+        },
+        {
+          "path": "/reparacao-portoes-rio-de-mouro",
+          "label": "Reparação de portões automáticos em Rio de Mouro",
+          "indexable": true
+        },
+        {
+          "path": "/reparacao-portoes-samora-correia",
+          "label": "Reparação de portões automáticos em Samora Correia",
+          "indexable": true
+        },
+        {
+          "path": "/reparacao-portoes-sintra",
+          "label": "Reparação de portões automáticos em Sintra",
           "indexable": true
         },
         {

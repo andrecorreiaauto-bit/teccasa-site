@@ -38,7 +38,7 @@ export default function LocalServicePage({ page }) {
     </Head>
     <div className="local-page" lang="pt-PT">
       <SiteHeader alternateHref={installation ? "/en/automatic-gate-installation-lisbon" : "/en/electric-gate-repair-lisbon"} />
-      <main>
+      <main data-service-area={page.area} data-service-kind={page.kind}>
         <nav className="breadcrumbs" aria-label="Localização no site"><a href="/">Início</a><span aria-hidden="true"> / </span><a href={servicePath}>{serviceLabel}</a><span aria-hidden="true"> / </span><span>{page.area}</span></nav>
         <section className="hero" aria-labelledby="local-title">
           <div>
@@ -70,7 +70,7 @@ export default function LocalServicePage({ page }) {
       p { margin:0 0 18px; }
       .lead { font-size:19px; }
       figure { margin:0; min-width:0; }
-      figure img { display:block; width:100%; height:auto; border-radius:18px; }
+      figure img { display:block; width:100%; height:auto; max-height:460px; object-fit:contain; border-radius:18px; }
       figcaption { font-size:12px; line-height:1.5; margin-top:10px; color:#667385; }
       .actions { display:flex; align-items:center; flex-wrap:wrap; gap:14px 20px; margin-top:26px; }
       .primary { background:#25D366; color:white; padding:13px 20px; border-radius:12px; font-weight:700; text-decoration:none; }
