@@ -24,6 +24,11 @@
           "indexable": true
         },
         {
+          "path": "/configurador-automatismos-portoes",
+          "label": "Configurador de automatismos",
+          "indexable": true
+        },
+        {
           "path": "/instalacao-automatismos-portoes",
           "label": "Instalação de Automatismos para Portões",
           "indexable": true

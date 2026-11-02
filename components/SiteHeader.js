@@ -6,6 +6,7 @@ export default function SiteHeader({ english = false, alternateHref }) {
   const [menuOpen, setMenuOpen] = useState(false);
   const menuItems = english ? [
     ["Home", "/en"],
+    ["Gate configurator (PT)", "/configurador-automatismos-portoes"],
     ["Gate Repair", "/en/electric-gate-repair-lisbon"],
     ["Gate Installation", "/en/automatic-gate-installation-lisbon"],
     ["Garage Remotes", "/en/garage-remote-controls-lisbon"],
@@ -13,6 +14,7 @@ export default function SiteHeader({ english = false, alternateHref }) {
     ["About us", "/en/about"],
   ] : [
     ["Início", "/"],
+    ["Configurador de portões", "/configurador-automatismos-portoes"],
     ["Instalação de Automatismos", "/instalacao-automatismos-portoes"],
     ["Reparação de Portões", "/reparacao-portoes"],
     ["Comandos", "/comandos-garagem"],

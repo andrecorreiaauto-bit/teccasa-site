@@ -1,3 +1,4 @@
+import ConfiguratorCallout from "./ConfiguratorCallout";
 import Head from "next/head";
 import SiteHeader from "./SiteHeader";
 import { company } from "../lib/company";
@@ -49,6 +50,7 @@ export default function LocalServicePage({ page }) {
           </div>
           <figure><img src={page.image} alt={page.imageAlt} width={page.photo.width} height={page.photo.height} fetchPriority="high" /><figcaption>{page.photo.caption}<br />Foto: <a href={page.photo.authorUrl} target="_blank" rel="noopener noreferrer">{page.photo.author}</a>{page.photo.authorSite ? <> / <a href={page.photo.authorSite} target="_blank" rel="noopener noreferrer">julesvernex2.com</a></> : null} · <a href={page.photo.source} target="_blank" rel="noopener noreferrer">Wikimedia Commons</a> · <a href={page.photo.licenseUrl} target="_blank" rel="license noopener noreferrer">{page.photo.license}</a>. Imagem redimensionada.</figcaption></figure>
         </section>
+        {installation && <ConfiguratorCallout />}
         <section className="introduction" aria-labelledby="coverage-title"><h2 id="coverage-title">{page.coverageTitle}</h2>{page.coverage.map((p, n) => <p key={n}>{p}</p>)}</section>
         <div className="service-content">{page.sections.map((section, n) => <section key={section.title} className="topic">
           <p className="step" aria-hidden="true">{String(n + 1).padStart(2, "0")}</p><h2>{section.title}</h2>

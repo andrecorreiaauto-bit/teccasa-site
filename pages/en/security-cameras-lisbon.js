@@ -6,6 +6,7 @@ export default function SecurityCamerasLisbon() {
 
   const menuItems = [
     { label: "Gate repair", href: "/en/electric-gate-repair-lisbon", active: true },
+  { label:"Gate configurator (PT)", href:"/configurador-automatismos-portoes", active:true },
     { label: "Gate installation", href: "/en/automatic-gate-installation-lisbon", active: true },
     { label: "Garage remotes", href: "/en/garage-remote-controls-lisbon", active: true },
     { label: "Security cameras", href: "/en/security-cameras-lisbon", active: true },

@@ -9,6 +9,7 @@ export default function Home() {
  const logoTimer = useRef(null);
  const menuItems = [
   { label:"Home", href:"/en", active:true },
+  { label:"Gate configurator (PT)", href:"/configurador-automatismos-portoes", active:true },
 
   { label:"Gate Repair", href:"/en/electric-gate-repair-lisbon", active:true },
 

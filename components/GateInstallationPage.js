@@ -1,3 +1,4 @@
+import ConfiguratorCallout from "./ConfiguratorCallout";
 import Head from "next/head";
 import SiteHeader from "./SiteHeader";
 import { company } from "../lib/company";
@@ -48,6 +49,7 @@ export default function GateInstallationPage({ page, repair = false }) {
             <figcaption>Imagem ilustrativa gerada por IA. A solução de montagem depende do portão existente.</figcaption>
           </figure>
         </section>
+        {!repair && <ConfiguratorCallout kind={page.kind} />}
         <section className="at-a-glance" aria-labelledby="considerations-title">
           <h2 id="considerations-title">{repair ? "O que observamos na avaria" : "O que conta na escolha"}</h2>
           <div className="summary-grid">{page.summary.map(([title,text]) => <div key={title} className="summary-item"><h3>{title}</h3><p>{text}</p></div>)}</div>

@@ -1,9 +1,11 @@
+import ConfiguratorCallout from "../components/ConfiguratorCallout";
 import { useEffect, useState } from "react";
 import Head from "next/head";
 export default function InstalacaoAutomatismosPortoes() {
  const [menuOpen, setMenuOpen] = useState(false);
  const menuItems = [
   { label:"Início", href:"/", active:true },
+  { label:"Configurador de portões", href:"/configurador-automatismos-portoes", active:true },
 
   { label:"Instalação de Automatismos", href:"/instalacao-automatismos-portoes", active:true },
 
@@ -459,7 +461,9 @@ gap:"10px"
                     
                     </section>
                       
-                                           <section
+                                           <ConfiguratorCallout />
+
+<section
                                            id="tipos"
                                            style={{
                                            padding:"20px 0 70px"
