@@ -6,7 +6,7 @@ import { company } from "../lib/company";
 // pages intentionally keep their separate layout in GateInstallationPage.
 const brands = {
   erreka: {
-    name: "Erreka", logo: "/marcas/erreka-logo.svg", width: 487, height: 115,
+    name: "Erreka", logo: "/marcas/erreka-logo.png", width: 600, height: 142,
     introduction: "Diagnóstico e assistência a automatismos Erreka para portões. Apoio em motores, centrais, comandos e recetores, com identificação do equipamento e avaliação da avaria antes de propor uma intervenção.",
     services: [
       ["Diagnóstico e assistência", "Análise das falhas de abertura, fecho e movimento, tendo em conta o motor, a central e o estado do portão."],
@@ -71,7 +71,7 @@ export default function IndependentBrandPage({ page }) {
         <section className="hero" aria-labelledby="brand-title">
           <div className="hero-copy">
             <div className="brand-heading"><span className="badge">Automatismos para portões</span><img className="brand-logo" src={brand.logo} alt={brand.name} width={brand.width} height={brand.height} /></div>
-            <h1 id="brand-title">{page.title}</h1>
+            <h1 id="brand-title">Automatismos {brand.name} para portões</h1>
             <p className="lead">{brand.introduction}</p>
             <p className="independent">{notice}</p>
             <div className="actions"><a className="button whatsapp" href={whatsapp} target="_blank" rel="noopener noreferrer">Pedir assistência</a><a className="button navy" href="#servicos">Ver serviços</a></div>
