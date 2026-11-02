@@ -1,3 +1,5 @@
+import ConfiguratorButton from "../components/ConfiguratorButton";
+import ConfiguratorNovelty from "../components/ConfiguratorNovelty";
 import { useEffect, useState } from "react";
 import Head from "next/head";
 export default function ComandoGaragemSoFuncionaPerto() {
@@ -220,7 +222,7 @@ export default function ComandoGaragemSoFuncionaPerto() {
        fontSize:"16px"
      }}
      >
-       {item.label}
+       {item.label}{item.href === "/configurador-automatismos-portoes" && <ConfiguratorNovelty />}
      </a>
      
      ))}
@@ -275,7 +277,7 @@ export default function ComandoGaragemSoFuncionaPerto() {
       padding:"10px 0"
     }}
     >
-      {item.label}
+      {item.label}{item.href === "/configurador-automatismos-portoes" && <ConfiguratorNovelty />}
     </a>
 
     ))}
@@ -1073,6 +1075,8 @@ boxShadow:"0 10px 25px rgba(8,40,92,.18)"
 >
 Ligar agora
 </a>
+<ConfiguratorButton />
+
 
 </div>
 

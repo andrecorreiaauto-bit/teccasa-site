@@ -1,3 +1,4 @@
+import ConfiguratorButton from "./ConfiguratorButton";
 import ConfiguratorCallout from "./ConfiguratorCallout";
 import Head from "next/head";
 import SiteHeader from "./SiteHeader";
@@ -58,7 +59,7 @@ export default function LocalServicePage({ page }) {
         </section>)}</div>
         <section className="visit" aria-labelledby="visit-title"><h2 id="visit-title">{page.visitTitle}</h2><p>{page.visitIntro}</p><ul>{page.visitItems.map(item => <li key={item}>{item}</li>)}</ul><p>Não precisa de desmontar o equipamento para enviar fotografias. Evite incluir pessoas, matrículas ou documentos sem relação com o pedido.</p></section>
         <section className="questions" aria-labelledby="questions-title"><h2 id="questions-title">{page.questionsTitle}</h2>{page.questions.map(({ question, answer }) => <details key={question}><summary>{question}</summary><p>{answer}</p></details>)}</section>
-        <section className="contact" aria-labelledby="contact-title"><h2 id="contact-title">{page.contactTitle}</h2><p>{page.contactText}</p><div className="actions"><a className="primary" href={whatsapp} target="_blank" rel="noopener noreferrer">Falar com a TecCasa</a><a href={`mailto:${company.email}`}>{company.email}</a></div><p className="small-links"><a href="/condicoes-servicos">Condições dos serviços</a></p></section>
+        <section className="contact" aria-labelledby="contact-title"><h2 id="contact-title">{page.contactTitle}</h2><p>{page.contactText}</p><div className="actions"><a className="primary" href={whatsapp} target="_blank" rel="noopener noreferrer">Falar com a TecCasa</a><a href={`mailto:${company.email}`}>{company.email}</a><ConfiguratorButton /></div><p className="small-links"><a href="/condicoes-servicos">Condições dos serviços</a></p></section>
       </main>
     </div>
     <style jsx>{`

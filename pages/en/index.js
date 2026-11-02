@@ -1,3 +1,4 @@
+import ConfiguratorNovelty from "../../components/ConfiguratorNovelty";
 import CompanyIntro from "../../components/CompanyIntro";
 import { useEffect, useState, useRef } from "react";
 import Head from "next/head";
@@ -249,7 +250,7 @@ gap:"10px"
        fontSize:"16px"
      }}
      >
-       {item.label}
+       {item.label}{item.href === "/configurador-automatismos-portoes" && <ConfiguratorNovelty english />}
      </a>
      
      ))}
@@ -304,7 +305,7 @@ gap:"10px"
       padding:"10px 0"
     }}
     >
-      {item.label}
+      {item.label}{item.href === "/configurador-automatismos-portoes" && <ConfiguratorNovelty english />}
     </a>
 
     ))}

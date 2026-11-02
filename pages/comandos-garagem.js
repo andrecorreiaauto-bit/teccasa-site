@@ -1,3 +1,4 @@
+import ConfiguratorNovelty from "../components/ConfiguratorNovelty";
 import { useEffect, useState } from "react";
 import Head from "next/head";
 export default function ComandosGaragem() {
@@ -250,7 +251,7 @@ gap:"10px"
        fontSize:"16px"
      }}
      >
-       {item.label}
+       {item.label}{item.href === "/configurador-automatismos-portoes" && <ConfiguratorNovelty />}
      </a>
      
      ))}
@@ -305,7 +306,7 @@ gap:"10px"
       padding:"10px 0"
     }}
     >
-      {item.label}
+      {item.label}{item.href === "/configurador-automatismos-portoes" && <ConfiguratorNovelty />}
     </a>
 
     ))}

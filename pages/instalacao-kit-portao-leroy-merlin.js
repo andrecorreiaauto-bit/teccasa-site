@@ -1,3 +1,5 @@
+import ConfiguratorButton from "../components/ConfiguratorButton";
+import ConfiguratorNovelty from "../components/ConfiguratorNovelty";
 import { useEffect, useState } from "react";
 import Head from "next/head";
 export default function InstalacaoKitPortaoLeroyMerlin() {
@@ -217,7 +219,7 @@ export default function InstalacaoKitPortaoLeroyMerlin() {
        fontSize:"16px"
      }}
      >
-       {item.label}
+       {item.label}{item.href === "/configurador-automatismos-portoes" && <ConfiguratorNovelty />}
      </a>
      
      ))}
@@ -272,7 +274,7 @@ export default function InstalacaoKitPortaoLeroyMerlin() {
       padding:"10px 0"
     }}
     >
-      {item.label}
+      {item.label}{item.href === "/configurador-automatismos-portoes" && <ConfiguratorNovelty />}
     </a>
 
     ))}
@@ -726,6 +728,8 @@ export default function InstalacaoKitPortaoLeroyMerlin() {
                                                               >
                                                               Ligar agora
                                                               </a>
+<ConfiguratorButton />
+
                                                               
                                                               </div>
                                                               

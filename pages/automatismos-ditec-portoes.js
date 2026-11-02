@@ -1,3 +1,5 @@
+import ConfiguratorButton from "../components/ConfiguratorButton";
+import ConfiguratorNovelty from "../components/ConfiguratorNovelty";
 import { useEffect, useState } from "react";
 import Head from "next/head";
 export default function AutomatismosDitecPortoes() {
@@ -221,7 +223,7 @@ export default function AutomatismosDitecPortoes() {
        fontSize:"16px"
      }}
      >
-       {item.label}
+       {item.label}{item.href === "/configurador-automatismos-portoes" && <ConfiguratorNovelty />}
      </a>
      
      ))}
@@ -276,7 +278,7 @@ export default function AutomatismosDitecPortoes() {
       padding:"10px 0"
     }}
     >
-      {item.label}
+      {item.label}{item.href === "/configurador-automatismos-portoes" && <ConfiguratorNovelty />}
     </a>
 
     ))}
@@ -780,6 +782,8 @@ export default function AutomatismosDitecPortoes() {
                                                                                          >
                                                                                          Ligar agora
                                                                                          </a>
+<ConfiguratorButton />
+
                                                                                          
                                                                                          </div>
                                                                                          

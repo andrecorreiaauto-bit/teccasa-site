@@ -1,3 +1,5 @@
+import ConfiguratorButton from "../components/ConfiguratorButton";
+import ConfiguratorNovelty from "../components/ConfiguratorNovelty";
 import { useEffect, useState } from "react";
 import Head from "next/head";
 export default function InstalacaoKitPortaoVevor() {
@@ -219,7 +221,7 @@ export default function InstalacaoKitPortaoVevor() {
        fontSize:"16px"
      }}
      >
-       {item.label}
+       {item.label}{item.href === "/configurador-automatismos-portoes" && <ConfiguratorNovelty />}
      </a>
      
      ))}
@@ -274,7 +276,7 @@ export default function InstalacaoKitPortaoVevor() {
       padding:"10px 0"
     }}
     >
-      {item.label}
+      {item.label}{item.href === "/configurador-automatismos-portoes" && <ConfiguratorNovelty />}
     </a>
 
     ))}
@@ -752,6 +754,8 @@ text:"Quando o conjunto é adequado, avançamos com montagem, ligações, progra
                                                               >
                                                               Ligar agora
                                                               </a>
+<ConfiguratorButton />
+
 
                                                               </div>
 

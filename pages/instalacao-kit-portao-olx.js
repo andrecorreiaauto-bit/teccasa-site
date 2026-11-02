@@ -1,3 +1,5 @@
+import ConfiguratorButton from "../components/ConfiguratorButton";
+import ConfiguratorNovelty from "../components/ConfiguratorNovelty";
 import { useEffect, useState } from "react";
 import Head from "next/head";
 export default function InstalacaoKitPortaoOlx() {
@@ -218,7 +220,7 @@ export default function InstalacaoKitPortaoOlx() {
        fontSize:"16px"
      }}
      >
-       {item.label}
+       {item.label}{item.href === "/configurador-automatismos-portoes" && <ConfiguratorNovelty />}
      </a>
      
      ))}
@@ -273,7 +275,7 @@ export default function InstalacaoKitPortaoOlx() {
       padding:"10px 0"
     }}
     >
-      {item.label}
+      {item.label}{item.href === "/configurador-automatismos-portoes" && <ConfiguratorNovelty />}
     </a>
 
     ))}
@@ -724,6 +726,8 @@ export default function InstalacaoKitPortaoOlx() {
                                                               >
                                                               Ligar agora
                                                               </a>
+<ConfiguratorButton />
+
                                                               
                                                               </div>
                                                               

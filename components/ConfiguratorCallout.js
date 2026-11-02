@@ -1,14 +1,13 @@
-import { CONFIGURATOR_PATH, GATE_TYPES } from "../lib/configurator.mjs";
+import { CONFIGURATOR_IS_NEW } from "../lib/configurator.mjs";
+import ConfiguratorButton from "./ConfiguratorButton";
 
 export default function ConfiguratorCallout({ featured = false, kind, english = false }) {
-  const type = GATE_TYPES[kind];
-  const href = CONFIGURATOR_PATH + (type ? `?tipo=${type}` : "");
   return <section className={`configurator-callout${featured ? " featured" : ""}`} aria-label={english ? "Gate configurator" : "Configurador de automatismos"}>
     <div className="copy">
-      {featured && <span className="new-badge" data-configurator-novelty>{english ? "New" : "Novidade"}</span>}
+      {featured && CONFIGURATOR_IS_NEW && <span className="new-badge" data-configurator-novelty>{english ? "New" : "Novidade"}</span>}
       <h2>{featured ? "O seu portão, configurado por si." : english ? "Explore the options for your gate" : "Que automatismo faz sentido para o seu portão?"}</h2>
       <p>{english ? "Configure your gate in 3D and receive up to three solutions by email, subject to technical assessment. The configurator is available in Portuguese." : "Configure o seu portão em 3D, indique as condições da instalação e receba até três soluções por email, sujeitas a validação técnica."}</p>
-      <a className="start" href={href}>{english ? "Configure my gate (PT)" : "Configurar o meu portão"}<span aria-hidden="true"> →</span></a>
+      <ConfiguratorButton kind={kind} english={english} featured />
       <p className="note">{english ? "Sliding, swing, sectional and up-and-over gates." : "Portões de correr, de batente, seccionados e basculantes."}</p>
     </div>
     {featured && <figure><img src="/automatismos/tipos/instalacao-correr-v2-768.webp" alt="Ilustração de um portão de correr com automatismo" width="768" height="512" loading="lazy" /><figcaption>Imagem ilustrativa gerada por IA.</figcaption></figure>}

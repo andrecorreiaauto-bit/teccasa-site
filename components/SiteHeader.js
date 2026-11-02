@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { useRouter } from "next/router";
+import ConfiguratorNovelty from "./ConfiguratorNovelty";
 
 export default function SiteHeader({ english = false, alternateHref }) {
   const { pathname: path } = useRouter();
@@ -43,7 +44,7 @@ export default function SiteHeader({ english = false, alternateHref }) {
             </div>
           </div>
           {menuOpen && <div className="navigation-links" id="company-navigation">
-            {menuItems.map(([label, href]) => <a key={href} href={href} aria-current={href === path ? "page" : undefined} onClick={() => setMenuOpen(false)}>{label}</a>)}
+            {menuItems.map(([label, href]) => <a key={href} href={href} aria-current={href === path ? "page" : undefined} onClick={() => setMenuOpen(false)}>{label}{href === "/configurador-automatismos-portoes" && <ConfiguratorNovelty english={english} />}</a>)}
             <a className="whatsapp" href="https://wa.me/351922021980" target="_blank" rel="noopener noreferrer" onClick={() => setMenuOpen(false)}>WhatsApp</a>
           </div>}
         </nav>

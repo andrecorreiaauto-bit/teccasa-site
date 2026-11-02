@@ -1,3 +1,4 @@
+import ConfiguratorNovelty from "../../components/ConfiguratorNovelty";
 import { useEffect, useState } from "react";
 import Head from "next/head";
 
@@ -180,7 +181,7 @@ export default function SecurityCamerasLisbon() {
                       fontSize: "16px",
                     }}
                   >
-                    {item.label}
+                    {item.label}{item.href === "/configurador-automatismos-portoes" && <ConfiguratorNovelty english />}
                   </a>
                 ))}
 
@@ -229,7 +230,7 @@ export default function SecurityCamerasLisbon() {
                       padding: "10px 0",
                     }}
                   >
-                    {item.label}
+                    {item.label}{item.href === "/configurador-automatismos-portoes" && <ConfiguratorNovelty english />}
                   </a>
                 ))}
 

@@ -1,3 +1,5 @@
+import ConfiguratorButton from "../../components/ConfiguratorButton";
+import ConfiguratorNovelty from "../../components/ConfiguratorNovelty";
 import { useEffect, useState } from "react";
 import Head from "next/head";
 
@@ -231,7 +233,7 @@ export default function AutomaticGateInstallationLisbon() {
                       fontSize: "16px",
                     }}
                   >
-                    {item.label}
+                    {item.label}{item.href === "/configurador-automatismos-portoes" && <ConfiguratorNovelty english />}
                   </a>
                 ))}
 
@@ -281,7 +283,7 @@ export default function AutomaticGateInstallationLisbon() {
                       padding: "10px 0",
                     }}
                   >
-                    {item.label}
+                    {item.label}{item.href === "/configurador-automatismos-portoes" && <ConfiguratorNovelty english />}
                   </a>
                 ))}
 
@@ -862,6 +864,8 @@ export default function AutomaticGateInstallationLisbon() {
                 >
                   Call +351 922 021 980
                 </a>
+<ConfiguratorButton english />
+
               </div>
             </div>
           </section>

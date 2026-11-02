@@ -1,3 +1,5 @@
+import ConfiguratorButton from "../components/ConfiguratorButton";
+import ConfiguratorNovelty from "../components/ConfiguratorNovelty";
 import { useEffect, useState } from "react";
 import Head from "next/head";
 export default function AutomatismosSomfyPortoes() {
@@ -221,7 +223,7 @@ export default function AutomatismosSomfyPortoes() {
        fontSize:"16px"
      }}
      >
-       {item.label}
+       {item.label}{item.href === "/configurador-automatismos-portoes" && <ConfiguratorNovelty />}
      </a>
      
      ))}
@@ -276,7 +278,7 @@ export default function AutomatismosSomfyPortoes() {
       padding:"10px 0"
     }}
     >
-      {item.label}
+      {item.label}{item.href === "/configurador-automatismos-portoes" && <ConfiguratorNovelty />}
     </a>
 
     ))}
@@ -779,6 +781,8 @@ export default function AutomatismosSomfyPortoes() {
                                                                                          >
                                                                                          Ligar agora
                                                                                          </a>
+<ConfiguratorButton />
+
                                                                                          
                                                                                          </div>
                                                                                          
