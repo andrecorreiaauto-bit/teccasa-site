@@ -71,6 +71,31 @@
       ]
     },
     {
+      "title": "Reparação por tipo de portão",
+      "items": [
+        {
+          "path": "/reparacao-portoes-basculantes",
+          "label": "Reparação de portões de garagem basculantes",
+          "indexable": true
+        },
+        {
+          "path": "/reparacao-portoes-batente",
+          "label": "Reparação de portões de batente automáticos",
+          "indexable": true
+        },
+        {
+          "path": "/reparacao-portoes-correr",
+          "label": "Reparação de portões de correr automáticos",
+          "indexable": true
+        },
+        {
+          "path": "/reparacao-portoes-seccionados",
+          "label": "Reparação de portões de garagem seccionados",
+          "indexable": true
+        }
+      ]
+    },
+    {
       "title": "Instalação por zona",
       "items": [
         {
@@ -399,6 +424,11 @@
           "indexable": true
         },
         {
+          "path": "/automatismos-erreka-portoes",
+          "label": "Reparação de automatismos Erreka para portões",
+          "indexable": true
+        },
+        {
           "path": "/automatismos-faac-portoes",
           "label": "Automatismos FAAC para Portões | Instalação e Assistência",
           "indexable": true
@@ -416,6 +446,11 @@
         {
           "path": "/automatismos-nice-portoes",
           "label": "Automatismos Nice para Portões | Instalação e Assistência",
+          "indexable": true
+        },
+        {
+          "path": "/automatismos-pujol-portoes",
+          "label": "Reparação de automatismos Pujol para portões",
           "indexable": true
         },
         {

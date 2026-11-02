@@ -3,6 +3,7 @@ const brands = [
   ["FAAC", "faac"], ["CAME", "came"], ["Hörmann", "hormann"],
   ["Roger Technology", "roger-technology"], ["DEA", "dea"], ["Somfy", "somfy"],
   ["Beninca", "beninca"], ["V2", "v2"], ["Ditec", "ditec"],
+  ["Erreka", "erreka"], ["Pujol", "pujol"],
 ];
 
 export default function RepairBrandLinks() {

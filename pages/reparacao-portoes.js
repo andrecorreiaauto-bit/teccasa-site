@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import Head from "next/head";
 import RepairBrandLinks from "../components/RepairBrandLinks";
+import RepairTypeLinks from "../components/RepairTypeLinks";
 export default function ReparacaoPortoes() {
  const [menuOpen, setMenuOpen] = useState(false);
  const menuItems = [
@@ -638,6 +639,7 @@ gap:"10px"
   </div>
 </section>
 
+<RepairTypeLinks />
 <RepairBrandLinks />
 
                                                 <section style={{

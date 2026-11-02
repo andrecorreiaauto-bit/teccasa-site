@@ -1,0 +1,338 @@
+{
+  "reparacao-portoes-correr": {
+    "kind": "correr",
+    "image": "/automatismos/tipos/instalacao-correr-v2-1440.webp",
+    "imageSmall": "/automatismos/tipos/instalacao-correr-v2-768.webp",
+    "imageAlt": "Ilustração de um portão de correr fechado, com motor junto ao pilar e percurso lateral de recolha.",
+    "slug": "reparacao-portoes-correr",
+    "title": "Reparação de portões de correr automáticos",
+    "description": "O portão de correr prende, não abre ou volta atrás? Diagnóstico do movimento, motor, cremalheira e seguranças com contacto direto TecCasa.",
+    "lead": "O portão não corre como antes, para a meio ou deixou de responder? Descreva o comportamento e começamos por separar uma dificuldade de movimento de uma falha do automatismo.",
+    "summary": [
+      [
+        "Movimento",
+        "Rodas, calha, guias e obstáculos podem alterar o esforço."
+      ],
+      [
+        "Acionamento",
+        "Motor, cremalheira e paragens são analisados em conjunto."
+      ],
+      [
+        "Seguranças",
+        "Um bloqueio pode ter origem num dispositivo de proteção."
+      ]
+    ],
+    "sections": [
+      {
+        "title": "Prende sempre no mesmo ponto?",
+        "paragraphs": [
+          "Uma falha que aparece na mesma zona do percurso pode estar relacionada com a calha, as rodas, as guias ou o alinhamento da cremalheira. Interessa perceber se o problema surge ao abrir, ao fechar ou nos dois sentidos.",
+          "Na avaliação observamos o movimento e os apoios antes de recomendar peças. Se houver deformações ou trabalhos mecânicos necessários, explicamos o que é preciso corrigir e o que está incluído na intervenção."
+        ]
+      },
+      {
+        "title": "O motor trabalha mas o portão não anda",
+        "paragraphs": [
+          "Ouvir o motor não permite concluir que o conjunto está a transmitir movimento ao portão. O desbloqueio, a ligação à cremalheira ou uma falha do acionamento podem estar envolvidos. O diagnóstico tem de considerar o equipamento concreto.",
+          "Evite repetir manobras ou ajudar o motor empurrando a folha. Se notar ruído anormal, esforço ou movimento inseguro, suspenda a utilização até o equipamento ser avaliado. Uma descrição do som e do momento em que acontece ajuda no primeiro contacto."
+        ]
+      },
+      {
+        "title": "Para a meio, inverte ou deixa de fechar",
+        "paragraphs": [
+          "Obstáculos, esforço excessivo, dispositivos de segurança, fins de curso e parâmetros de funcionamento podem produzir sintomas semelhantes. Não é prudente aumentar a força ou anular uma proteção para tentar resolver a falha.",
+          "Verificamos a resposta do automatismo e dos acessórios previstos. Diga-nos se o problema começou após uma falha de energia, uma pancada ou uma alteração na instalação; essa sequência pode ajudar a orientar a análise."
+        ]
+      },
+      {
+        "title": "Reparar, aproveitar ou substituir",
+        "paragraphs": [
+          "A idade do motor, o estado mecânico, a disponibilidade de peças e a compatibilidade dos acessórios influenciam a solução. Uma reparação localizada pode fazer sentido; noutros casos é necessário comparar com a substituição do automatismo.",
+          "Explicamos a causa identificada e a proposta antes de avançar. Se houver troca de equipamento, o aproveitamento da cremalheira, das fotocélulas ou dos comandos é confirmado por análise, sem assumir que todos os componentes são compatíveis."
+        ]
+      }
+    ],
+    "photos": [
+      "Uma vista do portão pelo interior e da calha ao longo do percurso.",
+      "Motor e etiqueta, se estiverem acessíveis sem desmontar a tampa.",
+      "Pormenor visível da cremalheira e indicação do ponto onde costuma parar.",
+      "Descrição da falha ao abrir ou fechar e de quando começou."
+    ],
+    "questions": [
+      {
+        "question": "Um portão que para a meio precisa de motor novo?",
+        "answer": "Não é possível concluir isso apenas pelo sintoma. Pode existir esforço mecânico, uma falha de segurança, uma questão de paragem ou um problema do acionamento. Primeiro procuramos identificar a origem."
+      },
+      {
+        "question": "Posso aumentar a força para o portão deixar de prender?",
+        "answer": "Não recomendamos alterar a força para compensar um bloqueio. É preciso avaliar o movimento e os dispositivos de segurança antes de modificar a configuração."
+      },
+      {
+        "question": "As fotocélulas podem impedir o fecho?",
+        "answer": "Podem, dependendo do sistema e da falha. A avaliação verifica os dispositivos previstos e a forma como a central recebe os sinais, sem anular proteções para manter o portão a trabalhar."
+      },
+      {
+        "question": "Conseguem avaliar um motor antigo?",
+        "answer": "Podemos começar por identificar a marca e a referência e perceber o sintoma. A possibilidade de reparação depende do estado do conjunto e da disponibilidade de componentes adequados."
+      },
+      {
+        "question": "Se for preciso substituir, aproveitam a cremalheira?",
+        "answer": "A possibilidade de aproveitar cremalheira, base ou acessórios depende do seu estado e da compatibilidade com a solução de substituição. Essa decisão é explicada na proposta."
+      }
+    ],
+    "contact": "Diga-nos se o portão falha ao abrir, ao fechar ou sempre no mesmo ponto. Uma fotografia do motor e da calha ajuda a preparar a avaliação.",
+    "updated": "2026-11-02"
+  },
+  "reparacao-portoes-batente": {
+    "kind": "batente",
+    "image": "/automatismos/tipos/instalacao-batente-v2-1440.webp",
+    "imageSmall": "/automatismos/tipos/instalacao-batente-v2-768.webp",
+    "imageAlt": "Ilustração de um portão de batente de duas folhas aberto para o interior da propriedade, visto da rua.",
+    "slug": "reparacao-portoes-batente",
+    "title": "Reparação de portões de batente automáticos",
+    "description": "Uma folha não abre, os braços perderam força ou o portão não fecha? Diagnóstico de automatismos de batente de uma ou duas folhas pela TecCasa.",
+    "lead": "Uma folha ficou parada, o portão perdeu força ou as duas folhas deixaram de trabalhar em conjunto? Analisamos o movimento de cada lado, os braços e a resposta da central antes de propor uma solução.",
+    "summary": [
+      [
+        "Cada folha conta",
+        "O comportamento de um lado pode ser diferente do outro."
+      ],
+      [
+        "Braços e fixações",
+        "O esforço depende também das dobradiças, suportes e batentes."
+      ],
+      [
+        "Sequência de manobra",
+        "A ordem de abertura e fecho pode influenciar a falha."
+      ]
+    ],
+    "sections": [
+      {
+        "title": "Quando só uma das folhas trabalha",
+        "paragraphs": [
+          "O primeiro passo é perceber se a folha parada recebe uma ordem, se existe ruído no braço e se a falha é permanente ou intermitente. Um problema num lado não significa necessariamente que os dois motores precisam de ser substituídos.",
+          "A avaliação considera o acionamento dessa folha, as ligações e a resposta da central, além de possíveis dificuldades mecânicas. Não é necessário abrir caixas elétricas para iniciar o pedido; a referência do equipamento e a descrição do comportamento já ajudam."
+        ]
+      },
+      {
+        "title": "Braço sem força ou movimento irregular",
+        "paragraphs": [
+          "Dobradiças, apoios, fixações e batentes influenciam o esforço do automatismo. Uma folha que arrasta ou uma fixação que cede pode comprometer a manobra mesmo quando o motor ainda responde.",
+          "Verificamos também a adequação do acionamento à geometria existente. Não recomendamos aumentar a força nem prolongar sucessivamente o tempo de trabalho para ultrapassar uma folha presa. A origem do esforço deve ser esclarecida primeiro."
+        ]
+      },
+      {
+        "title": "Folhas desencontradas ou fecho incompleto",
+        "paragraphs": [
+          "A sequência de manobra, os pontos de paragem, uma eventual fechadura e os dispositivos de segurança precisam de funcionar em conjunto. Uma falha de sincronização pode deixar as folhas mal posicionadas no fecho.",
+          "Diga-nos se a falha começou após uma interrupção de energia, uma pancada, vento forte ou uma alteração de programação. Analisamos o que acontece no ciclo completo, sem assumir que uma nova programação resolve qualquer problema."
+        ]
+      },
+      {
+        "title": "O que pode ser aproveitado na intervenção",
+        "paragraphs": [
+          "Consoante o diagnóstico, pode fazer sentido reparar um componente, corrigir a instalação ou substituir parte do conjunto. A decisão considera o modelo, o estado dos dois lados e a disponibilidade de peças.",
+          "Se houver substituição, verificamos a compatibilidade de suportes, central, comandos e seguranças. Explicamos o alcance do trabalho e as limitações encontradas antes de avançar, com atenção ao funcionamento das duas folhas quando existirem."
+        ]
+      }
+    ],
+    "photos": [
+      "Vista pelo interior com as folhas e os dois pilares visíveis.",
+      "Fotografias dos braços e das respetivas etiquetas, sem retirar tampas.",
+      "Indicação da folha que falha e se o problema ocorre na abertura ou no fecho.",
+      "Pormenor de uma fixação ou batente com dano visível, se existir."
+    ],
+    "questions": [
+      {
+        "question": "Só uma folha não abre. É preciso trocar os dois motores?",
+        "answer": "Não necessariamente. É preciso identificar a causa e verificar o conjunto existente. Uma intervenção num lado ou num componente pode ser suficiente, dependendo da avaria e da compatibilidade."
+      },
+      {
+        "question": "Uma folha ficou mais lenta do que a outra. Isso é programação?",
+        "answer": "Pode estar relacionado com a configuração, mas também com esforço mecânico ou com o acionamento. O diagnóstico compara o comportamento das folhas antes de alterar parâmetros."
+      },
+      {
+        "question": "O portão já não encosta corretamente no fecho. Conseguem analisar?",
+        "answer": "Sim. Analisamos a sequência, as paragens, os batentes e, quando existir, a fechadura, além do movimento e dos dispositivos de segurança."
+      },
+      {
+        "question": "Podem reparar um portão de uma só folha?",
+        "answer": "Podemos avaliar automatismos de uma ou duas folhas. Envie a referência do equipamento e uma fotografia pelo interior para preparar o contacto."
+      },
+      {
+        "question": "É possível substituir apenas a central?",
+        "answer": "Depende da avaria e da compatibilidade com os motores e acessórios instalados. Não confirmamos uma central de substituição apenas por ter o mesmo aspeto ou o mesmo número de ligações."
+      }
+    ],
+    "contact": "Identifique qual das folhas falha e em que momento. Se puder, envie fotografias dos braços e dos pilares pelo interior.",
+    "updated": "2026-11-02"
+  },
+  "reparacao-portoes-seccionados": {
+    "kind": "seccionados",
+    "image": "/automatismos/tipos/instalacao-seccionado-1440.webp",
+    "imageSmall": "/automatismos/tipos/instalacao-seccionado-768.webp",
+    "imageAlt": "Ilustração de um portão seccionado parcialmente aberto, com painéis horizontais e calhas curvas junto ao teto.",
+    "slug": "reparacao-portoes-seccionados",
+    "title": "Reparação de portões de garagem seccionados",
+    "description": "O portão seccionado não abre, sobe torto ou volta a abrir? Avaliação da porta, calhas, motor de teto e seguranças com a TecCasa Soluções.",
+    "lead": "A porta de garagem deixou de abrir, inverte o fecho ou move-se de forma irregular? No seccionado, é importante perceber se a falha vem do automatismo ou do movimento dos painéis e do seu sistema de apoio.",
+    "summary": [
+      [
+        "Painéis e calhas",
+        "Um movimento desalinhado exige atenção ao conjunto da porta."
+      ],
+      [
+        "Motor e ligação",
+        "A cabeça do motor, a calha e a ligação à porta trabalham em conjunto."
+      ],
+      [
+        "Acesso à garagem",
+        "Diga-nos se o portão é a única entrada para o interior."
+      ]
+    ],
+    "sections": [
+      {
+        "title": "A porta começa a subir e volta a parar",
+        "paragraphs": [
+          "Uma paragem durante a abertura pode ter relação com esforço, funcionamento do acionamento ou configuração. A avaliação considera as condições da porta e a resposta do motor, sem concluir de imediato que é necessário trocar o equipamento.",
+          "Se os painéis estiverem desalinhados, houver um cabo solto ou um componente visivelmente danificado, suspenda a utilização. Não ajuste molas, cabos ou suportes para tentar repor o movimento; descreva o que observa e envie fotografias sem desmontar."
+        ]
+      },
+      {
+        "title": "O motor faz ruído mas a porta não acompanha",
+        "paragraphs": [
+          "A transmissão de movimento depende do conjunto motor, calha e ligação à porta. O estado do carrinho e do sistema de desbloqueio também pode influenciar o sintoma. É necessário identificar o modelo para verificar as possibilidades de intervenção.",
+          "Diga-nos se o motor parece trabalhar normalmente e se a falha começou depois de utilizar o desbloqueio. Evite repetir ciclos ou puxar pela porta enquanto o automatismo está a trabalhar."
+        ]
+      },
+      {
+        "title": "Fecha e volta a abrir",
+        "paragraphs": [
+          "Um obstáculo, uma dificuldade de movimento, a deteção de esforço ou um dispositivo de segurança podem causar inversão. A posição de fecho e a configuração do equipamento também precisam de ser avaliadas.",
+          "Verificamos o percurso da porta e as proteções existentes, em vez de aumentar a força ou desativar acessórios para permitir o fecho. Uma descrição do ponto onde começa a inverter ajuda a orientar o diagnóstico."
+        ]
+      },
+      {
+        "title": "Reparação do automatismo e estado da porta",
+        "paragraphs": [
+          "A proposta distingue a intervenção no motor ou nos seus acessórios de um eventual trabalho necessário na estrutura e no mecanismo da porta. Se encontrarmos uma limitação mecânica, explicamos o que precisa de ser resolvido antes de voltar a utilizar o automatismo.",
+          "Na substituição do motor, a compatibilidade da calha, da ligação e dos comandos é confirmada. Perguntamos também se existe outra entrada para a garagem para enquadrar o acesso e o desbloqueio em caso de falha."
+        ]
+      }
+    ],
+    "photos": [
+      "Vista pelo interior, com os painéis, as calhas e o teto visíveis.",
+      "Fotografia da cabeça do motor e da etiqueta acessível.",
+      "Indicação do ponto de paragem ou inversão, sem repetir uma manobra insegura.",
+      "Descrição de ruídos ou danos visíveis e indicação de outra entrada para a garagem."
+    ],
+    "questions": [
+      {
+        "question": "O portão sobe torto. Posso continuar a utilizá-lo?",
+        "answer": "Um movimento desalinhado pode indicar um problema no mecanismo ou nos apoios. Suspenda a utilização e peça avaliação, sobretudo se existirem cabos soltos, peças danificadas ou ruído anormal."
+      },
+      {
+        "question": "O motor funciona mas a porta não mexe. É o motor que avariou?",
+        "answer": "Não necessariamente. A ligação à porta, a calha, o carrinho ou o desbloqueio podem estar envolvidos. Precisamos de analisar o conjunto e identificar o equipamento."
+      },
+      {
+        "question": "Podem analisar motores de teto antigos?",
+        "answer": "Podemos começar por identificar a referência e o sintoma. A viabilidade da reparação depende do estado e da disponibilidade de componentes adequados ao modelo."
+      },
+      {
+        "question": "A porta volta a abrir quando chega ao chão. O que pode ser?",
+        "answer": "Pode existir esforço, um obstáculo, uma condição de segurança ou um problema na posição de fecho e na configuração. O diagnóstico verifica estas hipóteses antes de alterar parâmetros."
+      },
+      {
+        "question": "A garagem não tem outra entrada. O que devo dizer no contacto?",
+        "answer": "Diga logo que o portão é o único acesso e explique se consegue entrar no interior. Isso é importante para perceber as condições de avaliação e as opções de acesso disponíveis."
+      }
+    ],
+    "contact": "Envie uma vista pelo interior e a referência do motor, se estiver acessível. Conte-nos quando a porta para ou inverte e se há outra entrada para a garagem.",
+    "updated": "2026-11-02"
+  },
+  "reparacao-portoes-basculantes": {
+    "kind": "basculantes",
+    "image": "/automatismos/tipos/instalacao-basculante-1440.webp",
+    "imageSmall": "/automatismos/tipos/instalacao-basculante-768.webp",
+    "imageAlt": "Ilustração de um portão basculante de folha rígida parcialmente levantada, com braços laterais e motor de teto.",
+    "slug": "reparacao-portoes-basculantes",
+    "title": "Reparação de portões de garagem basculantes",
+    "description": "O basculante prende, não levanta ou tem o automatismo em falha? Avaliação do movimento da folha rígida, adaptação e motor pela TecCasa.",
+    "lead": "Uma folha rígida que já não levanta, prende durante a abertura ou perdeu a ligação ao motor pede uma análise própria. No basculante, o mecanismo da porta e a forma de acionamento têm de ser vistos em conjunto.",
+    "summary": [
+      [
+        "Folha e equilíbrio",
+        "O esforço da folha não deve ser compensado aumentando a força do motor."
+      ],
+      [
+        "Braços e adaptação",
+        "O automatismo pode depender de uma ligação específica ao mecanismo."
+      ],
+      [
+        "Trajetória",
+        "Interessa saber onde prende e que parte da folha se desloca para fora."
+      ]
+    ],
+    "sections": [
+      {
+        "title": "O comportamento da folha ajuda a orientar o diagnóstico",
+        "paragraphs": [
+          "Diga-nos se a porta ficou mais pesada, se prende sempre no mesmo ponto ou se deixou de recolher como antes. Existem mecanismos de basculante com movimentos diferentes, pelo que uma fotografia pelo interior é especialmente útil.",
+          "Braços, guias e sistema de equilíbrio precisam de estar em condições para o acionamento trabalhar corretamente. Se houver componentes deslocados ou movimento inseguro, suspenda a utilização até a porta ser avaliada."
+        ]
+      },
+      {
+        "title": "A ligação entre o motor e a porta",
+        "paragraphs": [
+          "O sintoma pode estar no automatismo ou na ligação que transmite o movimento à folha. Em portas com motor de teto, analisamos o conjunto calha, carrinho e braço de ligação, incluindo adaptações existentes.",
+          "Não assumimos que uma peça de outro motor de garagem é adequada ao basculante. Identificar o modelo e perceber a geometria da porta é importante para avaliar uma reparação ou uma eventual substituição."
+        ]
+      },
+      {
+        "title": "Para a meio ou perde força durante a abertura",
+        "paragraphs": [
+          "Esforço mecânico, uma adaptação inadequada, uma falha do acionamento ou uma questão de configuração podem produzir paragens semelhantes. Precisamos de observar em que fase aparece a dificuldade antes de recomendar a solução.",
+          "Evite ajudar a folha com o motor em funcionamento ou aumentar parâmetros para ultrapassar a paragem. Não ajuste molas, contrapesos ou braços. O primeiro contacto pode ser preparado com fotografias tiradas sem desmontar o conjunto."
+        ]
+      },
+      {
+        "title": "O que fica definido antes da intervenção",
+        "paragraphs": [
+          "Explicamos se a proposta se refere ao automatismo, à ligação à porta ou se depende de corrigir uma condição mecânica. A disponibilidade de componentes e a compatibilidade são confirmadas para o equipamento identificado.",
+          "Se for necessária uma substituição, avaliamos o sistema de acionamento adequado ao basculante existente. A existência de outra entrada para a garagem também é considerada para prever o acesso e o desbloqueio quando houver falha de energia ou avaria."
+        ]
+      }
+    ],
+    "photos": [
+      "Fotografia pelo interior com toda a folha e a zona do teto visíveis.",
+      "Braços e guias laterais, sem remover proteções.",
+      "Motor, ligação à porta e respetiva referência, quando acessível.",
+      "Descrição do ponto onde prende e indicação de outra entrada para a garagem."
+    ],
+    "questions": [
+      {
+        "question": "Uma porta basculante pesada precisa de um motor mais forte?",
+        "answer": "Primeiro é necessário avaliar o equilíbrio e o movimento. Um motor mais forte não substitui a correção de uma avaria mecânica ou de uma adaptação inadequada."
+      },
+      {
+        "question": "O motor de teto pode ser reparado sem trocar a porta?",
+        "answer": "Pode ser possível, dependendo da causa da avaria e do estado do mecanismo. A proposta distingue a intervenção no automatismo de eventuais trabalhos necessários na porta."
+      },
+      {
+        "question": "O braço adaptador pode causar falhas de movimento?",
+        "answer": "Uma ligação ou geometria inadequada pode afetar o acionamento. Verificamos a adaptação existente e a sua compatibilidade com a porta e o motor antes de propor alterações."
+      },
+      {
+        "question": "Posso enviar apenas uma fotografia pelo exterior?",
+        "answer": "Ajuda a reconhecer a porta, mas normalmente não mostra os braços, as guias ou a ligação do motor. Se conseguir aceder ao interior em segurança, essa vista é especialmente importante."
+      },
+      {
+        "question": "Conseguem substituir um automatismo de basculante antigo?",
+        "answer": "Podemos avaliar a solução existente e as condições para substituir. Não assumimos que qualquer kit de garagem serve; a porta, a adaptação e o acesso precisam de ser confirmados."
+      }
+    ],
+    "contact": "Mostre-nos o mecanismo pelo interior e explique em que fase a folha prende. Se houver danos ou movimento inseguro, evite repetir manobras para gravar o sintoma.",
+    "updated": "2026-11-02"
+  }
+}

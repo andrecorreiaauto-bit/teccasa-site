@@ -1,0 +1,174 @@
+{
+  "automatismos-erreka-portoes": {
+    "image": "/automatismos/tipos/instalacao-batente-v2-1440.webp",
+    "imageSmall": "/automatismos/tipos/instalacao-batente-v2-768.webp",
+    "imageAlt": "Ilustração de um portão de batente de duas folhas aberto para o interior da propriedade, visto da rua.",
+    "kind": "erreka",
+    "slug": "automatismos-erreka-portoes",
+    "title": "Reparação de automatismos Erreka para portões",
+    "description": "Assistência independente a automatismos Erreka: diagnóstico de motores, centrais, comandos e recetores. Identifique o equipamento com a TecCasa.",
+    "eyebrow": "Assistência independente multimarca",
+    "lead": "Tem um automatismo Erreka com uma falha de funcionamento ou precisa de resolver um problema de comandos? A TecCasa presta assistência independente multimarca. Não somos representantes nem assistência oficial Erreka.",
+    "summary": [
+      [
+        "Identificar o conjunto",
+        "A referência do motor, da central e do recetor ajuda a distinguir os componentes."
+      ],
+      [
+        "Perceber o sintoma",
+        "Uma falha no comando e uma falha no movimento podem ter origens diferentes."
+      ],
+      [
+        "Confirmar a solução",
+        "Peças e acessórios são avaliados pela compatibilidade e disponibilidade."
+      ]
+    ],
+    "sections": [
+      {
+        "title": "A referência da central também é importante",
+        "paragraphs": [
+          "Saber que o motor é Erreka ajuda a iniciar o pedido, mas pode não identificar todo o sistema de comando. A central, o recetor e os acessórios podem ter referências próprias ou ter sido alterados numa intervenção anterior.",
+          "Pedimos fotografias das etiquetas que estejam acessíveis e uma descrição do equipamento instalado. Não precisa de abrir uma caixa elétrica ou desmontar proteções para obter esses dados. Se a informação não estiver visível, fica para a avaliação técnica."
+        ]
+      },
+      {
+        "title": "Comandos, recetores e memórias",
+        "paragraphs": [
+          "Antes de fornecer um comando ou propor uma alteração, é necessário identificar a forma como o sistema recebe as ordens. O aspeto exterior do comando não garante compatibilidade com o recetor nem permite concluir como a memória está organizada.",
+          "Se o objetivo for retirar o acesso a comandos antigos, explique-o no pedido. A possibilidade de gerir a memória e o procedimento dependem do equipamento. Em acessos partilhados, a intervenção deve ser articulada com quem está autorizado a gerir esses acessos."
+        ]
+      },
+      {
+        "title": "Quando a falha está no movimento do portão",
+        "paragraphs": [
+          "Uma folha que não abre, um portão que fica a meio ou uma manobra que inverte pode envolver o motor, a central, os dispositivos de segurança ou uma dificuldade mecânica. Analisamos o sintoma no conjunto, sem atribuir toda a falha à marca ou a uma peça em particular.",
+          "O tipo de portão, o comportamento em cada sentido e o momento em que a falha começou ajudam a preparar o diagnóstico. Se existir ruído anormal ou movimento inseguro, suspenda a utilização até a situação ser avaliada."
+        ]
+      },
+      {
+        "title": "Assistência independente e disponibilidade de componentes",
+        "paragraphs": [
+          "A TecCasa atua como prestador independente. A referência à marca identifica o equipamento que pode ser objeto de avaliação e não significa pertença à rede oficial, representação comercial ou autorização do fabricante.",
+          "A possibilidade de reparação, de obter uma peça adequada ou de aproveitar acessórios é confirmada depois de identificar o modelo e a avaria. Quando uma solução depende de componentes indisponíveis ou incompatíveis, explicamos a limitação e as alternativas antes de avançar."
+        ]
+      }
+    ],
+    "photos": [
+      "Motor e etiquetas acessíveis, sem abrir tampas ou caixas elétricas.",
+      "Comando existente, de frente e de trás, e referência visível do recetor se disponível.",
+      "Vista geral do portão e indicação de uma ou duas folhas, correr ou garagem.",
+      "Descrição do pedido: falha de movimento, novos comandos ou gestão de acessos."
+    ],
+    "questions": [
+      {
+        "question": "São representantes ou assistência oficial Erreka?",
+        "answer": "Não. A TecCasa é um prestador independente de assistência multimarca. Mencionamos Erreka para identificar os equipamentos que podem ser objeto de avaliação, sem sugerir ligação à rede oficial."
+      },
+      {
+        "question": "Conseguem fornecer qualquer comando Erreka?",
+        "answer": "É necessário identificar o comando e o recetor instalados. A compatibilidade e a disponibilidade são confirmadas antes de fornecer ou programar um equipamento."
+      },
+      {
+        "question": "Podem apagar comandos antigos?",
+        "answer": "Podemos avaliar o pedido, mas a forma de gerir a memória depende da central e do recetor. Em acessos partilhados, o trabalho deve ser combinado com quem tem autorização para gerir esses acessos."
+      },
+      {
+        "question": "Posso instalar um recetor diferente?",
+        "answer": "Em algumas instalações pode ser possível usar uma solução compatível, mas é necessário verificar a central, a alimentação e as funções pretendidas. Não confirmamos essa opção apenas pela marca do motor."
+      },
+      {
+        "question": "Têm todas as peças da marca?",
+        "answer": "Não anunciamos disponibilidade permanente de todas as peças. A referência, o estado do conjunto e a possibilidade de fornecimento são verificados para cada pedido."
+      }
+    ],
+    "contact": "Envie a referência Erreka que consegue identificar e explique se precisa de resolver uma avaria, acrescentar comandos ou rever os acessos existentes.",
+    "message": "Olá! Gostaria de pedir uma avaliação de um automatismo Erreka.",
+    "updated": "2026-11-02"
+  },
+  "automatismos-pujol-portoes": {
+    "image": "/automatismos/tipos/instalacao-correr-v2-1440.webp",
+    "imageSmall": "/automatismos/tipos/instalacao-correr-v2-768.webp",
+    "imageAlt": "Ilustração de um portão de correr fechado, com motor junto ao pilar e percurso lateral de recolha.",
+    "kind": "pujol",
+    "slug": "automatismos-pujol-portoes",
+    "title": "Reparação de automatismos Pujol para portões",
+    "description": "Reparação e assistência independente a automatismos Pujol. Avaliação de motores, centrais, comandos e recetores com identificação prévia do modelo.",
+    "eyebrow": "Assistência independente multimarca",
+    "lead": "O seu portão tem um automatismo Pujol e deixou de responder como antes? Começamos por identificar o equipamento e o sintoma. A TecCasa presta assistência independente multimarca, sem ligação à representação ou à rede oficial Pujol.",
+    "summary": [
+      [
+        "Reconhecer o modelo",
+        "Uma etiqueta ou referência é mais útil do que escolher apenas pela aparência."
+      ],
+      [
+        "Distinguir o comando do motor",
+        "O portão pode receber ordens por um recetor diferente do original."
+      ],
+      [
+        "Avaliar antes de trocar",
+        "O diagnóstico confirma se a intervenção está no automatismo ou no movimento."
+      ]
+    ],
+    "sections": [
+      {
+        "title": "Identificar um automatismo Pujol existente",
+        "paragraphs": [
+          "Em instalações com alguns anos, o nome no motor pode ser a única referência que o utilizador conhece. Fotografias da etiqueta, da caixa do automatismo e do comando ajudam a preparar a análise, sem exigir que saiba o modelo exato logo no primeiro contacto.",
+          "Também interessa perceber o que foi alterado ao longo do tempo. Uma central ou um recetor substituídos podem mudar a forma de comandar o portão, mesmo mantendo o motor original. Não assumimos que todos os componentes são os de origem."
+        ]
+      },
+      {
+        "title": "O comando deixou de funcionar ou precisa de mais um?",
+        "paragraphs": [
+          "Uma falha de comando pode envolver a pilha, o emissor, a programação, o recetor ou a própria central. Diga-nos se os restantes comandos continuam a funcionar e se existe outra forma normal de dar uma ordem ao portão.",
+          "Para acrescentar comandos, verificamos a compatibilidade com o sistema instalado. Quando o recetor original não permite uma solução adequada, pode ser avaliada uma alternativa compatível, mas essa opção depende da identificação e das condições técnicas do conjunto."
+        ]
+      },
+      {
+        "title": "Ruído no motor, paragens e falhas intermitentes",
+        "paragraphs": [
+          "Um motor que faz ruído sem movimentar o portão, uma paragem a meio ou uma falha que só aparece por vezes precisa de diagnóstico. O estado mecânico e os dispositivos de segurança fazem parte dessa avaliação, além do acionamento.",
+          "Descreva se a falha acontece ao abrir ou fechar, se aparece sempre no mesmo ponto e se começou depois de uma interrupção de energia ou de uma intervenção. Evite repetir manobras quando notar esforço, bloqueio ou movimento inseguro."
+        ]
+      },
+      {
+        "title": "Reparar um sistema antigo ou avaliar a substituição",
+        "paragraphs": [
+          "A viabilidade depende do modelo, da avaria e da disponibilidade de componentes. Não prometemos encontrar qualquer peça antiga nem recomendamos trocar todo o automatismo sem perceber o que deixou de funcionar.",
+          "A proposta explica o que pode ser reparado, o que depende de confirmação e que acessórios podem ser aproveitados numa eventual substituição. O serviço é prestado pela TecCasa de forma independente; a referência Pujol identifica os equipamentos e não uma relação oficial com a marca."
+        ]
+      }
+    ],
+    "photos": [
+      "Etiqueta e vista exterior do motor Pujol, quando acessíveis.",
+      "Comando atual de frente e de trás, com as referências visíveis.",
+      "Portão visto pelo interior e indicação do tipo de movimento.",
+      "Descrição de quando falha e informação sobre outros comandos que ainda funcionem."
+    ],
+    "questions": [
+      {
+        "question": "Prestam assistência oficial Pujol?",
+        "answer": "Não. Prestamos assistência independente multimarca. Não anunciamos representação, autorização do fabricante ou pertença à rede oficial Pujol."
+      },
+      {
+        "question": "É possível programar um comando só por ser da mesma marca?",
+        "answer": "Não basta coincidir a marca ou a aparência. Precisamos de identificar o recetor e a compatibilidade do comando com o sistema instalado."
+      },
+      {
+        "question": "O motor Pujol pode ter um recetor de outra marca?",
+        "answer": "Pode existir uma alteração anterior na instalação. Por isso, procuramos identificar o motor, a central e o recetor antes de recomendar comandos ou mudanças no sistema."
+      },
+      {
+        "question": "Um automatismo antigo tem de ser substituído?",
+        "answer": "Não necessariamente. A decisão depende da avaria, do estado do equipamento e da possibilidade de obter componentes adequados. Explicamos as opções depois da avaliação."
+      },
+      {
+        "question": "Que informação ajuda a pedir assistência?",
+        "answer": "Uma fotografia da etiqueta do motor, do comando e uma descrição do comportamento são um bom ponto de partida. Não abra caixas elétricas nem desmonte o equipamento para recolher os dados."
+      }
+    ],
+    "contact": "Mostre-nos a etiqueta do motor Pujol e o comando que utiliza. Conte-nos o que deixou de funcionar e se houve alguma alteração recente na instalação.",
+    "message": "Olá! Gostaria de pedir uma avaliação de um automatismo Pujol.",
+    "updated": "2026-11-02"
+  }
+}

@@ -2,15 +2,17 @@ import Head from "next/head";
 import SiteHeader from "./SiteHeader";
 import { company } from "../lib/company";
 
-export default function GateInstallationPage({ page }) {
+export default function GateInstallationPage({ page, repair = false }) {
   const url = `${company.url}/${page.slug}`;
-  const whatsapp = `https://wa.me/351922021980?text=${encodeURIComponent(`Olá! Gostaria de pedir uma avaliação para instalação de automatismo num portão ${page.kind === "correr" || page.kind === "batente" ? "de " : ""}${page.kind === "basculantes" ? "basculante" : page.kind === "seccionados" ? "seccionado" : page.kind}.`)}`;
+  const servicePath = repair ? "/reparacao-portoes" : "/instalacao-automatismos-portoes";
+  const serviceLabel = repair ? "Reparação de portões" : "Instalação de automatismos";
+  const whatsapp = `https://wa.me/351922021980?text=${encodeURIComponent(page.message || `Olá! Gostaria de pedir uma avaliação para ${repair ? "reparação de" : "instalação de automatismo num"} portão ${page.kind === "correr" || page.kind === "batente" ? "de " : ""}${page.kind === "basculantes" ? "basculante" : page.kind === "seccionados" ? "seccionado" : page.kind}.`)}`;
   const schema = { "@context":"https://schema.org", "@graph":[
     { "@type":"Service", "@id":`${url}#service`, name:page.title, description:page.description, url,
-      serviceType:"Instalação de automatismos para portões", provider:{ "@id":`${company.url}/#organization` } },
+      serviceType:serviceLabel, provider:{ "@id":`${company.url}/#organization` } },
     { "@type":"BreadcrumbList", itemListElement:[
       { "@type":"ListItem", position:1, name:"Início", item:company.url + "/" },
-      { "@type":"ListItem", position:2, name:"Instalação de automatismos", item:company.url + "/instalacao-automatismos-portoes" },
+      { "@type":"ListItem", position:2, name:serviceLabel, item:company.url + servicePath },
       { "@type":"ListItem", position:3, name:page.title, item:url },
     ] },
   ] };
@@ -30,12 +32,12 @@ export default function GateInstallationPage({ page }) {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html:JSON.stringify(schema).replace(/</g,"\\u003c") }} />
     </Head>
     <div className="installation-type-page" lang="pt-PT">
-      <SiteHeader alternateHref="/en/automatic-gate-installation-lisbon" />
-      <main data-service-kind="installation">
-        <nav className="breadcrumbs" aria-label="Localização no site"><a href="/">Início</a><span aria-hidden="true"> / </span><a href="/instalacao-automatismos-portoes">Instalação de automatismos</a></nav>
+      <SiteHeader alternateHref={repair ? "/en/electric-gate-repair-lisbon" : "/en/automatic-gate-installation-lisbon"} />
+      <main data-service-kind={repair ? "repair" : "installation"}>
+        <nav className="breadcrumbs" aria-label="Localização no site"><a href="/">Início</a><span aria-hidden="true"> / </span><a href={servicePath}>{serviceLabel}</a></nav>
         <section className="hero" aria-labelledby="installation-title">
           <div className="hero-copy">
-            <p className="eyebrow">Automatizar o portão que já tem</p>
+            <p className="eyebrow">{page.eyebrow || (repair ? "Perceber a avaria antes de substituir" : "Automatizar o portão que já tem")}</p>
             <h1 id="installation-title">{page.title}</h1>
             <p className="lead">{page.lead}</p>
             <div className="actions"><a className="whatsapp" href={whatsapp} target="_blank" rel="noopener noreferrer">Pedir avaliação por WhatsApp</a><a className="phone" href={`tel:${company.telephone}`}>Ligar 922 021 980</a></div>
@@ -47,7 +49,7 @@ export default function GateInstallationPage({ page }) {
           </figure>
         </section>
         <section className="at-a-glance" aria-labelledby="considerations-title">
-          <h2 id="considerations-title">O que conta na escolha</h2>
+          <h2 id="considerations-title">{repair ? "O que observamos na avaria" : "O que conta na escolha"}</h2>
           <div className="summary-grid">{page.summary.map(([title,text]) => <div key={title} className="summary-item"><h3>{title}</h3><p>{text}</p></div>)}</div>
         </section>
         <div className="topics">{page.sections.map((section,index) => <section className="topic" key={section.title}>
@@ -60,9 +62,9 @@ export default function GateInstallationPage({ page }) {
           <ul>{page.photos.map(text => <li key={text}>{text}</li>)}</ul>
           <p className="photo-note">Fotografe sem desmontar o equipamento. Evite incluir pessoas, matrículas ou documentos sem relação com o pedido.</p>
         </section>
-        <section className="questions" aria-labelledby="questions-title"><h2 id="questions-title">Dúvidas antes de automatizar</h2>{page.questions.map(({question,answer}) => <details key={question}><summary>{question}</summary><p>{answer}</p></details>)}</section>
+        <section className="questions" aria-labelledby="questions-title"><h2 id="questions-title">{repair ? "Dúvidas sobre a reparação" : "Dúvidas antes de automatizar"}</h2>{page.questions.map(({question,answer}) => <details key={question}><summary>{question}</summary><p>{answer}</p></details>)}</section>
         <section className="contact" aria-labelledby="contact-title"><div><h2 id="contact-title">Vamos perceber o que faz sentido para o seu portão?</h2><p>{page.contact}</p><p>Fala diretamente com quem analisa e executa o trabalho.</p></div><div className="actions"><a className="whatsapp" href={whatsapp} target="_blank" rel="noopener noreferrer">Falar com a TecCasa</a><a href={`mailto:${company.email}`}>{company.email}</a></div></section>
-        <div className="practical-links"><p>Deslocações por marcação em Lisboa e arredores, nas duas margens do Tejo. Consulte algumas das <a href="/zonas-de-assistencia">zonas de assistência</a>. Se não encontrar a sua localidade, contacte-nos para confirmar a possibilidade de deslocação.</p><p>Já tem equipamento? <a href="/instalacao-kit-portao-automatico">Instalação de kits fornecidos pelo cliente</a> · <a href="/reparacao-portoes">Precisa de reparar um automatismo?</a> · <a href="/condicoes-servicos">Condições dos serviços</a></p></div>
+        <div className="practical-links"><p>Deslocações por marcação em Lisboa e arredores, nas duas margens do Tejo. Consulte algumas das <a href="/zonas-de-assistencia">zonas de assistência</a>. Se não encontrar a sua localidade, contacte-nos para confirmar a possibilidade de deslocação.</p><p>{repair ? <><a href="/reparacao-portoes">Informação geral sobre reparação</a> · <a href="/instalacao-automatismos-portoes">Quer automatizar um portão?</a></> : <>Já tem equipamento? <a href="/instalacao-kit-portao-automatico">Instalação de kits fornecidos pelo cliente</a> · <a href="/reparacao-portoes">Precisa de reparar um automatismo?</a></>} · <a href="/condicoes-servicos">Condições dos serviços</a></p></div>
       </main>
       <a className="floating-whatsapp" href={whatsapp} target="_blank" rel="noopener noreferrer" aria-label="Falar com a TecCasa por WhatsApp">WhatsApp</a>
     </div>
