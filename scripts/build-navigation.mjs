@@ -8,12 +8,13 @@ const gatePages = JSON.parse(readFileSync(join(root, "lib/gate-installation-page
 const repairPages = JSON.parse(readFileSync(join(root, "lib/gate-repair-pages.json"), "utf8"));
 const brandPages = JSON.parse(readFileSync(join(root, "lib/independent-brand-pages.json"), "utf8"));
 const labels = {
+  "/quanto-custa-automatizar-portao": "Quanto custa automatizar um portão?",
   "/configurador-automatismos-portoes": "Configurador de automatismos", "/": "Homepage", "/en": "Homepage EN", "/a-empresa": "A empresa", "/en/about": "About us",
   "/informacao-legal": "Informação legal", "/privacidade": "Política de privacidade", "/cookies": "Política de cookies", "/condicoes-servicos": "Condições dos serviços",
   "/en/legal": "Legal information", "/en/privacy": "Privacy policy", "/en/cookies": "Cookie policy", "/en/service-terms": "Service terms",
 };
 const groupOrder = ["Páginas principais", "Instalação por tipo de portão", "Instalação por zona", "Reparação por zona", "Páginas de avarias", "Páginas de marcas", "Kits e instalação de material do cliente", "Páginas EN", "Informação legal e privacidade", "Reparação por tipo de portão"];
-const principal = new Set(["/configurador-automatismos-portoes", "/zonas-de-assistencia", "/", "/a-empresa", "/instalacao-automatismos-portoes", "/reparacao-portoes", "/comandos-garagem", "/casas-inteligentes-lisboa", "/instalacao-camaras-lisboa"]);
+const principal = new Set(["/quanto-custa-automatizar-portao", "/configurador-automatismos-portoes", "/zonas-de-assistencia", "/", "/a-empresa", "/instalacao-automatismos-portoes", "/reparacao-portoes", "/comandos-garagem", "/casas-inteligentes-lisboa", "/instalacao-camaras-lisboa"]);
 const files = [];
 function walk(directory) {
   for (const entry of readdirSync(directory, { withFileTypes: true })) {
@@ -52,6 +53,7 @@ const translations = [
 const base = "https://tec-casa.pt";
 // Dates of actual content revisions, never the date a build happens to run.
 const contentUpdated = {
+  "/quanto-custa-automatizar-portao": "2026-11-02", "/en/electric-gate-repair-lisbon": "2026-11-02",
   "/configurador-automatismos-portoes": "2026-11-02", "/": "2026-11-02", "/en": "2026-10-30", "/a-empresa": "2026-10-30", "/en/about": "2026-10-30",
   "/zonas-de-assistencia": "2026-11-02", "/instalacao-automatismos-portoes": "2026-11-02", "/reparacao-portoes": "2026-11-02",
   "/casas-inteligentes-lisboa": "2026-10-30", "/comandos-garagem": "2026-10-30", "/instalacao-camaras-lisboa": "2026-10-30",

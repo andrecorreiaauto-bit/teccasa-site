@@ -1,5 +1,6 @@
 import ConfiguratorButton from "../components/ConfiguratorButton";
 import ConfiguratorNovelty from "../components/ConfiguratorNovelty";
+import AutomationBudgetSummary from "../components/AutomationBudgetSummary";
 import ConfiguratorCallout from "../components/ConfiguratorCallout";
 import { useEffect, useState } from "react";
 import Head from "next/head";
@@ -464,6 +465,7 @@ gap:"10px"
                     </section>
                       
                                            <ConfiguratorCallout />
+                                           <AutomationBudgetSummary />
 
 <section
                                            id="tipos"

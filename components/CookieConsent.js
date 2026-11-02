@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { useRouter } from "next/router";
+import { trackConfiguratorEntry } from "../lib/configurator-analytics.mjs";
 import { trackContact } from "../lib/contact-analytics.mjs";
 import { CONSENT_KEY, readConsent, saveConsent, enableAnalytics, disableAnalytics, isAnalyticsExcluded } from "../lib/consent.mjs";
 
@@ -23,6 +24,7 @@ export default function CookieConsent({ english = false }) {
         disableAnalytics();
         if (active.current) { window.location.reload(); return; }
       } else { enableAnalytics(); active.current = true; }
+      window.dispatchEvent(new Event("teccasa:consent-changed"));
       setChoice(saved);
       setAnalytics(saved?.analytics || false);
       setReady(true);
@@ -67,7 +69,7 @@ export default function CookieConsent({ english = false }) {
     const onContact = (event) => {
       if (event.type === "auxclick" && event.button !== 1) return;
       const anchor = event.target?.closest?.("a[href], [data-contact-href]");
-      if (anchor) trackContact(anchor);
+      if (anchor) { trackContact(anchor); trackConfiguratorEntry(anchor); }
     };
     document.addEventListener("click", onContact, true);
     document.addEventListener("auxclick", onContact, true);
@@ -89,6 +91,7 @@ export default function CookieConsent({ english = false }) {
       disableAnalytics();
       if (active.current) window.location.reload();
     }
+    window.dispatchEvent(new Event("teccasa:consent-changed"));
   };
   const visible = ready && (!choice || open);
   const previousFocus = useRef(null);

@@ -39,6 +39,11 @@
           "indexable": true
         },
         {
+          "path": "/quanto-custa-automatizar-portao",
+          "label": "Quanto custa automatizar um portão?",
+          "indexable": true
+        },
+        {
           "path": "/reparacao-portoes",
           "label": "Reparação de portões automáticos",
           "indexable": true

@@ -743,6 +743,7 @@ export default function ElectricGateRepairLisbon() {
                 Send a WhatsApp message with photos or a short video of the gate, motor and fault behaviour. We will guide
                 you on the most sensible next step.
               </p>
+              <p style={{fontSize:"17px",color:"#555",margin:"0 auto 24px",maxWidth:"820px"}}>For garage-door motor faults, see our <a href="/en/garage-door-motor-repair" style={{color:"#08285c",fontWeight:700,textUnderlineOffset:"4px"}}>garage-door motor repair service</a>.</p>
 
               <p
                 style={{
