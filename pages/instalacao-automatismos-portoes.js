@@ -488,9 +488,10 @@ gap:"10px"
                                            </p>
                                            
                                            <div
+                                           className="gate-types-grid"
                                            style={{
                                            display:"grid",
-                                           gridTemplateColumns:"repeat(auto-fit,minmax(250px,1fr))",
+                                           gridTemplateColumns:"repeat(4,minmax(0,1fr))",
                                            gap:"22px"
                                            }}
                                            >
@@ -517,11 +518,6 @@ gap:"10px"
                                            title:"Portões basculantes",
                                            href:"/instalacao-automatismos-portoes-basculantes",
                                            text:"Análise da folha rígida e do mecanismo de abertura, com a adaptação adequada ao automatismo."
-                                           },
-                                           
-                                           {
-                                           title:"Substituição de automatismos",
-                                           text:"Troca de motores antigos ou avariados por soluções mais adequadas ao portão e à utilização diária."
                                            }
                                            
                                            ].map((item,index)=>(
@@ -529,6 +525,8 @@ gap:"10px"
                                            <div
                                            key={index}
                                            style={{
+                                           display:"flex",
+                                           flexDirection:"column",
                                            background:"#eef3fa",
                                            borderRadius:"24px",
                                            padding:"30px 26px",
@@ -552,14 +550,28 @@ gap:"10px"
                                            }}>
                                            {item.text}
                                            </p>
-                                           {item.href && <a href={item.href} style={{display:"inline-block",marginTop:"18px",color:"#08285c",fontWeight:"bold",textUnderlineOffset:"4px"}}>Ver instalação →</a>}
+                                           {item.href && <a href={item.href} style={{display:"inline-block",marginTop:"auto",paddingTop:"18px",color:"#08285c",fontWeight:"bold",textUnderlineOffset:"4px"}}>Ver instalação →</a>}
                                            
                                            </div>
                                            
                                            ))}
-                                           
+
                                            </div>
-                                           
+
+                                           <div className="replacement-band" style={{
+                                             marginTop:"22px",
+                                             padding:"26px 30px",
+                                             boxSizing:"border-box",
+                                             width:"100%",
+                                             background:"#eef3fa",
+                                             border:"1px solid rgba(11,44,95,0.05)",
+                                             borderRadius:"24px",
+                                             boxShadow:"0 12px 28px rgba(11,44,95,0.08)"
+                                           }}>
+                                             <h3 style={{color:"#08285c",fontSize:"23px",margin:"0 0 10px"}}>Substituição de automatismos</h3>
+                                             <p style={{color:"#444",lineHeight:"1.7",margin:0}}>Troca de motores antigos ou avariados por soluções mais adequadas ao portão e à utilização diária.</p>
+                                           </div>
+
                                            </section>
 
                                                                   <section
@@ -1469,6 +1481,13 @@ border:"1px solid rgba(11,44,95,0.05)"
                                                             }
 
                                                          }
+
+                                                          @media (min-width:769px) and (max-width:1100px) {
+                                                            #tipos .gate-types-grid { grid-template-columns:repeat(2,minmax(0,1fr)) !important; }
+                                                          }
+                                                          @media (max-width:768px) {
+                                                            #tipos .replacement-band { padding:24px 22px !important; }
+                                                          }
 
                                                         `}</style>
                          
