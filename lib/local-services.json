@@ -3255,5 +3255,155 @@
     "contactText": "Envie o seu pedido no Seixal. Fala com quem acompanha a avaliação e o trabalho, para perceber as opções e decidir o próximo passo.",
     "message": "Olá, pretendo pedir assistência a um portão no Seixal. Posso enviar fotografias?",
     "updated": "2026-10-31"
+  },
+  "instalacao-automatismos-portoes-lisboa": {
+    "slug": "instalacao-automatismos-portoes-lisboa",
+    "area": "Lisboa",
+    "kind": "installation",
+    "title": "Instalação de automatismos para portões em Lisboa",
+    "description": "Instalação de automatismos para portões em Lisboa. Escolha do motor, acessórios e preparação da entrada, com avaliação e orçamento explicado.",
+    "image": "/localidades/lisboa.jpg",
+    "imageAlt": "Praça do Comércio e estátua de D. José I, em Lisboa.",
+    "photo": {
+      "caption": "Praça do Comércio, em Lisboa.",
+      "author": "Koshelyev",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Koshelyev",
+      "source": "https://commons.wikimedia.org/wiki/File:Lisboa,_Pra%C3%A7a_do_Com%C3%A9rcio.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": 1280,
+      "height": 894
+    },
+    "intro": "Quer tornar mais prática a entrada em casa ou na garagem? Em Lisboa, ajudamos a escolher o automatismo a partir do portão que tem, das condições de montagem e da forma como vai utilizá-lo.",
+    "coverageTitle": "Da entrada existente à solução de montagem",
+    "coverage": [
+      "Uma fotografia do portão e uma descrição do que pretende permitem iniciar o pedido sem escolher logo uma marca ou um kit. Depois, confirmamos no local as medidas e os pontos que condicionam a montagem.",
+      "Acompanhamos instalações em habitações e acessos partilhados em Lisboa, por marcação. Fala com quem avalia a entrada e prepara o trabalho, com o material e as preparações necessários explicados no orçamento."
+    ],
+    "sections": [
+      {
+        "title": "Perceber o espaço e o movimento",
+        "paragraphs": [
+          "Num portão de correr, verificamos o percurso lateral e a posição da transmissão. No batente, as dimensões das folhas e as cotas dos pilares influenciam os braços que podem ser montados.",
+          "Para uma porta de garagem seccionada ou basculante, observamos o equilíbrio, a calha e o espaço disponível. O automatismo deve acompanhar um mecanismo em condições, sem compensar um portão que prende ou arrasta."
+        ]
+      },
+      {
+        "title": "Definir o que fica incluído",
+        "paragraphs": [
+          "Comandos, dispositivos de segurança, suportes e meios de abertura precisam de corresponder ao uso previsto. Se já tem material, envie as referências para podermos avaliar a compatibilidade e o que falta.",
+          "A proposta distingue a montagem do automatismo das preparações necessárias. Uma alimentação elétrica nova ou alterada que exija técnico habilitado é identificada separadamente, tal como eventuais correções de serralharia."
+        ]
+      },
+      {
+        "title": "Preparar a utilização depois da montagem",
+        "paragraphs": [
+          "O número de utilizadores, o acesso ao desbloqueio e a existência de outra entrada devem ser considerados antes de fechar a solução. Se quiser acrescentar uma função mais tarde, importa confirmar o que o equipamento permite.",
+          "Na entrega, mostramos as manobras e explicamos os comandos e o desbloqueio. Indicamos também que referências e instruções guardar para que uma futura dúvida ou pedido de assistência seja mais fácil de acompanhar."
+        ]
+      }
+    ],
+    "visitTitle": "Preparar o pedido de instalação",
+    "visitIntro": "Para começar o seu pedido em Lisboa, envie uma descrição da entrada e fotografias obtidas em segurança.",
+    "visitItems": [
+      "Fotografias do portão pelo interior e do espaço de montagem.",
+      "Tipo de abertura e medidas aproximadas da entrada.",
+      "Indicação de automatismo ou acessórios já existentes.",
+      "Meios de abertura pretendidos e existência de outra entrada."
+    ],
+    "questionsTitle": "Antes de automatizar a entrada",
+    "questions": [
+      {
+        "question": "Podem automatizar o portão que já existe?",
+        "answer": "Podemos avaliar essa possibilidade. O estado da estrutura, o movimento e as condições de montagem precisam de ser compatíveis com o automatismo proposto."
+      },
+      {
+        "question": "A escolha da marca pode ficar para depois da avaliação?",
+        "answer": "Sim. Começamos pelas necessidades e pelas condições do portão. Depois explicamos as opções adequadas e o que cada proposta inclui."
+      },
+      {
+        "question": "Também instalam automatismos em garagens?",
+        "answer": "Sim, recebemos pedidos para portas seccionadas e basculantes, além de portões de correr e de batente. Cada mecanismo exige a sua própria avaliação."
+      }
+    ],
+    "contactTitle": "Vamos perceber o que precisa para a sua entrada",
+    "contactText": "Fale com a TecCasa sobre o seu pedido em Lisboa. O contacto serve para perceber a situação, esclarecer as condições da avaliação e combinar consigo o próximo passo.",
+    "message": "Olá, pretendo instalar um automatismo em Lisboa. Posso enviar fotografias?",
+    "updated": "2026-11-02"
+  },
+  "reparacao-portoes-lisboa": {
+    "slug": "reparacao-portoes-lisboa",
+    "area": "Lisboa",
+    "kind": "repair",
+    "title": "Reparação de portões automáticos em Lisboa",
+    "description": "Reparação de portões automáticos em Lisboa. Diagnóstico de falhas de abertura, fecho e comandos, com a reparação esclarecida antes de avançar.",
+    "image": "/localidades/lisboa.jpg",
+    "imageAlt": "Praça do Comércio e estátua de D. José I, em Lisboa.",
+    "photo": {
+      "caption": "Praça do Comércio, em Lisboa.",
+      "author": "Koshelyev",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Koshelyev",
+      "source": "https://commons.wikimedia.org/wiki/File:Lisboa,_Pra%C3%A7a_do_Com%C3%A9rcio.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "width": 1280,
+      "height": 894
+    },
+    "intro": "O portão deixou de abrir, interrompe o fecho ou apresenta um comportamento diferente do habitual? Em Lisboa, preparamos a assistência a partir do que observou, para avaliar a causa antes de recomendar uma substituição.",
+    "coverageTitle": "Um pedido de assistência começa pelo sintoma",
+    "coverage": [
+      "Conte-nos se a entrada ficou totalmente parada, se ainda responde a algum comando ou se a falha aparece apenas durante parte da manobra. Essa informação ajuda a preparar a visita e a perceber as condições de acesso ao equipamento.",
+      "A TecCasa acompanha pedidos de reparação em Lisboa por marcação. As condições da deslocação e da avaliação são esclarecidas consigo antes da visita; a solução depende do diagnóstico e do estado do conjunto."
+    ],
+    "sections": [
+      {
+        "title": "Distinguir a ordem de abertura do movimento",
+        "paragraphs": [
+          "Um comando sem resposta não prova que o motor esteja avariado. Comparamos os meios de abertura e verificamos a receção da ordem, os dispositivos ligados à central e as condições de funcionamento.",
+          "Se o automatismo tenta arrancar mas o portão não se move, é necessário avaliar também transmissão, desbloqueio e resistência mecânica. Evite apagar a programação ou comprar componentes por tentativa."
+        ]
+      },
+      {
+        "title": "Avaliar conforme o mecanismo instalado",
+        "paragraphs": [
+          "No portão de correr, o percurso, as rodas e a cremalheira influenciam o esforço. Num de batente, observamos braços, articulações e apoios, além da resposta de cada folha.",
+          "Numa garagem seccionada ou basculante, incluímos o equilíbrio da porta, a calha e a ligação ao carrinho. Não force uma porta desalinhada nem contorne dispositivos de segurança para conseguir completar a manobra."
+        ]
+      },
+      {
+        "title": "Explicar o que a reparação pode resolver",
+        "paragraphs": [
+          "Depois da avaliação, indicamos a causa identificada, a intervenção proposta e o material necessário. Quando a disponibilidade de peças ou o estado do equipamento limita a reparação, essa condição fica esclarecida.",
+          "Os testes abrangem as funções intervencionadas. Se uma falha intermitente não puder ser reproduzida, explicamos o que ficou confirmado e o que pode precisar de acompanhamento, sem apresentar uma hipótese como diagnóstico concluído."
+        ]
+      }
+    ],
+    "visitTitle": "O que nos ajuda a perceber a avaria",
+    "visitIntro": "Para começar o seu pedido em Lisboa, envie uma descrição da entrada e fotografias obtidas em segurança.",
+    "visitItems": [
+      "Descrição da falha e da posição em que o portão ficou.",
+      "Referências visíveis do automatismo e dos comandos.",
+      "Indicação de que meios de abertura ainda funcionam.",
+      "Histórico de alterações ou reparações e condições de acesso ao equipamento."
+    ],
+    "questionsTitle": "Dúvidas sobre a assistência",
+    "questions": [
+      {
+        "question": "É possível saber o preço só com fotografias?",
+        "answer": "As fotografias ajudam a preparar o pedido, mas podem não permitir identificar a causa ou o material necessário. Esclarecemos as condições da avaliação antes de combinar a visita."
+      },
+      {
+        "question": "Um motor antigo tem de ser substituído?",
+        "answer": "A antiguidade, por si só, não decide a intervenção. Avaliamos o defeito, o estado do conjunto e a disponibilidade de peças para explicar as opções possíveis."
+      },
+      {
+        "question": "E se o portão voltar a funcionar antes da visita?",
+        "answer": "Diga-nos o que aconteceu e se houve alguma alteração. O histórico continua a ser útil, embora a confirmação de uma avaria intermitente possa exigir observação adicional."
+      }
+    ],
+    "contactTitle": "Conte-nos como o portão está a funcionar",
+    "contactText": "Fale com a TecCasa sobre o seu pedido em Lisboa. O contacto serve para perceber a situação, esclarecer as condições da avaliação e combinar consigo o próximo passo.",
+    "message": "Olá, pretendo pedir assistência a um portão em Lisboa. Posso enviar fotografias?",
+    "updated": "2026-11-02"
   }
 }

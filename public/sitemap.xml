@@ -85,7 +85,7 @@
   </url>
   <url>
     <loc>https://tec-casa.pt/en/electric-gate-repair-lisbon</loc>
-    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://tec-casa.pt/reparacao-portoes-lisboa" />
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://tec-casa.pt/reparacao-portoes" />
     <xhtml:link rel="alternate" hreflang="en" href="https://tec-casa.pt/en/electric-gate-repair-lisbon" />
   </url>
   <url>
@@ -147,6 +147,10 @@
   <url>
     <loc>https://tec-casa.pt/instalacao-automatismos-portoes-corroios</loc>
     <lastmod>2026-10-31</lastmod>
+  </url>
+  <url>
+    <loc>https://tec-casa.pt/instalacao-automatismos-portoes-lisboa</loc>
+    <lastmod>2026-11-02</lastmod>
   </url>
   <url>
     <loc>https://tec-casa.pt/instalacao-automatismos-portoes-loures</loc>
@@ -262,6 +266,12 @@
     <loc>https://tec-casa.pt/portao-nao-fecha</loc>
   </url>
   <url>
+    <loc>https://tec-casa.pt/reparacao-portoes</loc>
+    <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://tec-casa.pt/reparacao-portoes" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://tec-casa.pt/en/electric-gate-repair-lisbon" />
+  </url>
+  <url>
     <loc>https://tec-casa.pt/reparacao-portoes-agualva-cacem</loc>
     <lastmod>2026-10-31</lastmod>
   </url>
@@ -299,9 +309,7 @@
   </url>
   <url>
     <loc>https://tec-casa.pt/reparacao-portoes-lisboa</loc>
-    <lastmod>2026-10-30</lastmod>
-    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://tec-casa.pt/reparacao-portoes-lisboa" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://tec-casa.pt/en/electric-gate-repair-lisbon" />
+    <lastmod>2026-11-02</lastmod>
   </url>
   <url>
     <loc>https://tec-casa.pt/reparacao-portoes-loures</loc>

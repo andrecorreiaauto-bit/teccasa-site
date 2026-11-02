@@ -5,7 +5,7 @@ import { company } from "../lib/company";
 export default function LocalServicePage({ page }) {
   const url = `${company.url}/${page.slug}`;
   const installation = page.kind === "installation";
-  const servicePath = installation ? "/instalacao-automatismos-portoes" : "/reparacao-portoes-lisboa";
+  const servicePath = installation ? "/instalacao-automatismos-portoes" : "/reparacao-portoes";
   const serviceLabel = installation ? "Instalação de automatismos" : "Reparação de portões";
   const whatsapp = `https://wa.me/351922021980?text=${encodeURIComponent(page.message)}`;
   const schema = {

@@ -34,8 +34,8 @@
           "indexable": true
         },
         {
-          "path": "/reparacao-portoes-lisboa",
-          "label": "Reparação de portões automáticos em Lisboa",
+          "path": "/reparacao-portoes",
+          "label": "Reparação de portões automáticos",
           "indexable": true
         }
       ]
@@ -86,6 +86,11 @@
         {
           "path": "/instalacao-automatismos-portoes-corroios",
           "label": "Instalação de automatismos para portões em Corroios",
+          "indexable": true
+        },
+        {
+          "path": "/instalacao-automatismos-portoes-lisboa",
+          "label": "Instalação de automatismos para portões em Lisboa",
           "indexable": true
         },
         {
@@ -206,6 +211,11 @@
         {
           "path": "/reparacao-portoes-corroios",
           "label": "Reparação de portões automáticos em Corroios",
+          "indexable": true
+        },
+        {
+          "path": "/reparacao-portoes-lisboa",
+          "label": "Reparação de portões automáticos em Lisboa",
           "indexable": true
         },
         {

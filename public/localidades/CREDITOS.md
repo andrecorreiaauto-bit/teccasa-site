@@ -233,3 +233,14 @@ Autor: Vitor Oliveira — https://www.flickr.com/people/21446942@N00
 Origem: https://commons.wikimedia.org/wiki/File:Ba%C3%ADa_do_Seixal_-_Portugal_(50570285986).jpg
 
 Licença: CC BY-SA 2.0 — https://creativecommons.org/licenses/by-sa/2.0
+
+
+## Lisboa
+
+Ficheiro: lisboa.jpg
+
+Autor: Koshelyev — https://commons.wikimedia.org/wiki/User:Koshelyev
+
+Origem: https://commons.wikimedia.org/wiki/File:Lisboa,_Pra%C3%A7a_do_Com%C3%A9rcio.jpg
+
+Licença: CC BY-SA 3.0 — https://creativecommons.org/licenses/by-sa/3.0

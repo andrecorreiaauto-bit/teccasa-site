@@ -7,7 +7,7 @@ export default function AutomatismosV2Portoes() {
 
   { label:"Instalação de Automatismos", href:"/instalacao-automatismos-portoes", active:true },
 
-  { label:"Reparação de Portões", href:"/reparacao-portoes-lisboa", active:true },
+  { label:"Reparação de Portões", href:"/reparacao-portoes", active:true },
 
   { label:"Comandos", href:"/comandos-garagem", active:true },
 

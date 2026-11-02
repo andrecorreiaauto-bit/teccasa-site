@@ -10,7 +10,7 @@ const labels = {
   "/en/legal": "Legal information", "/en/privacy": "Privacy policy", "/en/cookies": "Cookie policy", "/en/service-terms": "Service terms",
 };
 const groupOrder = ["Páginas principais", "Instalação por zona", "Reparação por zona", "Páginas de avarias", "Páginas de marcas", "Kits e instalação de material do cliente", "Páginas EN", "Informação legal e privacidade"];
-const principal = new Set(["/", "/a-empresa", "/instalacao-automatismos-portoes", "/reparacao-portoes-lisboa", "/comandos-garagem", "/casas-inteligentes-lisboa", "/instalacao-camaras-lisboa"]);
+const principal = new Set(["/", "/a-empresa", "/instalacao-automatismos-portoes", "/reparacao-portoes", "/comandos-garagem", "/casas-inteligentes-lisboa", "/instalacao-camaras-lisboa"]);
 const files = [];
 function walk(directory) {
   for (const entry of readdirSync(directory, { withFileTypes: true })) {
@@ -38,7 +38,7 @@ const xmlEscape = value => value.replace(/&/g, "&amp;").replace(/</g, "&lt;").re
 const translations = [
   ["/", "/en"], ["/a-empresa", "/en/about"],
   ["/instalacao-automatismos-portoes", "/en/automatic-gate-installation-lisbon"],
-  ["/reparacao-portoes-lisboa", "/en/electric-gate-repair-lisbon"],
+  ["/reparacao-portoes", "/en/electric-gate-repair-lisbon"],
   ["/comandos-garagem", "/en/garage-remote-controls-lisbon"],
   ["/instalacao-camaras-lisboa", "/en/security-cameras-lisbon"],
   ["/comando-garagem-nao-funciona", "/en/gate-remote-control-not-working"],
@@ -47,7 +47,7 @@ const base = "https://tec-casa.pt";
 // Dates of actual content revisions, never the date a build happens to run.
 const contentUpdated = {
   "/": "2026-10-30", "/en": "2026-10-30", "/a-empresa": "2026-10-30", "/en/about": "2026-10-30",
-  "/instalacao-automatismos-portoes": "2026-10-30", "/reparacao-portoes-lisboa": "2026-10-30",
+  "/instalacao-automatismos-portoes": "2026-10-30", "/reparacao-portoes": "2026-11-02",
   "/casas-inteligentes-lisboa": "2026-10-30", "/comandos-garagem": "2026-10-30", "/instalacao-camaras-lisboa": "2026-10-30",
 };
 const urls = records.filter(page => page.indexable).map(page => {

@@ -14,7 +14,7 @@ export default function SiteHeader({ english = false, alternateHref }) {
   ] : [
     ["Início", "/"],
     ["Instalação de Automatismos", "/instalacao-automatismos-portoes"],
-    ["Reparação de Portões", "/reparacao-portoes-lisboa"],
+    ["Reparação de Portões", "/reparacao-portoes"],
     ["Comandos", "/comandos-garagem"],
     ["Domótica", "/casas-inteligentes-lisboa"],
     ["Vigilância", "/instalacao-camaras-lisboa"],
