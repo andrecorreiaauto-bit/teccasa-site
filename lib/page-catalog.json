@@ -37,6 +37,11 @@
           "path": "/reparacao-portoes",
           "label": "Reparação de portões automáticos",
           "indexable": true
+        },
+        {
+          "path": "/zonas-de-assistencia",
+          "label": "Zonas de assistência",
+          "indexable": true
         }
       ]
     },

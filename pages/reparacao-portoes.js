@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import Head from "next/head";
+import RepairBrandLinks from "../components/RepairBrandLinks";
 export default function ReparacaoPortoes() {
  const [menuOpen, setMenuOpen] = useState(false);
  const menuItems = [
@@ -554,36 +555,44 @@ gap:"10px"
   {
     image:"/portao-abre-ate-meio.png",
     title:"Portão abre até meio",
+    href:"/portao-abre-ate-meio",
     text:"Pode estar relacionado com esforço, programação, fim de curso ou obstáculos no percurso."
   },
   {
     image:"/comando-portao.png",
     title:"Comando não funciona",
+    href:"/comando-garagem-nao-funciona",
     text:"Pode ser pilha, comando desprogramado, recetor RF ou problema na central."
   },
   {
     image:"/fotocelulas-erro.png",
     title:"Fotocélulas em erro",
+    href:"/portao-nao-fecha",
     text:"Fotocélulas desalinhadas, sujas, sem alimentação ou com cabos danificados."
   },
   {
     image:"/motor-portao.png",
     title:"Motor sem força",
+    href:"/motor-portao-sem-forca",
     text:"Pode indicar desgaste mecânico, esforço excessivo ou parametrização incorreta."
   },
   {
     image:"/central-eletronica.png",
     title:"Central bloqueada",
+    href:"/portao-garagem-nao-abre",
     text:"Erros de programação, entradas de segurança ativas ou configuração alterada."
   },
   {
     image:"/portao-inverte-fecho.png",
     title:"Fecha e volta a abrir",
+    href:"/portao-fecha-e-volta-a-abrir",
     text:"Normalmente associado a segurança, obstáculos, fotocélulas ou esforço mal calibrado."
   }
 ].map((item,index)=>(
 
-  <div key={index} style={{
+  <a key={index} href={item.href} className="problem-link" style={{
+    display:"block",
+    textDecoration:"none",
     background:"#e6edf7",
     borderRadius:"22px",
     overflow:"hidden",
@@ -619,14 +628,17 @@ gap:"10px"
       }}>
         {item.text}
       </p>
+      <span style={{display:"inline-block",marginTop:"18px",color:"#08285c",fontWeight:"bold",textDecoration:"underline",textUnderlineOffset:"4px"}}>Ver possíveis causas →</span>
     </div>
 
-  </div>
+  </a>
 
 ))}
 
   </div>
 </section>
+
+<RepairBrandLinks />
 
                                                 <section style={{
                                                 padding:"70px 20px",
@@ -687,6 +699,10 @@ gap:"10px"
                                                   </a>
                                                 </div>
                                               </section>
+
+  <div className="service-areas-access" style={{maxWidth:"1100px",margin:"0 auto",padding:"0 20px",color:"#555",fontSize:"17px",lineHeight:"1.7"}}>
+    <p>Deslocações por marcação em Lisboa e arredores, nas duas margens do Tejo. Consulte algumas das <a href="/zonas-de-assistencia" style={{color:"#08285c",fontWeight:"bold",textUnderlineOffset:"4px"}}>zonas de assistência</a>. A lista não é exaustiva: se não encontrar a sua localidade, contacte-nos para confirmar a possibilidade de deslocação.</p>
+  </div>
 
   <footer style={{
 marginTop:"80px",
@@ -787,6 +803,7 @@ border:"1px solid rgba(11,44,95,0.05)"
 
 </footer>
                                                                                <style jsx global>{`
+                                                          .problem-link:focus-visible { outline: 3px solid #f7b545; outline-offset: 5px; }
                                                           html {
                                                           scroll-behavior: smooth;
                                                           overflow-x: hidden;

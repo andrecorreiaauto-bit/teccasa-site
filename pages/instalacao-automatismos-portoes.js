@@ -843,17 +843,17 @@ gap:"10px"
                                                            lineHeight:"1.7",
                                                            color:"#555"
                                                            }}>
-                                                           Antes de pedir assistência, confirme se a sua zona está dentro da nossa área de atuação.{" "}
+                                                           Prestamos assistência em Lisboa e arredores, nas duas margens do Tejo. Consulte algumas das{" "}
                                                            <a
-                                                           href="/#zona-atuacao"
+                                                           href="/zonas-de-assistencia"
                                                            style={{
                                                            color:"#08285c",
                                                            fontWeight:"bold",
                                                            textDecoration:"underline"
                                                            }}
                                                            >
-                                                           Ver zona de atuação da TecCasa Soluções
-                                                           </a>.
+                                                           zonas de assistência
+                                                           </a>. A lista não é exaustiva: se não encontrar a sua localidade, contacte-nos para confirmar a possibilidade de deslocação.
                                                            </p>
                                                            
                                                            </div>
