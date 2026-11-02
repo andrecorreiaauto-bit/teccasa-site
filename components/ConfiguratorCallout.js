@@ -5,8 +5,8 @@ export default function ConfiguratorCallout({ featured = false, kind, english = 
   return <section className={`configurator-callout${featured ? " featured" : ""}`} aria-label={english ? "Gate configurator" : "Configurador de automatismos"}>
     <div className="copy">
       {featured && CONFIGURATOR_IS_NEW && <span className="new-badge" data-configurator-novelty>{english ? "New" : "Novidade"}</span>}
-      <h2>{featured ? "O seu portão, configurado por si." : english ? "Explore the options for your gate" : "Que automatismo faz sentido para o seu portão?"}</h2>
-      <p>{english ? "Configure your gate in 3D and receive up to three solutions by email, subject to technical assessment. The configurator is available in Portuguese." : "Configure o seu portão em 3D, indique as condições da instalação e receba até três soluções por email, sujeitas a validação técnica."}</p>
+      <h2>{featured ? "Descubra o automatismo adequado ao seu portão." : english ? "Explore the options for your gate" : "Que automatismo faz sentido para o seu portão?"}</h2>
+      <p>{english ? "Describe your existing gate and installation conditions to receive automation options by email, subject to technical assessment. The configurator is available in Portuguese." : "Indique as características do seu portão e as condições da instalação para receber até três soluções de automatização por email, sujeitas a validação técnica."}</p>
       <ConfiguratorButton kind={kind} english={english} featured />
       <p className="note">{english ? "Sliding, swing, sectional and up-and-over gates." : "Portões de correr, de batente, seccionados e basculantes."}</p>
     </div>

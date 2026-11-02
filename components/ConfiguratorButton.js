@@ -4,7 +4,7 @@ export default function ConfiguratorButton({ english = false, kind, featured = f
   const type = GATE_TYPES[kind];
   const href = CONFIGURATOR_PATH + (type ? `?tipo=${type}` : "");
   return <a className={`configurator-launch${featured ? " featured" : ""}${CONFIGURATOR_IS_NEW ? " is-new" : ""}`} href={href}>
-    <span className="label">{english ? "Configure my gate (PT)" : "Configurar o meu portão"}</span>
+    <span className="label">{english ? "Configure gate automation (PT)" : "Configurar a automatização"}</span>
     {CONFIGURATOR_IS_NEW && <span className="ribbon" data-configurator-novelty>{english ? "New" : "Novidade"}</span>}
     <style jsx>{`
       .configurator-launch { position:relative; display:inline-flex; align-items:center; justify-content:center; align-self:center; box-sizing:border-box; min-height:56px; max-width:100%; padding:17px 28px; overflow:hidden; background:#08285c; border:1px solid #08285c; border-radius:16px; color:#fff; text-decoration:none; font:700 17px/1.3 Arial,sans-serif; box-shadow:0 10px 25px rgba(11,44,95,.18); }

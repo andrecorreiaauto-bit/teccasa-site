@@ -12,7 +12,7 @@ export default function Home() {
  const logoTimer = useRef(null);
  const menuItems = [
   { label:"Início", href:"/", active:true },
-  { label:"Configurador de portões", href:"/configurador-automatismos-portoes", active:true },
+  { label:"Configurar automatismo", href:"/configurador-automatismos-portoes", active:true },
 
   { label:"Instalação de Automatismos", href:"/instalacao-automatismos-portoes", active:true },
 

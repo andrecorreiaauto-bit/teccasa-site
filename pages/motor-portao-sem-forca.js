@@ -6,7 +6,7 @@ export default function MotorPortaoSemForca() {
  const [menuOpen, setMenuOpen] = useState(false);
  const menuItems = [
   { label:"Início", href:"/", active:true },
-  { label:"Configurador de portões", href:"/configurador-automatismos-portoes", active:true },
+  { label:"Configurar automatismo", href:"/configurador-automatismos-portoes", active:true },
 
   { label:"Instalação de Automatismos", href:"/instalacao-automatismos-portoes", active:true },
 

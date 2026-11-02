@@ -33,12 +33,12 @@ export default function Configurador() {
   return <>
     <Head>
       <title>Configurador de automatismos para portões | TecCasa Soluções</title>
-      <meta name="description" content="Configure o seu portão em 3D e receba até três soluções de automatização por email. Para portões de correr, batente, seccionados e basculantes." />
+      <meta name="description" content="Descreva o portão existente e as condições da instalação para receber até três soluções de automatização por email, sujeitas a validação técnica." />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <meta name="robots" content="index, follow" />
       <link rel="canonical" href={url} />
-      <meta property="og:title" content="Configure o seu portão | TecCasa Soluções" />
-      <meta property="og:description" content="Explore o seu portão em 3D e receba soluções por email, com acompanhamento próximo da TecCasa." />
+      <meta property="og:title" content="Que automatismo instalar no seu portão? | TecCasa Soluções" />
+      <meta property="og:description" content="Indique como é o seu portão e receba soluções de automatização por email, com acompanhamento próximo da TecCasa." />
       <meta property="og:type" content="website" /><meta property="og:url" content={url} />
       <meta property="og:image" content={`${company.url}/automatismos/tipos/instalacao-correr-v2-1440.webp`} />
     </Head>
@@ -46,7 +46,7 @@ export default function Configurador() {
       <SiteHeader alternateHref="/en/automatic-gate-installation-lisbon" />
       <main>
         <nav className="breadcrumbs" aria-label="Localização no site"><a href="/">Início</a><span aria-hidden="true"> / </span><a href="/instalacao-automatismos-portoes">Instalação de automatismos</a><span aria-hidden="true"> / </span><span>Configurador</span></nav>
-        <header className="intro"><p className="eyebrow">Configurador de automatismos</p><h1>O seu portão. As suas opções.</h1><p>Escolha o tipo de portão, ajuste as medidas e conte-nos o que pretende. Receba até três soluções por email, com valores sujeitos a validação técnica.</p></header>
+        <header className="intro"><p className="eyebrow">Configurador de automatismos</p><h1>Que automatismo instalar no seu portão?</h1><p>Indique como é o seu portão e as condições da instalação para receber soluções de automatização por email. As soluções e os valores ficam sujeitos a validação técnica.</p></header>
         <section className="configurator" aria-label="Configure o automatismo do seu portão">
           {!ready && <p className="loading" role="status">{slow ? <>O configurador está a demorar a carregar. Pode <a href="https://wa.me/351922021980" target="_blank" rel="noopener noreferrer">pedir ajuda por WhatsApp</a> ou tentar recarregar a página.</> : "A preparar o seu portão…"}</p>}
           {src && <iframe ref={frame} src={src} title="Configurador visual de automatismos TecCasa" style={{height}} sandbox="allow-scripts allow-same-origin allow-forms allow-downloads allow-popups allow-popups-to-escape-sandbox allow-modals" allow="clipboard-write" referrerPolicy="strict-origin-when-cross-origin" />}
