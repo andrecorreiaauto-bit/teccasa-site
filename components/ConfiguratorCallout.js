@@ -6,9 +6,9 @@ export default function ConfiguratorCallout({ featured = false, kind, english = 
     <div className="copy">
       {featured && CONFIGURATOR_IS_NEW && <span className="new-badge" data-configurator-novelty>{english ? "New" : "Novidade"}</span>}
       <h2>{featured ? "Descubra o automatismo adequado ao seu portão." : english ? "Explore the options for your gate" : "Que automatismo faz sentido para o seu portão?"}</h2>
-      <p>{english ? "Describe your existing gate and installation conditions to receive automation options by email, subject to technical assessment. The configurator is available in Portuguese." : "Indique as características do seu portão e as condições da instalação para receber até três soluções de automatização por email, sujeitas a validação técnica."}</p>
+      <p><strong>{english ? "See how much gate automation could cost." : "Saiba quanto pode custar automatizar o seu portão."}</strong> {english ? "Describe your gate and installation conditions to receive up to three automation options with indicative prices by email. The configurator is available in Portuguese." : "Indique as características do seu portão e as condições da instalação para receber até três soluções de automatização com preços indicativos por email."}</p>
       <ConfiguratorButton kind={kind} english={english} featured />
-      <p className="note">{english ? "Sliding, swing, sectional and up-and-over gates." : "Portões de correr, de batente, seccionados e basculantes."}</p>
+      <p className="note">{english ? "Prices depend on the information provided and technical assessment. Some cases require an on-site visit." : "Valores sujeitos aos dados fornecidos e a validação técnica. Algumas situações exigem avaliação no local."}</p>
     </div>
     {featured && <figure><img src="/automatismos/tipos/instalacao-correr-v2-768.webp" alt="Ilustração de um portão de correr com automatismo" width="768" height="512" loading="lazy" /><figcaption>Imagem ilustrativa gerada por IA.</figcaption></figure>}
     <style jsx>{`
