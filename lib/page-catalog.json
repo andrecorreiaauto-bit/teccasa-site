@@ -46,6 +46,31 @@
       ]
     },
     {
+      "title": "Instalação por tipo de portão",
+      "items": [
+        {
+          "path": "/instalacao-automatismos-portoes-basculantes",
+          "label": "Instalação de automatismos para portões basculantes",
+          "indexable": true
+        },
+        {
+          "path": "/instalacao-automatismos-portoes-batente",
+          "label": "Instalação de automatismos para portões de batente",
+          "indexable": true
+        },
+        {
+          "path": "/instalacao-automatismos-portoes-correr",
+          "label": "Instalação de automatismos para portões de correr",
+          "indexable": true
+        },
+        {
+          "path": "/instalacao-automatismos-portoes-seccionados",
+          "label": "Instalação de automatismos para portões seccionados",
+          "indexable": true
+        }
+      ]
+    },
+    {
       "title": "Instalação por zona",
       "items": [
         {

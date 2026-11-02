@@ -498,17 +498,25 @@ gap:"10px"
                                            {[
                                            {
                                            title:"Portões de correr",
+                                           href:"/instalacao-automatismos-portoes-correr",
                                            text:"Instalação de motores para portões de correr, com verificação da calha, cremalheira, peso e curso do portão."
                                            },
                                            
                                            {
                                            title:"Portões de batente",
+                                           href:"/instalacao-automatismos-portoes-batente",
                                            text:"Automatização de portões de uma ou duas folhas, com motores adequados ao espaço, abertura e esforço das folhas."
                                            },
                                            
                                            {
-                                           title:"Portões de garagem",
-                                           text:"Instalação de motores para portões seccionados ou basculantes, com análise das calhas, desbloqueio e funcionamento manual."
+                                           title:"Portões seccionados",
+                                           href:"/instalacao-automatismos-portoes-seccionados",
+                                           text:"Automatização de portas de garagem com painéis articulados, com análise das calhas, equilíbrio e espaço no teto."
+                                           },
+                                           {
+                                           title:"Portões basculantes",
+                                           href:"/instalacao-automatismos-portoes-basculantes",
+                                           text:"Análise da folha rígida e do mecanismo de abertura, com a adaptação adequada ao automatismo."
                                            },
                                            
                                            {
@@ -544,6 +552,7 @@ gap:"10px"
                                            }}>
                                            {item.text}
                                            </p>
+                                           {item.href && <a href={item.href} style={{display:"inline-block",marginTop:"18px",color:"#08285c",fontWeight:"bold",textUnderlineOffset:"4px"}}>Ver instalação →</a>}
                                            
                                            </div>
                                            

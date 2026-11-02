@@ -1,0 +1,342 @@
+{
+  "instalacao-automatismos-portoes-correr": {
+    "slug": "instalacao-automatismos-portoes-correr",
+    "kind": "correr",
+    "title": "Instalação de automatismos para portões de correr",
+    "description": "Motorizar um portão de correr: análise da calha, rodas, cremalheira, espaço lateral e utilização. Peça uma avaliação à TecCasa Soluções.",
+    "lead": "O portão desliza para o lado e quer passar a abri-lo com comando? Começamos por perceber como se movimenta e o espaço que tem disponível, para escolher uma solução adequada à sua entrada.",
+    "image": "/automatismos/tipos/instalacao-correr-1440.webp",
+    "imageSmall": "/automatismos/tipos/instalacao-correr-768.webp",
+    "imageAlt": "Ilustração de um portão de correr com motor lateral e cremalheira junto à base.",
+    "summary": [
+      [
+        "Percurso livre",
+        "O portão precisa de espaço para recolher lateralmente durante toda a abertura."
+      ],
+      [
+        "Movimento regular",
+        "A calha, as rodas e as guias influenciam o esforço do automatismo."
+      ],
+      [
+        "Utilização diária",
+        "O tamanho do portão e a frequência de manobras ajudam a escolher o motor."
+      ]
+    ],
+    "sections": [
+      {
+        "title": "O motor acompanha o portão que já existe",
+        "paragraphs": [
+          "A automatização pode aproveitar um portão manual, desde que a estrutura e o movimento estejam em condições. Analisamos a calha, as rodas, as guias superiores e os pontos de paragem, bem como o espaço onde ficará o motor.",
+          "Se o portão prende, arrasta ou sai do alinhamento, é preciso perceber a causa antes de montar o automatismo. Um motor mais forte não substitui a correção de um problema mecânico. Os trabalhos necessários ficam distinguidos na proposta."
+        ]
+      },
+      {
+        "title": "Espaço para o motor, percurso e cremalheira",
+        "paragraphs": [
+          "Além da largura da entrada, interessa o comprimento que o portão percorre ao abrir e a zona lateral para onde recolhe. Paredes, vegetação, declives e obstáculos próximos podem condicionar a solução.",
+          "A cremalheira transmite o movimento do motor ao portão. A escolha e a montagem dependem da estrutura existente e do automatismo previsto. Na substituição de um motor, verificamos se a cremalheira e a base podem ser aproveitadas; não assumimos compatibilidade só pela aparência."
+        ]
+      },
+      {
+        "title": "Escolher pela entrada e pela utilização",
+        "paragraphs": [
+          "As dimensões, o peso estimado, a exposição ao vento e a frequência de abertura ajudam a enquadrar o equipamento. Uma entrada utilizada por uma família e um acesso partilhado podem exigir soluções diferentes.",
+          "Combinamos também a posição dos dispositivos de segurança, a passagem dos cabos e a forma de abrir quando faltar a eletricidade. Se for necessária uma alimentação nova ou uma alteração elétrica, essa preparação é identificada separadamente da montagem do automatismo."
+        ]
+      },
+      {
+        "title": "Da avaliação à utilização no dia a dia",
+        "paragraphs": [
+          "Depois de confirmadas as condições no local, a proposta identifica o motor, a cremalheira, os comandos, os acessórios previstos e os trabalhos incluídos. Se já tem material comprado, analisamos a sua adequação antes de confirmar a montagem.",
+          "Na conclusão verificamos as manobras e os dispositivos previstos e explicamos o funcionamento e o desbloqueio. Fica com um contacto direto para esclarecer dúvidas sobre a utilização e o acompanhamento da instalação."
+        ]
+      }
+    ],
+    "photos": [
+      "Uma vista geral pelo interior, com o portão e a zona lateral de recolha.",
+      "Pormenor da calha, das rodas e da cremalheira, se já existir.",
+      "Largura aproximada da entrada e indicação de quantas vezes abre por dia.",
+      "Fotografia do motor antigo e da respetiva etiqueta, se se tratar de uma substituição."
+    ],
+    "questions": [
+      {
+        "question": "Posso automatizar o meu portão de correr manual?",
+        "answer": "Pode ser possível aproveitar o portão existente. Precisamos de confirmar o estado da estrutura, a regularidade do movimento, o espaço lateral e as condições para montar o motor e os acessórios."
+      },
+      {
+        "question": "Tenho de saber o peso exato para pedir orçamento?",
+        "answer": "Não precisa de ter esse dado para iniciar o contacto. Fotografias, medidas aproximadas e informação sobre os materiais ajudam a preparar a análise. A escolha final depende da confirmação das características do portão."
+      },
+      {
+        "question": "A cremalheira antiga pode ser aproveitada?",
+        "answer": "Só depois de verificar o estado, as dimensões e a compatibilidade com o novo automatismo. O mesmo se aplica à base, aos comandos e aos dispositivos de segurança existentes."
+      },
+      {
+        "question": "O motor resolve um portão que custa a deslizar?",
+        "answer": "Primeiro é necessário perceber a origem do esforço. Rodas, calha ou guias em mau estado podem comprometer o movimento e precisam de ser avaliadas antes da automatização."
+      },
+      {
+        "question": "Posso abrir o portão se faltar a luz?",
+        "answer": "A solução deve prever uma forma de acesso e desbloqueio adequada ao equipamento e à propriedade. Explicamos a opção prevista antes da instalação e demonstramos a utilização na entrega."
+      }
+    ],
+    "contact": "Envie uma fotografia da entrada e da zona para onde o portão recolhe. Ajudamos a perceber o que é preciso confirmar para preparar o orçamento.",
+    "updated": "2026-11-02"
+  },
+  "instalacao-automatismos-portoes-batente": {
+    "slug": "instalacao-automatismos-portoes-batente",
+    "kind": "batente",
+    "title": "Instalação de automatismos para portões de batente",
+    "description": "Automatização de portões de batente de uma ou duas folhas. Avaliação de pilares, recuos, abertura e utilização com contacto direto TecCasa.",
+    "lead": "Uma ou duas folhas, abertura para o interior ou uma entrada com pouco espaço: o automatismo tem de se adaptar ao movimento do portão e aos pilares. A escolha começa pelas condições da sua entrada.",
+    "image": "/automatismos/tipos/instalacao-batente-1440.webp",
+    "imageSmall": "/automatismos/tipos/instalacao-batente-768.webp",
+    "imageAlt": "Ilustração de um portão de batente de duas folhas com um atuador em cada folha, visto pelo interior.",
+    "summary": [
+      [
+        "Uma ou duas folhas",
+        "A largura e as características de cada folha contam na seleção do equipamento."
+      ],
+      [
+        "Pilares e recuos",
+        "A posição das dobradiças e o espaço de fixação condicionam o braço."
+      ],
+      [
+        "Zona de abertura",
+        "É preciso considerar o percurso das folhas e os obstáculos próximos."
+      ]
+    ],
+    "sections": [
+      {
+        "title": "Medir cada folha e observar os pilares",
+        "paragraphs": [
+          "Num portão de batente, a largura total da entrada não chega para escolher o automatismo. Interessa conhecer as dimensões e o peso de cada folha, a posição das dobradiças e o estado dos pontos de fixação.",
+          "O recuo entre a dobradiça e a face do pilar, o espaço lateral e o ângulo pretendido influenciam a geometria da montagem. Uma fotografia frontal ajuda, mas precisamos também de uma vista pelo interior e de um pormenor dos pilares."
+        ]
+      },
+      {
+        "title": "Braço linear, articulado ou outra solução?",
+        "paragraphs": [
+          "O equipamento é escolhido em função das cotas de instalação, do esforço e da utilização. Um braço linear pode adequar-se a determinada entrada; pilares ou recuos diferentes podem pedir outra geometria, como um braço articulado.",
+          "Também existem soluções hidráulicas ou enterradas, mas a sua adequação e os trabalhos de preparação precisam de análise própria. Não recomendamos um sistema apenas por ser mais potente ou por caber num orçamento inicial."
+        ]
+      },
+      {
+        "title": "Abertura, batentes e passagem de cabos",
+        "paragraphs": [
+          "Confirmamos se as folhas se movimentam regularmente, sem arrastar nem prender, e analisamos os batentes existentes. A inclinação do pavimento, os muros e a posição onde estaciona o carro podem limitar a abertura.",
+          "Num portão de duas folhas, é necessário prever as ligações entre os dois lados e a posição dos acessórios. Se as tubagens não existirem ou não puderem ser aproveitadas, essa preparação é discutida antes de fechar a proposta. A alimentação elétrica é igualmente confirmada."
+        ]
+      },
+      {
+        "title": "Novo automatismo ou substituição do atual",
+        "paragraphs": [
+          "Se já existe um motor, avaliamos o que está instalado e a possibilidade de aproveitar acessórios funcionais e compatíveis. Suportes, comandos, fotocélulas e cablagem não são automaticamente reutilizáveis entre equipamentos.",
+          "A proposta identifica a solução e os trabalhos incluídos. Depois da montagem são verificadas as manobras, a sequência das folhas quando aplicável e os dispositivos previstos, com explicação do desbloqueio e do uso diário."
+        ]
+      }
+    ],
+    "photos": [
+      "Vista do portão pelo interior e indicação de uma ou duas folhas.",
+      "Largura aproximada de cada folha e fotografia das dobradiças e dos pilares.",
+      "Espaço para onde as folhas abrem, incluindo obstáculos ou desníveis.",
+      "Motor e etiqueta existentes, caso queira substituir um automatismo."
+    ],
+    "questions": [
+      {
+        "question": "Instalam motores em portões de uma só folha?",
+        "answer": "Sim, analisamos portões de uma ou duas folhas. A solução depende das dimensões, da geometria dos pilares, do movimento e da utilização prevista."
+      },
+      {
+        "question": "O que é o recuo do pilar?",
+        "answer": "É uma medida relacionada com a posição da dobradiça em relação à face do pilar onde o automatismo poderá ficar fixo. Essa geometria influencia o movimento do braço. Uma fotografia de cima ou pelo interior ajuda a explicar o caso."
+      },
+      {
+        "question": "O portão pode abrir para fora?",
+        "answer": "Essa possibilidade precisa de ser avaliada no local, incluindo o espaço disponível, as fixações, a segurança e os limites da propriedade. Não confirmamos uma abertura para fora apenas a partir da largura da entrada."
+      },
+      {
+        "question": "Preciso sempre de uma fechadura elétrica?",
+        "answer": "Depende do tipo de automatismo, das folhas e das indicações do fabricante. A necessidade de retenção ou de uma fechadura é analisada na escolha da solução e identificada na proposta quando aplicável."
+      },
+      {
+        "question": "Podem aproveitar os acessórios do motor antigo?",
+        "answer": "Podemos avaliar esse aproveitamento quando os dispositivos estiverem funcionais e forem compatíveis com a solução proposta. A confirmação depende do diagnóstico, não apenas da marca."
+      }
+    ],
+    "contact": "Mostre-nos os pilares e o espaço de abertura. Com essas imagens conseguimos preparar melhor a avaliação do seu portão.",
+    "updated": "2026-11-02"
+  },
+  "instalacao-automatismos-portoes-seccionados": {
+    "slug": "instalacao-automatismos-portoes-seccionados",
+    "kind": "seccionados",
+    "title": "Instalação de automatismos para portões seccionados",
+    "description": "Motorizar um portão de garagem seccionado: avaliação de calhas, equilíbrio, espaço no teto e acesso alternativo. Peça uma avaliação TecCasa.",
+    "lead": "O seu portão de garagem sobe por painéis e recolhe junto ao teto? Analisamos o movimento e o espaço disponível para instalar um automatismo que se adapte à porta e à utilização da garagem.",
+    "image": "/automatismos/tipos/instalacao-seccionado-1440.webp",
+    "imageSmall": "/automatismos/tipos/instalacao-seccionado-768.webp",
+    "imageAlt": "Ilustração de um portão seccionado parcialmente aberto, com painéis horizontais e calhas curvas junto ao teto.",
+    "summary": [
+      [
+        "Painéis articulados",
+        "A porta sobe por secções guiadas nas calhas laterais."
+      ],
+      [
+        "Espaço no teto",
+        "A altura e a profundidade disponíveis condicionam o conjunto motor e calha."
+      ],
+      [
+        "Acesso alternativo",
+        "Precisamos de saber se consegue entrar na garagem por outra porta."
+      ]
+    ],
+    "sections": [
+      {
+        "title": "O portão tem de estar em condições antes do motor",
+        "paragraphs": [
+          "Um portão seccionado é formado por painéis articulados que se deslocam nas calhas. Antes da automatização observamos o estado dos painéis, das dobradiças, dos apoios e do sistema de equilíbrio, além da regularidade do movimento.",
+          "Se a porta prende, desce de forma irregular ou exige um esforço anormal, é necessário avaliar a causa. O automatismo não deve servir para compensar uma porta desequilibrada ou danificada. Não é preciso mexer nas molas nem desmontar proteções para nos enviar fotografias."
+        ]
+      },
+      {
+        "title": "Altura, profundidade e posição do motor",
+        "paragraphs": [
+          "A altura e a largura da abertura são apenas parte da informação. Interessa também o espaço entre o ponto mais alto do movimento e o teto, a profundidade disponível dentro da garagem e as condições de fixação.",
+          "Vigas, tubagens, arrumação elevada ou uma calha existente podem influenciar a montagem. Confirmamos as folgas exigidas para a solução escolhida; não existe uma medida única que sirva para todos os motores e todas as portas."
+        ]
+      },
+      {
+        "title": "Comando, alimentação e entrada na garagem",
+        "paragraphs": [
+          "Numa primeira instalação verificamos a alimentação disponível e a passagem dos cabos. Combinamos os comandos e os acessórios adequados à utilização, bem como os dispositivos de segurança necessários à instalação concreta.",
+          "Perguntamos sempre se existe outra entrada para a garagem. Se o portão for o único acesso, é preciso prever uma forma adequada de entrar e desbloquear quando faltar a eletricidade ou houver uma avaria. A solução fica definida antes da montagem."
+        ]
+      },
+      {
+        "title": "Substituir o motor sem assumir que tudo é compatível",
+        "paragraphs": [
+          "Um motor novo pode exigir uma calha ou uma ligação à porta diferentes das que já existem. Avaliamos o conjunto, incluindo fixações e acessórios, em vez de assumir que basta trocar a cabeça do motor.",
+          "No final verificamos o movimento, as paragens e os dispositivos previstos e explicamos a utilização e o desbloqueio. O orçamento identifica o equipamento, os comandos e os trabalhos incluídos para que possa decidir com clareza."
+        ]
+      }
+    ],
+    "photos": [
+      "Vista pelo interior com o portão fechado e o teto da garagem visível.",
+      "Calhas laterais e zona de recolha dos painéis, sem desmontar nada.",
+      "Largura e altura aproximadas da abertura, e eventuais vigas ou obstáculos.",
+      "Etiqueta do motor atual, se existir, e indicação de outra entrada para a garagem."
+    ],
+    "questions": [
+      {
+        "question": "Um portão seccionado manual pode passar a automático?",
+        "answer": "Em muitos casos é possível, mas é necessário confirmar o estado e o equilíbrio da porta, as calhas, as fixações e o espaço para o automatismo. Fotografias pelo interior ajudam a preparar essa análise."
+      },
+      {
+        "question": "Como sei se o meu portão é seccionado?",
+        "answer": "Normalmente tem vários painéis horizontais articulados. Quando abre, esses painéis acompanham as calhas laterais e recolhem para o interior junto ao teto. Se tiver dúvidas, envie-nos uma fotografia."
+      },
+      {
+        "question": "Qual é a diferença para um basculante?",
+        "answer": "No seccionado, os painéis articulam-se durante o movimento. No basculante, a folha é rígida e desloca-se como um conjunto. Essa diferença pode alterar o sistema de acionamento e a forma de ligar o motor à porta."
+      },
+      {
+        "question": "Quanto espaço é necessário no teto?",
+        "answer": "Depende da porta, da calha e do motor selecionado. Precisamos de observar a abertura durante o movimento e o espaço interior, incluindo vigas ou outros obstáculos, antes de confirmar a montagem."
+      },
+      {
+        "question": "E se a garagem não tiver outra porta?",
+        "answer": "É uma informação importante para prever a solução de acesso e desbloqueio em caso de falha de energia ou de avaria. Diga-nos logo no primeiro contacto se o portão é a única entrada."
+      }
+    ],
+    "contact": "Envie uma fotografia pelo interior com as calhas e o teto visíveis. Diga-nos também se existe outra forma de entrar na garagem.",
+    "updated": "2026-11-02"
+  },
+  "instalacao-automatismos-portoes-basculantes": {
+    "slug": "instalacao-automatismos-portoes-basculantes",
+    "kind": "basculantes",
+    "title": "Instalação de automatismos para portões basculantes",
+    "description": "Automatizar um portão de garagem basculante: avaliação da folha rígida, equilíbrio, braços, espaço e adaptação ao motor. Contacte a TecCasa.",
+    "lead": "Se a porta da garagem abre como uma única folha rígida, pode ser basculante. Antes de escolher o motor, precisamos de perceber o mecanismo e a trajetória dessa folha: nem todos os basculantes se automatizam da mesma forma.",
+    "image": "/automatismos/tipos/instalacao-basculante-1440.webp",
+    "imageSmall": "/automatismos/tipos/instalacao-basculante-768.webp",
+    "imageAlt": "Ilustração de um portão basculante de folha rígida parcialmente levantada, com braços laterais e motor de teto.",
+    "summary": [
+      [
+        "Uma folha rígida",
+        "O painel move-se como um conjunto, sem se dividir em secções articuladas."
+      ],
+      [
+        "Mecanismo existente",
+        "Os braços, as guias e a trajetória da folha determinam a adaptação."
+      ],
+      [
+        "Equilíbrio e acesso",
+        "O estado da porta e a existência de outra entrada são verificados antes da montagem."
+      ]
+    ],
+    "sections": [
+      {
+        "title": "Reconhecer o basculante e o seu movimento",
+        "paragraphs": [
+          "O portão basculante tem uma folha rígida que inclina e sobe durante a abertura. Há mecanismos com trajetórias e formas de recolha diferentes, com molas ou contrapesos conforme a construção. É preciso observar o conjunto existente para perceber como pode ser acionado.",
+          "Uma fotografia apenas pelo exterior pode não mostrar os elementos decisivos. Pedimos uma vista pelo interior, dos dois lados, com os braços e as guias visíveis. A análise considera também a parte da folha que avança para fora durante o movimento, quando isso acontece."
+        ]
+      },
+      {
+        "title": "A adaptação pode ser tão importante como o motor",
+        "paragraphs": [
+          "Em algumas portas é possível usar um automatismo de teto com uma ligação adequada à folha. Outras podem precisar de um braço adaptador ou de uma solução de acionamento própria. A escolha depende do mecanismo, da geometria e das indicações dos fabricantes.",
+          "Por isso, não basta comprar um motor anunciado para garagem. Confirmamos a compatibilidade, o ponto de ligação à porta, as fixações e as folgas ao longo do movimento. Se houver preparação ou adaptação necessária, fica identificada antes da montagem."
+        ]
+      },
+      {
+        "title": "Equilíbrio, esforço e espaço de manobra",
+        "paragraphs": [
+          "Uma folha pesada, desequilibrada ou com braços em mau estado precisa de avaliação antes de receber um automatismo. O motor não deve ser usado para ultrapassar um bloqueio ou um problema de equilíbrio.",
+          "Observamos o espaço no teto, os obstáculos e a trajetória da porta para preservar a utilização da garagem. Se houver danos ou movimento anormal, evite continuar a forçar a porta. Não ajuste molas nem contrapesos para preparar o pedido: bastam fotografias tiradas sem desmontar o mecanismo."
+        ]
+      },
+      {
+        "title": "Prever o acesso quando falta a eletricidade",
+        "paragraphs": [
+          "Perguntamos se a garagem tem uma entrada alternativa, porque a forma de desbloquear e aceder ao interior precisa de ficar resolvida na proposta. A solução depende do equipamento e da porta, sobretudo quando esta é a única entrada.",
+          "A montagem inclui a verificação das manobras e dos dispositivos previstos, além da explicação do funcionamento e do desbloqueio. Se pretende substituir um automatismo antigo, analisamos também a calha, os braços de ligação e os acessórios que podem ser aproveitados."
+        ]
+      }
+    ],
+    "photos": [
+      "Vista pelo interior com a folha inteira e o teto visíveis.",
+      "Fotografia dos braços e mecanismos laterais, sem retirar proteções.",
+      "Largura e altura aproximadas, e descrição de como a folha se desloca.",
+      "Etiqueta do motor antigo, se existir, e indicação de uma entrada alternativa."
+    ],
+    "questions": [
+      {
+        "question": "Todos os portões basculantes podem receber o mesmo motor?",
+        "answer": "Não. A trajetória, o equilíbrio, as dimensões e o mecanismo variam. Algumas portas admitem um motor de teto com a ligação adequada; outras precisam de uma adaptação ou de um sistema próprio."
+      },
+      {
+        "question": "Um basculante é igual a um seccionado?",
+        "answer": "Não. O basculante movimenta uma folha rígida inteira. O seccionado tem painéis articulados que seguem as calhas. A escolha do acionamento e da ligação à porta deve considerar essa diferença."
+      },
+      {
+        "question": "É sempre necessário um braço adaptador?",
+        "answer": "Não é possível responder sem identificar o mecanismo. A necessidade de adaptador ou de outro acionamento é confirmada na avaliação da porta e das condições de instalação."
+      },
+      {
+        "question": "O motor consegue levantar uma porta muito pesada?",
+        "answer": "A escolha do motor depende das características da porta, mas o primeiro passo é verificar o equilíbrio e o movimento. Um automatismo mais forte não substitui a correção de uma falha mecânica."
+      },
+      {
+        "question": "Já comprei um kit para garagem. Podem instalá-lo?",
+        "answer": "Podemos analisar o equipamento e verificar se é adequado ao seu basculante. Envie a referência do kit e fotografias da porta pelo interior. A montagem só é confirmada depois dessa verificação."
+      },
+      {
+        "question": "Não tenho outra entrada para a garagem. Isso impede a instalação?",
+        "answer": "Não permite concluir, por si só, que a automatização é inviável. É preciso definir uma solução adequada de acesso e desbloqueio para o caso de falta de energia ou avaria, antes de confirmar a montagem."
+      }
+    ],
+    "contact": "No basculante, uma fotografia do mecanismo pelo interior faz a diferença. Envie-nos essa imagem e explique se pretende uma primeira instalação ou a substituição do motor.",
+    "updated": "2026-11-02"
+  }
+}

@@ -4,12 +4,13 @@ import { fileURLToPath } from "node:url";
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const localPages = JSON.parse(readFileSync(join(root, "lib/local-services.json"), "utf8"));
+const gatePages = JSON.parse(readFileSync(join(root, "lib/gate-installation-pages.json"), "utf8"));
 const labels = {
   "/": "Homepage", "/en": "Homepage EN", "/a-empresa": "A empresa", "/en/about": "About us",
   "/informacao-legal": "Informação legal", "/privacidade": "Política de privacidade", "/cookies": "Política de cookies", "/condicoes-servicos": "Condições dos serviços",
   "/en/legal": "Legal information", "/en/privacy": "Privacy policy", "/en/cookies": "Cookie policy", "/en/service-terms": "Service terms",
 };
-const groupOrder = ["Páginas principais", "Instalação por zona", "Reparação por zona", "Páginas de avarias", "Páginas de marcas", "Kits e instalação de material do cliente", "Páginas EN", "Informação legal e privacidade"];
+const groupOrder = ["Páginas principais", "Instalação por tipo de portão", "Instalação por zona", "Reparação por zona", "Páginas de avarias", "Páginas de marcas", "Kits e instalação de material do cliente", "Páginas EN", "Informação legal e privacidade"];
 const principal = new Set(["/zonas-de-assistencia", "/", "/a-empresa", "/instalacao-automatismos-portoes", "/reparacao-portoes", "/comandos-garagem", "/casas-inteligentes-lisboa", "/instalacao-camaras-lisboa"]);
 const files = [];
 function walk(directory) {
@@ -24,10 +25,11 @@ const records = files.map(file => {
   const source = readFileSync(file, "utf8");
   const route = "/" + relative(join(root, "pages"), file).replace(/\\/g, "/").replace(/\.(js|jsx|tsx)$/, "").replace(/(^|\/)index$/, "").replace(/\/$/, "");
   const local = localPages[route.slice(1)];
-  const title = labels[route] || local?.title || source.match(/<title>\s*([^<{]+?)\s*<\/title>/)?.[1]?.replace(/\s+/g, " ").replace(/\s*\|\s*TecCasa Soluções\s*$/, "");
+  const gate = gatePages[route.slice(1)];
+  const title = labels[route] || local?.title || gate?.title || source.match(/<title>\s*([^<{]+?)\s*<\/title>/)?.[1]?.replace(/\s+/g, " ").replace(/\s*\|\s*TecCasa Soluções\s*$/, "");
   if (!title) throw new Error(`Page has no directory label: ${route}`);
   const indexable = !source.includes("LegalPage") && !/<meta[^>]+content=["'][^"']*noindex/.test(source);
-  const group = !indexable ? groupOrder[7] : principal.has(route) ? groupOrder[0] : local ? groupOrder[local.kind === "installation" ? 1 : 2] : route.startsWith("/en") ? groupOrder[6] : route.startsWith("/automatismos-") ? groupOrder[4] : route.startsWith("/instalacao-kit-") ? groupOrder[5] : groupOrder[3];
+  const group = !indexable ? groupOrder[8] : principal.has(route) ? groupOrder[0] : gate ? groupOrder[1] : local ? groupOrder[local.kind === "installation" ? 2 : 3] : route.startsWith("/en") ? groupOrder[7] : route.startsWith("/automatismos-") ? groupOrder[5] : route.startsWith("/instalacao-kit-") ? groupOrder[6] : groupOrder[4];
   return { path: route, label: title, indexable, group };
 }).sort((a, b) => a.path.localeCompare(b.path));
 const paths = new Set(records.map(item => item.path));
@@ -53,7 +55,7 @@ const contentUpdated = {
 const urls = records.filter(page => page.indexable).map(page => {
   const pair = translations.find(pair => pair.includes(page.path));
   const alternate = pair ? `\n    <xhtml:link rel="alternate" hreflang="pt-PT" href="${base + pair[0]}" />\n    <xhtml:link rel="alternate" hreflang="en" href="${base + pair[1]}" />` : "";
-  const updated = localPages[page.path.slice(1)]?.updated || contentUpdated[page.path];
+  const updated = localPages[page.path.slice(1)]?.updated || gatePages[page.path.slice(1)]?.updated || contentUpdated[page.path];
   return `  <url>\n    <loc>${xmlEscape(base + page.path)}</loc>${updated ? `\n    <lastmod>${updated}</lastmod>` : ""}${alternate}\n  </url>`;
 });
 writeFileSync(join(root, "public/sitemap.xml"), `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n${urls.join("\n")}\n</urlset>\n`);
