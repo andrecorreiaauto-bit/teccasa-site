@@ -10,7 +10,7 @@ export default function InstalacaoKitPortaoAvidsen() {
 
   { label:"Instalação de Automatismos", href:"/instalacao-automatismos-portoes", active:true },
 
-  { label:"Reparação de Portões", href:"/reparacao-portoes", active:true },
+  { label:"Reparação de Automatismos", href:"/reparacao-portoes", active:true },
 
   { label:"Comandos", href:"/comandos-garagem", active:true },
 

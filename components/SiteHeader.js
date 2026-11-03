@@ -8,7 +8,7 @@ export default function SiteHeader({ english = false, alternateHref }) {
   const menuItems = english ? [
     ["Home", "/en"],
     ["Configure gate automation (PT)", "/configurador-automatismos-portoes"],
-    ["Gate Repair", "/en/electric-gate-repair-lisbon"],
+    ["Gate Automation Repair", "/en/electric-gate-repair-lisbon"],
     ["Gate Installation", "/en/automatic-gate-installation-lisbon"],
     ["Garage Remotes", "/en/garage-remote-controls-lisbon"],
     ["Security Cameras", "/en/security-cameras-lisbon"],
@@ -17,7 +17,7 @@ export default function SiteHeader({ english = false, alternateHref }) {
     ["Início", "/"],
     ["Configurar automatismo", "/configurador-automatismos-portoes"],
     ["Instalação de Automatismos", "/instalacao-automatismos-portoes"],
-    ["Reparação de Portões", "/reparacao-portoes"],
+    ["Reparação de Automatismos", "/reparacao-portoes"],
     ["Comandos", "/comandos-garagem"],
     ["Domótica", "/casas-inteligentes-lisboa"],
     ["Vigilância", "/instalacao-camaras-lisboa"],

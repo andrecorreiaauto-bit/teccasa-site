@@ -12,7 +12,7 @@ export default function Home() {
   { label:"Home", href:"/en", active:true },
   { label:"Configure gate automation (PT)", href:"/configurador-automatismos-portoes", active:true },
 
-  { label:"Gate Repair", href:"/en/electric-gate-repair-lisbon", active:true },
+  { label:"Gate Automation Repair", href:"/en/electric-gate-repair-lisbon", active:true },
 
   { label:"Gate Installation", href:"/en/automatic-gate-installation-lisbon", active:true },
 
