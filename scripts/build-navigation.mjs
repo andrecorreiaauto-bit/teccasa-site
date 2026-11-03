@@ -7,6 +7,7 @@ const localPages = JSON.parse(readFileSync(join(root, "lib/local-services.json")
 const gatePages = JSON.parse(readFileSync(join(root, "lib/gate-installation-pages.json"), "utf8"));
 const repairPages = JSON.parse(readFileSync(join(root, "lib/gate-repair-pages.json"), "utf8"));
 const brandPages = JSON.parse(readFileSync(join(root, "lib/independent-brand-pages.json"), "utf8"));
+const faultPages = JSON.parse(readFileSync(join(root, "lib/fault-pages.json"), "utf8"));
 const labels = {
   "/quanto-custa-automatizar-portao": "Quanto custa automatizar um portão?",
   "/configurador-automatismos-portoes": "Configurador de automatismos", "/": "Homepage", "/en": "Homepage EN", "/a-empresa": "A empresa", "/en/about": "About us",
@@ -31,7 +32,8 @@ const records = files.map(file => {
   const gate = gatePages[route.slice(1)];
   const repair = repairPages[route.slice(1)];
   const brand = brandPages[route.slice(1)];
-  const title = labels[route] || local?.title || gate?.title || repair?.title || brand?.title || source.match(/<title>\s*([^<{]+?)\s*<\/title>/)?.[1]?.replace(/\s+/g, " ").replace(/\s*\|\s*TecCasa Soluções\s*$/, "");
+  const fault = faultPages[route.slice(1)];
+  const title = labels[route] || local?.title || gate?.title || repair?.title || brand?.title || fault?.title || source.match(/<title>\s*([^<{]+?)\s*<\/title>/)?.[1]?.replace(/\s+/g, " ").replace(/\s*\|\s*TecCasa Soluções\s*$/, "");
   if (!title) throw new Error(`Page has no directory label: ${route}`);
   const indexable = !source.includes("LegalPage") && !/<meta[^>]+content=["'][^"']*noindex/.test(source);
   const group = !indexable ? groupOrder[8] : principal.has(route) ? groupOrder[0] : gate ? groupOrder[1] : repair ? groupOrder[9] : local ? groupOrder[local.kind === "installation" ? 2 : 3] : route.startsWith("/en") ? groupOrder[7] : route.startsWith("/automatismos-") ? groupOrder[5] : route.startsWith("/instalacao-kit-") ? groupOrder[6] : groupOrder[4];
@@ -61,7 +63,7 @@ const contentUpdated = {
 const urls = records.filter(page => page.indexable).map(page => {
   const pair = translations.find(pair => pair.includes(page.path));
   const alternate = pair ? `\n    <xhtml:link rel="alternate" hreflang="pt-PT" href="${base + pair[0]}" />\n    <xhtml:link rel="alternate" hreflang="en" href="${base + pair[1]}" />` : "";
-  const updated = localPages[page.path.slice(1)]?.updated || gatePages[page.path.slice(1)]?.updated || repairPages[page.path.slice(1)]?.updated || brandPages[page.path.slice(1)]?.updated || contentUpdated[page.path];
+  const updated = localPages[page.path.slice(1)]?.updated || gatePages[page.path.slice(1)]?.updated || repairPages[page.path.slice(1)]?.updated || brandPages[page.path.slice(1)]?.updated || faultPages[page.path.slice(1)]?.updated || contentUpdated[page.path];
   return `  <url>\n    <loc>${xmlEscape(base + page.path)}</loc>${updated ? `\n    <lastmod>${updated}</lastmod>` : ""}${alternate}\n  </url>`;
 });
 writeFileSync(join(root, "public/sitemap.xml"), `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n${urls.join("\n")}\n</urlset>\n`);

@@ -1,0 +1,539 @@
+{
+  "portao-fecha-e-volta-a-abrir": {
+    "description": "O portão fecha e volta a abrir? Diagnóstico e reparação em Lisboa e arredores. Envie a localidade, os sintomas e fotografias para preparar a assistência.",
+    "lead": "Se o portão começa a fechar e inverte o movimento, é preciso perceber o que está a provocar a reabertura. A TecCasa presta diagnóstico e reparação em Lisboa e arredores, nas duas margens do Tejo.",
+    "value": "O diagnóstico ajuda a perceber o que pode ser reparado e se é necessário substituir algum componente.",
+    "caption": "Portões de correr, de batente e de garagem.",
+    "causesHeading": "Porque é que o portão pode voltar a abrir?",
+    "causesIntro": "A inversão pode ser uma resposta do sistema de segurança ou resultar de uma avaria. O momento em que acontece ajuda a orientar a avaliação, mas o sintoma, por si só, não identifica a causa.",
+    "contactHeading": "Conte-nos o que acontece ao fechar.",
+    "behavior": "Se volta atrás a meio do fecho, ao chegar ao chão ou apenas em algumas tentativas.",
+    "message": "Olá, o meu portão fecha e volta a abrir. Gostava de pedir assistência.",
+    "messagePrompt": "Quando acontece a reabertura:",
+    "repairHeading": "Reparar ou substituir o automatismo?",
+    "repairParagraphs": [
+      "Uma reabertura durante o fecho pode estar relacionada com uma afinação, um dispositivo de segurança ou o movimento do próprio portão. O estado e a compatibilidade dos componentes ajudam a decidir se a reparação faz sentido.",
+      "Quando é necessária uma substituição, avaliamos as dimensões, o peso, a frequência de utilização e as condições de montagem para dimensionar a nova solução."
+    ],
+    "question": "O portão voltar a abrir significa que o motor está avariado?",
+    "answer": "Este comportamento pode ter várias origens, incluindo os dispositivos de segurança, o movimento mecânico e a afinação do automatismo. O diagnóstico permite identificar a causa e avaliar a reparação.",
+    "finalHeading": "Vamos perceber o que está a fazer o portão voltar a abrir.",
+    "slug": "portao-fecha-e-volta-a-abrir",
+    "title": "Portão Fecha e Volta a Abrir? Reparação de Portões",
+    "h1": "O portão fecha e volta a abrir?",
+    "image": "/portao-fecha-e-volta-a-abrir-hero.png",
+    "imageAlt": "O portão fecha e volta a abrir",
+    "causes": [
+      {
+        "image": "/fotocelulas-erro.png",
+        "title": "Dispositivos de segurança",
+        "text": "Uma interrupção ou falha nas fotocélulas e noutros dispositivos de segurança pode fazer o automatismo inverter o movimento."
+      },
+      {
+        "image": "/portao-deteta-obstaculo.png",
+        "title": "Obstáculo no percurso",
+        "text": "Um obstáculo ou uma alteração na zona de passagem pode impedir que o portão complete o fecho."
+      },
+      {
+        "image": "/portao-esforco-fecho.png",
+        "title": "Resistência ao movimento",
+        "text": "Atrito, desgaste ou desalinhamento podem aumentar o esforço e provocar a reabertura do portão."
+      },
+      {
+        "image": "/programacao-duas-folhas.png",
+        "title": "Afinação do automatismo",
+        "text": "A aprendizagem do percurso e os parâmetros de funcionamento precisam de corresponder ao portão e à instalação."
+      },
+      {
+        "image": "/fim-curso-fecho.png",
+        "title": "Posição final de fecho",
+        "text": "O problema pode estar relacionado com a forma como o equipamento reconhece o fim do percurso."
+      },
+      {
+        "image": "/central-modo-seguranca.png",
+        "title": "Central ou ligações",
+        "text": "Uma falha eletrónica ou nas ligações também pode provocar este comportamento. A origem confirma-se com diagnóstico."
+      }
+    ],
+    "updated": "2026-11-03"
+  },
+  "portao-nao-fecha": {
+    "description": "O portão automático ou da garagem não fecha? Assistência em Lisboa e arredores. Diagnóstico do automatismo, do movimento e dos dispositivos de segurança.",
+    "lead": "Se o portão abre mas não fecha, fica parado ou interrompe o fecho, é preciso perceber o que impede o movimento. A TecCasa presta diagnóstico e reparação em Lisboa e arredores, nas duas margens do Tejo.",
+    "value": "Avaliamos o portão e o automatismo em conjunto para identificar a intervenção necessária.",
+    "caption": "Portões de garagem e automatismos de correr e de batente.",
+    "causesIntro": "Uma falha de fecho pode envolver as proteções, o movimento do portão ou o comando do automatismo. Distinguir uma ausência de movimento de uma paragem ou inversão ajuda a preparar a avaliação.",
+    "contactHeading": "Conte-nos como o portão reage à ordem de fecho.",
+    "behavior": "Se não se move, para antes de fechar, volta a abrir ou apresenta algum sinal luminoso.",
+    "message": "Olá, o meu portão não fecha. Gostava de pedir assistência.",
+    "messagePrompt": "Como reage à ordem de fecho:",
+    "repairHeading": "O que precisa de ser reparado para o portão voltar a fechar?",
+    "repairParagraphs": [
+      "O diagnóstico permite distinguir uma falha de segurança, um problema no movimento e uma avaria do automatismo. O equipamento existente e o estado do portão orientam a decisão entre afinação, reparação e substituição de componentes.",
+      "Se for necessária uma nova motorização, avaliamos o peso, as dimensões, a frequência de utilização e as condições da instalação antes de propor a solução."
+    ],
+    "question": "Porque é que o portão abre normalmente mas não fecha?",
+    "answer": "As condições que permitem abrir e fechar podem ser diferentes, nomeadamente no funcionamento dos dispositivos de segurança. A ausência de fecho também pode resultar de uma falha na central, no motor ou no movimento do portão. É necessário identificar a causa no equipamento instalado.",
+    "finalHeading": "Vamos perceber o que está a impedir o fecho do portão.",
+    "slug": "portao-nao-fecha",
+    "title": "Portão Não Fecha? Reparação de Portões e Garagens",
+    "h1": "O portão não fecha?",
+    "image": "/portao-nao-fecha-hero.png",
+    "causesHeading": "Porque é que o portão não fecha?",
+    "imageAlt": "O portão não fecha",
+    "causes": [
+      {
+        "image": "/fotocelulas-bloqueadas.png",
+        "title": "Fotocélulas ou proteções",
+        "text": "Uma interrupção ou falha nos dispositivos de segurança pode impedir a ordem de fecho."
+      },
+      {
+        "image": "/portao-volta-abrir.png",
+        "title": "Fecha e volta a abrir",
+        "text": "Quando o movimento começa e inverte, avaliamos o que está a provocar a reabertura durante o fecho."
+      },
+      {
+        "image": "/obstaculo-fecho-portao.png",
+        "title": "Obstáculo ou resistência",
+        "text": "Um obstáculo, uma deformação ou atrito no percurso pode impedir que o portão chegue à posição final."
+      },
+      {
+        "image": "/fim-curso-fecho.png",
+        "title": "Posição de fecho",
+        "text": "A deteção do fim do percurso pode estar desajustada ou não corresponder ao movimento real do portão."
+      },
+      {
+        "image": "/central-modo-seguranca.png",
+        "title": "Central ou ligações",
+        "text": "A central pode estar a receber uma indicação de falha ou apresentar uma avaria nas ligações ou no comando do motor."
+      },
+      {
+        "image": "/motor-esforco-fecho.png",
+        "title": "Motor ou transmissão",
+        "text": "Desgaste, esforço ou uma falha na transmissão podem interromper o movimento antes do fecho completo."
+      }
+    ],
+    "updated": "2026-11-03"
+  },
+  "portao-garagem-nao-abre": {
+    "description": "O portão da garagem não abre? Diagnóstico e reparação em Lisboa e arredores. Avaliamos o motor, a transmissão, o equilíbrio do portão e os comandos.",
+    "lead": "Se o portão da garagem deixou de abrir, faz ruído sem se mover ou fica preso, a falha precisa de ser avaliada no conjunto. A TecCasa presta assistência em Lisboa e arredores, nas duas margens do Tejo.",
+    "value": "O diagnóstico ajuda a distinguir uma falha do automatismo de um problema no movimento ou no equilíbrio do portão.",
+    "caption": "Assistência a portões de garagem seccionados e basculantes.",
+    "causesIntro": "A abertura depende do comando, da alimentação, do automatismo e do movimento do portão. O ruído, a posição em que parou e os sinais do equipamento ajudam a enquadrar o pedido.",
+    "contactHeading": "Diga-nos em que estado ficou o portão da garagem.",
+    "behavior": "Se o motor faz ruído, se o portão está totalmente fechado ou parado a meio e se existe outro acesso à garagem.",
+    "message": "Olá, o portão da minha garagem não abre. Gostava de pedir assistência.",
+    "messagePrompt": "O que acontece ao tentar abrir e existe outro acesso à garagem:",
+    "repairHeading": "Avaliar o motor e o portão antes de substituir.",
+    "repairParagraphs": [
+      "Uma falha de abertura pode envolver o automatismo, a transmissão ou o equilíbrio do portão. A avaliação permite perceber que componentes precisam de intervenção e se a reparação do equipamento existente faz sentido.",
+      "Quando é necessária uma substituição do automatismo, confirmamos a compatibilidade com o portão e a calha, as dimensões, a utilização e as condições de acesso à garagem."
+    ],
+    "question": "O portão da garagem não abrir significa que preciso de trocar o motor?",
+    "answer": "A origem pode estar no comando, na alimentação, na transmissão ou no próprio movimento do portão. O diagnóstico permite avaliar o motor juntamente com o restante conjunto e propor a intervenção adequada.",
+    "precaution": "Se houver sinais de molas partidas, cabos danificados ou desequilíbrio, mantenha-se afastado da zona de movimento e peça assistência. Não tente intervir nas molas nem force o portão.",
+    "finalHeading": "Vamos perceber o que está a impedir a abertura da garagem.",
+    "slug": "portao-garagem-nao-abre",
+    "title": "Portão de Garagem Não Abre? Assistência Técnica",
+    "h1": "O portão da garagem não abre?",
+    "image": "/portao-garagem-nao-abre-hero.png",
+    "causesHeading": "Porque é que o portão da garagem não abre?",
+    "imageAlt": "O portão da garagem não abre",
+    "causes": [
+      {
+        "image": "/motor-teto-garagem.png",
+        "title": "Motor sem resposta",
+        "text": "Uma falha de alimentação, de comando ou do próprio motor pode impedir o início da abertura."
+      },
+      {
+        "image": "/calhas-portao-garagem.png",
+        "title": "Calhas ou guias",
+        "text": "Resistência, desgaste ou desalinhamento podem dificultar o movimento do portão de garagem."
+      },
+      {
+        "image": "/comando-garagem-falha-sinal.png",
+        "title": "Comando ou recetor",
+        "text": "A ordem de abertura pode não chegar ao automatismo devido a uma falha no comando, no recetor ou na comunicação."
+      },
+      {
+        "image": "/desbloqueio-garagem.png",
+        "title": "Transmissão do movimento",
+        "text": "O motor pode funcionar sem conseguir transmitir o movimento ao portão, por uma falha no acoplamento ou na transmissão."
+      },
+      {
+        "image": "/molas-portao-garagem.png",
+        "title": "Molas e equilíbrio",
+        "text": "Uma alteração no equilíbrio ou uma falha nas molas pode tornar o portão demasiado pesado para o funcionamento normal."
+      },
+      {
+        "image": "/central-garagem-avaria.png",
+        "title": "Central eletrónica",
+        "text": "Uma avaria, indicação de falha ou problema nas ligações pode impedir a abertura do portão."
+      }
+    ],
+    "updated": "2026-11-03"
+  },
+  "portao-abre-ate-meio": {
+    "description": "O portão abre apenas até meio ou para durante o percurso? Diagnóstico e reparação em Lisboa e arredores, com avaliação do movimento, motor e proteções.",
+    "lead": "Se o portão começa a abrir mas para antes de completar o percurso, o ponto e a frequência da paragem ajudam a orientar o diagnóstico. A TecCasa presta assistência em Lisboa e arredores, nas duas margens do Tejo.",
+    "value": "Avaliamos a origem da paragem para perceber se é necessária afinação, reparação ou substituição de algum componente.",
+    "caption": "Assistência a automatismos de portões e garagens.",
+    "causesIntro": "Uma abertura parcial pode estar relacionada com o movimento mecânico, o reconhecimento do percurso ou uma indicação de segurança. Também importa distinguir uma falha de uma abertura parcial prevista no sistema.",
+    "contactHeading": "Conte-nos onde e como o portão para.",
+    "behavior": "Se para sempre no mesmo ponto, se a falha é intermitente e se acontece com todos os comandos que costuma utilizar.",
+    "message": "Olá, o meu portão abre apenas até meio. Gostava de pedir assistência.",
+    "messagePrompt": "Onde para e com que frequência acontece:",
+    "repairHeading": "Confirmar a causa da paragem antes de trocar peças.",
+    "repairParagraphs": [
+      "Uma abertura incompleta pode envolver o percurso, os dispositivos de segurança, o comando ou o próprio automatismo. O diagnóstico ajuda a localizar a origem da paragem e a avaliar a reparação.",
+      "Se for necessária uma nova motorização, dimensionamos a solução de acordo com o portão, a utilização e as condições de instalação."
+    ],
+    "question": "Uma abertura até meio é sempre uma avaria?",
+    "answer": "Alguns sistemas dispõem de abertura parcial para passagem pedonal. Quando o comportamento mudou ou impede o uso normal, importa identificar a ordem recebida pelo automatismo e confirmar se existe uma avaria ou um problema no movimento.",
+    "finalHeading": "Vamos perceber porque é que o portão para antes de abrir totalmente.",
+    "slug": "portao-abre-ate-meio",
+    "title": "Portão abre até meio | Reparação de Portões Automáticos",
+    "h1": "O portão abre apenas até meio?",
+    "image": "/portao-abre-ate-meio-hero.png",
+    "causesHeading": "Porque é que o portão abre só até meio?",
+    "imageAlt": "O portão abre apenas até meio",
+    "causes": [
+      {
+        "image": "/fotocelulas-falha.png",
+        "title": "Dispositivos de segurança",
+        "text": "Uma indicação das proteções pode interromper o movimento, conforme a configuração e os equipamentos instalados."
+      },
+      {
+        "image": "/portao-abre-ate-meio.png",
+        "title": "Resistência no percurso",
+        "text": "Atrito, desgaste ou desalinhamento podem levar o automatismo a interromper a abertura."
+      },
+      {
+        "image": "/hero-reparacao-portoes.png",
+        "title": "Reconhecimento do percurso",
+        "text": "O equipamento pode não estar a reconhecer corretamente a posição de abertura ou o curso do portão."
+      },
+      {
+        "image": "/motor-portao.png",
+        "title": "Motor ou componentes de arranque",
+        "text": "Uma perda de capacidade do motor ou de componentes associados pode dificultar a conclusão do movimento."
+      },
+      {
+        "image": "/central-eletronica.png",
+        "title": "Central ou ordem de abertura",
+        "text": "Uma falha eletrónica ou uma ordem de abertura parcial pode explicar uma paragem antes do final."
+      },
+      {
+        "image": "/obstaculo-calha.png",
+        "title": "Obstáculo ou deformação",
+        "text": "Uma obstrução ou alteração no percurso pode impedir que o portão continue a abrir."
+      }
+    ],
+    "updated": "2026-11-03"
+  },
+  "portao-abre-so-uma-folha": {
+    "description": "O portão de batente abre só uma folha? Diagnóstico e reparação em Lisboa e arredores. Avaliamos os motores, a central, as ligações e o movimento de cada folha.",
+    "lead": "Se um portão de duas folhas passou a abrir apenas de um lado, é preciso perceber se existe uma falha num motor, no comando ou no movimento dessa folha. A TecCasa presta assistência em Lisboa e arredores, nas duas margens do Tejo.",
+    "value": "A avaliação de cada folha e do funcionamento conjunto ajuda a identificar a intervenção necessária.",
+    "caption": "Diagnóstico em portões automáticos de batente com duas folhas.",
+    "causesIntro": "A abertura de uma só folha pode ser uma função pedonal prevista ou um sintoma de avaria. A forma como cada motor reage e a sequência habitual de abertura ajudam a preparar a avaliação.",
+    "contactHeading": "Diga-nos como reage cada folha do portão.",
+    "behavior": "Qual das folhas ficou parada, se o motor desse lado faz ruído e se o comportamento mudou recentemente.",
+    "message": "Olá, o meu portão de batente abre só uma folha. Gostava de pedir assistência.",
+    "messagePrompt": "Qual a folha que não abre e como reage o respetivo motor:",
+    "repairHeading": "Avaliar cada motor e o funcionamento das duas folhas.",
+    "repairParagraphs": [
+      "A falha de uma folha não define, por si só, a necessidade de substituir o conjunto. Avaliamos o motor, o movimento dessa folha, a central e as ligações para explicar a intervenção indicada.",
+      "Se a substituição do automatismo fizer sentido, analisamos as dimensões e o peso por folha, a utilização e as cotas de montagem para dimensionar a solução."
+    ],
+    "question": "Abrir só uma folha pode ser uma função do portão?",
+    "answer": "Alguns automatismos permitem abertura pedonal de uma folha. Se o portão deixou de abrir as duas folhas com a ordem habitual, pode existir uma falha no motor, nas ligações, na central ou no movimento de um dos lados.",
+    "finalHeading": "Vamos perceber porque é que uma das folhas deixou de abrir.",
+    "slug": "portao-abre-so-uma-folha",
+    "title": "Portão Abre Só Uma Folha? Reparação de Portões de Batente",
+    "h1": "O portão abre só uma folha?",
+    "image": "/portao-abre-so-uma-folha-hero.png",
+    "causesHeading": "Porque é que só abre uma folha do portão?",
+    "imageAlt": "O portão abre só uma folha",
+    "causes": [
+      {
+        "image": "/motor-batente-parado.png",
+        "title": "Motor sem resposta",
+        "text": "Uma avaria ou uma falha na alimentação de um dos motores pode impedir o movimento dessa folha."
+      },
+      {
+        "image": "/condensador-portao-batente.png",
+        "title": "Componente de arranque",
+        "text": "Em alguns motores, uma falha no condensador pode dificultar ou impedir o arranque de uma folha."
+      },
+      {
+        "image": "/cablagem-motor-portao.png",
+        "title": "Cablagem e ligações",
+        "text": "Danos, humidade ou degradação nas ligações podem interromper o funcionamento de um dos lados."
+      },
+      {
+        "image": "/central-duas-folhas.png",
+        "title": "Central e comando",
+        "text": "A central pode estar a receber uma ordem pedonal ou apresentar uma falha no comando de um dos motores."
+      },
+      {
+        "image": "/braco-batente-preso.png",
+        "title": "Resistência mecânica",
+        "text": "Uma folha desalinhada, um braço preso ou esforço nas dobradiças podem impedir o movimento."
+      },
+      {
+        "image": "/programacao-duas-folhas.png",
+        "title": "Sequência das folhas",
+        "text": "A aprendizagem e a coordenação entre folhas podem precisar de avaliação após alterações no equipamento ou na instalação."
+      }
+    ],
+    "updated": "2026-11-03"
+  },
+  "motor-portao-sem-forca": {
+    "description": "O motor do portão perdeu força, ficou lento ou para a meio? Diagnóstico em Lisboa e arredores para avaliar o motor, o esforço mecânico e o automatismo.",
+    "lead": "Se o portão ficou lento, abre com dificuldade ou para durante o movimento, é preciso perceber se a resistência está no portão ou se o automatismo perdeu capacidade. A TecCasa presta assistência em Lisboa e arredores, nas duas margens do Tejo.",
+    "value": "O diagnóstico avalia o esforço e o equipamento para propor uma intervenção adequada à origem da falha.",
+    "caption": "Avaliação do motor e do movimento de portões automáticos.",
+    "causesIntro": "Um portão que parece estar sem força pode apresentar esforço mecânico, uma avaria no automatismo ou parâmetros inadequados ao conjunto. O comportamento durante o percurso ajuda a orientar o diagnóstico.",
+    "contactHeading": "Descreva quando o portão parece perder força.",
+    "behavior": "Se acontece ao arrancar, ao longo do percurso, apenas num sentido ou depois de várias utilizações.",
+    "message": "Olá, o motor do meu portão parece estar sem força. Gostava de pedir assistência.",
+    "messagePrompt": "Quando perde força ou interrompe o movimento:",
+    "repairHeading": "Perceber o esforço antes de escolher outro motor.",
+    "repairParagraphs": [
+      "Um automatismo mais potente pode continuar a ter dificuldades se o portão apresentar resistência ou desgaste mecânico. Avaliamos o movimento e o equipamento para identificar o que precisa de intervenção.",
+      "Quando é necessária uma substituição, contamos com o peso, as dimensões, a frequência de utilização e as condições de montagem para dimensionar a nova solução."
+    ],
+    "question": "Colocar um motor mais forte resolve a dificuldade de movimento?",
+    "answer": "A escolha depende da origem da dificuldade. Se existir atrito, desalinhamento ou outro problema mecânico, é necessário avaliar essa condição. O diagnóstico ajuda a perceber se o automatismo pode ser reparado e qual a solução adequada quando é preciso substituí-lo.",
+    "finalHeading": "Vamos perceber porque é que o portão perdeu facilidade de movimento.",
+    "slug": "motor-portao-sem-forca",
+    "title": "Motor do Portão Sem Força? Assistência Técnica",
+    "h1": "O motor do portão está sem força?",
+    "image": "/motor-portao-sem-forca-hero.png",
+    "causesHeading": "Porque é que o motor do portão perde força?",
+    "imageAlt": "O motor do portão está sem força",
+    "causes": [
+      {
+        "image": "/condensador-fraco-portao.png",
+        "title": "Componentes de arranque",
+        "text": "Alguns motores dependem de um condensador cujo desgaste pode prejudicar o arranque e o funcionamento."
+      },
+      {
+        "image": "/portao-abre-devagar.png",
+        "title": "Movimento lento ou irregular",
+        "text": "Uma alteração da velocidade ou paragens pode estar relacionada com resistência no percurso ou perda de rendimento do equipamento."
+      },
+      {
+        "image": "/portao-pesado-calhas.png",
+        "title": "Resistência mecânica",
+        "text": "Rodas, calhas, guias ou dobradiças com atrito podem aumentar o esforço necessário para movimentar o portão."
+      },
+      {
+        "image": "/forca-central-portao.png",
+        "title": "Afinação e dimensionamento",
+        "text": "Os parâmetros e a capacidade do automatismo precisam de corresponder ao portão e às condições de utilização."
+      },
+      {
+        "image": "/motor-portao-desgastado.png",
+        "title": "Desgaste do automatismo",
+        "text": "O estado do motor e dos componentes de transmissão pode afetar a capacidade de movimentar o portão."
+      },
+      {
+        "image": "/portao-precisa-ajuda.png",
+        "title": "Movimento que precisa de ajuda",
+        "text": "Quando o portão só se move com ajuda manual, é necessário avaliar o conjunto em vez de insistir no acionamento."
+      }
+    ],
+    "updated": "2026-11-03"
+  },
+  "motor-portao-faz-barulho-mas-nao-abre": {
+    "description": "O motor faz barulho mas o portão não abre? Diagnóstico e reparação em Lisboa e arredores para avaliar o motor, a transmissão e a resistência ao movimento.",
+    "lead": "Se ouve o motor tentar arrancar ou trabalhar mas o portão não se move, a falha precisa de ser identificada no conjunto. A TecCasa presta diagnóstico e reparação em Lisboa e arredores, nas duas margens do Tejo.",
+    "value": "O ruído, por si só, não permite concluir que é necessário substituir o motor. Avaliamos a origem da falta de movimento.",
+    "caption": "Assistência a motores e transmissão de portões automáticos.",
+    "causesIntro": "Importa distinguir um motor que tenta arrancar de um motor que trabalha sem transmitir movimento ao portão. A transmissão, os componentes de arranque e o esforço mecânico são algumas das condições a avaliar.",
+    "contactHeading": "Conte-nos que ruído faz e como reage o portão.",
+    "behavior": "Se ouve uma tentativa de arranque, um motor a trabalhar ou um ruído diferente do habitual, e se o portão chega a mexer.",
+    "message": "Olá, o motor do meu portão faz barulho mas não abre. Gostava de pedir assistência.",
+    "messagePrompt": "Que ruído faz e se o portão chega a mover-se:",
+    "repairHeading": "Identificar a falha entre o motor e o movimento do portão.",
+    "repairParagraphs": [
+      "O diagnóstico permite avaliar se a origem está no motor, num componente de arranque, na transmissão ou na resistência do portão. Essa distinção ajuda a definir a intervenção e os componentes que podem ser reparados.",
+      "Se a substituição do automatismo for indicada, analisamos o portão, a utilização e as condições de montagem antes de propor a nova motorização."
+    ],
+    "question": "Se o motor faz ruído, significa que ainda está a funcionar bem?",
+    "answer": "O ruído pode corresponder a uma tentativa de arranque ou a funcionamento sem transmissão de movimento. Para perceber o estado do motor, é necessário avaliar a sua resposta juntamente com o acionamento e o movimento do portão.",
+    "finalHeading": "Vamos perceber porque é que o motor faz ruído sem abrir o portão.",
+    "slug": "motor-portao-faz-barulho-mas-nao-abre",
+    "title": "Motor do Portão Faz Barulho Mas Não Abre?",
+    "h1": "O motor do portão faz barulho mas não abre?",
+    "image": "/motor-esforco-fecho.png",
+    "causesHeading": "Porque é que o motor faz barulho mas o portão não abre?",
+    "imageAlt": "O motor do portão faz barulho mas não abre",
+    "causes": [
+      {
+        "image": "/condensador-motor-portao.png",
+        "title": "Componentes de arranque",
+        "text": "Em alguns motores, uma falha no condensador pode impedir o arranque apesar de existir ruído."
+      },
+      {
+        "image": "/cremalheira-desalinhada.png",
+        "title": "Cremalheira e acionamento",
+        "text": "Num portão de correr, uma falha no contacto entre o acionamento e a cremalheira pode afetar a transmissão do movimento."
+      },
+      {
+        "image": "/motor-desbloqueado.png",
+        "title": "Desbloqueio e acoplamento",
+        "text": "O estado do sistema de acoplamento pode permitir que o motor trabalhe sem movimentar o portão."
+      },
+      {
+        "image": "/engrenagem-motor-portao.png",
+        "title": "Transmissão desgastada",
+        "text": "Engrenagens ou outros componentes danificados podem deixar de transmitir o movimento de forma correta."
+      },
+      {
+        "image": "/portao-pesado-preso.png",
+        "title": "Portão preso ou com esforço",
+        "text": "Resistência nas rodas, guias ou dobradiças pode impedir que o automatismo inicie o movimento."
+      },
+      {
+        "image": "/motor-portao-sem-forca.png",
+        "title": "Avaria do motor",
+        "text": "Uma falha interna ou perda de capacidade do automatismo também pode impedir o arranque."
+      }
+    ],
+    "updated": "2026-11-03"
+  },
+  "comando-garagem-nao-funciona": {
+    "remote": true,
+    "description": "O comando da garagem deixou de funcionar? Diagnóstico em Lisboa e arredores. Avaliamos comando, recetor e compatibilidade antes de propor a solução.",
+    "lead": "Se a garagem deixou de responder ao comando, a falha pode estar no emissor, no recetor ou no automatismo. A TecCasa ajuda a identificar o sistema e presta assistência em Lisboa e arredores, nas duas margens do Tejo.",
+    "value": "Identificamos o equipamento e a compatibilidade para perceber se o comando pode ser recuperado ou se é necessária outra solução.",
+    "caption": "Apoio em comandos, recetores e automatismos de garagem.",
+    "causesIntro": "A falta de resposta pode envolver apenas um comando ou todo o sistema de abertura. Saber se outros acessos continuam a funcionar ajuda a enquadrar o diagnóstico.",
+    "contactHeading": "Diga-nos como deixou de responder o comando.",
+    "behavior": "Se falha apenas um comando, se outros acessos funcionam e se existe alguma marca ou referência visível no comando.",
+    "message": "Olá, o comando da minha garagem deixou de funcionar. Gostava de pedir assistência.",
+    "messagePrompt": "O que deixou de funcionar e se outros comandos respondem:",
+    "repairHeading": "Recuperar o comando ou avaliar uma alternativa compatível.",
+    "repairParagraphs": [
+      "A avaliação começa pela identificação do comando e do sistema de receção. Conforme a avaria, pode fazer sentido intervir no comando, na sua programação ou no recetor.",
+      "Quando é necessário outro comando ou recetor, confirmamos a compatibilidade com a instalação e as condições de gestão dos acessos antes de propor o equipamento."
+    ],
+    "relatedService": [
+      "Comandos e recetores de garagem",
+      "/comandos-garagem"
+    ],
+    "question": "Preciso de substituir o automatismo se o comando não funciona?",
+    "answer": "Uma falha de comando pode estar limitada ao emissor ou ao recetor. A identificação do sistema e a avaliação da resposta do automatismo ajudam a definir se é preciso intervir no comando, na receção ou noutro componente.",
+    "precautionQuestion": "Preciso de abrir o comando ou a central antes de contactar?",
+    "precaution": "Pode iniciar o contacto com a descrição da falha e fotografias do equipamento tal como está instalado. Não precisa de desmontar o comando nem de abrir a central para preparar o pedido.",
+    "finalHeading": "Vamos perceber porque é que a garagem deixou de responder ao comando.",
+    "slug": "comando-garagem-nao-funciona",
+    "title": "Comando da Garagem Não Funciona?",
+    "h1": "O comando da garagem deixou de funcionar?",
+    "image": "/comando-garagem-falha.png",
+    "causesHeading": "Problemas comuns em comandos de garagem",
+    "imageAlt": "O comando da garagem deixou de funcionar",
+    "causes": [
+      {
+        "image": "/pilha-comando.png",
+        "title": "Comando sem resposta",
+        "text": "A alimentação, o desgaste dos botões ou uma falha interna do emissor podem impedir uma ordem de abertura válida."
+      },
+      {
+        "image": "/recetor-rf.png",
+        "title": "Recetor do automatismo",
+        "text": "A falha pode estar na receção ou no encaminhamento da ordem para a central do portão."
+      },
+      {
+        "image": "/comando-intermitente.png",
+        "title": "Alcance reduzido",
+        "text": "Se o comando passou a funcionar apenas junto ao portão, avaliamos o sinal, o recetor, a antena e as condições da instalação."
+      },
+      {
+        "image": "/central-programacao.png",
+        "title": "Memorização do comando",
+        "text": "A autorização do comando no sistema instalado pode precisar de verificação, conforme o equipamento e a gestão dos acessos."
+      },
+      {
+        "image": "/garagem-nao-abre.png",
+        "title": "Automatismo sem resposta",
+        "text": "Quando outros comandos e acessos também falham, a origem pode estar na alimentação, na central ou no automatismo."
+      },
+      {
+        "image": "/comando-universal.png",
+        "title": "Compatibilidade de um novo comando",
+        "text": "Frequência, codificação e sistema de receção precisam de ser compatíveis para o comando poder funcionar."
+      }
+    ],
+    "updated": "2026-11-03"
+  },
+  "comando-garagem-so-funciona-perto": {
+    "remote": true,
+    "description": "O comando da garagem só funciona perto do portão? Diagnóstico em Lisboa e arredores para avaliar o comando, o recetor, a antena e as condições do sinal.",
+    "lead": "Se precisa de se aproximar cada vez mais do portão para o comando funcionar, é preciso perceber onde se perdeu o alcance. A TecCasa presta diagnóstico e assistência em Lisboa e arredores, nas duas margens do Tejo.",
+    "value": "Avaliamos o comando e a receção do sinal antes de propor a substituição de equipamentos.",
+    "caption": "Diagnóstico de falhas de alcance em comandos de portões e garagens.",
+    "causesIntro": "A redução do alcance pode envolver o comando, a receção ou o ambiente da instalação. Uma alteração recente e a resposta de outros comandos ajudam a enquadrar o pedido.",
+    "contactHeading": "Conte-nos como mudou o alcance do comando.",
+    "behavior": "Se aconteceu de repente ou gradualmente, se afeta todos os comandos e a distância aproximada a que ainda responde.",
+    "message": "Olá, o comando da minha garagem só funciona perto do portão. Gostava de pedir assistência.",
+    "messagePrompt": "Como mudou o alcance e se afeta outros comandos:",
+    "repairHeading": "Perceber a origem da perda de alcance.",
+    "repairParagraphs": [
+      "Trocar o comando pode não resolver uma falha que esteja no recetor, na antena ou nas condições da instalação. O diagnóstico ajuda a perceber onde é necessária a intervenção.",
+      "Se for indicado substituir um comando ou recetor, confirmamos a compatibilidade com o sistema instalado e explicamos a solução proposta."
+    ],
+    "relatedService": [
+      "Comandos e recetores de garagem",
+      "/comandos-garagem"
+    ],
+    "question": "Um comando novo garante mais alcance?",
+    "answer": "O alcance também depende do recetor, da antena e das condições do local. A avaliação do conjunto ajuda a perceber se a perda está no comando ou na receção, antes de escolher uma alternativa compatível.",
+    "precautionQuestion": "É preciso alterar a antena ou abrir a central antes de contactar?",
+    "precaution": "Pode começar pela descrição da perda de alcance e por fotografias do comando e do automatismo. Não é necessário abrir a central nem alterar as ligações para preparar o pedido.",
+    "finalHeading": "Vamos perceber porque é que o comando perdeu alcance.",
+    "slug": "comando-garagem-so-funciona-perto",
+    "title": "Comando da Garagem Só Funciona Perto?",
+    "h1": "O comando da garagem só funciona perto?",
+    "image": "/comando-garagem-so-funciona-perto-hero.png",
+    "causesHeading": "Porque é que o comando só funciona perto do portão?",
+    "imageAlt": "O comando da garagem só funciona perto",
+    "causes": [
+      {
+        "image": "/pilha-fraca-comando.png",
+        "title": "Alimentação do comando",
+        "text": "O estado da pilha ou da alimentação do emissor pode afetar a emissão e a fiabilidade do sinal."
+      },
+      {
+        "image": "/antena-portao-garagem.png",
+        "title": "Antena e instalação",
+        "text": "A posição, o estado e as ligações da antena podem influenciar a forma como o sinal chega ao recetor."
+      },
+      {
+        "image": "/recetor-rf-fraco.png",
+        "title": "Recetor RF",
+        "text": "Uma falha ou degradação do recetor pode reduzir a capacidade de receber ordens a maior distância."
+      },
+      {
+        "image": "/interferencias-comando-garagem.png",
+        "title": "Interferências e envolvente",
+        "text": "Outros equipamentos e as condições físicas do local podem afetar a comunicação entre o comando e o recetor."
+      },
+      {
+        "image": "/comando-desgastado.png",
+        "title": "Desgaste do comando",
+        "text": "Botões ou componentes internos desgastados podem tornar a emissão menos fiável."
+      },
+      {
+        "image": "/central-rececao-fraca.png",
+        "title": "Receção no automatismo",
+        "text": "A ligação entre a antena, o recetor e a central precisa de ser avaliada como parte do sistema."
+      }
+    ],
+    "updated": "2026-11-03"
+  }
+}
