@@ -1,0 +1,32 @@
+[
+  {
+    "title": "O portão não fecha",
+    "text": "Uma falha de segurança, de movimento ou de comando pode impedir o fecho.",
+    "href": "/portao-nao-fecha"
+  },
+  {
+    "title": "Fecha e volta a abrir",
+    "text": "O momento em que o portão inverte ajuda a enquadrar o diagnóstico.",
+    "href": "/portao-fecha-e-volta-a-abrir"
+  },
+  {
+    "title": "Abre só uma folha",
+    "text": "Avaliamos os dois lados e a coordenação do automatismo.",
+    "href": "/portao-abre-so-uma-folha"
+  },
+  {
+    "title": "O motor parece não ter força",
+    "text": "O esforço pode ter origem no motor ou no movimento do próprio portão.",
+    "href": "/motor-portao-sem-forca"
+  },
+  {
+    "title": "Faz barulho, mas não abre",
+    "text": "O ruído não identifica, por si só, o componente que falhou.",
+    "href": "/motor-portao-faz-barulho-mas-nao-abre"
+  },
+  {
+    "title": "O comando deixou de funcionar",
+    "text": "Verificamos o comando e o sistema de receção antes de propor uma solução.",
+    "href": "/comando-garagem-nao-funciona"
+  }
+]

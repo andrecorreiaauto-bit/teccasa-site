@@ -1,0 +1,88 @@
+{
+  "automatismos-dea-portoes": {
+    "brand": "DEA",
+    "slug": "automatismos-dea-portoes",
+    "title": "Automatismos DEA para Portões | Instalação e Assistência",
+    "h1": "Automatismos DEA para portões",
+    "description": "Diagnóstico, reparação e instalação de automatismos DEA para portões em Lisboa e arredores. Apoio a motores, centrais, comandos e recetores.",
+    "logo": "/dea-logo.png",
+    "image": "/automatismos-dea-portoes-hero.png",
+    "imageAlt": "Instalação e assistência a automatismos DEA para portões",
+    "lead": "O seu automatismo DEA deixou de responder, parou a meio ou já não fecha como antes? Ajudamos a identificar o equipamento e a perceber o que precisa de ser reparado.",
+    "value": "Também avaliamos novas instalações e substituições, de acordo com o portão, a utilização e as condições de montagem.",
+    "message": "Olá, tenho um automatismo DEA e gostava de pedir assistência.\n\nLocalidade:\nTipo de portão:\nModelo (se souber):\nO que acontece:",
+    "diagnosis": "Uma falha no portão não significa automaticamente que o motor ou a central tenham de ser substituídos. Avaliamos o equipamento e explicamos a intervenção indicada para o seu caso.",
+    "remoteText": "Um portão com motor DEA pode ter um recetor de outra marca. Antes de fornecer ou programar novos comandos, confirmamos o equipamento e a compatibilidade.",
+    "installationText": "Na instalação de um automatismo DEA ou na substituição de um equipamento existente, avaliamos o tipo de portão, as dimensões, o peso, a frequência de utilização e as condições de montagem.",
+    "questions": [
+      {
+        "question": "A TecCasa é assistência oficial DEA?",
+        "answer": "A TecCasa presta serviço técnico independente em automatismos DEA. Não se apresenta como assistência oficial nem como representante da marca."
+      },
+      {
+        "question": "Precisam de saber o modelo antes do contacto?",
+        "answer": "Não. Indique a localidade, descreva o problema e envie uma fotografia geral do portão e outra do automatismo. Se a etiqueta estiver visível sem desmontar nada, uma fotografia pode ajudar a identificar o modelo."
+      },
+      {
+        "question": "Conseguem reparar um automatismo DEA antigo?",
+        "answer": "A possibilidade de reparação depende da avaria, do estado do conjunto, da compatibilidade e da disponibilidade de componentes. Confirmamos essas condições antes de recomendar a intervenção."
+      },
+      {
+        "question": "Um comando DEA funciona com qualquer automatismo da marca?",
+        "answer": "A marca, por si só, não confirma a compatibilidade. Precisamos de identificar o comando e o recetor instalado. O recetor pode ter sido substituído numa intervenção anterior."
+      },
+      {
+        "question": "Podem dar um orçamento por fotografias?",
+        "answer": "As fotografias ajudam a enquadrar o pedido. Algumas avarias exigem testes no local para confirmar a origem da falha e definir a intervenção e o orçamento."
+      },
+      {
+        "question": "Onde prestam assistência a automatismos DEA?",
+        "answer": "Prestamos assistência por marcação em Lisboa e arredores, nas duas margens do Tejo. Indique a sua localidade para confirmarmos a possibilidade de deslocação."
+      }
+    ],
+    "updated": "2026-11-03"
+  },
+  "automatismos-beninca-portoes": {
+    "brand": "Beninca",
+    "slug": "automatismos-beninca-portoes",
+    "title": "Automatismos Beninca para Portões | Instalação e Assistência",
+    "h1": "Automatismos Beninca para portões",
+    "description": "Diagnóstico, reparação e instalação de automatismos Beninca para portões em Lisboa e arredores. Apoio a motores, centrais, comandos e recetores.",
+    "logo": "/beninca-logo.png",
+    "image": "/automatismos-beninca-portoes-hero.png",
+    "imageAlt": "Instalação e assistência a automatismos Beninca para portões",
+    "lead": "O seu automatismo Beninca deixou de abrir, falha no fecho ou só responde em algumas tentativas? Ajudamos a identificar o equipamento e a avaliar a origem do problema antes de propor uma reparação.",
+    "value": "Prestamos também apoio em novas instalações e na substituição de automatismos, considerando o portão existente e a utilização de cada acesso.",
+    "message": "Olá, tenho um automatismo Beninca e gostava de pedir assistência.\n\nLocalidade:\nTipo de portão:\nModelo (se souber):\nO que acontece:",
+    "diagnosis": "O motor, a central, os acessórios e o movimento do portão precisam de ser avaliados em conjunto. Identificamos onde ocorre a falha e explicamos as opções de reparação ou substituição adequadas ao equipamento Beninca instalado.",
+    "remoteText": "A identificação de um motor Beninca não basta para escolher um novo comando. Confirmamos o comando, o recetor e a compatibilidade do sistema, que pode ter sido alterado ao longo dos anos.",
+    "installationText": "Para instalar um automatismo Beninca ou substituir uma motorização existente, avaliamos o tipo de portão, as medidas, o peso, a frequência de abertura e o espaço disponível para a montagem.",
+    "questions": [
+      {
+        "question": "A TecCasa é assistência oficial Beninca?",
+        "answer": "A TecCasa presta serviço técnico independente em automatismos Beninca. Não se apresenta como assistência oficial nem como representante da marca."
+      },
+      {
+        "question": "Precisam de saber o modelo antes do contacto?",
+        "answer": "Não. Indique a localidade, descreva o problema e envie uma fotografia geral do portão e outra do automatismo. Se a etiqueta estiver visível sem desmontar nada, uma fotografia pode ajudar a identificar o modelo."
+      },
+      {
+        "question": "Conseguem reparar um automatismo Beninca antigo?",
+        "answer": "Avaliamos o estado do automatismo Beninca e procuramos identificar a referência dos componentes necessários. A viabilidade depende da avaria, da compatibilidade das peças e da sua disponibilidade, confirmadas antes de propor a intervenção."
+      },
+      {
+        "question": "Um comando Beninca funciona com qualquer automatismo da marca?",
+        "answer": "A marca, por si só, não confirma a compatibilidade. Precisamos de identificar o comando e o recetor instalado. O recetor pode ter sido substituído numa intervenção anterior."
+      },
+      {
+        "question": "Podem dar um orçamento por fotografias?",
+        "answer": "As fotografias ajudam a enquadrar o pedido. Algumas avarias exigem testes no local para confirmar a origem da falha e definir a intervenção e o orçamento."
+      },
+      {
+        "question": "Onde prestam assistência a automatismos Beninca?",
+        "answer": "Prestamos assistência por marcação em Lisboa e arredores, nas duas margens do Tejo. Indique a sua localidade para confirmarmos a possibilidade de deslocação."
+      }
+    ],
+    "updated": "2026-11-03"
+  }
+}
