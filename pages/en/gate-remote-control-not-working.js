@@ -1,3 +1,5 @@
+import BrandLogoGrid from "../../components/BrandLogoGrid";
+import { automationBrands } from "../../lib/brand-logos";
 import ConfiguratorButton from "../../components/ConfiguratorButton";
 import ConfiguratorNovelty from "../../components/ConfiguratorNovelty";
 import { useEffect, useState } from "react";
@@ -650,51 +652,10 @@ export default function GateRemoteControlNotWorking() {
                 in Portugal. TecCasa Soluções is an independent technical service.
               </p>
 
-              <div
-                className="brands-grid"
-                style={{
-                  display: "grid",
-                  gridTemplateColumns: "repeat(auto-fit,minmax(150px,1fr))",
-                  gap: "16px",
-                  marginTop: "30px",
-                }}
-              >
-                {[
-                  "Motorline",
-                  "BFT",
-                  "Nice",
-                  "CAME",
-                  "FAAC",
-                  "Ditec",
-                  "Beninca",
-                  "Somfy",
-                  "Roger Technology",
-                  "Hörmann",
-                  "V2",
-                  "Other brands",
-                ].map((brand, index) => (
-                  <div
-                    key={index}
-                    className="brand-card"
-                    style={{
-                      background: "#eef3fa",
-                      borderRadius: "18px",
-                      padding: "18px 14px",
-                      textAlign: "center",
-                      fontWeight: "bold",
-                      color: "#08285c",
-                      boxShadow: "0 10px 24px rgba(11,44,95,0.07)",
-                      border: "1px solid rgba(11,44,95,0.05)",
-                      display: "flex",
-                      alignItems: "center",
-                      justifyContent: "center",
-                      minHeight: "58px",
-                    }}
-                  >
-                    {brand}
-                  </div>
-                ))}
-              </div>
+              <BrandLogoGrid brands={[
+                "Motorline", "BFT", "Nice", "CAME", "FAAC", "Ditec", "Beninca", "Somfy", "Roger Technology", "Hörmann", "V2",
+              ].map(name => ({ ...automationBrands.find(brand => brand.name === name), href: undefined }))} />
+              <p style={{fontSize:"16px", color:"#555", margin:"24px 0 0"}}>Other brands: contact us to check your equipment.</p>
             </div>
           </section>
 

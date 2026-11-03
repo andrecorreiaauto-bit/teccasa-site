@@ -1,3 +1,4 @@
+import SiteFooter from "./SiteFooter";
 import Head from "next/head";
 import SiteHeader from "./SiteHeader";
 import { company } from "../lib/company";
@@ -95,8 +96,10 @@ export default function LegalPage({ type, english = false }) {
           <p><a href={english ? "/en/cookies" : "/cookies"}>{english ? "Cookie policy" : "Política de cookies"}</a> · <a href="https://vercel.com/legal/privacy-policy" target="_blank" rel="noopener noreferrer">Vercel</a> · <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google</a></p>
         </>}
       </main>
+      <div className="footer-wrap"><SiteFooter english={english} /></div>
     </div>
     <style jsx>{`
+      .footer-wrap { max-width:1000px; margin:0 auto; }
       .legal-page { background: #f4f7fb; padding: 110px 24px 40px; font: 16px/1.75 Arial, sans-serif; color: #34445a; }
       main { max-width: 1000px; margin: auto; background: white; border: 1px solid #dce5f0; border-radius: 22px; padding: clamp(24px, 5vw, 48px); overflow-wrap: anywhere; }
       h1 { color: #08285c; font-size: clamp(27px, 4vw, 36px); line-height: 1.2; margin-top: 0; }

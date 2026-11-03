@@ -1,3 +1,4 @@
+import SiteFooter from "./SiteFooter";
 import Head from "next/head";
 import SiteHeader from "./SiteHeader";
 import { company } from "../lib/company";
@@ -64,7 +65,8 @@ export default function CompanyPage({ english = false }) {
               <a data-contact-button="secondary" href={`mailto:${company.email}`}>{company.email}</a>
             </div>
           </section>
-        </main>
+          <SiteFooter english={english} />
+      </main>
       </div>
       <style jsx>{`
         .company-page { font-family: Arial, sans-serif; color: #08285c; background: #f4f7fb; padding: 110px 24px 24px; }

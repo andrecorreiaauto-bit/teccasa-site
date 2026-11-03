@@ -1,3 +1,5 @@
+import BrandLogoGrid from "../components/BrandLogoGrid";
+import { kitBrands } from "../lib/brand-logos";
 import ConfiguratorButton from "../components/ConfiguratorButton";
 import ConfiguratorNovelty from "../components/ConfiguratorNovelty";
 import { useEffect, useState } from "react";
@@ -870,70 +872,7 @@ Além da loja onde o kit foi comprado, também é importante confirmar a marca,
 o modelo, os acessórios incluídos e se o automatismo é adequado ao portão.
 </p>
 
-<div
-className="marcas-grid"
-style={{
-display:"grid",
-gridTemplateColumns:"repeat(auto-fit,minmax(190px,1fr))",
-gap:"18px"
-}}
->
-
-{[
-{
-title:"Casanoov",
-href:"/instalacao-kit-portao-casanoov"
-},
-
-{
-title:"Vevor",
-href:"/instalacao-kit-portao-vevor"
-},
-
-{
-title:"Avidsen",
-href:"/instalacao-kit-portao-avidsen"
-},
-
-{
-title:"Dimoel",
-href:"/instalacao-kit-portao-dimoel"
-},
-
-{
-title:"SCS Sentinel",
-href:"/instalacao-kit-portao-scs-sentinel"
-}
-
-].map((item,index)=>(
-
-<a
-key={index}
-href={item.href}
-className="cartao-marca"
-style={{
-display:"flex",
-alignItems:"center",
-justifyContent:"center",
-background:"#ffffff",
-borderRadius:"18px",
-padding:"18px 14px",
-minHeight:"58px",
-boxShadow:"0 10px 24px rgba(11,44,95,0.07)",
-border:"1px solid rgba(11,44,95,0.06)",
-textDecoration:"none",
-color:"#08285c",
-fontWeight:"bold",
-fontSize:"17px",
-textAlign:"center"
-}}
->
-{item.title}
-</a>
-
-))}
-
-</div>
+<BrandLogoGrid brands={kitBrands} />
 
 <div style={{
 background:"#f5f8fc",

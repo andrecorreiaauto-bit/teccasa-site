@@ -1,3 +1,4 @@
+import SiteFooter from "../components/SiteFooter";
 import Head from "next/head";
 import SiteHeader from "../components/SiteHeader";
 import localServices from "../lib/local-services.json";
@@ -54,6 +55,7 @@ export default function ServiceAreas({ areas }) {
           <a className="whatsapp" href={whatsapp} target="_blank" rel="noopener noreferrer">Perguntar por WhatsApp</a>
         </section>
         <p className="general-links">Informação geral: <a href="/instalacao-automatismos-portoes">Instalação de automatismos</a> · <a href="/reparacao-portoes">Reparação de portões</a></p>
+        <SiteFooter />
       </main>
     </div>
     <style jsx>{`

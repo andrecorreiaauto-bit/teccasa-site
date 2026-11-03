@@ -1,3 +1,4 @@
+import SiteFooter from "./SiteFooter";
 import ConfiguratorButton from "./ConfiguratorButton";
 import ConfiguratorCallout from "./ConfiguratorCallout";
 import Head from "next/head";
@@ -60,6 +61,7 @@ export default function LocalServicePage({ page }) {
         <section className="visit" aria-labelledby="visit-title"><h2 id="visit-title">{page.visitTitle}</h2><p>{page.visitIntro}</p><ul>{page.visitItems.map(item => <li key={item}>{item}</li>)}</ul><p>Não precisa de desmontar o equipamento para enviar fotografias. Evite incluir pessoas, matrículas ou documentos sem relação com o pedido.</p></section>
         <section className="questions" aria-labelledby="questions-title"><h2 id="questions-title">{page.questionsTitle}</h2>{page.questions.map(({ question, answer }) => <details key={question}><summary>{question}</summary><p>{answer}</p></details>)}</section>
         <section data-contact-surface="dark" className="contact" aria-labelledby="contact-title"><h2 id="contact-title">{page.contactTitle}</h2><p>{page.contactText}</p><div data-contact-actions className="actions"><a data-contact-button="whatsapp" className="primary" href={whatsapp} target="_blank" rel="noopener noreferrer">Falar com a TecCasa</a><a data-contact-button="secondary" href={`mailto:${company.email}`}>{company.email}</a><ConfiguratorButton /></div><p className="small-links"><a href="/condicoes-servicos">Condições dos serviços</a></p></section>
+        <SiteFooter />
       </main>
     </div>
     <style jsx>{`

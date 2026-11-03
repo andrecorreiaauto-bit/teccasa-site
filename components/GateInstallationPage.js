@@ -1,3 +1,4 @@
+import SiteFooter from "./SiteFooter";
 import ConfiguratorButton from "./ConfiguratorButton";
 import ConfiguratorCallout from "./ConfiguratorCallout";
 import Head from "next/head";
@@ -68,6 +69,7 @@ export default function GateInstallationPage({ page, repair = false }) {
         <section className="questions" aria-labelledby="questions-title"><h2 id="questions-title">{repair ? "Dúvidas sobre a reparação" : "Dúvidas antes de automatizar"}</h2>{page.questions.map(({question,answer}) => <details key={question}><summary>{question}</summary><p>{answer}</p></details>)}</section>
         <section className="contact" aria-labelledby="contact-title"><div><h2 id="contact-title">Vamos perceber o que faz sentido para o seu portão?</h2><p>{page.contact}</p><p>Fala diretamente com quem analisa e executa o trabalho.</p></div><div data-contact-actions className="actions"><a data-contact-button="whatsapp" className="whatsapp" href={whatsapp} target="_blank" rel="noopener noreferrer">Falar com a TecCasa</a><a data-contact-button="secondary" href={`mailto:${company.email}`}>{company.email}</a><ConfiguratorButton kind={page.kind} /></div></section>
         <div className="practical-links"><p>Deslocações por marcação em Lisboa e arredores, nas duas margens do Tejo. Consulte algumas das <a href="/zonas-de-assistencia">zonas de assistência</a>. Se não encontrar a sua localidade, contacte-nos para confirmar a possibilidade de deslocação.</p><p>{repair ? <><a href="/reparacao-portoes">Informação geral sobre reparação</a> · <a href="/instalacao-automatismos-portoes">Quer automatizar um portão?</a></> : <>Já tem equipamento? <a href="/instalacao-kit-portao-automatico">Instalação de kits fornecidos pelo cliente</a> · <a href="/reparacao-portoes">Precisa de reparar um automatismo?</a></>} · <a href="/condicoes-servicos">Condições dos serviços</a></p></div>
+        <SiteFooter />
       </main>
       <a className="floating-whatsapp" href={whatsapp} target="_blank" rel="noopener noreferrer" aria-label="Falar com a TecCasa por WhatsApp">WhatsApp</a>
     </div>
