@@ -178,8 +178,8 @@
     "lead": "A porta de garagem deixou de abrir, inverte o fecho ou move-se de forma irregular? No seccionado, é importante perceber se a falha vem do automatismo ou do movimento dos painéis e do seu sistema de apoio.",
     "summary": [
       [
-        "Painéis e calhas",
-        "Um movimento desalinhado exige atenção ao conjunto da porta."
+        "Porta e equilíbrio",
+        "Molas, cabos, painéis e calhas fazem parte da avaliação mecânica."
       ],
       [
         "Motor e ligação",
@@ -196,6 +196,14 @@
         "paragraphs": [
           "Uma paragem durante a abertura pode ter relação com esforço, funcionamento do acionamento ou configuração. A avaliação considera as condições da porta e a resposta do motor, sem concluir de imediato que é necessário trocar o equipamento.",
           "Se os painéis estiverem desalinhados, houver um cabo solto ou um componente visivelmente danificado, suspenda a utilização. Não ajuste molas, cabos ou suportes para tentar repor o movimento; descreva o que observa e envie fotografias sem desmontar."
+        ]
+      },
+      {
+        "title": "Molas, cabos e equilíbrio da porta",
+        "paragraphs": [
+          "As molas e os cabos fazem parte do sistema que equilibra e sustenta o movimento da porta seccionada. Uma falha neste conjunto pode alterar o esforço, deixar a porta inclinada ou impedir a manobra, mesmo que o motor responda.",
+          "Avaliamos o estado e a identificação dos componentes, os apoios e o movimento da porta para definir a intervenção e as peças adequadas. A necessidade de substituição é confirmada após avaliação do conjunto; a aparência da peça, por si só, não confirma a compatibilidade.",
+          "Se observar uma mola partida, cabo solto ou porta inclinada, suspenda a utilização. Não ajuste molas, cabos, tambores ou suportes, nem tente sustentar a porta à mão. Envie apenas fotografias obtidas em segurança."
         ]
       },
       {
@@ -232,6 +240,10 @@
         "answer": "Um movimento desalinhado pode indicar um problema no mecanismo ou nos apoios. Suspenda a utilização e peça avaliação, sobretudo se existirem cabos soltos, peças danificadas ou ruído anormal."
       },
       {
+        "question": "Também avaliam a substituição de molas e cabos?",
+        "answer": "Sim. A avaliação de um portão seccionado considera as molas, os cabos e os componentes associados ao equilíbrio e à suspensão. Identificamos o sistema e as condições da porta antes de definir as peças e a intervenção. A compatibilidade e a disponibilidade são confirmadas na proposta."
+      },
+      {
         "question": "O motor funciona mas a porta não mexe. É o motor que avariou?",
         "answer": "Não necessariamente. A ligação à porta, a calha, o carrinho ou o desbloqueio podem estar envolvidos. Precisamos de analisar o conjunto e identificar o equipamento."
       },
@@ -249,7 +261,7 @@
       }
     ],
     "contact": "Envie uma vista pelo interior e a referência do motor, se estiver acessível. Conte-nos quando a porta para ou inverte e se há outra entrada para a garagem.",
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "reparacao-portoes-basculantes": {
     "kind": "basculantes",

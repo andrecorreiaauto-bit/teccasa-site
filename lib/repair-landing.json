@@ -1,0 +1,107 @@
+{
+  "title": "Reparação de Automatismos e Portões Automáticos",
+  "h1": "Reparação de automatismos e portões automáticos",
+  "description": "Diagnóstico e reparação de automatismos e portões automáticos em Lisboa e arredores. Motores, centrais, comandos e segurança; apoio a molas e cabos de seccionados.",
+  "image": "/hero-reparacao-portoes.png",
+  "imageAlt": "Ilustração de assistência técnica a um automatismo de portão",
+  "message": "Olá, gostava de pedir assistência a um automatismo ou portão automático.\n\nLocalidade:\nTipo de portão:\nMarca/modelo (se souber):\nO que acontece:\nA garagem tem outra entrada:",
+  "questions": [
+    {
+      "question": "Reparam o motor ou o portão completo?",
+      "answer": "A avaliação considera o automatismo e o movimento do portão. A intervenção pode envolver motor, central, recetor, acessórios ou componentes mecânicos de um portão seccionado. A proposta identifica o trabalho necessário e os seus limites."
+    },
+    {
+      "question": "Também avaliam molas e cabos de portões seccionados?",
+      "answer": "Sim. No portão seccionado, avaliamos o sistema de equilíbrio e suspensão, incluindo molas, cabos e componentes associados. A intervenção depende da identificação da porta e das condições do conjunto."
+    },
+    {
+      "question": "Uma avaria obriga a substituir o automatismo?",
+      "answer": "Não necessariamente. O diagnóstico permite avaliar o que pode ser afinado ou reparado. Quando a substituição fizer sentido, explicamos o motivo e as condições da solução proposta."
+    },
+    {
+      "question": "O que devo enviar no primeiro contacto?",
+      "answer": "A localidade, o tipo de portão, uma descrição do que acontece e as fotografias que já tiver. Se conhecer a marca ou o modelo, indique-os também. Não precisa de desmontar o equipamento."
+    },
+    {
+      "question": "Podem indicar logo o preço?",
+      "answer": "A descrição e as fotografias ajudam a preparar o pedido. Algumas situações exigem testes ou avaliação no local para definir a intervenção e o respetivo orçamento."
+    },
+    {
+      "question": "O portão está inclinado ou tem um cabo solto. Posso continuar a usá-lo?",
+      "answer": "Suspenda a utilização e mantenha pessoas e veículos afastados. Não ajuste molas, cabos ou apoios, nem tente sustentar a porta à mão. Peça uma avaliação e envie apenas fotografias obtidas em segurança."
+    }
+  ],
+  "brands": [
+    {
+      "name": "Nice",
+      "href": "/automatismos-nice-portoes",
+      "logo": "/nice-logo.png"
+    },
+    {
+      "name": "BFT",
+      "href": "/automatismos-bft-portoes",
+      "logo": "/bft-logo.png"
+    },
+    {
+      "name": "Motorline",
+      "href": "/automatismos-motorline-portoes",
+      "logo": "/motorline-logo.png"
+    },
+    {
+      "name": "FAAC",
+      "href": "/automatismos-faac-portoes",
+      "logo": "/faac-logo.png"
+    },
+    {
+      "name": "CAME",
+      "href": "/automatismos-came-portoes",
+      "logo": "/came-logo.png"
+    },
+    {
+      "name": "Hörmann",
+      "href": "/automatismos-hormann-portoes",
+      "logo": "/hormann-logo.png"
+    },
+    {
+      "name": "Roger Technology",
+      "href": "/automatismos-roger-technology-portoes",
+      "logo": "/roger-technology-logo.png"
+    },
+    {
+      "name": "DEA",
+      "href": "/automatismos-dea-portoes",
+      "logo": "/dea-logo.png"
+    },
+    {
+      "name": "Somfy",
+      "href": "/automatismos-somfy-portoes",
+      "logo": "/somfy-logo.png"
+    },
+    {
+      "name": "Beninca",
+      "href": "/automatismos-beninca-portoes",
+      "logo": "/beninca-logo.png"
+    },
+    {
+      "name": "V2",
+      "href": "/automatismos-v2-portoes",
+      "logo": "/v2-logo.png"
+    },
+    {
+      "name": "Ditec",
+      "href": "/automatismos-ditec-portoes",
+      "logo": "/ditec-logo.png"
+    },
+    {
+      "name": "Erreka",
+      "href": "/automatismos-erreka-portoes",
+      "logo": "/marcas/erreka-logo.png"
+    },
+    {
+      "name": "Pujol",
+      "href": "/automatismos-pujol-portoes",
+      "logo": "/marcas/pujol-logo.webp"
+    }
+  ],
+  "updated": "2026-11-03"
+}

@@ -10,6 +10,7 @@ const brandPages = JSON.parse(readFileSync(join(root, "lib/independent-brand-pag
 const assistanceBrands = JSON.parse(readFileSync(join(root, "lib/brand-assistance-pages.json"), "utf8"));
 const faultPages = JSON.parse(readFileSync(join(root, "lib/fault-pages.json"), "utf8"));
 const labels = {
+  "/reparacao-portoes": "Reparação de automatismos e portões automáticos",
   "/quanto-custa-automatizar-portao": "Quanto custa automatizar um portão?",
   "/configurador-automatismos-portoes": "Configurador de automatismos", "/": "Homepage", "/en": "Homepage EN", "/a-empresa": "A empresa", "/en/about": "About us",
   "/informacao-legal": "Informação legal", "/privacidade": "Política de privacidade", "/cookies": "Política de cookies", "/condicoes-servicos": "Condições dos serviços",
@@ -59,7 +60,7 @@ const base = "https://tec-casa.pt";
 const contentUpdated = {
   "/quanto-custa-automatizar-portao": "2026-11-02", "/en/electric-gate-repair-lisbon": "2026-11-02",
   "/configurador-automatismos-portoes": "2026-11-02", "/": "2026-11-02", "/en": "2026-10-30", "/a-empresa": "2026-10-30", "/en/about": "2026-10-30",
-  "/zonas-de-assistencia": "2026-11-02", "/instalacao-automatismos-portoes": "2026-11-02", "/reparacao-portoes": "2026-11-02",
+  "/zonas-de-assistencia": "2026-11-02", "/instalacao-automatismos-portoes": "2026-11-02", "/reparacao-portoes": "2026-11-03",
   "/casas-inteligentes-lisboa": "2026-10-30", "/comandos-garagem": "2026-10-30", "/instalacao-camaras-lisboa": "2026-10-30",
 };
 const urls = records.filter(page => page.indexable).map(page => {
