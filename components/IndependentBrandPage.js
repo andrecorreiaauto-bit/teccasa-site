@@ -75,7 +75,7 @@ export default function IndependentBrandPage({ page }) {
             <h1 id="brand-title">Automatismos {brand.name} para portões</h1>
             <p className="lead">{brand.introduction}</p>
             <p className="independent">{notice}</p>
-            <div className="actions"><a className="button whatsapp" href={whatsapp} target="_blank" rel="noopener noreferrer">Pedir assistência</a><a className="button navy" href="#servicos">Ver serviços</a></div>
+            <div data-contact-actions className="actions"><a data-contact-button="whatsapp" className="button whatsapp" href={whatsapp} target="_blank" rel="noopener noreferrer">Pedir assistência</a><a className="button navy" href="#servicos">Ver serviços</a></div>
           </div>
           <figure>
             <img className="hero-image" src={page.image} srcSet={`${page.imageSmall} 768w, ${page.image} 1440w`} sizes="(max-width: 768px) calc(100vw - 48px), (max-width: 1250px) 44vw, 525px" width="1440" height="960" alt={page.imageAlt} fetchPriority="high" />
@@ -112,7 +112,7 @@ export default function IndependentBrandPage({ page }) {
         <section className="contact" aria-labelledby="contact-title">
           <h2 id="contact-title">Precisa de ajuda com um automatismo {brand.name}?</h2>
           <p>Conte-nos o que se passa com o seu portão. Fala diretamente com quem analisa e executa o trabalho, para perceber as opções antes de decidir.</p>
-          <div className="actions"><a className="button whatsapp" href={whatsapp} target="_blank" rel="noopener noreferrer">Pedir assistência</a><a className="button navy" href={`tel:${company.telephone}`}>Ligar agora</a><ConfiguratorButton /></div>
+          <div data-contact-actions className="actions"><a data-contact-button="whatsapp" className="button whatsapp" href={whatsapp} target="_blank" rel="noopener noreferrer">Pedir assistência</a><a data-contact-button="secondary" className="button navy" href={`tel:${company.telephone}`}>Ligar agora</a><ConfiguratorButton /></div>
           <p className="call-note">Chamada para a rede móvel nacional. Deslocações por marcação.</p>
         </section>
         <div className="area-note"><p>Prestamos assistência em Lisboa e arredores, nas duas margens do Tejo. Consulte algumas das <a href="/zonas-de-assistencia">zonas de assistência</a>. Se não encontrar a sua localidade, contacte-nos para confirmar a deslocação.</p></div>

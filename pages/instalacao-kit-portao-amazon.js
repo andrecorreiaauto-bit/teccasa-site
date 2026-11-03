@@ -369,13 +369,13 @@ export default function InstalacaoKitPortaoAmazon() {
                     existir alimentação elétrica adequada e o portão apresentar boas condições mecânicas.
                     </p>
                     
-                    <div style={{
+                    <div data-contact-actions style={{
                     display:"flex",
                     gap:"14px",
                     flexWrap:"wrap"
                     }}>
                     
-                    <a
+                    <a data-contact-button="whatsapp"
                     href="https://wa.me/351922021980?text=Ol%C3%A1%2C%20comprei%20um%20kit%20de%20automatismo%20para%20port%C3%A3o%20na%20Amazon%20e%20gostava%20de%20saber%20se%20%C3%A9%20poss%C3%ADvel%20instalar.%20Posso%20enviar%20fotos."
                     target="_blank"
                     style={{
@@ -687,14 +687,14 @@ export default function InstalacaoKitPortaoAmazon() {
                                                               instalações incompatíveis, inseguras ou com material incompleto.
                                                               </p>
                                                               
-                                                              <div style={{
+                                                              <div data-contact-actions style={{
                                                               display:"flex",
                                                               justifyContent:"center",
                                                               gap:"16px",
                                                               flexWrap:"wrap"
                                                               }}>
                                                               
-                                                              <a
+                                                              <a data-contact-button="whatsapp"
                                                               href="https://wa.me/351922021980?text=Ol%C3%A1%2C%20comprei%20um%20kit%20de%20automatismo%20para%20port%C3%A3o%20na%20Amazon%20e%20gostava%20de%20saber%20se%20%C3%A9%20poss%C3%ADvel%20instalar.%20Posso%20enviar%20fotos."
                                                               target="_blank"
                                                               style={{
@@ -711,7 +711,7 @@ export default function InstalacaoKitPortaoAmazon() {
                                                               Enviar fotos do kit
                                                               </a>
                                                               
-                                                              <a
+                                                              <a data-contact-button="secondary"
                                                               href="tel:922021980"
                                                               style={{
                                                               background:"#08285c",
@@ -827,7 +827,7 @@ border:"1px solid rgba(11,44,95,0.05)"
     <span>📍 Lisboa e arredores</span>
   </div>
 
-  <div style={{
+  <div data-contact-actions style={{
     display:"flex",
     justifyContent:"center",
     gap:"15px",
@@ -835,7 +835,7 @@ border:"1px solid rgba(11,44,95,0.05)"
     marginBottom:"25px"
   }}>
 
-    <a href="https://wa.me/351922021980" target="_blank" style={{
+    <a data-contact-button="whatsapp" href="https://wa.me/351922021980" target="_blank" style={{
       padding:"10px 18px",
       borderRadius:"999px",
       background:"#25D366",

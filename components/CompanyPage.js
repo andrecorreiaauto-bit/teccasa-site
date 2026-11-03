@@ -58,10 +58,10 @@ export default function CompanyPage({ english = false }) {
           <section className="contact">
             <h2>{english ? "Tell us what you need" : "Conte-nos o que precisa"}</h2>
             <p>{english ? "Describe the situation or send photos of the equipment. We will help you understand the next step." : "Descreva a situação ou envie fotografias do equipamento. Ajudamo-lo a perceber qual o próximo passo."}</p>
-            <div className="actions">
-              <a className="primary" href="https://wa.me/351922021980" target="_blank" rel="noopener noreferrer">{english ? "Contact TecCasa on WhatsApp" : "Falar com a TecCasa por WhatsApp"}</a>
-              <a href="tel:+351922021980">{english ? "Call 922 021 980" : "Ligar 922 021 980"}</a>
-              <a href={`mailto:${company.email}`}>{company.email}</a>
+            <div data-contact-actions className="actions">
+              <a data-contact-button="whatsapp" className="primary" href="https://wa.me/351922021980" target="_blank" rel="noopener noreferrer">{english ? "Contact TecCasa on WhatsApp" : "Falar com a TecCasa por WhatsApp"}</a>
+              <a data-contact-button="secondary" href="tel:+351922021980">{english ? "Call 922 021 980" : "Ligar 922 021 980"}</a>
+              <a data-contact-button="secondary" href={`mailto:${company.email}`}>{company.email}</a>
             </div>
           </section>
         </main>

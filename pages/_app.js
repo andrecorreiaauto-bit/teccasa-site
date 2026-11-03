@@ -1,3 +1,4 @@
+import "../styles/contact-actions.css";
 import Head from "next/head";
 import { useRouter } from "next/router";
 import CompanyIdentity from "../components/CompanyIdentity";

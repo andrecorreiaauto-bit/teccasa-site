@@ -293,7 +293,7 @@ export default function SecurityCamerasLisbon() {
                 directly from your phone, with simple remote access and useful alerts.
               </p>
 
-              <div
+              <div data-contact-actions
                 style={{
                   display: "flex",
                   gap: "14px",
@@ -324,7 +324,7 @@ export default function SecurityCamerasLisbon() {
                   See applications
                 </a>
 
-                <a
+                <a data-contact-button="whatsapp"
                   href="https://wa.me/351922021980?text=Hello%2C%20I%20need%20help%20with%20security%20camera%20installation%20in%20Lisbon."
                   target="_blank"
                   style={{
@@ -819,7 +819,7 @@ export default function SecurityCamerasLisbon() {
                 camera installation is suitable.
               </p>
 
-              <div
+              <div data-contact-actions
                 style={{
                   display: "flex",
                   gap: "14px",
@@ -827,7 +827,7 @@ export default function SecurityCamerasLisbon() {
                   flexWrap: "wrap",
                 }}
               >
-                <a
+                <a data-contact-button="whatsapp"
                   href="https://wa.me/351922021980?text=Hello%2C%20I%20need%20help%20with%20security%20camera%20installation%20in%20Lisbon."
                   target="_blank"
                   style={{
@@ -845,7 +845,7 @@ export default function SecurityCamerasLisbon() {
                   Send WhatsApp message
                 </a>
 
-                <a
+                <a data-contact-button="secondary"
                   href="tel:+351922021980"
                   style={{
                     display: "inline-block",
@@ -935,7 +935,7 @@ export default function SecurityCamerasLisbon() {
               <span>Lisbon and surrounding areas</span>
             </div>
 
-            <div
+            <div data-contact-actions
               style={{
                 display: "flex",
                 justifyContent: "center",
@@ -944,7 +944,7 @@ export default function SecurityCamerasLisbon() {
                 marginBottom: "25px",
               }}
             >
-              <a
+              <a data-contact-button="whatsapp"
                 href="https://wa.me/351922021980"
                 target="_blank"
                 style={{

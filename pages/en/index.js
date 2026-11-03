@@ -373,14 +373,14 @@ gap:"10px"
       TecCasa Soluções provides automatic gate repair, gate automation, garage remote support, smart home solutions and domestic security camera installation in Lisbon and surrounding areas.
       </p>
     
-      <div style={{
+      <div data-contact-actions style={{
       display:"flex",
       gap:"15px",
       flexWrap:"wrap",
       marginTop:"30px"
       }}>
     
-        <a
+        <a data-contact-button="whatsapp"
         href="https://wa.me/351922021980?text=Hello%2C%20I%20need%20help%20with%20a%20service%20in%20Lisbon."
         target="_blank"
         style={{
@@ -395,7 +395,7 @@ gap:"10px"
         Send WhatsApp message
         </a>
     
-        <a
+        <a data-contact-button="secondary"
         href="tel:+351922021980"
         style={{
         background:"transparent",
@@ -1253,7 +1253,7 @@ border:"1px solid rgba(11,44,95,0.05)"
     <span>📍 Lisbon and surrounding areas</span>
   </div>
 
-  <div style={{
+  <div data-contact-actions style={{
     display:"flex",
     justifyContent:"center",
     gap:"15px",
@@ -1261,7 +1261,7 @@ border:"1px solid rgba(11,44,95,0.05)"
     marginBottom:"25px"
   }}>
 
-    <a href="https://wa.me/351922021980" target="_blank" style={{
+    <a data-contact-button="whatsapp" href="https://wa.me/351922021980" target="_blank" style={{
       padding:"10px 18px",
       borderRadius:"999px",
       background:"#25D366",

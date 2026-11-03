@@ -668,13 +668,13 @@ gap:"10px"
                                                   Diagnóstico claro antes de recomendar substituições.
                                                 </p>
                                               
-                                                <div style={{
+                                                <div data-contact-actions style={{
                                                   display:"flex",
                                                   gap:"15px",
                                                   flexWrap:"wrap",
                                                   marginTop:"30px"
                                                 }}>
-                                                  <a
+                                                  <a data-contact-button="whatsapp"
                                                     href="https://wa.me/351922021980"
                                                     target="_blank"
                                                     style={{
@@ -689,7 +689,7 @@ gap:"10px"
                                                     Pedir assistência
                                                   </a>
                                               
-                                                  <a
+                                                  <a data-contact-button="secondary"
                                                     href="tel:922021980"
                                                     style={{
                                                       background:"#08285c",
@@ -757,7 +757,7 @@ border:"1px solid rgba(11,44,95,0.05)"
     <span>📍 Deslocações por marcação</span>
   </div>
 
-  <div style={{
+  <div data-contact-actions style={{
     display:"flex",
     justifyContent:"center",
     gap:"15px",
@@ -765,7 +765,7 @@ border:"1px solid rgba(11,44,95,0.05)"
     marginBottom:"25px"
   }}>
 
-    <a href="https://wa.me/351922021980" target="_blank" style={{
+    <a data-contact-button="whatsapp" href="https://wa.me/351922021980" target="_blank" style={{
       padding:"10px 18px",
       borderRadius:"999px",
       background:"#25D366",

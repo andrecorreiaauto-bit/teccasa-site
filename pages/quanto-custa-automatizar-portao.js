@@ -69,7 +69,7 @@ export default function AutomationBudget() {
         <section className="cta" aria-labelledby="budget-cta-title">
           <h2 id="budget-cta-title">Vamos perceber o que o seu portão precisa?</h2>
           <p>Comece pelo configurador. Se preferir falar connosco, pode explicar-nos a situação por WhatsApp.</p>
-          <div className="actions"><ConfiguratorButton featured /><a className="contact" href="https://wa.me/351922021980" target="_blank" rel="noopener noreferrer">Falar com a TecCasa</a></div>
+          <div data-contact-actions className="actions"><ConfiguratorButton featured /><a data-contact-button="whatsapp" className="contact" href="https://wa.me/351922021980" target="_blank" rel="noopener noreferrer">Falar com a TecCasa</a></div>
         </section>
         <SiteFooter />
       </main>

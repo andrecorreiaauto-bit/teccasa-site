@@ -1,0 +1,59 @@
+/* Explicit action groups only; contact details in prose, footers and legal text
+   keep their existing presentation. Important rules also cover legacy inline CSS. */
+[data-contact-actions] {
+  align-items: stretch !important;
+}
+[data-contact-actions] > a,
+[data-contact-actions] > button {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  align-self: stretch !important;
+  box-sizing: border-box !important;
+  min-height: 56px;
+  max-width: 100%;
+  text-align: center;
+}
+[data-contact-actions] > [data-contact-button] {
+  padding: 16px 22px !important;
+  border: 1px solid transparent;
+  border-radius: 16px !important;
+  font: 700 16px/1.4 Arial, sans-serif;
+  text-decoration: none !important;
+  overflow-wrap: anywhere;
+}
+[data-contact-actions] > [data-contact-button="secondary"] {
+  background: #fff !important;
+  border: 1px solid #c9d5e5 !important;
+  color: #08285c !important;
+}
+[data-contact-actions] > [data-contact-button="whatsapp"] {
+  background: #25d366 !important;
+  border: 1px solid #25d366 !important;
+  color: #fff !important;
+}
+[data-contact-surface="dark"] [data-contact-actions] > .configurator-launch {
+  background: #fff;
+  border-color: #fff;
+  color: #08285c;
+  box-shadow: 0 8px 24px #0002;
+}
+[data-contact-actions] > [data-contact-button]:hover {
+  filter: brightness(.97);
+}
+[data-contact-actions] > [data-contact-button]:focus-visible {
+  outline: 3px solid #f7b545;
+  outline-offset: 5px;
+}
+@media (max-width: 600px) {
+  [data-contact-actions] {
+    flex-direction: column !important;
+    align-items: stretch !important;
+  }
+  [data-contact-actions] > a,
+  [data-contact-actions] > button {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}

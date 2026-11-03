@@ -46,7 +46,7 @@ export default function LocalServicePage({ page }) {
           <div>
             <h1 id="local-title">{page.title}</h1>
             <p className="lead">{page.intro}</p>
-            <div className="actions"><a className="primary" href={whatsapp} target="_blank" rel="noopener noreferrer">{installation ? "Pedir orçamento por WhatsApp" : "Descrever a avaria por WhatsApp"}</a><a className="phone" href={`tel:${company.telephone}`}>Ligar 922 021 980</a></div>
+            <div data-contact-actions className="actions"><a data-contact-button="whatsapp" className="primary" href={whatsapp} target="_blank" rel="noopener noreferrer">{installation ? "Pedir orçamento por WhatsApp" : "Descrever a avaria por WhatsApp"}</a><a data-contact-button="secondary" className="phone" href={`tel:${company.telephone}`}>Ligar 922 021 980</a></div>
             <p className="call-note">Chamada para a rede móvel nacional. Deslocações por marcação.</p>
           </div>
           <figure><img src={page.image} alt={page.imageAlt} width={page.photo.width} height={page.photo.height} fetchPriority="high" /><figcaption>{page.photo.caption}<br />Foto: <a href={page.photo.authorUrl} target="_blank" rel="noopener noreferrer">{page.photo.author}</a>{page.photo.authorSite ? <> / <a href={page.photo.authorSite} target="_blank" rel="noopener noreferrer">julesvernex2.com</a></> : null} · <a href={page.photo.source} target="_blank" rel="noopener noreferrer">Wikimedia Commons</a> · <a href={page.photo.licenseUrl} target="_blank" rel="license noopener noreferrer">{page.photo.license}</a>. Imagem redimensionada.</figcaption></figure>
@@ -59,7 +59,7 @@ export default function LocalServicePage({ page }) {
         </section>)}</div>
         <section className="visit" aria-labelledby="visit-title"><h2 id="visit-title">{page.visitTitle}</h2><p>{page.visitIntro}</p><ul>{page.visitItems.map(item => <li key={item}>{item}</li>)}</ul><p>Não precisa de desmontar o equipamento para enviar fotografias. Evite incluir pessoas, matrículas ou documentos sem relação com o pedido.</p></section>
         <section className="questions" aria-labelledby="questions-title"><h2 id="questions-title">{page.questionsTitle}</h2>{page.questions.map(({ question, answer }) => <details key={question}><summary>{question}</summary><p>{answer}</p></details>)}</section>
-        <section className="contact" aria-labelledby="contact-title"><h2 id="contact-title">{page.contactTitle}</h2><p>{page.contactText}</p><div className="actions"><a className="primary" href={whatsapp} target="_blank" rel="noopener noreferrer">Falar com a TecCasa</a><a href={`mailto:${company.email}`}>{company.email}</a><ConfiguratorButton /></div><p className="small-links"><a href="/condicoes-servicos">Condições dos serviços</a></p></section>
+        <section data-contact-surface="dark" className="contact" aria-labelledby="contact-title"><h2 id="contact-title">{page.contactTitle}</h2><p>{page.contactText}</p><div data-contact-actions className="actions"><a data-contact-button="whatsapp" className="primary" href={whatsapp} target="_blank" rel="noopener noreferrer">Falar com a TecCasa</a><a data-contact-button="secondary" href={`mailto:${company.email}`}>{company.email}</a><ConfiguratorButton /></div><p className="small-links"><a href="/condicoes-servicos">Condições dos serviços</a></p></section>
       </main>
     </div>
     <style jsx>{`

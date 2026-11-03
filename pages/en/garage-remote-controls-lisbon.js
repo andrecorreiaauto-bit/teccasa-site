@@ -389,14 +389,14 @@ export default function GarageRemoteControlsLisbon() {
                 Portuguese phone number, please contact us by WhatsApp message, email or social media.
               </p>
 
-              <div
+              <div data-contact-actions
                 style={{
                   display: "flex",
                   gap: "14px",
                   flexWrap: "wrap",
                 }}
               >
-                <a
+                <a data-contact-button="whatsapp"
                   href={whatsappUrl}
                   target="_blank"
                   rel="noopener noreferrer"
@@ -845,7 +845,7 @@ export default function GarageRemoteControlsLisbon() {
                 Portuguese phone number, please contact us by WhatsApp message, email or social media.
               </p>
 
-              <div
+              <div data-contact-actions
                 style={{
                   display: "flex",
                   justifyContent: "center",
@@ -853,7 +853,7 @@ export default function GarageRemoteControlsLisbon() {
                   flexWrap: "wrap",
                 }}
               >
-                <a
+                <a data-contact-button="whatsapp"
                   href={whatsappUrl}
                   target="_blank"
                   rel="noopener noreferrer"
@@ -871,7 +871,7 @@ export default function GarageRemoteControlsLisbon() {
                   Send WhatsApp message
                 </a>
 
-                <a
+                <a data-contact-button="secondary"
                   href="tel:+351922021980"
                   style={{
                     background: "#08285c",
@@ -985,7 +985,7 @@ export default function GarageRemoteControlsLisbon() {
               <span>Lisbon and surrounding areas</span>
             </div>
 
-            <div
+            <div data-contact-actions
               style={{
                 display: "flex",
                 justifyContent: "center",
@@ -994,7 +994,7 @@ export default function GarageRemoteControlsLisbon() {
                 marginBottom: "25px",
               }}
             >
-              <a
+              <a data-contact-button="whatsapp"
                 href={whatsappUrl}
                 target="_blank"
                 rel="noopener noreferrer"

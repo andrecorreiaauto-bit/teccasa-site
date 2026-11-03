@@ -387,13 +387,13 @@ export default function AutomatismosNicePortoes() {
                     Serviço técnico independente para automatismos Nice.
                     </p>
                     
-                    <div style={{
+                    <div data-contact-actions style={{
                     display:"flex",
                     gap:"14px",
                     flexWrap:"wrap"
                     }}>
                     
-                    <a
+                    <a data-contact-button="whatsapp"
                     href="https://wa.me/351922021980"
                     target="_blank"
                     style={{
@@ -742,14 +742,14 @@ export default function AutomatismosNicePortoes() {
                                                                                          fale connosco para avaliarmos a situação.
                                                                                          </p>
                                                                                          
-                                                                                         <div style={{
+                                                                                         <div data-contact-actions style={{
                                                                                          display:"flex",
                                                                                          justifyContent:"center",
                                                                                          gap:"16px",
                                                                                          flexWrap:"wrap"
                                                                                          }}>
                                                                                          
-                                                                                         <a
+                                                                                         <a data-contact-button="whatsapp"
                                                                                          href="https://wa.me/351922021980"
                                                                                          target="_blank"
                                                                                          style={{
@@ -766,7 +766,7 @@ export default function AutomatismosNicePortoes() {
                                                                                          Pedir assistência
                                                                                          </a>
                                                                                          
-                                                                                         <a
+                                                                                         <a data-contact-button="secondary"
                                                                                          href="tel:922021980"
                                                                                          style={{
                                                                                          background:"#08285c",
@@ -907,7 +907,7 @@ border:"1px solid rgba(11,44,95,0.05)"
     <span>📍 Lisboa e arredores</span>
   </div>
 
-  <div style={{
+  <div data-contact-actions style={{
     display:"flex",
     justifyContent:"center",
     gap:"15px",
@@ -915,7 +915,7 @@ border:"1px solid rgba(11,44,95,0.05)"
     marginBottom:"25px"
   }}>
 
-    <a href="https://wa.me/351922021980" target="_blank" style={{
+    <a data-contact-button="whatsapp" href="https://wa.me/351922021980" target="_blank" style={{
       padding:"10px 18px",
       borderRadius:"999px",
       background:"#25D366",
