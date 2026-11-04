@@ -569,6 +569,11 @@
           "indexable": true
         },
         {
+          "path": "/en/gate-automation-configurator",
+          "label": "Gate automation configurator",
+          "indexable": true
+        },
+        {
           "path": "/en/gate-remote-control-not-working",
           "label": "Gate Remote Control Not Working?",
           "indexable": true

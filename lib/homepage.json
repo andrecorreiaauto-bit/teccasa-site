@@ -1,0 +1,34 @@
+{
+  "title": "TecCasa Soluções | Automatismos, Domótica e Vigilância em Lisboa",
+  "h1": "Soluções técnicas para a sua casa, garagem ou condomínio.",
+  "description": "Projetos, instalação e assistência em automatismos, domótica, vigilância e acessos para casas e condomínios em Lisboa e arredores.",
+  "message": "Olá, gostava de falar com a TecCasa sobre um projeto ou uma intervenção.\n\nLocalidade:\nO que pretendo melhorar ou resolver:\nFotografias ou plantas (se disponíveis):",
+  "videoMessage": "Olá, gostava de pedir uma avaliação para um videoporteiro.\n\nLocalidade:\nInstalação nova ou substituição:\nO que já existe:",
+  "questions": [
+    {
+      "question": "Posso contactar com uma ideia, mesmo sem ter um projeto definido?",
+      "answer": "Sim. Conte-nos o que pretende melhorar, como utiliza o espaço e o que gostaria de conseguir. Ajudamos a enquadrar o projeto e a perceber a informação necessária para preparar uma proposta."
+    },
+    {
+      "question": "Trabalham com equipamentos que já existem?",
+      "answer": "Avaliamos o que está instalado, o seu estado e a compatibilidade com a solução pretendida. Pode enviar referências, fotografias ou outros elementos que já tenha; o aproveitamento de equipamentos é confirmado na avaliação."
+    },
+    {
+      "question": "Podem estudar várias soluções no mesmo projeto?",
+      "answer": "Podemos enquadrar necessidades de domótica, vigilância e automatização no mesmo projeto. A integração entre equipamentos depende da compatibilidade dos sistemas e deve ficar identificada na proposta."
+    },
+    {
+      "question": "É sempre necessária uma visita para preparar o orçamento?",
+      "answer": "Fotografias, plantas e uma descrição do objetivo ajudam a iniciar a avaliação. Algumas intervenções podem ser enquadradas com esses elementos; outras exigem visita para confirmar o espaço, a infraestrutura e o trabalho necessário. As condições são esclarecidas antes da deslocação."
+    },
+    {
+      "question": "A minha localidade tem de estar mencionada no site?",
+      "answer": "Não. O mapa mostra a nossa zona habitual de atuação, para além das localidades que têm uma página própria. A área assinalada é aproximada. As deslocações são feitas por marcação e as condições do serviço são combinadas antes da intervenção."
+    },
+    {
+      "question": "Dão apoio depois da instalação?",
+      "answer": "Explicamos como utilizar a solução e acompanhamos as dúvidas que possam surgir depois do trabalho. Se for necessária uma intervenção adicional, enquadramos consigo o pedido e as condições aplicáveis."
+    }
+  ],
+  "updated": "2026-11-04"
+}

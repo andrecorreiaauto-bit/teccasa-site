@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { useRouter } from "next/router";
 import ConfiguratorNovelty from "./ConfiguratorNovelty";
 
-export default function SiteHeader({ english = false, alternateHref }) {
+export default function SiteHeader({ english = false, alternateHref, onBrandClick }) {
   const { pathname: path } = useRouter();
   const [menuOpen, setMenuOpen] = useState(false);
   const menuItems = english ? [
@@ -37,7 +37,7 @@ export default function SiteHeader({ english = false, alternateHref }) {
   return (<>
         <nav className="site-header" aria-label={english ? "Main navigation" : "Navegação principal"} onClick={(event) => event.stopPropagation()}>
           <div className="header-row">
-            <a className="brand" href={english ? "/en" : "/"}><img src="/favicon.png" alt="" width="30" height="30" />TecCasa Soluções</a>
+            <a className="brand" href={english ? "/en" : "/"} onClick={onBrandClick}><img src="/favicon.png" alt="" width="30" height="30" />TecCasa Soluções</a>
             <div className="header-controls">
               <a className="language" href={alternateHref || (english ? "/a-empresa" : "/en/about")} lang={english ? "pt" : "en"}>{english ? "PT" : "EN"}</a>
               <button type="button" className="menu-button" aria-expanded={menuOpen} aria-controls="company-navigation" aria-label={english ? (menuOpen ? "Close menu" : "Open menu") : (menuOpen ? "Fechar menu" : "Abrir menu")} onClick={() => setMenuOpen((open) => !open)}>☰</button>

@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://tec-casa.pt/</loc>
-    <lastmod>2026-11-02</lastmod>
+    <lastmod>2026-11-04</lastmod>
     <xhtml:link rel="alternate" hreflang="pt-PT" href="https://tec-casa.pt/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://tec-casa.pt/en" />
   </url>
@@ -112,6 +112,9 @@
     <loc>https://tec-casa.pt/en/garage-remote-controls-lisbon</loc>
     <xhtml:link rel="alternate" hreflang="pt-PT" href="https://tec-casa.pt/comandos-garagem" />
     <xhtml:link rel="alternate" hreflang="en" href="https://tec-casa.pt/en/garage-remote-controls-lisbon" />
+  </url>
+  <url>
+    <loc>https://tec-casa.pt/en/gate-automation-configurator</loc>
   </url>
   <url>
     <loc>https://tec-casa.pt/en/gate-remote-control-not-working</loc>
