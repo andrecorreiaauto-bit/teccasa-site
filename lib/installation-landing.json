@@ -1,0 +1,35 @@
+{
+  "title": "Instalação de Automatismos para Portões",
+  "h1": "Instalação de automatismos para portões",
+  "description": "Instalação e substituição de automatismos para portões de correr, batente e garagem em Lisboa e arredores. Até três soluções por email, sujeitas a validação técnica.",
+  "image": "/instalacao-automatismos-portoes-hero.png",
+  "imageAlt": "Ilustração de instalação de um automatismo num portão",
+  "message": "Olá, gostava de avaliar a instalação ou substituição de um automatismo.\n\nLocalidade:\nTipo de portão:\nNova instalação ou substituição:\nMedidas aproximadas (se souber):",
+  "questions": [
+    {
+      "question": "É possível automatizar o portão que já tenho?",
+      "answer": "Depende do estado do portão, do seu movimento e das condições de montagem. Avaliamos essas condições para perceber se pode receber um automatismo e o que é necessário preparar."
+    },
+    {
+      "question": "O configurador apresenta um preço definitivo?",
+      "answer": "O configurador envia por email até três soluções com preços indicativos, de acordo com os dados fornecidos. A seleção e os valores dependem de validação técnica; algumas situações exigem avaliação no local."
+    },
+    {
+      "question": "E se não souber o peso ou todas as medidas?",
+      "answer": "Pode pedir ajuda e enviar fotografias. A informação inicial serve para enquadrar o pedido; confirmamos os elementos necessários antes de definir a solução."
+    },
+    {
+      "question": "Já tenho um motor antigo. Podem substituí-lo?",
+      "answer": "Sim. Identificamos o conjunto existente, a utilização e as condições de montagem. O aproveitamento de acessórios, comandos ou ligações depende da compatibilidade e do seu estado."
+    },
+    {
+      "question": "Comprei um kit. Fazem a instalação?",
+      "answer": "Avaliamos o equipamento fornecido, a compatibilidade com o portão e os materiais ou preparações em falta. A montagem é orçamentada depois de enquadrar essas condições."
+    },
+    {
+      "question": "Quanto tempo demora a instalação?",
+      "answer": "O prazo depende do equipamento, da disponibilidade de material e das condições do local. As preparações necessárias e a marcação são esclarecidas na proposta."
+    }
+  ],
+  "updated": "2026-11-03"
+}
