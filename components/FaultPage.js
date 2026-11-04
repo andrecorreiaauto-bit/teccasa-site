@@ -1,3 +1,4 @@
+import ServiceCoverageNotice from "./ServiceCoverageNotice";
 import Head from "next/head";
 import SiteHeader from "./SiteHeader";
 import SiteFooter from "./SiteFooter";
@@ -11,7 +12,7 @@ export default function FaultPage({ page }) {
   const questions = [
     { question: page.question, answer: page.answer },
     { question: "Conseguem indicar o preço só com uma fotografia?", answer: "As fotografias e a descrição ajudam a enquadrar o pedido. Quando é necessário testar o equipamento ou confirmar a origem da falha, a avaliação no local permite definir a intervenção e o respetivo orçamento." },
-    { question: "Prestam assistência nas duas margens do Tejo?", answer: "Sim. Prestamos assistência em Lisboa e arredores, na margem norte e na margem sul. Indique a localidade no primeiro contacto para confirmarmos a disponibilidade para a deslocação." },
+    { question: "Prestam assistência nas duas margens do Tejo?", answer: "Sim. Prestamos assistência por marcação em Lisboa e arredores, na margem norte e na margem sul. Consulte o mapa da zona habitual de atuação; a disponibilidade e as condições são combinadas antes da intervenção." },
     { question: "O que devo enviar se não souber a marca do automatismo?", answer: "Indique a localidade, descreva o comportamento do equipamento e envie, se puder, uma fotografia geral e outra do automatismo. Ajudamos a identificar a informação necessária para preparar a assistência." },
     { question: page.precautionQuestion || "Devo continuar a tentar acionar o portão?", answer: page.precaution || "Se o portão apresentar movimentos inesperados, esforço ou ruídos anormais, evite insistir no acionamento e mantenha pessoas e veículos afastados da zona de movimento. Não anule os dispositivos de segurança; peça uma avaliação." },
   ];
@@ -68,8 +69,9 @@ export default function FaultPage({ page }) {
           <aside className="p-config"><h3>{page.remote ? "Está também a avaliar uma substituição do motor?" : "Está a avaliar uma substituição?"}</h3><p>{page.remote ? "Se o pedido envolve uma nova motorização, indique as características do portão para receber por email até três soluções de automatização com preços indicativos." : "Indique as características do seu portão para receber por email até três soluções de automatização com preços indicativos."}</p><ConfiguratorButton /><p className="p-micro">Os valores dependem dos dados fornecidos e de validação técnica. Algumas situações exigem avaliação no local.</p></aside>
         </section>
         <section id="perguntas" className="p-section p-faq"><h2>Dúvidas sobre esta avaria</h2>{questions.map(({question,answer},index) => <details key={question} open={index === 0}><summary>{question}</summary><p>{answer}</p></details>)}</section>
+        <ServiceCoverageNotice />
         <section className="p-section p-final"><h2>{page.finalHeading}</h2><p>Fale connosco e descreva a avaria. Ajudamos a identificar o equipamento e a preparar o próximo passo.</p><div data-contact-actions className="p-actions"><a data-contact-button="whatsapp" className="p-button p-green" href={whatsapp} target="_blank" rel="noopener noreferrer">Pedir assistência pelo WhatsApp</a><a data-contact-button="secondary" className="p-button p-outline" href={`tel:${company.telephone}`}>Ligar 922 021 980</a></div><p className="p-micro">Lisboa e arredores · Margem norte e margem sul</p></section>
-        <p className="p-practical">Antes de pedir assistência, confirme a possibilidade de deslocação para a sua localidade. Consulte as <a href="/zonas-de-assistencia">zonas de assistência da TecCasa Soluções</a> e as <a href="/condicoes-servicos">condições dos serviços</a>.</p>
+        <p className="p-practical"><a href="/condicoes-servicos">Condições dos serviços</a></p>
         <SiteFooter />
       </main>
       <a className="floating-whatsapp" href={whatsapp} target="_blank" rel="noopener noreferrer" aria-label="Pedir assistência à TecCasa por WhatsApp" style={{position:"fixed"}}>WhatsApp</a>

@@ -1,3 +1,4 @@
+import ServiceCoverageNotice from "../components/ServiceCoverageNotice";
 import ConfiguratorNovelty from "../components/ConfiguratorNovelty";
 import { useEffect, useState } from "react";
 import Head from "next/head";
@@ -798,6 +799,7 @@ export default function CasasInteligentesLisboa() {
                                                              SECÇÃO COMANDOS
                                                                       ========================= */}
                                                      
+  <ServiceCoverageNotice />
   <footer style={{
 marginTop:"80px",
 padding:"45px 30px",

@@ -62,7 +62,7 @@
     "contactTitle": "Vamos perceber como automatizar a sua entrada",
     "contactText": "Envie fotografias do portão em Alcochete e diga-nos o que pretende melhorar no acesso. Respondemos com o próximo passo, sem escolher um motor apenas pela fotografia.",
     "message": "Olá, pretendo instalar um automatismo em Alcochete. Posso enviar fotografias?",
-    "updated": "2026-10-30",
+    "updated": "2026-11-04",
     "photo": {
       "caption": "Ponte-cais de Alcochete, junto ao Tejo.",
       "author": "Jules Verne Times Two",
@@ -138,7 +138,7 @@
     "contactTitle": "Está a pensar trocar o motor no Montijo?",
     "contactText": "Conte-nos o que aconteceu ao automatismo atual. Ajudamos a comparar a reparação com uma substituição adequada ao portão e à utilização.",
     "message": "Olá, pretendo instalar um automatismo em Montijo. Posso enviar fotografias?",
-    "updated": "2026-10-30",
+    "updated": "2026-11-04",
     "photo": {
       "caption": "Moinho de Maré do Cais das Faluas, no Montijo.",
       "author": "GualdimG",
@@ -214,7 +214,7 @@
     "contactTitle": "Vamos preparar o acesso em Vila Franca de Xira",
     "contactText": "Envie as características do portão e diga-nos como é utilizado. Recebe uma explicação direta do que é necessário confirmar para avançar com o orçamento.",
     "message": "Olá, pretendo instalar um automatismo em Vila Franca de Xira. Posso enviar fotografias?",
-    "updated": "2026-10-30",
+    "updated": "2026-11-04",
     "photo": {
       "caption": "Ponte Marechal Carmona ao amanhecer, em Vila Franca de Xira.",
       "author": "FernandoSintra",
@@ -289,7 +289,7 @@
     "contactTitle": "Conte-nos como é a sua garagem",
     "contactText": "Com fotografias e medidas aproximadas, ajudamos a identificar o que deve ser avaliado antes de escolher o automatismo para a sua entrada na Póvoa de Santa Iria.",
     "message": "Olá, pretendo instalar um automatismo em Póvoa de Santa Iria. Posso enviar fotografias?",
-    "updated": "2026-10-30",
+    "updated": "2026-11-04",
     "photo": {
       "caption": "Parque Linear Ribeirinho do Estuário do Tejo, na Póvoa de Santa Iria.",
       "author": "Vitor Oliveira",
@@ -364,7 +364,7 @@
     "contactTitle": "Descreva o que o portão está a fazer",
     "contactText": "Diga-nos em que zona de Alcochete está o equipamento e envie a informação disponível. Combinamos o próximo passo e os custos de avaliação antes da deslocação.",
     "message": "Olá, preciso de assistência a um portão em Alcochete. Posso enviar fotografias?",
-    "updated": "2026-10-30",
+    "updated": "2026-11-04",
     "photo": {
       "caption": "Ponte-cais de Alcochete, junto ao Tejo.",
       "author": "Jules Verne Times Two",
@@ -440,7 +440,7 @@
     "contactTitle": "O portão deixou de fechar no Montijo?",
     "contactText": "Conte-nos onde para e o que acontece de seguida. A partir dessa informação, combinamos a avaliação e esclarecemos o que pode ser confirmado antes da visita.",
     "message": "Olá, preciso de assistência a um portão em Montijo. Posso enviar fotografias?",
-    "updated": "2026-10-30",
+    "updated": "2026-11-04",
     "photo": {
       "caption": "Moinho de Maré do Cais das Faluas, no Montijo.",
       "author": "GualdimG",
@@ -516,7 +516,7 @@
     "contactTitle": "Vamos organizar a assistência ao seu acesso",
     "contactText": "Envie os sintomas e identifique o responsável pelo portão em Vila Franca de Xira. Ajudamos a separar o que está confirmado do que precisa de ser verificado no local.",
     "message": "Olá, preciso de assistência a um portão em Vila Franca de Xira. Posso enviar fotografias?",
-    "updated": "2026-10-30",
+    "updated": "2026-11-04",
     "photo": {
       "caption": "Ponte Marechal Carmona ao amanhecer, em Vila Franca de Xira.",
       "author": "FernandoSintra",
@@ -591,7 +591,7 @@
     "contactTitle": "Vamos recuperar o funcionamento do seu portão",
     "contactText": "Descreva o sintoma e envie fotografias da entrada na Póvoa de Santa Iria. Combinamos consigo a avaliação e esclarecemos os próximos passos.",
     "message": "Olá, preciso de assistência a um portão em Póvoa de Santa Iria. Posso enviar fotografias?",
-    "updated": "2026-10-30",
+    "updated": "2026-11-04",
     "photo": {
       "caption": "Parque Linear Ribeirinho do Estuário do Tejo, na Póvoa de Santa Iria.",
       "author": "Vitor Oliveira",
@@ -670,7 +670,7 @@
     "contactTitle": "Vamos preparar a sua instalação",
     "contactText": "Envie o seu pedido em Almada. Fala com quem acompanha a avaliação e o trabalho, para perceber as opções e decidir o próximo passo.",
     "message": "Olá, pretendo instalar um automatismo em Almada. Posso enviar fotografias?",
-    "updated": "2026-10-31"
+    "updated": "2026-11-04"
   },
   "reparacao-portoes-almada": {
     "slug": "reparacao-portoes-almada",
@@ -739,7 +739,7 @@
     "contactTitle": "Conte-nos o que aconteceu ao portão",
     "contactText": "Envie o seu pedido em Almada. Fala com quem acompanha a avaliação e o trabalho, para perceber as opções e decidir o próximo passo.",
     "message": "Olá, pretendo pedir assistência a um portão em Almada. Posso enviar fotografias?",
-    "updated": "2026-10-31"
+    "updated": "2026-11-04"
   },
   "instalacao-automatismos-portoes-corroios": {
     "slug": "instalacao-automatismos-portoes-corroios",
@@ -808,7 +808,7 @@
     "contactTitle": "Vamos preparar a sua instalação",
     "contactText": "Envie o seu pedido em Corroios. Fala com quem acompanha a avaliação e o trabalho, para perceber as opções e decidir o próximo passo.",
     "message": "Olá, pretendo instalar um automatismo em Corroios. Posso enviar fotografias?",
-    "updated": "2026-10-31"
+    "updated": "2026-11-04"
   },
   "reparacao-portoes-corroios": {
     "slug": "reparacao-portoes-corroios",
@@ -877,7 +877,7 @@
     "contactTitle": "Conte-nos o que aconteceu ao portão",
     "contactText": "Envie o seu pedido em Corroios. Fala com quem acompanha a avaliação e o trabalho, para perceber as opções e decidir o próximo passo.",
     "message": "Olá, pretendo pedir assistência a um portão em Corroios. Posso enviar fotografias?",
-    "updated": "2026-10-31"
+    "updated": "2026-11-04"
   },
   "instalacao-automatismos-portoes-charneca-de-caparica": {
     "slug": "instalacao-automatismos-portoes-charneca-de-caparica",
@@ -946,7 +946,7 @@
     "contactTitle": "Vamos preparar a sua instalação",
     "contactText": "Envie o seu pedido na Charneca de Caparica. Fala com quem acompanha a avaliação e o trabalho, para perceber as opções e decidir o próximo passo.",
     "message": "Olá, pretendo instalar um automatismo na Charneca de Caparica. Posso enviar fotografias?",
-    "updated": "2026-10-31"
+    "updated": "2026-11-04"
   },
   "reparacao-portoes-charneca-de-caparica": {
     "slug": "reparacao-portoes-charneca-de-caparica",
@@ -1016,7 +1016,7 @@
     "contactTitle": "Conte-nos o que aconteceu ao portão",
     "contactText": "Envie o seu pedido na Charneca de Caparica. Fala com quem acompanha a avaliação e o trabalho, para perceber as opções e decidir o próximo passo.",
     "message": "Olá, pretendo pedir assistência a um portão na Charneca de Caparica. Posso enviar fotografias?",
-    "updated": "2026-10-31"
+    "updated": "2026-11-04"
   },
   "instalacao-automatismos-portoes-amadora": {
     "slug": "instalacao-automatismos-portoes-amadora",
@@ -1085,7 +1085,7 @@
     "contactTitle": "Vamos preparar a sua instalação",
     "contactText": "Envie o seu pedido na Amadora. Fala com quem acompanha a avaliação e o trabalho, para perceber as opções e decidir o próximo passo.",
     "message": "Olá, pretendo instalar um automatismo na Amadora. Posso enviar fotografias?",
-    "updated": "2026-10-31"
+    "updated": "2026-11-04"
   },
   "reparacao-portoes-amadora": {
     "slug": "reparacao-portoes-amadora",
@@ -1155,7 +1155,7 @@
     "contactTitle": "Conte-nos o que aconteceu ao portão",
     "contactText": "Envie o seu pedido na Amadora. Fala com quem acompanha a avaliação e o trabalho, para perceber as opções e decidir o próximo passo.",
     "message": "Olá, pretendo pedir assistência a um portão na Amadora. Posso enviar fotografias?",
-    "updated": "2026-10-31"
+    "updated": "2026-11-04"
   },
   "instalacao-automatismos-portoes-agualva-cacem": {
     "slug": "instalacao-automatismos-portoes-agualva-cacem",
@@ -1224,7 +1224,7 @@
     "contactTitle": "Vamos preparar a sua instalação",
     "contactText": "Envie o seu pedido em Agualva-Cacém. Fala com quem acompanha a avaliação e o trabalho, para perceber as opções e decidir o próximo passo.",
     "message": "Olá, pretendo instalar um automatismo em Agualva-Cacém. Posso enviar fotografias?",
-    "updated": "2026-10-31"
+    "updated": "2026-11-04"
   },
   "reparacao-portoes-agualva-cacem": {
     "slug": "reparacao-portoes-agualva-cacem",
@@ -1294,7 +1294,7 @@
     "contactTitle": "Conte-nos o que aconteceu ao portão",
     "contactText": "Envie o seu pedido em Agualva-Cacém. Fala com quem acompanha a avaliação e o trabalho, para perceber as opções e decidir o próximo passo.",
     "message": "Olá, pretendo pedir assistência a um portão em Agualva-Cacém. Posso enviar fotografias?",
-    "updated": "2026-10-31"
+    "updated": "2026-11-04"
   },
   "instalacao-automatismos-portoes-rio-de-mouro": {
     "slug": "instalacao-automatismos-portoes-rio-de-mouro",
@@ -1364,7 +1364,7 @@
     "contactTitle": "Vamos preparar a sua instalação",
     "contactText": "Envie o seu pedido em Rio de Mouro. Fala com quem acompanha a avaliação e o trabalho, para perceber as opções e decidir o próximo passo.",
     "message": "Olá, pretendo instalar um automatismo em Rio de Mouro. Posso enviar fotografias?",
-    "updated": "2026-10-31"
+    "updated": "2026-11-04"
   },
   "reparacao-portoes-rio-de-mouro": {
     "slug": "reparacao-portoes-rio-de-mouro",
@@ -1434,7 +1434,7 @@
     "contactTitle": "Conte-nos o que aconteceu ao portão",
     "contactText": "Envie o seu pedido em Rio de Mouro. Fala com quem acompanha a avaliação e o trabalho, para perceber as opções e decidir o próximo passo.",
     "message": "Olá, pretendo pedir assistência a um portão em Rio de Mouro. Posso enviar fotografias?",
-    "updated": "2026-10-31"
+    "updated": "2026-11-04"
   },
   "instalacao-automatismos-portoes-oeiras": {
     "slug": "instalacao-automatismos-portoes-oeiras",
@@ -1504,7 +1504,7 @@
     "contactTitle": "Vamos preparar a sua instalação",
     "contactText": "Envie o seu pedido em Oeiras. Fala com quem acompanha a avaliação e o trabalho, para perceber as opções e decidir o próximo passo.",
     "message": "Olá, pretendo instalar um automatismo em Oeiras. Posso enviar fotografias?",
-    "updated": "2026-10-31"
+    "updated": "2026-11-04"
   },
   "reparacao-portoes-oeiras": {
     "slug": "reparacao-portoes-oeiras",
@@ -1574,7 +1574,7 @@
     "contactTitle": "Conte-nos o que aconteceu ao portão",
     "contactText": "Envie o seu pedido em Oeiras. Fala com quem acompanha a avaliação e o trabalho, para perceber as opções e decidir o próximo passo.",
     "message": "Olá, pretendo pedir assistência a um portão em Oeiras. Posso enviar fotografias?",
-    "updated": "2026-10-31"
+    "updated": "2026-11-04"
   },
   "instalacao-automatismos-portoes-sintra": {
     "slug": "instalacao-automatismos-portoes-sintra",
@@ -1644,7 +1644,7 @@
     "contactTitle": "Vamos preparar a sua instalação",
     "contactText": "Envie o seu pedido em Sintra. Fala com quem acompanha a avaliação e o trabalho, para perceber as opções e decidir o próximo passo.",
     "message": "Olá, pretendo instalar um automatismo em Sintra. Posso enviar fotografias?",
-    "updated": "2026-10-31"
+    "updated": "2026-11-04"
   },
   "reparacao-portoes-sintra": {
     "slug": "reparacao-portoes-sintra",
@@ -1714,7 +1714,7 @@
     "contactTitle": "Conte-nos o que aconteceu ao portão",
     "contactText": "Envie o seu pedido em Sintra. Fala com quem acompanha a avaliação e o trabalho, para perceber as opções e decidir o próximo passo.",
     "message": "Olá, pretendo pedir assistência a um portão em Sintra. Posso enviar fotografias?",
-    "updated": "2026-10-31"
+    "updated": "2026-11-04"
   },
   "instalacao-automatismos-portoes-samora-correia": {
     "slug": "instalacao-automatismos-portoes-samora-correia",
@@ -1784,7 +1784,7 @@
     "contactTitle": "Vamos preparar a sua instalação",
     "contactText": "Envie o seu pedido em Samora Correia. Fala com quem acompanha a avaliação e o trabalho, para perceber as opções e decidir o próximo passo.",
     "message": "Olá, pretendo instalar um automatismo em Samora Correia. Posso enviar fotografias?",
-    "updated": "2026-10-31"
+    "updated": "2026-11-04"
   },
   "reparacao-portoes-samora-correia": {
     "slug": "reparacao-portoes-samora-correia",
@@ -1854,7 +1854,7 @@
     "contactTitle": "Conte-nos o que aconteceu ao portão",
     "contactText": "Envie o seu pedido em Samora Correia. Fala com quem acompanha a avaliação e o trabalho, para perceber as opções e decidir o próximo passo.",
     "message": "Olá, pretendo pedir assistência a um portão em Samora Correia. Posso enviar fotografias?",
-    "updated": "2026-10-31"
+    "updated": "2026-11-04"
   },
   "instalacao-automatismos-portoes-benavente": {
     "slug": "instalacao-automatismos-portoes-benavente",
@@ -1924,7 +1924,7 @@
     "contactTitle": "Vamos preparar a sua instalação",
     "contactText": "Envie o seu pedido em Benavente. Fala com quem acompanha a avaliação e o trabalho, para perceber as opções e decidir o próximo passo.",
     "message": "Olá, pretendo instalar um automatismo em Benavente. Posso enviar fotografias?",
-    "updated": "2026-10-31"
+    "updated": "2026-11-04"
   },
   "reparacao-portoes-benavente": {
     "slug": "reparacao-portoes-benavente",
@@ -1994,7 +1994,7 @@
     "contactTitle": "Conte-nos o que aconteceu ao portão",
     "contactText": "Envie o seu pedido em Benavente. Fala com quem acompanha a avaliação e o trabalho, para perceber as opções e decidir o próximo passo.",
     "message": "Olá, pretendo pedir assistência a um portão em Benavente. Posso enviar fotografias?",
-    "updated": "2026-10-31"
+    "updated": "2026-11-04"
   },
   "instalacao-automatismos-portoes-porto-alto": {
     "slug": "instalacao-automatismos-portoes-porto-alto",
@@ -2064,7 +2064,7 @@
     "contactTitle": "Vamos preparar a sua instalação",
     "contactText": "Envie o seu pedido no Porto Alto. Fala com quem acompanha a avaliação e o trabalho, para perceber as opções e decidir o próximo passo.",
     "message": "Olá, pretendo instalar um automatismo no Porto Alto. Posso enviar fotografias?",
-    "updated": "2026-10-31"
+    "updated": "2026-11-04"
   },
   "reparacao-portoes-porto-alto": {
     "slug": "reparacao-portoes-porto-alto",
@@ -2134,7 +2134,7 @@
     "contactTitle": "Conte-nos o que aconteceu ao portão",
     "contactText": "Envie o seu pedido no Porto Alto. Fala com quem acompanha a avaliação e o trabalho, para perceber as opções e decidir o próximo passo.",
     "message": "Olá, pretendo pedir assistência a um portão no Porto Alto. Posso enviar fotografias?",
-    "updated": "2026-10-31"
+    "updated": "2026-11-04"
   },
   "instalacao-automatismos-portoes-santa-iria-de-azoia": {
     "slug": "instalacao-automatismos-portoes-santa-iria-de-azoia",
@@ -2204,7 +2204,7 @@
     "contactTitle": "Vamos preparar a sua instalação",
     "contactText": "Envie o seu pedido em Santa Iria de Azóia. Fala com quem acompanha a avaliação e o trabalho, para perceber as opções e decidir o próximo passo.",
     "message": "Olá, pretendo instalar um automatismo em Santa Iria de Azóia. Posso enviar fotografias?",
-    "updated": "2026-10-31"
+    "updated": "2026-11-04"
   },
   "reparacao-portoes-santa-iria-de-azoia": {
     "slug": "reparacao-portoes-santa-iria-de-azoia",
@@ -2274,7 +2274,7 @@
     "contactTitle": "Conte-nos o que aconteceu ao portão",
     "contactText": "Envie o seu pedido em Santa Iria de Azóia. Fala com quem acompanha a avaliação e o trabalho, para perceber as opções e decidir o próximo passo.",
     "message": "Olá, pretendo pedir assistência a um portão em Santa Iria de Azóia. Posso enviar fotografias?",
-    "updated": "2026-10-31"
+    "updated": "2026-11-04"
   },
   "instalacao-automatismos-portoes-vialonga": {
     "slug": "instalacao-automatismos-portoes-vialonga",
@@ -2344,7 +2344,7 @@
     "contactTitle": "Vamos preparar a sua instalação",
     "contactText": "Envie o seu pedido em Vialonga. Fala com quem acompanha a avaliação e o trabalho, para perceber as opções e decidir o próximo passo.",
     "message": "Olá, pretendo instalar um automatismo em Vialonga. Posso enviar fotografias?",
-    "updated": "2026-10-31"
+    "updated": "2026-11-04"
   },
   "reparacao-portoes-vialonga": {
     "slug": "reparacao-portoes-vialonga",
@@ -2414,7 +2414,7 @@
     "contactTitle": "Conte-nos o que aconteceu ao portão",
     "contactText": "Envie o seu pedido em Vialonga. Fala com quem acompanha a avaliação e o trabalho, para perceber as opções e decidir o próximo passo.",
     "message": "Olá, pretendo pedir assistência a um portão em Vialonga. Posso enviar fotografias?",
-    "updated": "2026-10-31"
+    "updated": "2026-11-04"
   },
   "instalacao-automatismos-portoes-alverca-do-ribatejo": {
     "slug": "instalacao-automatismos-portoes-alverca-do-ribatejo",
@@ -2484,7 +2484,7 @@
     "contactTitle": "Vamos preparar a sua instalação",
     "contactText": "Envie o seu pedido em Alverca do Ribatejo. Fala com quem acompanha a avaliação e o trabalho, para perceber as opções e decidir o próximo passo.",
     "message": "Olá, pretendo instalar um automatismo em Alverca do Ribatejo. Posso enviar fotografias?",
-    "updated": "2026-10-31"
+    "updated": "2026-11-04"
   },
   "reparacao-portoes-alverca-do-ribatejo": {
     "slug": "reparacao-portoes-alverca-do-ribatejo",
@@ -2554,7 +2554,7 @@
     "contactTitle": "Conte-nos o que aconteceu ao portão",
     "contactText": "Envie o seu pedido em Alverca do Ribatejo. Fala com quem acompanha a avaliação e o trabalho, para perceber as opções e decidir o próximo passo.",
     "message": "Olá, pretendo pedir assistência a um portão em Alverca do Ribatejo. Posso enviar fotografias?",
-    "updated": "2026-10-31"
+    "updated": "2026-11-04"
   },
   "instalacao-automatismos-portoes-loures": {
     "slug": "instalacao-automatismos-portoes-loures",
@@ -2624,7 +2624,7 @@
     "contactTitle": "Vamos preparar a sua instalação",
     "contactText": "Envie o seu pedido em Loures. Fala com quem acompanha a avaliação e o trabalho, para perceber as opções e decidir o próximo passo.",
     "message": "Olá, pretendo instalar um automatismo em Loures. Posso enviar fotografias?",
-    "updated": "2026-10-31"
+    "updated": "2026-11-04"
   },
   "reparacao-portoes-loures": {
     "slug": "reparacao-portoes-loures",
@@ -2694,7 +2694,7 @@
     "contactTitle": "Conte-nos o que aconteceu ao portão",
     "contactText": "Envie o seu pedido em Loures. Fala com quem acompanha a avaliação e o trabalho, para perceber as opções e decidir o próximo passo.",
     "message": "Olá, pretendo pedir assistência a um portão em Loures. Posso enviar fotografias?",
-    "updated": "2026-10-31"
+    "updated": "2026-11-04"
   },
   "instalacao-automatismos-portoes-odivelas": {
     "slug": "instalacao-automatismos-portoes-odivelas",
@@ -2764,7 +2764,7 @@
     "contactTitle": "Vamos preparar a sua instalação",
     "contactText": "Envie o seu pedido em Odivelas. Fala com quem acompanha a avaliação e o trabalho, para perceber as opções e decidir o próximo passo.",
     "message": "Olá, pretendo instalar um automatismo em Odivelas. Posso enviar fotografias?",
-    "updated": "2026-10-31"
+    "updated": "2026-11-04"
   },
   "reparacao-portoes-odivelas": {
     "slug": "reparacao-portoes-odivelas",
@@ -2834,7 +2834,7 @@
     "contactTitle": "Conte-nos o que aconteceu ao portão",
     "contactText": "Envie o seu pedido em Odivelas. Fala com quem acompanha a avaliação e o trabalho, para perceber as opções e decidir o próximo passo.",
     "message": "Olá, pretendo pedir assistência a um portão em Odivelas. Posso enviar fotografias?",
-    "updated": "2026-10-31"
+    "updated": "2026-11-04"
   },
   "instalacao-automatismos-portoes-moita": {
     "slug": "instalacao-automatismos-portoes-moita",
@@ -2904,7 +2904,7 @@
     "contactTitle": "Vamos preparar a sua instalação",
     "contactText": "Envie o seu pedido na Moita. Fala com quem acompanha a avaliação e o trabalho, para perceber as opções e decidir o próximo passo.",
     "message": "Olá, pretendo instalar um automatismo na Moita. Posso enviar fotografias?",
-    "updated": "2026-10-31"
+    "updated": "2026-11-04"
   },
   "reparacao-portoes-moita": {
     "slug": "reparacao-portoes-moita",
@@ -2974,7 +2974,7 @@
     "contactTitle": "Conte-nos o que aconteceu ao portão",
     "contactText": "Envie o seu pedido na Moita. Fala com quem acompanha a avaliação e o trabalho, para perceber as opções e decidir o próximo passo.",
     "message": "Olá, pretendo pedir assistência a um portão na Moita. Posso enviar fotografias?",
-    "updated": "2026-10-31"
+    "updated": "2026-11-04"
   },
   "instalacao-automatismos-portoes-barreiro": {
     "slug": "instalacao-automatismos-portoes-barreiro",
@@ -3044,7 +3044,7 @@
     "contactTitle": "Vamos preparar a sua instalação",
     "contactText": "Envie o seu pedido no Barreiro. Fala com quem acompanha a avaliação e o trabalho, para perceber as opções e decidir o próximo passo.",
     "message": "Olá, pretendo instalar um automatismo no Barreiro. Posso enviar fotografias?",
-    "updated": "2026-10-31"
+    "updated": "2026-11-04"
   },
   "reparacao-portoes-barreiro": {
     "slug": "reparacao-portoes-barreiro",
@@ -3114,7 +3114,7 @@
     "contactTitle": "Conte-nos o que aconteceu ao portão",
     "contactText": "Envie o seu pedido no Barreiro. Fala com quem acompanha a avaliação e o trabalho, para perceber as opções e decidir o próximo passo.",
     "message": "Olá, pretendo pedir assistência a um portão no Barreiro. Posso enviar fotografias?",
-    "updated": "2026-10-31"
+    "updated": "2026-11-04"
   },
   "instalacao-automatismos-portoes-seixal": {
     "slug": "instalacao-automatismos-portoes-seixal",
@@ -3184,7 +3184,7 @@
     "contactTitle": "Vamos preparar a sua instalação",
     "contactText": "Envie o seu pedido no Seixal. Fala com quem acompanha a avaliação e o trabalho, para perceber as opções e decidir o próximo passo.",
     "message": "Olá, pretendo instalar um automatismo no Seixal. Posso enviar fotografias?",
-    "updated": "2026-10-31"
+    "updated": "2026-11-04"
   },
   "reparacao-portoes-seixal": {
     "slug": "reparacao-portoes-seixal",
@@ -3254,7 +3254,7 @@
     "contactTitle": "Conte-nos o que aconteceu ao portão",
     "contactText": "Envie o seu pedido no Seixal. Fala com quem acompanha a avaliação e o trabalho, para perceber as opções e decidir o próximo passo.",
     "message": "Olá, pretendo pedir assistência a um portão no Seixal. Posso enviar fotografias?",
-    "updated": "2026-10-31"
+    "updated": "2026-11-04"
   },
   "instalacao-automatismos-portoes-lisboa": {
     "slug": "instalacao-automatismos-portoes-lisboa",
@@ -3329,7 +3329,7 @@
     "contactTitle": "Vamos perceber o que precisa para a sua entrada",
     "contactText": "Fale com a TecCasa sobre o seu pedido em Lisboa. O contacto serve para perceber a situação, esclarecer as condições da avaliação e combinar consigo o próximo passo.",
     "message": "Olá, pretendo instalar um automatismo em Lisboa. Posso enviar fotografias?",
-    "updated": "2026-11-02"
+    "updated": "2026-11-04"
   },
   "reparacao-portoes-lisboa": {
     "slug": "reparacao-portoes-lisboa",
@@ -3404,6 +3404,6 @@
     "contactTitle": "Conte-nos como o portão está a funcionar",
     "contactText": "Fale com a TecCasa sobre o seu pedido em Lisboa. O contacto serve para perceber a situação, esclarecer as condições da avaliação e combinar consigo o próximo passo.",
     "message": "Olá, pretendo pedir assistência a um portão em Lisboa. Posso enviar fotografias?",
-    "updated": "2026-11-02"
+    "updated": "2026-11-04"
   }
 }

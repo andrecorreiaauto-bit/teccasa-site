@@ -83,7 +83,7 @@
     ],
     "contact": "Envie a referência Erreka que consegue identificar e explique se precisa de resolver uma avaria, acrescentar comandos ou rever os acessos existentes.",
     "message": "Olá! Gostaria de pedir uma avaliação de um automatismo Erreka.",
-    "updated": "2026-11-02"
+    "updated": "2026-11-04"
   },
   "automatismos-pujol-portoes": {
     "image": "/automatismos/tipos/instalacao-correr-v2-1440.webp",
@@ -169,6 +169,6 @@
     ],
     "contact": "Mostre-nos a etiqueta do motor Pujol e o comando que utiliza. Conte-nos o que deixou de funcionar e se houve alguma alteração recente na instalação.",
     "message": "Olá! Gostaria de pedir uma avaliação de um automatismo Pujol.",
-    "updated": "2026-11-02"
+    "updated": "2026-11-04"
   }
 }

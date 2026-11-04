@@ -1,3 +1,4 @@
+import ServiceCoverageNotice from "../components/ServiceCoverageNotice";
 import Head from "next/head";
 import SiteHeader from "../components/SiteHeader";
 import SiteFooter from "../components/SiteFooter";
@@ -66,6 +67,7 @@ export default function AutomationBudget() {
           <details><summary>E se não souber o peso ou alguma medida?</summary><p>Pode indicar o que sabe e pedir ajuda. As fotografias podem apoiar a análise. Quando falta informação essencial ou é necessário avaliar as condições no local, confirmamos esses pontos consigo antes de fechar o orçamento.</p></details>
           <details><summary>A visita ao local é sempre necessária?</summary><p>Algumas situações podem ser avaliadas inicialmente com as características e fotografias do portão. Noutras, é necessário confirmar medidas, preparação elétrica, funcionamento mecânico ou espaço de montagem no local. O configurador é um primeiro passo para essa avaliação.</p></details>
         </section>
+        <ServiceCoverageNotice />
         <section className="cta" aria-labelledby="budget-cta-title">
           <h2 id="budget-cta-title">Vamos perceber o que o seu portão precisa?</h2>
           <p>Comece pelo configurador. Se preferir falar connosco, pode explicar-nos a situação por WhatsApp.</p>

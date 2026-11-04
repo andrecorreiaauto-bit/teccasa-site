@@ -55,7 +55,7 @@
         "text": "Uma falha eletrónica ou nas ligações também pode provocar este comportamento. A origem confirma-se com diagnóstico."
       }
     ],
-    "updated": "2026-11-03"
+    "updated": "2026-11-04"
   },
   "portao-nao-fecha": {
     "description": "O portão automático ou da garagem não fecha? Assistência em Lisboa e arredores. Diagnóstico do automatismo, do movimento e dos dispositivos de segurança.",
@@ -113,7 +113,7 @@
         "text": "Desgaste, esforço ou uma falha na transmissão podem interromper o movimento antes do fecho completo."
       }
     ],
-    "updated": "2026-11-03"
+    "updated": "2026-11-04"
   },
   "portao-garagem-nao-abre": {
     "description": "O portão da garagem não abre? Diagnóstico e reparação em Lisboa e arredores. Avaliamos o motor, a transmissão, o equilíbrio do portão e os comandos.",
@@ -172,7 +172,7 @@
         "text": "Uma avaria, indicação de falha ou problema nas ligações pode impedir a abertura do portão."
       }
     ],
-    "updated": "2026-11-03"
+    "updated": "2026-11-04"
   },
   "portao-abre-ate-meio": {
     "description": "O portão abre apenas até meio ou para durante o percurso? Diagnóstico e reparação em Lisboa e arredores, com avaliação do movimento, motor e proteções.",
@@ -230,7 +230,7 @@
         "text": "Uma obstrução ou alteração no percurso pode impedir que o portão continue a abrir."
       }
     ],
-    "updated": "2026-11-03"
+    "updated": "2026-11-04"
   },
   "portao-abre-so-uma-folha": {
     "description": "O portão de batente abre só uma folha? Diagnóstico e reparação em Lisboa e arredores. Avaliamos os motores, a central, as ligações e o movimento de cada folha.",
@@ -288,7 +288,7 @@
         "text": "A aprendizagem e a coordenação entre folhas podem precisar de avaliação após alterações no equipamento ou na instalação."
       }
     ],
-    "updated": "2026-11-03"
+    "updated": "2026-11-04"
   },
   "motor-portao-sem-forca": {
     "description": "O motor do portão perdeu força, ficou lento ou para a meio? Diagnóstico em Lisboa e arredores para avaliar o motor, o esforço mecânico e o automatismo.",
@@ -346,7 +346,7 @@
         "text": "Quando o portão só se move com ajuda manual, é necessário avaliar o conjunto em vez de insistir no acionamento."
       }
     ],
-    "updated": "2026-11-03"
+    "updated": "2026-11-04"
   },
   "motor-portao-faz-barulho-mas-nao-abre": {
     "description": "O motor faz barulho mas o portão não abre? Diagnóstico e reparação em Lisboa e arredores para avaliar o motor, a transmissão e a resistência ao movimento.",
@@ -404,7 +404,7 @@
         "text": "Uma falha interna ou perda de capacidade do automatismo também pode impedir o arranque."
       }
     ],
-    "updated": "2026-11-03"
+    "updated": "2026-11-04"
   },
   "comando-garagem-nao-funciona": {
     "remote": true,
@@ -469,7 +469,7 @@
         "text": "Frequência, codificação e sistema de receção precisam de ser compatíveis para o comando poder funcionar."
       }
     ],
-    "updated": "2026-11-03"
+    "updated": "2026-11-04"
   },
   "comando-garagem-so-funciona-perto": {
     "remote": true,
@@ -534,6 +534,6 @@
         "text": "A ligação entre a antena, o recetor e a central precisa de ser avaliada como parte do sistema."
       }
     ],
-    "updated": "2026-11-03"
+    "updated": "2026-11-04"
   }
 }

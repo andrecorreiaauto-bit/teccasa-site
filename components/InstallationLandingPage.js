@@ -1,3 +1,4 @@
+import ServiceCoverageNotice from "./ServiceCoverageNotice";
 import Head from "next/head";
 import SiteHeader from "./SiteHeader";
 import SiteFooter from "./SiteFooter";
@@ -36,8 +37,9 @@ export default function InstallationLandingPage() {
 <section className="section panel two-col"><div><p className="eyebrow">Equipamento fornecido pelo cliente</p><h2>Já comprou um automatismo ou kit?</h2><p>Envie a referência, fotografias do material e uma vista geral do portão. Avaliamos a compatibilidade e o que falta para preparar a instalação.</p><a className="action navy" href="/instalacao-kit-portao-automatico">Instalação de kits do cliente</a></div><aside className="aside-note"><h3>Para pedir a avaliação</h3><ul><li>Localidade e tipo de portão.</li><li>Marca e referência do kit.</li><li>Fotografias do material e do local.</li><li>Informação sobre alimentação e tubagens, se a conhecer.</li></ul></aside></section>
 <section className="section"><h2>A marca faz parte da escolha.</h2><p className="section-intro">Comparamos o equipamento com as necessidades do acesso. A seleção e a disponibilidade dos modelos são confirmadas na proposta.</p><BrandLogoGrid brands={automationBrands} /></section>
 <section className="section faq"><h2>Dúvidas antes de automatizar</h2>{page.questions.map(({question,answer},index) => <details key={question} open={index===0}><summary>{question}</summary><p>{answer}</p></details>)}</section>
-<section className="section final dark"><h2>Vamos preparar a automatização do seu portão.</h2><p>Comece pelo configurador ou envie-nos o seu caso. Ajudamos a reunir os dados necessários para avaliar a solução.</p><div className="actions" data-contact-actions><ConfiguratorButton /><a className="action green" href={whatsapp} target="_blank" rel="noopener noreferrer" data-contact-button="whatsapp">Falar com a TecCasa</a><a className="action outline" href={`tel:${company.telephone}`} data-contact-button="secondary">Ligar 922 021 980</a></div><p className="micro">Soluções e preços indicativos por email · Validação técnica antes da instalação</p></section>
-<p className="practical">Deslocações por marcação em Lisboa e arredores, nas duas margens do Tejo. Consulte as <a href="/zonas-de-assistencia">zonas de assistência</a> e as <a href="/condicoes-servicos">condições dos serviços</a>. A possibilidade de deslocação é confirmada para a sua localidade.</p>
+<ServiceCoverageNotice />
+        <section className="section final dark"><h2>Vamos preparar a automatização do seu portão.</h2><p>Comece pelo configurador ou envie-nos o seu caso. Ajudamos a reunir os dados necessários para avaliar a solução.</p><div className="actions" data-contact-actions><ConfiguratorButton /><a className="action green" href={whatsapp} target="_blank" rel="noopener noreferrer" data-contact-button="whatsapp">Falar com a TecCasa</a><a className="action outline" href={`tel:${company.telephone}`} data-contact-button="secondary">Ligar 922 021 980</a></div><p className="micro">Soluções e preços indicativos por email · Validação técnica antes da instalação</p></section>
+<p className="practical"><a href="/condicoes-servicos">Condições dos serviços</a></p>
         <SiteFooter />
       </main>
       <a className="floating-whatsapp" href={whatsapp} target="_blank" rel="noopener noreferrer" aria-label="Pedir avaliação à TecCasa por WhatsApp">WhatsApp</a>

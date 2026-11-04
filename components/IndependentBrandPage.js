@@ -1,3 +1,4 @@
+import ServiceCoverageNotice from "./ServiceCoverageNotice";
 import ConfiguratorButton from "./ConfiguratorButton";
 import Head from "next/head";
 import SiteHeader from "./SiteHeader";
@@ -109,13 +110,13 @@ export default function IndependentBrandPage({ page }) {
 
         <section className="questions" aria-labelledby="questions-title"><h2 id="questions-title" className="section-title">Dúvidas sobre automatismos {brand.name}</h2>{page.questions.map(({ question, answer }) => <details key={question}><summary>{question}</summary><p>{answer}</p></details>)}</section>
 
+        <ServiceCoverageNotice />
         <section className="contact" aria-labelledby="contact-title">
           <h2 id="contact-title">Precisa de ajuda com um automatismo {brand.name}?</h2>
           <p>Conte-nos o que se passa com o seu portão. Fala diretamente com quem analisa e executa o trabalho, para perceber as opções antes de decidir.</p>
           <div data-contact-actions className="actions"><a data-contact-button="whatsapp" className="button whatsapp" href={whatsapp} target="_blank" rel="noopener noreferrer">Pedir assistência</a><a data-contact-button="secondary" className="button navy" href={`tel:${company.telephone}`}>Ligar agora</a><ConfiguratorButton /></div>
           <p className="call-note">Chamada para a rede móvel nacional. Deslocações por marcação.</p>
         </section>
-        <div className="area-note"><p>Prestamos assistência em Lisboa e arredores, nas duas margens do Tejo. Consulte algumas das <a href="/zonas-de-assistencia">zonas de assistência</a>. Se não encontrar a sua localidade, contacte-nos para confirmar a deslocação.</p></div>
         <p className="brand-notice">{notice} A referência à marca identifica o equipamento e não uma relação oficial com o fabricante.</p>
         <footer>
           <img src="/favicon.png" alt="" width="70" height="70" />

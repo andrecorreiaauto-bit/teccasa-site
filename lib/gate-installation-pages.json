@@ -81,7 +81,7 @@
       }
     ],
     "contact": "Envie uma fotografia da entrada e da zona para onde o portão recolhe. Ajudamos a perceber o que é preciso confirmar para preparar o orçamento.",
-    "updated": "2026-11-02"
+    "updated": "2026-11-04"
   },
   "instalacao-automatismos-portoes-batente": {
     "slug": "instalacao-automatismos-portoes-batente",
@@ -165,7 +165,7 @@
       }
     ],
     "contact": "Mostre-nos os pilares e o espaço de abertura. Com essas imagens conseguimos preparar melhor a avaliação do seu portão.",
-    "updated": "2026-11-02"
+    "updated": "2026-11-04"
   },
   "instalacao-automatismos-portoes-seccionados": {
     "slug": "instalacao-automatismos-portoes-seccionados",
@@ -249,7 +249,7 @@
       }
     ],
     "contact": "Envie uma fotografia pelo interior com as calhas e o teto visíveis. Diga-nos também se existe outra forma de entrar na garagem.",
-    "updated": "2026-11-02"
+    "updated": "2026-11-04"
   },
   "instalacao-automatismos-portoes-basculantes": {
     "slug": "instalacao-automatismos-portoes-basculantes",
@@ -337,6 +337,6 @@
       }
     ],
     "contact": "No basculante, uma fotografia do mecanismo pelo interior faz a diferença. Envie-nos essa imagem e explique se pretende uma primeira instalação ou a substituição do motor.",
-    "updated": "2026-11-02"
+    "updated": "2026-11-04"
   }
 }

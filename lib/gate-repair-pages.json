@@ -81,7 +81,7 @@
       }
     ],
     "contact": "Diga-nos se o portão falha ao abrir, ao fechar ou sempre no mesmo ponto. Uma fotografia do motor e da calha ajuda a preparar a avaliação.",
-    "updated": "2026-11-02"
+    "updated": "2026-11-04"
   },
   "reparacao-portoes-batente": {
     "kind": "batente",
@@ -165,7 +165,7 @@
       }
     ],
     "contact": "Identifique qual das folhas falha e em que momento. Se puder, envie fotografias dos braços e dos pilares pelo interior.",
-    "updated": "2026-11-02"
+    "updated": "2026-11-04"
   },
   "reparacao-portoes-seccionados": {
     "kind": "seccionados",
@@ -261,7 +261,7 @@
       }
     ],
     "contact": "Envie uma vista pelo interior e a referência do motor, se estiver acessível. Conte-nos quando a porta para ou inverte e se há outra entrada para a garagem.",
-    "updated": "2026-11-03"
+    "updated": "2026-11-04"
   },
   "reparacao-portoes-basculantes": {
     "kind": "basculantes",
@@ -345,6 +345,6 @@
       }
     ],
     "contact": "Mostre-nos o mecanismo pelo interior e explique em que fase a folha prende. Se houver danos ou movimento inseguro, evite repetir manobras para gravar o sintoma.",
-    "updated": "2026-11-02"
+    "updated": "2026-11-04"
   }
 }

@@ -37,10 +37,10 @@
       },
       {
         "question": "Onde prestam assistência a automatismos DEA?",
-        "answer": "Prestamos assistência por marcação em Lisboa e arredores, nas duas margens do Tejo. Indique a sua localidade para confirmarmos a possibilidade de deslocação."
+        "answer": "Prestamos assistência por marcação em Lisboa e arredores, nas duas margens do Tejo. Consulte o mapa da zona habitual de atuação; a disponibilidade e as condições são combinadas antes da intervenção."
       }
     ],
-    "updated": "2026-11-03"
+    "updated": "2026-11-04"
   },
   "automatismos-beninca-portoes": {
     "brand": "Beninca",
@@ -80,9 +80,9 @@
       },
       {
         "question": "Onde prestam assistência a automatismos Beninca?",
-        "answer": "Prestamos assistência por marcação em Lisboa e arredores, nas duas margens do Tejo. Indique a sua localidade para confirmarmos a possibilidade de deslocação."
+        "answer": "Prestamos assistência por marcação em Lisboa e arredores, nas duas margens do Tejo. Consulte o mapa da zona habitual de atuação; a disponibilidade e as condições são combinadas antes da intervenção."
       }
     ],
-    "updated": "2026-11-03"
+    "updated": "2026-11-04"
   }
 }

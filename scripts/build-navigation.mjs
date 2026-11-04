@@ -59,10 +59,30 @@ const translations = [
 const base = "https://tec-casa.pt";
 // Dates of actual content revisions, never the date a build happens to run.
 const contentUpdated = {
-  "/quanto-custa-automatizar-portao": "2026-11-02", "/en/electric-gate-repair-lisbon": "2026-11-02",
+  "/instalacao-kit-portao-vevor": "2026-11-04",
+  "/instalacao-kit-portao-scs-sentinel": "2026-11-04",
+  "/instalacao-kit-portao-olx": "2026-11-04",
+  "/instalacao-kit-portao-leroy-merlin": "2026-11-04",
+  "/instalacao-kit-portao-dimoel": "2026-11-04",
+  "/instalacao-kit-portao-casanoov": "2026-11-04",
+  "/instalacao-kit-portao-brico-depot": "2026-11-04",
+  "/instalacao-kit-portao-avidsen": "2026-11-04",
+  "/instalacao-kit-portao-automatico": "2026-11-04",
+  "/instalacao-kit-portao-amazon": "2026-11-04",
+  "/automatismos-v2-portoes": "2026-11-04",
+  "/automatismos-somfy-portoes": "2026-11-04",
+  "/automatismos-roger-technology-portoes": "2026-11-04",
+  "/automatismos-nice-portoes": "2026-11-04",
+  "/automatismos-motorline-portoes": "2026-11-04",
+  "/automatismos-hormann-portoes": "2026-11-04",
+  "/automatismos-faac-portoes": "2026-11-04",
+  "/automatismos-ditec-portoes": "2026-11-04",
+  "/automatismos-came-portoes": "2026-11-04",
+  "/automatismos-bft-portoes": "2026-11-04",
+  "/quanto-custa-automatizar-portao": "2026-11-04", "/en/electric-gate-repair-lisbon": "2026-11-02",
   "/configurador-automatismos-portoes": "2026-11-02", "/": "2026-11-04", "/en": "2026-10-30", "/a-empresa": "2026-10-30", "/en/about": "2026-10-30",
-  "/zonas-de-assistencia": "2026-11-04", "/instalacao-automatismos-portoes": "2026-11-03", "/reparacao-portoes": "2026-11-03",
-  "/casas-inteligentes-lisboa": "2026-10-30", "/comandos-garagem": "2026-10-30", "/instalacao-camaras-lisboa": "2026-10-30",
+  "/zonas-de-assistencia": "2026-11-04", "/instalacao-automatismos-portoes": "2026-11-04", "/reparacao-portoes": "2026-11-04",
+  "/casas-inteligentes-lisboa": "2026-11-04", "/comandos-garagem": "2026-11-04", "/instalacao-camaras-lisboa": "2026-11-04",
 };
 const urls = records.filter(page => page.indexable).map(page => {
   const pair = translations.find(pair => pair.includes(page.path));

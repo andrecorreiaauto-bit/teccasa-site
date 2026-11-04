@@ -1,3 +1,4 @@
+import ServiceCoverageNotice from "../components/ServiceCoverageNotice";
 import ConfiguratorNovelty from "../components/ConfiguratorNovelty";
 import { useEffect, useState } from "react";
 import Head from "next/head";
@@ -716,44 +717,7 @@ gap:"10px"
                                                              SECÇÃO COMANDOS
                                                                       ========================= */}
 
-                                                     <section
-                                                           style={{
-                                                           padding:"18px 0 10px",
-                                                           textAlign:"center"
-                                                           }}
-                                                           >
-                                                           
-                                                           <div style={{
-                                                           background:"#f5f8fc",
-                                                           border:"1px solid rgba(11,44,95,0.08)",
-                                                           borderRadius:"22px",
-                                                           padding:"22px 24px",
-                                                           boxShadow:"0 10px 26px rgba(11,44,95,0.06)"
-                                                           }}
-                                                           >
-                                                           
-                                                           <p style={{
-                                                           margin:"0",
-                                                           fontSize:"17px",
-                                                           lineHeight:"1.7",
-                                                           color:"#555"
-                                                           }}>
-                                                           Antes de pedir assistência, confirme se a sua zona está dentro da nossa área de atuação.{" "}
-                                                           <a
-                                                           href="/#zona-atuacao"
-                                                           style={{
-                                                           color:"#08285c",
-                                                           fontWeight:"bold",
-                                                           textDecoration:"underline"
-                                                           }}
-                                                           >
-                                                           Ver zona de atuação da TecCasa Soluções
-                                                           </a>.
-                                                           </p>
-                                                           
-                                                           </div>
-                                                           
-                                                           </section>
+                                                     <ServiceCoverageNotice />
                                                      
   <footer style={{
 marginTop:"80px",
