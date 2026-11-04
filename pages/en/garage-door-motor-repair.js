@@ -11,7 +11,7 @@ export default function GarageDoorMotorRepair() {
 
   const menuItems = [
     { label: "Home", href: "/en", active: true },
-  { label:"Configure gate automation (PT)", href:"/configurador-automatismos-portoes", active:true },
+  { label:"Configure gate automation", href:"/en/gate-automation-configurator", active:true },
     { label: "Gate Automation Repair", href: "/en/electric-gate-repair-lisbon", active: true },
     { label: "Gate installation", href: "/en/automatic-gate-installation-lisbon", active: true },
     { label: "Garage remotes", href: "/en/garage-remote-controls-lisbon", active: true },
@@ -236,7 +236,7 @@ export default function GarageDoorMotorRepair() {
                       fontSize: "16px",
                     }}
                   >
-                    {item.label}{item.href === "/configurador-automatismos-portoes" && <ConfiguratorNovelty english />}
+                    {item.label}{item.href === "/en/gate-automation-configurator" && <ConfiguratorNovelty english />}
                   </a>
                 ))}
 
@@ -286,7 +286,7 @@ export default function GarageDoorMotorRepair() {
                       padding: "10px 0",
                     }}
                   >
-                    {item.label}{item.href === "/configurador-automatismos-portoes" && <ConfiguratorNovelty english />}
+                    {item.label}{item.href === "/en/gate-automation-configurator" && <ConfiguratorNovelty english />}
                   </a>
                 ))}
 

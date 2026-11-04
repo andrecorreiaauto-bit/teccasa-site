@@ -7,7 +7,7 @@ export default function SiteHeader({ english = false, alternateHref }) {
   const [menuOpen, setMenuOpen] = useState(false);
   const menuItems = english ? [
     ["Home", "/en"],
-    ["Configure gate automation (PT)", "/configurador-automatismos-portoes"],
+    ["Configure gate automation", "/en/gate-automation-configurator"],
     ["Gate Automation Repair", "/en/electric-gate-repair-lisbon"],
     ["Gate Installation", "/en/automatic-gate-installation-lisbon"],
     ["Garage Remotes", "/en/garage-remote-controls-lisbon"],
@@ -44,7 +44,7 @@ export default function SiteHeader({ english = false, alternateHref }) {
             </div>
           </div>
           {menuOpen && <div className="navigation-links" id="company-navigation">
-            {menuItems.map(([label, href]) => <a key={href} href={href} aria-current={href === path ? "page" : undefined} onClick={() => setMenuOpen(false)}>{label}{href === "/configurador-automatismos-portoes" && <ConfiguratorNovelty english={english} />}</a>)}
+            {menuItems.map(([label, href]) => <a key={href} href={href} aria-current={href === path ? "page" : undefined} onClick={() => setMenuOpen(false)}>{label}{(href === "/configurador-automatismos-portoes" || href === "/en/gate-automation-configurator") && <ConfiguratorNovelty english={english} />}</a>)}
             <a className="whatsapp" href="https://wa.me/351922021980" target="_blank" rel="noopener noreferrer" onClick={() => setMenuOpen(false)}>WhatsApp</a>
           </div>}
         </nav>

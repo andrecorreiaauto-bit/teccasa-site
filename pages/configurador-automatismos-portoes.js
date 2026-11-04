@@ -44,7 +44,7 @@ export default function Configurador() {
       <meta property="og:image" content={`${company.url}/automatismos/tipos/instalacao-correr-v2-1440.webp`} />
     </Head>
     <div className="configurator-page" lang="pt-PT">
-      <SiteHeader alternateHref="/en/automatic-gate-installation-lisbon" />
+      <SiteHeader alternateHref="/en/gate-automation-configurator" />
       <ConfiguratorMeasurement frame={frame} src={src} />
       <main>
         <nav className="breadcrumbs" aria-label="Localização no site"><a href="/">Início</a><span aria-hidden="true"> / </span><a href="/instalacao-automatismos-portoes">Instalação de automatismos</a><span aria-hidden="true"> / </span><span>Configurador</span></nav>

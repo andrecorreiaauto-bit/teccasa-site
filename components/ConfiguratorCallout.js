@@ -5,12 +5,12 @@ export default function ConfiguratorCallout({ featured = false, kind, english = 
   return <section className={`configurator-callout${featured ? " featured" : ""}`} aria-label={english ? "Gate configurator" : "Configurador de automatismos"}>
     <div className="copy">
       {featured && CONFIGURATOR_IS_NEW && <span className="new-badge" data-configurator-novelty>{english ? "New" : "Novidade"}</span>}
-      <h2>{featured ? "Descubra o automatismo adequado ao seu portão." : english ? "Explore the options for your gate" : "Que automatismo faz sentido para o seu portão?"}</h2>
-      <p><strong>{english ? "See how much gate automation could cost." : "Saiba quanto pode custar automatizar o seu portão."}</strong> {english ? "Describe your gate and installation conditions to receive up to three automation options with indicative prices by email. The configurator is available in Portuguese." : "Indique as características do seu portão e as condições da instalação para receber até três soluções de automatização com preços indicativos por email."}</p>
+      <h2>{featured ? (english ? "Find the right automation for your gate." : "Descubra o automatismo adequado ao seu portão.") : english ? "Explore the options for your gate" : "Que automatismo faz sentido para o seu portão?"}</h2>
+      <p><strong>{english ? "See how much gate automation could cost." : "Saiba quanto pode custar automatizar o seu portão."}</strong> {english ? "Describe your gate and installation conditions to receive up to three automation options with indicative prices by email." : "Indique as características do seu portão e as condições da instalação para receber até três soluções de automatização com preços indicativos por email."}</p>
       <ConfiguratorButton kind={kind} english={english} featured />
       <p className="note">{english ? "Prices depend on the information provided and technical assessment. Some cases require an on-site visit." : "Valores sujeitos aos dados fornecidos e a validação técnica. Algumas situações exigem avaliação no local."}</p>
     </div>
-    {featured && <figure><img src="/automatismos/tipos/instalacao-correr-v2-768.webp" alt="Ilustração de um portão de correr com automatismo" width="768" height="512" loading="lazy" /><figcaption>Imagem ilustrativa gerada por IA.</figcaption></figure>}
+    {featured && <figure><img src="/automatismos/tipos/instalacao-correr-v2-768.webp" alt={english ? "Illustration of an automated sliding gate" : "Ilustração de um portão de correr com automatismo"} width="768" height="512" loading="lazy" /><figcaption>{english ? "AI-generated illustration." : "Imagem ilustrativa gerada por IA."}</figcaption></figure>}
     <style jsx>{`
       .configurator-callout { box-sizing:border-box; margin:30px 0 45px; padding:34px; border:1px solid #d8e3f1; border-radius:24px; background:#eef3fa; color:#34445a; font-family:Arial,sans-serif; }
       .featured { display:grid; grid-template-columns:1.2fr 1fr; align-items:center; gap:36px; padding:38px; margin:32px 0 55px; background:linear-gradient(135deg,#eef3fa,#fff); }
