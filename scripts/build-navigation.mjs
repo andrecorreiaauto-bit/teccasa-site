@@ -10,6 +10,15 @@ const brandPages = JSON.parse(readFileSync(join(root, "lib/independent-brand-pag
 const assistanceBrands = JSON.parse(readFileSync(join(root, "lib/brand-assistance-pages.json"), "utf8"));
 const faultPages = JSON.parse(readFileSync(join(root, "lib/fault-pages.json"), "utf8"));
 const labels = {
+  "/en/automatic-gate-installation-lisbon": "Gate Automation Installation in Lisbon",
+  "/en/electric-gate-repair-lisbon": "Gate Automation and Automatic Gate Repairs in Lisbon",
+  "/en/smart-home-lisbon": "Smart Home Design and Installation in Lisbon",
+  "/en/security-cameras-lisbon": "Home Security Camera Installation in Lisbon",
+  "/en/garage-remote-controls-lisbon": "Garage Remote Controls in Lisbon",
+  "/en/service-areas": "Service Areas",
+  "/en/garage-door-motor-repair": "Garage Door Motor Repair in Lisbon",
+  "/en/gate-remote-control-not-working": "Gate Remote Control Not Working?",
+
   "/instalacao-automatismos-portoes": "Instalação de Automatismos para Portões",
   "/reparacao-portoes": "Reparação de automatismos e portões automáticos",
   "/quanto-custa-automatizar-portao": "Quanto custa automatizar um portão?",
@@ -49,6 +58,8 @@ const groups = [groupOrder[0], groupOrder[1], groupOrder[9], ...groupOrder.slice
 writeFileSync(join(root, "lib/page-catalog.json"), JSON.stringify({ groups }, null, 2) + "\n");
 const xmlEscape = value => value.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 const translations = [
+  ["/casas-inteligentes-lisboa", "/en/smart-home-lisbon"],
+  ["/zonas-de-assistencia", "/en/service-areas"],
   ["/", "/en"], ["/a-empresa", "/en/about"],
   ["/instalacao-automatismos-portoes", "/en/automatic-gate-installation-lisbon"],
   ["/reparacao-portoes", "/en/electric-gate-repair-lisbon"],
@@ -59,6 +70,15 @@ const translations = [
 const base = "https://tec-casa.pt";
 // Dates of actual content revisions, never the date a build happens to run.
 const contentUpdated = {
+  "/en": "2026-11-04",
+  "/en/automatic-gate-installation-lisbon": "2026-11-04",
+  "/en/electric-gate-repair-lisbon": "2026-11-04",
+  "/en/smart-home-lisbon": "2026-11-04",
+  "/en/security-cameras-lisbon": "2026-11-04",
+  "/en/garage-remote-controls-lisbon": "2026-11-04",
+  "/en/service-areas": "2026-11-04",
+  "/en/garage-door-motor-repair": "2026-11-04",
+  "/en/gate-remote-control-not-working": "2026-11-04",
   "/instalacao-kit-portao-vevor": "2026-11-04",
   "/instalacao-kit-portao-scs-sentinel": "2026-11-04",
   "/instalacao-kit-portao-olx": "2026-11-04",
@@ -79,10 +99,17 @@ const contentUpdated = {
   "/automatismos-ditec-portoes": "2026-11-04",
   "/automatismos-came-portoes": "2026-11-04",
   "/automatismos-bft-portoes": "2026-11-04",
-  "/quanto-custa-automatizar-portao": "2026-11-04", "/en/electric-gate-repair-lisbon": "2026-11-02",
-  "/configurador-automatismos-portoes": "2026-11-02", "/": "2026-11-04", "/en": "2026-10-30", "/a-empresa": "2026-10-30", "/en/about": "2026-10-30",
-  "/zonas-de-assistencia": "2026-11-04", "/instalacao-automatismos-portoes": "2026-11-04", "/reparacao-portoes": "2026-11-04",
-  "/casas-inteligentes-lisboa": "2026-11-04", "/comandos-garagem": "2026-11-04", "/instalacao-camaras-lisboa": "2026-11-04",
+  "/quanto-custa-automatizar-portao": "2026-11-04",
+  "/configurador-automatismos-portoes": "2026-11-02",
+  "/": "2026-11-04",
+  "/a-empresa": "2026-10-30",
+  "/en/about": "2026-10-30",
+  "/zonas-de-assistencia": "2026-11-04",
+  "/instalacao-automatismos-portoes": "2026-11-04",
+  "/reparacao-portoes": "2026-11-04",
+  "/casas-inteligentes-lisboa": "2026-11-04",
+  "/comandos-garagem": "2026-11-04",
+  "/instalacao-camaras-lisboa": "2026-11-04"
 };
 const urls = records.filter(page => page.indexable).map(page => {
   const pair = translations.find(pair => pair.includes(page.path));

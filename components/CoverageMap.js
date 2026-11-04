@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from "react";
 
 const CENTER = [38.84002, -9.10069];
 
-export default function CoverageMap() {
+export default function CoverageMap({ english = false }) {
   const container = useRef(null);
   const [status, setStatus] = useState("loading");
 
@@ -14,7 +14,7 @@ export default function CoverageMap() {
       if (disposed || !container.current) return;
       const L = window.L;
       map = L.map(container.current, { zoomControl: false }).setView(CENTER, window.innerWidth < 768 ? 8 : 9);
-      L.control.zoom({ zoomInTitle: "Ampliar mapa", zoomOutTitle: "Reduzir mapa" }).addTo(map);
+      L.control.zoom({ zoomInTitle: english ? "Zoom in" : "Ampliar mapa", zoomOutTitle: english ? "Zoom out" : "Reduzir mapa" }).addTo(map);
       L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
         attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
       }).addTo(map);
@@ -41,12 +41,12 @@ export default function CoverageMap() {
       if (map) map.remove();
       if (script) { script.onload = null; script.onerror = null; script.remove(); }
     };
-  }, []);
+  }, [english]);
 
   return <div className="coverage-map" data-coverage-map>
-    <div ref={container} id="mapa-teccasa" className="map-canvas" role="region" aria-label="Mapa da zona habitual de atuação da TecCasa, num raio aproximado de 45 km" />
-    {status !== "ready" && <p className="map-status" role="status">{status === "error" ? <>Não foi possível carregar o mapa. <a href="/zonas-de-assistencia">Consulte as zonas de assistência.</a></> : "A carregar o mapa da zona de atuação…"}</p>}
-    <noscript><p>Ative o JavaScript para consultar o mapa ou veja as <a href="/zonas-de-assistencia">zonas de assistência</a>.</p></noscript>
+    <div ref={container} id="mapa-teccasa" className="map-canvas" role="region" aria-label={english ? "TecCasa usual service area, approximate 45 km radius" : "Mapa da zona habitual de atuação da TecCasa, num raio aproximado de 45 km"} />
+    {status !== "ready" && <p className="map-status" role="status">{status === "error" ? (english ? <>The map could not be loaded. <a href="/en/service-areas">View our service areas.</a></> : <>Não foi possível carregar o mapa. <a href="/zonas-de-assistencia">Consulte as zonas de assistência.</a></>) : (english ? "Loading the service area map…" : "A carregar o mapa da zona de atuação…")}</p>}
+    <noscript><p>{english ? <>Enable JavaScript to view the map, or see our <a href="/en/service-areas">service areas</a>.</> : <>Ative o JavaScript para consultar o mapa ou veja as <a href="/zonas-de-assistencia">zonas de assistência</a>.</>}</p></noscript>
     <style jsx>{`
       .coverage-map { position:relative; border:1px solid #cfdeec; border-radius:20px; overflow:hidden; background:#e8f0f7; isolation:isolate; }
       .map-canvas { width:100%; height:400px; z-index:0; }

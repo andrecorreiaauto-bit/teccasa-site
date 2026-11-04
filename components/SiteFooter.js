@@ -1,6 +1,6 @@
 import { company } from "../lib/company";
 
-export default function SiteFooter({ english = false, showSocialLinks = true }) {
+export default function SiteFooter({ english = false, showSocialLinks = !english }) {
   return <footer className="site-footer">
     <img src="/favicon.png" alt="" width="70" height="70" />
     <h2>TecCasa Soluções</h2><p>{english ? "Gate Automation · Repairs · Smart Solutions" : "Automatismos · Reparações · Soluções Inteligentes"}</p>

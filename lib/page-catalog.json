@@ -550,12 +550,12 @@
         },
         {
           "path": "/en/automatic-gate-installation-lisbon",
-          "label": "Automatic Gate Installation in Lisbon",
+          "label": "Gate Automation Installation in Lisbon",
           "indexable": true
         },
         {
           "path": "/en/electric-gate-repair-lisbon",
-          "label": "Electric Gate Repair in Lisbon",
+          "label": "Gate Automation and Automatic Gate Repairs in Lisbon",
           "indexable": true
         },
         {
@@ -580,7 +580,17 @@
         },
         {
           "path": "/en/security-cameras-lisbon",
-          "label": "Security Camera Installation in Lisbon",
+          "label": "Home Security Camera Installation in Lisbon",
+          "indexable": true
+        },
+        {
+          "path": "/en/service-areas",
+          "label": "Service Areas",
+          "indexable": true
+        },
+        {
+          "path": "/en/smart-home-lisbon",
+          "label": "Smart Home Design and Installation in Lisbon",
           "indexable": true
         }
       ]

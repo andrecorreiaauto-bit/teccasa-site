@@ -1,7 +1,7 @@
-export default function BrandLogoGrid({ brands }) {
+export default function BrandLogoGrid({ brands, english = false }) {
   return <div className="brand-logo-grid" data-brand-logos style={{ "--logo-columns": Math.min(6, brands.length) }}>
     {brands.map(brand => <div className="logo-card" key={brand.name}>
-      {brand.href ? <a href={brand.href} title={brand.name}>
+      {brand.href ? <a href={brand.href} title={english ? `${brand.name} — detailed page in Portuguese` : brand.name} hrefLang={english ? "pt-PT" : undefined}>
         <img src={brand.logo} alt={brand.name} width="180" height="72" loading="lazy" style={{ transform: `scale(${brand.scale || 1})` }} />
       </a> : <img src={brand.logo} alt={brand.name} width="180" height="72" loading="lazy" style={{ transform: `scale(${brand.scale || 1})` }} />}
     </div>)}

@@ -71,6 +71,8 @@
   <url>
     <loc>https://tec-casa.pt/casas-inteligentes-lisboa</loc>
     <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://tec-casa.pt/casas-inteligentes-lisboa" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://tec-casa.pt/en/smart-home-lisbon" />
   </url>
   <url>
     <loc>https://tec-casa.pt/comando-garagem-nao-funciona</loc>
@@ -94,7 +96,7 @@
   </url>
   <url>
     <loc>https://tec-casa.pt/en</loc>
-    <lastmod>2026-10-30</lastmod>
+    <lastmod>2026-11-04</lastmod>
     <xhtml:link rel="alternate" hreflang="pt-PT" href="https://tec-casa.pt/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://tec-casa.pt/en" />
   </url>
@@ -106,20 +108,23 @@
   </url>
   <url>
     <loc>https://tec-casa.pt/en/automatic-gate-installation-lisbon</loc>
+    <lastmod>2026-11-04</lastmod>
     <xhtml:link rel="alternate" hreflang="pt-PT" href="https://tec-casa.pt/instalacao-automatismos-portoes" />
     <xhtml:link rel="alternate" hreflang="en" href="https://tec-casa.pt/en/automatic-gate-installation-lisbon" />
   </url>
   <url>
     <loc>https://tec-casa.pt/en/electric-gate-repair-lisbon</loc>
-    <lastmod>2026-11-02</lastmod>
+    <lastmod>2026-11-04</lastmod>
     <xhtml:link rel="alternate" hreflang="pt-PT" href="https://tec-casa.pt/reparacao-portoes" />
     <xhtml:link rel="alternate" hreflang="en" href="https://tec-casa.pt/en/electric-gate-repair-lisbon" />
   </url>
   <url>
     <loc>https://tec-casa.pt/en/garage-door-motor-repair</loc>
+    <lastmod>2026-11-04</lastmod>
   </url>
   <url>
     <loc>https://tec-casa.pt/en/garage-remote-controls-lisbon</loc>
+    <lastmod>2026-11-04</lastmod>
     <xhtml:link rel="alternate" hreflang="pt-PT" href="https://tec-casa.pt/comandos-garagem" />
     <xhtml:link rel="alternate" hreflang="en" href="https://tec-casa.pt/en/garage-remote-controls-lisbon" />
   </url>
@@ -128,13 +133,27 @@
   </url>
   <url>
     <loc>https://tec-casa.pt/en/gate-remote-control-not-working</loc>
+    <lastmod>2026-11-04</lastmod>
     <xhtml:link rel="alternate" hreflang="pt-PT" href="https://tec-casa.pt/comando-garagem-nao-funciona" />
     <xhtml:link rel="alternate" hreflang="en" href="https://tec-casa.pt/en/gate-remote-control-not-working" />
   </url>
   <url>
     <loc>https://tec-casa.pt/en/security-cameras-lisbon</loc>
+    <lastmod>2026-11-04</lastmod>
     <xhtml:link rel="alternate" hreflang="pt-PT" href="https://tec-casa.pt/instalacao-camaras-lisboa" />
     <xhtml:link rel="alternate" hreflang="en" href="https://tec-casa.pt/en/security-cameras-lisbon" />
+  </url>
+  <url>
+    <loc>https://tec-casa.pt/en/service-areas</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://tec-casa.pt/zonas-de-assistencia" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://tec-casa.pt/en/service-areas" />
+  </url>
+  <url>
+    <loc>https://tec-casa.pt/en/smart-home-lisbon</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://tec-casa.pt/casas-inteligentes-lisboa" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://tec-casa.pt/en/smart-home-lisbon" />
   </url>
   <url>
     <loc>https://tec-casa.pt/instalacao-automatismos-portoes</loc>
@@ -453,5 +472,7 @@
   <url>
     <loc>https://tec-casa.pt/zonas-de-assistencia</loc>
     <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://tec-casa.pt/zonas-de-assistencia" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://tec-casa.pt/en/service-areas" />
   </url>
 </urlset>

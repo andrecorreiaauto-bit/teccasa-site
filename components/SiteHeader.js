@@ -8,11 +8,13 @@ export default function SiteHeader({ english = false, alternateHref, onBrandClic
   const menuItems = english ? [
     ["Home", "/en"],
     ["Configure gate automation", "/en/gate-automation-configurator"],
+    ["Gate Automation Installation", "/en/automatic-gate-installation-lisbon"],
     ["Gate Automation Repair", "/en/electric-gate-repair-lisbon"],
-    ["Gate Installation", "/en/automatic-gate-installation-lisbon"],
-    ["Garage Remotes", "/en/garage-remote-controls-lisbon"],
-    ["Security Cameras", "/en/security-cameras-lisbon"],
-    ["About us", "/en/about"],
+    ["Remotes and Access", "/en/garage-remote-controls-lisbon"],
+    ["Smart Home", "/en/smart-home-lisbon"],
+    ["Home Monitoring", "/en/security-cameras-lisbon"],
+    ["Service Areas", "/en/service-areas"],
+    ["About TecCasa", "/en/about"],
   ] : [
     ["Início", "/"],
     ["Configurar automatismo", "/configurador-automatismos-portoes"],
@@ -35,7 +37,7 @@ export default function SiteHeader({ english = false, alternateHref, onBrandClic
     };
   }, [menuOpen]);
   return (<>
-        <nav className="site-header" aria-label={english ? "Main navigation" : "Navegação principal"} onClick={(event) => event.stopPropagation()}>
+        <nav className={`site-header${english ? " english-header" : ""}`} aria-label={english ? "Main navigation" : "Navegação principal"} onClick={(event) => event.stopPropagation()}>
           <div className="header-row">
             <a className="brand" href={english ? "/en" : "/"} onClick={onBrandClick}><img src="/favicon.png" alt="" width="30" height="30" />TecCasa Soluções</a>
             <div className="header-controls">
@@ -62,6 +64,7 @@ export default function SiteHeader({ english = false, alternateHref, onBrandClic
       a { color: #08285c; text-underline-offset: 4px; }
       a:focus-visible, button:focus-visible { outline: 3px solid #f7b545; outline-offset: 5px; }
       @media(max-width: 768px) { .site-header { top: 10px; width: calc(100% - 20px); padding: 12px; border-radius: 18px; } .brand { font-size: 16px; gap: 8px; } }
+      @media(max-width:350px) { .english-header .brand { font-size:14px; gap:6px; white-space:nowrap; } .english-header .brand img { width:24px; height:24px; } .english-header .header-controls { gap:8px; } .english-header .language { font-size:11px; padding:7px 8px; } }
     `}</style>
   </>);
 }
