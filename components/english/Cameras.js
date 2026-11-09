@@ -31,8 +31,7 @@ const page = {
       "question": "What happens if the internet connection fails?",
       "answer": "That depends on the equipment, power supply and recording method. Before installation, we explain what remains available and the limitations of the solution."
     }
-  ],
-  "pair": true
+  ]
 };
 
 export default function Cameras() {
@@ -159,7 +158,6 @@ const styles = `
 .english-page.smart-service .dark .micro{color:#d1dff0;margin-top:20px}
 .english-page.smart-service .dark .config-button{background:#fff;color:#08285c;box-shadow:0 8px 24px #0002}
 .english-page.smart-service .practical{font-size:13px;line-height:1.8;color:#66778a;padding:12px 0 26px;margin:0}
-.english-page.smart-service .footer-contacts{display:flex;justify-content:center;gap:22px;flex-wrap:wrap;font-size:15px}
 .english-page.smart-service .floating-wa{position:fixed;bottom:25px;right:25px;z-index:900;display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:12px 18px;border-radius:999px;background:#25d366;color:white;text-decoration:none;font-size:14px;font-weight:700;box-shadow:0 4px 18px #0002}
 @media(max-width:1100px){.english-page.smart-service .hero{gap:28px}
 .english-page.smart-service .actions .action{flex:1 1 170px}
@@ -233,7 +231,6 @@ const styles = `
 .english-page.smart-service .final{padding:33px 21px;margin:22px 0}
 .english-page.smart-service .final>p{font-size:17px}
 .english-page.smart-service .practical{font-size:12px;padding:12px 4px 24px}
-.english-page.smart-service .footer-contacts{flex-direction:column;gap:11px}
 .english-page.smart-service .floating-wa{right:14px;bottom:14px;min-height:46px;font-size:13px;padding:11px 16px}}
 @media(max-width:360px){.english-page.smart-service .type-cards,.english-page.smart-service .compact{grid-template-columns:1fr!important}
 .english-page.smart-service .service-grid .linked-card{grid-template-columns:85px minmax(0,1fr)}

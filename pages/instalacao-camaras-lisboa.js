@@ -53,9 +53,6 @@ export default function InstalacaoCamarasLisboa() {
 
                                                   <link rel="canonical" href="https://tec-casa.pt/instalacao-camaras-lisboa" />
 
-                                                  <link rel="alternate" hrefLang="pt-PT" href="https://tec-casa.pt/instalacao-camaras-lisboa" />
-                                                  <link rel="alternate" hrefLang="en" href="https://tec-casa.pt/en/security-cameras-lisbon" />
-                                                  <link rel="alternate" hrefLang="x-default" href="https://tec-casa.pt/instalacao-camaras-lisboa" />
 
                                                   </Head>
 <SmartServiceLayout alternateHref="/en/security-cameras-lisbon" whatsapp="https://wa.me/351922021980?text=Ol%C3%A1%2C%20gostava%20de%20pedir%20uma%20avalia%C3%A7%C3%A3o%20para%20instalar%20ou%20melhorar%20c%C3%A2maras%20em%20casa.%0A%0ALocalidade%3A%0AEspa%C3%A7os%20que%20pretendo%20acompanhar%3A%0AC%C3%A2maras%20ou%20grava%C3%A7%C3%A3o%20j%C3%A1%20existentes%3A%0APosso%20enviar%20fotografias%20do%20local%3F">

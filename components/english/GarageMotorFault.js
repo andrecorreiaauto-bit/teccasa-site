@@ -14,8 +14,7 @@ const page = {
   "description": "Garage door motor repair in Lisbon for residential and holiday properties. Diagnosis for motors, remotes, receivers, control boards and door movement issues.",
   "message": "Hello, I would like help with a garage door motor.\n\nLocation:\nBrand/model (if known):\nWhat happens:",
   "wrapper": "page",
-  "questions": [],
-  "pair": false
+  "questions": []
 };
 
 export default function GarageMotorFault() {

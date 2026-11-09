@@ -9,6 +9,8 @@ const repairPages = JSON.parse(readFileSync(join(root, "lib/gate-repair-pages.js
 const brandPages = JSON.parse(readFileSync(join(root, "lib/independent-brand-pages.json"), "utf8"));
 const assistanceBrands = JSON.parse(readFileSync(join(root, "lib/brand-assistance-pages.json"), "utf8"));
 const faultPages = JSON.parse(readFileSync(join(root, "lib/fault-pages.json"), "utf8"));
+const equipmentPages = JSON.parse(readFileSync(join(root, "lib/equipment-service-pages.json"), "utf8"));
+const translations = JSON.parse(readFileSync(join(root, "lib/language-pairs.json"), "utf8"));
 const labels = {
   "/en/automatic-gate-installation-lisbon": "Gate Automation Installation in Lisbon",
   "/en/electric-gate-repair-lisbon": "Gate Automation and Automatic Gate Repairs in Lisbon",
@@ -47,7 +49,7 @@ const records = files.map(file => {
   const brand = brandPages[route.slice(1)];
   const fault = faultPages[route.slice(1)];
   const assistanceBrand = assistanceBrands[route.slice(1)];
-  const title = labels[route] || local?.title || gate?.title || repair?.title || brand?.title || fault?.title || assistanceBrand?.title || source.match(/<title>\s*([^<{]+?)\s*<\/title>/)?.[1]?.replace(/\s+/g, " ").replace(/\s*\|\s*TecCasa Soluções\s*$/, "");
+  const title = labels[route] || equipmentPages[route.slice(1)]?.label || local?.title || gate?.title || repair?.title || brand?.title || fault?.title || assistanceBrand?.title || source.match(/<title>\s*([^<{]+?)\s*<\/title>/)?.[1]?.replace(/\s+/g, " ").replace(/\s*\|\s*TecCasa Soluções\s*$/, "");
   if (!title) throw new Error(`Page has no directory label: ${route}`);
   const indexable = !source.includes("LegalPage") && !/<meta[^>]+content=["'][^"']*noindex/.test(source);
   const group = !indexable ? groupOrder[8] : principal.has(route) ? groupOrder[0] : gate ? groupOrder[1] : repair ? groupOrder[9] : local ? groupOrder[local.kind === "installation" ? 2 : 3] : route.startsWith("/en") ? groupOrder[7] : route.startsWith("/automatismos-") ? groupOrder[5] : route.startsWith("/instalacao-kit-") ? groupOrder[6] : groupOrder[4];
@@ -58,16 +60,9 @@ if (paths.size !== records.length) throw new Error("Duplicate page route");
 const groups = [groupOrder[0], groupOrder[1], groupOrder[9], ...groupOrder.slice(2,9)].map(title => ({ title, items: records.filter(item => item.group === title).map(({ group, ...item }) => item) })).filter(group => group.items.length);
 writeFileSync(join(root, "lib/page-catalog.json"), JSON.stringify({ groups }, null, 2) + "\n");
 const xmlEscape = value => value.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
-const translations = [
-  ["/casas-inteligentes-lisboa", "/en/smart-home-lisbon"],
-  ["/zonas-de-assistencia", "/en/service-areas"],
-  ["/", "/en"], ["/a-empresa", "/en/about"],
-  ["/instalacao-automatismos-portoes", "/en/automatic-gate-installation-lisbon"],
-  ["/reparacao-portoes", "/en/electric-gate-repair-lisbon"],
-  ["/comandos-garagem", "/en/garage-remote-controls-lisbon"],
-  ["/instalacao-camaras-lisboa", "/en/security-cameras-lisbon"],
-  ["/comando-garagem-nao-funciona", "/en/gate-remote-control-not-working"],
-];
+for (const pair of translations) {
+  if (pair.some(path => !paths.has(path))) throw new Error(`Missing language route: ${pair.join(" / ")}`);
+}
 const base = "https://tec-casa.pt";
 // Dates of actual content revisions, never the date a build happens to run.
 const contentUpdated = {
@@ -81,13 +76,13 @@ const contentUpdated = {
   "/en/garage-door-motor-repair": "2026-11-04",
   "/en/gate-remote-control-not-working": "2026-11-04",
   "/instalacao-kit-portao-vevor": "2026-11-04",
-  "/instalacao-kit-portao-scs-sentinel": "2026-11-04",
+  "/instalacao-kit-portao-scs-sentinel": "2026-11-09",
   "/instalacao-kit-portao-olx": "2026-11-04",
   "/instalacao-kit-portao-leroy-merlin": "2026-11-04",
   "/instalacao-kit-portao-dimoel": "2026-11-04",
   "/instalacao-kit-portao-casanoov": "2026-11-04",
   "/instalacao-kit-portao-brico-depot": "2026-11-04",
-  "/instalacao-kit-portao-avidsen": "2026-11-04",
+  "/instalacao-kit-portao-avidsen": "2026-11-09",
   "/instalacao-kit-portao-automatico": "2026-11-04",
   "/instalacao-kit-portao-amazon": "2026-11-04",
   "/automatismos-v2-portoes": "2026-11-04",

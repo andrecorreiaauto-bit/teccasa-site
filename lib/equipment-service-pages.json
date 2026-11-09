@@ -1,0 +1,2122 @@
+{
+  "automatismos-bft-portoes": {
+    "kind": "brand",
+    "title": "Automatismos BFT para Portões | Instalação e Assistência",
+    "label": "Automatismos BFT para Portões | Instalação e Assistência",
+    "description": "Instalação, programação, substituição e assistência técnica a automatismos BFT para portões de correr, batente e garagem. Diagnóstico de motores, centrais, comandos e sistemas de segurança.",
+    "heading": "Automatismos BFT para portões",
+    "lead": [
+      "Instalação, programação e assistência técnica a automatismos BFT para portões de correr, portões de batente e portões de garagem. Diagnóstico de motores, centrais eletrónicas, comandos, fotocélulas e sistemas de segurança.",
+      "Serviço técnico independente para automatismos BFT."
+    ],
+    "image": {
+      "src": "/automatismos-bft-portoes-hero.png",
+      "alt": "Instalação e assistência a automatismos BFT para portões"
+    },
+    "whatsappLabel": "Pedir assistência",
+    "anchor": {
+      "href": "#servicos",
+      "label": "Ver serviços"
+    },
+    "sections": [
+      {
+        "title": "Serviços em automatismos BFT",
+        "id": "servicos",
+        "intro": [
+          "A TecCasa Soluções presta instalação, programação, substituição e assistência técnica a automatismos BFT para portões residenciais, acessos exteriores e sistemas de utilização frequente."
+        ],
+        "cards": [
+          {
+            "title": "Instalação de motores BFT",
+            "text": "Montagem de automatismos BFT em portões de correr, batente e garagem, com atenção ao peso, curso e condições mecânicas do portão."
+          },
+          {
+            "title": "Substituição de automatismos",
+            "text": "Troca de motores antigos ou avariados por soluções BFT adequadas ao tipo de portão e à frequência de utilização."
+          },
+          {
+            "title": "Programação de comandos",
+            "text": "Configuração de comandos, recetores, abertura total, abertura pedonal e modos de funcionamento do automatismo."
+          },
+          {
+            "title": "Centrais eletrónicas BFT",
+            "text": "Diagnóstico e parametrização de centrais, incluindo tempos de trabalho, força, abrandamento e entradas de segurança."
+          },
+          {
+            "title": "Fotocélulas e segurança",
+            "text": "Verificação, instalação e afinação de fotocélulas, sistemas de proteção e comportamento do portão durante o fecho."
+          },
+          {
+            "title": "Diagnóstico de avarias",
+            "text": "Análise de falhas em motores, comandos, sensores, centrais e movimento mecânico antes de substituir componentes."
+          }
+        ]
+      },
+      {
+        "title": "Automatismos BFT para diferentes utilizações",
+        "intro": [
+          "Os automatismos BFT são utilizados em vários tipos de portão. Para garantir bom funcionamento, é importante escolher e afinar o equipamento de acordo com o peso do portão, o espaço disponível e a intensidade de utilização."
+        ],
+        "cards": [
+          {
+            "title": "Portões de correr",
+            "text": "Instalação e assistência a motores BFT para portões de correr, com verificação de cremalheira, pinhão, fins de curso e força de arranque."
+          },
+          {
+            "title": "Portões de batente",
+            "text": "Programação e diagnóstico de automatismos BFT para portões de uma ou duas folhas, incluindo atraso entre folhas e abertura pedonal."
+          },
+          {
+            "title": "Portões de garagem",
+            "text": "Assistência a sistemas BFT aplicados em portões de garagem, com análise do motor, comandos, calhas e segurança."
+          },
+          {
+            "title": "Acessos residenciais e condomínios",
+            "text": "Verificação de automatismos em moradias e acessos de utilização frequente, onde a fiabilidade e a afinação correta são essenciais."
+          }
+        ]
+      },
+      {
+        "title": "Avarias comuns em automatismos BFT",
+        "id": "avarias",
+        "intro": [
+          "Os automatismos BFT podem apresentar diferentes sintomas consoante o tipo de portão, a utilização diária, a afinação da central e o estado mecânico da instalação. Clique em cada situação para saber mais sobre possíveis causas."
+        ],
+        "cards": [
+          {
+            "title": "O portão não fecha",
+            "href": "/portao-nao-fecha",
+            "text": "Quando o portão fica aberto, não termina o fecho ou bloqueia por segurança."
+          },
+          {
+            "title": "O portão fecha e volta a abrir",
+            "href": "/portao-fecha-e-volta-a-abrir",
+            "text": "Quando o sistema inicia o fecho, mas inverte o movimento durante o percurso."
+          },
+          {
+            "title": "O portão abre só uma folha",
+            "href": "/portao-abre-so-uma-folha",
+            "text": "Situação comum em portões de batente com automatismos de duas folhas."
+          },
+          {
+            "title": "O portão abre apenas até meio",
+            "href": "/portao-abre-ate-meio",
+            "text": "Quando o portão interrompe o movimento antes de completar a abertura."
+          },
+          {
+            "title": "Motor faz barulho mas não abre",
+            "href": "/motor-portao-faz-barulho-mas-nao-abre",
+            "text": "Quando o motor trabalha, mas não consegue transmitir movimento ao portão."
+          },
+          {
+            "title": "Motor do portão sem força",
+            "href": "/motor-portao-sem-forca",
+            "text": "Quando o portão abre devagar, perde força ou pára com facilidade."
+          },
+          {
+            "title": "Portão de garagem não abre",
+            "href": "/portao-garagem-nao-abre",
+            "text": "Para motores de teto, portões seccionados, basculantes e sistemas de garagem."
+          },
+          {
+            "title": "Comando da garagem não funciona",
+            "href": "/comando-garagem-nao-funciona",
+            "text": "Quando o comando deixou de responder, perdeu programação ou não abre o portão."
+          },
+          {
+            "title": "Comando só funciona perto",
+            "href": "/comando-garagem-so-funciona-perto",
+            "text": "Quando o comando tem pouco alcance, sinal fraco ou falhas de receção."
+          }
+        ]
+      },
+      {
+        "title": "Quando instalar um automatismo BFT?",
+        "intro": [
+          "A instalação de um automatismo BFT pode ser indicada quando se pretende automatizar um portão manual, substituir um sistema antigo ou melhorar a fiabilidade de um acesso usado com frequência."
+        ]
+      },
+      {
+        "title": "Quando pode compensar reparar?",
+        "intro": [
+          "Nem sempre é necessário substituir o automatismo. Em muitos casos, uma afinação, reprogramação, correção de segurança ou substituição de componente pode devolver bom funcionamento ao sistema."
+        ]
+      }
+    ],
+    "eyebrow": "Automatismos para portões",
+    "logo": {
+      "src": "/bft-logo.png",
+      "alt": "BFT"
+    },
+    "whatsappMessage": "Olá, gostava de pedir apoio com um automatismo BFT.\n\nLocalidade:\nTipo de portão:\nModelo, se conhecido:\nO que preciso ou o que acontece:",
+    "contact": {
+      "title": "Precisa de instalar ou reparar um automatismo BFT?",
+      "intro": [
+        "Se tem um portão com automatismo BFT, pretende substituir um motor antigo, programar comandos, corrigir uma avaria ou instalar um novo sistema, podemos ajudar com diagnóstico, afinação e assistência técnica no local."
+      ],
+      "whatsappLabel": "Pedir assistência"
+    },
+    "notes": [
+      "Serviço técnico independente. A TecCasa Soluções presta instalação, programação e assistência a automatismos BFT."
+    ]
+  },
+  "automatismos-came-portoes": {
+    "kind": "brand",
+    "title": "Automatismos CAME para Portões | Instalação e Assistência",
+    "label": "Automatismos CAME para Portões | Instalação e Assistência",
+    "description": "Instalação, programação, substituição e assistência técnica a automatismos CAME para portões de correr, batente e garagem. Diagnóstico de motores, comandos, centrais e segurança.",
+    "heading": "Automatismos CAME para portões",
+    "lead": [
+      "Instalação, programação e assistência técnica a automatismos CAME para portões de correr, portões de batente e portões de garagem. Apoio em motores, comandos, centrais eletrónicas, fotocélulas e sistemas de segurança.",
+      "Serviço técnico independente para automatismos CAME."
+    ],
+    "image": {
+      "src": "/automatismos-came-portoes-hero.png",
+      "alt": "Instalação e assistência a automatismos CAME para portões"
+    },
+    "whatsappLabel": "Pedir assistência",
+    "anchor": {
+      "href": "#servicos",
+      "label": "Ver serviços"
+    },
+    "sections": [
+      {
+        "title": "Serviços em automatismos CAME",
+        "id": "servicos",
+        "intro": [
+          "A TecCasa Soluções presta instalação, programação e assistência técnica a automatismos CAME, com foco em portões residenciais, acessos exteriores, pequenos condomínios, comandos, centrais eletrónicas e funcionamento seguro do portão."
+        ],
+        "cards": [
+          {
+            "title": "Instalação de motores CAME",
+            "text": "Montagem de automatismos CAME em portões de correr, batente e garagem, com verificação prévia do estado do portão."
+          },
+          {
+            "title": "Programação e afinação",
+            "text": "Configuração de comandos, tempos, força, fecho automático, abertura pedonal e parâmetros de segurança."
+          },
+          {
+            "title": "Diagnóstico de avarias",
+            "text": "Análise de falhas em motores, centrais, comandos, fotocélulas, cablagem e funcionamento geral do sistema."
+          },
+          {
+            "title": "Substituição de automatismos",
+            "text": "Troca de motores antigos, centrais danificadas ou equipamentos desadequados ao peso e utilização do portão."
+          }
+        ]
+      },
+      {
+        "title": "Problemas comuns em automatismos CAME",
+        "id": "avarias",
+        "intro": [
+          "Se o seu portão com automatismo CAME deixou de funcionar corretamente, clique no sintoma mais parecido ou peça assistência diretamente."
+        ],
+        "cards": [
+          {
+            "title": "O portão não fecha",
+            "href": "/portao-nao-fecha",
+            "text": "Quando o portão abre, mas não fecha ou fica bloqueado antes de terminar o percurso."
+          },
+          {
+            "title": "O portão fecha e volta a abrir",
+            "href": "/portao-fecha-e-volta-a-abrir",
+            "text": "Quando o automatismo inverte o movimento durante o fecho."
+          },
+          {
+            "title": "Motor do portão sem força",
+            "href": "/motor-portao-sem-forca",
+            "text": "Quando o motor perde força, trabalha em esforço ou o portão se move lentamente."
+          },
+          {
+            "title": "Motor faz barulho mas não abre",
+            "href": "/motor-portao-faz-barulho-mas-nao-abre",
+            "text": "Quando o motor trabalha, mas o portão não se movimenta corretamente."
+          },
+          {
+            "title": "Portão abre só uma folha",
+            "href": "/portao-abre-so-uma-folha",
+            "text": "Em portões de batente com duas folhas, quando apenas uma folha responde."
+          },
+          {
+            "title": "Comando da garagem não funciona",
+            "href": "/comando-garagem-nao-funciona",
+            "text": "Quando o comando não abre o portão, perdeu programação ou deixou de comunicar."
+          }
+        ]
+      }
+    ],
+    "eyebrow": "Automatismos para portões",
+    "logo": {
+      "src": "/came-logo.png",
+      "alt": "CAME"
+    },
+    "whatsappMessage": "Olá, gostava de pedir apoio com um automatismo CAME.\n\nLocalidade:\nTipo de portão:\nModelo, se conhecido:\nO que preciso ou o que acontece:",
+    "contact": {
+      "title": "Precisa de ajuda com um automatismo CAME?",
+      "intro": [
+        "Se tem um motor CAME instalado, precisa de programar comandos, corrigir uma avaria, substituir equipamento antigo ou instalar um novo automatismo, fale connosco para avaliarmos a situação."
+      ],
+      "whatsappLabel": "Pedir assistência"
+    },
+    "notes": [
+      "Serviço técnico independente. A TecCasa Soluções presta instalação, programação e assistência a automatismos CAME."
+    ]
+  },
+  "automatismos-ditec-portoes": {
+    "kind": "brand",
+    "title": "Automatismos Ditec para Portões | Instalação e Assistência",
+    "label": "Automatismos Ditec para Portões | Instalação e Assistência",
+    "description": "Instalação, programação, substituição e assistência técnica a automatismos Ditec para portões de correr, batente e garagem. Diagnóstico de motores, comandos, centrais e segurança.",
+    "heading": "Automatismos Ditec para portões",
+    "lead": [
+      "Instalação, programação e assistência técnica a automatismos Ditec para portões de correr, portões de batente e portões de garagem. Apoio em motores, comandos, centrais eletrónicas, fotocélulas e sistemas de segurança.",
+      "Serviço técnico independente para automatismos Ditec."
+    ],
+    "image": {
+      "src": "/automatismos-ditec-portoes-hero.png",
+      "alt": "Instalação e assistência a automatismos Ditec para portões"
+    },
+    "whatsappLabel": "Pedir assistência",
+    "anchor": {
+      "href": "#servicos",
+      "label": "Ver serviços"
+    },
+    "sections": [
+      {
+        "title": "Serviços em automatismos Ditec",
+        "id": "servicos",
+        "intro": [
+          "A TecCasa Soluções presta instalação, programação e assistência técnica a automatismos Ditec, com foco em portões residenciais, acessos exteriores, pequenos condomínios, comandos, centrais eletrónicas e funcionamento seguro do portão."
+        ],
+        "cards": [
+          {
+            "title": "Instalação de motores Ditec",
+            "text": "Montagem de automatismos Ditec em portões de correr, batente e garagem, com verificação prévia das condições do portão."
+          },
+          {
+            "title": "Programação e afinação",
+            "text": "Configuração de comandos, tempos, força, fecho automático, abertura pedonal e parâmetros de segurança."
+          },
+          {
+            "title": "Diagnóstico de avarias",
+            "text": "Análise de falhas em motores, centrais, comandos, fotocélulas, cablagem e funcionamento geral do sistema."
+          },
+          {
+            "title": "Substituição de automatismos",
+            "text": "Troca de motores antigos ou desadequados por soluções compatíveis com o tipo de portão e utilização."
+          }
+        ]
+      },
+      {
+        "title": "Problemas comuns em automatismos Ditec",
+        "id": "avarias",
+        "intro": [
+          "Se o seu portão com automatismo Ditec deixou de funcionar corretamente, clique no sintoma mais parecido ou peça assistência diretamente."
+        ],
+        "cards": [
+          {
+            "title": "O portão não fecha",
+            "href": "/portao-nao-fecha",
+            "text": "Quando o portão abre, mas não fecha ou fica bloqueado antes de terminar o percurso."
+          },
+          {
+            "title": "O portão fecha e volta a abrir",
+            "href": "/portao-fecha-e-volta-a-abrir",
+            "text": "Quando o automatismo inverte o movimento durante o fecho."
+          },
+          {
+            "title": "Motor do portão sem força",
+            "href": "/motor-portao-sem-forca",
+            "text": "Quando o motor perde força, trabalha em esforço ou o portão se move lentamente."
+          },
+          {
+            "title": "Motor faz barulho mas não abre",
+            "href": "/motor-portao-faz-barulho-mas-nao-abre",
+            "text": "Quando o motor trabalha, mas o portão não se movimenta corretamente."
+          },
+          {
+            "title": "Portão abre só uma folha",
+            "href": "/portao-abre-so-uma-folha",
+            "text": "Em portões de batente com duas folhas, quando apenas uma folha responde."
+          },
+          {
+            "title": "Comando só funciona perto",
+            "href": "/comando-garagem-so-funciona-perto",
+            "text": "Quando o comando tem pouco alcance ou falhas de receção."
+          }
+        ]
+      }
+    ],
+    "eyebrow": "Automatismos para portões",
+    "logo": {
+      "src": "/ditec-logo.png",
+      "alt": "Ditec"
+    },
+    "whatsappMessage": "Olá, gostava de pedir apoio com um automatismo Ditec.\n\nLocalidade:\nTipo de portão:\nModelo, se conhecido:\nO que preciso ou o que acontece:",
+    "contact": {
+      "title": "Precisa de ajuda com um automatismo Ditec?",
+      "intro": [
+        "Se tem um motor Ditec instalado, precisa de programar comandos, corrigir uma avaria, substituir equipamento antigo ou instalar um novo automatismo, fale connosco para avaliarmos a situação."
+      ],
+      "whatsappLabel": "Pedir assistência"
+    },
+    "notes": [
+      "Serviço técnico independente. A TecCasa Soluções presta instalação, programação e assistência a automatismos Ditec."
+    ]
+  },
+  "automatismos-faac-portoes": {
+    "kind": "brand",
+    "title": "Automatismos FAAC para Portões | Instalação e Assistência",
+    "label": "Automatismos FAAC para Portões | Instalação e Assistência",
+    "description": "Instalação, programação, substituição e assistência técnica a automatismos FAAC para portões de correr, batente e garagem. Diagnóstico de motores, comandos, centrais e segurança.",
+    "heading": "Automatismos FAAC para portões",
+    "lead": [
+      "Instalação, programação e assistência técnica a automatismos FAAC para portões de correr, portões de batente e portões de garagem. Apoio em motores, comandos, centrais eletrónicas, fotocélulas e sistemas de segurança.",
+      "Serviço técnico independente para automatismos FAAC."
+    ],
+    "image": {
+      "src": "/automatismos-faac-portoes-hero.png",
+      "alt": "Instalação e assistência a automatismos FAAC para portões"
+    },
+    "whatsappLabel": "Pedir assistência",
+    "anchor": {
+      "href": "#servicos",
+      "label": "Ver serviços"
+    },
+    "sections": [
+      {
+        "title": "Serviços em automatismos FAAC",
+        "id": "servicos",
+        "intro": [
+          "A TecCasa Soluções presta instalação, programação e assistência técnica a automatismos FAAC, com foco em portões residenciais, acessos exteriores, motores robustos, centrais eletrónicas, comandos e sistemas de segurança."
+        ],
+        "cards": [
+          {
+            "title": "Instalação de motores FAAC",
+            "text": "Montagem de automatismos FAAC em portões de correr, batente e garagem, com verificação prévia do estado do portão."
+          },
+          {
+            "title": "Programação e afinação",
+            "text": "Configuração de comandos, tempos de abertura, fecho automático, força, abrandamento e segurança."
+          },
+          {
+            "title": "Diagnóstico de avarias",
+            "text": "Análise de falhas em motores, centrais, condensadores, comandos, fotocélulas e cablagem."
+          },
+          {
+            "title": "Substituição de equipamento",
+            "text": "Troca de motores antigos, centrais danificadas ou automatismos desadequados ao peso e utilização do portão."
+          }
+        ]
+      },
+      {
+        "title": "Problemas comuns em automatismos FAAC",
+        "id": "avarias",
+        "intro": [
+          "Se o seu portão com automatismo FAAC deixou de funcionar corretamente, clique no sintoma mais parecido ou peça assistência diretamente."
+        ],
+        "cards": [
+          {
+            "title": "O portão não fecha",
+            "href": "/portao-nao-fecha",
+            "text": "Quando o portão abre, mas não fecha ou fica bloqueado antes de terminar o movimento."
+          },
+          {
+            "title": "O portão fecha e volta a abrir",
+            "href": "/portao-fecha-e-volta-a-abrir",
+            "text": "Quando o automatismo inverte o movimento durante o fecho."
+          },
+          {
+            "title": "Motor do portão sem força",
+            "href": "/motor-portao-sem-forca",
+            "text": "Quando o motor perde força, trabalha em esforço ou o portão se move lentamente."
+          },
+          {
+            "title": "Motor faz barulho mas não abre",
+            "href": "/motor-portao-faz-barulho-mas-nao-abre",
+            "text": "Quando o motor trabalha, mas o portão não se movimenta corretamente."
+          },
+          {
+            "title": "Portão abre só uma folha",
+            "href": "/portao-abre-so-uma-folha",
+            "text": "Em portões de batente com duas folhas, quando apenas uma folha responde."
+          },
+          {
+            "title": "Comando da garagem não funciona",
+            "href": "/comando-garagem-nao-funciona",
+            "text": "Quando o comando não abre o portão, perdeu programação ou deixou de comunicar."
+          }
+        ]
+      }
+    ],
+    "eyebrow": "Automatismos para portões",
+    "logo": {
+      "src": "/faac-logo.png",
+      "alt": "FAAC"
+    },
+    "whatsappMessage": "Olá, gostava de pedir apoio com um automatismo FAAC.\n\nLocalidade:\nTipo de portão:\nModelo, se conhecido:\nO que preciso ou o que acontece:",
+    "contact": {
+      "title": "Precisa de ajuda com um automatismo FAAC?",
+      "intro": [
+        "Se tem um motor FAAC instalado, precisa de programar comandos, corrigir uma avaria, substituir equipamento antigo ou instalar um novo automatismo, envie-nos uma mensagem para avaliarmos a situação."
+      ],
+      "whatsappLabel": "Pedir assistência"
+    },
+    "notes": [
+      "Serviço técnico independente. A TecCasa Soluções presta instalação, programação e assistência a automatismos FAAC."
+    ]
+  },
+  "automatismos-hormann-portoes": {
+    "kind": "brand",
+    "title": "Automatismos Hörmann para Portões | Instalação e Assistência",
+    "label": "Automatismos Hörmann para Portões | Instalação e Assistência",
+    "description": "Instalação, programação, substituição e assistência técnica a automatismos Hörmann para portões de garagem, portões de correr e batente. Diagnóstico de motores, comandos, centrais e segurança.",
+    "heading": "Automatismos Hörmann para portões",
+    "lead": [
+      "Instalação, programação e assistência técnica a automatismos Hörmann para portões de garagem, portões de correr e portões de batente. Apoio em motores, comandos, centrais eletrónicas, fotocélulas e sistemas de segurança.",
+      "Serviço técnico independente para automatismos Hörmann."
+    ],
+    "image": {
+      "src": "/automatismos-hormann-portoes-hero.png",
+      "alt": "Instalação e assistência a automatismos Hörmann para portões"
+    },
+    "whatsappLabel": "Pedir assistência",
+    "anchor": {
+      "href": "#servicos",
+      "label": "Ver serviços"
+    },
+    "sections": [
+      {
+        "title": "Serviços em automatismos Hörmann",
+        "id": "servicos",
+        "intro": [
+          "A TecCasa Soluções presta instalação, programação e assistência técnica a automatismos Hörmann, com foco em portões de garagem, portões seccionados, comandos, motores de teto, afinação de funcionamento e diagnóstico de avarias."
+        ],
+        "cards": [
+          {
+            "title": "Instalação de motores Hörmann",
+            "text": "Montagem de automatismos Hörmann em portões de garagem, portões seccionados e outros sistemas residenciais compatíveis."
+          },
+          {
+            "title": "Programação de comandos",
+            "text": "Configuração de comandos, recetores, abertura automática e parâmetros de utilização diária."
+          },
+          {
+            "title": "Diagnóstico de avarias",
+            "text": "Análise de falhas em motores de teto, comandos, centrais, sensores, cablagem e sistemas de segurança."
+          },
+          {
+            "title": "Substituição e afinação",
+            "text": "Substituição de motores antigos, afinação de funcionamento e verificação do estado mecânico do portão."
+          }
+        ]
+      },
+      {
+        "title": "Problemas comuns em automatismos Hörmann",
+        "id": "avarias",
+        "intro": [
+          "Se o seu portão com automatismo Hörmann deixou de funcionar corretamente, clique no sintoma mais parecido ou peça assistência diretamente."
+        ],
+        "cards": [
+          {
+            "title": "Portão de garagem não abre",
+            "href": "/portao-garagem-nao-abre",
+            "text": "Quando o motor de teto não abre o portão de garagem ou o portão fica bloqueado."
+          },
+          {
+            "title": "Comando da garagem não funciona",
+            "href": "/comando-garagem-nao-funciona",
+            "text": "Quando o comando deixou de abrir o portão, perdeu programação ou não comunica."
+          },
+          {
+            "title": "Comando só funciona perto",
+            "href": "/comando-garagem-so-funciona-perto",
+            "text": "Quando o comando tem pouco alcance ou só funciona muito perto da garagem."
+          },
+          {
+            "title": "Motor faz barulho mas não abre",
+            "href": "/motor-portao-faz-barulho-mas-nao-abre",
+            "text": "Quando o motor trabalha, mas o portão não se movimenta corretamente."
+          },
+          {
+            "title": "Motor do portão sem força",
+            "href": "/motor-portao-sem-forca",
+            "text": "Quando o motor perde força, o portão sobe com dificuldade ou para durante o movimento."
+          },
+          {
+            "title": "O portão não fecha",
+            "href": "/portao-nao-fecha",
+            "text": "Quando o portão não termina o fecho ou fica parado antes de fechar completamente."
+          }
+        ]
+      }
+    ],
+    "eyebrow": "Automatismos para portões",
+    "logo": {
+      "src": "/hormann-logo.png",
+      "alt": "Hörmann"
+    },
+    "whatsappMessage": "Olá, gostava de pedir apoio com um automatismo Hörmann.\n\nLocalidade:\nTipo de portão:\nModelo, se conhecido:\nO que preciso ou o que acontece:",
+    "contact": {
+      "title": "Precisa de ajuda com um automatismo Hörmann?",
+      "intro": [
+        "Se tem um motor Hörmann instalado, precisa de programar comandos, corrigir uma avaria, substituir equipamento antigo ou instalar um novo automatismo, fale connosco para avaliarmos a situação."
+      ],
+      "whatsappLabel": "Pedir assistência"
+    },
+    "notes": [
+      "Serviço técnico independente. A TecCasa Soluções presta instalação, programação e assistência a automatismos Hörmann."
+    ]
+  },
+  "automatismos-motorline-portoes": {
+    "kind": "brand",
+    "title": "Automatismos Motorline para Portões | Instalação e Assistência",
+    "label": "Automatismos Motorline para Portões | Instalação e Assistência",
+    "description": "Instalação, programação, substituição e assistência técnica a automatismos Motorline para portões de correr, batente e garagem. Diagnóstico de motores, centrais, comandos e fotocélulas.",
+    "heading": "Automatismos Motorline para portões",
+    "lead": [
+      "Instalação, programação e assistência técnica a automatismos Motorline para portões de correr, portões de batente e portões de garagem. Diagnóstico de motores, centrais eletrónicas, comandos, fotocélulas e sistemas de segurança.",
+      "Serviço técnico independente para automatismos Motorline."
+    ],
+    "image": {
+      "src": "/automatismos-motorline-portoes-hero.png",
+      "alt": "Instalação e assistência a automatismos Motorline para portões"
+    },
+    "whatsappLabel": "Pedir assistência",
+    "anchor": {
+      "href": "#servicos",
+      "label": "Ver serviços"
+    },
+    "sections": [
+      {
+        "title": "Serviços em automatismos Motorline",
+        "id": "servicos",
+        "intro": [
+          "A TecCasa Soluções presta apoio técnico em sistemas Motorline para portões automáticos, desde a instalação inicial até à programação, substituição, afinação e diagnóstico de avarias."
+        ],
+        "cards": [
+          {
+            "title": "Instalação de automatismos",
+            "text": "Montagem de motores Motorline em portões de correr, portões de batente e portões de garagem, de acordo com as condições do local."
+          },
+          {
+            "title": "Substituição de motores",
+            "text": "Troca de automatismos antigos ou avariados por soluções adequadas ao peso, uso e tipo de portão."
+          },
+          {
+            "title": "Programação de comandos",
+            "text": "Configuração de comandos, recetores e sistemas de abertura para utilização diária simples e segura."
+          },
+          {
+            "title": "Centrais eletrónicas",
+            "text": "Diagnóstico e parametrização de centrais Motorline, incluindo tempos, força, abrandamento e modos de funcionamento."
+          },
+          {
+            "title": "Fotocélulas e segurança",
+            "text": "Instalação, verificação e afinação de fotocélulas, sistemas de segurança e proteção durante abertura e fecho."
+          },
+          {
+            "title": "Afinação do portão",
+            "text": "Ajuste de curso, força, paragens, atraso entre folhas e comportamento geral do automatismo."
+          }
+        ]
+      },
+      {
+        "title": "Automatismos Motorline para diferentes tipos de portão",
+        "intro": [
+          "Os automatismos Motorline podem ser aplicados em diferentes tipos de portão, desde que o equipamento seja adequado ao peso, dimensões, frequência de utilização e condições mecânicas da instalação."
+        ],
+        "cards": [
+          {
+            "title": "Portões de correr",
+            "text": "Instalação e assistência a motores Motorline para portões de correr, incluindo cremalheira, fins de curso, comandos, fotocélulas e afinação de força."
+          },
+          {
+            "title": "Portões de batente",
+            "text": "Montagem, programação e diagnóstico de automatismos Motorline para portões de duas folhas, com afinação de tempos, atraso entre folhas e abertura pedonal."
+          },
+          {
+            "title": "Portões de garagem",
+            "text": "Assistência a motores Motorline para portões seccionados ou basculantes, com verificação de calhas, desbloqueio manual, comandos e força de abertura."
+          },
+          {
+            "title": "Substituição de sistemas antigos",
+            "text": "Avaliação de automatismos antigos ou avariados e substituição por soluções compatíveis com o tipo de portão e utilização diária."
+          }
+        ]
+      },
+      {
+        "title": "Avarias comuns em automatismos Motorline",
+        "id": "avarias",
+        "intro": [
+          "Alguns sintomas podem acontecer em portões automáticos de várias marcas, incluindo sistemas Motorline. Clique em cada situação para saber mais sobre possíveis causas e quando pedir assistência técnica."
+        ],
+        "cards": [
+          {
+            "title": "O portão não fecha",
+            "href": "/portao-nao-fecha",
+            "text": "Quando o portão fica aberto, não completa o fecho ou parece bloquear por segurança."
+          },
+          {
+            "title": "O portão fecha e volta a abrir",
+            "href": "/portao-fecha-e-volta-a-abrir",
+            "text": "Quando o automatismo inicia o fecho mas inverte o movimento."
+          },
+          {
+            "title": "O portão abre só uma folha",
+            "href": "/portao-abre-so-uma-folha",
+            "text": "Situação comum em portões de batente com dois motores."
+          },
+          {
+            "title": "O portão abre apenas até meio",
+            "href": "/portao-abre-ate-meio",
+            "text": "Quando o portão interrompe o percurso antes de abrir totalmente."
+          },
+          {
+            "title": "Motor faz barulho mas não abre",
+            "href": "/motor-portao-faz-barulho-mas-nao-abre",
+            "text": "Quando o motor trabalha, mas o portão não se movimenta."
+          },
+          {
+            "title": "Motor do portão sem força",
+            "href": "/motor-portao-sem-forca",
+            "text": "Quando o motor abre devagar, pára a meio ou precisa de ajuda."
+          },
+          {
+            "title": "Portão de garagem não abre",
+            "href": "/portao-garagem-nao-abre",
+            "text": "Para motores de teto, portões seccionados, basculantes e sistemas de garagem."
+          },
+          {
+            "title": "Comando da garagem não funciona",
+            "href": "/comando-garagem-nao-funciona",
+            "text": "Quando o comando deixou de abrir o portão ou perdeu programação."
+          },
+          {
+            "title": "Comando só funciona perto",
+            "href": "/comando-garagem-so-funciona-perto",
+            "text": "Quando o comando tem pouco alcance ou falha o sinal RF."
+          }
+        ]
+      },
+      {
+        "title": "Quando instalar um automatismo Motorline?",
+        "intro": [
+          "A instalação de um novo automatismo pode ser indicada quando o portão ainda é manual, quando o sistema antigo já não responde bem ou quando se pretende melhorar o conforto, a segurança e a utilização diária."
+        ]
+      },
+      {
+        "title": "Quando pode compensar reparar?",
+        "intro": [
+          "Nem todas as avarias obrigam à substituição do motor. Em muitos casos, uma afinação, programação, correção de ligação ou substituição de componente pode resolver o problema."
+        ]
+      }
+    ],
+    "eyebrow": "Automatismos para portões",
+    "logo": {
+      "src": "/motorline-logo.png",
+      "alt": "Motorline"
+    },
+    "whatsappMessage": "Olá, gostava de pedir apoio com um automatismo Motorline.\n\nLocalidade:\nTipo de portão:\nModelo, se conhecido:\nO que preciso ou o que acontece:",
+    "contact": {
+      "title": "Precisa de instalar ou reparar um automatismo Motorline?",
+      "intro": [
+        "Se tem um portão com automatismo Motorline, pretende instalar um novo motor, programar comandos, substituir equipamento antigo ou resolver uma avaria, podemos ajudar com diagnóstico e assistência técnica no local."
+      ],
+      "whatsappLabel": "Pedir assistência"
+    },
+    "notes": [
+      "Serviço técnico independente. A TecCasa Soluções presta instalação, programação e assistência a automatismos Motorline."
+    ]
+  },
+  "automatismos-nice-portoes": {
+    "kind": "brand",
+    "title": "Automatismos Nice para Portões | Instalação e Assistência",
+    "label": "Automatismos Nice para Portões | Instalação e Assistência",
+    "description": "Instalação, programação, substituição e assistência técnica a automatismos Nice para portões de correr, batente e garagem. Comandos, centrais, fotocélulas e diagnóstico técnico.",
+    "heading": "Automatismos Nice para portões",
+    "lead": [
+      "Instalação, programação e assistência técnica a automatismos Nice para portões de correr, portões de batente e portões de garagem. Apoio em motores, comandos, centrais eletrónicas, fotocélulas e sistemas de abertura residencial.",
+      "Serviço técnico independente para automatismos Nice."
+    ],
+    "image": {
+      "src": "/automatismos-nice-portoes-hero.png",
+      "alt": "Instalação e assistência a automatismos Nice para portões"
+    },
+    "whatsappLabel": "Pedir assistência",
+    "anchor": {
+      "href": "#servicos",
+      "label": "Ver serviços"
+    },
+    "sections": [
+      {
+        "title": "Serviços em automatismos Nice",
+        "id": "servicos",
+        "intro": [
+          "A TecCasa Soluções presta instalação, programação e assistência técnica a automatismos Nice, com foco em utilização residencial, conforto diário, comandos, centrais eletrónicas e funcionamento seguro do portão."
+        ],
+        "cards": [
+          {
+            "title": "Instalação de motores Nice",
+            "text": "Montagem de automatismos Nice em portões de correr, batente e garagem, com verificação do portão antes da instalação."
+          },
+          {
+            "title": "Programação de comandos",
+            "text": "Configuração de comandos, recetores e modos de abertura para utilização simples no dia a dia."
+          },
+          {
+            "title": "Diagnóstico e assistência",
+            "text": "Análise de avarias em motores, centrais, comandos, fotocélulas e sistemas de segurança."
+          },
+          {
+            "title": "Substituição de automatismos",
+            "text": "Troca de motores antigos ou pouco fiáveis por soluções adequadas ao tipo de portão e utilização."
+          }
+        ]
+      },
+      {
+        "title": "Problemas comuns em automatismos Nice",
+        "id": "avarias",
+        "intro": [
+          "Se o seu portão com automatismo Nice deixou de funcionar corretamente, clique no sintoma mais parecido para saber mais ou peça assistência diretamente."
+        ],
+        "cards": [
+          {
+            "title": "Comando da garagem não funciona",
+            "href": "/comando-garagem-nao-funciona",
+            "text": "Quando o comando deixou de abrir o portão ou perdeu programação."
+          },
+          {
+            "title": "Comando só funciona perto",
+            "href": "/comando-garagem-so-funciona-perto",
+            "text": "Quando o comando tem pouco alcance ou falhas de receção."
+          },
+          {
+            "title": "O portão não fecha",
+            "href": "/portao-nao-fecha",
+            "text": "Quando o portão fica aberto ou não termina o fecho."
+          },
+          {
+            "title": "O portão fecha e volta a abrir",
+            "href": "/portao-fecha-e-volta-a-abrir",
+            "text": "Quando o sistema inverte o movimento durante o fecho."
+          },
+          {
+            "title": "Motor do portão sem força",
+            "href": "/motor-portao-sem-forca",
+            "text": "Quando o portão abre devagar, perde força ou pára a meio."
+          },
+          {
+            "title": "Portão de garagem não abre",
+            "href": "/portao-garagem-nao-abre",
+            "text": "Para motores de teto, portões seccionados e sistemas de garagem."
+          }
+        ]
+      }
+    ],
+    "eyebrow": "Automatismos para portões",
+    "logo": {
+      "src": "/nice-logo.png",
+      "alt": "Nice"
+    },
+    "whatsappMessage": "Olá, gostava de pedir apoio com um automatismo Nice.\n\nLocalidade:\nTipo de portão:\nModelo, se conhecido:\nO que preciso ou o que acontece:",
+    "contact": {
+      "title": "Precisa de ajuda com um automatismo Nice?",
+      "intro": [
+        "Se tem um portão com automatismo Nice, precisa de instalar um motor, programar comandos, corrigir uma avaria ou substituir equipamento antigo, fale connosco para avaliarmos a situação."
+      ],
+      "whatsappLabel": "Pedir assistência"
+    },
+    "notes": [
+      "Serviço técnico independente. A TecCasa Soluções presta instalação, programação e assistência a automatismos Nice."
+    ]
+  },
+  "automatismos-roger-technology-portoes": {
+    "kind": "brand",
+    "title": "Automatismos Roger Technology para Portões | Instalação e Assistência",
+    "label": "Automatismos Roger Technology para Portões | Instalação e Assistência",
+    "description": "Instalação, programação, substituição e assistência técnica a automatismos Roger Technology para portões de correr, batente e garagem. Diagnóstico de motores, comandos, centrais e segurança.",
+    "heading": "Automatismos Roger Technology para portões",
+    "lead": [
+      "Instalação, programação e assistência técnica a automatismos Roger Technology para portões de correr, portões de batente e portões de garagem. Apoio em motores, comandos, centrais eletrónicas, fotocélulas e sistemas de segurança.",
+      "Serviço técnico independente para automatismos Roger Technology."
+    ],
+    "image": {
+      "src": "/automatismos-roger-technology-portoes-hero.png",
+      "alt": "Instalação e assistência a automatismos Roger Technology para portões"
+    },
+    "whatsappLabel": "Pedir assistência",
+    "anchor": {
+      "href": "#servicos",
+      "label": "Ver serviços"
+    },
+    "sections": [
+      {
+        "title": "Serviços em automatismos Roger Technology",
+        "id": "servicos",
+        "intro": [
+          "A TecCasa Soluções presta instalação, programação e assistência técnica a automatismos Roger Technology, com foco em sistemas modernos para portões residenciais, acessos exteriores, comandos, centrais eletrónicas e funcionamento seguro do portão."
+        ],
+        "cards": [
+          {
+            "title": "Instalação de motores Roger",
+            "text": "Montagem de automatismos Roger Technology em portões de correr, batente e garagem, com verificação prévia do portão."
+          },
+          {
+            "title": "Programação e afinação",
+            "text": "Configuração de comandos, tempos, força, fecho automático, abertura pedonal e parâmetros de segurança."
+          },
+          {
+            "title": "Diagnóstico de avarias",
+            "text": "Análise de falhas em motores, centrais, comandos, fotocélulas, cablagem e funcionamento geral do sistema."
+          },
+          {
+            "title": "Substituição de automatismos",
+            "text": "Troca de motores antigos, centrais danificadas ou equipamentos desadequados ao tipo de portão."
+          }
+        ]
+      },
+      {
+        "title": "Problemas comuns em automatismos Roger Technology",
+        "id": "avarias",
+        "intro": [
+          "Se o seu portão com automatismo Roger Technology deixou de funcionar corretamente, clique no sintoma mais parecido ou peça assistência diretamente."
+        ],
+        "cards": [
+          {
+            "title": "O portão não fecha",
+            "href": "/portao-nao-fecha",
+            "text": "Quando o portão abre, mas não fecha ou fica bloqueado antes de terminar o percurso."
+          },
+          {
+            "title": "O portão fecha e volta a abrir",
+            "href": "/portao-fecha-e-volta-a-abrir",
+            "text": "Quando o automatismo inverte o movimento durante o fecho."
+          },
+          {
+            "title": "Motor do portão sem força",
+            "href": "/motor-portao-sem-forca",
+            "text": "Quando o motor perde força, trabalha em esforço ou o portão se move lentamente."
+          },
+          {
+            "title": "Motor faz barulho mas não abre",
+            "href": "/motor-portao-faz-barulho-mas-nao-abre",
+            "text": "Quando o motor trabalha, mas o portão não se movimenta corretamente."
+          },
+          {
+            "title": "Portão abre só uma folha",
+            "href": "/portao-abre-so-uma-folha",
+            "text": "Em portões de batente com duas folhas, quando apenas uma folha responde."
+          },
+          {
+            "title": "Comando só funciona perto",
+            "href": "/comando-garagem-so-funciona-perto",
+            "text": "Quando o comando tem pouco alcance ou falhas de receção."
+          }
+        ]
+      }
+    ],
+    "eyebrow": "Automatismos para portões",
+    "logo": {
+      "src": "/roger-technology-logo.png",
+      "alt": "Roger Technology"
+    },
+    "whatsappMessage": "Olá, gostava de pedir apoio com um automatismo Roger Technology.\n\nLocalidade:\nTipo de portão:\nModelo, se conhecido:\nO que preciso ou o que acontece:",
+    "contact": {
+      "title": "Precisa de ajuda com um automatismo Roger Technology?",
+      "intro": [
+        "Se tem um motor Roger Technology instalado, precisa de programar comandos, corrigir uma avaria, substituir equipamento antigo ou instalar um novo automatismo, fale connosco para avaliarmos a situação."
+      ],
+      "whatsappLabel": "Pedir assistência"
+    },
+    "notes": [
+      "Serviço técnico independente. A TecCasa Soluções presta instalação, programação e assistência a automatismos Roger Technology."
+    ]
+  },
+  "automatismos-somfy-portoes": {
+    "kind": "brand",
+    "title": "Automatismos Somfy para Portões | Instalação e Assistência",
+    "label": "Automatismos Somfy para Portões | Instalação e Assistência",
+    "description": "Instalação, programação, substituição e assistência técnica a automatismos Somfy para portões, garagens e sistemas residenciais. Diagnóstico de motores, comandos, centrais e segurança.",
+    "heading": "Automatismos Somfy para portões",
+    "lead": [
+      "Instalação, programação e assistência técnica a automatismos Somfy para portões, garagens e sistemas residenciais. Apoio em motores, comandos, centrais eletrónicas, fotocélulas e acessórios de controlo.",
+      "Serviço técnico independente para automatismos Somfy."
+    ],
+    "image": {
+      "src": "/automatismos-somfy-portoes-hero.png",
+      "alt": "Instalação e assistência a automatismos Somfy para portões"
+    },
+    "whatsappLabel": "Pedir assistência",
+    "anchor": {
+      "href": "#servicos",
+      "label": "Ver serviços"
+    },
+    "sections": [
+      {
+        "title": "Serviços em automatismos Somfy",
+        "id": "servicos",
+        "intro": [
+          "A TecCasa Soluções presta instalação, programação e assistência técnica a automatismos Somfy, com foco em portões residenciais, portões de garagem, comandos, motores, centrais eletrónicas e sistemas de controlo simples para o dia a dia."
+        ],
+        "cards": [
+          {
+            "title": "Instalação de motores Somfy",
+            "text": "Montagem de automatismos Somfy em portões, garagens e sistemas residenciais compatíveis, com verificação prévia das condições."
+          },
+          {
+            "title": "Programação de comandos",
+            "text": "Configuração de comandos, recetores, modos de abertura e utilização simples para o dia a dia."
+          },
+          {
+            "title": "Diagnóstico de avarias",
+            "text": "Análise de falhas em motores, comandos, centrais, fotocélulas, cablagem e acessórios de controlo."
+          },
+          {
+            "title": "Substituição e afinação",
+            "text": "Substituição de equipamentos antigos, afinação de funcionamento e verificação da segurança do sistema."
+          }
+        ]
+      },
+      {
+        "title": "Problemas comuns em automatismos Somfy",
+        "id": "avarias",
+        "intro": [
+          "Se o seu portão com automatismo Somfy deixou de funcionar corretamente, clique no sintoma mais parecido ou peça assistência diretamente."
+        ],
+        "cards": [
+          {
+            "title": "Portão de garagem não abre",
+            "href": "/portao-garagem-nao-abre",
+            "text": "Quando o motor da garagem não abre o portão ou o sistema fica bloqueado."
+          },
+          {
+            "title": "Comando da garagem não funciona",
+            "href": "/comando-garagem-nao-funciona",
+            "text": "Quando o comando deixou de abrir o portão, perdeu programação ou não comunica."
+          },
+          {
+            "title": "Comando só funciona perto",
+            "href": "/comando-garagem-so-funciona-perto",
+            "text": "Quando o comando tem pouco alcance ou só funciona muito perto do portão."
+          },
+          {
+            "title": "O portão não fecha",
+            "href": "/portao-nao-fecha",
+            "text": "Quando o portão não termina o fecho ou fica parado antes de fechar completamente."
+          },
+          {
+            "title": "Motor do portão sem força",
+            "href": "/motor-portao-sem-forca",
+            "text": "Quando o motor perde força, trabalha em esforço ou o portão se move lentamente."
+          },
+          {
+            "title": "Motor faz barulho mas não abre",
+            "href": "/motor-portao-faz-barulho-mas-nao-abre",
+            "text": "Quando o motor trabalha, mas o portão não se movimenta corretamente."
+          }
+        ]
+      }
+    ],
+    "eyebrow": "Automatismos para portões",
+    "logo": {
+      "src": "/somfy-logo.png",
+      "alt": "Somfy"
+    },
+    "whatsappMessage": "Olá, gostava de pedir apoio com um automatismo Somfy.\n\nLocalidade:\nTipo de portão:\nModelo, se conhecido:\nO que preciso ou o que acontece:",
+    "contact": {
+      "title": "Precisa de ajuda com um automatismo Somfy?",
+      "intro": [
+        "Se tem um motor Somfy instalado, precisa de programar comandos, corrigir uma avaria, substituir equipamento antigo ou instalar um novo automatismo, fale connosco para avaliarmos a situação."
+      ],
+      "whatsappLabel": "Pedir assistência"
+    },
+    "notes": [
+      "Serviço técnico independente. A TecCasa Soluções presta instalação, programação e assistência a automatismos Somfy."
+    ]
+  },
+  "automatismos-v2-portoes": {
+    "kind": "brand",
+    "title": "Automatismos V2 para Portões | Instalação e Assistência",
+    "label": "Automatismos V2 para Portões | Instalação e Assistência",
+    "description": "Instalação, programação, substituição e assistência técnica a automatismos V2 para portões de correr, batente e garagem. Diagnóstico de motores, comandos, centrais e segurança.",
+    "heading": "Automatismos V2 para portões",
+    "lead": [
+      "Instalação, programação e assistência técnica a automatismos V2 para portões de correr, portões de batente e portões de garagem. Apoio em motores, comandos, centrais eletrónicas, fotocélulas e sistemas de segurança.",
+      "Serviço técnico independente para automatismos V2."
+    ],
+    "image": {
+      "src": "/automatismos-v2-portoes-hero.png",
+      "alt": "Instalação e assistência a automatismos V2 para portões"
+    },
+    "whatsappLabel": "Pedir assistência",
+    "anchor": {
+      "href": "#servicos",
+      "label": "Ver serviços"
+    },
+    "sections": [
+      {
+        "title": "Serviços em automatismos V2",
+        "id": "servicos",
+        "intro": [
+          "A TecCasa Soluções presta instalação, programação e assistência técnica a automatismos V2, com foco em portões residenciais, portões de correr, portões de batente, comandos, centrais eletrónicas e funcionamento seguro do sistema."
+        ],
+        "cards": [
+          {
+            "title": "Instalação de motores V2",
+            "text": "Montagem de automatismos V2 em portões de correr, batente e garagem, com verificação prévia das condições do portão."
+          },
+          {
+            "title": "Programação e afinação",
+            "text": "Configuração de comandos, tempos, força, fecho automático, abertura pedonal e parâmetros de segurança."
+          },
+          {
+            "title": "Diagnóstico de avarias",
+            "text": "Análise de falhas em motores, centrais, comandos, fotocélulas, condensadores, cablagem e funcionamento geral."
+          },
+          {
+            "title": "Substituição de equipamento",
+            "text": "Troca de motores antigos, centrais danificadas ou automatismos desadequados ao peso e utilização do portão."
+          }
+        ]
+      },
+      {
+        "title": "Problemas comuns em automatismos V2",
+        "id": "avarias",
+        "intro": [
+          "Se o seu portão com automatismo V2 deixou de funcionar corretamente, clique no sintoma mais parecido ou peça assistência diretamente."
+        ],
+        "cards": [
+          {
+            "title": "O portão não fecha",
+            "href": "/portao-nao-fecha",
+            "text": "Quando o portão abre, mas não fecha ou fica bloqueado antes de terminar o percurso."
+          },
+          {
+            "title": "O portão fecha e volta a abrir",
+            "href": "/portao-fecha-e-volta-a-abrir",
+            "text": "Quando o automatismo inverte o movimento durante o fecho."
+          },
+          {
+            "title": "Portão abre só uma folha",
+            "href": "/portao-abre-so-uma-folha",
+            "text": "Em portões de batente com duas folhas, quando apenas uma folha responde."
+          },
+          {
+            "title": "Motor do portão sem força",
+            "href": "/motor-portao-sem-forca",
+            "text": "Quando o motor perde força, trabalha em esforço ou o portão se move lentamente."
+          },
+          {
+            "title": "Motor faz barulho mas não abre",
+            "href": "/motor-portao-faz-barulho-mas-nao-abre",
+            "text": "Quando o motor trabalha, mas o portão não se movimenta corretamente."
+          },
+          {
+            "title": "Comando da garagem não funciona",
+            "href": "/comando-garagem-nao-funciona",
+            "text": "Quando o comando não abre o portão, perdeu programação ou deixou de comunicar."
+          }
+        ]
+      }
+    ],
+    "eyebrow": "Automatismos para portões",
+    "logo": {
+      "src": "/v2-logo.png",
+      "alt": "V2"
+    },
+    "whatsappMessage": "Olá, gostava de pedir apoio com um automatismo V2.\n\nLocalidade:\nTipo de portão:\nModelo, se conhecido:\nO que preciso ou o que acontece:",
+    "contact": {
+      "title": "Precisa de ajuda com um automatismo V2?",
+      "intro": [
+        "Se tem um motor V2 instalado, precisa de programar comandos, corrigir uma avaria, substituir equipamento antigo ou instalar um novo automatismo, fale connosco para avaliarmos a situação."
+      ],
+      "whatsappLabel": "Pedir assistência"
+    },
+    "notes": [
+      "Serviço técnico independente. A TecCasa Soluções presta instalação, programação e assistência a automatismos V2."
+    ]
+  },
+  "instalacao-kit-portao-amazon": {
+    "kind": "kit",
+    "title": "Instalação de Kit de Portão Amazon",
+    "label": "Instalação de Kit de Portão Amazon",
+    "description": "Comprou um kit de automatismo para portão na Amazon? A TecCasa Soluções pode avaliar o equipamento e instalar quando existirem condições técnicas, compatibilidade e segurança.",
+    "heading": "Instalação de kit de portão comprado na Amazon",
+    "lead": [
+      "Comprou um kit de automatismo para portão na Amazon e precisa de instalação? A TecCasa Soluções pode avaliar o equipamento, verificar as condições do portão e instalar quando existirem condições técnicas e de segurança.",
+      "A instalação depende do kit estar completo, ser compatível com o portão, existir alimentação elétrica adequada e o portão apresentar boas condições mecânicas."
+    ],
+    "image": {
+      "src": "/instalacao-kit-portao-amazon-hero.png",
+      "alt": "Instalação de kit de automatismo para portão comprado na Amazon"
+    },
+    "whatsappLabel": "Enviar fotos do kit",
+    "anchor": {
+      "href": "#condicoes",
+      "label": "Ver condições"
+    },
+    "sections": [
+      {
+        "title": "O que verificamos antes de instalar o kit?",
+        "id": "condicoes",
+        "intro": [
+          "Antes de instalar um kit de automatismo para portão comprado na Amazon, confirmamos se o equipamento está completo, se é adequado ao portão e se existem condições técnicas e de segurança para avançar com a montagem."
+        ],
+        "cards": [
+          {
+            "title": "Kit completo",
+            "text": "Verificamos se o kit inclui motor, central, comandos, fotocélulas, suportes, acessórios, manual e elementos necessários à montagem."
+          },
+          {
+            "title": "Compatibilidade com o portão",
+            "text": "Confirmamos se o motor é adequado ao tipo de portão, peso, dimensões, curso, frequência de utilização e esforço esperado."
+          },
+          {
+            "title": "Alimentação elétrica",
+            "text": "A instalação depende de existir alimentação elétrica adequada junto ao local do motor ou central, com condições mínimas de segurança."
+          },
+          {
+            "title": "Estado mecânico do portão",
+            "text": "O portão deve mover-se corretamente à mão, sem estar preso, desalinhado, pesado ou com calhas, rodas ou dobradiças em esforço."
+          },
+          {
+            "title": "Segurança da instalação",
+            "text": "Avaliamos a instalação de fotocélulas, sistemas de proteção e comportamento seguro do automatismo no fecho e abertura."
+          },
+          {
+            "title": "Limitações do equipamento",
+            "text": "Alguns kits vendidos online podem ter limitações de força, acessórios, documentação, compatibilidade, qualidade do material ou assistência futura."
+          }
+        ]
+      }
+    ],
+    "eyebrow": "Amazon",
+    "whatsappMessage": "Olá, comprei um kit de automatismo para portão na Amazon e gostava de saber se é possível instalar. Posso enviar fotos.",
+    "contact": {
+      "title": "Comprou um kit na Amazon?",
+      "intro": [
+        "Se comprou um kit de automatismo para portão na Amazon, envie fotografias da caixa, dos motores, acessórios e do portão. A TecCasa Soluções pode fazer uma primeira avaliação e indicar se existem condições para instalação.",
+        "Como a Amazon funciona com diferentes vendedores e marcas, é importante confirmar se o equipamento está completo, se existe manual, se os acessórios são adequados e se o material é compatível com o portão."
+      ],
+      "cards": [
+        {
+          "title": "Envie fotos do kit",
+          "text": "Fotografias da caixa, motores, central, comandos, fotocélulas, acessórios e manual ajudam a perceber o equipamento."
+        },
+        {
+          "title": "Mostre o portão",
+          "text": "Fotos ou vídeo do portão permitem avaliar se é de correr, batente ou garagem, e perceber o estado mecânico."
+        },
+        {
+          "title": "Verificação antes da montagem",
+          "text": "Confirmamos se o kit parece adequado, se falta algum acessório e se é necessária visita técnica ao local."
+        },
+        {
+          "title": "Instalação apenas com condições",
+          "text": "Quando existem condições técnicas e de segurança, avançamos com montagem, ligação, programação e testes."
+        }
+      ],
+      "notes": [
+        "A TecCasa Soluções é um serviço técnico independente. Não representa oficialmente a Amazon, vendedores da plataforma, nem qualquer marca ou fabricante dos kits vendidos online.",
+        "Antes de marcar a instalação, envie fotografias do kit e do portão. Uma verificação prévia pode evitar instalações incompatíveis, inseguras ou com material incompleto."
+      ],
+      "whatsappLabel": "Enviar fotos do kit"
+    }
+  },
+  "instalacao-kit-portao-automatico": {
+    "kind": "kit",
+    "title": "Instalação de Kit de Portão Automático",
+    "label": "Instalação de Kit de Portão Automático",
+    "description": "Instalação e verificação de kits de portão automático fornecidos pelo cliente. Montagem de motores para portões de correr, batente e garagem mediante compatibilidade e segurança.",
+    "heading": "Instalação de kit de portão automático",
+    "lead": [
+      "Comprou um kit de automatismo para portão e precisa de instalação? A TecCasa Soluções pode verificar e instalar kits fornecidos pelo cliente em portões de correr, portões de batente e alguns portões de garagem.",
+      "A instalação depende da compatibilidade do equipamento, material completo, condições mecânicas do portão e segurança mínima da instalação."
+    ],
+    "image": {
+      "src": "/instalacao-kit-portao-automatico-hero.png",
+      "alt": "Instalação de kit de portão automático fornecido pelo cliente"
+    },
+    "whatsappLabel": "Pedir avaliação",
+    "anchor": {
+      "href": "#verificacao",
+      "label": "Ver condições"
+    },
+    "sections": [
+      {
+        "title": "O que verificamos antes de instalar o kit?",
+        "id": "verificacao",
+        "intro": [
+          "Antes de instalar um kit de portão automático fornecido pelo cliente, é essencial confirmar se o equipamento é compatível, se o portão está em condições e se existe alimentação elétrica adequada no local onde será instalado o motor ou a central."
+        ],
+        "cards": [
+          {
+            "title": "Equipamento completo",
+            "text": "Confirmamos se o kit inclui motor, central, comandos, fotocélulas, suportes, acessórios e documentação necessária."
+          },
+          {
+            "title": "Compatibilidade com o portão",
+            "text": "Verificamos se o motor é adequado ao tipo de portão, peso, dimensões, curso e frequência de utilização."
+          },
+          {
+            "title": "Alimentação elétrica disponível",
+            "text": "É necessário existir alimentação elétrica adequada junto ao local do motor ou central, em segurança e pronta para ligação."
+          },
+          {
+            "title": "Estado mecânico do portão",
+            "text": "O portão deve mover-se livremente, sem estar preso, desalinhado, pesado ou com calhas, rodas ou dobradiças em esforço."
+          },
+          {
+            "title": "Condições de segurança",
+            "text": "Analisamos a possibilidade de instalar fotocélulas, proteção no fecho e funcionamento seguro do automatismo."
+          },
+          {
+            "title": "Limitações do kit",
+            "text": "Alguns kits económicos podem ter limitações de força, compatibilidade, acessórios, documentação ou assistência futura."
+          }
+        ]
+      },
+      {
+        "title": "Comprou um kit de portão em loja ou online?",
+        "intro": [
+          "Se comprou um kit de automatismo para portão no Leroy Merlin, Brico Depôt, Amazon, OLX ou outra loja online, a TecCasa Soluções pode avaliar o equipamento e verificar se existem condições para instalação."
+        ],
+        "cards": [
+          {
+            "title": "Kit comprado no Leroy Merlin",
+            "href": "/instalacao-kit-portao-leroy-merlin",
+            "text": "Avaliação e instalação de kits comprados no Leroy Merlin, mediante compatibilidade e condições de segurança."
+          },
+          {
+            "title": "Kit comprado no Brico Depôt",
+            "href": "/instalacao-kit-portao-brico-depot",
+            "text": "Verificação de kits adquiridos no Brico Depôt antes da montagem, ligação e programação."
+          },
+          {
+            "title": "Kit comprado na Amazon",
+            "href": "/instalacao-kit-portao-amazon",
+            "text": "Apoio na instalação de kits comprados online, com confirmação de material completo e compatível."
+          },
+          {
+            "title": "Kit comprado no OLX",
+            "href": "/instalacao-kit-portao-olx",
+            "text": "Avaliação prudente de kits anunciados ou comprados no OLX, especialmente quando o material é usado."
+          }
+        ]
+      },
+      {
+        "title": "Também avaliamos kits de várias marcas",
+        "intro": [
+          "Além da loja onde o kit foi comprado, também é importante confirmar a marca, o modelo, os acessórios incluídos e se o automatismo é adequado ao portão.",
+          "A instalação depende sempre da compatibilidade do kit, do estado mecânico do portão, da existência de alimentação elétrica adequada e das condições mínimas de segurança."
+        ],
+        "logos": [
+          {
+            "src": "/casanoov-logo.png",
+            "alt": "Casanoov",
+            "href": "/instalacao-kit-portao-casanoov"
+          },
+          {
+            "src": "/vevor-logo.png",
+            "alt": "Vevor",
+            "href": "/instalacao-kit-portao-vevor"
+          },
+          {
+            "src": "/avidsen-logo.jpg",
+            "alt": "Avidsen",
+            "href": "/instalacao-kit-portao-avidsen"
+          },
+          {
+            "src": "/dimoel-logo.png",
+            "alt": "Dimoel",
+            "href": "/instalacao-kit-portao-dimoel"
+          },
+          {
+            "src": "/scs-sentinel-logo.png",
+            "alt": "SCS Sentinel",
+            "href": "/instalacao-kit-portao-scs-sentinel"
+          }
+        ]
+      }
+    ],
+    "eyebrow": "Kit de automatismo",
+    "contact": {
+      "title": "Comprou um kit e precisa de instalador?",
+      "intro": [
+        "Se comprou um kit de automatismo para portão numa loja, online ou marketplace, podemos analisar o equipamento, verificar as condições do portão e indicar a melhor forma de avançar com a instalação.",
+        "Podemos analisar kits comprados em lojas como Leroy Merlin, Brico Depôt, Amazon, ManoMano ou marcas como Vevor, Casanoov, Avidsen, Dimoel e SCS Sentinel."
+      ],
+      "cards": [
+        {
+          "title": "Envie fotos do kit",
+          "text": "Pode enviar imagens da caixa, motores, acessórios e manual para uma primeira análise."
+        },
+        {
+          "title": "Mostre o portão",
+          "text": "Fotos ou vídeos do portão ajudam a perceber se é de correr, batente, garagem ou outro sistema."
+        },
+        {
+          "title": "Receba orientação",
+          "text": "Indicamos se o kit parece adequado, se falta algum acessório ou se é necessária visita ao local."
+        },
+        {
+          "title": "Instalação com segurança",
+          "text": "Quando existem condições, avançamos com montagem, ligação, programação e testes de funcionamento."
+        }
+      ],
+      "notes": [
+        "Antes de comprar ou instalar, fale connosco. Muitas vezes uma simples verificação evita comprar um kit incompatível ou avançar com uma instalação que depois não funciona corretamente."
+      ],
+      "whatsappLabel": "Enviar fotos do kit"
+    }
+  },
+  "instalacao-kit-portao-avidsen": {
+    "kind": "kit",
+    "title": "Instalação de Kit Avidsen para Portão",
+    "label": "Instalação de Kit Avidsen para Portão",
+    "description": "Instalação e verificação de kits Avidsen para portões automáticos residenciais, mediante compatibilidade, equipamento completo, estado do portão e condições de segurança.",
+    "heading": "Instalação de kit Avidsen para portão",
+    "lead": [
+      "Tem um kit Avidsen para automatizar um portão residencial e precisa de instalação? A TecCasa Soluções pode verificar o equipamento, avaliar o portão e instalar quando o conjunto permitir uma montagem segura.",
+      "A instalação depende do kit estar completo, ser compatível com o tipo de portão, existir alimentação elétrica adequada e o portão trabalhar corretamente sem esforço manual."
+    ],
+    "image": {
+      "src": "/instalacao-kit-portao-automatico-hero.png",
+      "alt": "Instalação de kit Avidsen para portão"
+    },
+    "whatsappLabel": "Enviar fotos do kit",
+    "anchor": {
+      "href": "#condicoes",
+      "label": "Ver condições"
+    },
+    "sections": [
+      {
+        "title": "O que verificamos antes de instalar um kit Avidsen?",
+        "id": "condicoes",
+        "intro": [
+          "Antes de instalar um kit Avidsen, confirmamos se todos os componentes estão presentes, se o motor é adequado ao portão e se a instalação permite funcionamento fiável no uso residencial diário."
+        ],
+        "cards": [
+          {
+            "title": "Kit e acessórios",
+            "text": "Verificamos motor, central, comandos, fotocélulas, suportes, batentes, manual e acessórios necessários para a montagem."
+          },
+          {
+            "title": "Tipo de portão",
+            "text": "Confirmamos se o kit é adequado para portão de batente, correr ou garagem, e se respeita o curso e dimensões do local."
+          },
+          {
+            "title": "Central e comandos",
+            "text": "Avaliamos a ligação da central, programação de comandos e funcionamento previsto para abertura total ou pedonal, quando aplicável."
+          },
+          {
+            "title": "Portão leve e alinhado",
+            "text": "O portão deve abrir e fechar manualmente sem prender, sem folgas excessivas e sem esforço que possa danificar o motor."
+          },
+          {
+            "title": "Segurança no fecho",
+            "text": "Verificamos fotocélulas, posição dos acessórios e comportamento do automatismo durante o movimento de fecho."
+          },
+          {
+            "title": "Utilização prevista",
+            "text": "Avaliamos se o equipamento é adequado ao número de ciclos esperados e à utilização real do acesso."
+          }
+        ]
+      },
+      {
+        "title": "Vai montar um kit Avidsen novo?",
+        "intro": [
+          "Se comprou um kit para um portão de batente, comece pela referência na caixa ou no manual. A referência permite confirmar o conteúdo previsto e consultar as cotas de montagem da versão que comprou."
+        ],
+        "cards": [
+          {
+            "title": "Referência e peças do kit",
+            "text": "Fotografe a etiqueta da caixa e os componentes incluídos. Se houver duas folhas, indique se o kit traz um ou dois motores."
+          },
+          {
+            "title": "Espaço junto aos pilares",
+            "text": "Mostre as dobradiças, o interior dos pilares e a posição do portão aberto. Essas imagens ajudam a comparar o espaço disponível com as instruções do kit."
+          }
+        ]
+      }
+    ],
+    "eyebrow": "Kit de automatismo",
+    "logo": {
+      "src": "/avidsen-logo.jpg",
+      "alt": "Avidsen"
+    },
+    "whatsappMessage": "Olá, tenho um kit Avidsen para portão e gostava de saber se é possível instalar. Posso enviar fotos.",
+    "contact": {
+      "title": "Tem um kit Avidsen para instalar?",
+      "intro": [
+        "Se tem um kit Avidsen para portão, envie fotografias do equipamento e do portão antes de marcar. A análise prévia ajuda a perceber se o material está completo e se a montagem faz sentido.",
+        "Em instalações residenciais, é importante garantir que o portão está mecanicamente correto, que há alimentação elétrica segura e que as fotocélulas conseguem proteger a zona de passagem."
+      ],
+      "cards": [
+        {
+          "title": "Fotografias do kit",
+          "text": "Caixa, motor, central, comandos, fotocélulas, suportes e manual ajudam a confirmar o material disponível."
+        },
+        {
+          "title": "Estado do portão",
+          "text": "Fotos e vídeo do portão ajudam a perceber alinhamento, peso, dobradiças, rodas, calha ou pontos de esforço."
+        },
+        {
+          "title": "Condições do local",
+          "text": "Verificamos se há espaço para motor, passagem de cabos, alimentação elétrica e acessórios de segurança."
+        },
+        {
+          "title": "Programação e testes",
+          "text": "Após montagem, fazemos ligações, programação, testes de curso e verificação do comportamento seguro."
+        }
+      ],
+      "notes": [
+        "A TecCasa Soluções é um serviço técnico independente. Não representa oficialmente a Avidsen nem qualquer fabricante, distribuidor ou vendedor associado à marca.",
+        "Antes de marcar a instalação, envie fotografias do kit e do portão. Uma verificação prévia pode evitar instalações incompatíveis, inseguras ou com material incompleto."
+      ],
+      "whatsappLabel": "Enviar fotos do kit"
+    }
+  },
+  "instalacao-kit-portao-brico-depot": {
+    "kind": "kit",
+    "title": "Instalação de Kit de Portão Brico Depôt",
+    "label": "Instalação de Kit de Portão Brico Depôt",
+    "description": "Comprou um kit de automatismo para portão no Brico Depôt? A TecCasa Soluções pode avaliar o equipamento e instalar quando existirem condições técnicas, compatibilidade e segurança.",
+    "heading": "Instalação de kit de portão comprado no Brico Depôt",
+    "lead": [
+      "Comprou um kit de automatismo para portão no Brico Depôt e precisa de instalação? A TecCasa Soluções pode avaliar o equipamento, verificar as condições do portão e instalar quando existirem condições técnicas e de segurança.",
+      "A instalação depende do kit estar completo, ser compatível com o portão, existir alimentação elétrica adequada e o portão apresentar boas condições mecânicas."
+    ],
+    "image": {
+      "src": "/instalacao-kit-portao-automatico-hero.png",
+      "alt": "Instalação de kit de automatismo para portão comprado no Brico Depôt"
+    },
+    "whatsappLabel": "Enviar fotos do kit",
+    "anchor": {
+      "href": "#condicoes",
+      "label": "Ver condições"
+    },
+    "sections": [
+      {
+        "title": "O que verificamos antes de instalar o kit?",
+        "id": "condicoes",
+        "intro": [
+          "Antes de instalar um kit de automatismo para portão comprado no Brico Depôt, confirmamos se o equipamento está completo, se é adequado ao portão e se existem condições técnicas e de segurança para avançar com a montagem."
+        ],
+        "cards": [
+          {
+            "title": "Kit completo",
+            "text": "Verificamos se o kit inclui motor, central, comandos, fotocélulas, suportes, acessórios, manual e elementos necessários à montagem."
+          },
+          {
+            "title": "Compatibilidade com o portão",
+            "text": "Confirmamos se o motor é adequado ao tipo de portão, peso, dimensões, curso, frequência de utilização e esforço esperado."
+          },
+          {
+            "title": "Alimentação elétrica",
+            "text": "A instalação depende de existir alimentação elétrica adequada junto ao local do motor ou central, com condições mínimas de segurança."
+          },
+          {
+            "title": "Estado mecânico do portão",
+            "text": "O portão deve mover-se corretamente à mão, sem estar preso, desalinhado, pesado ou com calhas, rodas ou dobradiças em esforço."
+          },
+          {
+            "title": "Segurança da instalação",
+            "text": "Avaliamos a instalação de fotocélulas, sistemas de proteção e comportamento seguro do automatismo no fecho e abertura."
+          },
+          {
+            "title": "Limitações do equipamento",
+            "text": "Alguns kits vendidos em loja podem ter limitações de força, acessórios, documentação, compatibilidade ou assistência futura."
+          }
+        ]
+      }
+    ],
+    "eyebrow": "Brico Depôt",
+    "whatsappMessage": "Olá, comprei um kit de automatismo para portão no Brico Depôt e gostava de saber se é possível instalar. Posso enviar fotos.",
+    "contact": {
+      "title": "Comprou um kit no Brico Depôt?",
+      "intro": [
+        "Se comprou um kit de automatismo para portão no Brico Depôt, envie fotografias da caixa, dos motores, acessórios e do portão. A TecCasa Soluções pode fazer uma primeira avaliação e indicar se existem condições para instalação.",
+        "A instalação só deve avançar quando o equipamento é compatível, está completo, o portão se encontra em boas condições mecânicas e existe alimentação elétrica adequada."
+      ],
+      "cards": [
+        {
+          "title": "Envie fotos do kit",
+          "text": "Fotografias da caixa, motores, central, comandos, fotocélulas, acessórios e manual ajudam a perceber o equipamento."
+        },
+        {
+          "title": "Mostre o portão",
+          "text": "Fotos ou vídeo do portão permitem avaliar se é de correr, batente ou garagem, e perceber o estado mecânico."
+        },
+        {
+          "title": "Verificação antes da montagem",
+          "text": "Confirmamos se o kit parece adequado, se falta algum acessório e se é necessária visita técnica ao local."
+        },
+        {
+          "title": "Instalação apenas com condições",
+          "text": "Quando existem condições técnicas e de segurança, avançamos com montagem, ligação, programação e testes."
+        }
+      ],
+      "notes": [
+        "A TecCasa Soluções é um serviço técnico independente. Não representa oficialmente o Brico Depôt nem qualquer marca ou fabricante dos kits vendidos em loja.",
+        "Antes de marcar a instalação, envie fotografias do kit e do portão. Uma verificação prévia pode evitar instalações incompatíveis, inseguras ou com material incompleto."
+      ],
+      "whatsappLabel": "Enviar fotos do kit"
+    }
+  },
+  "instalacao-kit-portao-casanoov": {
+    "kind": "kit",
+    "title": "Instalação de Kit Casanoov para Portão",
+    "label": "Instalação de Kit Casanoov para Portão",
+    "description": "Instalação e verificação de kits Casanoov para portões automáticos, mediante compatibilidade, equipamento completo, estado do portão, alimentação elétrica e condições de segurança.",
+    "heading": "Instalação de kit Casanoov para portão",
+    "lead": [
+      "Tem um kit Casanoov para automatizar um portão e precisa de instalação? A TecCasa Soluções pode avaliar o equipamento, verificar as condições do portão e instalar quando existirem condições técnicas e de segurança.",
+      "A instalação depende do kit estar completo, ser compatível com o tipo de portão, existir alimentação elétrica adequada e o portão apresentar boas condições mecânicas."
+    ],
+    "image": {
+      "src": "/instalacao-kit-portao-automatico-hero.png",
+      "alt": "Instalação de kit Casanoov para portão automático"
+    },
+    "whatsappLabel": "Enviar fotos do kit",
+    "anchor": {
+      "href": "#condicoes",
+      "label": "Ver condições"
+    },
+    "sections": [
+      {
+        "title": "O que verificamos antes de instalar um kit Casanoov?",
+        "id": "condicoes",
+        "intro": [
+          "Antes de instalar um kit Casanoov para portão automático, confirmamos se o equipamento está completo, se é compatível com o tipo de portão e se existem condições técnicas e de segurança para avançar com a montagem."
+        ],
+        "cards": [
+          {
+            "title": "Equipamento completo",
+            "text": "Verificamos se o kit inclui motor, central, comandos, fotocélulas, suportes, acessórios, manual e elementos necessários à instalação."
+          },
+          {
+            "title": "Compatibilidade com o portão",
+            "text": "Confirmamos se o automatismo é adequado ao tipo de portão, peso, dimensões, curso, esforço e frequência de utilização."
+          },
+          {
+            "title": "Alimentação elétrica",
+            "text": "A instalação depende de existir alimentação elétrica adequada junto ao local do motor ou central, com condições mínimas de segurança."
+          },
+          {
+            "title": "Estado mecânico do portão",
+            "text": "O portão deve mover-se corretamente à mão, sem estar preso, desalinhado, pesado ou com calhas, rodas ou dobradiças em esforço."
+          },
+          {
+            "title": "Segurança da instalação",
+            "text": "Avaliamos a instalação de fotocélulas, proteção no fecho e comportamento seguro do automatismo durante abertura e fecho."
+          },
+          {
+            "title": "Limitações do equipamento",
+            "text": "Alguns kits podem ter limitações de força, documentação, acessórios, compatibilidade ou assistência futura, pelo que a avaliação prévia é importante."
+          }
+        ]
+      }
+    ],
+    "eyebrow": "Kit de automatismo",
+    "logo": {
+      "src": "/casanoov-logo.png",
+      "alt": "Casanoov"
+    },
+    "whatsappMessage": "Olá, tenho um kit Casanoov para portão e gostava de saber se é possível instalar. Posso enviar fotos.",
+    "contact": {
+      "title": "Tem um kit Casanoov para instalar?",
+      "intro": [
+        "Se tem um kit Casanoov para automatizar um portão, envie fotografias da caixa, dos motores, acessórios, manual e do próprio portão. A TecCasa Soluções pode fazer uma primeira avaliação e indicar se existem condições para instalação.",
+        "A instalação só deve avançar quando o equipamento é compatível, está completo, o portão se encontra em boas condições mecânicas e existe alimentação elétrica adequada."
+      ],
+      "cards": [
+        {
+          "title": "Envie fotos do kit",
+          "text": "Fotografias da caixa, motores, central, comandos, fotocélulas, acessórios e manual ajudam a perceber o equipamento."
+        },
+        {
+          "title": "Mostre o portão",
+          "text": "Fotos ou vídeo do portão permitem avaliar se é de correr, batente ou garagem, e perceber o estado mecânico."
+        },
+        {
+          "title": "Verificação antes da montagem",
+          "text": "Confirmamos se o kit parece adequado, se falta algum acessório e se é necessária visita técnica ao local."
+        },
+        {
+          "title": "Instalação apenas com condições",
+          "text": "Quando existem condições técnicas e de segurança, avançamos com montagem, ligação, programação e testes."
+        }
+      ],
+      "notes": [
+        "A TecCasa Soluções é um serviço técnico independente. Não representa oficialmente a Casanoov nem qualquer fabricante, distribuidor ou vendedor associado à marca.",
+        "Antes de marcar a instalação, envie fotografias do kit e do portão. Uma verificação prévia pode evitar instalações incompatíveis, inseguras ou com material incompleto."
+      ],
+      "whatsappLabel": "Enviar fotos do kit"
+    }
+  },
+  "instalacao-kit-portao-dimoel": {
+    "kind": "kit",
+    "title": "Instalação de Kit Dimoel para Portão",
+    "label": "Instalação de Kit Dimoel para Portão",
+    "description": "Instalação e verificação de kits Dimoel para portões automáticos, mediante compatibilidade, equipamento completo, estado do material, alimentação elétrica e segurança.",
+    "heading": "Instalação de kit Dimoel para portão automático",
+    "lead": [
+      "Tem um kit Dimoel para automatizar um portão e precisa de instalação? A TecCasa Soluções pode avaliar o material disponível, confirmar compatibilidade com o portão e avançar apenas quando existirem condições técnicas.",
+      "Quando o equipamento já foi comprado pelo cliente, é essencial confirmar se não faltam peças, se o motor é adequado ao esforço do portão e se a instalação pode cumprir condições mínimas de segurança."
+    ],
+    "image": {
+      "src": "/instalacao-kit-portao-olx-hero.png",
+      "alt": "Instalação de kit Dimoel para portão automático automático"
+    },
+    "whatsappLabel": "Enviar fotos do kit",
+    "anchor": {
+      "href": "#condicoes",
+      "label": "Ver condições"
+    },
+    "sections": [
+      {
+        "title": "O que verificamos antes de instalar um kit Dimoel?",
+        "id": "condicoes",
+        "intro": [
+          "A instalação de um kit Dimoel deve começar por uma avaliação do material, do estado mecânico do portão e das condições elétricas disponíveis no local."
+        ],
+        "cards": [
+          {
+            "title": "Material completo",
+            "text": "Confirmamos se o kit inclui motor, central, comandos, fotocélulas, suportes, acessórios, manual e peças necessárias para a montagem."
+          },
+          {
+            "title": "Estado do equipamento",
+            "text": "Quando o material já está aberto ou foi comprado há algum tempo, verificamos sinais de falta de peças, danos ou componentes incompatíveis."
+          },
+          {
+            "title": "Dimensões e esforço",
+            "text": "Avaliamos se o motor é adequado ao peso, largura, curso, batentes e esforço real do portão."
+          },
+          {
+            "title": "Ligação elétrica",
+            "text": "A montagem depende de alimentação elétrica adequada, ponto de ligação seguro e cablagem preparada para motor e acessórios."
+          },
+          {
+            "title": "Acessórios de segurança",
+            "text": "Verificamos a possibilidade de instalar fotocélulas, pirilampo e proteções necessárias para reduzir riscos no movimento do portão."
+          },
+          {
+            "title": "Montagem sem improvisos",
+            "text": "Quando faltam suportes, cabos, acessórios ou documentação, pode ser necessário corrigir o material antes de avançar."
+          }
+        ]
+      }
+    ],
+    "eyebrow": "Kit de automatismo",
+    "logo": {
+      "src": "/dimoel-logo.png",
+      "alt": "Dimoel"
+    },
+    "whatsappMessage": "Olá, tenho um kit Dimoel para portão e gostava de saber se é possível instalar. Posso enviar fotos.",
+    "contact": {
+      "title": "Tem um kit Dimoel para instalar?",
+      "intro": [
+        "Se tem um kit Dimoel para portão, envie fotografias do motor, central, acessórios e do portão. A TecCasa Soluções pode fazer uma primeira avaliação antes de marcar a instalação.",
+        "A instalação deve ser feita apenas quando o equipamento está completo, em condições, compatível com o portão e com segurança mínima para abertura e fecho."
+      ],
+      "cards": [
+        {
+          "title": "Confirmação do material",
+          "text": "As fotografias permitem perceber rapidamente se o kit parece completo e se existem acessórios essenciais."
+        },
+        {
+          "title": "Avaliação do portão",
+          "text": "O portão deve estar leve, alinhado e funcional manualmente antes de receber qualquer automatismo."
+        },
+        {
+          "title": "Correções necessárias",
+          "text": "Se faltarem suportes, cremalheira, cabos, fotocélulas ou outros acessórios, indicamos antes de avançar."
+        },
+        {
+          "title": "Montagem e afinação",
+          "text": "Com condições reunidas, fazemos montagem, ligação, programação, afinação de curso e testes finais."
+        }
+      ],
+      "notes": [
+        "A TecCasa Soluções é um serviço técnico independente. Não representa oficialmente a Dimoel nem qualquer fabricante, distribuidor ou vendedor associado à marca.",
+        "Antes de marcar a instalação, envie fotografias do kit e do portão. Uma verificação prévia pode evitar instalações incompatíveis, inseguras ou com material incompleto."
+      ],
+      "whatsappLabel": "Enviar fotos do kit"
+    }
+  },
+  "instalacao-kit-portao-leroy-merlin": {
+    "kind": "kit",
+    "title": "Instalação de Kit de Portão Leroy Merlin",
+    "label": "Instalação de Kit de Portão Leroy Merlin",
+    "description": "Comprou um kit de automatismo para portão no Leroy Merlin? A TecCasa Soluções pode avaliar o equipamento e instalar quando existirem condições técnicas, compatibilidade e segurança.",
+    "heading": "Instalação de kit de portão comprado no Leroy Merlin",
+    "lead": [
+      "Comprou um kit de automatismo para portão no Leroy Merlin e precisa de instalação? A TecCasa Soluções pode avaliar o equipamento, verificar as condições do portão e instalar quando existirem condições técnicas e de segurança.",
+      "A instalação depende do kit estar completo, ser compatível com o portão, existir alimentação elétrica adequada e o portão apresentar boas condições mecânicas."
+    ],
+    "image": {
+      "src": "/instalacao-kit-portao-automatico.png",
+      "alt": "Instalação de kit de automatismo para portão comprado no Leroy Merlin"
+    },
+    "whatsappLabel": "Enviar fotos do kit",
+    "anchor": {
+      "href": "#condicoes",
+      "label": "Ver condições"
+    },
+    "sections": [
+      {
+        "title": "O que verificamos antes de instalar o kit?",
+        "id": "condicoes",
+        "intro": [
+          "Antes de instalar um kit de automatismo para portão comprado no Leroy Merlin, confirmamos se o equipamento está completo, se é adequado ao portão e se existem condições técnicas e de segurança para avançar com a montagem."
+        ],
+        "cards": [
+          {
+            "title": "Kit completo",
+            "text": "Verificamos se o kit inclui motor, central, comandos, fotocélulas, suportes, acessórios, manual e elementos necessários à montagem."
+          },
+          {
+            "title": "Compatibilidade com o portão",
+            "text": "Confirmamos se o motor é adequado ao tipo de portão, peso, dimensões, curso, frequência de utilização e esforço esperado."
+          },
+          {
+            "title": "Alimentação elétrica",
+            "text": "A instalação depende de existir alimentação elétrica adequada junto ao local do motor ou central, com condições mínimas de segurança."
+          },
+          {
+            "title": "Estado mecânico do portão",
+            "text": "O portão deve mover-se corretamente à mão, sem estar preso, desalinhado, pesado ou com calhas, rodas ou dobradiças em esforço."
+          },
+          {
+            "title": "Segurança da instalação",
+            "text": "Avaliamos a instalação de fotocélulas, sistemas de proteção e comportamento seguro do automatismo no fecho e abertura."
+          },
+          {
+            "title": "Limitações do equipamento",
+            "text": "Alguns kits vendidos em loja podem ter limitações de força, acessórios, documentação, compatibilidade ou assistência futura."
+          }
+        ]
+      }
+    ],
+    "eyebrow": "Leroy Merlin",
+    "whatsappMessage": "Olá, comprei um kit de automatismo para portão no Leroy Merlin e gostava de saber se é possível instalar.",
+    "contact": {
+      "title": "Comprou um kit no Leroy Merlin?",
+      "intro": [
+        "Se comprou um kit de automatismo para portão no Leroy Merlin, envie fotografias da caixa, dos motores, acessórios e do portão. A TecCasa Soluções pode fazer uma primeira avaliação e indicar se existem condições para instalação.",
+        "A instalação só deve avançar quando o equipamento é compatível, está completo, o portão se encontra em boas condições mecânicas e existe alimentação elétrica adequada."
+      ],
+      "cards": [
+        {
+          "title": "Envie fotos do kit",
+          "text": "Fotografias da caixa, motores, central, comandos, fotocélulas, acessórios e manual ajudam a perceber o equipamento."
+        },
+        {
+          "title": "Mostre o portão",
+          "text": "Fotos ou vídeo do portão permitem avaliar se é de correr, batente ou garagem, e perceber o estado mecânico."
+        },
+        {
+          "title": "Verificação antes da montagem",
+          "text": "Confirmamos se o kit parece adequado, se falta algum acessório e se é necessária visita técnica ao local."
+        },
+        {
+          "title": "Instalação apenas com condições",
+          "text": "Quando existem condições técnicas e de segurança, avançamos com montagem, ligação, programação e testes."
+        }
+      ],
+      "notes": [
+        "A TecCasa Soluções é um serviço técnico independente. Não representa oficialmente o Leroy Merlin nem qualquer marca ou fabricante dos kits vendidos em loja.",
+        "Antes de marcar a instalação, envie fotografias do kit e do portão. Uma verificação prévia pode evitar instalações incompatíveis, inseguras ou com material incompleto."
+      ],
+      "whatsappLabel": "Enviar fotos do kit"
+    }
+  },
+  "instalacao-kit-portao-olx": {
+    "kind": "kit",
+    "title": "Instalação de Kit de Portão OLX",
+    "label": "Instalação de Kit de Portão OLX",
+    "description": "Comprou um kit de automatismo para portão no OLX? A TecCasa Soluções pode avaliar o equipamento e instalar quando existirem condições técnicas, compatibilidade e segurança.",
+    "heading": "Instalação de kit de portão comprado no OLX",
+    "lead": [
+      "Comprou um kit de automatismo para portão no OLX e precisa de instalação? A TecCasa Soluções pode avaliar o equipamento, verificar as condições do portão e instalar quando existirem condições técnicas e de segurança.",
+      "A instalação depende do kit estar completo, em bom estado, ser compatível com o portão, existir alimentação elétrica adequada e o portão apresentar boas condições mecânicas."
+    ],
+    "image": {
+      "src": "/instalacao-kit-portao-olx-hero.png",
+      "alt": "Instalação de kit de automatismo para portão comprado no OLX"
+    },
+    "whatsappLabel": "Enviar fotos do kit",
+    "anchor": {
+      "href": "#condicoes",
+      "label": "Ver condições"
+    },
+    "sections": [
+      {
+        "title": "O que verificamos antes de instalar o kit?",
+        "id": "condicoes",
+        "intro": [
+          "Antes de instalar um kit de automatismo para portão comprado no OLX, confirmamos se o equipamento está completo, em bom estado, adequado ao portão e se existem condições técnicas e de segurança para avançar com a montagem."
+        ],
+        "cards": [
+          {
+            "title": "Kit completo e em bom estado",
+            "text": "Verificamos se o kit inclui motor, central, comandos, fotocélulas, suportes, acessórios, manual e se não apresenta sinais evidentes de danos."
+          },
+          {
+            "title": "Compatibilidade com o portão",
+            "text": "Confirmamos se o motor é adequado ao tipo de portão, peso, dimensões, curso, frequência de utilização e esforço esperado."
+          },
+          {
+            "title": "Alimentação elétrica",
+            "text": "A instalação depende de existir alimentação elétrica adequada junto ao local do motor ou central, com condições mínimas de segurança."
+          },
+          {
+            "title": "Estado mecânico do portão",
+            "text": "O portão deve mover-se corretamente à mão, sem estar preso, desalinhado, pesado ou com calhas, rodas ou dobradiças em esforço."
+          },
+          {
+            "title": "Segurança da instalação",
+            "text": "Avaliamos a instalação de fotocélulas, sistemas de proteção e comportamento seguro do automatismo no fecho e abertura."
+          },
+          {
+            "title": "Limitações do equipamento",
+            "text": "Alguns kits comprados no OLX podem estar usados, incompletos, sem manual, sem acessórios, sem garantia ou com desgaste que impeça uma instalação segura."
+          }
+        ]
+      }
+    ],
+    "eyebrow": "OLX",
+    "whatsappMessage": "Olá, comprei um kit de automatismo para portão no OLX e gostava de saber se é possível instalar. Posso enviar fotos.",
+    "contact": {
+      "title": "Comprou um kit no OLX?",
+      "intro": [
+        "Se comprou um kit de automatismo para portão no OLX, envie fotografias da caixa, dos motores, acessórios, cabos, central, comandos e do portão. A TecCasa Soluções pode fazer uma primeira avaliação e indicar se existem condições para instalação.",
+        "Em equipamentos comprados no OLX, é especialmente importante confirmar o estado do material, se faltam peças, se existe manual e se o motor não apresenta sinais de desgaste, avaria ou incompatibilidade."
+      ],
+      "cards": [
+        {
+          "title": "Envie fotos do kit",
+          "text": "Fotografias da caixa, motores, central, comandos, fotocélulas, acessórios e manual ajudam a perceber o equipamento."
+        },
+        {
+          "title": "Mostre o portão",
+          "text": "Fotos ou vídeo do portão permitem avaliar se é de correr, batente ou garagem, e perceber o estado mecânico."
+        },
+        {
+          "title": "Verificação antes da montagem",
+          "text": "Confirmamos se o kit parece adequado, se falta algum acessório e se é necessária visita técnica ao local."
+        },
+        {
+          "title": "Instalação apenas com condições",
+          "text": "Quando existem condições técnicas e de segurança, avançamos com montagem, ligação, programação e testes."
+        }
+      ],
+      "notes": [
+        "A TecCasa Soluções é um serviço técnico independente. Não representa oficialmente o OLX, anunciantes, vendedores, nem qualquer marca ou fabricante dos kits vendidos ou anunciados na plataforma.",
+        "Antes de marcar a instalação, envie fotografias do kit e do portão. Uma verificação prévia pode evitar instalações incompatíveis, inseguras ou com material incompleto."
+      ],
+      "whatsappLabel": "Enviar fotos do kit"
+    }
+  },
+  "instalacao-kit-portao-scs-sentinel": {
+    "kind": "kit",
+    "title": "Instalação de Kit SCS Sentinel para Portão",
+    "label": "Instalação de Kit SCS Sentinel para Portão",
+    "description": "Instalação e verificação de kits SCS Sentinel para portões automáticos residenciais, mediante compatibilidade, equipamento completo, alimentação elétrica e segurança.",
+    "heading": "Instalação de kit SCS Sentinel para portão",
+    "lead": [
+      "Tem um kit SCS Sentinel para portão e precisa de instalação? A TecCasa Soluções pode avaliar o equipamento, confirmar se é adequado ao portão e instalar apenas quando existirem condições técnicas e de segurança.",
+      "Antes da montagem, verificamos se o kit está completo, se a central e acessórios são compatíveis, se existe alimentação elétrica e se o portão se movimenta corretamente à mão."
+    ],
+    "image": {
+      "src": "/instalacao-kit-portao-amazon-hero.png",
+      "alt": "Instalação de kit SCS Sentinel para portão"
+    },
+    "whatsappLabel": "Enviar fotos do kit",
+    "anchor": {
+      "href": "#condicoes",
+      "label": "Ver condições"
+    },
+    "sections": [
+      {
+        "title": "O que verificamos antes de instalar um kit SCS Sentinel?",
+        "id": "condicoes",
+        "intro": [
+          "Nos kits SCS Sentinel, confirmamos primeiro se os componentes são compatíveis entre si, se o portão está em boas condições e se a instalação permite funcionamento seguro no uso diário."
+        ],
+        "cards": [
+          {
+            "title": "Kit completo",
+            "text": "Verificamos motor, central, comandos, fotocélulas, suportes, acessórios, manual e cabos necessários à instalação."
+          },
+          {
+            "title": "Motor certo para o portão",
+            "text": "Confirmamos se o equipamento é adequado ao tipo de portão, peso, dimensão, curso e utilização prevista."
+          },
+          {
+            "title": "Comandos e recetor",
+            "text": "Avaliamos programação de comandos, ligação do recetor e funcionamento esperado para abertura normal ou pedonal."
+          },
+          {
+            "title": "Portão sem esforço",
+            "text": "Antes de automatizar, o portão deve deslocar-se corretamente à mão, sem empenos, folgas graves ou pontos de bloqueio."
+          },
+          {
+            "title": "Proteção no fecho",
+            "text": "Verificamos fotocélulas, zonas de passagem e comportamento do automatismo para reduzir riscos durante o fecho."
+          },
+          {
+            "title": "Documentação e compatibilidade",
+            "text": "Se o kit tiver documentação limitada ou acessórios diferentes, pode ser necessária avaliação adicional antes da montagem."
+          }
+        ]
+      },
+      {
+        "title": "Já tem um sistema SCS Sentinel instalado?",
+        "intro": [
+          "Se quer substituir um kit antigo ou apenas um componente, indique o que pretende conservar. A referência do equipamento já instalado e a do material novo ajudam a avaliar se podem trabalhar em conjunto."
+        ],
+        "cards": [
+          {
+            "title": "Identificar o sistema existente",
+            "text": "Envie as referências visíveis do motor e da central, se as tiver, e diga se o portão é de correr ou de batente. Fotografe as etiquetas sem abrir o equipamento."
+          },
+          {
+            "title": "Acessórios a manter",
+            "text": "Indique se quer reaproveitar comandos, fotocélulas ou outros acessórios. A compatibilidade é confirmada com a documentação das referências antes de propor a montagem."
+          }
+        ]
+      }
+    ],
+    "eyebrow": "Kit de automatismo",
+    "logo": {
+      "src": "/scs-sentinel-logo.png",
+      "alt": "SCS Sentinel"
+    },
+    "whatsappMessage": "Olá, tenho um kit SCS Sentinel para portão e gostava de saber se é possível instalar. Posso enviar fotos.",
+    "contact": {
+      "title": "Tem um kit SCS Sentinel para instalar?",
+      "intro": [
+        "Se comprou ou recebeu um kit SCS Sentinel para portão, envie fotografias do conjunto completo e do local de instalação. Essa informação ajuda a perceber se o equipamento pode ser instalado com segurança.",
+        "A instalação só deve avançar quando o material é compatível, está completo, o portão está mecanicamente correto e existe alimentação elétrica adequada."
+      ],
+      "cards": [
+        {
+          "title": "Fotos do conjunto",
+          "text": "Motor, central, comandos, fotocélulas, suportes e manual permitem confirmar o material disponível."
+        },
+        {
+          "title": "Fotos do acesso",
+          "text": "Imagens do portão e da zona de montagem ajudam a perceber espaço, fixações, cabos e pontos de segurança."
+        },
+        {
+          "title": "Triagem técnica",
+          "text": "Antes da visita, tentamos identificar incompatibilidades, peças em falta ou limitações previsíveis."
+        },
+        {
+          "title": "Instalação segura",
+          "text": "Com condições reunidas, avançamos com montagem, ligação, programação e ensaios de funcionamento."
+        }
+      ],
+      "notes": [
+        "A TecCasa Soluções é um serviço técnico independente. Não representa oficialmente a SCS Sentinel nem qualquer fabricante, distribuidor ou vendedor associado à marca.",
+        "Antes de marcar a instalação, envie fotografias do kit e do portão. Uma verificação prévia pode evitar instalações incompatíveis, inseguras ou com material incompleto."
+      ],
+      "whatsappLabel": "Enviar fotos do kit"
+    }
+  },
+  "instalacao-kit-portao-vevor": {
+    "kind": "kit",
+    "title": "Instalação de Kit Vevor para Portão",
+    "label": "Instalação de Kit Vevor para Portão",
+    "description": "Instalação e verificação de kits Vevor para portões automáticos, mediante compatibilidade, equipamento completo, estado do portão, alimentação elétrica e condições de segurança.",
+    "heading": "Instalação de kit Vevor para portão",
+    "lead": [
+      "Tem um kit Vevor para automatizar um portão e precisa de instalação? A TecCasa Soluções pode avaliar o equipamento adquirido online, verificar as condições do portão e instalar quando existirem condições técnicas e de segurança.",
+      "Antes de avançar, confirmamos se o kit está completo, se o motor é adequado ao esforço do portão, se existe alimentação elétrica e se os acessórios de segurança permitem uma montagem correta."
+    ],
+    "image": {
+      "src": "/instalacao-kit-portao-amazon-hero.png",
+      "alt": "Instalação de kit Vevor para portão"
+    },
+    "whatsappLabel": "Enviar fotos do kit",
+    "anchor": {
+      "href": "#condicoes",
+      "label": "Ver condições"
+    },
+    "sections": [
+      {
+        "title": "O que verificamos antes de instalar um kit Vevor?",
+        "id": "condicoes",
+        "intro": [
+          "Nos kits Vevor, a verificação inicial ajuda a perceber se o equipamento adquirido online é adequado ao portão, se não faltam acessórios importantes e se a instalação pode ser feita com segurança."
+        ],
+        "cards": [
+          {
+            "title": "Modelo e documentação",
+            "text": "Confirmamos o modelo do kit, manual disponível, características do motor, tipo de alimentação, acessórios incluídos e forma correta de ligação."
+          },
+          {
+            "title": "Adequação ao portão",
+            "text": "Verificamos se o automatismo é compatível com o peso, curso, dimensão, esforço e frequência de utilização do portão."
+          },
+          {
+            "title": "Cremalheira ou suportes",
+            "text": "Nos portões de correr avaliamos cremalheira, fins de curso e base do motor. Nos portões de batente verificamos suportes e geometria de abertura."
+          },
+          {
+            "title": "Alimentação elétrica",
+            "text": "A instalação depende de existir alimentação elétrica adequada junto ao motor ou central, com passagem de cabos segura e protegida."
+          },
+          {
+            "title": "Fotocélulas e segurança",
+            "text": "Avaliamos a instalação de fotocélulas, pirilampo e comportamento seguro no fecho, especialmente em acessos residenciais usados diariamente."
+          },
+          {
+            "title": "Limitações do kit",
+            "text": "Alguns kits comprados online podem ter documentação reduzida, acessórios diferentes do anunciado ou limitações de assistência futura."
+          }
+        ]
+      }
+    ],
+    "eyebrow": "Kit de automatismo",
+    "logo": {
+      "src": "/vevor-logo.png",
+      "alt": "Vevor"
+    },
+    "whatsappMessage": "Olá, tenho um kit Vevor para portão e gostava de saber se é possível instalar. Posso enviar fotos.",
+    "contact": {
+      "title": "Tem um kit Vevor para instalar?",
+      "intro": [
+        "Se comprou um kit Vevor para portão, envie fotografias da caixa, etiqueta do modelo, motor, central, comandos, fotocélulas, acessórios e do portão. Com essas imagens é possível fazer uma primeira triagem antes da visita.",
+        "A instalação só deve avançar quando o equipamento está completo, é adequado ao portão e existem condições mecânicas, elétricas e de segurança para uma montagem responsável."
+      ],
+      "cards": [
+        {
+          "title": "Fotos do modelo",
+          "text": "A etiqueta do kit e a referência do motor ajudam a perceber potência, alimentação, tipo de instalação e compatibilidade."
+        },
+        {
+          "title": "Fotos dos acessórios",
+          "text": "Central, comandos, fotocélulas, pirilampo, suportes e cablagem ajudam a confirmar se o material está completo."
+        },
+        {
+          "title": "Vídeo do portão",
+          "text": "Um vídeo do portão a mover manualmente ajuda a perceber se está leve, alinhado e sem esforço excessivo."
+        },
+        {
+          "title": "Instalação validada",
+          "text": "Quando o conjunto é adequado, avançamos com montagem, ligações, programação e testes de segurança."
+        }
+      ],
+      "notes": [
+        "A TecCasa Soluções é um serviço técnico independente. Não representa oficialmente a Vevor nem qualquer fabricante, distribuidor ou vendedor associado à marca.",
+        "Antes de marcar a instalação, envie fotografias do kit e do portão. Uma verificação prévia pode evitar instalações incompatíveis, inseguras ou com material incompleto."
+      ],
+      "whatsappLabel": "Enviar fotos do kit"
+    }
+  }
+}

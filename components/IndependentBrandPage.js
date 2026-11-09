@@ -1,3 +1,4 @@
+import SiteFooter from "./SiteFooter";
 import ServiceCoverageNotice from "./ServiceCoverageNotice";
 import ConfiguratorButton from "./ConfiguratorButton";
 import Head from "next/head";
@@ -118,12 +119,8 @@ export default function IndependentBrandPage({ page }) {
           <p className="call-note">Chamada para a rede móvel nacional. Deslocações por marcação.</p>
         </section>
         <p className="brand-notice">{notice} A referência à marca identifica o equipamento e não uma relação oficial com o fabricante.</p>
-        <footer>
-          <img src="/favicon.png" alt="" width="70" height="70" />
-          <h2>TecCasa Soluções</h2><p>Automatismos · Reparações · Soluções Inteligentes</p>
-          <div className="footer-contacts"><a href={`tel:${company.telephone}`}>922 021 980</a><a href={`mailto:${company.email}`}>{company.email}</a><span>Lisboa e arredores</span></div>
-          <a href="/reparacao-portoes">Reparação de portões</a><span aria-hidden="true"> · </span><a href="/instalacao-automatismos-portoes">Instalação de automatismos</a>
-        </footer>
+        <p className="brand-notice"><a href="/reparacao-portoes">Reparação de Automatismos</a> · <a href="/instalacao-automatismos-portoes">Instalação de Automatismos</a></p>
+        <SiteFooter />
       </main>
       <a className="floating-whatsapp" href={whatsapp} target="_blank" rel="noopener noreferrer" aria-label="Falar com a TecCasa por WhatsApp">WhatsApp</a>
     </div>
@@ -190,15 +187,10 @@ export default function IndependentBrandPage({ page }) {
       .area-note { text-align:center; padding:25px 20px; font-size:15px; }
       .area-note p { margin:0; }
       .brand-notice { margin:0; border:1px solid rgba(11,44,95,.08); border-radius:20px; padding:18px 22px; text-align:center; font-size:14px; color:#666; }
-      footer { margin-top:80px; padding:45px 30px; text-align:center; color:#555; border-radius:25px; background:linear-gradient(180deg,#fff 0%,#fff 15%,#f5f7fb 35%,#dfe8f5 65%,#cfdcf0 100%); border:1px solid rgba(11,44,95,.05); }
-      footer img { margin-bottom:18px; }
-      footer h2 { margin:0 0 10px; font-size:24px; }
-      footer p { margin:0 0 25px; font-size:17px; }
-      .footer-contacts { display:flex; justify-content:center; flex-wrap:wrap; gap:15px 25px; margin-bottom:25px; }
       .floating-whatsapp { position:fixed; bottom:22px; right:22px; z-index:900; padding:14px 20px; background:#25D366; color:#fff; text-decoration:none; font-size:16px; font-weight:700; border-radius:999px; box-shadow:0 8px 24px rgba(37,211,102,.25); }
       @media(max-width:1100px) { .service-grid { grid-template-columns:repeat(2,minmax(0,1fr)); } .problem-grid { grid-template-columns:repeat(2,minmax(0,1fr)); } .brand-heading { gap:18px; } .brand-logo { max-width:160px; } }
       @media(max-width:900px) { .main-card { width:100%; padding:30px; } .hero { gap:30px; } h1 { font-size:40px; } .lead { font-size:19px; } .section-title { font-size:32px; } .problems { padding:36px 24px; } }
-      @media(max-width:768px) { .brand-page { padding:95px 6px 10px; } .main-card { padding:12px; border-radius:16px; } .hero { grid-template-columns:1fr; text-align:center; padding:30px 8px 45px; } .brand-heading { justify-content:center; } .brand-logo { height:80px; max-width:150px; } h1 { font-size:32px; line-height:1.15; } .lead { font-size:18px; line-height:1.75; } .independent { font-size:15px; } .actions { justify-content:center; } .hero-image { border-radius:22px; } .services { padding:20px 8px 45px; } .service-grid,.problem-grid,.summary-grid,.topic-grid { grid-template-columns:1fr; gap:18px; } .section-title { font-size:28px; } .section-intro { font-size:17px; margin-bottom:28px; } .problems { padding:32px 18px; border-radius:24px; margin-bottom:45px; } .assessment { padding:0 8px 40px; } .summary-grid { gap:24px; } .topic-grid { gap:30px; } .photos { grid-template-columns:1fr; gap:20px; padding:26px 20px; } .photos .photo-note { margin:0; } .questions { padding:45px 8px; } details { padding:18px; } summary { font-size:16px; } .contact { padding:35px 22px; border-radius:24px; } .contact h2 { font-size:30px; } .contact p { font-size:18px; } .area-note { padding:24px 12px; } footer { margin-top:45px; padding:32px 18px; } .footer-contacts { flex-direction:column; gap:14px; } }
+      @media(max-width:768px) { .brand-page { padding:95px 6px 10px; } .main-card { padding:12px; border-radius:16px; } .hero { grid-template-columns:1fr; text-align:center; padding:30px 8px 45px; } .brand-heading { justify-content:center; } .brand-logo { height:80px; max-width:150px; } h1 { font-size:32px; line-height:1.15; } .lead { font-size:18px; line-height:1.75; } .independent { font-size:15px; } .actions { justify-content:center; } .hero-image { border-radius:22px; } .services { padding:20px 8px 45px; } .service-grid,.problem-grid,.summary-grid,.topic-grid { grid-template-columns:1fr; gap:18px; } .section-title { font-size:28px; } .section-intro { font-size:17px; margin-bottom:28px; } .problems { padding:32px 18px; border-radius:24px; margin-bottom:45px; } .assessment { padding:0 8px 40px; } .summary-grid { gap:24px; } .topic-grid { gap:30px; } .photos { grid-template-columns:1fr; gap:20px; padding:26px 20px; } .photos .photo-note { margin:0; } .questions { padding:45px 8px; } details { padding:18px; } summary { font-size:16px; } .contact { padding:35px 22px; border-radius:24px; } .contact h2 { font-size:30px; } .contact p { font-size:18px; } .area-note { padding:24px 12px; } }
       @media(max-width:480px) { .button { width:100%; box-sizing:border-box; } .floating-whatsapp { right:14px; bottom:14px; font-size:14px; padding:12px 16px; } }
       @media(prefers-reduced-motion:reduce) { .problem-card { transition:none; } .problem-card:hover { transform:none; } }
     `}</style>

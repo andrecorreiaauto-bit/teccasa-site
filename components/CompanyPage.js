@@ -16,9 +16,6 @@ export default function CompanyPage({ english = false }) {
         <meta name="description" content={description} />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="canonical" href={`${company.url}${path}`} />
-        <link rel="alternate" hrefLang="pt-PT" href={`${company.url}/a-empresa`} />
-        <link rel="alternate" hrefLang="en" href={`${company.url}/en/about`} />
-        <link rel="alternate" hrefLang="x-default" href={`${company.url}/a-empresa`} />
         <meta property="og:title" content={title} />
         <meta property="og:description" content={description} />
         <meta property="og:url" content={`${company.url}${path}`} />

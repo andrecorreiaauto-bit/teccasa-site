@@ -1,3 +1,4 @@
+import SiteFooter from "./SiteFooter";
 import Head from "next/head";
 import SiteHeader from "./SiteHeader";
 import ServiceCoverageNotice from "./ServiceCoverageNotice";
@@ -37,7 +38,7 @@ function SectionHeading({ section, id }) {
 export default function RemotesPage({ english = false }) {
   const lang = english ? "en" : "pt-PT";
   const content = remotesContent[english ? "en" : "pt"];
-  const { hero, needs, compatibility, diagnostics, prepare, faq, final, footer } = content;
+  const { hero, needs, compatibility, diagnostics, prepare, faq, final } = content;
   const url = company.url + (english ? enRoute : ptRoute);
   const title = content.pageTitle + " | " + company.name;
   const description = english
@@ -76,9 +77,6 @@ export default function RemotesPage({ english = false }) {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="robots" content="index, follow" />
         <link rel="canonical" href={url} />
-        <link rel="alternate" hrefLang="pt-PT" href={company.url + ptRoute} />
-        <link rel="alternate" hrefLang="en" href={company.url + enRoute} />
-        <link rel="alternate" hrefLang="x-default" href={company.url + ptRoute} />
         <meta property="og:title" content={title} />
         <meta property="og:description" content={description} />
         <meta property="og:type" content="website" />
@@ -88,7 +86,7 @@ export default function RemotesPage({ english = false }) {
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema).replace(/</g, "\\u003c") }} />
       </Head>
       <div className="remotes-page" lang={lang}>
-        <SiteHeader english={english} alternateHref={english ? ptRoute : enRoute} showServiceAreas />
+        <SiteHeader english={english} alternateHref={english ? ptRoute : enRoute} />
         <main>
           <nav className="breadcrumb" aria-label={english ? "Breadcrumb" : "Localização no site"}>
             <ActionLink action={content.home} />
@@ -101,9 +99,9 @@ export default function RemotesPage({ english = false }) {
               <div className="kicker">{hero.kicker}</div>
               <h1>{hero.title[0]}<br />{hero.title[1]}</h1>
               <p className="intro">{hero.intro}</p>
-              <div className="actions">
-                <ActionLink action={hero.photo} className="btn whatsapp" />
-                <a href="#situations" className="btn outline">{hero.situations}</a>
+              <div className="actions" data-contact-actions>
+                <ActionLink action={hero.photo} className="btn whatsapp" data-contact-button="whatsapp" />
+                <a href="#situations" className="btn outline" data-contact-button="secondary">{hero.situations}</a>
               </div>
               <p className="hero-note">{hero.note}</p>
             </div>
@@ -205,25 +203,15 @@ export default function RemotesPage({ english = false }) {
             <div className="kicker">{final.kicker}</div>
             <h2>{final.title}</h2>
             <p>{final.intro}</p>
-            <div className="actions">
-              <ActionLink action={hero.photo} className="btn whatsapp" />
-              <a className="btn" href={email}>{final.email}</a>
-              <a className="btn" href={phone}>{final.phone}</a>
+            <div className="actions" data-contact-actions>
+              <ActionLink action={hero.photo} className="btn whatsapp" data-contact-button="whatsapp" />
+              <a className="btn" data-contact-button="secondary" href={email}>{final.email}</a>
+              <a className="btn" data-contact-button="secondary" href={phone}>{final.phone}</a>
             </div>
             <p className="micro">{final.note}</p>
           </section>
 
-          <footer className="site-footer">
-            <img src="/favicon.png" width="70" height="70" alt="" loading="lazy" />
-            <h2>{company.name}</h2>
-            <p>{footer.tagline}</p>
-            <div className="footer-contacts">
-              <a href={phone}>922 021 980</a>
-              <a href={email}>{company.email}</a>
-              <ActionLink action={footer.area} />
-            </div>
-            <small>© {new Date().getFullYear()} {company.name}. {footer.rights}</small>
-          </footer>
+          <SiteFooter english={english} />
         </main>
         <ActionLink
           className="floating-wa"

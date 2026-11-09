@@ -39,8 +39,7 @@ const page = {
       "question": "How long does installation take?",
       "answer": "Timing depends on the equipment, material availability and site conditions. Preparation and scheduling are explained in the proposal."
     }
-  ],
-  "pair": true
+  ]
 };
 
 export default function Installation() {

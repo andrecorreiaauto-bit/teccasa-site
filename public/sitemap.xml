@@ -93,6 +93,8 @@
   <url>
     <loc>https://tec-casa.pt/configurador-automatismos-portoes</loc>
     <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://tec-casa.pt/configurador-automatismos-portoes" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://tec-casa.pt/en/gate-automation-configurator" />
   </url>
   <url>
     <loc>https://tec-casa.pt/en</loc>
@@ -130,6 +132,8 @@
   </url>
   <url>
     <loc>https://tec-casa.pt/en/gate-automation-configurator</loc>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://tec-casa.pt/configurador-automatismos-portoes" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://tec-casa.pt/en/gate-automation-configurator" />
   </url>
   <url>
     <loc>https://tec-casa.pt/en/gate-remote-control-not-working</loc>
@@ -289,7 +293,7 @@
   </url>
   <url>
     <loc>https://tec-casa.pt/instalacao-kit-portao-avidsen</loc>
-    <lastmod>2026-11-04</lastmod>
+    <lastmod>2026-11-09</lastmod>
   </url>
   <url>
     <loc>https://tec-casa.pt/instalacao-kit-portao-brico-depot</loc>
@@ -313,7 +317,7 @@
   </url>
   <url>
     <loc>https://tec-casa.pt/instalacao-kit-portao-scs-sentinel</loc>
-    <lastmod>2026-11-04</lastmod>
+    <lastmod>2026-11-09</lastmod>
   </url>
   <url>
     <loc>https://tec-casa.pt/instalacao-kit-portao-vevor</loc>

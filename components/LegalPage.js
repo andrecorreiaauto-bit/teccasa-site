@@ -19,8 +19,6 @@ export default function LegalPage({ type, english = false }) {
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <meta name="robots" content="noindex, follow" />
       <link rel="canonical" href={company.url + path} />
-      <link rel="alternate" hrefLang="pt-PT" href={company.url + pair[0]} />
-      <link rel="alternate" hrefLang="en" href={company.url + pair[1]} />
     </Head>
     <div className="legal-page" lang={english ? "en" : "pt-PT"}>
       <SiteHeader english={english} alternateHref={pair[english ? 0 : 1]} />

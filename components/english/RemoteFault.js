@@ -14,8 +14,7 @@ const page = {
   "description": "Gate or garage remote control not working in Lisbon? Help with batteries, programming, RF receivers, compatible remotes and automatic gate diagnosis.",
   "message": "Hello, I would like help with a gate remote control that is not working.\n\nLocation:\nBrand/model (if known):\nWhat happens:",
   "wrapper": "page",
-  "questions": [],
-  "pair": true
+  "questions": []
 };
 
 export default function RemoteFault() {

@@ -15,8 +15,7 @@ const page = {
   "description": "View TecCasa’s usual service area in Lisbon and surrounding areas, on both sides of the Tagus. Gate automation, smart home, monitoring and access, by appointment.",
   "message": "Hello, I would like to discuss a project or visit with TecCasa.\n\nLocation:\nService required:\nWhat I need to install, improve or repair:",
   "wrapper": "areas-page",
-  "questions": [],
-  "pair": true
+  "questions": []
 };
 
 export default function ServiceAreas() {

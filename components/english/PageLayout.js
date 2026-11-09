@@ -13,7 +13,6 @@ export default function EnglishPageLayout({ page, styles, children }) {
     <Head>
       <title>{page.title}</title><meta name="description" content={page.description} /><meta name="viewport" content="width=device-width, initial-scale=1" /><meta name="robots" content="index, follow" />
       <link rel="canonical" href={url} />
-      {page.pair && <><link rel="alternate" hrefLang="pt-PT" href={company.url + page.ptRoute} /><link rel="alternate" hrefLang="en" href={url} /><link rel="alternate" hrefLang="x-default" href={company.url + page.ptRoute} /></>}
       <meta property="og:title" content={page.title} /><meta property="og:description" content={page.description} /><meta property="og:type" content="website" /><meta property="og:url" content={url} /><meta property="og:image" content={company.url + "/preview.jpg"} />
       <meta name="google-site-verification" content="_Dnes5RL-b6NjpXQVjaV6Nz7AlQFSU4PvvcSTWUKe44" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ "@context": "https://schema.org", "@graph": graph }).replace(/</g, "\\u003c") }} />
@@ -22,7 +21,7 @@ export default function EnglishPageLayout({ page, styles, children }) {
       <SiteHeader english alternateHref={page.ptRoute} />
       <main className="main-card" data-english-page={page.id}>
         {children}
-        <SiteFooter english showSocialLinks={false} />
+        <SiteFooter english />
       </main>
       <a className="english-floating-whatsapp" href={whatsapp} target="_blank" rel="noopener noreferrer" aria-label="Talk to TecCasa on WhatsApp">WhatsApp</a>
       <style jsx global>{styles}</style>

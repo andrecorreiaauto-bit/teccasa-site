@@ -34,7 +34,7 @@ export default function Homepage() {
   ] };
   return <>
     <Head><title>{page.title}</title><meta name="description" content={page.description} /><meta name="viewport" content="width=device-width, initial-scale=1" /><meta name="robots" content="index, follow" /><meta name="google-site-verification" content="_Dnes5RL-b6NjpXQVjaV6Nz7AlQFSU4PvvcSTWUKe44" />
-      <link rel="canonical" href={url} /><link rel="alternate" hrefLang="pt-PT" href={url} /><link rel="alternate" hrefLang="en" href={company.url+"/en"} /><link rel="alternate" hrefLang="x-default" href={url} />
+      <link rel="canonical" href={url} />
       <meta property="og:title" content={page.title} /><meta property="og:description" content={page.description} /><meta property="og:type" content="website" /><meta property="og:url" content={url} /><meta property="og:image" content={company.url+"/preview.jpg"} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(schema).replace(/</g,"\\u003c")}} />
     </Head>
@@ -49,7 +49,7 @@ export default function Homepage() {
 <section className="company-intro home-company" aria-labelledby="home-company-title"><p className="eyebrow">Conheça a TecCasa</p><h2 id="home-company-title">Uma pequena empresa, com contacto direto.</h2><p>A TecCasa Soluções trabalha em projetos de automatismos, domótica, vigilância e soluções de acesso. Aqui, fala diretamente com quem analisa a necessidade, prepara a proposta e executa o trabalho. Com uma base na margem norte e outra na margem sul do Tejo, estamos perto dos nossos clientes em Lisboa e arredores.</p><a className="text-link" href="/a-empresa">Conheça a TecCasa →</a></section>
 <section className="section final dark home-final" id="contactos"><p className="eyebrow">TecCasa Soluções</p><h2>O que vamos melhorar hoje?</h2><p>Um novo projeto, uma ideia para a sua casa ou algo que precisa de voltar a funcionar. Conte-nos o que tem em mente e preparamos o próximo passo.</p><div className="actions" data-contact-actions><a className="action green" href={whatsapp} target="_blank" rel="noopener noreferrer" data-contact-button="whatsapp">Falar sobre o meu projeto</a><a className="action outline" href={`tel:${company.telephone}`} data-contact-button="secondary">Ligar 922 021 980</a><a className="action outline" href={`mailto:${company.email}`} data-contact-button="secondary">geral@tec-casa.pt</a></div><p className="micro">Particulares e condomínios · Lisboa e arredores · Serviços por marcação</p></section>
         {showSeoPanel && <SeoDirectory onClose={() => setShowSeoPanel(false)} />}
-        <SiteFooter showSocialLinks={false} />
+        <SiteFooter />
       </main>
       <a className="floating-whatsapp" href={whatsapp} target="_blank" rel="noopener noreferrer" aria-label="Falar com a TecCasa por WhatsApp">WhatsApp</a>
     </div>

@@ -44,7 +44,6 @@ export default function FaultPage({ page }) {
       <meta property="og:url" content={url} />
       <meta property="og:image" content={company.url + page.image} />
       <meta property="og:image:alt" content={page.imageAlt} />
-      {page.slug === "comando-garagem-nao-funciona" && <><link rel="alternate" hrefLang="pt-PT" href={url} /><link rel="alternate" hrefLang="en" href={company.url + "/en/gate-remote-control-not-working"} /></>}
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema).replace(/</g, "\\u003c") }} />
     </Head>
     <div className="fault-page" lang="pt-PT">

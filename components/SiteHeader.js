@@ -1,9 +1,17 @@
 import { useEffect, useState } from "react";
 import { useRouter } from "next/router";
+import { company } from "../lib/company";
+import languagePairs from "../lib/language-pairs.json";
 import ConfiguratorNovelty from "./ConfiguratorNovelty";
 
-export default function SiteHeader({ english = false, alternateHref, onBrandClick, showServiceAreas = false }) {
+export default function SiteHeader({ english = false, alternateHref, onBrandClick }) {
   const { pathname: path } = useRouter();
+  const pair = languagePairs.find(routes => routes.includes(path));
+  const destination = pair?.[english ? 0 : 1] || alternateHref || (english ? "/" : "/en");
+  const language = pair ? (english ? "PT" : "EN") : (english ? "PT overview" : "EN geral");
+  const languageLabel = english
+    ? (pair ? "Portuguese version" : "General service page in Portuguese")
+    : (pair ? "Versão em inglês" : "Página geral do serviço em inglês");
   const [menuOpen, setMenuOpen] = useState(false);
   const menuItems = english ? [
     ["Home", "/en"],
@@ -23,7 +31,7 @@ export default function SiteHeader({ english = false, alternateHref, onBrandClic
     ["Comandos", "/comandos-garagem"],
     ["Domótica", "/casas-inteligentes-lisboa"],
     ["Vigilância", "/instalacao-camaras-lisboa"],
-    ...(showServiceAreas ? [["Zonas de assistência", "/zonas-de-assistencia"]] : []),
+    ["Zonas de assistência", "/zonas-de-assistencia"],
     ["A empresa", "/a-empresa"],
   ];
   useEffect(() => {
@@ -42,13 +50,13 @@ export default function SiteHeader({ english = false, alternateHref, onBrandClic
           <div className="header-row">
             <a className="brand" href={english ? "/en" : "/"} onClick={onBrandClick}><img src="/favicon.png" alt="" width="30" height="30" />TecCasa Soluções</a>
             <div className="header-controls">
-              <a className="language" href={alternateHref || (english ? "/a-empresa" : "/en/about")} lang={english ? "pt" : "en"}>{english ? "PT" : "EN"}</a>
+              <a className="language" href={destination} hrefLang={english ? "pt-PT" : "en"} aria-label={languageLabel} title={languageLabel}>{language}</a>
               <button type="button" className="menu-button" aria-expanded={menuOpen} aria-controls="company-navigation" aria-label={english ? (menuOpen ? "Close menu" : "Open menu") : (menuOpen ? "Fechar menu" : "Abrir menu")} onClick={() => setMenuOpen((open) => !open)}>☰</button>
             </div>
           </div>
           {menuOpen && <div className="navigation-links" id="company-navigation">
             {menuItems.map(([label, href]) => <a key={href} href={href} aria-current={href === path ? "page" : undefined} onClick={() => setMenuOpen(false)}>{label}{(href === "/configurador-automatismos-portoes" || href === "/en/gate-automation-configurator") && <ConfiguratorNovelty english={english} />}</a>)}
-            <a className="whatsapp" href="https://wa.me/351922021980" target="_blank" rel="noopener noreferrer" onClick={() => setMenuOpen(false)}>WhatsApp</a>
+            <a className="whatsapp" href={`https://wa.me/${company.telephone.slice(1)}`} target="_blank" rel="noopener noreferrer" onClick={() => setMenuOpen(false)}>WhatsApp</a>
           </div>}
         </nav>
     <style jsx>{`
@@ -56,7 +64,7 @@ export default function SiteHeader({ english = false, alternateHref, onBrandClic
         .header-row { display: flex; justify-content: space-between; align-items: center; gap: 12px; }
         .brand { display: flex; align-items: center; gap: 10px; font-size: 20px; font-weight: 700; text-decoration: none; }
         .header-controls { display: flex; align-items: center; gap: 10px; }
-        .language { font-size: 14px; font-weight: 700; border: 1px solid rgba(11,44,95,0.18); border-radius: 999px; padding: 7px 10px; line-height: 1; background: rgba(255,255,255,0.75); text-decoration: none; }
+        .language { white-space: nowrap; font-size: 14px; font-weight: 700; border: 1px solid rgba(11,44,95,0.18); border-radius: 999px; padding: 7px 10px; line-height: 1; background: rgba(255,255,255,0.75); text-decoration: none; }
         .menu-button { display: block; background: none; border: none; padding: 0; font-size: 30px; cursor: pointer; color: #08285c; }
         .navigation-links { display: flex; flex-direction: column; gap: 14px; margin-top: 22px; padding-top: 18px; border-top: 1px solid rgba(11,44,95,0.08); max-height: calc(100dvh - 150px); overflow-y: auto; }
         .navigation-links a { text-decoration: none; font-weight: 700; font-size: 17px; padding: 10px 0; }
@@ -65,7 +73,7 @@ export default function SiteHeader({ english = false, alternateHref, onBrandClic
       a { color: #08285c; text-underline-offset: 4px; }
       a:focus-visible, button:focus-visible { outline: 3px solid #f7b545; outline-offset: 5px; }
       @media(max-width: 768px) { .site-header { top: 10px; width: calc(100% - 20px); padding: 12px; border-radius: 18px; } .brand { font-size: 16px; gap: 8px; } }
-      @media(max-width:350px) { .english-header .brand { font-size:14px; gap:6px; white-space:nowrap; } .english-header .brand img { width:24px; height:24px; } .english-header .header-controls { gap:8px; } .english-header .language { font-size:11px; padding:7px 8px; } }
+      @media(max-width:350px) { .brand { font-size:14px; gap:6px; white-space:nowrap; } .brand img { width:24px; height:24px; } .header-controls { gap:8px; } .language { font-size:11px; padding:7px 8px; } }
     `}</style>
   </>);
 }

@@ -39,8 +39,7 @@ const page = {
       "question": "Do you provide support after installation?",
       "answer": "We explain how to use the solution and help with questions after the work. If further work is needed, we discuss your request and the applicable conditions."
     }
-  ],
-  "pair": true
+  ]
 };
 
 export default function Homepage() {

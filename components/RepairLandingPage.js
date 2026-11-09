@@ -18,7 +18,7 @@ export default function RepairLandingPage() {
   return <>
     <Head><title>{`${page.title} | TecCasa Soluções`}</title>
       <meta name="description" content={page.description} /><meta name="viewport" content="width=device-width, initial-scale=1" /><meta name="robots" content="index, follow" />
-      <link rel="canonical" href={url} /><link rel="alternate" hrefLang="pt-PT" href={url} /><link rel="alternate" hrefLang="en" href={company.url + "/en/electric-gate-repair-lisbon"} />
+      <link rel="canonical" href={url} />
       <meta property="og:type" content="website" /><meta property="og:title" content={`${page.title} | TecCasa Soluções`} /><meta property="og:description" content={page.description} /><meta property="og:url" content={url} /><meta property="og:image" content={company.url + page.image} /><meta property="og:image:alt" content={page.imageAlt} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{__html: JSON.stringify(schema).replace(/</g,"\\u003c")}} />
     </Head>

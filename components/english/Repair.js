@@ -39,8 +39,7 @@ const page = {
       "question": "The door is tilted or a cable is loose. Can I keep using it?",
       "answer": "Stop using it and keep people and vehicles clear. Do not adjust springs, cables or supports, or try to hold the door up by hand. Request an assessment and only send photos taken safely."
     }
-  ],
-  "pair": true
+  ]
 };
 
 export default function Repair() {
