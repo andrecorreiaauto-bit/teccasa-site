@@ -1,3 +1,5 @@
-import Remotes from "../../components/english/Remotes";
+import RemotesPage from "../../components/RemotesPage";
 
-export default function Page() { return <Remotes />; }
+export default function GarageRemoteControls() {
+  return <RemotesPage english />;
+}

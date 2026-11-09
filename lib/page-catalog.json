@@ -20,7 +20,7 @@
         },
         {
           "path": "/comandos-garagem",
-          "label": "Comandos de garagem e recetores em Lisboa",
+          "label": "Comandos e recetores para portões e garagens",
           "indexable": true
         },
         {
@@ -565,7 +565,7 @@
         },
         {
           "path": "/en/garage-remote-controls-lisbon",
-          "label": "Garage Remote Controls in Lisbon",
+          "label": "Gate and Garage Remotes and Receivers",
           "indexable": true
         },
         {

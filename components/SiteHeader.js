@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { useRouter } from "next/router";
 import ConfiguratorNovelty from "./ConfiguratorNovelty";
 
-export default function SiteHeader({ english = false, alternateHref, onBrandClick }) {
+export default function SiteHeader({ english = false, alternateHref, onBrandClick, showServiceAreas = false }) {
   const { pathname: path } = useRouter();
   const [menuOpen, setMenuOpen] = useState(false);
   const menuItems = english ? [
@@ -23,6 +23,7 @@ export default function SiteHeader({ english = false, alternateHref, onBrandClic
     ["Comandos", "/comandos-garagem"],
     ["Domótica", "/casas-inteligentes-lisboa"],
     ["Vigilância", "/instalacao-camaras-lisboa"],
+    ...(showServiceAreas ? [["Zonas de assistência", "/zonas-de-assistencia"]] : []),
     ["A empresa", "/a-empresa"],
   ];
   useEffect(() => {

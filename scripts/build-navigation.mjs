@@ -14,13 +14,14 @@ const labels = {
   "/en/electric-gate-repair-lisbon": "Gate Automation and Automatic Gate Repairs in Lisbon",
   "/en/smart-home-lisbon": "Smart Home Design and Installation in Lisbon",
   "/en/security-cameras-lisbon": "Home Security Camera Installation in Lisbon",
-  "/en/garage-remote-controls-lisbon": "Garage Remote Controls in Lisbon",
+  "/en/garage-remote-controls-lisbon": "Gate and Garage Remotes and Receivers",
   "/en/service-areas": "Service Areas",
   "/en/garage-door-motor-repair": "Garage Door Motor Repair in Lisbon",
   "/en/gate-remote-control-not-working": "Gate Remote Control Not Working?",
 
   "/instalacao-automatismos-portoes": "Instalação de Automatismos para Portões",
   "/reparacao-portoes": "Reparação de automatismos e portões automáticos",
+  "/comandos-garagem": "Comandos e recetores para portões e garagens",
   "/quanto-custa-automatizar-portao": "Quanto custa automatizar um portão?",
   "/configurador-automatismos-portoes": "Configurador de automatismos", "/": "Homepage", "/en": "Homepage EN", "/a-empresa": "A empresa", "/en/about": "About us",
   "/informacao-legal": "Informação legal", "/privacidade": "Política de privacidade", "/cookies": "Política de cookies", "/condicoes-servicos": "Condições dos serviços",
@@ -75,7 +76,7 @@ const contentUpdated = {
   "/en/electric-gate-repair-lisbon": "2026-11-04",
   "/en/smart-home-lisbon": "2026-11-04",
   "/en/security-cameras-lisbon": "2026-11-04",
-  "/en/garage-remote-controls-lisbon": "2026-11-04",
+  "/en/garage-remote-controls-lisbon": "2026-11-09",
   "/en/service-areas": "2026-11-04",
   "/en/garage-door-motor-repair": "2026-11-04",
   "/en/gate-remote-control-not-working": "2026-11-04",
@@ -108,7 +109,7 @@ const contentUpdated = {
   "/instalacao-automatismos-portoes": "2026-11-04",
   "/reparacao-portoes": "2026-11-04",
   "/casas-inteligentes-lisboa": "2026-11-04",
-  "/comandos-garagem": "2026-11-04",
+  "/comandos-garagem": "2026-11-09",
   "/instalacao-camaras-lisboa": "2026-11-04"
 };
 const urls = records.filter(page => page.indexable).map(page => {
