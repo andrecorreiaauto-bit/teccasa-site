@@ -1,0 +1,298 @@
+{
+  "pt": {
+    "title": "Videoporteiros em Lisboa | Instalação e Assistência | TecCasa Soluções",
+    "nav": "Navegação principal",
+    "home": "Início",
+    "service": "Videoporteiros",
+    "eyebrow": "VIDEOPORTEIROS · LISBOA E ARREDORES",
+    "h1": "Veja quem chega.<br>Decida a quem abre.",
+    "lead": "Instalação, substituição e assistência a videoporteiros para moradias e condomínios. CAME como marca de referência, com intervenção também em sistemas de outras marcas.",
+    "primary": "Falar sobre o meu projeto",
+    "secondary": "Ver o que podemos fazer",
+    "small": "Contacto direto. Deslocações por marcação.",
+    "heroAlt": "Videoporteiro CAME XTS instalado numa parede, a ser utilizado para atender uma visita.",
+    "caption": "Imagem oficial CAME · Gama XTS",
+    "startKicker": "O SEU PONTO DE PARTIDA",
+    "startTitle": "Uma entrada nova.<br>Ou uma forma melhor de receber.",
+    "startIntro": "O projeto começa no que já existe e na forma como pretende usar o acesso.",
+    "cards": [
+      [
+        "01",
+        "Instalar de raiz",
+        "Uma moradia nova ou uma entrada ainda sem videoporteiro. Avaliamos a posição da câmara, os pontos interiores e a ligação à fechadura ou ao portão.",
+        "instalar"
+      ],
+      [
+        "02",
+        "Substituir o antigo",
+        "Imagem pouco clara, áudio com falhas ou um sistema desatualizado. Identificamos o equipamento e a cablagem antes de propor o que substituir.",
+        "substituir"
+      ],
+      [
+        "03",
+        "Preparar um condomínio",
+        "Uma entrada comum, várias frações e necessidades diferentes. O sistema é pensado em conjunto, com a administração e a infraestrutura do edifício.",
+        "condominio"
+      ]
+    ],
+    "brandKicker": "SOLUÇÕES CAME",
+    "brandTitle": "Tecnologia que faz parte da casa.",
+    "brandText": "Para esta área, a CAME é a nossa marca de referência. A gama XTS é um exemplo de monitor interior que combina um ecrã tátil com uma utilização simples no dia a dia.",
+    "features": [
+      [
+        "Ver e conversar",
+        "Identificar quem está à entrada e falar através do monitor interior."
+      ],
+      [
+        "Abrir o acesso",
+        "Preparar a abertura da porta ou do portão, após confirmar a ligação e o equipamento de comando."
+      ],
+      [
+        "Atender pelo telemóvel",
+        "Uma opção em versões conectadas compatíveis. Confirmamos o modelo, a rede e a configuração necessária."
+      ]
+    ],
+    "brandNote": "Escolhemos a referência depois de avaliar a instalação. As funções disponíveis variam com o modelo e com o sistema instalado.",
+    "productAlt": "Monitor interior branco CAME BPT XTS com ecrã tátil.",
+    "reuseKicker": "ANTES DE ESCOLHER O EQUIPAMENTO",
+    "reuseTitle": "Aproveitar o que existe.<br>Preparar o que falta.",
+    "reuseText": "Trocar o monitor pode ser suficiente em alguns sistemas. Noutros, é necessário rever a placa exterior, a alimentação ou a cablagem. Primeiro identificamos a instalação; depois explicamos a solução e o orçamento.",
+    "checks": [
+      [
+        "Entrada e imagem",
+        "Local da placa, enquadramento da câmara e condições de utilização."
+      ],
+      [
+        "Sistema existente",
+        "Referências, cablagem, alimentação e compatibilidade entre os equipamentos."
+      ],
+      [
+        "Utilização diária",
+        "Número de frações e monitores, abertura do acesso e eventual ligação ao telemóvel."
+      ]
+    ],
+    "requestKicker": "DA PRIMEIRA CONVERSA AO PROJETO",
+    "requestTitle": "Mostre-nos a sua entrada.<br>Nós ajudamos no próximo passo.",
+    "requestText": "Envie estas informações para prepararmos uma primeira análise. Se já tem equipamento, não precisa de o desmontar para nos contactar.",
+    "requestList": [
+      "Localidade e tipo de imóvel: moradia, apartamento ou condomínio.",
+      "Fotografias da entrada, da placa exterior e do monitor, se existirem.",
+      "Marca e referência, se estiverem visíveis, e o que pretende melhorar."
+    ],
+    "requestCta": "Enviar informações por WhatsApp",
+    "requestSmall": "Fala diretamente com quem acompanha a avaliação e executa o trabalho.",
+    "coverageTitle": "Lisboa e arredores, nas duas margens do Tejo.",
+    "coverageText": "Zona habitual num raio aproximado de 45 km. Consulte o mapa para perceber se a sua localidade está abrangida. Deslocações por marcação.",
+    "coverageLink": "Ver mapa da zona de atuação",
+    "faqKicker": "ANTES DE AVANÇAR",
+    "faqTitle": "Perguntas que costumam surgir.",
+    "faqs": [
+      [
+        "Trabalham apenas com videoporteiros CAME?",
+        "A CAME é a nossa marca de referência para novos projetos. Também intervimos em sistemas de outras marcas, incluindo Fermax e EZVIZ, e em campainhas com vídeo Tapo. Envie a referência e fotografias para avaliarmos o pedido."
+      ],
+      [
+        "Posso manter os cabos do videoporteiro antigo?",
+        "Pode ser possível, mas depende do tipo e estado da cablagem e do sistema que será instalado. Confirmamos essa possibilidade depois de identificar a instalação."
+      ],
+      [
+        "Posso atender e abrir pelo telemóvel?",
+        "Existem soluções CAME conectadas que permitem atender chamadas e comandar a abertura através de uma app. É necessário escolher uma versão compatível e confirmar a ligação à internet, a configuração e o comando do acesso."
+      ],
+      [
+        "O videoporteiro pode abrir o meu portão automático?",
+        "Podemos preparar essa função quando o automatismo e a instalação permitem a ligação adequada. A compatibilidade é confirmada antes de definir a solução."
+      ],
+      [
+        "Num apartamento, posso mudar só o meu monitor?",
+        "O monitor tem de ser compatível com o sistema comum do edifício. Identificamos a marca e o sistema existente e, quando necessário, articulamos a intervenção com a administração do condomínio."
+      ],
+      [
+        "Fazem assistência a um videoporteiro que já está instalado?",
+        "Envie a marca, a referência e uma descrição da falha. Avaliamos o pedido, a documentação e a disponibilidade de material para perceber se faz sentido reparar ou substituir."
+      ]
+    ],
+    "endKicker": "VAMOS PREPARAR A SUA ENTRADA?",
+    "endTitle": "Comecemos pelo que precisa.",
+    "endText": "Uma instalação nova, uma substituição ou um projeto para o condomínio. Conte-nos o que tem em mente.",
+    "endCta": "Falar com a TecCasa",
+    "call": "Ligar 922 021 980",
+    "footClaim": "Automatismos · Reparações · Soluções Inteligentes",
+    "footArea": "Lisboa e arredores",
+    "rights": "Todos os direitos reservados.",
+    "legal": "A empresa",
+    "legal2": "Informação legal",
+    "legal3": "Condições dos serviços",
+    "legal4": "Privacidade",
+    "legal5": "Cookies",
+    "callNote": "Chamada para a rede móvel nacional.",
+    "menu": [
+      "Início",
+      "Configurar automatismo",
+      "Instalação de Automatismos",
+      "Reparação de Automatismos",
+      "Comandos e Acessos",
+      "Videoporteiros",
+      "Domótica",
+      "Vigilância",
+      "Zonas de assistência",
+      "A empresa"
+    ],
+    "route": "/videoporteiros-lisboa",
+    "menuOpen": "Abrir menu",
+    "menuClose": "Fechar menu",
+    "multiKicker": "VIDEOPORTEIROS E CAMPAINHAS COM VÍDEO",
+    "multiTitle": "Já tem outra marca?<br>Também podemos ajudar.",
+    "multiText": "Intervimos também em videoporteiros Fermax e EZVIZ e em campainhas com vídeo Tapo, entre outras soluções. Instalação, configuração ou análise de avarias: começamos pela identificação do equipamento e do que precisa de resolver.",
+    "multiNote": "Para ligar a uma fechadura ou a um portão, confirmamos se o modelo e a instalação permitem essa função. A reparação depende do diagnóstico e da disponibilidade de peças.",
+    "multiCta": "Pedir avaliação do meu equipamento"
+  },
+  "en": {
+    "title": "Video Intercom Installation and Service in Lisbon | TecCasa Soluções",
+    "nav": "Main navigation",
+    "home": "Home",
+    "service": "Video intercoms",
+    "eyebrow": "VIDEO INTERCOMS · LISBON AND SURROUNDING AREAS",
+    "h1": "See who’s there.<br>Choose who comes in.",
+    "lead": "Video intercom installation, replacement and servicing for houses and apartment buildings. CAME is our preferred brand, and we also work on systems from other manufacturers.",
+    "primary": "Discuss my project",
+    "secondary": "Explore our services",
+    "small": "Direct contact. Visits by appointment.",
+    "heroAlt": "A person using a wall-mounted CAME XTS video intercom to answer a visitor.",
+    "caption": "Official CAME image · XTS range",
+    "startKicker": "YOUR STARTING POINT",
+    "startTitle": "A new entrance.<br>Or a better way to welcome visitors.",
+    "startIntro": "We start with your existing installation and how you want to use your entrance.",
+    "cards": [
+      [
+        "01",
+        "A new installation",
+        "A new house or an entrance without a video intercom. We assess camera placement, indoor stations and the connection to the lock or gate.",
+        "instalar"
+      ],
+      [
+        "02",
+        "Replace an older system",
+        "Poor picture quality, audio faults or outdated equipment. We identify the system and wiring before recommending what to replace.",
+        "substituir"
+      ],
+      [
+        "03",
+        "Plan for an apartment building",
+        "A shared entrance, several apartments and different needs. We plan the system with the building management and existing infrastructure in mind.",
+        "condominio"
+      ]
+    ],
+    "brandKicker": "CAME SOLUTIONS",
+    "brandTitle": "Technology that feels at home.",
+    "brandText": "CAME is our preferred brand for this service. The XTS range is one example of an indoor monitor that combines a touch screen with straightforward everyday use.",
+    "features": [
+      [
+        "See and speak",
+        "Identify visitors at your entrance and speak to them through the indoor monitor."
+      ],
+      [
+        "Open the entrance",
+        "Plan door or gate opening after checking the connection and control equipment."
+      ],
+      [
+        "Answer on your phone",
+        "An option with compatible connected versions. We check the model, network and required setup."
+      ]
+    ],
+    "brandNote": "We select the exact product after assessing your installation. Available features depend on the model and the installed system.",
+    "productAlt": "White CAME BPT XTS indoor video intercom monitor with touch screen.",
+    "reuseKicker": "BEFORE CHOOSING THE EQUIPMENT",
+    "reuseTitle": "Keep what works.<br>Plan what’s needed.",
+    "reuseText": "Replacing the monitor may be enough in some systems. Others require changes to the entrance panel, power supply or wiring. We identify the installation first, then explain the proposed solution and quotation.",
+    "checks": [
+      [
+        "Entrance and picture",
+        "Panel location, camera view and how the entrance is used."
+      ],
+      [
+        "Existing system",
+        "Product references, wiring, power supply and compatibility between components."
+      ],
+      [
+        "Everyday use",
+        "Number of apartments and monitors, entrance opening and optional smartphone access."
+      ]
+    ],
+    "requestKicker": "FROM FIRST CONVERSATION TO PROJECT",
+    "requestTitle": "Show us your entrance.<br>We’ll help with the next step.",
+    "requestText": "Send these details so we can make an initial assessment. If you already have equipment, you don’t need to dismantle it to contact us.",
+    "requestList": [
+      "Your location and property type: house, apartment or shared building.",
+      "Photos of the entrance, outdoor panel and indoor monitor, if fitted.",
+      "The make and model, if visible, and what you would like to improve."
+    ],
+    "requestCta": "Send details on WhatsApp",
+    "requestSmall": "Speak directly with the person who assesses the project and carries out the work.",
+    "coverageTitle": "Lisbon and surrounding areas, on both sides of the Tagus.",
+    "coverageText": "Our usual service area has an approximate 45 km radius. Check the map to see whether your location is covered. Visits by appointment.",
+    "coverageLink": "View our service area map",
+    "faqKicker": "BEFORE WE START",
+    "faqTitle": "Questions you may have.",
+    "faqs": [
+      [
+        "Do you only work with CAME video intercoms?",
+        "CAME is our preferred brand for new projects. We also work on other brands, including Fermax and EZVIZ, and on Tapo video doorbells. Send the model reference and photos so we can assess your request."
+      ],
+      [
+        "Can I keep the wiring from my old intercom?",
+        "It may be possible, depending on the wiring type and condition and the new system. We check this after identifying the existing installation."
+      ],
+      [
+        "Can I answer and open the entrance on my phone?",
+        "Connected CAME solutions can let you answer calls and control entrance opening through an app. This requires a compatible version, a suitable internet connection and the correct setup and entrance controls."
+      ],
+      [
+        "Can the video intercom open my automatic gate?",
+        "We can plan this function where the gate automation and installation support the required connection. We check compatibility before specifying the solution."
+      ],
+      [
+        "Can I replace only the monitor in my apartment?",
+        "The monitor must be compatible with the building’s shared system. We identify the existing make and system and coordinate with building management where needed."
+      ],
+      [
+        "Do you service existing video intercoms?",
+        "Send the make, model and a description of the fault. We assess the request, documentation and parts availability to help decide whether repair or replacement makes sense."
+      ]
+    ],
+    "endKicker": "READY TO PLAN YOUR ENTRANCE?",
+    "endTitle": "Let’s start with what you need.",
+    "endText": "A new installation, a replacement or a project for your building. Tell us what you have in mind.",
+    "endCta": "Talk to TecCasa",
+    "call": "Call +351 922 021 980",
+    "footClaim": "Gate Automation · Repairs · Smart Solutions",
+    "footArea": "Lisbon and surrounding areas",
+    "rights": "All rights reserved.",
+    "legal": "About TecCasa",
+    "legal2": "Legal information",
+    "legal3": "Service terms",
+    "legal4": "Privacy",
+    "legal5": "Cookies",
+    "callNote": "Portuguese mobile number. Your operator’s rates apply.",
+    "menu": [
+      "Home",
+      "Configure gate automation",
+      "Gate Automation Installation",
+      "Gate Automation Repair",
+      "Remotes and Access",
+      "Video intercoms",
+      "Smart Home",
+      "Home Monitoring",
+      "Service Areas",
+      "About TecCasa"
+    ],
+    "route": "/en/video-intercom-installation-lisbon",
+    "menuOpen": "Open menu",
+    "menuClose": "Close menu",
+    "multiKicker": "VIDEO INTERCOMS AND VIDEO DOORBELLS",
+    "multiTitle": "Already have another brand?<br>We can help with that too.",
+    "multiText": "We also work on Fermax and EZVIZ video intercoms and Tapo video doorbells, among other solutions. Installation, setup or fault assessment: we start by identifying your equipment and what you need to resolve.",
+    "multiNote": "For connection to an electric lock or gate, we check whether the model and installation support that function. Repairs depend on the diagnosis and parts availability.",
+    "multiCta": "Request an equipment assessment"
+  }
+}

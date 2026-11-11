@@ -1,5 +1,6 @@
 import "../styles/contact-actions.css";
 import "../styles/remotes.css";
+import "../styles/video-intercom.css";
 import "../styles/equipment-service.css";
 import Head from "next/head";
 import { useRouter } from "next/router";

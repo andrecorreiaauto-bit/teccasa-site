@@ -49,6 +49,11 @@
           "indexable": true
         },
         {
+          "path": "/videoporteiros-lisboa",
+          "label": "Videoporteiros em Lisboa — instalação e assistência",
+          "indexable": true
+        },
+        {
           "path": "/zonas-de-assistencia",
           "label": "Zonas de assistência",
           "indexable": true
@@ -591,6 +596,11 @@
         {
           "path": "/en/smart-home-lisbon",
           "label": "Smart Home Design and Installation in Lisbon",
+          "indexable": true
+        },
+        {
+          "path": "/en/video-intercom-installation-lisbon",
+          "label": "Video Intercom Installation and Service in Lisbon",
           "indexable": true
         }
       ]

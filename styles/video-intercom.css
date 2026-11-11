@@ -1,0 +1,144 @@
+.video-intercom-page{--navy:#08285c;--text:#405168;--line:#d5e1f0;--soft:#edf3fa;--green:#21ca62}
+.video-intercom-page *{box-sizing:border-box}
+.video-intercom-page{margin:0;background:#f4f7fb;color:var(--text);font:17px/1.75 Arial,sans-serif}
+.video-intercom-page a{color:var(--navy);text-underline-offset:4px}
+.video-intercom-page button{font:inherit;cursor:pointer}
+.video-intercom-page button,.video-intercom-page a{-webkit-tap-highlight-color:transparent}
+.video-intercom-page a:focus-visible,.video-intercom-page button:focus-visible,.video-intercom-page summary:focus-visible{outline:3px solid #ffba3b;outline-offset:5px}
+.video-intercom-page button{color:inherit}
+.video-intercom-page h1,.video-intercom-page h2,.video-intercom-page h3{color:var(--navy);line-height:1.15;margin:0;letter-spacing:-.025em}
+.video-intercom-page h1{font-size:clamp(38px,4.25vw,58px)}
+.video-intercom-page h2{font-size:clamp(29px,3vw,40px)}
+.video-intercom-page h3{font-size:23px}
+.video-intercom-page p{margin:18px 0 0}
+.video-intercom-page small{font-size:12px}
+.video-intercom-page main{max-width:1200px;margin:auto;padding:34px 0 0}
+.video-intercom-page .crumb{font-size:13px;margin:0 0 24px}
+.video-intercom-page .crumb a{text-decoration:none}
+.video-intercom-page .crumb span{margin:0 8px;color:#8ba0bb}
+.video-intercom-page .hero{display:grid;grid-template-columns:1fr 1fr;background:var(--navy);border-radius:28px;overflow:hidden;color:#fff;min-height:525px}
+.video-intercom-page .hero-copy{padding:44px 36px 38px 40px;align-self:center}
+.video-intercom-page .eyebrow{font-size:11px;font-weight:700;letter-spacing:.11em;color:#58708e;margin:0 0 15px}
+.video-intercom-page .hero .eyebrow{color:#c5daf4}
+.video-intercom-page .hero h1{color:white}
+.video-intercom-page .hero p{font-size:17px;line-height:1.85;color:#e0e9f5}
+.video-intercom-page .actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:26px}
+.video-intercom-page .btn{display:inline-flex;align-items:center;justify-content:center;gap:12px;min-height:54px;padding:14px 20px;border-radius:13px;text-decoration:none;font-size:15px;font-weight:700;line-height:1.4;border:1px solid transparent;max-width:100%;text-align:center}
+.video-intercom-page .btn.wa{background:var(--green);color:#fff}
+.video-intercom-page .btn.light{background:#fff;color:var(--navy);border-color:#c7d6e9}
+.video-intercom-page .btn.ghost{color:white;background:transparent;border-color:#a0b5d2}
+.video-intercom-page .hero .hero-note{font-size:11px;color:#c6d6ea;margin-top:16px}
+.video-intercom-page .hero-figure{position:relative;min-height:100%;margin:0;background:#c6b9a4;overflow:hidden}
+.video-intercom-page .hero-figure>img{width:100%;height:100%;object-fit:cover;display:block;object-position:50% 50%;position:absolute;inset:0}
+.video-intercom-page .came-mark{position:absolute;top:24px;left:24px;background:white;padding:14px 18px;border-radius:12px;box-shadow:0 5px 20px #0002}
+.video-intercom-page .came-mark img{display:block;width:105px;height:40px;object-fit:contain}
+.video-intercom-page .hero-figure figcaption{position:absolute;bottom:0;left:0;right:0;background:linear-gradient(transparent,#0009);padding:35px 20px 13px;color:white;font-size:10px;line-height:1.4}
+.video-intercom-page .section{margin-top:70px}
+.video-intercom-page .section-head{max-width:780px;margin-bottom:28px}
+.video-intercom-page .section-head p{max-width:700px}
+.video-intercom-page .service-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.video-intercom-page .service-card{background:#fff;border:1px solid var(--line);border-radius:22px;padding:28px;position:relative}
+.video-intercom-page .service-card .number{font-size:13px;font-weight:700;color:#7391b6;display:block;margin-bottom:27px}
+.video-intercom-page .service-card p{font-size:15px;line-height:1.85}
+.video-intercom-page .card-link{display:inline-block;font-size:13px;font-weight:700;margin-top:23px}
+.video-intercom-page .brand-section{display:grid;grid-template-columns:1fr 1fr;gap:45px;align-items:center}
+.video-intercom-page .product{border:1px solid var(--line);background:white;border-radius:26px;padding:22px;margin:0}
+.video-intercom-page .product img{width:100%;display:block;height:auto}
+.video-intercom-page .product figcaption{font-size:11px;text-align:center;padding:0 10px 10px;color:#657b95}
+.video-intercom-page .feature-list{margin-top:25px}
+.video-intercom-page .feature{border-top:1px solid var(--line);padding:17px 0;display:grid;grid-template-columns:25px 1fr;gap:12px}
+.video-intercom-page .feature>span{color:#0c68a6;font-size:17px}
+.video-intercom-page .feature strong{color:var(--navy);font-size:16px}
+.video-intercom-page .feature p{margin:4px 0 0;font-size:14px}
+.video-intercom-page .fine{font-size:12px;color:#667b94;line-height:1.8}
+.video-intercom-page .reuse{background:#eaf1f9;border:1px solid var(--line);border-radius:26px;padding:38px;display:grid;grid-template-columns:1.05fr 1fr;gap:50px}
+.video-intercom-page .checks{display:grid;gap:18px}
+.video-intercom-page .check{border-left:2px solid #b4c8e0;padding-left:20px}
+.video-intercom-page .check strong{color:var(--navy);font-size:16px}
+.video-intercom-page .check p{font-size:14px;margin:5px 0 0}
+.video-intercom-page .request{display:grid;grid-template-columns:1fr 1fr;gap:55px;align-items:start}
+.video-intercom-page .request ol{margin:0;padding:0;list-style:none;counter-reset:request}
+.video-intercom-page .request li{counter-increment:request;display:grid;grid-template-columns:36px 1fr;gap:16px;align-items:start;padding:18px 0;border-bottom:1px solid var(--line);font-size:15px}
+.video-intercom-page .request li:first-child{padding-top:0}
+.video-intercom-page .request li:before{content:counter(request);border-radius:50%;background:#e5edf8;color:var(--navy);width:32px;height:32px;text-align:center;line-height:32px;font-size:13px;font-weight:700}
+.video-intercom-page .request .btn{margin-top:25px}
+.video-intercom-page .request .fine{margin-top:14px}
+.video-intercom-page .coverage{display:flex;align-items:center;gap:28px;padding:25px 28px;border:1px solid var(--line);border-radius:20px;background:var(--soft);margin-top:48px}
+.video-intercom-page .coverage strong{display:block;color:var(--navy);font-size:17px}
+.video-intercom-page .coverage p{font-size:13px;line-height:1.8;margin-top:8px;max-width:720px}
+.video-intercom-page .coverage .btn{flex-shrink:0;font-size:12px}
+.video-intercom-page .faq{max-width:940px;margin-left:auto;margin-right:auto}
+.video-intercom-page .faq details{border-bottom:1px solid #cbd9eb;padding:19px 0}
+.video-intercom-page .faq summary{font-size:17px;line-height:1.6;font-weight:700;color:var(--navy);cursor:pointer;padding-right:12px}
+.video-intercom-page .faq details p{font-size:15px;margin:14px 0 6px;padding-left:22px}
+.video-intercom-page .contact{background:var(--navy);padding:40px;border-radius:26px;color:white}
+.video-intercom-page .contact .eyebrow{color:#bbd1ed}
+.video-intercom-page .contact h2{color:white}
+.video-intercom-page .contact p{color:#e0eaf7;max-width:780px}
+.video-intercom-page .contact .actions{margin-top:28px}
+.video-intercom-page .call-note{font-size:11px}
+.video-intercom-page .floating{position:fixed;right:22px;bottom:20px;border-radius:99px;box-shadow:0 7px 24px #0c8e4030;z-index:8}
+.video-intercom-page .multibrand{display:grid;grid-template-columns:1fr 1.1fr;gap:44px;border-top:1px solid var(--line);padding-top:36px}
+.video-intercom-page .brand-names{display:flex;flex-wrap:wrap;gap:10px;margin-top:23px}
+.video-intercom-page .brand-names span{font-size:14px;line-height:1.4;font-weight:700;color:var(--navy);background:#fff;border:1px solid var(--line);padding:11px 18px;border-radius:12px}
+.video-intercom-page .multibrand .multi-copy>p:first-child{margin-top:0}
+.video-intercom-page .multibrand .card-link{margin-top:17px}
+@media(max-width:850px){.video-intercom-page .multibrand{grid-template-columns:1fr;gap:22px}}
+@media(min-width:1500px){.video-intercom-page .hero{min-height:550px}}
+@media(max-width:1250px){.video-intercom-page main{padding:28px 25px 0}
+.video-intercom-page .hero-copy{padding:35px 30px}
+.video-intercom-page .hero h1{font-size:46px}
+.video-intercom-page .hero .actions{flex-direction:column;align-items:start}
+.video-intercom-page .service-card{padding:24px}
+.video-intercom-page .reuse{gap:30px}
+.video-intercom-page .brand-section{gap:30px}}
+@media(max-width:850px){.video-intercom-page .hero{grid-template-columns:1fr}
+.video-intercom-page .hero-copy{padding:38px}
+.video-intercom-page .hero .actions{flex-direction:row}
+.video-intercom-page .hero-figure{min-height:430px}
+.video-intercom-page .hero-figure>img{object-position:50% 54%}
+.video-intercom-page .hero h1{font-size:48px}
+.video-intercom-page .hero-copy{max-width:720px}
+.video-intercom-page .service-grid{grid-template-columns:1fr}
+.video-intercom-page .service-card .number{margin-bottom:15px}
+.video-intercom-page .brand-section,.video-intercom-page .reuse,.video-intercom-page .request{grid-template-columns:1fr}
+.video-intercom-page .product{max-width:600px;margin:auto;width:100%}
+.video-intercom-page .brand-section .product{grid-row:2}
+.video-intercom-page .brand-section{gap:24px}
+.video-intercom-page .reuse,.video-intercom-page .request{gap:28px}
+.video-intercom-page .coverage{align-items:start;flex-direction:column;gap:20px}
+.video-intercom-page .section{margin-top:50px}
+.video-intercom-page .floating{font-size:13px;min-height:45px;padding:11px 16px}
+.video-intercom-page .request .section-head{margin-bottom:0}}
+@media(max-width:600px){.video-intercom-page{font-size:16px}
+.video-intercom-page main{padding:25px 15px 0}
+.video-intercom-page .crumb{margin-bottom:20px;font-size:12px}
+.video-intercom-page .hero{border-radius:22px}
+.video-intercom-page .hero-copy{padding:30px 25px}
+.video-intercom-page .hero h1{font-size:38px}
+.video-intercom-page .hero p{font-size:15px;line-height:1.8}
+.video-intercom-page .hero .eyebrow{font-size:10px;letter-spacing:.07em}
+.video-intercom-page .hero .actions{display:grid;grid-template-columns:1fr;gap:10px}
+.video-intercom-page .hero .actions .btn{width:100%}
+.video-intercom-page .hero-figure{min-height:310px}
+.video-intercom-page .came-mark{left:18px;top:18px;padding:10px 13px}
+.video-intercom-page .came-mark img{width:85px;height:32px}
+.video-intercom-page .section{margin-top:42px}
+.video-intercom-page .service-card{padding:24px}
+.video-intercom-page .service-card h3{font-size:22px}
+.video-intercom-page .reuse,.video-intercom-page .contact{padding:27px 25px;border-radius:22px}
+.video-intercom-page .reuse h2,.video-intercom-page .request h2{font-size:30px}
+.video-intercom-page .coverage{padding:23px}
+.video-intercom-page .coverage .btn{width:100%}
+.video-intercom-page .contact .actions{display:grid;grid-template-columns:1fr}
+.video-intercom-page .floating{right:14px;bottom:14px}
+.video-intercom-page .faq details{padding:17px 0}
+.video-intercom-page .faq summary{font-size:16px}}
+@media(max-width:350px){.video-intercom-page .hero-copy{padding:27px 21px}
+.video-intercom-page .hero h1{font-size:34px}}
+body:has(.video-intercom-page){margin:0}
+.video-intercom-page main{padding:125px 0 30px}
+.video-intercom-page section[id]{scroll-margin-top:115px}
+.video-intercom-page .tc-coverage{margin-top:48px!important}
+@media(max-width:1250px){.video-intercom-page main{padding:120px 25px 30px}}
+@media(max-width:600px){.video-intercom-page main{padding:100px 15px 25px}}

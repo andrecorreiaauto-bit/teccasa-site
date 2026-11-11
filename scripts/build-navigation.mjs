@@ -12,6 +12,8 @@ const faultPages = JSON.parse(readFileSync(join(root, "lib/fault-pages.json"), "
 const equipmentPages = JSON.parse(readFileSync(join(root, "lib/equipment-service-pages.json"), "utf8"));
 const translations = JSON.parse(readFileSync(join(root, "lib/language-pairs.json"), "utf8"));
 const labels = {
+  "/videoporteiros-lisboa": "Videoporteiros em Lisboa — instalação e assistência",
+  "/en/video-intercom-installation-lisbon": "Video Intercom Installation and Service in Lisbon",
   "/en/automatic-gate-installation-lisbon": "Gate Automation Installation in Lisbon",
   "/en/electric-gate-repair-lisbon": "Gate Automation and Automatic Gate Repairs in Lisbon",
   "/en/smart-home-lisbon": "Smart Home Design and Installation in Lisbon",
@@ -30,7 +32,7 @@ const labels = {
   "/en/legal": "Legal information", "/en/privacy": "Privacy policy", "/en/cookies": "Cookie policy", "/en/service-terms": "Service terms",
 };
 const groupOrder = ["Páginas principais", "Instalação por tipo de portão", "Instalação por zona", "Reparação por zona", "Páginas de avarias", "Páginas de marcas", "Kits e instalação de material do cliente", "Páginas EN", "Informação legal e privacidade", "Reparação por tipo de portão"];
-const principal = new Set(["/quanto-custa-automatizar-portao", "/configurador-automatismos-portoes", "/zonas-de-assistencia", "/", "/a-empresa", "/instalacao-automatismos-portoes", "/reparacao-portoes", "/comandos-garagem", "/casas-inteligentes-lisboa", "/instalacao-camaras-lisboa"]);
+const principal = new Set(["/videoporteiros-lisboa", "/quanto-custa-automatizar-portao", "/configurador-automatismos-portoes", "/zonas-de-assistencia", "/", "/a-empresa", "/instalacao-automatismos-portoes", "/reparacao-portoes", "/comandos-garagem", "/casas-inteligentes-lisboa", "/instalacao-camaras-lisboa"]);
 const files = [];
 function walk(directory) {
   for (const entry of readdirSync(directory, { withFileTypes: true })) {
@@ -66,12 +68,14 @@ for (const pair of translations) {
 const base = "https://tec-casa.pt";
 // Dates of actual content revisions, never the date a build happens to run.
 const contentUpdated = {
-  "/en": "2026-11-04",
+  "/videoporteiros-lisboa": "2026-11-11",
+  "/en/video-intercom-installation-lisbon": "2026-11-11",
+  "/en": "2026-11-11",
   "/en/automatic-gate-installation-lisbon": "2026-11-04",
   "/en/electric-gate-repair-lisbon": "2026-11-04",
   "/en/smart-home-lisbon": "2026-11-04",
   "/en/security-cameras-lisbon": "2026-11-04",
-  "/en/garage-remote-controls-lisbon": "2026-11-09",
+  "/en/garage-remote-controls-lisbon": "2026-11-11",
   "/en/service-areas": "2026-11-04",
   "/en/garage-door-motor-repair": "2026-11-04",
   "/en/gate-remote-control-not-working": "2026-11-04",
@@ -97,14 +101,14 @@ const contentUpdated = {
   "/automatismos-bft-portoes": "2026-11-04",
   "/quanto-custa-automatizar-portao": "2026-11-04",
   "/configurador-automatismos-portoes": "2026-11-02",
-  "/": "2026-11-04",
+  "/": "2026-11-11",
   "/a-empresa": "2026-10-30",
   "/en/about": "2026-10-30",
   "/zonas-de-assistencia": "2026-11-04",
   "/instalacao-automatismos-portoes": "2026-11-04",
   "/reparacao-portoes": "2026-11-04",
   "/casas-inteligentes-lisboa": "2026-11-04",
-  "/comandos-garagem": "2026-11-09",
+  "/comandos-garagem": "2026-11-11",
   "/instalacao-camaras-lisboa": "2026-11-04"
 };
 const urls = records.filter(page => page.indexable).map(page => {

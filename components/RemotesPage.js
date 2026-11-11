@@ -187,6 +187,13 @@ export default function RemotesPage({ english = false }) {
             <p className="prepare-note">{prepare.note}</p>
           </section>
 
+          <section className="section video-intercom-link">
+            <div className="kicker">{english ? "Video intercoms" : "Videoporteiros"}</div>
+            <h2>{english ? "See who is at your entrance." : "Veja quem está à sua porta."}</h2>
+            <p>{english ? "Installation, replacement and support for video intercoms and video doorbells. CAME solutions and assessment of equipment from other brands." : "Instalação, substituição e assistência a videoporteiros e campainhas com vídeo. Soluções CAME e avaliação de equipamentos de outras marcas."}</p>
+            <a className="text-link" href={english ? "/en/video-intercom-installation-lisbon" : "/videoporteiros-lisboa"}>{english ? "Explore video intercom solutions →" : "Conhecer as soluções de videoporteiros →"}</a>
+          </section>
+
           <section className="section faq">
             <h2>{faq.title}</h2>
             {faq.questions.map(({ question, answer }) => (
